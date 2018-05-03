@@ -1,0 +1,19 @@
+- name: Guía del módulo de administración de Exchange Server 2013
+  href: exchange-server-2013-management-pack-guide.md
+  items:
+  - name: Importación del módulo de administración de Exchange Server 2013
+    href: import-the-exchange-server-2013-management-pack.md
+  - name: Introducción al módulo de administración de Exchange Server 2013
+    href: getting-started-with-exchange-server-2013-management-pack.md
+  - name: Usar el módulo de administración de Exchange Server 2013 para solucionar problemas
+    href: using-the-exchange-server-2013-management-pack-for-troubleshooting.md
+  - name: Procedimientos relacionados con la implementación
+    href: procedures-related-to-deployment.md
+  - name: Procedures related to post-deployment operation
+    href: procedures-related-to-post-deployment-operation.md
+  - name: Descripción de cómo el módulo de administración de Exchange Server 2013 informa el estado del sistema
+    href: understanding-how-exchange-server-2013-management-pack-reports-system-health.md
+  - name: 'Appendix A: Exchange health sets'
+    href: appendix-a-exchange-health-sets.md
+  - name: 'Apéndice B: Recursos adicionales'
+    href: appendix-b-additional-resources.md
