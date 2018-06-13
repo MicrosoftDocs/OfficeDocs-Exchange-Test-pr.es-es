@@ -1,0 +1,93 @@
+- name: Implementaciones híbridas de vista previa de Exchange Server 2013
+  href: exchange-server-hybrid-deployments-exchange-2013-help.md
+  items:
+  - name: Asistente de configuración híbrida
+    href: hybrid-configuration-wizard-exchange-2013-help.md
+  - name: Preguntas más frecuentes del asistente de configuración híbrida
+    href: hybrid-configuration-wizard-faqs-exchange-2013-help.md
+  - name: Requisitos previos de implementación híbrida
+    href: hybrid-deployment-prerequisites-exchange-2013-help.md
+  - name: Requisitos de certificados para implementaciones híbridas
+    href: certificate-requirements-for-hybrid-deployments-exchange-2013-help.md
+  - name: Opciones de transporte en las implementaciones híbridas de Exchange
+    href: transport-options-in-exchange-hybrid-deployments-exchange-2013-help.md
+  - name: Enrutamiento de transporte en las implementaciones híbridas de Exchange
+    href: transport-routing-in-exchange-hybrid-deployments-exchange-2013-help.md
+  - name: Administración híbrida en las implementaciones híbridas de Exchange
+    href: hybrid-management-in-exchange-hybrid-deployments-exchange-2013-help.md
+  - name: Información de disponibilidad compartida en implementaciones híbridas de Exchange
+    href: shared-free-busy-in-exchange-hybrid-deployments-exchange-2013-help.md
+  - name: Roles de servidor en implementaciones híbridas de Exchange
+    href: server-roles-in-exchange-hybrid-deployments-exchange-2013-help.md
+  - name: IRM en implementaciones híbridas de Exchange
+    href: irm-in-exchange-hybrid-deployments-exchange-2013-help.md
+  - name: Permisos en implementaciones híbridas de Exchange
+    href: permissions-in-exchange-hybrid-deployments-exchange-2013-help.md
+  - name: Servidores de transporte perimetral con implementaciones híbridas
+    href: edge-transport-servers-with-hybrid-deployments-exchange-2013-help.md
+  - name: Inicio de sesión único con implementaciones híbridas
+    href: single-sign-on-with-hybrid-deployments-exchange-2013-help.md
+  - name: Configuración de un dispositivo de Exchange ActiveSync con implementaciones híbridas de Exchange
+    href: exchange-activesync-device-settings-with-exchange-hybrid-deployments-exchange-2013-help.md
+  - name: Factores de rendimiento y procedimientos recomendados para migraciones híbridas
+    href: performance-factors-and-best-practices-for-hybrid-migrations-exchange-2013-help.md
+  - name: Cómo y cuándo se deben retirar los servidores de Exchange locales en una implementación híbrida
+    href: how-and-when-to-decommission-your-on-premises-exchange-servers-in-a-hybrid-deployment-exchange-2013-help.md
+  - name: Procedimientos de implementación híbrida
+    href: hybrid-deployment-procedures-exchange-2013-help.md
+    items:
+    - name: Creación de una implementación híbrida con el Asistente de configuración híbrida
+      href: create-a-hybrid-deployment-with-the-hybrid-configuration-wizard-exchange-2013-help.md
+    - name: Mover buzones de correo entre organizaciones locales y de Exchange Online en implementaciones híbridas
+      href: move-mailboxes-between-on-premises-and-exchange-online-organizations-in-hybrid-deployments-exchange-2013-help.md
+    - name: Configurar carpetas públicas locales heredadas para una implementación híbrida
+      href: configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md
+    - name: Configuración de las carpetas públicas de Exchange 2013 para una implementación híbrida
+      href: configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md
+    - name: Configurar las carpetas públicas de Exchange Online para una implementación híbrida
+      href: configure-exchange-online-public-folders-for-a-hybrid-deployment-exchange-2013-help.md
+    - name: Configurar Exchange para admitir permisos de buzón delegada en una implementación híbrida
+      href: configure-exchange-to-support-delegated-mailbox-permissions-in-a-hybrid-deployment-exchange-2013-help.md
+    - name: Configurar datos adjuntos modernos con OneDrive para la Empresa y Exchange 2016 local
+      href: configure-document-collaboration-with-onedrive-for-business-and-exchange-2016-on-premises-exchange-2013-help.md
+    - name: Configurar Grupos de Office 365 con Exchange híbrido local
+      href: configure-office-365-groups-with-on-premises-exchange-hybrid-exchange-2013-help.md
+    - name: Cree un archivo basado en la nube para un buzón principal local en una implementación híbrida.
+      href: create-a-cloud-based-archive-for-an-on-premises-primary-mailbox-in-an-exchange-hybrid-deployment-exchange-online-help.md
+    - name: Simplificar la dirección URL de Outlook Web App para Office 365 híbrido
+      href: simplify-the-outlook-web-app-url-for-office-365-hybrid-exchange-2013-help.md
+    - name: Solucionar problemas de una implementación híbrida
+      href: troubleshoot-a-hybrid-deployment-exchange-2013-help.md
+  - name: Implementaciones híbridas con Exchange 2013 y Exchange 2007
+    href: hybrid-deployments-with-exchange-2013-and-exchange-2007-exchange-2013-help.md
+    items:
+    - name: Roles del servidor en implementaciones híbridas de Exchange 2013/Exchange 2007
+      href: server-roles-in-exchange-2013-exchange-2007-hybrid-deployments-exchange-2013-help.md
+    - name: Administración híbrida en las implementaciones híbridas de Exchange 2013/Exchange 2007
+      href: hybrid-management-in-exchange-2013-exchange-2007-hybrid-deployments-exchange-2013-help.md
+    - name: Servidores de transporte perimetral en las implementaciones híbridas de Exchange 2013/Exchange 2007
+      href: edge-transport-servers-in-exchange-2013-exchange-2007-hybrid-deployments-exchange-2013-help.md
+    - name: Opciones de transporte en las implementaciones híbridas de Exchange 2013/Exchange 2007
+      href: transport-options-in-exchange-2013-exchange-2007-hybrid-deployments-exchange-2013-help.md
+    - name: Enrutamiento de transporte en las implementaciones híbridas de Exchange 2013/Exchange 2007
+      href: transport-routing-in-exchange-2013-exchange-2007-hybrid-deployments-exchange-2013-help.md
+  - name: Implementaciones híbridas con Exchange 2013 y Exchange 2010
+    href: hybrid-deployments-with-exchange-2013-and-exchange-2010-exchange-2013-help.md
+    items:
+    - name: Roles de servidor en implementaciones híbridas de Exchange 2013/Exchange 2010
+      href: server-roles-in-exchange-2013-exchange-2010-hybrid-deployments-exchange-2013-help.md
+    - name: Administración híbrida en las implementaciones híbridas de Exchange 2013/Exchange 2010
+      href: hybrid-management-in-exchange-2013-exchange-2010-hybrid-deployments-exchange-2013-help.md
+    - name: Servidores de transporte perimetral en las implementaciones híbridas de Exchange 2013/Exchange 2010
+      href: edge-transport-servers-in-exchange-2013-exchange-2010-hybrid-deployments-exchange-2013-help.md
+    - name: Opciones de transporte en las implementaciones híbridas de Exchange 2013/Exchange 2010
+      href: transport-options-in-exchange-2013-exchange-2010-hybrid-deployments-exchange-2013-help.md
+    - name: Enrutamiento de transporte en las implementaciones híbridas de Exchange 2013/Exchange 2010
+      href: transport-routing-in-exchange-2013-exchange-2010-hybrid-deployments-exchange-2013-help.md
+  - name: Acerca de la documentación de Exchange
+    href: about-exchange-documentation-exchange-2013-help.md
+    items:
+    - name: Accesibilidad para personas con discapacidad
+      href: accessibility-for-people-with-disabilities-exchange-2013-help.md
+    - name: Avisos de derechos de autor de terceros
+      href: third-party-copyright-notices-exchange-2013-help.md
