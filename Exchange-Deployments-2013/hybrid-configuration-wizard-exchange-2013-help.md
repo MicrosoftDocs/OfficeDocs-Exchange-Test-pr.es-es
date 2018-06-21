@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_<strong>Última modificación del tema:</strong>2016-12-09_
 
 El tema a continuación le ofrece un breve resumen del proceso de configuración de implementación híbrida de Exchange, las características y opciones disponibles para una implementación híbrida y el motor de configuración híbrida, que ejecuta las acciones esenciales tanto para la configuración como para la actualización de una implementación híbrida.
 

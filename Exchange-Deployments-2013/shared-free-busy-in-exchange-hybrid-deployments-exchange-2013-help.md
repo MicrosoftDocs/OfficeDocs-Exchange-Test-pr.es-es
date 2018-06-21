@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-04-29_
+_<strong>Última modificación del tema:</strong>2016-04-29_
 
 Una de las principales ventajas de una implementación híbrida es el uso compartido de información de disponibilidad (disponibilidad de calendario) entre los usuarios de la organización local y los de la organización de Exchange Online. Los usuarios de ambas organizaciones pueden ver los calendarios de ambos como si estuvieran ubicados en la misma ubicación física. Esto hace que la programación de reuniones y recursos sea sencilla y eficaz.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2018-04-16_
+_<strong>Última modificación del tema:</strong>2018-04-16_
 
 El rol de servidor de transporte perimetral es un rol opcional que normalmente se implementa en un equipo ubicado en una red perimetral de la organización de Exchange. Está pensado para minimizar la superficie de ataque de la organización. Este rol se encarga de todo el flujo de correo de Internet, que proporciona la retransmisión de SMTP y servicios de host inteligente a los servidores de Exchange locales de la organización.
 

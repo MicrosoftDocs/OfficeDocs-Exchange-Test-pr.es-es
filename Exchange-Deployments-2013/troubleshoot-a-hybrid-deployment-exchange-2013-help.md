@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-04-29_
+_<strong>Última modificación del tema:</strong>2016-04-29_
 
 La configuración de una implementación híbrida en Exchange con el asistente para la configuración híbrida minimiza en gran medida los potenciales problemas que podrían surgir durante la implementación híbrida. Sin embargo, existen áreas típicas fuera del alcance del asistente para la configuración híbrida que, si se configuran incorrectamente, pueden presentar problemas en una implementación híbrida. Este tema cubre las siguientes áreas comunes en las que pueden surgir problemas y traza los pasos básicos para verificar o corregir los problemas:
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2017-01-20_
+_<strong>Última modificación del tema:</strong>2017-01-20_
 
 En una implementación híbrida de Exchange, configurar un buzón principal local con un buzón de archivo basado en la nube en Exchange Online.
 

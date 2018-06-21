@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Este tema se está redactando.  
 
-_**Se aplica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_<strong>Última modificación del tema:</strong>2016-12-09_
 
 Los servidores de transporte perimetral de Microsoft Exchange se implementan en la red perimetral local de una organización. Son equipos no unidos a dominios que administran el flujo de correo de Internet y funcionan como retransmisión SMTP y host inteligente para los servidores de Exchange de la red interna.
 

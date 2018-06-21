@@ -13,7 +13,7 @@ ms.translationtype: MT
 
  
 
-_**Última modificación del tema:**2018-01-30_
+_<strong>Última modificación del tema:</strong>2018-01-30_
 
 Permisos de buzón delegada habilitar a otro usuario administrar parte de buzón de otro usuario. Un ejemplo común de esto es un Ayudante administrativo que necesita para administrar los buzones de correo y el calendario de un ejecutivo. Las implementaciones de híbrido entre una organización de Exchange local y soporte técnico de Office 365 el **Acceso completo** y **Enviar en nombre de** delegar permisos de buzón. Sin embargo, según la versión de Exchange que se ha instalado en la organización local, necesitará realizar una configuración adicional para utilizar permisos de buzón delegada en una implementación híbrida. A continuación enumeran las versiones de Exchange que soporte delegado permisos de buzón en una implementación híbrida y si se necesita una configuración adicional para esa versión.
 

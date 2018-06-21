@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2018-05-22_
+_<strong>Última modificación del tema:</strong>2018-05-22_
 
 **Resumen:** Siga los pasos de este artículo para sincronizar las carpetas públicas entre Office 365 y su implementación local de Exchange 2007 o Exchange 2010.
 

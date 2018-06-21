@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_<strong>Última modificación del tema:</strong>2016-12-09_
 
 En las implementaciones híbridas, puede tener buzones que residen en su organización local de Exchange y también en una organización de Exchange Online. Un componente crítico para que estas dos organizaciones independientes aparezcan como una organización combinada para los usuarios y los mensajes que se intercambian es el transporte híbrido. Con el transporte híbrido, los mensajes que se envían entre los destinatarios de cualquiera de las organizaciones se autentican, se cifran y se transfieren mediante la Seguridad de la capa de transporte (TLS) y aparecen como "internos" para los componentes de Exchange tales como las reglas de transporte, el registro en diario y las directivas de bloqueo de correo no deseado. El Asistente para configuración híbrida configura automáticamente el transporte híbrido.
 

@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Última modificación del tema:**2016-11-11_
+_<strong>Última modificación del tema:</strong>2016-11-11_
 
 Obtenga información sobre cómo configurar una dirección URL para Outlook en la web (Outlook Web App) para los usuarios de buzón de correo en la nube en un entorno híbrido.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_<strong>Última modificación del tema:</strong>2016-12-09_
 
 En una implementación híbrida, los certificados digitales son un componente importante para asegurar la comunicación entre la organización de Exchange local y Office 365. Los certificados le permiten a cada organización de Exchange confiar en las identidades de otros. Los certificados también permiten asegurar que cada organización de Exchange se está comunicando con la fuente correcta.
 
