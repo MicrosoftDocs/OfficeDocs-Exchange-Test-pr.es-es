@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2017-06-14_
+_<strong>Última modificación del tema:</strong>2017-06-14_
 
 La configuración y administración de las implementaciones híbridas es más fácil que nunca gracias a las últimas mejoras aplicadas en el asistente para la configuración híbrida. Si desea conectar su organización de Exchange local con su organización de Exchange Online para una coexistencia a largo plazo o como parte de una estrategia de migración a la nube, configurar una implementación híbrida constituye el primer paso que debe dar.
 

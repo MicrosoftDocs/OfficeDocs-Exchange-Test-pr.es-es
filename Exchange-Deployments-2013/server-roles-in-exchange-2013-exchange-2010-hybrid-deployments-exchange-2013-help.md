@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Este tema se está redactando.  
 
-_**Se aplica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Última modificación del tema:**2017-02-16_
+_<strong>Última modificación del tema:</strong>2017-02-16_
 
 Cuando configura una implementación híbrida en una organización de Exchange 2010, debe instalar al menos un servidor de Exchange 2013 con los roles de servidores Buzón de correo y Acceso de clientes en la organización de Exchange 2010 existente. Los servidores de buzones de correo y de acceso de cliente de Exchange 2013 coordinan comunicaciones entre la organización local de Exchange 2010 existente y la organización de Exchange Online. Esta comunicación incluye las características de mensajería y transporte de mensajes entre las organizaciones locales y de Exchange Online.
 

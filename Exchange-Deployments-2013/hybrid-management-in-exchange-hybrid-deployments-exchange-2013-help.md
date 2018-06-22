@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_<strong>Última modificación del tema:</strong>2016-12-09_
 
 Cuando instala un servidor de Exchange, las herramientas de administración de Exchange se instalan automáticamente en el servidor. Use las siguientes herramientas para configurar y administrar las organizaciones de Exchange locales y de Exchange Online:
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-01-29_
+_<strong>Última modificación del tema:</strong>2016-01-29_
 
 El inicio de sesión único permite a los usuarios acceder tanto a la organización local como a organizaciones de Office 365 con un solo nombre de usuario y contraseña. Ofrece a los usuarios una experiencia de inicio de sesión con la que están familiarizados y permite a los administradores controlar con facilidad las directivas de cuenta para buzones de la organización de Exchange Online mediante herramientas de administración de Active Directory locales. Aunque no tiene que configurar una implementación híbrida con el inicio de sesión único habilitado, se recomienda que lo haga. Sin el inicio de sesión único, los usuarios tendrán que recordar dos conjuntos diferentes de credenciales, uno para la organización local y otro para Office 365. A continuación se indican otras ventajas del inicio de sesión único:
 
