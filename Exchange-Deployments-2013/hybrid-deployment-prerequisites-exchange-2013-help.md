@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2017-07-25_
+_<strong>Última modificación del tema:</strong>2017-07-25_
 
 **Resumen:** Lo que necesita su entorno de Exchange antes de configurar una implementación híbrida.
 

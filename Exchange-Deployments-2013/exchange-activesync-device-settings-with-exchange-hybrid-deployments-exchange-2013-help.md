@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server, Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-01-27_
+_<strong>Última modificación del tema:</strong>2016-01-27_
 
 Los dispositivos de Exchange ActiveSync ahora se reconfiguran automáticamente al mover un buzón desde una organización local de Exchange a Office 365. Exchange ActiveSync encontrará la nueva ubicación del buzón en Office 365 y actualizará la configuración para poder comunicarse directamente con Office 365. El dispositivo de Exchange ActiveSync no intentará ponerse en contacto con el servidor local de Exchange después de redirigirse correctamente a Office 365. Con algunas excepciones (de las que encontrará más información a continuación), el usuario ya no necesita configurar manualmente su dispositivo para que el correo siga funcionando.
 

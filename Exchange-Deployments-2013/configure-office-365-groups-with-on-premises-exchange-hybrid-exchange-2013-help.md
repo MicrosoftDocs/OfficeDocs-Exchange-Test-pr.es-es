@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Última modificación del tema:**2016-12-06_
+_<strong>Última modificación del tema:</strong>2016-12-06_
 
 Obtenga información sobre cómo permitir que los usuarios de Exchange local usen Grupos de Office 365 en una implementación híbrida.
 
@@ -118,8 +118,8 @@ El dominio de SMTP principal de un grupo de Office 365 se denomina *dominio de g
     </table>
     
 
-    > [!WARNING]
-    > Si el registro de MX de DNS para el dominio de grupo se establece en el servidor de Exchange local, el flujo de correo no funcionará correctamente entre usuarios de la organización de Exchange local y el grupo de Office 365.
+   > [!WARNING]
+   > Si el registro de MX de DNS para el dominio de grupo se establece en el servidor de Exchange local, el flujo de correo no funcionará correctamente entre usuarios de la organización de Exchange local y el grupo de Office 365.
 
 
 

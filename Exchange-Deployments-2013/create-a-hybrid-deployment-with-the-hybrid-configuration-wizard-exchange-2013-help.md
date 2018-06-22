@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Este tema se está redactando.  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_<strong>Última modificación del tema:</strong>2016-12-09_
 
 Al establecer una implementación híbrida, puede extender la experiencia de características enriquecidas y el control administrativo de la organización local existente de Exchange Server a la nube. Una implementación híbrida también admite una solución de archivado basado en la nube para sus buzones locales mediante el Archivado de Exchange Online Archiving, y también puede ser un paso intermedio hacia una migración total de sus buzones locales a Exchange Online.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2018-05-02_
+_<strong>Última modificación del tema:</strong>2018-05-02_
 
 La organización de Exchange Online de Office 365 está basada en Exchange Server y, como sucede con las organizaciones locales, también usa el control de acceso basado en roles (RBAC) para controlar los permisos. Los permisos se otorgan a los administradores usando grupos de roles de administración, mientras que los permisos a los usuarios finales se otorgan mediante directivas de asignación de roles de administración.
 

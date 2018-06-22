@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Este tema se está redactando.  
 
-_**Se aplica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_<strong>Última modificación del tema:</strong>2016-12-09_
 
 Cuando instala un servidor que ejecuta Microsoft Exchange Server 2013 en su organización local de Exchange 2010, las herramientas de administración de Exchange 2013 se instalan automáticamente en el servidor. Use las siguientes herramientas para configurar y administrar la funcionalidad híbrida para las organizaciones de Exchange locales y de Exchange Online:
 

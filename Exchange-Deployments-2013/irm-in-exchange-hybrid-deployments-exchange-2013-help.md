@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_<strong>Última modificación del tema:</strong>2016-12-09_
 
 **Resumen:** cómo funciona IRM en un entorno de Exchange híbrido y cómo configurar IRM para que funcione entre Exchange Online y sus servidores de Exchange locales.
 

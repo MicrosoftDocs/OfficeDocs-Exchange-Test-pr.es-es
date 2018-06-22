@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_<strong>Se aplica a:</strong>Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-15_
+_<strong>Última modificación del tema:</strong>2016-12-15_
 
 **Resumen:** instrucciones para permitir que los usuarios de Exchange 2013 local tengan acceso a carpetas públicas en Exchange Online.
 
