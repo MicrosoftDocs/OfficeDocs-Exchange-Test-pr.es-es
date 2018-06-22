@@ -13,9 +13,11 @@ ms.translationtype: HT
 
  
 
+
 _<strong>Se aplica a:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
 _<strong>Última modificación del tema:</strong>2016-07-29_
+
 
 Este tema le brinda información sobre opciones de enrutamiento para mensajes entrantes desde Internet y salientes hacia Internet.
 
@@ -39,7 +41,7 @@ Los mensajes de ruta enviados a los destinatarios de las organizaciones local y 
 
   - **Si cambia el registro MX para que apunte al servicio de Exchange Online Protection en Office 365:** esta es la configuración recomendada para las implementaciones híbridas. Todos los mensajes enviados a cualquier destinatario en cualquier organización se enrutan primero a través de la organización de Exchange Online. Un mensaje dirigido a un destinatario ubicado en la organización local se enruta primero mediante la organización de Exchange Online y, luego, se entrega al destinatario de la organización local. Se recomienda esta ruta cuando tiene más destinatarios en la organización de Exchange Online que en la organización local y cuando quiere que los mensajes se filtren mediante EOP. Esta opción de configuración es necesaria para que Exchange Online Protection examine y bloquee el correo no deseado.
 
-  - **Si decide que los registros MX sigan apuntando a su organización local:**todos los mensajes enviados a cualquier destinatario de cualquier organización se enrutan primero a través de su organización local. Un mensaje dirigido a un destinatario ubicado en Exchange Online se enruta primero mediante la organización local y, después, se entrega al destinatario de Exchange Online. Esta ruta puede ser útil para organizaciones donde tiene directivas de cumplimiento que requieren el análisis de una solución de registro en diario de los mensajes enviados desde la organización y hacia esta. Si elige esta opción, Exchange Online Protection no puede examinar con eficacia los mensajes de correo no deseado.
+  - **Si decide que los registros MX sigan apuntando a su organización local:** todos los mensajes enviados a cualquier destinatario de cualquier organización se enrutan primero a través de su organización local. Un mensaje dirigido a un destinatario ubicado en Exchange Online se enruta primero mediante la organización local y, después, se entrega al destinatario de Exchange Online. Esta ruta puede ser útil para organizaciones donde tiene directivas de cumplimiento que requieren el análisis de una solución de registro en diario de los mensajes enviados desde la organización y hacia esta. Si elige esta opción, Exchange Online Protection no puede examinar con eficacia los mensajes de correo no deseado.
 
 Para obtener más información, consulte [Procedimientos recomendados de flujo de correo para Exchange Online y Office 365 (descripción general)](https://technet.microsoft.com/es-es/library/jj937232\(v=exchg.150\)).
 
