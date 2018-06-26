@@ -1,0 +1,2589 @@
+- name: Vista previa de Exchange Server 2013
+  href: exchange-server-2013-exchange-2013-help.md
+  items:
+  - name: Novedades en Exchange 2013
+    href: what-s-new-in-exchange-2013-exchange-2013-help.md
+    items:
+    - name: Qué se ha discontinuado en Exchange 2013
+      href: what-s-discontinued-in-exchange-2013-exchange-2013-help.md
+    - name: Novedades de Outlook Web App en Exchange 2013
+      href: what-s-new-for-outlook-web-app-in-exchange-2013-exchange-2013-help.md
+    - name: Novedades de mensajería unificada en Exchange 2013
+      href: what-s-new-for-unified-messaging-in-exchange-2013-exchange-2013-help.md
+    - name: Novedades de las reglas de transporte
+      href: what-s-new-for-transport-rules-exchange-2013-help.md
+    - name: Notas de la versión de Exchange 2013
+      href: release-notes-for-exchange-2013-exchange-2013-help.md
+    - name: Actualizaciones para Exchange 2013
+      href: updates-for-exchange-2013-exchange-2013-help.md
+  - name: Planificación e implementación
+    href: planning-and-deployment-for-exchange-2013-installation-instructions.md
+    items:
+    - name: Asistente para la implementación de Exchange Server
+      href: exchange-server-deployment-assistant-exchange-2013-help.md
+    - name: Active Directory
+      href: active-directory-exchange-2013-help.md
+      items:
+      - name: Acceso a Active Directory
+        href: access-to-active-directory-exchange-2013-help.md
+      - name: Cambios en el esquema de Active Directory de Exchange 2013
+        href: exchange-2013-active-directory-schema-changes-exchange-2013-help.md
+      - name: Escenarios de espacios de nombres distintos
+        href: disjoint-namespace-scenarios-exchange-2013-help.md
+        items:
+        - name: Configurar la lista de búsqueda de sufijos DNS para un espacio de nombres distintos
+          href: configure-the-dns-suffix-search-list-for-a-disjoint-namespace-exchange-2013-help.md
+    - name: Requisitos del sistema para Exchange 2013
+      href: exchange-2013-system-requirements-exchange-2013-help.md
+    - name: Requisitos previos de Exchange 2013
+      href: exchange-2013-prerequisites-exchange-2013-help.md
+    - name: Preparar Active Directory y los dominios
+      href: prepare-active-directory-and-domains-exchange-2013-help.md
+    - name: Implementar una nueva instalación de Exchange 2013
+      href: deploy-a-new-installation-of-exchange-2013-exchange-2013-help.md
+      items:
+      - name: 'Lista de comprobación: instalación nueva de Exchange 2013'
+        href: checklist-perform-a-new-installation-of-exchange-2013-exchange-2013-help.md
+      - name: Instalar Exchange 2013 utilizando el asistente de configuración
+        href: install-exchange-2013-using-the-setup-wizard-exchange-2013-help.md
+      - name: Instalar Exchange 2013 usando el modo desatendido
+        href: install-exchange-2013-using-unattended-mode-exchange-2013-help.md
+      - name: Instalar el rol de transporte perimetral de Exchange 2013 mediante el asistente de instalación
+        href: install-the-exchange-2013-edge-transport-role-using-the-setup-wizard-exchange-2013-help.md
+      - name: Delegar la instalación de un servidor de Exchange 2013
+        href: delegate-the-installation-of-an-exchange-2013-server-exchange-2013-help.md
+    - name: Actualizar Exchange 2013 a la actualización acumulativa o Service Pack más reciente
+      href: upgrade-exchange-2013-to-the-latest-cumulative-update-or-service-pack-exchange-2013-help.md
+    - name: Actualizar de Exchange 2010 a Exchange 2013
+      href: upgrade-from-exchange-2010-to-exchange-2013-exchange-2013-help.md
+      items:
+      - name: 'Lista de comprobación: Actualización desde Exchange 2010'
+        href: checklist-upgrade-from-exchange-2010-exchange-2013-help.md
+    - name: Actualizar de Exchange 2007 a Exchange 2013
+      href: upgrade-from-exchange-2007-to-exchange-2013-exchange-2013-help.md
+      items:
+      - name: 'Lista de comprobación: Actualización desde Exchange 2007'
+        href: checklist-upgrade-from-exchange-2007-exchange-2013-help.md
+    - name: Implementar topologías de varios bosques para Exchange 2013
+      href: deploy-multiple-forest-topologies-for-exchange-2013-exchange-2013-help.md
+      items:
+      - name: Implementar Exchange 2013 en una topología entre bosques
+        href: deploy-exchange-2013-in-a-cross-forest-topology-exchange-2013-help.md
+      - name: Implementación de Exchange 2013 en una topología de bosques de recursos de Exchange
+        href: deploy-exchange-2013-in-an-exchange-resource-forest-topology-exchange-2013-help.md
+    - name: Tareas posteriores a la instalación de Exchange 2013
+      href: exchange-2013-post-installation-tasks-exchange-2013-help.md
+      items:
+      - name: Introducir la clave de producto de Exchange 2013
+        href: enter-your-exchange-2013-product-key-exchange-2013-help.md
+      - name: Configurar el flujo de correo y el acceso de cliente
+        href: configure-mail-flow-and-client-access-exchange-2013-help.md
+      - name: Comprobar una instalación de Exchange 2013
+        href: verify-an-exchange-2013-installation-exchange-2013-help.md
+      - name: Instalar las herramientas de administración de Exchange 2013
+        href: install-the-exchange-2013-management-tools-exchange-2013-help.md
+    - name: Virtualización de Exchange 2013
+      href: exchange-2013-virtualization-exchange-2013-help.md
+    - name: Integración con SharePoint y Lync
+      href: integration-with-sharepoint-and-lync-exchange-2013-help.md
+      items:
+      - name: Configuración de la autenticación de OAuth con SharePoint 2013 y Lync 2013
+        href: configure-oauth-authentication-with-sharepoint-2013-and-lync-2013-exchange-2013-help.md
+    - name: Referencia de implementación
+      href: deployment-reference-exchange-2013-help.md
+      items:
+      - name: ¿Qué cambia en Active Directory cuando Exchange 2013 está instalado?
+        href: what-changes-in-active-directory-when-exchange-2013-is-installed-exchange-2013-help.md
+      - name: 'Exchange 2013: ediciones y versiones'
+        href: exchange-2013-editions-and-versions-exchange-2013-help.md
+      - name: Exchange Server Supportability Matrix
+        href: exchange-server-supportability-matrix-exchange-2013-help.md
+      - name: Referencia de permisos de implementación de Exchange 2013
+        href: exchange-2013-deployment-permissions-reference-exchange-2013-help.md
+      - name: Lista de comprobación de seguridad de la implementación
+        href: deployment-security-checklist-exchange-2013-help.md
+      - name: Planeamiento de la capacidad y el ajuste de tamaño de Exchange 2013
+        href: exchange-2013-sizing-and-capacity-planning-exchange-2013-help.md
+      - name: Opciones de configuración de almacenamiento de Exchange 2013
+        href: exchange-2013-storage-configuration-options-exchange-2013-help.md
+      - name: Compatibilidad con IPv6 en Exchange 2013
+        href: ipv6-support-in-exchange-2013-exchange-2013-help.md
+      - name: Compatibilidad de idioma de Exchange de 2013
+        href: exchange-2013-language-support-exchange-2013-help.md
+      - name: Comprobaciones de disponibilidad de Exchange 2013
+        href: exchange-2013-readiness-checks-exchange-2013-help.md
+        items:
+        - name: El directorio de AD LDS existe en la ubicación predeterminada
+          href: ad-lds-directory-exists-in-default-location-exchange-2013-help.md
+        - name: Existe un contenedor Objetos de sistema de Microsoft Exchange duplicado en Active Directory
+          href: duplicate-microsoft-exchange-system-objects-container-exists-in-active-directory-exchange-2013-help.md
+        - name: Característica de Windows Interfaz de comandos de clúster de conmutación por error no instalada
+          href: failover-cluster-command-interface-windows-feature-not-installed-exchange-2013-help.md
+        - name: El rol de servidor Acceso de clientes ya está instalado
+          href: client-access-server-role-is-already-installed-exchange-2013-help.md
+        - name: Active Directory no existe o no se puede establecer contacto
+          href: active-directory-does-not-exist-or-cannot-be-contacted-exchange-2013-help.md
+        - name: El equipo local no está unido a un dominio de Active Directory
+          href: the-local-computer-isn-t-joined-to-an-active-directory-domain-exchange-2013-help.md
+        - name: La instalación del primer servidor de Exchange en la organización no se puede delegar
+          href: installation-of-the-first-exchange-server-in-the-organization-can-t-be-delegated-exchange-2013-help.md
+        - name: La instalación del primer servidor de Exchange en la organización no se puede delegar
+          href: installation-of-the-first-exchange-server-in-the-organization-can-t-be-delegated-exchange-2013-help_1.md
+        - name: No se puede delegar la instalación del primer servidor Exchange en la organización
+          href: installation-of-the-first-exchange-server-in-the-organization-can-t-be-delegated-exchange-2013-help_2.md
+        - name: La instalación del primer servidor de Exchange en la organización no se puede delegar
+          href: installation-of-the-first-exchange-server-in-the-organization-can-t-be-delegated-exchange-2013-help_3.md
+        - name: La instalación del primer servidor de Exchange de la organización no se puede delegar
+          href: installation-of-the-first-exchange-server-in-the-organization-can-t-be-delegated-exchange-2013-help_4.md
+        - name: El nivel funcional de Active Directory no es Windows Server 2003 o posterior
+          href: active-directory-functional-level-isn-t-windows-server-2003-or-later-exchange-2013-help.md
+        - name: No se puede escribir en el contenedor de la organización de Exchange
+          href: cannot-write-to-the-exchange-organization-container-exchange-2013-help.md
+        - name: Es necesario realizar actualizaciones globales
+          href: global-updates-required-exchange-2013-help.md
+        - name: No se encuentra el registro host del PC local en la base de datos DNS
+          href: the-host-record-for-the-local-computer-cannot-be-found-in-the-dns-database-exchange-2013-help.md
+        - name: No se admite la instalación en controladores de dominio con permisos divididos de Active Directory
+          href: installation-on-domain-controllers-is-not-supported-with-active-directory-split-permissions-exchange-2013-help.md
+        - name: La cuenta actual no ha iniciado sesión en ningún dominio de Active Directory
+          href: the-current-account-isn-t-logged-into-an-active-directory-domain-exchange-2013-help.md
+        - name: Se debe reiniciar el equipo para continuar con la instalación
+          href: the-computer-needs-to-be-restarted-before-setup-can-continue-exchange-2013-help.md
+        - name: El usuario que inició sesión no es un miembro del grupo de administradores de esquema
+          href: the-logged-on-user-is-not-a-member-of-the-schema-admins-group-exchange-2013-help.md
+        - name: UCMA 4.0, Runtime principal no está instalado
+          href: ucma-4-0-core-runtime-not-installed-exchange-2013-help.md
+        - name: No se puede quitar la base de datos de buzones
+          href: cannot-remove-mailbox-database-exchange-2013-help.md
+        - name: No se recomienda instalar Exchange en un controlador de dominio
+          href: installing-exchange-on-a-domain-controller-is-not-recommended-exchange-2013-help.md
+        - name: La actualización de KB2619234 no está instalada
+          href: kb2619234-update-not-installed-exchange-2013-help.md
+        - name: La instalación del primer servidor de Exchange de la organización no se puede delegar
+          href: installation-of-the-first-exchange-server-in-the-organization-can-t-be-delegated-exchange-2013-help_5.md
+        - name: No se detectaron servidores Exchange 2010 o Exchange 2007
+          href: no-exchange-2010-or-exchange-2007-servers-detected-exchange-2013-help.md
+        - name: Se debe reiniciar el equipo para continuar con la instalación
+          href: the-computer-needs-to-be-restarted-before-setup-can-continue-exchange-2013-help_1.md
+        - name: Los servidores Exchange 2007 deben actualizarse al Service Pack 3, paquete acumulativo de actualizaciones 10
+          href: exchange-2007-servers-must-be-upgraded-to-service-pack-3-update-rollup-10-exchange-2013-help.md
+        - name: Los servidores Exchange 2010 deben actualizar al Service Pack 3
+          href: exchange-2010-servers-must-be-upgraded-to-service-pack-3-exchange-2013-help.md
+        - name: Office 2010 Filter Pack no está instalado
+          href: office-2010-filter-pack-not-installed-exchange-2013-help.md
+        - name: Office 2010 Filter Pack SP1 no está instalado
+          href: office-2010-filter-pack-sp1-not-installed-exchange-2013-help.md
+        - name: No es posible instalar Exchange 2013 en un bosque que contenga servidores de Exchange 2000 o Exchange 2003.
+          href: can-t-install-exchange-2013-in-a-forest-containing-exchange-2000-or-exchange-2003-servers-exchange-2013-help.md
+        - name: Se ha encontrado un sistema operativo incompatible
+          href: an-incompatible-operating-system-was-found-exchange-2013-help.md
+        - name: Los servidores Exchange 2010 deben actualizar al Service Pack 3
+          href: exchange-2010-servers-must-be-upgraded-to-service-pack-3-exchange-2013-help_1.md
+        - name: ExecutionPolicy GPO is defined
+          href: executionpolicy-gpo-is-defined-exchange-2013-help.md
+        - name: Falta el sufijo DNS principal
+          href: primary-dns-suffix-is-missing-exchange-2013-help.md
+        - name: Actualmente, el protocolo Simple de transferencia de correo es installed_SMTPSvcInstalled
+          href: the-simple-mail-transport-protocol-is-currently-installed-smtpsvcinstalled-exchange-2013-help.md
+        - name: Formato de direcciones SMTP no Supported_SMTPAddressLiteral
+          href: smtp-addressing-format-not-supported-smtpaddressliteral-exchange-2013-help.md
+        - name: El servicio de publicación World Wide Web está deshabilitado o missing_ShouldReRunSetupForW3SVC
+          href: the-world-wide-web-publishing-service-is-disabled-or-missing-shouldrerunsetupforw3svc-exchange-2013-help.md
+        - name: Este servidor es el origen de un conector de envío_ServerIsSourceForSendConnector
+          href: this-server-is-the-source-for-a-send-connector-serverissourceforsendconnector-exchange-2013-help.md
+        - name: El equipo local es responsable de ampliar la pertenencia a grupos_ServerIsGroupExpansionServer
+          href: the-local-computer-is-responsible-for-expanding-group-membership-serverisgroupexpansionserver-exchange-2013-help.md
+        - name: El equipo local es responsable de expandir grupo membership_ServerIsDynamicGroupExpansionServer
+          href: the-local-computer-is-responsible-for-expanding-group-membership-serverisdynamicgroupexpansionserver-exchange-2013-help.md
+        - name: El nombre de dominio completo del equipo coincide con un destinatario policy_ServerFQDNMatchesSMTPPolicy
+          href: the-fully-qualified-domain-name-of-the-computer-matches-a-recipient-policy-serverfqdnmatchessmtppolicy-exchange-2013-help.md
+        - name: Present_SecondSGFilesExist de archivos de base de datos antiguos
+          href: older-database-files-present-secondsgfilesexist-exchange-2013-help.md
+        - name: El maestro de esquema no ejecuta Windows Server 2003 Service Pack 1 ni posterior_SchemaFSMONotWin2003SPn
+          href: the-schema-master-is-not-running-windows-server-2003-service-pack-1-or-later-schemafsmonotwin2003spn-exchange-2013-help.md
+        - name: No se encuentra un servicio de actualización de destinatarios_RUSMissing
+          href: cannot-find-a-recipient-update-service-rusmissing-exchange-2013-help.md
+        - name: Dominio de Active Directory es mixto mode_RootDomainModeMixed
+          href: active-directory-domain-is-mixed-mode-rootdomainmodemixed-exchange-2013-help.md
+        - name: No se puede contactar con el servidor DNS principal_PrimaryDNSTestFailed
+          href: the-primary-dns-server-cannot-be-contacted-primarydnstestfailed-exchange-2013-help.md
+        - name: Permisos insuficientes para ejecutar /PrepareDomain_PrepareDomainNotAdmin
+          href: insufficient-permissions-to-run-preparedomain-preparedomainnotadmin-exchange-2013-help.md
+        - name: Dominio de Active Directory es mixto mode_PrepareDomainModeMixed
+          href: active-directory-domain-is-mixed-mode-preparedomainmodemixed-exchange-2013-help.md
+        - name: El sistema operativo es de depuración mode_OSCheckedBuild
+          href: the-operating-system-is-in-debug-mode-oscheckedbuild-exchange-2013-help.md
+        - name: El usuario ha iniciado sesión no es un miembro de la group_NotLocalAdmin de los administradores locales
+          href: the-logged-on-user-is-not-a-member-of-the-local-administrators-group-notlocaladmin-exchange-2013-help.md
+        - name: No está en el sitio/domain_NotInSchemaMasterSite maestro de esquema
+          href: not-in-schema-master-site-domain-notinschemamastersite-exchange-2013-help.md
+        - name: No en el sitio/dominio del maestro de esquema_NotInSchemaMasterDomain
+          href: not-in-schema-master-site-domain-notinschemamasterdomain-exchange-2013-help.md
+        - name: No se pueden instalar roles de Exchange 2007 después de preparar Active Directory para Exchange 2010_NoE12ServerWarning
+          href: cannot-install-exchange-2007-roles-after-you-prepare-active-directory-for-exchange-2010-noe12serverwarning-exchange-2013-help.md
+        - name: El servicio Coordinador de transacciones distribuidas debe iniciarse antes de que el programa de instalación pueda continue_MSDTCStopped
+          href: the-distributed-transaction-coordinator-service-must-be-started-before-setup-can-continue-msdtcstopped-exchange-2013-help.md
+        - name: Actualmente hay mensajes en una o varias colas_MessagesInQueue
+          href: messages-currently-exist-in-one-or-more-queues-messagesinqueue-exchange-2013-help.md
+        - name: Especificación de unidad del grupo de almacenamiento es missing_MailboxLogDriveDoesNotExist
+          href: storage-group-drive-specification-is-missing-mailboxlogdrivedoesnotexist-exchange-2013-help.md
+        - name: Falta la especificación de la unidad de la base de datos de buzones_MailboxEDBDriveDoesNotExist
+          href: mailbox-database-drive-specification-is-missing-mailboxedbdrivedoesnotexist-exchange-2013-help.md
+        - name: El Servicio de activación de procesos de Windows - componente de modelo de procesos es necesario_LonghornWASProcessModelInstalled
+          href: the-windows-process-activation-service-process-model-component-is-required-longhornwasprocessmodelinstalled-exchange-2013-help.md
+        - name: Componente de IIS 7 no instalado_LonghornIIS7WindowsAuthNotInstalled
+          href: iis-7-component-not-installed-longhorniis7windowsauthnotinstalled-exchange-2013-help.md
+        - name: El componente Extensibilidad de .NET de IIS 7 es necesario_LonghornIIS7NetExt
+          href: iis-7-net-extensibility-component-is-required-longhorniis7netext-exchange-2013-help.md
+        - name: Desinstalar los paquetes de idioma de la mensajería unificada_AdditionalUMLangPackExists
+          href: uninstall-unified-messaging-language-packs-additionalumlangpackexists-exchange-2013-help.md
+        - name: Permisos insuficientes para preparar Active Directory_ADUpdateRequired
+          href: insufficient-permissions-to-prepare-active-directory-adupdaterequired-exchange-2013-help.md
+        - name: Función de concentrador de transporte no detectado en local site_BridgeheadRoleNotPresentInSite
+          href: hub-transport-role-not-detected-in-local-site-bridgeheadrolenotpresentinsite-exchange-2013-help.md
+        - name: No tiene permisos suficientes para eliminar todos los roles_CannotUninstallDelegatedServer
+          href: insufficient-permissions-to-remove-all-server-roles-cannotuninstalldelegatedserver-exchange-2013-help.md
+        - name: Función de acceso de cliente no detectado en local site_ClientAccessRoleNotPresentInSite
+          href: client-access-role-not-detected-in-local-site-clientaccessrolenotpresentinsite-exchange-2013-help.md
+        - name: Sólo la función de buzón se puede instalar en un clúster de server_ClusSvcInstalledRoleBlock
+          href: only-the-mailbox-role-can-be-installed-on-a-cluster-server-clussvcinstalledroleblock-exchange-2013-help.md
+        - name: No se puede instalar Exchange para un controlador de dominio de solo lectura_ComputerRODC
+          href: setup-cannot-install-exchange-to-a-read-only-domain-controller-computerrodc-exchange-2013-help.md
+        - name: Reemplazar de controlador de dominio está establecido en el Registry_ConfigDCHostNameMismatch
+          href: domain-controller-override-is-set-in-the-registry-configdchostnamemismatch-exchange-2013-help.md
+        - name: Permisos insuficientes para preparar Active Directory_DomainPrepWithoutADUpdate
+          href: insufficient-permissions-to-prepare-active-directory-domainprepwithoutadupdate-exchange-2013-help.md
+        - name: El equipo local está ejecutando Exchange Server_ExchangeAlreadyInstalled
+          href: the-local-computer-is-already-running-exchange-server-exchangealreadyinstalled-exchange-2013-help.md
+        - name: Present_FirstSGFilesExist de archivos de base de datos antiguos
+          href: older-database-files-present-firstsgfilesexist-exchange-2013-help.md
+        - name: Se han encontrado uno o varios servidores Conector de Active Directory_ADCFound
+          href: one-or-more-active-directory-connector-servers-were-found-adcfound-exchange-2013-help.md
+        - name: El maestro de esquema no ejecuta Windows Server 2003 Service Pack 1 o posterior_DomainControllerIsOutOfSite
+          href: the-schema-master-is-not-running-windows-server-2003-service-pack-1-or-later-domaincontrollerisoutofsite-exchange-2013-help.md
+        - name: Required_DomainPrepRequired de preparación de dominio
+          href: domain-preparation-required-domainpreprequired-exchange-2013-help.md
+        - name: El servicio del sistema de sucesos COM + debe iniciarse antes de que el programa de instalación pueda continue_EventSystemStopped
+          href: the-com-event-system-service-must-be-started-before-setup-can-continue-eventsystemstopped-exchange-2013-help.md
+        - name: IIS está en modo de compatibilidad con 32 bits_IIS32BitMode
+          href: iis-is-in-32-bit-compatibility-mode-iis32bitmode-exchange-2013-help.md
+        - name: La herencia de la lista de control de acceso (ACL) está bloqueada_InhBlockPublicFolderTree
+          href: access-control-list-acl-inheritance-is-blocked-inhblockpublicfoldertree-exchange-2013-help.md
+        - name: Error de instalación al instalar un rol del servidor_InstallWatermark
+          href: setup-failure-occurred-while-installing-a-server-role-installwatermark-exchange-2013-help.md
+        - name: Error al desinstalar un rol de servidor_interrupteduninstallnotcontinued
+          href: setup-failure-occurred-while-uninstalling-a-server-role-interrupteduninstallnotcontinued-exchange-2013-help.md
+        - name: No se puede determinar el nombre del sitio de Active Directory_InvalidADSite
+          href: cannot-determine-the-name-of-the-active-directory-site-invalidadsite-exchange-2013-help.md
+        - name: El equipo local es un controlador de dominio de un dominio secundario_LocalComputerIsDCInChildDomain
+          href: the-local-computer-is-a-domain-controller-of-a-child-domain-localcomputerisdcinchilddomain-exchange-2013-help.md
+        - name: Dominio de Active Directory es mixto mode_LocalDomainModeMixed
+          href: active-directory-domain-is-mixed-mode-localdomainmodemixed-exchange-2013-help.md
+        - name: El dominio local debe ser updated_LocalDomainPrep
+          href: the-local-domain-needs-to-be-updated-localdomainprep-exchange-2013-help.md
+        - name: Los componentes de compatibilidad con IIS 6 no están instalados_LonghornIIS6MetabaseNotInstalled
+          href: iis-6-compatibility-components-not-installed-longhorniis6metabasenotinstalled-exchange-2013-help.md
+        - name: Componentes de compatibilidad con IIS 6 no instalados_LonghornIIS6MgmtConsoleNotInstalled
+          href: iis-6-compatibility-components-not-installed-longhorniis6mgmtconsolenotinstalled-exchange-2013-help.md
+        - name: Componente de IIS 7 no instalado_LonghornIIS7BasicAuthNotInstalled
+          href: iis-7-component-not-installed-longhorniis7basicauthnotinstalled-exchange-2013-help.md
+        - name: Componente de IIS 7 no instalado_LonghornIIS7DigestAuthNotInstalled
+          href: iis-7-component-not-installed-longhorniis7digestauthnotinstalled-exchange-2013-help.md
+        - name: Componente de IIS 7 no instalado_LonghornIIS7HttpCompressionDynamicNotInstalled
+          href: iis-7-component-not-installed-longhorniis7httpcompressiondynamicnotinstalled-exchange-2013-help.md
+        - name: Componente de IIS 7 no instalado_LonghornIIS7HttpCompressionStaticNotInstalled
+          href: iis-7-component-not-installed-longhorniis7httpcompressionstaticnotinstalled-exchange-2013-help.md
+        - name: El Servicio de publicación World Wide Web está deshabilitado o falta_W3SVCDisabledOrNotInstalled
+          href: the-world-wide-web-publishing-service-is-disabled-or-missing-w3svcdisabledornotinstalled-exchange-2013-help.md
+        - name: El servidor de la Libreta de direcciones sin conexión se eliminó_OffLineABServerDeleted
+          href: oab-server-has-been-deleted-offlineabserverdeleted-exchange-2013-help.md
+      - name: Puertos de red para los clientes y flujo de correo en Exchange 2013
+        href: network-ports-for-clients-and-mail-flow-in-exchange-2013-exchange-2013-help.md
+      - name: Visión general de los servicios de Exchange de 2013
+        href: overview-of-exchange-2013-services-exchange-2013-help.md
+      - name: Conceptos básicos en el Shell de administración de Exchange
+        href: basic-concepts-in-exchange-management-shell-exchange-2013-help.md
+        items:
+        - name: Cmdlets
+          href: cmdlets-exchange-2013-help.md
+        - name: Identidad
+          href: identity-exchange-2013-help.md
+        - name: Importación y exportación de archivos en el Shell de administración de Exchange
+          href: import-and-export-files-in-the-exchange-management-shell-exchange-2013-help.md
+        - name: Modificación de propiedades multivalor
+          href: modifying-multivalued-properties-exchange-2013-help.md
+        - name: Modificadores WhatIf, Confirm y ValidateOnly
+          href: whatif-confirm-and-validateonly-switches-exchange-2013-help.md
+        - name: Trabajar con salidas de comandos
+          href: working-with-command-output-exchange-2013-help.md
+      - name: Agentes de extensión de cmdlet
+        href: cmdlet-extension-agents-exchange-2013-help.md
+        items:
+        - name: Administrar los agentes de extensión de cmdlet
+          href: manage-cmdlet-extension-agents-exchange-2013-help.md
+      - name: Guía de referencia rápida del Shell de administración de Exchange para Exchange 2013
+        href: exchange-management-shell-quick-reference-for-exchange-2013-exchange-2013-help.md
+      - name: Propiedades a las que se puede aplicar un filtro para el parámetro -ContentFilter
+        href: filterable-properties-for-the-contentfilter-parameter.md
+    - name: Arquitectura multiempresa en Exchange 2013
+      href: multi-tenancy-in-exchange-2013-exchange-2013-help.md
+    - name: Actualizar la organización de Exchange cuando cambia el horario de verano o la zona horaria
+      href: update-your-exchange-organization-when-daylight-saving-time-or-the-time-zone-changes-exchange-2013-help.md
+  - name: Permisos
+    href: permissions-exchange-2013-help.md
+    items:
+    - name: Descripción del control de acceso basado en funciones
+      href: understanding-role-based-access-control-exchange-2013-help.md
+      items:
+      - name: Descripción de los grupos de roles de administración
+        href: understanding-management-role-groups-exchange-2013-help.md
+      - name: Descripción de las directivas de asignación de roles de administración
+        href: understanding-management-role-assignment-policies-exchange-2013-help.md
+      - name: Descripción de los roles de administración
+        href: understanding-management-roles-exchange-2013-help.md
+      - name: Descripción de los ámbitos de roles de administración
+        href: understanding-management-role-scopes-exchange-2013-help.md
+        items:
+        - name: Descripción de los filtros de ámbito de los roles de administración
+          href: understanding-management-role-scope-filters-exchange-2013-help.md
+        - name: Descripción de ámbitos exclusivos
+          href: understanding-exclusive-scopes-exchange-2013-help.md
+      - name: Descripción de las asignaciones de funciones de administración
+        href: understanding-management-role-assignments-exchange-2013-help.md
+      - name: Grupos de funciones integradas
+        href: built-in-role-groups-exchange-2013-help.md
+        items:
+        - name: Administración de organizaciones
+          href: organization-management-exchange-2013-help.md
+        - name: Administración de organización de solo lectura
+          href: view-only-organization-management-exchange-2013-help.md
+        - name: Administración de destinatarios
+          href: recipient-management-exchange-2013-help.md
+        - name: Administración de MU
+          href: um-management-exchange-2013-help.md
+        - name: Servicio de asistencia
+          href: help-desk-exchange-2013-help.md
+        - name: Administración de higiene
+          href: hygiene-management-exchange-2013-help.md
+        - name: Administración de cumplimiento
+          href: compliance-management-exchange-2013-help.md
+        - name: Administración de registros
+          href: records-management-exchange-2013-help.md
+        - name: Administración de la detección
+          href: discovery-management-exchange-2013-help.md
+        - name: Administración de carpetas públicas
+          href: public-folder-management-exchange-2013-help.md
+        - name: Administración de servidor
+          href: server-management-exchange-2013-help.md
+        - name: Configuración delegada
+          href: delegated-setup-exchange-2013-help.md
+      - name: Roles de administración integrados
+        href: built-in-management-roles-exchange-2013-help.md
+        items:
+        - name: Rol Permisos de Active Directory
+          href: active-directory-permissions-role-exchange-2013-help.md
+        - name: Rol Listas de direcciones
+          href: address-lists-role-exchange-2013-help.md
+        - name: Rol ApplicationImpersonation
+          href: applicationimpersonation-role-exchange-2013-help.md
+        - name: Rol ArchiveApplication
+          href: archiveapplication-role-exchange-2013-help.md
+        - name: Rol Registros de auditoría
+          href: audit-logs-role-exchange-2013-help.md
+        - name: Rol Agentes de extensión de cmdlet
+          href: cmdlet-extension-agents-role-exchange-2013-help.md
+        - name: Rol Prevención de pérdida de datos
+          href: data-loss-prevention-role-exchange-2013-help.md
+        - name: Rol Grupos de disponibilidad de base de datos
+          href: database-availability-groups-role-exchange-2013-help.md
+        - name: Rol Copias de base de datos
+          href: database-copies-role-exchange-2013-help.md
+        - name: Rol Bases de datos
+          href: databases-role-exchange-2013-help.md
+        - name: Rol Recuperación ante desastres
+          href: disaster-recovery-role-exchange-2013-help.md
+        - name: Rol de grupos de distribución
+          href: distribution-groups-role-exchange-2013-help.md
+        - name: Rol Suscripciones perimetrales
+          href: edge-subscriptions-role-exchange-2013-help.md
+        - name: Rol Directivas de dirección de correo electrónico
+          href: e-mail-address-policies-role-exchange-2013-help.md
+        - name: Rol Conectores de Exchange
+          href: exchange-connectors-role-exchange-2013-help.md
+        - name: Rol Certificados del servidor de Exchange
+          href: exchange-server-certificates-role-exchange-2013-help.md
+        - name: Rol Servidores de Exchange
+          href: exchange-servers-role-exchange-2013-help.md
+        - name: Rol Directorios virtuales de Exchange
+          href: exchange-virtual-directories-role-exchange-2013-help.md
+        - name: Rol Uso compartido federado
+          href: federated-sharing-role-exchange-2013-help.md
+        - name: Rol Administración de derechos de información
+          href: information-rights-management-role-exchange-2013-help.md
+        - name: Rol Registro en diario
+          href: journaling-role-exchange-2013-help.md
+        - name: Rol Retención legal
+          href: legal-hold-role-exchange-2013-help.md
+        - name: Rol LegalHoldApplication
+          href: legalholdapplication-role-exchange-2013-help.md
+        - name: Rol Carpetas públicas habilitadas para correo
+          href: mail-enabled-public-folders-role-exchange-2013-help.md
+        - name: Rol Creación de destinatarios de correo
+          href: mail-recipient-creation-role-exchange-2013-help.md
+        - name: Rol Destinatarios de correo
+          href: mail-recipients-role-exchange-2013-help.md
+        - name: Rol Sugerencias para correo electrónico
+          href: mail-tips-role-exchange-2013-help.md
+        - name: Rol Importar/Exportar buzón
+          href: mailbox-import-export-role-exchange-2013-help.md
+        - name: Rol Búsqueda entre buzones
+          href: mailbox-search-role-exchange-2013-help.md
+        - name: Rol MailboxSearchApplication
+          href: mailboxsearchapplication-role-exchange-2013-help.md
+        - name: Rol Seguimiento de mensajes
+          href: message-tracking-role-exchange-2013-help.md
+        - name: Rol de migración
+          href: migration-role-exchange-2013-help.md
+        - name: Rol Supervisión
+          href: monitoring-role-exchange-2013-help.md
+        - name: Rol Mover buzones
+          href: move-mailboxes-role-exchange-2013-help.md
+        - name: Rol Mis aplicaciones personalizadas
+          href: my-custom-apps-role-exchange-2013-help.md
+        - name: Rol My Marketplace Apps
+          href: my-marketplace-apps-role-exchange-2013-help.md
+        - name: Función MyAddressInformation
+          href: myaddressinformation-role-exchange-2013-help.md
+        - name: Rol MyBaseOptions
+          href: mybaseoptions-role-exchange-2013-help.md
+        - name: Rol MyContactInformation
+          href: mycontactinformation-role-exchange-2013-help.md
+        - name: Rol MyDiagnostics
+          href: mydiagnostics-role-exchange-2013-help.md
+        - name: Función MyDisplayName
+          href: mydisplayname-role-exchange-2013-help.md
+        - name: Rol MyDistributionGroupMembership
+          href: mydistributiongroupmembership-role-exchange-2013-help.md
+        - name: Rol MyDistributionGroups
+          href: mydistributiongroups-role-exchange-2013-help.md
+        - name: Función MyMobileInformation
+          href: mymobileinformation-role-exchange-2013-help.md
+        - name: Función minombre
+          href: myname-role-exchange-2013-help.md
+        - name: Función MyPersonalInformation
+          href: mypersonalinformation-role-exchange-2013-help.md
+        - name: Rol MyProfileInformation
+          href: myprofileinformation-role-exchange-2013-help.md
+        - name: El rol de mis aplicaciones ReadWriteMailbox
+          href: my-readwritemailbox-apps-role-exchange-2013-help.md
+        - name: Rol MyRetentionPolicies
+          href: myretentionpolicies-role-exchange-2013-help.md
+        - name: Rol MyTeamMailboxes
+          href: myteammailboxes-role-exchange-2013-help.md
+        - name: Rol MyTextMessaging
+          href: mytextmessaging-role-exchange-2013-help.md
+        - name: Rol MyVoiceMail
+          href: myvoicemail-role-exchange-2013-help.md
+        - name: Rol OfficeExtensionApplication
+          href: officeextensionapplication-role-exchange-2013-help.md
+        - name: Rol Aplicaciones personalizadas de la organización
+          href: org-custom-apps-role-exchange-2013-help.md
+        - name: Rol de aplicaciones del mercado de la organización
+          href: org-marketplace-apps-role-exchange-2013-help.md
+        - name: Rol Acceso de clientes de la organización
+          href: organization-client-access-role-exchange-2013-help.md
+        - name: Rol Configuración de la organización
+          href: organization-configuration-role-exchange-2013-help.md
+        - name: Rol Configuración de transporte de la organización
+          href: organization-transport-settings-role-exchange-2013-help.md
+        - name: Rol Protocolos POP3 e IMAP4
+          href: pop3-and-imap4-protocols-role-exchange-2013-help.md
+        - name: Rol Carpetas públicas
+          href: public-folders-role-exchange-2013-help.md
+        - name: Rol Conectores de recepción
+          href: receive-connectors-role-exchange-2013-help.md
+        - name: Rol Directivas de destinatarios
+          href: recipient-policies-role-exchange-2013-help.md
+        - name: Rol Dominios remotos y aceptados
+          href: remote-and-accepted-domains-role-exchange-2013-help.md
+        - name: Rol Restablecer contraseña
+          href: reset-password-role-exchange-2013-help.md
+        - name: Rol Administración de la retención
+          href: retention-management-role-exchange-2013-help.md
+        - name: Rol Administración de roles
+          href: role-management-role-exchange-2013-help.md
+        - name: Rol Pertenencia y Creación de grupos de seguridad
+          href: security-group-creation-and-membership-role-exchange-2013-help.md
+        - name: Rol Conectores de envío
+          href: send-connectors-role-exchange-2013-help.md
+        - name: Rol Diagnósticos de soporte
+          href: support-diagnostics-role-exchange-2013-help.md
+        - name: Rol Buzones de equipo
+          href: team-mailboxes-role-exchange-2013-help.md
+        - name: Rol TeamMailboxLifecycleApplication
+          href: teammailboxlifecycleapplication-role-exchange-2013-help.md
+        - name: Rol Agentes de transporte
+          href: transport-agents-role-exchange-2013-help.md
+        - name: Rol Higiene de transporte
+          href: transport-hygiene-role-exchange-2013-help.md
+        - name: Rol Colas de transporte
+          href: transport-queues-role-exchange-2013-help.md
+        - name: Rol Reglas de transporte
+          href: transport-rules-role-exchange-2013-help.md
+        - name: Rol Buzones de mensajería unificada
+          href: um-mailboxes-role-exchange-2013-help.md
+        - name: Rol Mensajes de mensajería unificada
+          href: um-prompts-role-exchange-2013-help.md
+        - name: Rol Mensajería unificada
+          href: unified-messaging-role-exchange-2013-help.md
+        - name: Rol Administración de roles sin ámbito
+          href: unscoped-role-management-role-exchange-2013-help.md
+        - name: Rol Opciones de usuario
+          href: user-options-role-exchange-2013-help.md
+        - name: Rol UserApplication
+          href: userapplication-role-exchange-2013-help.md
+        - name: Rol Registros de auditoría con permiso de vista
+          href: view-only-audit-logs-role-exchange-2013-help.md
+        - name: Rol Configuración con permiso de vista
+          href: view-only-configuration-role-exchange-2013-help.md
+        - name: Rol Destinatarios con permiso de vista
+          href: view-only-recipients-role-exchange-2013-help.md
+        - name: Rol WorkloadManagement
+          href: workloadmanagement-role-exchange-2013-help.md
+    - name: Descripción de permisos de bosques múltiples
+      href: understanding-multiple-forest-permissions-exchange-2013-help.md
+    - name: Descripción de los permisos divididos
+      href: understanding-split-permissions-exchange-2013-help.md
+    - name: Descripción de la coexistencia de permisos en Exchange 2007 y Exchange 2010
+      href: understanding-permissions-coexistence-with-exchange-2007-and-exchange-2010-exchange-2013-help.md
+    - name: Administrar grupos de roles
+      href: manage-role-groups-exchange-2013-help.md
+    - name: Administrar miembros de grupos de roles
+      href: manage-role-group-members-exchange-2013-help.md
+    - name: Administrar grupos de funciones vinculadas
+      href: manage-linked-role-groups-exchange-2013-help.md
+    - name: Administrar directivas de asignación de funciones
+      href: manage-role-assignment-policies-exchange-2013-help.md
+    - name: Cambiar la directiva de asignación en un buzón
+      href: change-the-assignment-policy-on-a-mailbox-exchange-2013-help.md
+    - name: Crear grupos de funciones vinculadas que reflejan grupos de funciones integradas
+      href: create-linked-role-groups-that-mirror-built-in-role-groups-exchange-2013-help.md
+    - name: Ver permisos efectivos
+      href: view-effective-permissions-exchange-2013-help.md
+    - name: Permisos de características
+      href: feature-permissions-exchange-2013-help.md
+      items:
+      - name: Permisos de administración de roles
+        href: role-management-permissions-exchange-2013-help.md
+      - name: Permisos de directivas de mensajería y conformidad
+        href: messaging-policy-and-compliance-permissions-exchange-2013-help.md
+      - name: Permisos de protección contra correo electrónico no deseado y antimalware
+        href: anti-spam-and-anti-malware-permissions-exchange-2013-help.md
+      - name: Permisos de flujo del correo
+        href: mail-flow-permissions-exchange-2013-help.md
+      - name: Permisos de destinatarios
+        href: recipients-permissions-exchange-2013-help.md
+      - name: Permisos de libreta de direcciones y dirección de correo electrónico
+        href: email-address-and-address-book-permissions-exchange-2013-help.md
+      - name: Permisos de uso compartido y colaboración
+        href: sharing-and-collaboration-permissions-exchange-2013-help.md
+      - name: Permisos de dispositivos móviles y clientes
+        href: clients-and-mobile-devices-permissions-exchange-2013-help.md
+      - name: Permisos de mensajería unificada
+        href: unified-messaging-permissions-exchange-2013-help.md
+      - name: Permisos de alta disponibilidad y resistencia de sitios
+        href: high-availability-and-site-resilience-permissions-exchange-2013-help.md
+      - name: Permisos de infraestructura de la Shell y de Exchange
+        href: exchange-and-shell-infrastructure-permissions-exchange-2013-help.md
+      - name: Permisos de rendimiento y estado del servidor
+        href: server-health-and-performance-permissions-exchange-2013-help.md
+    - name: Permisos avanzados
+      href: advanced-permissions-exchange-2013-help.md
+      items:
+      - name: Funciones y administración de entradas de papel
+        href: management-roles-and-role-entries-exchange-2013-help.md
+        items:
+        - name: Crear un rol
+          href: create-a-role-exchange-2013-help.md
+        - name: Ver una función
+          href: view-a-role-exchange-2013-help.md
+        - name: Quitar una función
+          href: remove-a-role-exchange-2013-help.md
+        - name: Agregar una entrada de función a una función
+          href: add-a-role-entry-to-a-role-exchange-2013-help.md
+        - name: Cambiar una entrada de función
+          href: change-a-role-entry-exchange-2013-help.md
+        - name: Ver entradas de papel
+          href: view-role-entries-exchange-2013-help.md
+        - name: Quitar una entrada de función de una función
+          href: remove-a-role-entry-from-a-role-exchange-2013-help.md
+        - name: Crear un rol sin ámbito
+          href: create-an-unscoped-role-exchange-2013-help.md
+        - name: Cambiar una entrada de función en una función de nivel superior sin ámbito
+          href: change-a-role-entry-on-an-unscoped-top-level-role-exchange-2013-help.md
+        - name: Agregar una entrada de función a una función de nivel superior sin ámbito
+          href: add-a-role-entry-to-an-unscoped-top-level-role-exchange-2013-help.md
+      - name: Ámbitos de la función de administración
+        href: management-role-scopes-exchange-2013-help.md
+        items:
+        - name: Crear un ámbito normal o exclusivo
+          href: create-a-regular-or-exclusive-scope-exchange-2013-help.md
+        - name: Cambiar el ámbito de una función
+          href: change-a-role-scope-exchange-2013-help.md
+        - name: Ver ámbitos de roles
+          href: view-role-scopes-exchange-2013-help.md
+        - name: Quitar un ámbito de función
+          href: remove-a-role-scope-exchange-2013-help.md
+        - name: Controlar la distribución automática de buzones mediante los ámbitos de base de datos
+          href: control-automatic-mailbox-distribution-using-database-scopes-exchange-2013-help.md
+      - name: Asignaciones de roles de administración
+        href: management-role-assignments-exchange-2013-help.md
+        items:
+        - name: Agregar una función a un usuario o grupo de seguridad universal
+          href: add-a-role-to-a-user-or-usg-exchange-2013-help.md
+        - name: Modificar una asignación de roles
+          href: change-a-role-assignment-exchange-2013-help.md
+        - name: Visualización de asignaciones de funciones
+          href: view-role-assignments-exchange-2013-help.md
+        - name: Quitar una función de un usuario o un grupo de seguridad universal
+          href: remove-a-role-from-a-user-or-usg-exchange-2013-help.md
+        - name: Delegar asignaciones de funciones
+          href: delegate-role-assignments-exchange-2013-help.md
+      - name: Administración de permisos divididos
+        href: managing-split-permissions-exchange-2013-help.md
+        items:
+        - name: Configurar Exchange 2013 para permisos divididos
+          href: configure-exchange-2013-for-split-permissions-exchange-2013-help.md
+        - name: Configurar Exchange 2013 para permisos compartidos
+          href: configure-exchange-2013-for-shared-permissions-exchange-2013-help.md
+  - name: Directiva de mensajería y conformidad
+    href: messaging-policy-and-compliance-exchange-2013-help.md
+    items:
+    - name: Archivado local en Exchange 2013
+      href: in-place-archiving-in-exchange-2013-exchange-2013-help.md
+      items:
+      - name: Administrar archivos locales en Exchange 2013
+        href: manage-in-place-archives-in-exchange-2013-exchange-2013-help.md
+      - name: Modificar las directivas de archivo
+        href: modify-archive-policies-exchange-2013-help.md
+      - name: Configurar cuotas de archivo para un archivo en contexto (local)
+        href: configure-archive-quotas-for-an-in-place-archive-in-exchange-2013-exchange-2013-help.md
+      - name: Archivar conversaciones de Lync y contenido de reuniones en Exchange
+        href: archive-lync-conversations-and-meeting-content-to-exchange-exchange-2013-help.md
+      - name: Uso de la autenticación de OAuth para admitir el archivado en una implementación híbrida de Exchange
+        href: using-oauth-authentication-to-support-archiving-in-an-exchange-hybrid-deployment-exchange-2013-help.md
+    - name: Conservación local y retención por juicio
+      href: in-place-hold-and-litigation-hold-exchange-2013-help.md
+      items:
+      - name: Crear o quitar una conservación local
+        href: create-or-remove-an-in-place-hold-exchange-2013-help.md
+      - name: Poner un buzón en retención por juicio
+        href: place-a-mailbox-on-litigation-hold-exchange-2013-help.md
+      - name: Poner todos los buzones en retención
+        href: place-all-mailboxes-on-hold-exchange-2013-help.md
+      - name: Conservar los destinatarios de grupos de distribución expandidos y CCO para la exhibición de documentos electrónicos
+        href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery-exchange-2013-help.md
+    - name: Exhibición de documentos electrónicos en contexto
+      href: in-place-ediscovery-exchange-2013-help.md
+      items:
+      - name: Asignar permisos de exhibición de documentos electrónicos en Exchange
+        href: assign-ediscovery-permissions-in-exchange-exchange-2013-help.md
+      - name: Crear una búsqueda de exhibición de documentos electrónicos local
+        href: create-an-in-place-ediscovery-search-exchange-2013-help.md
+      - name: Copiar los resultados de la búsqueda de exhibición de documentos electrónicos en un buzón de correo de detección
+        href: copy-ediscovery-search-results-to-a-discovery-mailbox-exchange-2013-help.md
+      - name: Exportar los resultados de la búsqueda de exhibición de documentos electrónicos a un archivo PST
+        href: export-ediscovery-search-results-to-a-pst-file-exchange-2013-help.md
+      - name: Propiedades de mensajes y operadores de búsqueda para la exhibición de documentos electrónicos local
+        href: message-properties-and-search-operators-for-in-place-ediscovery-exchange-2013-help.md
+      - name: Crear un buzón de correo de detección
+        href: create-a-discovery-mailbox-exchange-2013-help.md
+      - name: Iniciar o detener una búsqueda de exhibición de documentos electrónicos local
+        href: start-or-stop-an-in-place-ediscovery-search-exchange-2013-help.md
+      - name: Modificar una búsqueda de exhibición de documentos electrónicos local
+        href: modify-an-in-place-ediscovery-search-exchange-2013-help.md
+      - name: Crear un ámbito de administración personalizado para las búsquedas de exhibición de documentos electrónicos local
+        href: create-a-custom-management-scope-for-in-place-ediscovery-searches-exchange-2013-help.md
+      - name: Quitar una búsqueda de exhibición de documentos electrónicos local
+        href: remove-an-in-place-ediscovery-search-exchange-2013-help.md
+      - name: 'Buscar y eliminar mensajes: Ayuda para administradores'
+        href: search-for-and-delete-messages-admin-help-exchange-2013-help.md
+      - name: Reducir el tamaño de un buzón de correo de detección en Exchange
+        href: reduce-the-size-of-a-discovery-mailbox-in-exchange-exchange-2013-help.md
+      - name: Eliminar y volver a crear el buzón de correo de detección predeterminado en Exchange
+        href: delete-and-re-create-the-default-discovery-mailbox-in-exchange-exchange-2013-help.md
+      - name: Re-create the Discovery system mailbox
+        href: re-create-the-discovery-system-mailbox-exchange-2013-help.md
+      - name: Uso de la autenticación de OAuth para admitir la exhibición de documentos electrónicos en una implementación híbrida de Exchange
+        href: using-oauth-authentication-to-support-ediscovery-in-an-exchange-hybrid-deployment-exchange-2013-help.md
+      - name: Configurar Exchange para el Centro de exhibición de documentos electrónicos de SharePoint
+        href: configure-exchange-for-sharepoint-ediscovery-center-exchange-2013-help.md
+      - name: Elementos no aptos para la búsqueda en la exhibición de documentos electrónicos de Exchange
+        href: unsearchable-items-in-exchange-ediscovery-exchange-2013-help.md
+    - name: Administración de registros de mensajes
+      href: messaging-records-management-exchange-2013-help.md
+      items:
+      - name: Mensajería de registros terminología de administración de Exchange de 2013
+        href: messaging-records-management-terminology-in-exchange-2013-exchange-2013-help.md
+      - name: Etiquetas de retención y directivas de retención
+        href: retention-tags-and-retention-policies-exchange-2013-help.md
+        items:
+        - name: Directiva de retención predeterminada
+          href: default-retention-policy-in-exchange-online-and-exchange-server-exchange-2013-help.md
+        - name: Carpetas predeterminadas que admiten etiquetas de la directiva de retención
+          href: default-folders-that-support-retention-policy-tags-exchange-2013-help.md
+        - name: Cómo calcular la antigüedad de retención
+          href: how-retention-age-is-calculated-exchange-2013-help.md
+        - name: 'Lista de comprobación: implementación de directivas de retención'
+          href: checklist-deploying-retention-policies-exchange-2013-help.md
+        - name: Procedimientos de administración de registros de mensajería
+          href: messaging-records-management-procedures-exchange-2013-help.md
+          items:
+          - name: Crear directivas de retención
+            href: create-a-retention-policy-exchange-2013-help.md
+          - name: Agregar etiquetas de retención o quitar etiquetas de retención de una directiva de retención
+            href: add-retention-tags-to-or-remove-retention-tags-from-a-retention-policy-exchange-2013-help.md
+          - name: Aplicar una directiva de retención a los buzones
+            href: apply-a-retention-policy-to-mailboxes-exchange-2013-help.md
+          - name: Configuración del asistente para carpetas administradas
+            href: configure-the-managed-folder-assistant-exchange-2013-help.md
+          - name: Poner un buzón en retención
+            href: place-a-mailbox-on-retention-hold-exchange-2013-help.md
+          - name: Exportar e importar etiquetas de retención
+            href: export-and-import-retention-tags-exchange-2013-help.md
+          - name: Configurar el bloqueo del cliente de Outlook
+            href: configure-outlook-client-blocking-exchange-2013-help.md
+          - name: Migrar desde carpetas administradas
+            href: migrate-from-managed-folders-exchange-2013-help.md
+          - name: Desactivar o suspender la administración de registros de mensajería
+            href: turn-off-or-suspend-messaging-records-management-exchange-2013-help.md
+      - name: Administración de registros de seguimiento de mensajería
+        href: monitoring-messaging-records-management-exchange-2013-help.md
+        items:
+        - name: Ver los contadores de rendimiento para la administración de registros de mensajes
+          href: view-performance-counters-for-messaging-records-management-exchange-2013-help.md
+        - name: Contadores de rendimiento para la administración de registros de mensajes
+          href: performance-counters-for-messaging-records-management-exchange-2013-help.md
+        - name: Errores y eventos de administración de registros de mensajes
+          href: messaging-records-management-errors-and-events-exchange-2013-help.md
+    - name: Registro en diario
+      href: journaling-exchange-2013-help.md
+      items:
+      - name: Administrar registro en diario
+        href: manage-journaling-exchange-2013-help.md
+      - name: Deshabilitar o habilitar el registro en diario de correo de voz y notificaciones de llamadas perdidas
+        href: disable-or-enable-journaling-of-voice-mail-and-missed-call-notifications-exchange-2013-help.md
+    - name: Reglas de flujo de correo (reglas de transporte)
+      href: mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md
+      items:
+      - name: Excepciones (predicados) y condiciones de reglas de flujo de correo
+        href: mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md
+      - name: Acciones de las reglas de flujo de correo
+        href: mail-flow-rule-actions-in-exchange-2013-exchange-2013-help.md
+      - name: Procedimientos recomendados para configurar las reglas de flujo de correo
+        href: best-practices-for-configuring-mail-flow-rules-exchange-2013-help.md
+      - name: Usar reglas de transporte para inspeccionar datos adjuntos de mensajes
+        href: use-transport-rules-to-inspect-message-attachments-exchange-2013-help.md
+      - name: Escenarios comunes de bloqueo de datos adjuntos
+        href: common-attachment-blocking-scenarios-for-mail-flow-rules-exchange-2013-help.md
+      - name: Avisos de declinación de responsabilidades, firmas, pies de página o encabezados en toda la organización
+        href: organization-wide-disclaimers-signatures-footers-or-headers-exchange-online-help.md
+      - name: Procedimientos de las reglas de transporte o de flujo de correo
+        href: mail-flow-or-transport-rule-procedures-exchange-2013-help.md
+        items:
+        - name: Administrar reglas de flujo de correo
+          href: manage-mail-flow-rules-exchange-2013-help.md
+        - name: Probar una regla de flujo de correo
+          href: test-a-mail-flow-rule-exchange-2013-help.md
+        - name: Usar reglas de flujo de correo para que los mensajes puedan evitar Otros correos
+          href: use-mail-flow-rules-so-messages-can-bypass-clutter-exchange-2013-help.md
+        - name: Usar reglas de flujo de correo para enrutar el correo electrónico en función de una lista de palabras, expresiones o patrones
+          href: use-mail-flow-rules-to-route-email-based-on-a-list-of-words-phrases-or-patterns-exchange-2013-help.md
+        - name: Registrar IFilters de Filter Pack con Exchange 2013
+          href: register-filter-pack-ifilters-with-exchange-2013-exchange-2013-help.md
+      - name: Administrar la aprobación de mensajes
+        href: manage-message-approval-exchange-2013-help.md
+        items:
+        - name: Escenarios comunes de aprobación de mensajes
+          href: common-message-approval-scenarios-exchange-2013-help.md
+        - name: Administrar y solucionar problemas de aprobación de mensajes
+          href: manage-and-troubleshoot-message-approval-exchange-2013-help.md
+    - name: Prevención de pérdida de datos
+      href: technical-overview-of-dlp-data-loss-prevention-in-exchange.md
+      items:
+      - name: Cómo se aplican las reglas de DLP para la evaluación de mensajes
+        href: how-dlp-rules-are-applied-to-evaluate-messages-exchange-2013-help.md
+      - name: Integración de las reglas de información confidencial con las reglas de transporte
+        href: integrating-sensitive-information-rules-with-transport-rules-exchange-2013-help.md
+      - name: Qué buscan los tipos de información confidencial
+        href: what-the-sensitive-information-types-in-exchange-look-for-exchange-online-help.md
+      - name: Plantillas de directiva de DLP
+        href: dlp-policy-templates-exchange-2013-help.md
+        items:
+        - name: Plantillas de directivas de DLP suministradas en Exchange
+          href: dlp-policy-templates-supplied-in-exchange-exchange-2013-help.md
+        - name: Plantillas de directiva de partners de Microsoft
+          href: policy-templates-from-microsoft-partners-exchange-2013-help.md
+      - name: Procedimientos de DLP
+        href: dlp-procedures-exchange-2013-help.md
+        items:
+        - name: Administrar directivas de DLP
+          href: manage-dlp-policies-exchange-2013-help.md
+        - name: Crear una directiva DLP a partir de una plantilla
+          href: how-to-new-dlp-data-loss-prevention-policy-template.md
+        - name: Crear una nueva directiva de DLP personalizada
+          href: create-a-custom-dlp-policy-exchange-2013-help.md
+        - name: Importar una plantilla de directiva DLP personalizada desde un archivo
+          href: import-a-custom-dlp-policy-template-from-a-file-exchange-2013-help.md
+        - name: Ver informes de detección de directivas de DLP
+          href: view-dlp-policy-detection-reports-exchange-2013-help.md
+        - name: Crear informes de incidentes para detecciones de directivas de DLP
+          href: create-incident-reports-for-dlp-policy-detections-exchange-2013-help.md
+        - name: Definir sus propios tipos de información y plantillas de DLP
+          href: define-your-own-dlp-templates-and-information-types-exchange-2013-help.md
+          items:
+          - name: Desarrollo de archivos de plantilla de directivas de DLP
+            href: xml-rule-schema-and-rule-structure-guide-for-dlp-policy-files.md
+          - name: Desarrollar paquetes de reglas de información confidencial
+            href: technical-description-of-xml-schema-for-dlp-rule-packages.md
+          - name: Coincidencia de métodos y técnicas para paquetes de reglas
+            href: technical-description-of-xsd-rule-matching-for-dlp-rule-packages.md
+          - name: Personalizar los tipos de información confidencial de DLP integrados
+            href: customize-the-built-in-dlp-sensitive-information-types-exchange-2013-help.md
+          - name: Exportar tipos de información confidencial de DLP desde Exchange
+            href: export-dlp-sensitive-information-types-from-exchange-2013-exchange-2013-help.md
+      - name: Sugerencias de directiva
+        href: technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md
+        items:
+        - name: Administrar las sugerencias de las directivas
+          href: how-to-configure-and-manage-policy-tips-a-dlp-feature-exchange.md
+      - name: Creación de huella digital de documento
+        href: overview-of-document-fingerprinting-in-exchange.md
+        items:
+        - name: Proteger los datos de formulario con huellas digitales de documentos
+          href: protect-form-data-with-document-fingerprinting-exchange-2013-help.md
+    - name: Information Rights Management
+      href: information-rights-management-exchange-2013-help.md
+      items:
+      - name: Reglas de protección de transporte
+        href: transport-protection-rules-exchange-2013-help.md
+      - name: Reglas de protección de Outlook
+        href: outlook-protection-rules-exchange-2013-help.md
+      - name: Descifrado de transporte
+        href: transport-decryption-exchange-2013-help.md
+      - name: Descifrado de informe de diarios
+        href: journal-report-decryption-exchange-2013-help.md
+      - name: Information Rights Management en Outlook Web App
+        href: information-rights-management-in-outlook-web-app-exchange-2013-help.md
+      - name: Information Rights Management en Exchange ActiveSync
+        href: information-rights-management-in-exchange-activesync-exchange-2013-help.md
+      - name: Registro de administración de derechos de información
+        href: information-rights-management-logging-exchange-2013-help.md
+      - name: Procedimientos de Information Rights Management
+        href: information-rights-management-procedures-exchange-2013-help.md
+        items:
+        - name: Habilitar o deshabilitar IRM para mensajes internos
+          href: enable-or-disable-irm-for-internal-messages-exchange-2013-help.md
+        - name: Crear una regla de protección de transporte
+          href: create-a-transport-protection-rule-exchange-2013-help.md
+        - name: Crear una regla de protección de Outlook
+          href: create-an-outlook-protection-rule-exchange-2013-help.md
+        - name: Quitar una regla de protección de Outlook
+          href: remove-an-outlook-protection-rule-exchange-2013-help.md
+        - name: Agregar el buzón de la federación para el grupo de usuarios de AD RMS Super
+          href: add-the-federation-mailbox-to-the-ad-rms-super-users-group-exchange-2013-help.md
+        - name: Habilitar o deshabilitar el descifrado de transporte
+          href: enable-or-disable-transport-decryption-exchange-2013-help.md
+        - name: Configurar IRM para la búsqueda y la exhibición de documentos electrónicos local de Exchange
+          href: configure-irm-for-exchange-search-and-in-place-ediscovery-exchange-2013-help.md
+        - name: Habilitar o deshabilitar el descifrado de informes de diario
+          href: enable-or-disable-journal-report-decryption-exchange-2013-help.md
+        - name: Habilitar o deshabilitar el servicio Information Rights Management en los servidores de acceso de cliente
+          href: enable-or-disable-information-rights-management-on-client-access-servers-exchange-2013-help.md
+        - name: Habilitar o deshabilitar el registro de Information Rights Management
+          href: enable-or-disable-information-rights-management-logging-exchange-2013-help.md
+    - name: S/MIME para la firma y el cifrado de mensajes
+      href: s-mime-for-message-signing-and-encryption-exchange-2013-help.md
+      items:
+      - name: Configuración de S/MIME para Outlook Web App
+        href: configure-s-mime-settings-for-outlook-web-app-exchange-2013-help.md
+      - name: Configurar una colección de certificados virtuales para validar S/MIME
+        href: set-up-virtual-certificate-collection-to-validate-s-mime-exchange-2013-help.md
+      - name: Enviar y recibir correo electrónico cifrado y firmado con S/MIME
+        href: send-and-receive-s-mime-signed-and-encrypted-email-exchange-2013-help.md
+    - name: Registro de auditoría de buzones de correo
+      href: mailbox-audit-logging-exchange-2013-help.md
+      items:
+      - name: Procedimientos de registro de auditoría de buzones
+        href: mailbox-audit-logging-procedures-exchange-2013-help.md
+        items:
+        - name: Habilitar o deshabilitar el registro de auditoría de buzones para un buzón
+          href: enable-or-disable-mailbox-audit-logging-for-a-mailbox-exchange-2013-help.md
+        - name: Omitir una cuenta de usuario desde el registro de auditoría de buzones
+          href: bypass-a-user-account-from-mailbox-audit-logging-exchange-2013-help.md
+        - name: Buscar el registro de auditoría de un buzón
+          href: search-the-mailbox-audit-log-for-a-mailbox-exchange-2013-help.md
+        - name: Crear una búsqueda en los registros de auditoría de buzones
+          href: create-a-mailbox-audit-log-search-exchange-2013-help.md
+    - name: Registro de auditoría de administrador
+      href: administrator-audit-logging-exchange-2013-help.md
+      items:
+      - name: Estructura del registro de auditoría de administrador
+        href: administrator-audit-log-structure-exchange-2013-help.md
+      - name: Administrar el registro de auditoría de administrador
+        href: manage-administrator-audit-logging-exchange-2013-help.md
+    - name: Informes de auditoría de Exchange
+      href: exchange-auditing-reports-exchange-2013-help.md
+      items:
+      - name: Exportar registros de auditoría de buzones
+        href: export-mailbox-audit-logs-exchange-2013-help.md
+      - name: Ejecución de un informe de acceso al buzón de correo del que no se es propietario
+        href: run-a-non-owner-mailbox-access-report-exchange-online-help.md
+      - name: Ejecutar un informe de retención por litigio por buzón
+        href: run-a-per-mailbox-litigation-hold-report-exchange-2013-help.md
+      - name: Buscar los informes de cambios del grupo de roles o auditorías de administrador
+        href: search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md
+      - name: Ver el registro de auditoría del administrador
+        href: view-the-administrator-audit-log-exchange-2013-help.md
+  - name: Protección antimalware y contra correo no deseado
+    href: anti-spam-and-anti-malware-protection-exchange-2013-help.md
+    items:
+    - name: Protección contra correo no deseado
+      href: anti-spam-protection-exchange-2013-help.md
+      items:
+      - name: Ventajas de las características contra correo no deseado de Exchange Online Protection en Exchange Server 2013
+        href: benefits-of-anti-spam-features-in-exchange-online-protection-over-exchange-server-2013-exchange-2013-help.md
+      - name: Habilitar la funcionalidad contra correo electrónico no deseado en un servidor Buzón de correo
+        href: enable-anti-spam-functionality-on-mailbox-servers-exchange-2013-help.md
+      - name: Filtrado de remitentes
+        href: sender-filtering-exchange-2013-help.md
+        items:
+        - name: Administrar el filtrado de remitentes
+          href: manage-sender-filtering-exchange-2013-help.md
+      - name: Id. del remitente
+        href: sender-id-exchange-2013-help.md
+        items:
+        - name: Administración del Id. del remitente
+          href: manage-sender-id-exchange-2013-help.md
+      - name: Filtrado de contenido
+        href: content-filtering-exchange-2013-help.md
+        items:
+        - name: Administrar el filtrado de contenido
+          href: manage-content-filtering-exchange-2013-help.md
+        - name: Agregación de lista segura
+          href: safelist-aggregation-exchange-2013-help.md
+          items:
+          - name: Administrar agregación de lista segura
+            href: manage-safelist-aggregation-exchange-2013-help.md
+          - name: Configurar el filtrado de contenido para usar datos de dominio seguro
+            href: configure-content-filtering-to-use-safe-domain-data-exchange-2013-help.md
+        - name: Umbral de nivel de confianza de correo no deseado
+          href: spam-confidence-level-threshold-exchange-2013-help.md
+        - name: Establecer las configuraciones de filtro de correo no deseado en los buzones de correo
+          href: configure-anti-spam-settings-on-mailboxes-exchange-2013-help.md
+      - name: Reputación del remitente y agente de análisis de protocolo
+        href: sender-reputation-and-the-protocol-analysis-agent-exchange-2013-help.md
+        items:
+        - name: Administrar la reputación del remitente
+          href: manage-sender-reputation-exchange-2013-help.md
+      - name: Filtrado de conexiones en servidores de transporte perimetral
+        href: connection-filtering-on-edge-transport-servers-exchange-2013-help.md
+        items:
+        - name: Administrar el filtrado de conexiones en servidores de transporte perimetral
+          href: manage-connection-filtering-on-edge-transport-servers-exchange-2013-help.md
+      - name: Filtrado de destinatarios en servidores de transporte perimetral
+        href: recipient-filtering-on-edge-transport-servers-exchange-2013-help.md
+        items:
+        - name: Administrar el filtrado de destinatarios en servidores de transporte perimetral
+          href: manage-recipient-filtering-on-edge-transport-servers-exchange-2013-help.md
+      - name: Filtrado de datos adjuntos en servidores de transporte perimetral
+        href: attachment-filtering-on-edge-transport-servers-exchange-2013-help.md
+        items:
+        - name: Administrar el filtrado de datos adjuntos en servidores de transporte perimetral
+          href: manage-attachment-filtering-on-edge-transport-servers-exchange-2013-help.md
+      - name: Cuarentena de correo electrónico no deseado
+        href: spam-quarantine-exchange-2013-help.md
+        items:
+        - name: Configurar un buzón de cuarentena de correo no deseado
+          href: configure-a-spam-quarantine-mailbox-exchange-2013-help.md
+        - name: Configurar Outlook para mostrar el remitente original en el buzón de cuarentena
+          href: configure-outlook-to-show-the-original-sender-in-the-quarantine-mailbox-exchange-2013-help.md
+        - name: Recuperar mensajes en cuarentena del buzón de cuarentena de correo no deseado
+          href: release-quarantined-messages-from-the-spam-quarantine-mailbox-exchange-2013-help.md
+      - name: Marcas de correo no deseado
+        href: anti-spam-stamps-exchange-2013-help.md
+        items:
+        - name: Ver marcas de correo electrónico no deseado en Outlook
+          href: view-anti-spam-stamps-in-outlook-exchange-2013-help.md
+    - name: Protección antimalware
+      href: anti-malware-protection-exchange-2013-help.md
+      items:
+      - name: Preguntas más frecuentes de antimalware
+        href: anti-malware-faq-exchange-2013-help.md
+      - name: Descargar actualizaciones del motor y definición
+        href: download-engine-and-definition-updates-exchange-2013-help.md
+      - name: Configurar directivas antimalware
+        href: configure-anti-malware-policies-exchange-2013-help.md
+      - name: Volver a examinar mensajes ya analizados en búsqueda de malware por parte del servicio de filtrado alojado
+        href: rescan-messages-already-malware-scanned-by-the-hosted-filtering-service-exchange-2013-help.md
+      - name: Deshabilitar u omitir la detección de antimalware
+        href: disable-or-bypass-anti-malware-scanning-exchange-2013-help.md
+    - name: Software antivirus en el sistema operativo de servidores Exchange
+      href: anti-virus-software-in-the-operating-system-on-exchange-servers-exchange-2013-help.md
+  - name: Flujo de correo
+    href: mail-flow-exchange-2013-help.md
+    items:
+    - name: Enrutamiento de correo
+      href: mail-routing-exchange-2013-help.md
+      items:
+      - name: Planeamiento de uso de Active Directory para el enrutamiento de correo
+        href: planning-to-use-active-directory-sites-for-routing-mail-exchange-2013-help.md
+      - name: Configuración de enrutamiento de correo de Exchange en Active Directory
+        href: configure-exchange-mail-routing-settings-in-active-directory-exchange-2013-help.md
+      - name: Enrutar el correo entre sitios de Active Directory
+        href: route-mail-between-active-directory-sites-exchange-2013-help.md
+      - name: Resolución de destinatarios
+        href: recipient-resolution-exchange-2013-help.md
+      - name: Sensibilidad de errores de consultas DNS
+        href: dns-query-failure-sensitivity-exchange-2013-help.md
+      - name: Usar Telnet para probar la comunicación SMTP
+        href: use-telnet-to-test-smtp-communication-exchange-2013-help.md
+      - name: Configurar la dirección externa del postmaster
+        href: configure-the-external-postmaster-address-exchange-2013-help.md
+    - name: Conectores
+      href: connectors-exchange-2013-help.md
+      items:
+      - name: Conectores de envío
+        href: send-connectors-exchange-2013-help.md
+        items:
+        - name: Crear un conector de envío para correo electrónico enviado a Internet
+          href: create-a-send-connector-for-email-sent-to-the-internet-exchange-2013-help.md
+        - name: Crear un conector de envío para enrutar el correo saliente a través de un Host inteligente
+          href: create-a-send-connector-to-route-outbound-email-through-a-smart-host-exchange-2013-help.md
+        - name: Creación de un conector de envío para enviar correo electrónico a un colaborador con seguridad de capa de transporte (TLS) aplicada
+          href: create-a-send-connector-to-send-email-to-a-partner-with-transport-layer-security-tls-applied-exchange-2013-help.md
+        - name: Configurar un conector de envío entre bosques
+          href: configure-a-cross-forest-send-connector-exchange-2013-help.md
+      - name: Conectores de recepción
+        href: receive-connectors-exchange-2013-help.md
+        items:
+        - name: Permisos del conector de recepción
+          href: receive-connector-permissions-exchange-2013-help.md
+        - name: Mecanismos de autenticación del conector de recepción
+          href: receive-connector-authentication-mechanisms-exchange-2013-help.md
+        - name: Procedimientos con conectores de recepción
+          href: receive-connector-procedures-exchange-2013-help.md
+          items:
+          - name: Creación de un conector de recepción para recibir correo electrónico de Internet
+            href: create-a-receive-connector-to-receive-email-from-the-internet-exchange-2013-help.md
+          - name: Cree un conector de recepción seguro para recibir correos electrónicos de un socio
+            href: create-a-secure-receive-connector-to-receive-email-from-a-partner-exchange-2013-help.md
+          - name: Creación de un conector de recepción para recibir correo electrónico de un sistema que no tenga instalado Exchange
+            href: create-a-receive-connector-to-receive-email-from-a-system-not-running-exchange-exchange-2013-help.md
+          - name: Creación de un conector de recepción para recibir mensajes de un servidor Exchange interno
+            href: create-a-receive-connector-to-receive-messages-from-an-internal-exchange-server-exchange-2013-help.md
+          - name: Modificar el título SMTP en un conector de recepción
+            href: modify-the-smtp-banner-on-a-receive-connector-exchange-2013-help.md
+      - name: Conectores externos
+        href: foreign-connectors-exchange-2013-help.md
+        items:
+        - name: Crear un conector externo para entregar los mensajes a una puerta de enlace no SMTP fax
+          href: create-a-foreign-connector-to-deliver-messages-to-a-non-smtp-fax-gateway-exchange-2013-help.md
+      - name: Agentes de entrega y conectores de agentes de entrega
+        href: delivery-agents-and-delivery-agent-connectors-exchange-2013-help.md
+      - name: Firewall de encabezado
+        href: header-firewall-exchange-2013-help.md
+    - name: Dominios
+      href: domains-exchange-2013-help.md
+      items:
+      - name: Dominios aceptados
+        href: accepted-domains-exchange-2013-help.md
+        items:
+        - name: Configurar un dominio aceptado dentro de su organización de Exchange como autoritativo
+          href: configure-an-accepted-domain-within-your-exchange-organization-as-authoritative-exchange-2013-help.md
+        - name: Configure un dominio aceptado para una unidad de negocio independiente
+          href: configure-an-accepted-domain-for-an-independent-business-unit-exchange-2013-help.md
+        - name: Configurar un dominio aceptado para una unidad de negocio con buzones de correo fuera de la organización de Exchange
+          href: configure-an-accepted-domain-for-a-business-unit-with-mailboxes-outside-your-exchange-organization-exchange-2013-help.md
+        - name: Configurar Exchange para aceptar correo de varios dominios autoritativos
+          href: configure-exchange-to-accept-mail-for-multiple-authoritative-domains-exchange-2013-help.md
+      - name: Dominios remotos
+        href: remote-domains-exchange-2013-help.md
+        items:
+        - name: Administrar dominios remotos
+          href: manage-remote-domains-exchange-2013-help.md
+        - name: Configurar las respuestas “fuera de la oficina” desde dominios remotos
+          href: configure-remote-domain-out-of-office-replies-exchange-2013-help.md
+        - name: Configurar respuestas automáticas de dominio remoto
+          href: configure-remote-domain-automatic-replies-exchange-2013-help.md
+        - name: Configurar informes de mensajes de dominio remoto
+          href: configure-remote-domain-message-reporting-exchange-2013-help.md
+        - name: Juegos de caracteres compatibles para dominios remotos
+          href: supported-character-sets-for-remote-domains-exchange-2013-help.md
+    - name: Agentes de transporte
+      href: transport-agents-exchange-2013-help.md
+      items:
+      - name: Habilitar la compatibilidad para agentes de transporte heredados
+        href: enable-support-for-legacy-transport-agents-exchange-2013-help.md
+      - name: Administrar agentes de transporte
+        href: manage-transport-agents-exchange-2013-help.md
+      - name: Ver agentes de transporte en la canalización de transporte
+        href: view-transport-agents-in-the-transport-pipeline-exchange-2013-help.md
+    - name: Alta disponibilidad de transporte
+      href: transport-high-availability-exchange-2013-help.md
+      items:
+      - name: Redundancia de instantánea
+        href: shadow-redundancy-exchange-2013-help.md
+      - name: Red de seguridad
+        href: safety-net-exchange-2013-help.md
+    - name: Registros de transporte
+      href: transport-logs-exchange-2013-help.md
+      items:
+      - name: Registro de agente contra correo no deseado
+        href: anti-spam-agent-logging-exchange-2013-help.md
+        items:
+        - name: Configurar el registro de agentes contra correo electrónico no deseado
+          href: configure-anti-spam-agent-logging-exchange-2013-help.md
+      - name: Registro de conectividad
+        href: connectivity-logging-exchange-2013-help.md
+        items:
+        - name: Configurar el registro de conectividad
+          href: configure-connectivity-logging-exchange-2013-help.md
+      - name: Seguimiento del canal
+        href: pipeline-tracing-exchange-2013-help.md
+        items:
+        - name: Configuración del seguimiento de canalización
+          href: configure-pipeline-tracing-exchange-2013-help.md
+      - name: Registro de protocolos
+        href: protocol-logging-exchange-2013-help.md
+        items:
+        - name: Configurar el registro de protocolo
+          href: configure-protocol-logging-exchange-2013-help.md
+      - name: Configurar el registro de la tabla de enrutamiento
+        href: configure-routing-table-logging-exchange-2013-help.md
+    - name: Seguimiento de mensajes
+      href: message-tracking-exchange-2013-help.md
+      items:
+      - name: Configurar el seguimiento de mensajes
+        href: configure-message-tracking-exchange-2013-help.md
+      - name: Buscar en registros seguimiento de mensajes
+        href: search-message-tracking-logs-exchange-2013-help.md
+    - name: Informes de entrega para administradores
+      href: delivery-reports-for-administrators-exchange-2013-help.md
+      items:
+      - name: Seguimiento de mensajes con informes de entrega
+        href: track-messages-with-delivery-reports-exchange-2013-help.md
+    - name: Conversión de contenido
+      href: content-conversion-exchange-2013-help.md
+      items:
+      - name: Configurar la codificación de transferencia de contenido
+        href: configure-content-transfer-encoding-exchange-2013-help.md
+      - name: Opciones de la codificación de mensajes
+        href: message-encoding-options-exchange-2013-help.md
+      - name: Opciones de conversión de TNEF
+        href: tnef-conversion-options-exchange-2013-help.md
+      - name: Seguimiento de conversión de contenido
+        href: content-conversion-tracing-exchange-2013-help.md
+    - name: DSN y NDR en Exchange 2013
+      href: dsns-and-ndrs-in-exchange-2013-exchange-2013-help.md
+      items:
+      - name: Administrar mensajes de DSN
+        href: manage-dsn-messages-exchange-2013-help.md
+      - name: Identidad de mensajes DSN
+        href: dsn-message-identity-exchange-2013-help.md
+      - name: Texto del mensaje de DSN
+        href: dsn-message-text-exchange-2013-help.md
+      - name: Idiomas admitidos para mensajes del sistema
+        href: supported-languages-for-system-messages-exchange-2013-help.md
+    - name: Límites de tamaño de mensaje
+      href: message-size-limits-exchange-2013-help.md
+      items:
+      - name: Limitación de mensajes
+        href: message-throttling-exchange-2013-help.md
+      - name: Contrapresión
+        href: back-pressure-exchange-2013-help.md
+    - name: Colas
+      href: queues-exchange-2013-help.md
+      items:
+      - name: Administración de colas
+        href: manage-queues-exchange-2013-help.md
+      - name: Uso del Shell de administración de Exchange para administrar colas
+        href: use-the-exchange-management-shell-to-manage-queues-exchange-2013-help.md
+        items:
+        - name: Configurar Get-QueueDigest
+          href: configure-get-queuedigest-exchange-2013-help.md
+      - name: Filtros de cola
+        href: queue-filters-exchange-2013-help.md
+      - name: Administrar mensajes en colas
+        href: manage-messages-in-queues-exchange-2013-help.md
+      - name: Visor de cola
+        href: queue-viewer-exchange-2013-help.md
+        items:
+        - name: Conectar a un servidor en el visor de cola
+          href: connect-to-a-server-in-queue-viewer-exchange-2013-help.md
+        - name: Establecer las opciones del visor de colas
+          href: set-queue-viewer-options-exchange-2013-help.md
+        - name: Ver las propiedades de mensajes en cola en el Visor de cola
+          href: view-queued-message-properties-in-queue-viewer-exchange-2013-help.md
+        - name: Exportar listas del visor de cola
+          href: export-lists-from-queue-viewer-exchange-2013-help.md
+      - name: Filtros de mensajes
+        href: message-filters-exchange-2013-help.md
+      - name: Exportar mensajes de las colas
+        href: export-messages-from-queues-exchange-2013-help.md
+      - name: Intervalos de reintento, reenvío y expiración de mensajes
+        href: message-retry-resubmit-and-expiration-intervals-exchange-2013-help.md
+        items:
+        - name: Configurar los intervalos de reintento, reenvío y expiración de mensajes
+          href: configure-message-retry-resubmit-and-expiration-intervals-exchange-2013-help.md
+      - name: Prioridad en las colas
+        href: priority-queuing-exchange-2013-help.md
+        items:
+        - name: Habilitar y configurar colas de prioridad
+          href: enable-and-configure-priority-queuing-exchange-2013-help.md
+      - name: Cambio de la ubicación de la base de datos de colas
+        href: change-the-location-of-the-queue-database-exchange-2013-help.md
+    - name: Directorio de recogida y directorio de reproducción
+      href: pickup-directory-and-replay-directory-exchange-2013-help.md
+      items:
+      - name: Configurar el directorio de recogida y el directorio de reproducción
+        href: configure-the-pickup-directory-and-the-replay-directory-exchange-2013-help.md
+    - name: Funcionalidad TLS y terminología relacionada
+      href: tls-functionality-and-related-terminology-exchange-2013-help.md
+      items:
+      - name: 'Caso: Configurar Exchange para que sea compatible con los controladores de optimización de la WAN'
+        href: scenario-configure-exchange-to-support-wan-optimization-controllers-exchange-2013-help.md
+      - name: Deshabilitar TLS entre sitios de Active Directory
+        href: disable-tls-between-active-directory-sites-exchange-2013-help.md
+  - name: Destinatarios
+    href: recipients-exchange-2013-help.md
+    items:
+    - name: Crear buzones de usuario
+      href: create-user-mailboxes-exchange-2013-help.md
+    - name: Administrar los buzones de usuario
+      href: manage-user-mailboxes-exchange-2013-help.md
+      items:
+      - name: Agregar o quitar direcciones de correo electrónico de un buzón
+        href: add-or-remove-email-addresses-for-a-mailbox-exchange-2013-help.md
+      - name: Configurar el reenvío de correo electrónico para un buzón de correo
+        href: configure-email-forwarding-for-a-mailbox-exchange-2013-help.md
+      - name: Configurar restricciones de entrega de mensajes para un buzón de correo
+        href: configure-message-delivery-restrictions-for-a-mailbox-exchange-2013-help.md
+      - name: Configurar límites de tamaño de mensaje para un buzón de correo
+        href: configure-message-size-limits-for-a-mailbox-exchange-2013-help.md
+      - name: Configurar cuotas de almacenamiento para un buzón
+        href: configure-storage-quotas-for-a-mailbox-exchange-2013-help.md
+      - name: Convertir un buzón
+        href: convert-a-mailbox-exchange-2013-help.md
+      - name: Habilitar o deshabilitar Exchange ActiveSync para un buzón de correo
+        href: enable-or-disable-exchange-activesync-for-a-mailbox-exchange-2013-help.md
+      - name: Habilitar o deshabilitar MAPI para un buzón de correo
+        href: enable-or-disable-mapi-for-a-mailbox-exchange-online-help.md
+      - name: Habilitar o deshabilitar Outlook Web App para un buzón de correo
+        href: enable-or-disable-outlook-web-app-for-a-mailbox-exchange-2013-help.md
+      - name: Habilitar o deshabilitar la recuperación de elementos individuales de un buzón de correo
+        href: enable-or-disable-single-item-recovery-for-a-mailbox-exchange-2013-help.md
+    - name: Administrar buzones vinculados
+      href: manage-linked-mailboxes-exchange-2013-help.md
+    - name: Crear y administrar grupos de distribución
+      href: create-and-manage-distribution-groups-exchange-2013-help.md
+      items:
+      - name: Crear una directiva de nomenclatura de grupos de distribución
+        href: create-a-distribution-group-naming-policy-exchange-2013-help.md
+      - name: Invalidar la directiva de nomenclatura de grupos de distribución
+        href: override-the-distribution-group-naming-policy-exchange-2013-help.md
+    - name: Administrar grupos de seguridad habilitados para correo
+      href: manage-mail-enabled-security-groups-exchange-2013-help.md
+    - name: Administrar grupos de distribución dinámica
+      href: manage-dynamic-distribution-groups-exchange-2013-help.md
+      items:
+      - name: Ver los miembros de un grupo de distribución dinámico
+        href: view-members-of-a-dynamic-distribution-group-exchange-online-help.md
+    - name: Administrar contactos de correo
+      href: manage-mail-contacts-exchange-2013-help.md
+      items:
+      - name: Habilitar o deshabilitar el correo electrónico de un contacto de correo
+        href: enable-or-disable-email-for-a-mail-contact-exchange-2013-help.md
+    - name: Administrar usuarios de correo
+      href: manage-mail-users-exchange-2013-help.md
+      items:
+      - name: Habilitar o deshabilitar el correo electrónico de un usuario de correo
+        href: enable-or-disable-email-for-a-mail-user-exchange-2013-help.md
+    - name: Creación y administración de buzones de sala
+      href: create-and-manage-room-mailboxes-exchange-2013-help.md
+    - name: Administrar buzones de correo de equipamiento
+      href: manage-equipment-mailboxes-exchange-2013-help.md
+    - name: Buzones desconectados
+      href: disconnected-mailboxes-exchange-2013-help.md
+      items:
+      - name: Deshabilitar o eliminar un buzón de correo
+        href: disable-or-delete-a-mailbox-exchange-2013-help.md
+      - name: Conectar un buzón de correo deshabilitado
+        href: connect-a-disabled-mailbox-exchange-2013-help.md
+      - name: Conectar o restaurar un buzón eliminado
+        href: connect-or-restore-a-deleted-mailbox-exchange-2013-help.md
+      - name: Restaurar un buzón eliminado temporalmente
+        href: restore-a-soft-deleted-mailbox-exchange-2013-help.md
+      - name: Administrar solicitudes de restauración de buzones
+        href: manage-mailbox-restore-requests-exchange-2013-help.md
+      - name: Eliminar permanentemente un buzón de correo
+        href: permanently-delete-a-mailbox-exchange-2013-help.md
+    - name: Atributos personalizados
+      href: custom-attributes-exchange-2013-help.md
+    - name: Administrar permisos para los destinatarios
+      href: manage-permissions-for-recipients-exchange-online-help.md
+    - name: Caracteres no admitidos en los nombres de objetos de Exchange 2013
+      href: unsupported-characters-for-exchange-2013-object-names-exchange-2013-help.md
+    - name: Distribución automática de buzones
+      href: automatic-mailbox-distribution-exchange-2013-help.md
+  - name: Colaboración
+    href: collaboration-exchange-2013-help.md
+    items:
+    - name: Buzones de correo del sitio
+      href: site-mailboxes-exchange-2013-help.md
+      items:
+      - name: Administrar el buzón de sitio políticas de provisioning
+        href: manage-site-mailbox-provisioning-policies-exchange-2013-help.md
+    - name: Carpetas públicas
+      href: public-folders-exchange-2013-help.md
+      items:
+      - name: 'P+F: Carpetas públicas'
+        href: faq-public-folders-exchange-2013-help.md
+      - name: Límites de las carpetas públicas
+        href: limits-for-public-folders-exchange-2013-help.md
+      - name: Consideraciones a la hora de implementar carpetas públicas
+        href: considerations-when-deploying-public-folders-exchange-2013-help.md
+      - name: Acceso a las carpetas públicas con Outlook 2016 para Mac
+        href: accessing-public-folders-with-outlook-2016-for-mac-exchange-2013-help.md
+      - name: Migrar las carpetas públicas a grupos de Office 365
+        href: migrate-your-public-folders-to-office-365-groups-exchange-2013-help.md
+      - name: Procedimientos de carpetas públicas
+        href: public-folder-procedures-exchange-2013-help.md
+        items:
+        - name: Configurar las carpetas públicas de una nueva organización
+          href: set-up-public-folders-in-a-new-organization-exchange-2013-help.md
+        - name: Configurar carpetas públicas locales heredadas para una implementación híbrida
+          href: configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md
+        - name: Configuración de las carpetas públicas de Exchange 2013 para una implementación híbrida
+          href: configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md
+        - name: Configurar las carpetas públicas de Exchange Online para una implementación híbrida
+          href: configure-exchange-online-public-folders-for-a-hybrid-deployment-exchange-2013-help.md
+        - name: Configurar las carpetas públicas heredadas en las que se encuentran los buzones de usuario en los servidores de Exchange 2013
+          href: configure-legacy-public-folders-where-user-mailboxes-are-on-exchange-2013-servers-exchange-2013-help.md
+        - name: Usar migración por lotes para migrar carpetas públicas a Exchange 2013 desde versiones anteriores
+          href: use-batch-migration-to-migrate-public-folders-to-exchange-2013-from-previous-versions-exchange-2013-help.md
+        - name: Usar la migración por lotes para migrar carpetas públicas heredadas a Office 365 y Exchange Online
+          href: use-batch-migration-to-migrate-legacy-public-folders-to-office-365-and-exchange-online-exchange-online-help.md
+        - name: Usar la migración por lotes para migrar carpetas públicas de Exchange 2013 a Exchange Online
+          href: use-batch-migration-to-migrate-exchange-2013-public-folders-to-exchange-online-exchange-online-help.md
+          items:
+          - name: Revertir una migración de carpetas públicas de Exchange 2013 a Exchange Online
+            href: roll-back-a-public-folder-migration-from-exchange-2013-to-exchange-online-exchange-2013-help.md
+        - name: Utilizar lotes de migración para migrar carpetas públicas de Exchange 2010 a Office 365 grupos
+          href: use-batch-migration-to-migrate-exchange-2010-public-folders-to-office-365-groups-exchange-2013-help.md
+        - name: Utilizar lotes de migración para migrar carpetas públicas de Exchange de 2013 a Office 365 grupos
+          href: use-batch-migration-to-migrate-exchange-2013-public-folders-to-office-365-groups-exchange-2013-help.md
+        - name: Crear un buzón de carpetas públicas
+          href: create-a-public-folder-mailbox-exchange-2013-help.md
+        - name: Crear una carpeta pública
+          href: create-a-public-folder-exchange-2013-help.md
+        - name: Habilitar o deshabilitar el correo para una carpeta pública
+          href: mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md
+        - name: Actualizar la jerarquía de carpetas públicas
+          href: update-the-public-folder-hierarchy-exchange-2013-help.md
+        - name: Quitar una carpeta pública
+          href: remove-a-public-folder-exchange-2013-help.md
+        - name: Usar carpetas públicas favoritas en Outlook en la web
+          href: use-favorite-public-folders-in-outlook-on-the-web-exchange-2013-help.md
+        - name: Mover un buzón de carpetas públicas a una base de datos de buzones diferente
+          href: move-a-public-folder-mailbox-to-a-different-mailbox-database-exchange-2013-help.md
+        - name: Mover una carpeta pública a otro buzón de carpetas públicas
+          href: move-a-public-folder-to-a-different-public-folder-mailbox-exchange-2013-help.md
+        - name: Restaurar carpetas públicas y buzones de carpetas públicas de movimientos fallidos
+          href: restore-public-folders-and-public-folder-mailboxes-from-failed-moves-exchange-2013-help.md
+        - name: Ver estadísticas de carpetas públicas y elementos de carpetas públicas
+          href: view-statistics-for-public-folders-and-public-folder-items-exchange-2013-help.md
+    - name: Buzones compartidos
+      href: shared-mailboxes-exchange-2013-help.md
+      items:
+      - name: Creación de un buzón compartido
+        href: create-a-shared-mailbox-exchange-2013-help.md
+  - name: Direcciones de correo electrónico y libretas de direcciones
+    href: email-addresses-and-address-books-exchange-2013-help.md
+    items:
+    - name: Directivas de la libreta de direcciones
+      href: address-book-policies-exchange-2013-help.md
+      items:
+      - name: 'Caso: implementación de directivas de libretas de direcciones'
+        href: scenario-deploying-address-book-policies-exchange-2013-help.md
+      - name: Procedimientos de directivas de la libreta de direcciones
+        href: address-book-policy-procedures-exchange-2013-help.md
+        items:
+        - name: Instalar y configurar al agente de enrutamiento de directivas de libretas de direcciones
+          href: install-and-configure-the-address-book-policy-routing-agent-exchange-2013-help.md
+        - name: Crear una directiva de libreta de direcciones
+          href: create-an-address-book-policy-exchange-2013-help.md
+        - name: Asignar una directiva de libreta de direcciones a usuarios de correo
+          href: assign-an-address-book-policy-to-mail-users-exchange-2013-help.md
+        - name: Cambiar la configuración de una directiva de libreta de direcciones
+          href: change-the-settings-of-an-address-book-policy-exchange-2013-help.md
+        - name: Quitar una política de libreta de direcciones
+          href: remove-an-address-book-policy-exchange-2013-help.md
+    - name: Plantillas de detalles
+      href: details-templates-exchange-2013-help.md
+      items:
+      - name: Personalizar las plantillas de detalles
+        href: customize-details-templates-exchange-2013-help.md
+      - name: Restaurar la configuración predeterminada de una plantilla de detalles
+        href: restore-a-details-template-to-the-default-configuration-exchange-2013-help.md
+    - name: Directivas de dirección de correo electrónico
+      href: email-address-policies-exchange-2013-help.md
+      items:
+      - name: Procedimientos de directivas de direcciones de correo electrónico
+        href: email-address-policy-procedures-exchange-2013-help.md
+        items:
+        - name: Crear una directiva de dirección de correo electrónico
+          href: create-an-email-address-policy-exchange-2013-help.md
+        - name: Crear una directiva de la dirección de correo electrónico mediante filtros de destinatario
+          href: create-an-email-address-policy-by-using-recipient-filters-exchange-2013-help.md
+        - name: Editar una directiva de dirección de correo electrónico
+          href: edit-an-email-address-policy-exchange-2013-help.md
+        - name: Eliminar una directiva de la dirección de correo electrónico
+          href: remove-an-email-address-policy-exchange-2013-help.md
+    - name: Libretas de direcciones sin conexión
+      href: offline-address-books-exchange-2013-help.md
+      items:
+      - name: Procedimientos de libretas de direcciones sin conexión
+        href: offline-address-book-procedures-exchange-2013-help.md
+        items:
+        - name: Crear una libreta de direcciones sin conexión
+          href: create-an-offline-address-book-exchange-2013-help.md
+        - name: Agregar una lista de direcciones o quitar una lista de direcciones de la libretas de direcciones sin conexión
+          href: add-an-address-list-to-or-remove-an-address-list-from-an-offline-address-book-exchange-2013-help.md
+        - name: Cambiar la libreta de direcciones sin conexión predeterminada
+          href: change-the-default-offline-address-book-exchange-2013-help.md
+        - name: Establecer destinatarios para descargas de la libreta de direcciones sin conexión
+          href: provision-recipients-for-offline-address-book-downloads-exchange-2013-help.md
+        - name: Quitar una libreta de direcciones sin conexión
+          href: remove-an-offline-address-book-exchange-2013-help.md
+        - name: Actualizar la libreta de direcciones sin conexión
+          href: update-an-offline-address-book-exchange-2013-help.md
+        - name: Crear un directorio virtual de la libreta de direcciones sin conexión
+          href: create-an-offline-address-book-virtual-directory-exchange-2013-help.md
+        - name: Cambiar el programa de generación de libretas de direcciones sin conexión
+          href: change-the-offline-address-book-generation-schedule-exchange-2013-help.md
+        - name: Configurar propiedades de distribución de libreta de direcciones sin conexión
+          href: configure-offline-address-book-distribution-properties-exchange-2013-help.md
+    - name: Listas de direcciones
+      href: address-lists-exchange-2013-help.md
+      items:
+      - name: Procedimientos de la lista de direcciones
+        href: address-list-procedures-exchange-2013-help.md
+        items:
+        - name: Crear una lista de direcciones
+          href: create-an-address-list-exchange-2013-help.md
+        - name: Actualizar una lista de direcciones
+          href: update-an-address-list-exchange-2013-help.md
+        - name: Crear una lista de direcciones mediante filtros de destinatario
+          href: create-an-address-list-by-using-recipient-filters-exchange-2013-help.md
+        - name: Mover una lista de direcciones
+          href: move-an-address-list-exchange-2013-help.md
+        - name: Quitar una lista de direcciones
+          href: remove-an-address-list-exchange-2013-help.md
+        - name: Crear una lista global de direcciones
+          href: create-a-global-address-list-exchange-2013-help.md
+        - name: Configurar las propiedades de la lista global de direcciones
+          href: configure-global-address-list-properties-exchange-2013-help.md
+        - name: Quitar una lista global de direcciones
+          href: remove-a-global-address-list-exchange-2013-help.md
+        - name: Actualizar una lista global de direcciones
+          href: update-a-global-address-list-exchange-2013-help.md
+    - name: Libretas de direcciones jerárquicas
+      href: hierarchical-address-books-exchange-2013-help.md
+      items:
+      - name: Habilitar o deshabilitar libretas jerárquicas de direcciones
+        href: enable-or-disable-hierarchical-address-books-exchange-2013-help.md
+  - name: Uso compartido
+    href: sharing-exchange-2013-help.md
+    items:
+    - name: Federación
+      href: federation-exchange-2013-help.md
+      items:
+      - name: Autoridades de certificación raíz de confianza para confianzas de federación
+        href: trusted-root-certification-authorities-for-federation-trusts-exchange-2013-help.md
+      - name: Procedimientos de la Federación
+        href: federation-procedures-exchange-2013-help.md
+        items:
+        - name: Configuración del uso compartido federado
+          href: configure-federated-sharing-exchange-2013-help.md
+        - name: Configurar una confianza de federación
+          href: configure-a-federation-trust-exchange-2013-help.md
+        - name: Administrar una confianza de federación
+          href: manage-a-federation-trust-exchange-2013-help.md
+        - name: Quitar las confianzas de federación
+          href: remove-a-federation-trust-exchange-2013-help.md
+        - name: Renovar el certificado de federación
+          href: renew-the-federation-certificate-exchange-2013-help.md
+        - name: Deshabilitar o volver a habilitar compartir federados para la organización de Exchange
+          href: disable-or-re-enable-federated-sharing-for-your-exchange-organization-exchange-2013-help.md
+        - name: Configuración del uso compartido federado entre organizaciones de Exchange
+          href: configuring-federated-sharing-between-exchange-organizations-exchange-2013-help.md
+        - name: Configurar la autenticación OAuth entre organizaciones de Exchange y Exchange Online
+          href: configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help.md
+    - name: Relaciones entre organizaciones
+      href: organization-relationships-exchange-2013-help.md
+      items:
+      - name: Crear una relación de organización
+        href: create-an-organization-relationship-exchange-2013-help.md
+      - name: Modificar una relación de la organización
+        href: modify-an-organization-relationship-exchange-2013-help.md
+      - name: Quitar una relación de la organización
+        href: remove-an-organization-relationship-exchange-2013-help.md
+    - name: Directivas de uso compartido
+      href: sharing-policies-exchange-2013-help.md
+      items:
+      - name: Crear una directiva de uso compartido
+        href: create-a-sharing-policy-exchange-2013-help.md
+      - name: Aplicar una directiva de uso compartida a los buzones
+        href: apply-a-sharing-policy-to-mailboxes-exchange-2013-help.md
+      - name: Modificar, deshabilitar o quitar una directiva de uso compartido
+        href: modify-disable-or-remove-a-sharing-policy-exchange-2013-help.md
+      - name: Habilitar la publicación del calendario de Internet
+        href: enable-internet-calendar-publishing-exchange-2013-help.md
+      - name: Deshabilitar la publicación de calendarios de Internet
+        href: disable-internet-calendar-publishing-exchange-2013-help.md
+  - name: Clientes y móvil
+    href: clients-and-mobile-exchange-2013-help.md
+    items:
+    - name: Outlook en cualquier lugar
+      href: outlook-anywhere-exchange-2013-help.md
+      items:
+      - name: Comprobar la conectividad de Outlook en cualquier lugar
+        href: test-outlook-anywhere-connectivity-exchange-2013-help.md
+    - name: MAPI sobre HTTP
+      href: mapi-over-http-exchange-2013-help.md
+    - name: Exchange ActiveSync
+      href: exchange-activesync-exchange-2013-help.md
+      items:
+      - name: Envío directo
+        href: direct-push-exchange-2013-help.md
+      - name: Directivas de buzón de dispositivo móvil
+        href: mobile-device-mailbox-policies-exchange-2013-help.md
+        items:
+        - name: Agregar o quitar usuarios de una directiva de buzón móvil
+          href: add-or-remove-users-from-a-mobile-mailbox-policy-exchange-2013-help.md
+        - name: Crear o modificar una directiva de buzón de dispositivo móvil
+          href: create-or-modify-a-mobile-device-mailbox-policy-exchange-2013-help.md
+        - name: Directivas de buzones de correo para dispositivos móviles compatibles con teléfonos y dispositivos de Windows
+          href: supported-mobile-device-mailbox-policies-for-windows-phones-and-devices-exchange-2013-help.md
+      - name: Dispositivos móviles
+        href: mobile-devices-exchange-2013-help.md
+        items:
+        - name: Borrado remoto del dispositivo
+          href: remote-device-wipe-exchange-2013-help.md
+        - name: Ver información de dispositivo móvil para los usuarios
+          href: view-mobile-device-information-for-users-exchange-2013-help.md
+        - name: Características de teléfonos móviles y tabletas
+          href: mobile-phone-and-tablet-features-exchange-2013-help.md
+        - name: Realizar una limpieza remota en un teléfono móvil
+          href: perform-a-remote-wipe-on-a-mobile-phone-exchange-2013-help.md
+        - name: Configurar teléfonos móviles para tener acceso al correo electrónico
+          href: configure-mobile-phones-to-access-email-exchange-2013-help.md
+    - name: POP3 e IMAP4
+      href: pop3-and-imap4-in-exchange-server-2013-exchange-2013-help.md
+      items:
+      - name: Iniciar y detener los servicios POP3
+        href: start-and-stop-the-pop3-services-exchange-2013-help.md
+      - name: Iniciar y detener los servicios IMAP4
+        href: start-and-stop-the-imap4-services-exchange-2013-help.md
+      - name: Habilitar POP3
+        href: enable-pop3-in-exchange-2013-exchange-2013-help.md
+      - name: Habilitar IMAP4 en Exchange 2016
+        href: enable-imap4-in-exchange-2013-exchange-2013-help.md
+      - name: Habilitar o deshabilitar el acceso POP3 para un usuario
+        href: enable-or-disable-pop3-access-for-a-user-exchange-2013-help.md
+      - name: Habilitar o deshabilitar el acceso a IMAP4 para un usuario
+        href: enable-or-disable-imap4-access-for-a-user-exchange-2013-help.md
+      - name: Establecer límites de conexión para POP3
+        href: set-connection-limits-for-pop3-exchange-2013-help.md
+      - name: Establecer los límites de conexión para IMAP4
+        href: set-connection-limits-for-imap4-exchange-2013-help.md
+      - name: Establecer límites de tiempo de espera de conexión para POP3
+        href: set-connection-time-out-limits-for-pop3-exchange-2013-help.md
+      - name: Establecer límites de tiempo de espera de conexión para IMAP4
+        href: set-connection-time-out-limits-for-imap4-exchange-2013-help.md
+      - name: Configurar las opciones de calendario para POP3
+        href: configure-calendar-options-for-pop3-exchange-2013-help.md
+      - name: Configurar opciones de calendario para IMAP4
+        href: configure-calendar-options-for-imap4-exchange-2013-help.md
+      - name: Configurar las opciones de formato de recepción de mensajes POP3 e IMAP4
+        href: configure-pop3-and-imap4-message-retrieval-format-options-exchange-2013-help.md
+      - name: Configurar direcciones IP y puertos de acceso a POP3 e IMAP4
+        href: configure-ip-addresses-and-ports-for-pop3-and-imap4-access-exchange-2013-help.md
+      - name: Permitir que los de usuarios finales vean la configuración de servidor de POP3, IMAP4 y SMTP en Outlook Web App
+        href: allow-pop3-imap4-and-smtp-server-settings-to-be-viewed-by-end-users-in-outlook-web-app-exchange-2013-help.md
+      - name: Registro de protocolo para POP3 e IMAP4
+        href: protocol-logging-for-pop3-and-imap4-exchange-2013-help.md
+        items:
+        - name: Configurar del registro de protocolo para POP3 e IMAP4
+          href: configure-protocol-logging-for-pop3-and-imap4-exchange-2013-help.md
+    - name: Outlook for iOS and Android
+      href: outlook-for-ios-and-android-exchange-2013-help.md
+      items:
+      - name: Uso de híbridos modernos de autenticación con Outlook para iOS y Android
+        href: using-hybrid-modern-authentication-with-outlook-for-ios-and-android-exchange-2013-help.md
+      - name: Outlook for iOS and Android
+        href: using-basic-authentication-with-outlook-for-ios-and-android-exchange-2013-help.md
+        items:
+        - name: Configuración de la cuenta en Outlook para iOS y Android mediante la autenticación básica
+          href: account-setup-in-outlook-for-ios-and-android-using-basic-authentication-exchange-2013-help.md
+        - name: Passwords and Security in Outlook for iOS and Android for Exchange Server
+          href: passwords-and-security-in-outlook-for-ios-and-android-for-exchange-server-exchange-2013-help.md
+        - name: Administrar dispositivos en Outlook para iOS y Android para Exchange Server
+          href: managing-devices-for-outlook-for-ios-and-android-for-exchange-server-exchange-2013-help.md
+    - name: Administración de protocolos de cliente
+      href: client-protocol-management-exchange-2013-help.md
+      items:
+      - name: Administración de directorios virtuales
+        href: virtual-directory-management-exchange-2013-help.md
+        items:
+        - name: Tareas de administración del directorio virtual de Exchange ActiveSync
+          href: exchange-activesync-virtual-directory-management-tasks-exchange-2013-help.md
+        - name: Configuración predeterminada para directorios virtuales de Exchange
+          href: default-settings-for-exchange-virtual-directories-exchange-2013-help.md
+    - name: Outlook Web App
+      href: outlook-web-app-exchange-2013-help.md
+      items:
+      - name: Directivas de buzones de Outlook Web App
+        href: outlook-web-app-mailbox-policies-exchange-2013-help.md
+        items:
+        - name: Procedimientos de políticas de buzón de Outlook Web App
+          href: outlook-web-app-mailbox-policy-procedures-exchange-2013-help.md
+          items:
+          - name: Crear una directiva de buzones de Outlook Web App
+            href: create-an-outlook-web-app-mailbox-policy-exchange-2013-help.md
+          - name: Aplicar o quitar una directiva de buzón de Outlook Web App en un buzón
+            href: apply-or-remove-an-outlook-web-app-mailbox-policy-on-a-mailbox-exchange-2013-help.md
+          - name: Quitar una directiva de buzón de Outlook Web App de Exchange
+            href: remove-an-outlook-web-app-mailbox-policy-from-exchange-exchange-2013-help.md
+          - name: Ver o configurar las propiedades de directiva de buzón de Outlook Web App
+            href: view-or-configure-outlook-web-app-mailbox-policy-properties-exchange-2013-help.md
+      - name: Integrar Outlook Web App con Lync Server
+        href: integrate-outlook-web-app-with-lync-server-exchange-2013-help.md
+      - name: Ver o configurar los directorios virtuales de aplicación web de Outlook
+        href: view-or-configure-outlook-web-app-virtual-directories-exchange-2013-help.md
+      - name: Simplificar la dirección URL de Outlook Web App
+        href: simplify-the-outlook-web-app-url-exchange-2013-help.md
+      - name: Crear un tema para Outlook Web App
+        href: create-a-theme-for-outlook-web-app-exchange-2013-help.md
+      - name: Personalizar las páginas de inicio de sesión, selección de idioma y error de Outlook Web App
+        href: customize-the-outlook-web-app-sign-in-language-selection-and-error-pages-exchange-2013-help.md
+      - name: Configuración del proxy de notificaciones de inserción para OWA para dispositivos
+        href: configuring-push-notifications-proxying-for-owa-for-devices-exchange-2013-help.md
+      - name: Usar la autenticación basada en notificaciones de AD FS con Outlook Web App y EAC
+        href: using-ad-fs-claims-based-authentication-with-outlook-web-app-and-eac-exchange-2013-help.md
+      - name: Uso de elementos web de Outlook Web App
+        href: using-outlook-web-app-web-parts-exchange-2013-help.md
+    - name: MailTips
+      href: mailtips-exchange-2013-help.md
+      items:
+      - name: Habilitar o deshabilitar sugerencias de correo electrónico
+        href: enable-or-disable-mailtips-exchange-2013-help.md
+      - name: Configurar el tamaño de gran audiencia para su organización
+        href: configure-the-large-audience-size-for-your-organization-exchange-2013-help.md
+      - name: Configurar las sugerencias de correo electrónico personalizadas para los destinatarios
+        href: configure-custom-mailtips-for-recipients-exchange-2013-help.md
+      - name: Sugerencias de correo electrónico sobre las relaciones de la organización
+        href: mailtips-over-organization-relationships-exchange-2013-help.md
+        items:
+        - name: Administrar sugerencias de correo electrónico para las relaciones de la organización
+          href: manage-mailtips-for-organization-relationships-exchange-2013-help.md
+      - name: Grupo métricas y sugerencias de correo electrónico
+        href: group-metrics-and-mailtips-exchange-2013-help.md
+        items:
+        - name: Configurar métricas de grupo
+          href: configure-group-metrics-exchange-2013-help.md
+    - name: Aplicaciones para Outlook
+      href: add-ins-for-outlook-exchange-2013-help.md
+      items:
+      - name: Instalación o eliminación de aplicaciones para Outlook en la organización
+        href: install-or-remove-add-ins-for-outlook-for-your-organization-exchange-2013-help.md
+      - name: Administrar el acceso del usuario a aplicaciones para Outlook
+        href: manage-user-access-to-add-ins-for-outlook-exchange-online-help.md
+      - name: Especifique los administradores y los usuarios que pueden instalar y administrar complementos para Outlook
+        href: specify-the-administrators-and-users-who-can-install-and-manage-add-ins-for-outlook-exchange-2013-help.md
+    - name: Configuración de la descarga de SSL en Exchange 2013
+      href: configuring-ssl-offloading-in-exchange-2013-exchange-2013-help.md
+  - name: Mensajería unificada
+    href: unified-messaging-exchange-2013-help.md
+    items:
+    - name: Nuevas características de correo de voz
+      href: new-voice-mail-features-exchange-2013-help.md
+      items:
+      - name: Cambios en la arquitectura de voz
+        href: voice-architecture-changes-exchange-2013-help.md
+      - name: Compatibilidad con IPv6 en mensajería unificada
+        href: ipv6-support-in-unified-messaging-exchange-2013-help.md
+      - name: Mejoras de vista previa del correo de voz
+        href: voice-mail-preview-enhancements-exchange-2013-help.md
+      - name: Actualizaciones de cmdlet de mensajería unificada
+        href: unified-messaging-cmdlet-updates-exchange-2013-help.md
+    - name: Diseño de mensajería unificada
+      href: planning-for-unified-messaging-exchange-2013-help.md
+    - name: Implementación del correo de voz y mensajería unificada
+      href: deploying-voice-mail-and-um-exchange-2013-help.md
+      items:
+      - name: Implementar mensajería unificada de Exchange 2013
+        href: deploy-exchange-2013-um-exchange-2013-help.md
+      - name: 'Lista de comprobación: Implementar mensajería unificada de Exchange 2013'
+        href: checklist-deploy-exchange-2013-um-exchange-2013-help.md
+      - name: Actualizar la mensajería unificada (UM) de Exchange 2010 a la mensajería unificada de Exchange 2013
+        href: upgrade-exchange-2010-um-to-exchange-2013-um-exchange-2013-help.md
+      - name: 'Lista de comprobación: Actualizar la mensajería unificada (UM) de Exchange 2010 a la mensajería unificada (UM) de Exchange 2013'
+        href: checklist-upgrade-exchange-2010-um-to-exchange-2013-um-exchange-2013-help.md
+      - name: Actualizar la mensajería UNIFICADA de Exchange 2007 para la mensajería UNIFICADA de Exchange de 2013
+        href: upgrade-exchange-2007-um-to-exchange-2013-um-exchange-2013-help.md
+      - name: 'Lista de comprobación: Actualizar la Mensajería unificada de Exchange 2007 a la Mensajería unificada de Exchange 2013'
+        href: checklist-upgrade-exchange-2007-um-to-exchange-2013-um-exchange-2013-help.md
+      - name: Resumen de implementación de Mensajería unificada de Exchange 2013 y Lync Server
+        href: deploying-exchange-2013-um-and-lync-server-overview-exchange-2013-help.md
+        items:
+        - name: Configurar la mensajería unificada para que funcione con Lync Server
+          href: configure-um-to-work-with-lync-server-exchange-2013-help.md
+        - name: 'Lista de comprobación: Integrar mensajería unificada de Exchange 2013 con Lync Server'
+          href: checklist-integrate-exchange-2013-um-with-lync-server-exchange-2013-help.md
+        - name: Coexistencia con Office Communications Server 2007 R2 y Lync Server
+          href: coexistence-with-office-communications-server-2007-r2-and-lync-server-exchange-2013-help.md
+      - name: Implementación de certificados para mensajería unificada
+        href: deploying-certificates-for-um-exchange-2013-help.md
+        items:
+        - name: Implementación de certificados para los procedimientos de mensajería unificada
+          href: deploying-certificates-for-um-procedures-exchange-2013-help.md
+          items:
+          - name: Crear certificados para mensajería unificada (UM)
+            href: create-certificates-for-um-exchange-2013-help.md
+          - name: Importar o exportar certificados para mensajería unificada
+            href: import-or-export-certificates-for-um-exchange-2013-help.md
+          - name: Asignar un certificado a los servicios de mensajería unificada y llamar al enrutador de mensajería unificada
+            href: assign-a-certificate-to-the-um-and-um-call-router-services-exchange-2013-help.md
+    - name: Idiomas, mensajes y saludos de mensajería unificada
+      href: um-languages-prompts-and-greetings-exchange-2013-help.md
+      items:
+      - name: Saludos de correo de voz, anuncios, menús y mensajes
+        href: voice-mail-greetings-announcements-menus-and-prompts-exchange-2013-help.md
+      - name: Procedimientos de lenguajes, mensajes y saludos de mensajería unificada
+        href: um-languages-prompts-and-greetings-procedures-exchange-2013-help.md
+        items:
+        - name: Instalar un paquete de idioma de mensajería unificada
+          href: install-a-um-language-pack-exchange-2013-help.md
+        - name: Establecer el idioma predeterminado en un plan de marcado
+          href: set-the-default-language-on-a-dial-plan-exchange-2013-help.md
+        - name: Seleccione el idioma para el operador automático
+          href: select-the-language-for-an-auto-attendant-exchange-2013-help.md
+        - name: Quitar un paquete de idioma de mensajería unificada
+          href: remove-a-um-language-pack-exchange-2013-help.md
+        - name: Importar y exportar saludos personalizados, anuncios, menús y avisos
+          href: import-and-export-custom-greetings-announcements-menus-and-prompts-exchange-2013-help.md
+        - name: Importar mensajes personalizados de Exchange 2007 a Exchange 2013
+          href: import-custom-prompts-from-exchange-2007-to-exchange-2013-exchange-2013-help.md
+        - name: Habilitar la grabación de mensajes personalizados con la interfaz de usuario de teléfono
+          href: enable-custom-prompt-recording-using-the-telephone-user-interface-exchange-2013-help.md
+    - name: Integración del sistema telefónico con mensajería unificada
+      href: telephone-system-integration-with-um-exchange-2013-help.md
+      items:
+      - name: Conceptos y componentes de telefonía
+        href: telephony-concepts-and-components-exchange-2013-help.md
+      - name: Configuraciones de PBX e IP PBX
+        href: pbx-and-ip-pbx-configurations-exchange-2013-help.md
+      - name: Conectar la mensajería unificada para su sistema telefónico
+        href: connect-um-to-your-telephone-system-exchange-2013-help.md
+        items:
+        - name: Asesor de telefonía para Exchange 2013
+          href: telephony-advisor-for-exchange-2013-exchange-2013-help.md
+        - name: Notas para la configuración de puertas de enlace de VoIP, IP PBX y PBX compatibles
+          href: configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md
+        - name: Conectar una puerta de enlace VoIP, IP PBX o un controlador de borde de sesión a mensajería unificada
+          href: connect-a-voip-gateway-ip-pbx-or-session-border-controller-to-um-exchange-2013-help.md
+        - name: Conectar la mensajería unificada a una puerta de enlace VoIP compatible
+          href: connect-um-to-a-supported-voip-gateway-exchange-2013-help.md
+        - name: Conectar una puerta de enlace VoIP para comunicarse con una PBX
+          href: connect-a-voip-gateway-to-communicate-with-a-pbx-exchange-2013-help.md
+        - name: Notas de configuración de los controladores de borde de sesión admitidos
+          href: configuration-notes-for-supported-session-border-controllers-exchange-2013-help.md
+    - name: Conecte su sistema de correo de voz a la red de teléfono
+      href: connect-your-voice-mail-system-to-your-telephone-network-exchange-2013-help.md
+      items:
+      - name: Planes de marcado de mensajería unificada
+        href: um-dial-plans-exchange-2013-help.md
+        items:
+        - name: Códecs de audio
+          href: audio-codecs-exchange-2013-help.md
+        - name: Planes de marcado secundario
+          href: secondary-dial-plans-exchange-2013-help.md
+        - name: Procedimientos de plan de marcado de mensajería unificada
+          href: um-dial-plan-procedures-exchange-2013-help.md
+          items:
+          - name: Crear un plan de marcado de mensajería unificada
+            href: create-a-um-dial-plan-exchange-2013-help.md
+          - name: Administrar un plan de marcado de mensajería unificada
+            href: manage-a-um-dial-plan-exchange-2013-help.md
+          - name: Agregar servidores de acceso de cliente y buzón a un plan de marcado de URI de SIP
+            href: add-mailbox-and-client-access-servers-to-a-sip-uri-dial-plan-exchange-2013-help.md
+          - name: Quitar servidores de buzón y acceso de cliente de un plan de marcado de URI de SIP
+            href: remove-mailbox-and-client-access-servers-from-a-sip-uri-dial-plan-exchange-2013-help.md
+          - name: Cambio del códec de audio
+            href: change-the-audio-codec-exchange-2013-help.md
+          - name: Configuración de la duración máxima de la llamada
+            href: configure-the-maximum-call-duration-exchange-2013-help.md
+          - name: Configurar la duración máxima de grabación
+            href: configure-the-maximum-recording-duration-exchange-2013-help.md
+          - name: Configurar el valor de tiempo de espera de grabación
+            href: configure-the-recording-idle-time-out-value-exchange-2013-help.md
+          - name: Establecer la configuración de seguridad de VoIP
+            href: configure-the-voip-security-setting-exchange-2013-help.md
+          - name: Configurar un plan de marcado para los usuarios con nombres parecidos
+            href: configure-a-dial-plan-for-users-who-have-similar-names-exchange-2013-help.md
+          - name: Eliminar un plan de marcado de mensajería unificada
+            href: delete-a-um-dial-plan-exchange-2013-help.md
+      - name: Puertas de enlace IP de mensajería unificada
+        href: um-ip-gateways-exchange-2013-help.md
+        items:
+        - name: Procedimientos de puerta de enlace IP de mensajería unificada
+          href: um-ip-gateway-procedures-exchange-2013-help.md
+          items:
+          - name: Cree una puerta de enlace IP de mensajería unificada
+            href: create-a-um-ip-gateway-exchange-2013-help.md
+          - name: Administrar una puerta de enlace IP de mensajería unificada
+            href: manage-a-um-ip-gateway-exchange-2013-help.md
+          - name: Habilitar una puerta de enlace IP de mensajería unificada
+            href: enable-a-um-ip-gateway-exchange-2013-help.md
+          - name: Deshabilitar una puerta de enlace IP de MU
+            href: disable-a-um-ip-gateway-exchange-2013-help.md
+          - name: Configurar un nombre de dominio completo
+            href: configure-a-fully-qualified-domain-name-exchange-2013-help.md
+          - name: Configuración de la dirección IP
+            href: configure-the-ip-address-exchange-2013-help.md
+          - name: Configurar el puerto de escucha
+            href: configure-the-listening-port-exchange-2013-help.md
+          - name: Eliminar una puerta de enlace IP de mensajería unificada
+            href: delete-a-um-ip-gateway-exchange-2013-help.md
+      - name: Grupos de búsqueda de mensajería unificada
+        href: um-hunt-groups-exchange-2013-help.md
+        items:
+        - name: Procedimientos de grupo de captura de mensajería unificada
+          href: um-hunt-group-procedures-exchange-2013-help.md
+          items:
+          - name: Crear un grupo de extensiones de mensajería unificada
+            href: create-a-um-hunt-group-exchange-2013-help.md
+          - name: Ver un grupo de captura de mensajería unificada
+            href: view-a-um-hunt-group-exchange-2013-help.md
+          - name: Eliminar un grupo de extensiones de MU.
+            href: delete-a-um-hunt-group-exchange-2013-help.md
+      - name: Servicios de mensajería unificada
+        href: um-services-exchange-2013-help.md
+        items:
+        - name: Protocolos, puertos y servicios de mensajería unificada (UM)
+          href: um-protocols-ports-and-services-exchange-2013-help.md
+        - name: Procedimientos de servicios de mensajería unificada
+          href: um-services-procedures-exchange-2013-help.md
+          items:
+          - name: Administrar la configuración de mensajería unificada en un servidor de buzones
+            href: manage-um-settings-on-a-mailbox-server-exchange-2013-help.md
+          - name: Administrar la configuración de mensajería unificada en un servidor de acceso de cliente
+            href: manage-um-settings-on-a-client-access-server-exchange-2013-help.md
+          - name: Permitir o impedir la contestación en un servidor de buzón de llamadas
+            href: allow-or-prevent-call-answering-on-a-mailbox-server-exchange-2013-help.md
+          - name: Permitir o evitar la llamada a responder en un servidor de acceso de cliente
+            href: allow-or-prevent-call-answering-on-a-client-access-server-exchange-2013-help.md
+          - name: Configurar el modo de inicio en un servidor de buzones
+            href: configure-the-startup-mode-on-a-mailbox-server-exchange-2013-help.md
+          - name: Configurar el modo de inicio en un servidor de acceso de cliente
+            href: configure-the-startup-mode-on-a-client-access-server-exchange-2013-help.md
+          - name: Configurar el número de llamadas entrantes en un servidor de buzones
+            href: configure-the-number-of-incoming-calls-on-a-mailbox-server-exchange-2013-help.md
+          - name: Iniciar el servicio de mensajería unificada de Microsoft Exchange
+            href: start-the-microsoft-exchange-unified-messaging-service-exchange-2013-help.md
+          - name: Interrumpir el servicio de mensajería unificada de Microsoft Exchange
+            href: stop-the-microsoft-exchange-unified-messaging-service-exchange-2013-help.md
+          - name: Iniciar el servicio Microsoft Exchange Unified Messaging llame al Router
+            href: start-the-microsoft-exchange-unified-messaging-call-router-service-exchange-2013-help.md
+          - name: Detenga el servicio Microsoft Exchange Unified Messaging llame al Router
+            href: stop-the-microsoft-exchange-unified-messaging-call-router-service-exchange-2013-help.md
+          - name: Establecer el puerto de escucha TCP en un servidor de acceso de cliente
+            href: set-the-tcp-listening-port-on-a-client-access-server-exchange-2013-help.md
+          - name: Configurar el puerto de escucha TLS en un servidor de acceso de cliente
+            href: set-the-tls-listening-port-on-a-client-access-server-exchange-2013-help.md
+    - name: Contestar y enrutar automáticamente las llamadas entrantes
+      href: automatically-answer-and-route-incoming-calls-exchange-2013-help.md
+      items:
+      - name: Interfaz DTMF
+        href: dtmf-interface-exchange-2013-help.md
+      - name: Procedimientos operador automático de mensajería unificada
+        href: um-auto-attendant-procedures-exchange-2013-help.md
+        items:
+        - name: Configuración de un operador automático de mensajería unificada
+          href: set-up-a-um-auto-attendant-exchange-2013-help.md
+          items:
+          - name: Crear un operador automático de mensajería unificada
+            href: create-a-um-auto-attendant-exchange-2013-help.md
+          - name: Agregar un número de extensión de operador automático
+            href: add-an-auto-attendant-extension-number-exchange-2013-help.md
+          - name: Configurar el horario de oficina
+            href: configure-business-hours-exchange-2013-help.md
+          - name: Crear una programación de vacaciones
+            href: create-a-holiday-schedule-exchange-2013-help.md
+          - name: Escriba un nombre de empresa
+            href: enter-a-business-name-exchange-2013-help.md
+          - name: Establecer la ubicación de un negocio
+            href: set-a-business-location-exchange-2013-help.md
+          - name: Configurar la zona horaria
+            href: configure-the-time-zone-exchange-2013-help.md
+          - name: Habilitar un saludo de horario comercial personalizada
+            href: enable-a-customized-business-hours-greeting-exchange-2013-help.md
+          - name: Habilitar un mensaje del menú de horario comercial personalizada
+            href: enable-a-customized-business-hours-menu-prompt-exchange-2013-help.md
+          - name: Habilitar un personalizada no - saludo de horario comercial
+            href: enable-a-customized-non-business-hours-greeting-exchange-2013-help.md
+          - name: Habilitar un aviso de menú personalizado para el horario no comercial
+            href: enable-a-customized-non-business-hours-menu-prompt-exchange-2013-help.md
+          - name: Habilitar un anuncio informativo
+            href: enable-an-informational-announcement-exchange-2013-help.md
+          - name: Crear la navegación del menú
+            href: create-menu-navigation-exchange-2013-help.md
+          - name: Crear menús de navegación de horario comercial
+            href: create-business-hours-navigation-menus-exchange-2013-help.md
+          - name: Crear menús de navegación de horas no hábiles
+            href: create-non-business-hours-navigation-menus-exchange-2013-help.md
+        - name: Administrar a un operador automático de mensajería unificada
+          href: manage-a-um-auto-attendant-exchange-2013-help.md
+        - name: Configurar a un operador automático de reserva de DTMF
+          href: configure-a-dtmf-fallback-auto-attendant-exchange-2013-help.md
+        - name: Habilitar un operador automático de MU
+          href: enable-a-um-auto-attendant-exchange-2013-help.md
+        - name: Deshabilitar a un operador automático de mensajería unificada
+          href: disable-a-um-auto-attendant-exchange-2013-help.md
+        - name: Eliminar a un operador automático de mensajería unificada
+          href: delete-a-um-auto-attendant-exchange-2013-help.md
+        - name: Habilitar o deshabilitar el reconocimiento de voz automático
+          href: enable-or-disable-automatic-speech-recognition-exchange-2013-help.md
+        - name: Permitir o impedir la transferencia de llamadas de un operador automático
+          href: enable-or-prevent-transferring-calls-from-an-auto-attendant-exchange-2013-help.md
+        - name: Habilitar o deshabilitar el envío de mensajes de voz a usuarios
+          href: enable-or-disable-sending-voice-messages-to-users-exchange-2013-help.md
+        - name: Habilitar o deshabilitar las búsquedas de directorio
+          href: enable-or-disable-directory-lookups-exchange-2013-help.md
+        - name: Configurar el grupo de usuarios a los que se puede contactar
+          href: configure-the-group-of-users-that-can-be-contacted-exchange-2013-help.md
+        - name: Configurar a un operador automático para los usuarios que tienen nombres similares
+          href: configure-an-auto-attendant-for-users-who-have-similar-names-exchange-2013-help.md
+    - name: Configurar el correo de voz para los usuarios
+      href: set-up-voice-mail-for-users-exchange-2013-help.md
+      items:
+      - name: directivas de buzón de mensajería unificada
+        href: um-mailbox-policies-exchange-2013-help.md
+        items:
+        - name: Procedimientos de políticas de buzón de mensajería unificada
+          href: um-mailbox-policy-procedures-exchange-2013-help.md
+          items:
+          - name: Crear una directiva de buzón de mensajería unificada
+            href: create-a-um-mailbox-policy-exchange-2013-help.md
+          - name: Administrar una directiva de buzones de correo de mensajería unificada
+            href: manage-a-um-mailbox-policy-exchange-2013-help.md
+          - name: Eliminar una directiva de buzón de mensajería unificada
+            href: delete-a-um-mailbox-policy-exchange-2013-help.md
+      - name: Correo de voz para usuarios
+        href: voice-mail-for-users-exchange-2013-help.md
+        items:
+        - name: Procedimientos de usuario habilitado para correo de voz
+          href: voice-mail-enabled-user-procedures-exchange-2013-help.md
+          items:
+          - name: Habilitar a un usuario para el correo de voz
+            href: enable-a-user-for-voice-mail-exchange-2013-help.md
+          - name: Incluir el texto con el mensaje de correo electrónico que se envía cuando un usuario está habilitado para correo de voz
+            href: include-text-with-the-email-message-sent-when-a-user-is-enabled-for-voice-mail-exchange-2013-help.md
+          - name: Administrar la configuración de correo de voz para un usuario
+            href: manage-voice-mail-settings-for-a-user-exchange-2013-help.md
+          - name: Asignar una directiva de buzón de mensajería unificada
+            href: assign-a-um-mailbox-policy-exchange-2013-help.md
+          - name: Cambiar el plan de marcado de mensajería unificada
+            href: change-the-um-dial-plan-exchange-2013-help.md
+          - name: Habilitar las llamadas de los usuarios que no están habilitados para mensajería unificada
+            href: enable-calls-from-users-who-aren-t-um-enabled-exchange-2013-help.md
+          - name: Deshabilitar las llamadas de los usuarios que no están habilitados para mensajería unificada
+            href: disable-calls-from-users-who-aren-t-um-enabled-exchange-2013-help.md
+          - name: Permitir a quienes llaman sin un identificador para dejar un mensaje de voz
+            href: allow-callers-without-a-caller-id-to-leave-a-voice-message-exchange-2013-help.md
+          - name: Incluir el texto con el mensaje de correo electrónico que se envía cuando se recibe un mensaje de voz
+            href: include-text-with-the-email-message-sent-when-a-voice-message-is-received-exchange-2013-help.md
+          - name: Impedir que los llamadores sin un ID dejando un mensaje de voz
+            href: prevent-callers-without-a-caller-id-from-leaving-a-voice-message-exchange-2013-help.md
+          - name: Deshabilitar el correo de voz para un usuario
+            href: disable-voice-mail-for-a-user-exchange-2013-help.md
+          - name: Cambiar una dirección SIP
+            href: change-a-sip-address-exchange-2013-help.md
+          - name: Cambiar un número de extensión
+            href: change-an-extension-number-exchange-2013-help.md
+          - name: Agregar una dirección SIP
+            href: add-a-sip-address-exchange-2013-help.md
+          - name: Quitar una dirección SIP
+            href: remove-a-sip-address-exchange-2013-help.md
+          - name: Agregar un número de extensión
+            href: add-an-extension-number-exchange-2013-help.md
+          - name: Quitar un número de extensión
+            href: remove-an-extension-number-exchange-2013-help.md
+          - name: Cambiar un número E.164
+            href: change-an-e-164-number-exchange-2013-help.md
+          - name: Agregar un número E.164
+            href: add-an-e-164-number-exchange-2013-help.md
+          - name: Quitar un número E.164
+            href: remove-an-e-164-number-exchange-2013-help.md
+    - name: Configurar características de correo de voz de cliente
+      href: set-up-client-voice-mail-features-exchange-2013-help.md
+      items:
+      - name: Configuración de Outlook Voice Access
+        href: setting-up-outlook-voice-access-exchange-2013-help.md
+        items:
+        - name: Comandos de Outlook Voice Access
+          href: outlook-voice-access-commands-exchange-2013-help.md
+        - name: Navegar por los menús con Outlook Voice Access
+          href: navigating-menus-with-outlook-voice-access-exchange-2013-help.md
+        - name: Reproducir en teléfono
+          href: play-on-phone-exchange-2013-help.md
+        - name: Procedimientos de Outlook Voice Access
+          href: outlook-voice-access-procedures-exchange-2013-help.md
+          items:
+          - name: Habilitar o deshabilitar Outlook Voice Access para los usuarios
+            href: enable-or-disable-outlook-voice-access-for-users-exchange-2013-help.md
+          - name: Configurar un número de Outlook Voice Access
+            href: configure-an-outlook-voice-access-number-exchange-2013-help.md
+          - name: Deshabilitar las características seleccionadas para los usuarios de Outlook Voice Access
+            href: disable-selected-features-for-outlook-voice-access-users-exchange-2013-help.md
+          - name: Establecer características de buzón de correo para los usuarios de Outlook Voice Access
+            href: set-mailbox-features-for-outlook-voice-access-users-exchange-2013-help.md
+          - name: Conjunto de características de buzón para un usuario de Outlook Voice Access
+            href: set-mailbox-features-for-an-outlook-voice-access-user-exchange-2013-help.md
+          - name: Habilitar o deshabilitar el reconocimiento automático de voz para un usuario de Outlook Voice Access User
+            href: enable-or-disable-automatic-speech-recognition-for-an-outlook-voice-access-user-exchange-2013-help.md
+          - name: Habilitar un anuncio informativo para los usuarios de Outlook Voice Access
+            href: enable-an-informational-announcement-for-outlook-voice-access-users-exchange-2013-help.md
+          - name: Habilitar un saludo personalizado para los usuarios de Outlook Voice Access
+            href: enable-a-customized-greeting-for-outlook-voice-access-users-exchange-2013-help.md
+          - name: Habilitar o deshabilitar reproducir en el teléfono para los usuarios de Outlook Voice Access
+            href: enable-or-disable-play-on-phone-for-outlook-voice-access-users-exchange-2013-help.md
+          - name: Habilitar o deshabilitar el envío de mensajes de voz de Outlook Voice Access
+            href: enable-or-disable-sending-voice-messages-from-outlook-voice-access-exchange-2013-help.md
+          - name: Permitir o impedir la transferencia de llamadas desde Outlook Voice Access
+            href: enable-or-prevent-transferring-calls-from-outlook-voice-access-exchange-2013-help.md
+          - name: Configurar el grupo de usuarios que pueden ponerse en contacto con los usuarios de Outlook Voice Access
+            href: configure-the-group-of-users-that-outlook-voice-access-users-can-contact-exchange-2013-help.md
+          - name: Configurar el modo principal para los usuarios de Outlook Voice Access buscar
+            href: configure-the-primary-way-for-outlook-voice-access-users-to-search-exchange-2013-help.md
+          - name: Configurar la forma secundaria para los usuarios de Outlook Voice Access buscar
+            href: configure-the-secondary-way-for-outlook-voice-access-users-to-search-exchange-2013-help.md
+          - name: Configurar el número de errores de inicio de sesión antes de que se desconecten los usuarios de Outlook Voice Access
+            href: configure-the-number-of-sign-in-failures-before-outlook-voice-access-users-are-disconnected-exchange-2013-help.md
+          - name: Configurar el número de fallos de entrada antes de desconectan los usuarios de Outlook Voice Access
+            href: configure-the-number-of-input-failures-before-outlook-voice-access-users-are-disconnected-exchange-2013-help.md
+          - name: Configurar el límite de saludos personales para los usuarios de Outlook Voice Access
+            href: configure-the-limit-on-personal-greetings-for-outlook-voice-access-users-exchange-2013-help.md
+      - name: Permitir usuarios de mail reenviar llamadas de voz
+        href: allow-voice-mail-users-to-forward-calls-exchange-2013-help.md
+        items:
+        - name: Reenvío de llamadas a procedimientos
+          href: forwarding-calls-procedures-exchange-2013-help.md
+          items:
+          - name: Permitir o impedir la creación de reglas de respuesta de llamada de un usuario
+            href: allow-or-prevent-a-user-from-creating-call-answering-rules-exchange-2013-help.md
+          - name: Permitir o impedir que los usuarios de la misma directiva de buzón de mensajería unificada desde la creación de reglas de respuesta de llamada
+            href: allow-or-prevent-users-in-the-same-um-mailbox-policy-from-creating-call-answering-rules-exchange-2013-help.md
+          - name: Crear una regla de respuesta a llamadas
+            href: create-a-call-answering-rule-exchange-2013-help.md
+          - name: Ver y administrar una regla de respuesta a llamada
+            href: view-and-manage-a-call-answering-rule-exchange-2013-help.md
+          - name: Habilitar o deshabilitar una regla de contestador automático para un usuario
+            href: enable-or-disable-a-call-answering-rule-for-a-user-exchange-2013-help.md
+          - name: Quitar una regla de respuesta a llamadas para un usuario
+            href: remove-a-call-answering-rule-for-a-user-exchange-2013-help.md
+      - name: Permitir que los usuarios realicen llamadas
+        href: allow-users-to-make-calls-exchange-2013-help.md
+        items:
+        - name: Códigos de marcado, prefijos numéricos y formatos de número
+          href: dial-codes-number-prefixes-and-number-formats-exchange-2013-help.md
+        - name: Permitir a los usuarios realizar llamadas a procedimientos
+          href: allowing-users-to-make-calls-procedures-exchange-2013-help.md
+          items:
+          - name: Habilitar las llamadas salientes de puertas de enlace IP de mensajería unificada
+            href: enable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md
+          - name: Deshabilitar las llamadas salientes de puertas de enlace IP de mensajería unificada
+            href: disable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md
+          - name: Configurar códigos de marcado
+            href: configure-dial-codes-exchange-2013-help.md
+          - name: Crear reglas de marcado para usuarios
+            href: create-dialing-rules-for-users-exchange-2013-help.md
+          - name: Autorizar llamadas mediante reglas de marcado
+            href: authorize-calls-using-dialing-rules-exchange-2013-help.md
+            items:
+            - name: ¿Autorizar llamadas de llamadores de operador automático
+              href: authorize-calls-for-auto-attendant-callers-exchange-2013-help.md
+            - name: Autorizar llamadas a los usuarios en un plan de marcado
+              href: authorize-calls-for-users-in-a-dial-plan-exchange-2013-help.md
+            - name: ¿Autorizar llamadas para un grupo de usuarios
+              href: authorize-calls-for-a-group-of-users-exchange-2013-help.md
+      - name: Permitir a los usuarios ver una transcripción de correo de voz
+        href: allow-users-to-see-a-voice-mail-transcript-exchange-2013-help.md
+        items:
+        - name: Asesor de vista previa de correo de voz
+          href: voice-mail-preview-advisor-exchange-2013-help.md
+        - name: Procedimientos de vista previa del correo de voz
+          href: voice-mail-preview-procedures-exchange-2013-help.md
+          items:
+          - name: Configurar servicios de socios de vista previa del correo de voz para los usuarios
+            href: configure-voice-mail-preview-partner-services-for-users-exchange-2013-help.md
+            items:
+            - name: Establecer la dirección del socio de vista previa del correo de voz
+              href: set-the-voice-mail-preview-partner-address-exchange-2013-help.md
+            - name: Establezca el identificador del socio de vista previa del correo de voz
+              href: set-the-voice-mail-preview-partner-id-exchange-2013-help.md
+            - name: Establecer la duración máxima del mensaje para un socio de la vista previa del correo de voz
+              href: set-the-maximum-message-duration-for-a-voice-mail-preview-partner-exchange-2013-help.md
+            - name: Establecer el retardo máximo de entrega para un socio de la vista previa del correo de voz
+              href: set-the-maximum-delivery-delay-for-a-voice-mail-preview-partner-exchange-2013-help.md
+          - name: Habilitar vista previa de correo de voz para los usuarios
+            href: enable-voice-mail-preview-for-users-exchange-2013-help.md
+          - name: Deshabilitar la vista previa del correo de voz para usuarios
+            href: disable-voice-mail-preview-for-users-exchange-2013-help.md
+      - name: Permitir que los usuarios de correo de voz reciban faxes
+        href: enable-voice-mail-users-to-receive-faxes-exchange-2013-help.md
+        items:
+        - name: Asesor de fax para la mensajería unificada de Exchange
+          href: fax-advisor-for-exchange-um-exchange-2013-help.md
+        - name: Configuración de faxes entrantes
+          href: setting-up-incoming-faxing-exchange-2013-help.md
+          items:
+          - name: Procedimientos de envío de faxes
+            href: faxing-procedures-exchange-2013-help.md
+            items:
+            - name: El asociado del conjunto de servidor de fax URI para permitir el envío de faxes
+              href: set-the-partner-fax-server-uri-to-allow-faxing-exchange-2013-help.md
+            - name: Incluir el texto con el mensaje de correo electrónico que se envía cuando se recibe un mensaje de fax
+              href: include-text-with-the-email-message-sent-when-a-fax-message-is-received-exchange-2013-help.md
+            - name: Permitir a los usuarios en el mismo plan de marcado para recibir faxes
+              href: allow-users-in-the-same-dial-plan-to-receive-faxes-exchange-2013-help.md
+            - name: Impedir que los usuarios en el mismo plan de marcado de recibir faxes
+              href: prevent-users-in-the-same-dial-plan-from-receiving-faxes-exchange-2013-help.md
+            - name: Habilitar el envío de faxes para un grupo de usuarios
+              href: enable-faxing-for-a-group-of-users-exchange-2013-help.md
+            - name: Deshabilitar el envío de faxes para un grupo de usuarios
+              href: disable-faxing-for-a-group-of-users-exchange-2013-help.md
+            - name: Habilitar un usuario recibir faxes
+              href: enable-a-user-to-receive-faxes-exchange-2013-help.md
+            - name: Evitar que un usuario reciba faxes
+              href: prevent-a-user-from-receiving-faxes-exchange-2013-help.md
+      - name: Protección del correo de voz
+        href: protect-voice-mail-exchange-2013-help.md
+        items:
+        - name: Procedimientos de correo de voz protegidos
+          href: protected-voice-mail-procedures-exchange-2013-help.md
+          items:
+          - name: Configurar correo de voz protegido de llamadores autenticados
+            href: configure-protected-voice-mail-from-authenticated-callers-exchange-2013-help.md
+          - name: Configurar el correo de voz protegido de los llamadores no autenticados
+            href: configure-protected-voice-mail-from-unauthenticated-callers-exchange-2013-help.md
+          - name: Habilitar o deshabilitar la reproducción multimedia de los mensajes de voz protegido
+            href: enable-or-disable-multimedia-playback-of-protected-voice-messages-exchange-2013-help.md
+          - name: Especificar el texto que se muestra para los clientes de correo electrónico que no son compatibles con Windows Rights Management
+            href: specify-the-text-to-display-for-email-clients-that-don-t-support-windows-rights-management-exchange-2013-help.md
+      - name: Permitir el Indicador de mensaje en espera
+        href: allow-message-waiting-indicator-exchange-2013-help.md
+        items:
+        - name: Permite a los procedimientos de indicador de mensaje en espera
+          href: allow-message-waiting-indicator-procedures-exchange-2013-help.md
+          items:
+          - name: Permitir el Indicador de mensajes en espera (MWI) en una puerta de enlace IP de mensajería unificada
+            href: allow-message-waiting-indicator-mwi-on-a-um-ip-gateway-exchange-2013-help.md
+          - name: Evitar que el indicador de espera de mensaje (MWI) en una puerta de enlace IP de mensajería unificada
+            href: prevent-message-waiting-indicator-mwi-on-a-um-ip-gateway-exchange-2013-help.md
+          - name: Habilitar el indicador de espera de mensaje (MWI) para los usuarios
+            href: enable-message-waiting-indicator-mwi-for-users-exchange-2013-help.md
+          - name: Deshabilitar el indicador de espera de mensaje (MWI) para los usuarios
+            href: disable-message-waiting-indicator-mwi-for-users-exchange-2013-help.md
+          - name: Habilitar notificaciones de llamadas perdidas para un usuario
+            href: enable-missed-call-notifications-for-a-user-exchange-2013-help.md
+          - name: Deshabilitar notificaciones de llamadas perdidas para un usuario
+            href: disable-missed-call-notifications-for-a-user-exchange-2013-help.md
+    - name: Configurar la seguridad del PIN de Outlook Voice Access
+      href: set-outlook-voice-access-pin-security-exchange-2013-help.md
+      items:
+      - name: Procedimientos de seguridad PIN
+        href: pin-security-procedures-exchange-2013-help.md
+        items:
+        - name: Establecer directivas de NIP de Outlook Voice Access
+          href: set-outlook-voice-access-pin-policies-exchange-2013-help.md
+        - name: Restablecer el PIN del correo de voz.
+          href: reset-a-voice-mail-pin-exchange-2013-help.md
+        - name: Recuperar información de PIN del correo de voz
+          href: retrieve-voice-mail-pin-information-exchange-2013-help.md
+        - name: Incluir el texto con el mensaje de correo electrónico que se envía cuando un restablecimiento de PIN es
+          href: include-text-with-the-email-message-sent-when-a-pin-is-reset-exchange-2013-help.md
+        - name: Establecer la longitud mínima del NIP de correo de voz
+          href: set-the-minimum-pin-length-for-voice-mail-exchange-2013-help.md
+        - name: Establecer la duración PIN de correo de voz
+          href: set-the-pin-lifetime-for-voice-mail-exchange-2013-help.md
+        - name: Establecer el número de correo de voz anterior pines para reciclaje
+          href: set-the-number-of-previous-voice-mail-pins-to-recycle-exchange-2013-help.md
+        - name: Deshabilitar los modelos comunes de PIN de correo de voz
+          href: disable-common-pin-patterns-for-voice-mail-exchange-2013-help.md
+        - name: Permitir patrones comunes de PIN de correo de voz
+          href: enable-common-pin-patterns-for-voice-mail-exchange-2013-help.md
+        - name: Establecer el número de errores de inicio de sesión antes de un restablecimiento del NIP de correo de voz
+          href: set-the-number-of-sign-in-failures-before-a-voice-mail-pin-is-reset-exchange-2013-help.md
+        - name: Establecer el número de errores de inicio de sesión antes de bloquea un usuario de correo de voz
+          href: set-the-number-of-sign-in-failures-before-a-voice-mail-user-is-locked-out-exchange-2013-help.md
+        - name: Habilitar inicios de sesión sin PIN para correo de voz
+          href: enable-pin-less-sign-ins-for-voice-mail-exchange-2013-help.md
+    - name: Ejecutar informes para llamadas de correo de voz
+      href: run-reports-for-voice-mail-calls-exchange-2013-help.md
+      items:
+      - name: Procedimientos de informes de mensajería unificada
+        href: um-reports-procedures-exchange-2013-help.md
+        items:
+        - name: Revisar las llamadas de correo de voz en su organización
+          href: review-the-voice-mail-calls-in-your-organization-exchange-2013-help.md
+        - name: Revisar las llamadas de correo de voz para un usuario
+          href: review-the-voice-mail-calls-for-a-user-exchange-2013-help.md
+        - name: Investigar la calidad de audio de las llamadas de voz en su organización
+          href: investigate-the-audio-quality-of-voice-calls-in-your-organization-exchange-2013-help.md
+        - name: Investigación de la calidad de audio de llamadas de voz para un usuario
+          href: investigate-the-audio-quality-of-voice-calls-for-a-user-exchange-2013-help.md
+        - name: Interpretar los registros de llamadas de correo de voz
+          href: interpret-voice-mail-call-records-exchange-2013-help.md
+    - name: Probar y solucionar problemas de correo de voz
+      href: test-and-troubleshoot-voice-mail-exchange-2013-help.md
+      items:
+      - name: Pruebas y solución de problemas con la herramienta para la solución de problemas de UM
+        href: testing-and-troubleshooting-with-the-um-troubleshooting-tool-exchange-2013-help.md
+        items:
+        - name: Información sobre herramienta para la solución de problemas de mensajería unificada de Exchange
+          href: learn-about-the-exchange-um-troubleshooting-tool-exchange-2013-help.md
+        - name: Ejecución de la herramienta para la solución de problemas de Mensajería unificada de Exchange en Windows 7 o Windows 8
+          href: run-the-exchange-um-troubleshooting-tool-on-windows-7-or-windows-8-exchange-2013-help.md
+        - name: Establecer las credenciales para usar con la herramienta para la solución de problemas de Mensajería unificada de Exchange
+          href: set-the-credentials-to-use-with-the-exchange-um-troubleshooting-tool-exchange-2013-help.md
+        - name: Instalación de la herramienta para la solución de problemas de Mensajería unificada de Exchange
+          href: install-the-exchange-um-troubleshooting-tool-exchange-2013-help.md
+      - name: Pruebas y solución de problemas con el cmdlet Test-UMConnectivity
+        href: testing-and-troubleshooting-with-the-test-umconnectivity-cmdlet-exchange-2013-help.md
+        items:
+        - name: Comprobar el funcionamiento de la Mensajería unificada
+          href: test-um-operation-exchange-2013-help.md
+        - name: Probar la conectividad de Mensajería unificada con puertas de enlace VoIP y PBX
+          href: test-um-connectivity-to-voip-gateways-and-pbxs-exchange-2013-help.md
+    - name: Terminología de Mensajería unificada (UM) y correo de voz
+      href: um-and-voice-mail-terminology-exchange-2013-help.md
+  - name: Servidores de buzones de correo y de acceso de clientes
+    href: mailbox-and-client-access-servers-exchange-2013-help.md
+    items:
+    - name: Servidor de buzones de correo
+      href: mailbox-server-exchange-2013-help.md
+      items:
+      - name: Almacén administrado
+        href: managed-store-exchange-2013-help.md
+        items:
+        - name: Límites del almacén administrado
+          href: managed-store-limits-exchange-2013-help.md
+      - name: Administrar bases de datos de buzones en Exchange 2013
+        href: manage-mailbox-databases-in-exchange-2013-exchange-2013-help.md
+        items:
+        - name: Configurar el registro circular para una base de datos de buzones
+          href: configure-circular-logging-for-a-mailbox-database-exchange-2013-help.md
+        - name: Descripción del llenado con ceros de las páginas de Exchange 2013
+          href: understanding-exchange-2013-page-zeroing-exchange-2013-help.md
+      - name: Búsqueda de Exchange
+        href: exchange-search-exchange-2013-help.md
+        items:
+        - name: Formatos de archivo indizados por la búsqueda de Exchange
+          href: file-formats-indexed-by-exchange-search-exchange-2013-help.md
+        - name: Propiedades de mensajes indexadas por la búsqueda de Exchange
+          href: message-properties-indexed-by-exchange-search-exchange-2013-help.md
+        - name: Procedimientos de búsqueda de Exchange
+          href: exchange-search-procedures-exchange-2013-help.md
+          items:
+          - name: Deshabilitar o habilitar el servicio de búsqueda de Exchange
+            href: disable-or-enable-exchange-search-exchange-2013-help.md
+          - name: Diagnosticar problemas del servicio de búsqueda de Exchange
+            href: diagnose-exchange-search-issues-exchange-2013-help.md
+          - name: Reinicializar el catálogo de búsqueda
+            href: reseed-the-search-catalog-exchange-2013-help.md
+      - name: Movimientos de buzones de Exchange 2013
+        href: mailbox-moves-in-exchange-2013-exchange-2013-help.md
+        items:
+        - name: Administración de movimientos locales
+          href: manage-on-premises-moves-exchange-2013-help.md
+        - name: Mover el buzón del sistema de Exchange 2010 a Exchange 2013
+          href: move-the-exchange-2010-system-mailbox-to-exchange-2013-exchange-2013-help.md
+        - name: Preparar los buzones para las solicitudes de movimiento entre bosques
+          href: prepare-mailboxes-for-cross-forest-move-requests-exchange-2013-help.md
+          items:
+          - name: Preparar buzones para moverlos entre bosques con el script Prepare-MoveRequest.ps1 en el Shell
+            href: prepare-mailboxes-for-cross-forest-moves-using-the-prepare-moverequest-ps1-script-in-the-shell-exchange-2013-help.md
+          - name: Preparar buzones para movimientos entre bosques mediante código de ejemplo
+            href: prepare-mailboxes-for-cross-forest-moves-using-sample-code-exchange-2013-help.md
+        - name: Habilitar el extremo del proxy MRS para movimientos remotos
+          href: enable-the-mrs-proxy-endpoint-for-remote-moves-exchange-2013-help.md
+        - name: Archivos CSV para la migración de buzones
+          href: csv-files-for-mailbox-migration-exchange-2013-help.md
+      - name: Solicitudes de importación y exportación de buzones
+        href: mailbox-import-and-export-requests-exchange-2013-help.md
+      - name: Recreating arbitration mailboxes
+        href: recreating-arbitration-mailboxes-exchange-2013-help.md
+      - name: Carpeta Elementos recuperables
+        href: recoverable-items-folder-exchange-2013-help.md
+        items:
+        - name: Limpiar la carpeta Elementos recuperables
+          href: clean-up-the-recoverable-items-folder-exchange-2013-help.md
+        - name: Configurar la retención de elementos eliminados y las cuotas de elementos recuperables
+          href: configure-deleted-item-retention-and-recoverable-items-quotas-exchange-2013-help.md
+        - name: Recuperar mensajes eliminados en el buzón de un usuario
+          href: recover-deleted-messages-in-a-user-s-mailbox-exchange-2013-help.md
+        - name: Obtener estadísticas de la carpeta Elementos recuperables
+          href: get-recoverable-items-folder-statistics-exchange-2013-help.md
+    - name: Servidor de acceso de cliente
+      href: client-access-server-exchange-2013-help.md
+      items:
+      - name: Analizador de conectividad remota de Exchange
+        href: exchange-remote-connectivity-analyzer-exchange-2013-help.md
+        items:
+        - name: Ayudar a identificar mi problema con el envío y recepción de correo electrónico en un dispositivo móvil (comprobaciones automáticas)
+          href: help-identify-my-issue-with-sending-receiving-email-on-a-mobile-device-automatic-checks-exchange-2013-help.md
+        - name: Ayudar a identificar mi problema con el envío y recepción de correo electrónico en Office Outlook (comprobaciones automáticas)
+          href: help-identify-my-issue-with-sending-receiving-email-in-office-outlook-automatic-checks-exchange-2013-help.md
+        - name: 'Azure Ayudar a identificar mi problema con comprobaciones automáticas: registros DNS'
+          href: azure-help-identify-my-issue-with-automatic-checks-dns-records-exchange-2013-help.md
+        - name: 'Ayudar a identificar mis problemas con comprobaciones automáticas: herramientas de terceros'
+          href: help-identify-my-issues-with-automatic-checks-3rd-party-tools-exchange-2013-help.md
+        - name: 'Ayudar a identificar mi problema con comprobaciones automáticas: Active Directory'
+          href: help-identify-my-issue-with-automatic-checks-active-directory-exchange-2013-help.md
+        - name: 'Ayudar a identificar mi problema con comprobaciones automáticas: agregar dominios'
+          href: help-idenfity-my-issue-with-automatic-checks-adding-domains-exchange-2013-help.md
+        - name: 'Ayudar a identificar mi problema con comprobaciones automáticas: SSO'
+          href: help-identify-my-issue-with-automatic-checks-sso-exchange-2013-help.md
+        - name: 'Ayudar a identificar mi problema con comprobaciones automáticas: cuota'
+          href: help-identify-my-issue-with-automatic-checks-quota-exchange-2013-help.md
+        - name: 'Ayudar a identificar mi problema con comprobaciones automáticas: implementación de Office'
+          href: help-identify-my-issue-with-automatic-checks-deploying-office-exchange-2013-help.md
+        - name: 'Ayudar a identificar mi problema con comprobaciones automáticas: migración'
+          href: help-identify-my-issue-with-automatic-checks-migration-exchange-2013-help.md
+        - name: 'Ayudar a identificar mi problema con comprobaciones automáticas: sincronización de directorios'
+          href: help-identify-my-issue-with-automatic-checks-directory-synchronization-exchange-2013-help.md
+      - name: Configuración del servidor de acceso de cliente de Exchange 2013
+        href: exchange-2013-client-access-server-configuration-exchange-2013-help.md
+      - name: Servicio Detección automática
+        href: autodiscover-service-for-exchange-2013.md
+      - name: Equilibrio de carga
+        href: load-balancing-exchange-2013-help.md
+      - name: Configurar la autenticación de Kerberos para servidores de acceso de cliente con equilibrio de carga
+        href: configuring-kerberos-authentication-for-load-balanced-client-access-servers-exchange-2013-help.md
+      - name: Uso del script RollAlternateserviceAccountCredential.ps1 en el Shell
+        href: using-the-rollalternateserviceaccountcredential-ps1-script-in-the-shell-exchange-2013-help.md
+        items:
+        - name: Solución de problemas del script RollAlternateServiceAccountCredential.ps1
+          href: troubleshooting-the-rollalternateserviceaccountcredential-ps1-script-exchange-2013-help.md
+      - name: Certificados digitales y SSL
+        href: digital-certificates-and-ssl-exchange-2013-help.md
+        items:
+        - name: Crear una solicitud de certificado digital
+          href: create-a-digital-certificate-request-exchange-2013-help.md
+        - name: Interfaz de usuario de administración de certificados de Exchange 2013
+          href: exchange-2013-certificate-management-ui-exchange-2013-help.md
+      - name: Configurar límites de tamaño de mensaje específicos del cliente
+        href: configure-client-specific-message-size-limits-exchange-2013-help.md
+      - name: Servicio de disponibilidad en Exchange 2013
+        href: availability-service-in-exchange-2013-exchange-2013-help.md
+        items:
+        - name: Configurar el servicio de disponibilidad para topologías entre bosques
+          href: configure-the-availability-service-for-cross-forest-topologies-exchange-2013-help.md
+  - name: Servidores de transporte perimetral
+    href: edge-transport-servers-exchange-2013-help.md
+    items:
+    - name: Suscripciones perimetrales
+      href: edge-subscriptions-exchange-2013-help.md
+      items:
+      - name: Datos de replicación de EdgeSync
+        href: edgesync-replication-data-exchange-2013-help.md
+      - name: Credenciales de suscripción perimetral
+        href: edge-subscription-credentials-exchange-2013-help.md
+      - name: Manage Edge Subscriptions
+        href: manage-edge-subscriptions-exchange-2013-help.md
+      - name: Modificar la configuración de AD LDS
+        href: modify-ad-lds-configuration-exchange-2013-help.md
+      - name: Configurar manualmente el flujo de correo del servidor de transporte perimetral
+        href: manually-configure-edge-transport-server-mail-flow-exchange-2013-help.md
+      - name: Configurar el flujo de correo de Internet por medio de un servidor de transporte perimetral suscrito
+        href: configure-internet-mail-flow-through-a-subscribed-edge-transport-server-exchange-2013-help.md
+      - name: Configurar el flujo de correo de Internet a través de un servidor de transporte perimetral sin usar EdgeSync
+        href: configure-internet-mail-flow-through-an-edge-transport-server-without-using-edgesync-exchange-2013-help.md
+      - name: Planeación de servidores de transporte perimetral
+        href: edge-transport-server-planning-exchange-2013-help.md
+    - name: Configuración clonada del servidor de transporte perimetral
+      href: edge-transport-server-cloned-configuration-exchange-2013-help.md
+      items:
+      - name: Configurar el servidor de transporte perimetral mediante una configuración clonada
+        href: configure-edge-transport-server-using-cloned-configuration-exchange-2013-help.md
+    - name: Usar un servidor de transporte perimetral de Exchange 2010 o 2007 en Exchange 2013
+      href: use-an-exchange-2010-or-2007-edge-transport-server-in-exchange-2013-exchange-2013-help.md
+    - name: Reconfiguración de direcciones en los servidores de transporte perimetral
+      href: address-rewriting-on-edge-transport-servers-exchange-2013-help.md
+      items:
+      - name: Administrar la reconfiguración de direcciones en servidores de transporte perimetral
+        href: manage-address-rewriting-on-edge-transport-servers-exchange-2013-help.md
+      - name: Importación de entradas de reescritura de direcciones en servidores de transporte perimetral
+        href: import-address-rewrite-entries-on-edge-transport-servers-exchange-2013-help.md
+  - name: Alta disponibilidad y resistencia de sitios
+    href: high-availability-and-site-resilience-exchange-2013-help.md
+    items:
+    - name: Cambios en la alta disponibilidad y resistencia de sitios respecto a versiones anteriores
+      href: changes-to-high-availability-and-site-resilience-over-previous-versions-exchange-2013-help.md
+    - name: Grupos de disponibilidad de base de datos (DAG)
+      href: database-availability-groups-dags-exchange-2013-help.md
+      items:
+      - name: Active Manager
+        href: active-manager-exchange-2013-help.md
+      - name: Modo de coordinación de activación de centro de datos
+        href: datacenter-activation-coordination-mode-exchange-2013-help.md
+      - name: Copias de bases de datos de buzones
+        href: mailbox-database-copies-exchange-2013-help.md
+      - name: AutoReseed
+        href: autoreseed-exchange-2013-help.md
+    - name: Planificación de alta disponibilidad y resistencia de sitios
+      href: planning-for-high-availability-and-site-resilience-exchange-2013-help.md
+    - name: Implementación de alta disponibilidad y resistencia de sitios
+      href: deploying-high-availability-and-site-resilience-exchange-2013-help.md
+    - name: Administración de alta disponibilidad y resistencia de sitios
+      href: managing-high-availability-and-site-resilience-exchange-2013-help.md
+      items:
+      - name: Administrar grupos de disponibilidad de base de datos
+        href: managing-database-availability-groups-exchange-2013-help.md
+        items:
+        - name: Crear un grupo de disponibilidad de base de datos
+          href: create-a-database-availability-group-exchange-2013-help.md
+        - name: Preconfiguración del objeto de nombre de clúster para un grupo de disponibilidad de base de datos
+          href: pre-stage-the-cluster-name-object-for-a-database-availability-group-exchange-2013-help.md
+        - name: Configurar las propiedades del grupo de disponibilidad de base de datos
+          href: configure-database-availability-group-properties-exchange-2013-help.md
+        - name: Administración de la pertenencia a grupos de disponibilidad de base de datos
+          href: manage-database-availability-group-membership-exchange-2013-help.md
+        - name: Creación de una red de grupos de disponibilidad de base de datos
+          href: create-a-database-availability-group-network-exchange-2013-help.md
+        - name: Configuración de propiedades de red de grupos de disponibilidad de base de datos
+          href: configure-database-availability-group-network-properties-exchange-2013-help.md
+        - name: Configurar un grupo de disponibilidad de la base de datos AutoReseed
+          href: configure-autoreseed-for-a-database-availability-group-exchange-2013-help.md
+        - name: Eliminación de un grupo de disponibilidad de base de datos
+          href: remove-a-database-availability-group-exchange-2013-help.md
+        - name: Usar una máquina virtual de Microsoft Azure como un servidor testigo del DAG
+          href: using-a-microsoft-azure-vm-as-a-dag-witness-server-exchange-2013-help.md
+      - name: Administración de copias de bases de datos de buzones de correo
+        href: managing-mailbox-database-copies-exchange-2013-help.md
+        items:
+        - name: Adición de una copia de base de datos de buzones
+          href: add-a-mailbox-database-copy-exchange-2013-help.md
+        - name: Configuración de las propiedades de una copia de base de datos de buzones
+          href: configure-mailbox-database-copy-properties-exchange-2013-help.md
+        - name: Mover la ruta de acceso a la base de datos de buzones de correo para la copia de una base de datos de buzones
+          href: move-the-mailbox-database-path-for-a-mailbox-database-copy-exchange-2013-help.md
+        - name: Configurar la directiva de activación para una copia de base de datos de buzones
+          href: configure-activation-policy-for-a-mailbox-database-copy-exchange-2013-help.md
+        - name: Actualización de una copia de la base de datos de buzones
+          href: update-a-mailbox-database-copy-exchange-2013-help.md
+        - name: Suspensión o reanudación de una copia de base de datos de buzones
+          href: suspend-or-resume-a-mailbox-database-copy-exchange-2013-help.md
+        - name: Activación de una copia de base de datos de buzones
+          href: activate-a-mailbox-database-copy-exchange-2013-help.md
+        - name: Activación de una copia de base de datos de buzones atrasada
+          href: activate-a-lagged-mailbox-database-copy-exchange-2013-help.md
+        - name: Eliminación de una copia de base de datos de buzones
+          href: remove-a-mailbox-database-copy-exchange-2013-help.md
+      - name: Supervisión de grupos de disponibilidad de base de datos
+        href: monitoring-database-availability-groups-exchange-2013-help.md
+      - name: Cambios y conmutaciones por error
+        href: switchovers-and-failovers-exchange-2013-help.md
+        items:
+        - name: Cambios en el centro de datos
+          href: datacenter-switchovers-exchange-2013-help.md
+        - name: Realizar un cambio de servidor
+          href: perform-a-server-switchover-exchange-2013-help.md
+    - name: Copia de seguridad, restauración y recuperación ante desastres
+      href: backup-restore-and-disaster-recovery-exchange-2013-help.md
+      items:
+      - name: Uso de copias de seguridad de Windows Server para realizar copias de seguridad y restaurar datos de Exchange
+        href: using-windows-server-backup-to-back-up-and-restore-exchange-data-exchange-2013-help.md
+        items:
+        - name: Usar Copias de seguridad de Windows Server para realizar copias de seguridad de Exchange
+          href: use-windows-server-backup-to-back-up-exchange-exchange-2013-help.md
+        - name: Usar Copias de seguridad de Windows Server para restaurar una copia de seguridad de Exchange
+          href: use-windows-server-backup-to-restore-a-backup-of-exchange-exchange-2013-help.md
+      - name: Recuperar un servidor de Exchange
+        href: recover-an-exchange-server-exchange-2013-help.md
+      - name: Recuperar un servidor miembro de un grupo de disponibilidad de base de datos
+        href: recover-a-database-availability-group-member-server-exchange-2013-help.md
+      - name: Bases de datos de recuperación
+        href: recovery-databases-exchange-2013-help.md
+        items:
+        - name: Creación de una base de datos de recuperación
+          href: create-a-recovery-database-exchange-2013-help.md
+        - name: Restauración de datos mediante una base de datos de recuperación
+          href: restore-data-using-a-recovery-database-exchange-2013-help.md
+      - name: Portabilidad de bases de datos
+        href: database-portability-exchange-2013-help.md
+        items:
+        - name: Mover una base de datos de buzones mediante la portabilidad de bases de datos
+          href: move-a-mailbox-database-using-database-portability-exchange-2013-help.md
+      - name: Portabilidad del tono de marcado
+        href: dial-tone-portability-exchange-2013-help.md
+        items:
+        - name: Realizar una recuperación del tono de marcado
+          href: perform-a-dial-tone-recovery-exchange-2013-help.md
+    - name: Disponibilidad administrada
+      href: managed-availability-exchange-2013-help.md
+      items:
+      - name: Administrar conjuntos de salud y el estado del servidor
+        href: manage-health-sets-and-server-health-exchange-2013-help.md
+      - name: Configurar invalidaciones de disponibilidad administrada
+        href: configure-managed-availability-overrides-exchange-2013-help.md
+  - name: Centro de administración de Exchange en Exchange 2013
+    href: exchange-admin-center-in-exchange-2013-exchange-2013-help.md
+    items:
+    - name: 'P+F: Centro de administración de Exchange'
+      href: faq-exchange-admin-center-exchange-2013-help.md
+    - name: Desactivar el acceso al Centro de administración de Exchange
+      href: turn-off-access-to-the-exchange-admin-center-exchange-2013-help.md
+    - name: Encontrar las direcciones URL internas y externas para el Centro de Administración de Exchange
+      href: find-the-internal-and-external-urls-for-the-exchange-admin-center-exchange-2013-help.md
+    - name: Métodos abreviados de teclado en el Centro de administración de Exchange
+      href: keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md
+  - name: Rendimiento y mantenimiento del servidor
+    href: server-health-and-performance-exchange-2013-help.md
+    items:
+    - name: Recomendaciones de rendimiento para Exchange Server 2013
+      href: exchange-server-2013-performance-recommendations-exchange-2013-help.md
+      items:
+      - name: Recomendaciones de configuración y dimensionamiento de Exchange 2013
+        href: exchange-2013-sizing-and-configuration-recommendations-exchange-2013-help.md
+      - name: Contadores de rendimiento de Exchange 2013
+        href: exchange-2013-performance-counters-exchange-2013-help.md
+      - name: Registros de IIS e informes de Log Parser Studio
+        href: iis-logs-and-log-parser-studio-reports-exchange-2013-help.md
+    - name: Administración de carga de trabajo de Exchange
+      href: exchange-workload-management-exchange-2013-help.md
+      items:
+      - name: Cambiar la configuración de limitación para determinados usuarios
+        href: change-user-throttling-settings-for-specific-users-exchange-2013-help.md
+      - name: Cambiar la configuración de limitación para todos los usuarios de la organización
+        href: change-user-throttling-settings-for-all-users-in-your-organization-exchange-2013-help.md
+  - name: Acerca de la documentación de Exchange
+    href: about-exchange-documentation-exchange-2013-help.md
+    items:
+    - name: Accesibilidad para personas con discapacidad
+      href: accessibility-for-people-with-disabilities-exchange-2013-help.md
+    - name: Avisos de derechos de autor de terceros
+      href: third-party-copyright-notices-exchange-2013-help.md
