@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 En Microsoft Exchange Server 2013, el mecanismo principal de alta disponibilidad del buzón de correo es el grupo de disponibilidad de base de datos (DAG). Para obtener más información acerca de los DAG, consulte [Administrar grupos de disponibilidad de base de datos](managing-database-availability-groups-exchange-2013-help.md). El *contenedor de transporte* fue presentado por primera vez en Exchange 2007 y, para la versión Exchange 2010, se implementaron mejoras para proporcionar copias redundantes de mensajes después de su correcta entrega en los buzones de correo en DAG. En Exchange 2010, el contenedor de transporte ayudó a proteger contra la pérdida de datos ya que mantuvo una cola de mensajes entregados correctamente que no se habían replicado en las copias de base de datos de buzones de correo en el DAG. Cuando un error de servidor o base de datos de buzones de correo requirió la promoción de una copia desactualizada de la base de datos de buzones de correo, los mensajes en el contenedor de transporte se reenviaron automáticamente a la nueva copia activa de la base de datos de buzones de correo.
 

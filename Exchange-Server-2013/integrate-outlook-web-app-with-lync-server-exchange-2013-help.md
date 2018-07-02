@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-17_
+_**Última modificación del tema:** 2013-02-17_
 
 Outlook Web App es compatible con la integración de Outlook Web App y Microsoft Lync Server 2013. Cuando se configura la integración con Lync Server 2013 y se habilita la mensajería instantánea (MI) en Outlook Web App, los usuarios pueden iniciar o responder a sesiones de MI utilizando Outlook Web App.
 

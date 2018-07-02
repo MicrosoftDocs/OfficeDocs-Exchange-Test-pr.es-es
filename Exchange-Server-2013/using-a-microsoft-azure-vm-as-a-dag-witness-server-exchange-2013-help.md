@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Exchange Server 2013 permite configurar las bases de datos de buzones de correo en un grupo de disponibilidad de base de datos (DAG) para conmutación por error automática del centro de datos. Esta configuración requiere tres ubicaciones físicas independientes: dos centros de datos para servidores de buzones y una tercera ubicación para colocar el servidor testigo para el DAG. Las organizaciones con solo dos ubicaciones físicas ahora también pueden aprovechar las ventajas de la conmutación por error automática del centro de datos usando una máquina virtual de servidor de archivos de Microsoft Azure para que actúe como servidor testigo del DAG.
 

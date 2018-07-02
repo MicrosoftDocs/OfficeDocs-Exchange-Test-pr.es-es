@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013 SP1_
+_**Se aplica a:** Exchange Online, Exchange Server 2013 SP1_
 
-_**Última modificación del tema:**2017-03-29_
+_**Última modificación del tema:** 2017-03-29_
 
 Garantizar que los usuarios tengan una buena experiencia de correo electrónico siempre ha sido el objetivo principal de los administradores del sistema de mensajería. Para ayudar a garantizar la disponibilidad y confiabilidad de la organización de Microsoft Exchange Server 2013, todos los aspectos del sistema deben supervisarse activamente y los problemas detectados deben resolverse rápidamente. En las versiones anteriores de Exchange, la supervisión de componentes críticos del sistema normalmente implicaba el uso de una aplicación externa como Microsoft System Center 2012 Operations Manager para recopilar datos y proporcionar acciones de recuperación para los problemas detectados como resultado del análisis de los datos recopilados. Exchange 2010 y las versiones anteriores incluían manifiestos de mantenimiento y motores de correlación en forma de módulos de administración. Estos componentes habilitaban Operations Manager para determinar si un componente concreto estaba en buen estado o en mal estado. Además, Operations Manager también usaba la infraestructura de cmdlet de diagnóstico integrada en Exchange 2010 para ejecutar transacciones sintéticas en diversos aspectos del sistema.
 
@@ -37,7 +37,7 @@ La disponibilidad administrada es un proceso interno que se ejecuta en cada serv
 
 La disponibilidad administrada implementada mediante dos servicios:
 
-  - **Servicio de administración de mantenimiento de Exchange (MSExchangeHMHost.exe):** es un proceso de controlador que se usa para administrar procesos de trabajo. Se usa para crear, ejecutar, iniciar y detener procesos de trabajo, según sea necesario. También se usa para recuperar procesos de trabajo en caso de que generen errores, para evitar que los procesos de trabajo sean un punto único de error.
+  - **Servicio de administración de mantenimiento de Exchange (MSExchangeHMHost.exe):**  es un proceso de controlador que se usa para administrar procesos de trabajo. Se usa para crear, ejecutar, iniciar y detener procesos de trabajo, según sea necesario. También se usa para recuperar procesos de trabajo en caso de que generen errores, para evitar que los procesos de trabajo sean un punto único de error.
 
   - **Proceso de trabajo de administración de mantenimiento de Exchange (MSExchangeHMWorker.exe)**   Es el proceso de trabajo responsable de realizar las tareas de tiempo de ejecución dentro del marco de disponibilidad administrada.
 
@@ -117,19 +117,19 @@ Cabe mencionar que un solo sondeo incorrecto no indica necesariamente que hay al
 
 Como su nombre sugiere, los respondedores ejecutan algún tipo de respuesta a una alerta generada por un monitor. Los respondedores llevan a cabo diversas acciones de recuperación, como el restablecimiento de un grupo de trabajo de aplicaciones para reiniciar un servidor. Hay varios tipos de respondedores:
 
-  - **Respondedor de reinicio :** termina y reinicia un servicio
+  - **Respondedor de reinicio :**  termina y reinicia un servicio
 
-  - **Respondedor de restablecimiento de grupo de aplicaciones:** detiene y reinicia un grupo de aplicaciones en Internet Information Services (IIS)
+  - **Respondedor de restablecimiento de grupo de aplicaciones:**  detiene y reinicia un grupo de aplicaciones en Internet Information Services (IIS)
 
-  - **Respondedor de conmutación por error:** inicia una conmutación por error de servidor o base de datos
+  - **Respondedor de conmutación por error:**  inicia una conmutación por error de servidor o base de datos
 
-  - **Respondedor de comprobación de errores:** inicia una comprobación de errores en el servidor, lo que provoca un reinicio del servidor
+  - **Respondedor de comprobación de errores:**  inicia una comprobación de errores en el servidor, lo que provoca un reinicio del servidor
 
-  - **Respondedor sin conexión:** toma un protocolo en un servidor fuera de servicio (rechaza solicitudes del cliente)
+  - **Respondedor sin conexión:**  toma un protocolo en un servidor fuera de servicio (rechaza solicitudes del cliente)
 
-  - **Respondedor en línea:** vuelve a colocar un protocolo en un servidor en producción (acepta solicitudes del cliente)
+  - **Respondedor en línea:**  vuelve a colocar un protocolo en un servidor en producción (acepta solicitudes del cliente)
 
-  - **Respondedor de remisión:** remite el problema a un administrador mediante el registro de eventos
+  - **Respondedor de remisión:**  remite el problema a un administrador mediante el registro de eventos
 
 Además de los respondedores enumerados anteriormente, algunos componentes también tienen respondedores especializados que son exclusivos de su componente.
 
@@ -147,21 +147,21 @@ La vista externa de disponibilidad administrada consta de *grupos de mantenimien
 
 Hay cuatro grupos de mantenimiento principales:
 
-  - **Puntos de contacto del cliente:** componentes que afectan a las interacciones del usuario en tiempo real, como los protocolos o el Almacén de información
+  - **Puntos de contacto del cliente:**  componentes que afectan a las interacciones del usuario en tiempo real, como los protocolos o el Almacén de información
 
-  - **Componentes del servicio:** componentes sin interacciones directas del usuario en tiempo real, como el servicio de replicación de buzón de Microsoft Exchange o el proceso de generación de las listas de direcciones sin conexión (OABGen)
+  - **Componentes del servicio:**  componentes sin interacciones directas del usuario en tiempo real, como el servicio de replicación de buzón de Microsoft Exchange o el proceso de generación de las listas de direcciones sin conexión (OABGen)
 
-  - **Componentes de servidor:** los recursos físicos del servidor, tales como el espacio en disco, la memoria y las redes
+  - **Componentes de servidor:**  los recursos físicos del servidor, tales como el espacio en disco, la memoria y las redes
 
-  - **Disponibilidad de dependencia:** la capacidad del servidor para acceder a dependencias necesarias, como Active Directory, DNS, etc.
+  - **Disponibilidad de dependencia:**  la capacidad del servidor para acceder a dependencias necesarias, como Active Directory, DNS, etc.
 
 Cuando se instala el paquete de administración de Exchange, System Center Operations Manager (SCOM) actúa como un portal de salud para ver información relacionada con el entorno de Exchange. El tablero de mandos SCOM incluye tres vistas Exchange estado del servidor:
 
-  - **Alertas activas:** los respondedores de remisión escriben eventos en el registro de eventos de Windows que usa el monitor en SCOM. Estas aparecen como alertas en la vista de alertas activas.
+  - **Alertas activas:**  los respondedores de remisión escriben eventos en el registro de eventos de Windows que usa el monitor en SCOM. Estas aparecen como alertas en la vista de alertas activas.
 
-  - **Mantenimiento de la organización:** un resumen acumulativo del mantenimiento global del mantenimiento de la organización de Exchange se muestra en esta vista. Estos paquetes acumulativos incluyen la visualización de mantenimiento para grupos de disponibilidad de bases de datos individuales y mantenimiento dentro de sitios específicos de Active Directory.
+  - **Mantenimiento de la organización:**  un resumen acumulativo del mantenimiento global del mantenimiento de la organización de Exchange se muestra en esta vista. Estos paquetes acumulativos incluyen la visualización de mantenimiento para grupos de disponibilidad de bases de datos individuales y mantenimiento dentro de sitios específicos de Active Directory.
 
-  - **Mantenimiento del servidor:** los conjuntos de mantenimiento relacionados se combinan en grupos de mantenimiento y se resumen en esta vista.
+  - **Mantenimiento del servidor:**  los conjuntos de mantenimiento relacionados se combinan en grupos de mantenimiento y se resumen en esta vista.
 
 ## Reemplazos
 

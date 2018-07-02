@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2012-06-05_
+_**Última modificación del tema:** 2012-06-05_
 
 La instalación de Microsoft® Exchange Server 2007 muestra esta advertencia porque al intentar desinstalar una función de transporte podría provocar una pérdida de datos en la cola de transporte.
 

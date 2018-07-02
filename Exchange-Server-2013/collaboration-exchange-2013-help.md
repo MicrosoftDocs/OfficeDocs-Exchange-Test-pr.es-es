@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Exchange 2013 ofrece las siguientes características avanzadas que permitirán a los usuarios finales colaborar de manera sencilla en el correo electrónico:
 

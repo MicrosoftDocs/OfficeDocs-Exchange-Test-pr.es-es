@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-10-22_
+_**Última modificación del tema:** 2014-10-22_
 
 El servicio de disponibilidad mejora la información de los datos de disponibilidad de los trabajadores y proporciona información de disponibilidad segura, coherente y actualizada a los clientes que ejecutan MicrosoftOutlook. El servicio está instalado de forma predeterminada con Exchange Server 2013. En las topologías entre bosques en las que todos los clientes de conexión ejecutan Outlook, el servicio de disponibilidad es el único método de recuperar la información de disponibilidad. Puede usar el Shell para configurar el servicio de disponibilidad para topologías entre bosques.
 

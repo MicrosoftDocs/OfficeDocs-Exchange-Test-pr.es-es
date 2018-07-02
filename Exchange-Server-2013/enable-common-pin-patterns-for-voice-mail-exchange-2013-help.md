@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede habilitar o deshabilitar los patrones de PIN de mensajería unificada comunes para los usuarios de Outlook Voice Access. Si habilita o deshabilita los patrones de PIN comunes mediante la configuración de una directiva de buzones de mensajería unificada, la configuración se aplicará a todos los usuarios habilitados para mensajería unificada asociados con la directiva de buzones de mensajería unificada. De modo predeterminado, los usuarios habilitados para mensajería unificada no pueden usar patrones comunes cuando crean un PIN.
 

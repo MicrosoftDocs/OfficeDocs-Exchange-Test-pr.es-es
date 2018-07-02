@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Microsoft Outlook Voice Access permite a los usuarios habilitados para mensajería unificada (MU) de Exchange obtener acceso a sus buzones de correo mediante teléfonos analógicos, digitales o celulares.
 

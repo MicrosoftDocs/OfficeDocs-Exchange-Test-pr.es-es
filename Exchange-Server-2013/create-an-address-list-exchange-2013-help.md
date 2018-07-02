@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-12_
+_**Última modificación del tema:** 2012-10-12_
 
 Las listas de direcciones son un conjunto de objetos de destinatario y otros objetos de Active Directory. Cada lista de direcciones puede contener uno o varios tipos de objetos (por ejemplo, usuarios, contactos, grupos, carpetas públicas, conferencias y otros recursos). Las listas de direcciones además proporcionan un mecanismo para crear particiones de objetos habilitados para correo de Active Directory a fin de ayudar a grupos de usuarios específicos.
 

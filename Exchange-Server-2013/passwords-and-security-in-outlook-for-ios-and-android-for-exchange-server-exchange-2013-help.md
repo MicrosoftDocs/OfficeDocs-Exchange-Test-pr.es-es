@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2010, Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2010, Exchange Server 2013_
 
-_**Última modificación del tema:**2018-04-01_
+_**Última modificación del tema:** 2018-04-01_
 
-**Resumen:** En este artículo se describe cómo funcionan las contraseñas y la seguridad en Outlook para iOS y Android con Exchange Server.
+**Resumen:**  En este artículo se describe cómo funcionan las contraseñas y la seguridad en Outlook para iOS y Android con Exchange Server.
 
 La primera vez que la aplicación Outlook para iOS y Android se ejecuta en un entorno de Exchange local, Outlook genera una clave AES-128 aleatoria. Esta clave se conoce como la *clave de dispositivo* y solo se almacena en el dispositivo del usuario.
 

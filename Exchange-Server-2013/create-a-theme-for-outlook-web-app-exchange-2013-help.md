@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Un *tema* define el color de fondo, las fuentes, los colores de resaltado, los iconos y el encabezado que utiliza MicrosoftOutlook Web App. Cada tema es una colección de archivos multimedia y hojas de estilo en cascadas (archivos .css) almacenados en el directorio de instalación \\Client Access\\OWA\\prem\\*version*\\resources\\themes del servidor de MicrosoftExchange. Cada tema se almacena en su propio subdirectorio de \\themes.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-29_
+_**Última modificación del tema:** 2012-11-29_
 
 Los usuarios pueden configurar varios dispositivos móviles para la sincronización con MicrosoftExchange Server 2013. Puede usar la EMC o el Shell para ver una lista de dispositivos móviles asociados a un usuario específico.
 

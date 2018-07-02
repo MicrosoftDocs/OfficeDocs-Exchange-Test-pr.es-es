@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-16_
+_**Última modificación del tema:** 2013-04-16_
 
 Cuando se crea una puerta de enlace IP de mensajería unificada, se habilitan los servidores de buzones Exchange para conectarse a una nueva puerta de enlace de voz sobre IP (VoIP), a una central de conmutación (PBX) habilitada para el Protocolo de inicio de sesión (SIP), a una IP PBX o a un controlador de borde de sesión (SBC). Inmediatamente después de crear una puerta de enlace IP de mensajería unificada, debe crear un nuevo grupo de extensiones de mensajería unificada y, a continuación, asociarlo a dicha puerta. Puede asociar la puerta de enlace IP de mensajería unificada a uno o varios planes de marcado de mensajería unificada mediante la creación de uno o varios grupos de extensiones de mensajería unificada.
 

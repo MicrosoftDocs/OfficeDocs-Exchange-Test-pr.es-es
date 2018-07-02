@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013 SP1_
+_**Se aplica a:** Exchange Server 2013 SP1_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Exchange 2013 usa DAG y copias de bases de datos de buzones de correo, junto con otras funciones, tales como recuperación de un solo elemento, directivas de retención y copias de bases de datos retrasadas para suministrar protección de datos nativa de Exchange, alta disponibilidad y resistencia de sitios. La plataforma de alta disponibilidad, el Almacén de información de Exchange y el Motor de almacenamiento extensible (ESE) se han mejorado para suministrar una mayor disponibilidad, facilitar la administración y reducir los costos. Entre estas mejoras se incluyen:
 

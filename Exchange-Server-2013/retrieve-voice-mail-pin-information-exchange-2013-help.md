@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-03_
+_**Última modificación del tema:** 2013-04-03_
 
 Puede recuperar la información de PIN de un usuario que está habilitado para mensajería unificada (UM). Cuando se habilita a un usuario para UM y se crea o genera un PIN, este se cifra y se almacena en el buzón del usuario.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-02_
+_**Última modificación del tema:** 2012-11-02_
 
 Si es necesario, puede crear redes adicionales para su uso en un grupo de disponibilidad de base de datos (DAG). Puede usar el Centro de Administración de Exchange o el Shell para crear una red de DAG.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2017-12-20_
+_**Última modificación del tema:** 2017-12-20_
 
 Las condiciones y excepciones de reglas de flujo de correo (también denominadas reglas de transporte) identifican los mensajes a los que la regla se aplica o no se aplica. Por ejemplo, si la regla agrega un aviso de declinación de responsabilidades a los mensajes, puede configurar la regla para que solo se aplique a los mensajes que contengan palabras específicas, a los mensajes enviados por usuarios específicos o a todos los mensajes excepto los enviados por los miembros de un grupo específico. En conjunto, las condiciones y excepciones de las reglas de flujo de correo también se denominan *predicados*, ya que para cada condición hay una excepción correspondiente que usa exactamente la misma configuración y sintaxis. La única diferencia es que las condiciones especifican mensajes que se incluyen, mientras que las excepciones especifican mensajes que se excluyen.
 
@@ -491,7 +491,7 @@ Si agrega una condición de destinatarios de esta sección, ese mismo mensaje se
 
 Por el contrario, una excepción de destinatarios de esta sección *evita* que la acción de regla se aplique a *todos* los destinatarios del mensaje, no solo para los destinatarios detectados.
 
-**Nota:** Esta condición no considera los mensajes que se envían a direcciones de proxy del destinatario. Solo coincide con los mensajes que se envían a la dirección de correo electrónico principal del destinatario.
+**Nota:**  Esta condición no considera los mensajes que se envían a direcciones de proxy del destinatario. Solo coincide con los mensajes que se envían a la dirección de correo electrónico principal del destinatario.
 
 
 <table>
@@ -540,7 +540,7 @@ Volver al principio
 
 Las condiciones de esta sección que esperan para valores en los campos **To** y **Cc** se comportan como las condiciones en la sección de todos los destinatarios (*todos los* destinatarios del mensaje se ven afectados por la regla, no sólo el ha detectado destinatarios).
 
-**Nota:** Esta condición no considera los mensajes que se envían a direcciones de proxy del destinatario. Solo coincide con los mensajes que se envían a la dirección de correo electrónico principal del destinatario.
+**Nota:**  Esta condición no considera los mensajes que se envían a direcciones de proxy del destinatario. Solo coincide con los mensajes que se envían a la dirección de correo electrónico principal del destinatario.
 
 
 <table>

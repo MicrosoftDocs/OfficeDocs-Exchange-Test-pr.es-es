@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Microsoft Exchange Server 2013 almacena toda la información de configuración y destinatario en la base de datos del servicio de directorio de Active Directory. Cuando un equipo en el que se ejecuta Exchange 2013 necesita información sobre los destinatarios y la configuración de la organización de Exchange, este debe consultar a Active Directory para tener acceso a la información. Los servidores de Active Directory tienen que estar disponibles para que Exchange 2013 funcione correctamente.
 

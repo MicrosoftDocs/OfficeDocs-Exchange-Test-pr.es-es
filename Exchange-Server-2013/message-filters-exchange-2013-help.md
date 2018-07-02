@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 El filtrado genera diferentes vistas de los mensajes en las colas. Mediante la especificación de criterios de filtro, es posible buscar los mensajes y realizar acciones en ellos. Cuando se envía un mensaje de correo electrónico a varios destinatarios, éste se puede ubicar en varias colas. Si filtra por las propiedades del mensaje, puede encontrar mensajes en todas las colas. Las siguientes situaciones son ejemplos de cómo podría utilizar el filtrado de mensajes para administrar el flujo de correo:
 

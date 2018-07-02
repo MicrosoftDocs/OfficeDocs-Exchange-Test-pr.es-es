@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Cuarentena de correo no deseado es una característica del agente de filtrado de contenido que reduce el riesgo de perder mensajes legítimos. La cuarentena de correo no deseado proporciona una ubicación de almacenamiento temporal para mensajes identificados como correo no deseado y que no deben ser entregados a un buzón de usuario dentro de la organización.
 

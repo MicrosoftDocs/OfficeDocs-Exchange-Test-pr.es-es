@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-06-01_
+_**Última modificación del tema:** 2014-06-01_
 
 Las *sugerencias de correo electrónico* son mensajes informativos que se muestran a los usuarios en la barra de información de Outlook Web App y Microsoft Outlook 2010 o posterior cuando un usuario hace cualquiera de las operaciones siguientes mientras crea un mensaje de correo electrónico:
 

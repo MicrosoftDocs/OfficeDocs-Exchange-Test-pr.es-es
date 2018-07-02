@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-07-12_
+_**Última modificación del tema:** 2016-07-12_
 
 Aunque el uso de carpetas públicas de Exchange 2013 tiene muchas ventajas, deben tenerse en cuenta varias cosas antes de implementarlas en su organización.
 

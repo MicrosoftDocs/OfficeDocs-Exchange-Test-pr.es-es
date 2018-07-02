@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-01-28_
+_**Última modificación del tema:** 2013-01-28_
 
 Con las herramientas de administración de Microsoft Exchange Server 2013, puede configurar y administrar su organización de Exchange de forma remota. Las herramientas de administración de Exchange 2013 incluyen el Shell de administración de Exchange y el cuadro de herramientas de Exchange. En este tema se explica cómo puede utilizar Setup.exe o el modo de instalación desatendida para instalar las herramientas de administración de Exchange 2013.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Una implementación de Exchange 2013 con varios inquilinos (hospedada) se define como aquella en la que la organización de Exchange se configura para hospedar varias organizaciones o unidades de negocio discretas (inquilinos) que, por lo general, no comparten correo electrónico, datos, usuarios, listas globales de direcciones (LGD) ni cualquier otro objeto que se use habitualmente en Exchange. Este uso compartido del hardware, del software y de los recursos (siempre que se mantenga una separación lógica entre los inquilinos) permite a las organizaciones aprovecharse de la sencillez de una implementación de Exchange estándar mientras se proporcionan los servicios y la funcionalidad de varios inquilinos para satisfacer las necesidades de hospedaje.
 

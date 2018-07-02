@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Descifrado de informe diario habilitación permite al agente de diario adjunte el descifrado de un mensaje protegido por derechos al informe diario. Antes de habilitar el descifrado de informe de diario, debe agregar el buzón de entrega federada al grupo de superusuarios configurado en el servidor de [Active Directory Rights Management Services (AD RMS)](https://technet.microsoft.com/en-us/library/hh831364.aspx) .
 

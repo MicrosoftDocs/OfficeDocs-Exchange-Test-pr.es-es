@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Los filtros de ámbito del rol de administración se pueden usar para definir ámbitos de administración que permitan una gran personalización. Con los filtros de ámbito, se puede crear un ámbito que coincida con la manera en que se segmentan los destinatarios, las bases de datos y los servidores, de manera que los administradores puedan administrar solo aquellos objetos a los que deberían tener acceso. Los filtros de ámbito pueden usar casi cualquier propiedad de objeto de destinatario, base de datos o servidor.
 

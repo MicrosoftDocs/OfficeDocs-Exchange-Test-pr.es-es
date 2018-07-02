@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Última modificación del tema:**2018-03-26_
+_**Última modificación del tema:** 2018-03-26_
 
-**Resumen:** Use estos procedimientos para mover las carpetas públicas de Exchange 2007 y Exchange 2010 a Office 365.
+**Resumen:**  Use estos procedimientos para mover las carpetas públicas de Exchange 2007 y Exchange 2010 a Office 365.
 
 En este tema se describe cómo migrar carpetas públicas en una migración preconfigurada o una migración total desde el paquete acumulativo de actualizaciones 8 de Exchange Server 2010 Service Pack 3 (SP3) o el paquete acumulativo de actualizaciones 15 de Exchange 2007 SP3 a Office 365 o Exchange Online.
 

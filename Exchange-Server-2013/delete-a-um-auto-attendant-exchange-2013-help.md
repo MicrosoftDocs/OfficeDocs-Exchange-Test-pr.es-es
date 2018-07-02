@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-30_
+_**Última modificación del tema:** 2012-11-30_
 
 Tras eliminar un operador automático de mensajería unificada (MU), un operador humano atenderá las llamadas entrantes que contestaba el operador automático. No es posible eliminar un operador automático de mensajería unificada si está asociado a un plan de marcado de mensajería unificada como operador automático predeterminado de mensajería unificada.
 

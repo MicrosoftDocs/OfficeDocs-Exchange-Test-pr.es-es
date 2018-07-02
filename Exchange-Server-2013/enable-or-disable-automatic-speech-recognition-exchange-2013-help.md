@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-12-12_
+_**Última modificación del tema:** 2012-12-12_
 
 Puede habilitar su operador automático de mensajería unificada (UM) para Reconocimiento de voz automático (ASR). Tras habilitar para voz un operador automático de mensajería unificada, los llamantes pueden responder verbalmente a los mensajes del operador automático y desplazarse por el sistema de menús del mismo. De forma predeterminada, cuando un operador automático se crea, no está habilitado para voz. Tras habilitar la voz del operador automático, quienes llaman pueden usar solamente comandos de voz para explorar el sistema de menús del operador automático, y no se pueden usar entradas de teclado.
 

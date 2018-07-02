@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La *limitación de mensajes* se refiere a un grupo de límites que se establecen respecto del número de mensajes y conexiones que pueden ser procesados por un equipo de Microsoft Exchange Server 2013. Estos límites evitan el agotamiento accidental o intencionado de los recursos del sistema en el servidor de Exchange.
 
@@ -75,13 +75,13 @@ Para respaldar esta nueva funcionalidad, Exchange 2013 usa los mecanismos sigui
 
   - **Limitar conexiones simultáneas según el estado de la base de datos de mensajería**   Este mecanismo supervisa el estado de la base de datos de mensajería (MDB) de Exchange y limita las conexiones simultáneas con servidores de transporte de Exchange según un valor asignado de medida de estado. La API del monitor de estado de recursos supervisa la MDB en el servicio de transporte del servidor de buzones de correo y la MDB recibe un valor de estado de -1 a 100. Este valor se basa en las estadísticas de rendimiento de RPC que se incluyen con cada respuesta de RPC desde el proceso Store.exe en el servicio de transporte de buzones de correo. El marco Mantenimiento de recursos utiliza el contador de rendimiento de la relación **Solicitudes/segundo** y el contador de rendimiento de **Latencia RPC promedio** para calcular un valor de mantenimiento para la base de datos. Para ayudar a mantener una experiencia de usuario interactiva y coherente, Exchange reduce el número de conexiones simultáneas a medida que el valor de estado disminuye. Están disponibles los intervalos de valores de mantenimiento siguientes:
     
-      - **-1:** este valor indica que se desconoce el estado de mantenimiento de la MDB. Este valor se asigna cuando se inicia la base de datos. En este escenario, la base de datos se considera correcta.
+      - **-1:**  este valor indica que se desconoce el estado de mantenimiento de la MDB. Este valor se asigna cuando se inicia la base de datos. En este escenario, la base de datos se considera correcta.
     
-      - **0:** este valor se asigna cuando la base de datos se encuentra en un estado incorrecto. En este estado, no se debe establecer contacto con la base de datos.
+      - **0:**  este valor se asigna cuando la base de datos se encuentra en un estado incorrecto. En este estado, no se debe establecer contacto con la base de datos.
     
-      - **De 1 a 99:** estos valores representan un estado de mantenimiento razonable. Un valor inferior representa una base de datos menos correcta.
+      - **De 1 a 99:**  estos valores representan un estado de mantenimiento razonable. Un valor inferior representa una base de datos menos correcta.
     
-      - **100:** este valor representa una base de datos correcta.
+      - **100:**  este valor representa una base de datos correcta.
 
 El servicio de limitación de peticiones de Microsoft Exchange proporciona el marco para la limitación del flujo de correo. El servicio de limitación de peticiones de Exchange realiza un seguimiento de la configuración de limitación del flujo de correo para un usuario específico y almacena en caché la información sobre la limitación. La configuración de la limitación del flujo de correo también se conoce como *presupuesto*. Al reiniciar el servicio de limitación de peticiones de Exchange, también se restablecen los presupuestos de limitación del flujo de correo.
 
@@ -89,9 +89,9 @@ Puede usar los cmdlets de la directiva de limitación que están disponibles en 
 
 La configuración del tiempo para un presupuesto se establece con un porcentaje de un minuto. Por lo tanto, un umbral de 100 por ciento representa 60 segundos. Por ejemplo, suponga que quiere especificar la configuración de una directiva de Outlook Web App que limite la cantidad de tiempo durante la cual un usuario puede ejecutar un código de Outlook Web App en un servidor de acceso de cliente y la cantidad de tiempo que un usuario puede comunicarse con el servidor de acceso de cliente a 600 milisegundos durante un minuto. Para lograrlo, necesita establecer el valor a 1 por ciento de un minuto (600 milisegundos) para los dos parámetros siguientes:
 
-  - **OWAPercentTimeInCAS:** 1
+  - **OWAPercentTimeInCAS:**  1
 
-  - **OWAPercentTimeInMailboxRPC:** 1
+  - **OWAPercentTimeInMailboxRPC:**  1
 
 Un usuario que tenga aplicada esta directiva tiene un presupuesto de OWAPercentTimeInCAS de 600 milisegundos y de OWAPercentageTimeInMailboxRPC de 600 milisegundos. En este escenario, cuando el usuario inicia sesión en Outlook Web App, puede ejecutar el código de acceso de cliente durante 600 milisegundos como máximo. Pasado este tiempo, se considera que la conexión sobrepasa el presupuesto y el servidor de Exchange no permite ninguna acción posterior de Outlook Web App hasta un minuto después de alcanzar el límite de presupuesto. Pasado un minuto, el usuario puede ejecutar un código de acceso de cliente de Outlook Web App durante otros 600 milisegundos.
 

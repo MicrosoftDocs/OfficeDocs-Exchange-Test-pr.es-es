@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Consulte las funcionalidades más recientes en Exchange 2013.
 
@@ -87,7 +87,7 @@ Exchange 2013 ofrece una consola de administración unificada exclusiva que bri
 
   - **Herramientas de mensajería unificada**   En Exchange 2010, podía utilizar las herramientas de estadísticas de llamadas y los registros de llamadas de usuario para ayudar a proporcionar estadísticas e información de mensajería unificada acerca de llamadas concretas de un usuario habilitado para mensajería unificada. En Exchange 2013, las herramientas estadísticas de llamadas y registros de llamadas de usuario se ubican en el EAC, por lo que no necesita una herramienta distinta para gestionarlas.
 
-  - **Mejoras de grupos:** el Centro de administración de Exchange (EAC) ahora puede mostrar hasta 10.000 destinatarios en la ventana **GruposSeleccionar miembros**. De manera predeterminada, se devuelven hasta 500 destinatarios cuando se abre la ventana **Seleccionar miembros**. Sin embargo, puede optar por que aparezcan hasta 10.000 destinatarios si hace clic en **Obtener todos los resultados** debajo de la lista de destinatarios. Ahora admitimos la búsqueda de más de 500 destinatarios mediante la barra de desplazamiento y también hemos agregado características de búsqueda mejorada para permitir el filtrado de los destinatarios que aparecen en la lista de destinatarios. Se puede filtrar por:
+  - **Mejoras de grupos:**  el Centro de administración de Exchange (EAC) ahora puede mostrar hasta 10.000 destinatarios en la ventana **GruposSeleccionar miembros**. De manera predeterminada, se devuelven hasta 500 destinatarios cuando se abre la ventana **Seleccionar miembros**. Sin embargo, puede optar por que aparezcan hasta 10.000 destinatarios si hace clic en **Obtener todos los resultados** debajo de la lista de destinatarios. Ahora admitimos la búsqueda de más de 500 destinatarios mediante la barra de desplazamiento y también hemos agregado características de búsqueda mejorada para permitir el filtrado de los destinatarios que aparecen en la lista de destinatarios. Se puede filtrar por:
     
       - ciudad
     
@@ -241,7 +241,7 @@ Exchange 2013 incluye las siguientes mejoras en la auditoría:
 
   - **Informes de auditoría**   El EAC incluye funciones de auditoría para que pueda ejecutar informes o exportar entradas desde el registro de auditoría de buzón de correo y el registro de auditoría del administrador. El registro de auditoría de buzón de correo se indica cada vez que otro usuario que no es el propietario obtiene acceso al buzón. Esto puede ayudar a determinar quién ha tenido acceso a un buzón y lo que ha hecho. El registro de auditoría del administrador guarda cualquier acción, según un cmdlet del Shell de administración de Exchange, que ha realizado un administrador. Esto puede ayudar a solucionar problemas de configuración o a identificar la causa de problemas relacionados con la seguridad o el cumplimiento normativo. Para obtener más información, vea [Informes de auditoría de Exchange](exchange-auditing-reports-exchange-2013-help.md).
 
-  - **Consulta del registro de auditoría de administrador:** en lugar de exportar el registro de auditoría de administrador, para lo cual pueden transcurrir hasta 24 para recibirlo en un mensaje de correo electrónico, puede ver las entradas del registro de auditoría del administrador en el EAC. Para ello, vaya a **Administración de cumplimiento** \> **Auditoría** y haga clic en **Ver el registro de auditoría del administrador**. Se mostrarán hasta 1.000 entradas en varias páginas. Para restringir la búsqueda, puede especificar un intervalo de fechas. Para obtener más información, consulte [Ver el registro de auditoría del administrador](view-the-administrator-audit-log-exchange-2013-help.md).
+  - **Consulta del registro de auditoría de administrador:**  en lugar de exportar el registro de auditoría de administrador, para lo cual pueden transcurrir hasta 24 para recibirlo en un mensaje de correo electrónico, puede ver las entradas del registro de auditoría del administrador en el EAC. Para ello, vaya a **Administración de cumplimiento** \> **Auditoría** y haga clic en **Ver el registro de auditoría del administrador**. Se mostrarán hasta 1.000 entradas en varias páginas. Para restringir la búsqueda, puede especificar un intervalo de fechas. Para obtener más información, consulte [Ver el registro de auditoría del administrador](view-the-administrator-audit-log-exchange-2013-help.md).
 
 ## Protección contra malware
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 La dirección externa del administrador de correo se usa como remitente de los mensajes y las notificaciones generados por el sistema que se envían a remitentes externos a su organización de Microsoft Exchange Server 2013. Un remitente externo es cualquier remitente que tenga una dirección de correo electrónico en un dominio que no esté configurado como un dominio aceptado en su organización.
 

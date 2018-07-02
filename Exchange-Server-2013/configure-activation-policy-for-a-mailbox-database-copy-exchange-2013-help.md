@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-02_
+_**Última modificación del tema:** 2012-11-02_
 
 *Activación* es el proceso que consiste en cambiar la copia de una base de datos de buzones de una copia pasiva a una copia activa. La activación se lleva a cabo de forma automática en el sistema como parte de la operación de conmutación por error de la base de datos o del servidor. Se puede realizar de forma manual por un administrador como parte de la operación de cambio de la base de datos o del servidor. El bloqueo de la activación de una base de datos impide que se convierta en la copia activa durante un error de base de datos o de servidor.
 

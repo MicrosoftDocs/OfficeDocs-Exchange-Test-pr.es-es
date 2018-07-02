@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 El correo electrónico y los documentos se mantienen tradicionalmente en dos repositorios de datos únicos e independientes. La mayoría de las organizaciones colaboran usando ambos medios. El desafío es que pueda accederse al correo electrónico y a los documentos mediante clientes diferentes. Normalmente se traduce en una reducción en la productividad del usuario y en una mala experiencia de usuario.
 
@@ -87,7 +87,7 @@ Para obtener más información acerca de cómo configurar directivas de aprovisi
 
 El ciclo de vida de un buzón del sitio se administra mediante un SharePoint. Es a través del SharePoint que debería realizar todas las tareas buzón del sitio como la creación o eliminación de buzones del sitio. Además, puede crear una directiva de ciclo de vida de SharePoint para administrar el ciclo de vida de un buzón del sitio. Por ejemplo, puede crear una directiva del ciclo de vida en SharePoint que cierre automáticamente todos los buzones del sitio tras 6 meses. Si el usuario todavía requiere el uso del buzón del sitio, el usuario puede reactivar el buzón del sitio a través de SharePoint. Le recomendamos que utilice el ciclo de vida de aplicación en la granja. La eliminación manual de buzones del sitio activo desde Exchange generará buzones del sitio huérfanos. .
 
-Cuando la aplicación del ciclo de vida de SharePoint cierra un buzón del sitio, el buzón del sitio se retiene durante el período establecido en la directiva del ciclo de vida en el estado cerrado. Entonces, el usuario final o un administrador de SharePoint puede reactivar el buzón de correo. Tras el período de retención, se añadirá **MDEL:** al nombre del buzón de correo de Exchange alojado en la base de datos de buzones. para indicar que se ha marcado para su eliminación. Deberá eliminar manualmente estos buzones del sitio de la base de datos de buzones para liberar espacio de almacenamiento y el alias. Si no tiene la directiva de ciclo de vida de SharePoint habilitada, perderá la capacidad de determinar los buzones del sitio que se marcan para ser eliminados. Hasta que un administrador no haya eliminado el buzón del sitio, su contenido se puede recuperar.
+Cuando la aplicación del ciclo de vida de SharePoint cierra un buzón del sitio, el buzón del sitio se retiene durante el período establecido en la directiva del ciclo de vida en el estado cerrado. Entonces, el usuario final o un administrador de SharePoint puede reactivar el buzón de correo. Tras el período de retención, se añadirá **MDEL:**  al nombre del buzón de correo de Exchange alojado en la base de datos de buzones. para indicar que se ha marcado para su eliminación. Deberá eliminar manualmente estos buzones del sitio de la base de datos de buzones para liberar espacio de almacenamiento y el alias. Si no tiene la directiva de ciclo de vida de SharePoint habilitada, perderá la capacidad de determinar los buzones del sitio que se marcan para ser eliminados. Hasta que un administrador no haya eliminado el buzón del sitio, su contenido se puede recuperar.
 
 Puede usar el siguiente comando para buscar y eliminar buzones de correo que se hayan marcado para ser eliminados.
 

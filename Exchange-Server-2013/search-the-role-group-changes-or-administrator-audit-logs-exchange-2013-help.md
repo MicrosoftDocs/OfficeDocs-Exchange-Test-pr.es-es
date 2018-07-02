@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2013-12-02_
+_**Última modificación del tema:** 2013-12-02_
 
 Se puede buscar en los registros de auditoría de administrador para detectar quién ha efectuado cambios en la configuración de la organización, el servidor y los destinatarios. Esto es útil cuando se hace un seguimiento de la causa de un comportamiento inesperado, se quiere identificar a un administrador malintencionado o bien comprobar si se satisfacen los requisitos de obligado cumplimiento. Para obtener más información acerca del registro de auditoría del administrador, consulte [Registro de auditoría de administrador](administrator-audit-logging-exchange-2013-help.md).
 

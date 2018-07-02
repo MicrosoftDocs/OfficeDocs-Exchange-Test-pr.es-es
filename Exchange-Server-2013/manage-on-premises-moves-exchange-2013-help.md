@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-25_
+_**Última modificación del tema:** 2013-02-25_
 
 Una solicitud de traslado es el proceso de traslado de un buzón de una base de datos de buzones a otra. Una solicitud de movimiento local es una acción de movimiento de buzones que se produce dentro de un mismo bosque. En Microsoft Exchange Server 2013, los buzones de correo y los buzones correo de archivos personales pueden residir en bases de datos independientes. Mediante la función de solicitud de movimiento, puede mover el buzón principal y el archivo asociado a la misma base de datos o a bases de datos independientes. Los procedimientos de este tema le ayudarán con los movimientos de los buzones de correo locales.
 

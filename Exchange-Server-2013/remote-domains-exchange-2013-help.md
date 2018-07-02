@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Puede crear entradas de dominio remoto para definir las opciones de transferencia de mensajes entre la organización de Microsoft Exchange Server 2013 y los dominios fuera de la organización de Exchange. Cuando se crea una entrada de dominio remoto, se controlan los tipos de mensajes que se envían a ese dominio. También es posible aplicar directivas de formato de mensajes y juegos de caracteres aceptables para los mensajes que se envíen desde usuarios de la organización hasta el dominio remoto. La configuración para dominios remotos son valores de configuración globales para la organización de Exchange.
 

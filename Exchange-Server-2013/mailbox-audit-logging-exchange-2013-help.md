@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Dado que los buzones de correo pueden contener información confidencial y de alto impacto comercial, así como información de identificación personal, es importante realizar un seguimiento de quién inicia sesión en los buzones de la organización y qué acciones se llevan a cabo. Es especialmente importante que lleve un seguimiento del acceso a los buzones por parte de usuarios que no sean el propietario del buzón en cuestión. Estos usuarios se denominan *usuarios delegados*.
 
@@ -157,7 +157,7 @@ Puede usar los métodos indicados a continuación para buscar entradas del regis
 
   - **Buscar en uno o más buzones de forma asincrónica**   Cree una búsqueda de registros de auditoría de buzón para buscar de forma asincrónica registros de auditoría de buzón en uno o más buzones de correo y, a continuación, envíe los resultados de la búsqueda a una dirección de correo electrónico especificada. Los resultados de la búsqueda se envían como datos adjuntos XML. Para crear la búsqueda, use el cmdlet [New-MailboxAuditLogSearch](https://technet.microsoft.com/es-es/library/ff522362\(v=exchg.150\)). Para obtener más información, vea [Crear una búsqueda en los registros de auditoría de buzones](create-a-mailbox-audit-log-search-exchange-2013-help.md).
 
-  - **Usar informes de auditoría en el Centro de administración de Exchange (EAC):** puede usar la pestaña **Auditoría** en el EAC para ejecutar un informe de acceso al buzón de correo del que no se es propietario o para exportar entradas del registro de auditoría de buzón. Para más información detallada, vea:
+  - **Usar informes de auditoría en el Centro de administración de Exchange (EAC):**  puede usar la pestaña **Auditoría** en el EAC para ejecutar un informe de acceso al buzón de correo del que no se es propietario o para exportar entradas del registro de auditoría de buzón. Para más información detallada, vea:
     
       - [Ejecución de un informe de acceso al buzón de correo del que no se es propietario](run-a-non-owner-mailbox-access-report-exchange-online-help.md)
     
@@ -334,7 +334,7 @@ En la siguiente tabla se describen los campos registrados en una entrada del reg
 
 ## Más información
 
-  - **Acceso de administrador a los buzones:** se considera que un administrador accede a los buzones solo en los siguientes escenarios:
+  - **Acceso de administrador a los buzones:**  se considera que un administrador accede a los buzones solo en los siguientes escenarios:
     
       - [Exhibición de documentos electrónicos en contexto](in-place-ediscovery-exchange-2013-help.md) si se usa para realizar búsquedas en un buzón.
     
@@ -342,9 +342,9 @@ En la siguiente tabla se describen los campos registrados en una entrada del reg
     
       - [Microsoft Exchange Server MAPI Editor](https://go.microsoft.com/fwlink/p/?linkid=204086) se usa para acceder al buzón de correo.
 
-  - **Omisión del registro de auditoría del buzón:** el acceso a buzones mediante procesos automatizados autorizados, tales como cuentas utilizadas por herramientas de terceros o por controles legales, puede crear una gran cantidad de entradas de registro de auditoría de buzón que, posiblemente, no sean importantes para la organización. Puede configurar estas cuentas para que se omita el registro de auditoría de buzón. Para obtener más información, vea [Omitir una cuenta de usuario desde el registro de auditoría de buzones](bypass-a-user-account-from-mailbox-audit-logging-exchange-2013-help.md).
+  - **Omisión del registro de auditoría del buzón:**  el acceso a buzones mediante procesos automatizados autorizados, tales como cuentas utilizadas por herramientas de terceros o por controles legales, puede crear una gran cantidad de entradas de registro de auditoría de buzón que, posiblemente, no sean importantes para la organización. Puede configurar estas cuentas para que se omita el registro de auditoría de buzón. Para obtener más información, vea [Omitir una cuenta de usuario desde el registro de auditoría de buzones](bypass-a-user-account-from-mailbox-audit-logging-exchange-2013-help.md).
 
-  - **Registro de acciones del propietario del buzón:** para buzones como el Buzón de búsqueda de detección, que pueden contener información más confidencial, considere la posibilidad de habilitar el registro de auditoría de buzón para las acciones del propietario del buzón de correo, como la eliminación de mensajes.
+  - **Registro de acciones del propietario del buzón:**  para buzones como el Buzón de búsqueda de detección, que pueden contener información más confidencial, considere la posibilidad de habilitar el registro de auditoría de buzón para las acciones del propietario del buzón de correo, como la eliminación de mensajes.
 
 Registros de auditoría de buzón de correo
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Una *cola* es una ubicación temporal para alojar mensajes que esperan para entrar en la próxima etapa de procesamiento o entrega a un destino. Cada cola representa un conjunto lógico de mensajes que procesa el servidor de Exchange en un orden específico. En Microsoft Exchange Server 2013, las colas retienen mensajes antes y después de la entrega, y durante ella. Hay colas en servidores de buzones de correo y en servidores de transporte perimetral. En este tema, los servidores de buzones de correo y los servidores de transporte perimetral se denominan *servidores de transporte*.
 

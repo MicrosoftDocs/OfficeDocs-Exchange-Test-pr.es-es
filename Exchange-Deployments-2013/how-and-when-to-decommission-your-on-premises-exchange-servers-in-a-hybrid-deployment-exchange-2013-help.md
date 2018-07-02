@@ -120,9 +120,9 @@ Como la base de clientes híbridos es muy diversa, tratar de ajustarlos todos a 
 
 ## Escenario uno
 
-**Problema:** mi organización se ha estado ejecutando en una configuración híbrida y tengo todos mis buzones de Exchange Online. No es necesario administrar Mis usuarios de local y ya no tiene necesidad de sincronización de directorios o la sincronización de contraseña.
+**Problema:**   mi organización se ha estado ejecutando en una configuración híbrida y tengo todos mis buzones de Exchange Online. No es necesario administrar Mis usuarios de local y ya no tiene necesidad de sincronización de directorios o la sincronización de contraseña.
 
-**Solución:** Como todos los usuarios se administrarán en Office 365 y no hay requisitos adicionales de sincronización de directorios, puede deshabilitar la sincronización de directorios de forma segura y quitar Exchange del entorno local.
+**Solución:**   Como todos los usuarios se administrarán en Office 365 y no hay requisitos adicionales de sincronización de directorios, puede deshabilitar la sincronización de directorios de forma segura y quitar Exchange del entorno local.
 
 ![Quitar Exchange del entorno local](images/Dn931280.f9c2a2cb-4c16-4ca3-8244-b89c1cdf0744(EXCHG.150).jpg "Quitar Exchange del entorno local") Para deshabilitar la sincronización de directorios y desinstalar la implementación híbrida de Exchange
 
@@ -196,9 +196,9 @@ Como la base de clientes híbridos es muy diversa, tratar de ajustarlos todos a 
 
 ## Escenario dos
 
-**Problema:** Mi organización se estuvo ejecutando en una configuración híbrida durante casi un año y finalmente se movió el último buzón a la nube. Planeo mantener los Servicios de federación de Active Directory (AD FS) para la autenticación de usuarios de mis buzones de Exchange Online. (Este escenario sería aplicable a cualquier cliente que tenga planeado mantener la sincronización de directorios).
+**Problema:**   Mi organización se estuvo ejecutando en una configuración híbrida durante casi un año y finalmente se movió el último buzón a la nube. Planeo mantener los Servicios de federación de Active Directory (AD FS) para la autenticación de usuarios de mis buzones de Exchange Online. (Este escenario sería aplicable a cualquier cliente que tenga planeado mantener la sincronización de directorios).
 
-**Solución:** Como el cliente tiene planeado mantener AD FS, también tendrá que mantener la sincronización de directorios porque es un requisito previo. Por eso, no puede quitar completamente los servidores de Exchange del entorno local. Sin embargo, puede retirar la mayoría de los servidores de Exchange y dejar un par de servidores para la administración de usuarios. Tenga en cuenta que los servidores que se dejan en ejecución se pueden ejecutar en máquinas virtuales, ya que la carga de trabajo se traslada casi por completo a Exchange Online.
+**Solución:**   Como el cliente tiene planeado mantener AD FS, también tendrá que mantener la sincronización de directorios porque es un requisito previo. Por eso, no puede quitar completamente los servidores de Exchange del entorno local. Sin embargo, puede retirar la mayoría de los servidores de Exchange y dejar un par de servidores para la administración de usuarios. Tenga en cuenta que los servidores que se dejan en ejecución se pueden ejecutar en máquinas virtuales, ya que la carga de trabajo se traslada casi por completo a Exchange Online.
 
 El siguiente gráfico describe el estado final deseado:
 
@@ -286,7 +286,7 @@ El siguiente gráfico describe el estado final real:
 
 ## Escenario tres
 
-**Problema:** Quiero quitar mis servidores locales de Exchange después de mover todos los buzones a Exchange Online. Sin embargo, descubrimos que usan Exchange para otros fines, por ejemplo, para una retransmisión del Protocolo simple de transferencia de correo (SMTP) para una aplicación o para acceder a carpetas públicas. Si necesita servidores locales de Exchange para satisfacer las necesidades actuales de su organización, puede que no sea conveniente quitar los servidores locales.
+**Problema:**   Quiero quitar mis servidores locales de Exchange después de mover todos los buzones a Exchange Online. Sin embargo, descubrimos que usan Exchange para otros fines, por ejemplo, para una retransmisión del Protocolo simple de transferencia de correo (SMTP) para una aplicación o para acceder a carpetas públicas. Si necesita servidores locales de Exchange para satisfacer las necesidades actuales de su organización, puede que no sea conveniente quitar los servidores locales.
 
-**Solución:** Recomendamos no eliminar Exchange ni la configuración híbrida en este momento. Si tuviera que comenzar el proceso apuntando los registros de detección automática a Exchange Online, rompería inmediatamente algunas características, como el acceso a las carpetas públicas híbridas. Podría cambiar el registro MX para que apunte a Exchange Online Protection, si aún no lo hizo, e incluso podría quitar algunos de los servidores locales de Exchange. Sin embargo, necesitaría mantener un número suficiente para controlar las funciones híbridas restantes. Normalmente, esto produciría una huella local muy pequeña.
+**Solución:**   Recomendamos no eliminar Exchange ni la configuración híbrida en este momento. Si tuviera que comenzar el proceso apuntando los registros de detección automática a Exchange Online, rompería inmediatamente algunas características, como el acceso a las carpetas públicas híbridas. Podría cambiar el registro MX para que apunte a Exchange Online Protection, si aún no lo hizo, e incluso podría quitar algunos de los servidores locales de Exchange. Sin embargo, necesitaría mantener un número suficiente para controlar las funciones híbridas restantes. Normalmente, esto produciría una huella local muy pequeña.
 

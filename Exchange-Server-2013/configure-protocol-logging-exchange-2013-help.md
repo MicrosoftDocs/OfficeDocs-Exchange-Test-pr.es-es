@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-03-15_
+_**Última modificación del tema:** 2013-03-15_
 
 El registro de protocolo registra las conversaciones del SMTP que se producen entre conectores de envío y recepción como parte de la entrega de mensajes.
 

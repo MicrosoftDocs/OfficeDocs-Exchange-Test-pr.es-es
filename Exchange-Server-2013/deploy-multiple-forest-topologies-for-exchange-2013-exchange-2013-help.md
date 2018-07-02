@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En este tema se ofrece una introducción a la implementación de Microsoft Exchange Server 2013 en topologías de bosques múltiples. Encontrará información acerca de los siguientes temas:
 

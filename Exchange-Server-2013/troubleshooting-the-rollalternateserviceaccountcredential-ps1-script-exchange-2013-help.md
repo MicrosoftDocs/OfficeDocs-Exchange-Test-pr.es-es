@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-01-14_
+_**Última modificación del tema:** 2015-01-14_
 
 Este tema proporciona soluciones e información sobre errores comunes que podrían ocurrir al utilizar la secuencia de comandos RollAlternateServiceAccountPassword.ps1.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Los trabajadores de la información usan el correo electrónico todos los días para intercambiar información confidencial como informes y datos financieros, contratos legales, información confidencial de productos, informes y proyecciones de ventas, análisis competitivos, información de investigación y patentes e información sobre clientes y empleados. Debido a que las personas pueden obtener acceso a su correo electrónico desde prácticamente cualquier lugar, los buzones de correo se han transformado en depósitos que contienen grandes cantidades de información que puede ser confidencial. Como resultado, las fugas de información constituyen una amenaza grave para las organizaciones. Para ayudar a evitar las fugas de información, Exchange Server 2013 de Microsoft incluye características de Information Rights Management (IRM) que ofrecen protección permanente con y sin conexión para los mensajes de correo electrónico y los datos adjuntos.
 

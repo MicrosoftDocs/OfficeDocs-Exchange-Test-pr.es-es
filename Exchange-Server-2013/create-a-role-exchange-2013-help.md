@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-17_
+_**Última modificación del tema:** 2012-10-17_
 
 Puede crear una función de administración, cambiar las entradas de funciones de administración, agregar un ámbito si es preciso y, a continuación, asignar la función a un usuario. Raramente necesitará realizar este procedimiento. Se recomienda comprobar si es posible utilizar una función de administración integrada en lugar de crear una función de administración. Para obtener una lista de las funciones de administración integradas, vea [Roles de administración integrados](built-in-management-roles-exchange-2013-help.md).
 

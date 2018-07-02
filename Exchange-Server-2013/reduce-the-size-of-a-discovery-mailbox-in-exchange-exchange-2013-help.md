@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 ¿Tiene un buzón de correo de detección que ha superado el límite de 50 GB? Para solucionar este problema, puede crear nuevos buzones de correo de detección y copiar en ellos los resultados de la búsqueda del buzón de mayor tamaño.
 
@@ -100,23 +100,23 @@ El paso siguiente permite usar el cmdlet **New-MailboxSearch** para copiar los r
 
 2.  Tras crear la búsqueda, iníciela desde el Shell o desde el Centro de administración de Exchange (EAC).
     
-      - **Desde el Shell:** ejecute el comando siguiente para iniciar la búsqueda que se ha creado en el paso anterior. Como se incluyó el modificador *EstimateOnly* al crear la búsqueda, los resultados de esta no se copiarán en el buzón de correo de detección de destino.
+      - **Desde el Shell:**  ejecute el comando siguiente para iniciar la búsqueda que se ha creado en el paso anterior. Como se incluyó el modificador *EstimateOnly* al crear la búsqueda, los resultados de esta no se copiarán en el buzón de correo de detección de destino.
         
             Start-MailboxSearch "Search results from 2010"
     
-      - **Desde el EAC:** vaya a **Administración de cumplimiento** \> **eDiscovery y retención local**. Seleccione la búsqueda que se ha creado en el paso anterior y haga clic en **Buscar**![icono de Buscar](images/Dn750895.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "icono de Buscar") y en **Cálculo de resultados de búsqueda**.
+      - **Desde el EAC:**  vaya a **Administración de cumplimiento** \> **eDiscovery y retención local**. Seleccione la búsqueda que se ha creado en el paso anterior y haga clic en **Buscar**![icono de Buscar](images/Dn750895.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "icono de Buscar") y en **Cálculo de resultados de búsqueda**.
 
 3.  Si lo considera necesario, ajuste el intervalo de fechas para aumentar o disminuir la cantidad de resultados de la búsqueda que se devuelven. Si cambia el intervalo, ejecute la búsqueda de nuevo para obtener una nueva estimación de los resultados. Considere la posibilidad de cambiar el nombre de la búsqueda para que refleje el nuevo intervalo de fechas.
 
 4.  Cuando finalice las pruebas de la búsqueda, copie los resultados de la búsqueda en el buzón de correo de detección de destino desde el Shell o el EAC.
     
-      - **Desde el Shell:** ejecute los comandos siguientes para copiar los resultados de la búsqueda. Antes de hacerlo, debe quitar el modificador *EstimateOnly*.
+      - **Desde el Shell:**  ejecute los comandos siguientes para copiar los resultados de la búsqueda. Antes de hacerlo, debe quitar el modificador *EstimateOnly*.
         
             Set-MailboxSearch "Search results from 2010" -EstimateOnly $false
         
             Start-MailboxSearch "Search results from 2010"
     
-      - **Desde el EAC:** vaya a **Administración de cumplimiento** \> **eDiscovery y retención local**. Seleccione la búsqueda y haga clic en **Buscar**![icono de Buscar](images/Dn750895.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "icono de Buscar") y en **Copiar resultados de búsqueda**.
+      - **Desde el EAC:**  vaya a **Administración de cumplimiento** \> **eDiscovery y retención local**. Seleccione la búsqueda y haga clic en **Buscar**![icono de Buscar](images/Dn750895.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "icono de Buscar") y en **Copiar resultados de búsqueda**.
     
     Para más información, vea [Copiar los resultados de la búsqueda de exhibición de documentos electrónicos en un buzón de correo de detección](copy-ediscovery-search-results-to-a-discovery-mailbox-exchange-2013-help.md).
 
@@ -132,11 +132,11 @@ Antes de eliminar una búsqueda, puede ejecutar el comando siguiente para identi
 
 Las búsquedas de la exhibición de documentos electrónicos pueden eliminarse desde el Shell o desde el EAC.
 
-  - **Desde el Shell:** ejecute el comando siguiente.
+  - **Desde el Shell:**  ejecute el comando siguiente.
     
         Remove-MailboxSearch -Identity <name of search>
 
-  - **Desde el EAC:** vaya a **Administración de cumplimiento** \> **eDiscovery y retención local**. Seleccione la búsqueda que desea eliminar y haga clic en **Eliminar**![Eliminar icono](images/Dd979797.14f639f6-61e8-4418-bbfb-0db14de9d2f5(EXCHG.150).gif "Eliminar icono").
+  - **Desde el EAC:**  vaya a **Administración de cumplimiento** \> **eDiscovery y retención local**. Seleccione la búsqueda que desea eliminar y haga clic en **Eliminar**![Eliminar icono](images/Dd979797.14f639f6-61e8-4418-bbfb-0db14de9d2f5(EXCHG.150).gif "Eliminar icono").
 
 ## ¿Cómo puedo saber si el proceso se ha completado correctamente?
 

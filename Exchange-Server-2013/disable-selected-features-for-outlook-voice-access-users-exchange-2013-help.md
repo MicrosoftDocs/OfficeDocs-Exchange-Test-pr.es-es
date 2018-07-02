@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Outlook Voice Access contiene dos interfaces: la interfaz de usuario de teléfono (TUI) y la interfaz de usuario de voz (VUI). De manera predeterminada, cuando los usuarios marcan en Outlook Voice Access, pueden obtener acceso al calendario, el correo electrónico y los contactos personales, y realizar búsquedas en el directorio. Puede usar el Shell para evitar que los usuarios obtengan acceso a una o más de estas características cuando usen Outlook Voice Access para obtener acceso a su buzón de correo. Cuando modifique las características de Outlook Voice Access en una directiva de buzón de Mensajería unificada (UM), los cambios afectarán a todos los usuarios asociados con la directiva de buzón de MU.
 

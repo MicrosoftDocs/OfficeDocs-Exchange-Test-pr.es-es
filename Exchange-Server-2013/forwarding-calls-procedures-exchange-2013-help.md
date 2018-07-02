@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-29_
+_**Última modificación del tema:** 2013-04-29_
 
 [Permitir o impedir la creación de reglas de respuesta de llamada de un usuario](allow-or-prevent-a-user-from-creating-call-answering-rules-exchange-2013-help.md)
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-19_
+_**Última modificación del tema:** 2013-04-19_
 
 Puede habilitar un anuncio informativo para un operador automático de mensajería unificada (UM). Cuando se habilita un mensaje informativo automático, se reproduce justo después del saludo, ya sea dentro o fuera de horas de oficina. De forma predefinida, no se configura ningún mensaje informativo. Para habilitar un anuncio informativo, cree un archivo .wav o .wma para usarlo como anuncio informativo y luego configure el operador automático para que use este archivo de audio.
 

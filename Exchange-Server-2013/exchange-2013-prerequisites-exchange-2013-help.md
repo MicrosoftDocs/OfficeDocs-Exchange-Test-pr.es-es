@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2017-03-20_
+_**Última modificación del tema:** 2017-03-20_
 
 Este tema describe los pasos para instalar los requisitos previos necesarios de los sistemas operativos Windows Server 2012 R2, Windows Server 2012 y Windows Server 2008 R2 con Service Pack 1 (SP1) para los roles de servidor Transporte perimetral, Acceso de clientes y Buzón de correo de Microsoft Exchange 2013. También describe los requisitos previos necesarios para instalar las herramientas de administración de Exchange 2013 en equipos cliente Windows 8, Windows 8.1 y Windows 7.
 

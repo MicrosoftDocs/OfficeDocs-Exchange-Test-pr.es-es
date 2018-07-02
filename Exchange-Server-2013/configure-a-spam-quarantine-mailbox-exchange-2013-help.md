@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-19_
+_**Última modificación del tema:** 2013-02-19_
 
 Los mensajes que el agente de filtro de contenidos determina como correo no deseado se pueden dirigir a un buzón en cuarentena de correo no deseado. Si el umbral de cuarentena del nivel de confianza de correo no deseado (SCL) está habilitado, todos los mensajes en cuarentena se ajustan como informes de no entrega (NDR) y se envían a la dirección SMTP especificada como buzón de cuarentena de correo no deseado. Podrá revisar los mensajes en cuarentena y entregarlos a los destinatarios deseados mediante la característica Volver a enviar de Microsoft Outlook.
 

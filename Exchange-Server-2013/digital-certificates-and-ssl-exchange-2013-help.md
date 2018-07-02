@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-08-26_
+_**Última modificación del tema:** 2013-08-26_
 
 Capa de sockets seguros (SSL) es un método para proteger la comunicación entre un cliente y un servidor. Para Exchange Server 2013, se usa SSL para ayudar a asegurar las comunicaciones entre el servidor y los clientes. Los clientes pueden ser teléfonos móviles, equipos de la red de una organización y equipos situados fuera de la red de una organización.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-01-14_
+_**Última modificación del tema:** 2015-01-14_
 
 Se pueden ver, cambiar o quitar las directivas de prevención contra la pérdida de datos (DLP) existentes en Microsoft Exchange, mediante el uso del Centro de Administración de Exchange (EAC) o el Shell de Administración de Exchange.
 

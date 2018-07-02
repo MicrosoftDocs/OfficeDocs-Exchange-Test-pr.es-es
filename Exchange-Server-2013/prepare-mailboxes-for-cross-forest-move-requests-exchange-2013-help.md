@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2017-11-22_
+_**Última modificación del tema:** 2017-11-22_
 
-**Resumen:** aprender acerca de cómo preparar los buzones para traslados entre bosques en Exchange 2013.
+**Resumen:**  aprender acerca de cómo preparar los buzones para traslados entre bosques en Exchange 2013.
 
 Microsoft Exchange 2013 es compatible con operaciones de mover buzones y migraciones mediante el Shell de administración de Exchange, en concreto los cmdlets **New-MoveRequest** y **New-MigrationBatch** . También puede mover el buzón a través de centro de administración de Exchange (EAF). Tenga en cuenta que puede mover buzones de Exchange 2010 y 2013 de Exchange en un bosque de Exchange de 2013.
 

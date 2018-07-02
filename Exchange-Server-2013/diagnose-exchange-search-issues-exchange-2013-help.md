@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 El servicio de búsqueda de Exchange indexa los buzones de correo y los datos adjuntos compatibles en los buzones de correo de Exchange. Debido al aumento en los volúmenes de correo electrónico, los tamaños de los buzones y las cuotas de almacenamiento cada vez más grandes, el aprovisionamiento de buzones de archivo para los usuarios y la exhibición de documentos electrónicos local para realizar búsquedas de detección, el servicio de búsqueda de Exchange es un componente fundamental de los servidores de buzones de correo en su organización de Microsoft Exchange Server 2013. Los problemas con el servicio de búsqueda de Exchange pueden afectar a la productividad del usuario y tener impacto en la funcionalidad de Exhibición de documentos electrónicos local.
 

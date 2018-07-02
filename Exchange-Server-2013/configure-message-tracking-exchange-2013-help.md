@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-18_
+_**Última modificación del tema:** 2013-02-18_
 
 El seguimiento de mensajes registra la actividad de transporte SMTP de todos los mensajes transferidos al servicio de transporte o a los buzones de correo, y desde estos, en un servidor de buzones de Microsoft Exchange Server 2013. Puede utilizar los registros de seguimiento de mensajes para análisis de mensajes, análisis del flujo de correo, elaboración de informes y solución de problemas.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-30_
+_**Última modificación del tema:** 2012-11-30_
 
 La mensajería unificada combina la mensajería de voz y la mensajería del correo electrónico en un buzón de correo al que se puede tener acceso desde muchos dispositivos diferentes. Los usuarios pueden escuchar los mensajes de correo de voz desde su Bandeja de entrada del correo electrónico o desde cualquier teléfono si utilizan Outlook Voice Access.
 

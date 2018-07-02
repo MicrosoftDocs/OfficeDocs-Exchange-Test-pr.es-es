@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 Puede configurar la mensajería unificada (UM) para que los usuarios puedan iniciar sesión en el correo de voz sin usar un PIN. De manera predeterminada, se les solicita a los usuarios de Outlook Voice Access que escriban un PIN para iniciar sesión y obtener acceso a sus buzones de correo, correos electrónicos, calendario y contactos personales, el directorio y opciones personales.
 

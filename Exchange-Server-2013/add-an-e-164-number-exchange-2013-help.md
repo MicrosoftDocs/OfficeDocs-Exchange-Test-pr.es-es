@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-14_
+_**Última modificación del tema:** 2012-11-14_
 
 Cuando se habilita a un usuario para mensajería unificada y se vincula a un plan de marcado E.164, se crean dos direcciones de proxy EUM. Una que contiene el número de extensión del usuario y otra con un número E.164 para el usuario. El número de extensión se usa cuando el usuario llame a un número de Outlook Voice Access.
 

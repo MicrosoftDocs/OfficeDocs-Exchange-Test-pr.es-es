@@ -21,9 +21,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-09-30_
+_**Última modificación del tema:** 2015-09-30_
 
 La carpeta Elementos recuperables (conocida en versiones anteriores de Exchange como *el volcado de archivos*) existe para proteger de eliminaciones accidentales o malintencionadas y para facilitar los esfuerzos de detección comúnmente realizados antes o durante el litigio o las investigaciones. Para obtener más información acerca de la carpeta Elementos recuperables, consulte [Carpeta Elementos recuperables](recoverable-items-folder-exchange-2013-help.md).
 

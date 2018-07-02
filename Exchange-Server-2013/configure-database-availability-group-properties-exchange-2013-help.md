@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-06-24_
+_**Última modificación del tema:** 2014-06-24_
 
 Puede usar el Centro de administración de Exchange o el Shell para configurar las propiedades de un grupo de disponibilidad de base de datos (DAG), incluidas la configuración de la dirección IP del DAG y el servidor testigo y el directorio testigo que usa el DAG. El Shell permite configurar las propiedades del DAG que no están disponibles en el EAC, como el servidor testigo de destino y la información de directorios testigo alternativos, el puerto TCP usado para la replicación y el modo de coordinación de activación de centros de datos (DAC).
 

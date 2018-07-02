@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Project Server 2013_
+_**Se aplica a:**  Exchange Server 2013, Project Server 2013_
 
-_**Última modificación del tema:**2015-11-10_
+_**Última modificación del tema:**  2015-11-10_
 
 El conjunto de mantenimiento **OWA.Protocol.DEP** supervisa el estado general de los servicios de mensajería instantánea (MI) de Outlook Web App integrados entre Lync 2013 y Exchange 2013. Para obtener más información sobre cómo habilitar la mensajería instantánea en Outlook Web App, vea [Integración de Microsoft Lync Server 2013 y Microsoft Outlook Web App 2013](http://go.microsoft.com/fwlink/p/?linkid=280418).
 

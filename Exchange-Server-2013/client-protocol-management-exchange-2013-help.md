@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La administración de los protocolos de cliente de Exchange ActiveSync, Outlook Web App, POP3, IMAP4, el servicio Detección automática, servicios Web Exchange y el servicio de Disponibilidad se realiza en tres áreas diferentes: el Centro de administración de Exchange (EAC), el Shell de administración de Exchange y el Administrador de Internet Information Services (IIS). La configuración que se administra en cada ubicación varía en función del protocolo de cliente.
 

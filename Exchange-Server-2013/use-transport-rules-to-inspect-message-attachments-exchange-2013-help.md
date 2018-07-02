@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-27_
+_**Última modificación del tema:** 2015-03-27_
 
 Puede configurar reglas de transporte para inspeccionar los datos adjuntos de correo de su organización. Exchange ofrece reglas de transporte que permiten examinar los datos adjuntos del correo como parte de la seguridad de la mensajería y las necesidades de conformidad normativa. Cuando inspeccione datos adjuntos, puede actuar en los mensajes inspeccionados en función del contenido o las características de esos datos adjuntos. A continuación se muestran algunas tareas relacionadas con datos adjuntos que pueden realizarse mediante reglas de transporte:
 

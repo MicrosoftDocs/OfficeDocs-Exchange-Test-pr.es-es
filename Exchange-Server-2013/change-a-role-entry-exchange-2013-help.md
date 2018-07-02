@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 Cada entrada de función de administración en una función de administración representa un solo cmdlet. Al agregar o quitar parámetros de una entrada de función que luego se agrega a una función de administración, se controla si esos parámetros están disponibles en ese cmdlet. Para obtener más información acerca de las entradas de funciones de administración en Microsoft Exchange Server 2013, consulte [Descripción de los roles de administración](understanding-management-roles-exchange-2013-help.md).
 

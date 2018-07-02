@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Los informes de llamada mensajería unificada (MU) proporcionan información acerca de las llamadas desviadas o realizadas por la mensajería unificada. Use estos informes para supervisar, solucionar problemas y elaborar informes acerca de la mensajería unificada de su organización. Podrá obtener acceso a los informes de estadísticas de llamadas de Mensajería unificada mediante el uso de la herramienta Estadísticas de llamadas y a los registros de llamadas de usuarios habilitados para Mensajería unificada mediante el uso de la herramienta Registros de llamadas de usuarios.
 

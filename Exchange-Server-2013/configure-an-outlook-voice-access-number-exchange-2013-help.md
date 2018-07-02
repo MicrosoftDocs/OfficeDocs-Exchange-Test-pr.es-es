@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Un número de Outlook Voice Access permite que un usuario habilitado para la mensajería unificada y el correo de voz obtenga acceso a su buzón de correo mediante Outlook Voice Access. Cuando se configura un número de acceso de suscriptor o de Outlook Voice Access en un plan de marcado, los usuarios habilitados para la MU pueden llamar al número, iniciar una sesión en su buzón de correo y tener acceso a su correo electrónico, correo de voz, calendario e información de contacto personal.
 

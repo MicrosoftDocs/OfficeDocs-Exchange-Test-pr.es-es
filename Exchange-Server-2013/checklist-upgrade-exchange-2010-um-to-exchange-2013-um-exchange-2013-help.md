@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Use esta lista de comprobación para actualizar mensajería unificada (UM) de Exchange 2010 a mensajería unificada (UM) de Exchange 2013. Asegúrese de consultar esta información cuando actualiza su organización de Exchange 2010 y su implementación de mensajería unificada (UM) a Exchange 2013. Para obtener instrucciones paso a paso para la actualización a mensajería unificada (UM) de Exchange 2013, vea [Actualizar la mensajería unificada (UM) de Exchange 2010 a la mensajería unificada de Exchange 2013](upgrade-exchange-2010-um-to-exchange-2013-um-exchange-2013-help.md).
 

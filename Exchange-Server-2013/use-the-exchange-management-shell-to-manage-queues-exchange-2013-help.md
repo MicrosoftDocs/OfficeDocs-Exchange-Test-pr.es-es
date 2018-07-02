@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Como en versiones anteriores de Exchange, puede usar el Shell de administración de Exchange en Microsoft Exchange Server 2013 para ver información sobre colas y mensajes en dichas colas, así como para realizar acciones administrativas en ellas. En Exchange 2013, hay colas en los servidores de buzones de correo y en los servidores de transporte perimetral. Este tema hace referencia a estos servidores como *servidores de transporte*.
 

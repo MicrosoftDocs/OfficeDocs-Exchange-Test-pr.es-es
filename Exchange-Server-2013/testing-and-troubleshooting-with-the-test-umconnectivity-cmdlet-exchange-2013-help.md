@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-06-25_
+_**Última modificación del tema:** 2013-06-25_
 
 Después de instalar los servidores de acceso de cliente y de buzones de correo y configurar la Mensajería unificada, puede usar varias pruebas de diagnóstico y una aplicación de teléfono basado en software para comprobar la conectividad telefónica y el funcionamiento de los Servicios de mensajería unificada.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-28_
+_**Última modificación del tema:** 2012-11-28_
 
 Puede usar el EAC o el Shell para administrar los límites de conexión IMAP4 de su organización.
 

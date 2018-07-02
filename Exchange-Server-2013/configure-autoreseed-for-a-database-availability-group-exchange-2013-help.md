@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-04-15_
+_**Última modificación del tema:** 2013-04-15_
 
 La Reinicialización automática es una función para restaurar rápidamente la redundancia después de un error de disco. Si un disco presenta un error, las copias de la base de datos almacenadas en ese disco se reinicializan automáticamente en un disco de repuesto preconfigurado en un servidor de buzones. Siga los pasos descritos en este tema para configurar la Reinicialización automática para un grupo de disponibilidad de base de datos (DAG).
 

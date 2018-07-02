@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Las reglas de protección de Microsoft Outlook permiten proteger mensajes con Information Rights Management (IRM) mediante la aplicación de una plantilla de [Active Directory Rights Management Services (AD RMS)](https://technet.microsoft.com/es-es/library/hh831364.aspx) en Outlook 2010 antes de enviar los mensajes. Para evitar que se aplique una regla de protección de Outlook, deshabilítela. Al quitar una regla de protección de Outlook, se elimina la definición de reglas de Active Directory.
 

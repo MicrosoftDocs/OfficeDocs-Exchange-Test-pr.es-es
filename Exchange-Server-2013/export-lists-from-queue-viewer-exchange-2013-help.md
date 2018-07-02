@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-09-25_
+_**Última modificación del tema:** 2012-09-25_
 
 En este tema, se explica cómo usar el Visor de cola en el cuadro de herramientas de Exchange para exportar listas de mensajes o colas.
 

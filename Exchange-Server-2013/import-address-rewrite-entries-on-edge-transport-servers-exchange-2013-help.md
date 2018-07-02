@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Puede crear de forma masiva la información sobre reescritura de direcciones o importarla en un servidor de transporte perimetral mediante un archivo de valores separados por comas (CSV). En esta lista describimos los escenarios comunes en los que es necesario hacerlo:
 

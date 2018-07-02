@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-12-16_
+_**Última modificación del tema:** 2014-12-16_
 
 En este tema se explica cómo crear una lista de direcciones de correo mediante el uso de filtros de destinatarios. Para obtener más información acerca de las listas de direcciones, consulte [Listas de direcciones](address-lists-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-05_
+_**Última modificación del tema:** 2012-11-05_
 
 Puede habilitar asignaciones de claves en horario comercial para un operador automático de mensajería unificada (MU). Después de crear un operador automático de mensajería unificada, se usará un aviso del sistema predeterminado para el texto del menú principal en horario comercial que las personas que llaman escucharán después de que se reproduzca el saludo de bienvenida en horario comercial. El texto del menú principal en horario comercial dice algo similar a: "Bienvenido al operador automático de Microsoft Exchange." Debido a que de forma predeterminada no hay asignaciones de tecla, las personas que llaman no tienen opciones de menú, solo escuchan el mensaje del sistema predeterminado.
 

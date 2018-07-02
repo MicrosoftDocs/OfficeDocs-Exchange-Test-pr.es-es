@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-10-01_
+_**Última modificación del tema:** 2014-10-01_
 
 El *asistente para carpeta administrada* es un asistente de buzones de Microsoft Exchange que aplica la configuración de retención de mensajes establecida en las directivas de retención.
 

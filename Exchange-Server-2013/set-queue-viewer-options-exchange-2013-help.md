@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 Puede configurar las opciones del Visor de cola para ajustar el número de elementos que se muestran en la página y el intervalo de actualización automática. El intervalo de actualización automática determina la frecuencia con que se actualizan los resultados del Visor de cola.
 

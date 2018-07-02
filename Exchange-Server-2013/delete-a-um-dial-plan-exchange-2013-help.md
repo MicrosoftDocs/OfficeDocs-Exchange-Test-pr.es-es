@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-11_
+_**Última modificación del tema:** 2012-11-11_
 
 Puede eliminar a un plan de marcado de mensajería unificada (UM) existente. Al eliminar el plan de marcado de mensajería unificada, este ya no estará disponible para puertas de acceso de enlace IP de mensajería unificada, directivas de buzón de correo de mensajería unificada y grupos de extensiones de mensajería unificada. No puede eliminar un plan de marcado de mensajería unificada al que hace referencia o al que está asociado con directivas de buzón de correo de mensajería unificada, operadores automáticos de mensajería unificada, puertas de enlace IP de mensajería unificada o grupos de extensiones de mensajería unificada.
 

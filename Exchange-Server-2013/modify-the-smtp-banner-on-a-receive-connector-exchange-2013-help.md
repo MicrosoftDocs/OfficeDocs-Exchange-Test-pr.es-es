@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 The *SMTP banner* is the SMTP connection response that a remote SMTP messaging server receives after it connects to a Receive connector that's configured on a computer running Microsoft Exchange Server 2013.
 

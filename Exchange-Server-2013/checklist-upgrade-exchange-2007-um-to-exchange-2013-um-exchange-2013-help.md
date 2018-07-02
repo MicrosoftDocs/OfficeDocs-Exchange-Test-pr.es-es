@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Utilice esta lista de comprobación para ayudarle a actualizar la Mensajería unificada (UM) de Exchange 2007 a la Mensajería unificada de Exchange 2013. Asegúrese de consultar esta información cuando esté actualizando la organización de Exchange 2007 y la implementación de mensajería unificada a Exchange 2013. Para obtener instrucciones paso a paso sobre la actualización a la Mensajería unificada de Exchange 2013, vea [Actualizar la mensajería UNIFICADA de Exchange 2007 para la mensajería UNIFICADA de Exchange de 2013](upgrade-exchange-2007-um-to-exchange-2013-um-exchange-2013-help.md).
 

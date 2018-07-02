@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2017-02-03_
+_**Última modificación del tema:** 2017-02-03_
 
 Puede instalar o eliminar complementos de Outlook de la organización usando el EAC o el Shell.
 

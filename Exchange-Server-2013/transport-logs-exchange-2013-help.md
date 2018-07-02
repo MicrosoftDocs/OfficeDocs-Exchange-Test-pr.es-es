@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-01-28_
+_**Última modificación del tema:** 2013-01-28_
 
 Los registros de transporte proporcionan información sobre lo que está sucediendo en la canalización de transporte. Los siguientes registros de transporte están disponibles en Microsoft Exchange Server 2013:
 

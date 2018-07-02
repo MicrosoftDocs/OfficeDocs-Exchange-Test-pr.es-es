@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-13_
+_**Última modificación del tema:** 2012-11-13_
 
 Puede habilitar llamadas salientes para una puerta de enlace IP de mensajería unificada (UM) si las llamadas salientes se han deshabilitado. Cuando selecciona la opción **Permitir llamadas salientes mediante esta puerta de enlace IP de mensajería unificada** en las propiedades de la puerta de enlace IP de mensajería unificada, configura esta puerta de enlace para que acepte y envíe llamadas salientes a la puerta de enlace de voz sobre IP (VoIP), la central de conmutación (PBX) habilitada para el protocolo de inicio de sesión (SIP), el IP PBX o los controladores de borde de sesión (SBC). Aunque la opción **Permitir llamadas salientes mediante esta puerta de enlace IP de mensajería unificada** controla si la puerta de enlace IP puede iniciar llamadas salientes para los usuarios, no afecta a las transferencias de llamada ni a las llamadas entrantes de una puerta de enlace de voz sobre IP, una central de conmutación (PBX) habilitada para SIP, IP PBX o SBC.
 

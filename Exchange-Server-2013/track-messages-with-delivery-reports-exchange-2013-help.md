@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-13_
+_**Última modificación del tema:** 2012-10-13_
 
 Informes de entrega es una herramienta de seguimiento de mensajes del Centro de administración de Exchange (EAC) que puede utilizar para buscar el estado de la entrega en los mensajes de correo electrónico con respecto a su envío o recepción por parte de los usuarios en la libreta de direcciones de la organización, con un asunto determinado. Puede realizar el seguimiento de la información de entrega de los mensajes enviados desde un buzón de correo específico de la organización o recibidos desde dicho buzón. En un informe de entrega no se recupera el contenido del cuerpo del mensaje, pero la línea de asunto se muestra en los resultados. Puede realizar el seguimiento de los mensajes hasta 14 días después del envío o de la recepción.
 
@@ -47,7 +47,7 @@ Utilice el EAC para revisar un informe de entrega
 
 2.  Escriba la información siguiente:
     
-      - **\* Buzón para buscar:** Haga clic en **Examinar** para seleccionar el buzón en la libreta de direcciones y luego haga clic en **Aceptar**. Es preciso seleccionar el buzón de correo donde se va a buscar.
+      - **\* Buzón para buscar:**  Haga clic en **Examinar** para seleccionar el buzón en la libreta de direcciones y luego haga clic en **Aceptar**. Es preciso seleccionar el buzón de correo donde se va a buscar.
     
       - Seleccione una de las siguientes opciones:
         

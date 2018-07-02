@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2012-11-08_
+_**Última modificación del tema:** 2012-11-08_
 
 El programa de instalación de Microsoft Exchange Server 2013 mostró esta advertencia porque no existen roles de servidor de Exchange Server 2010 o Exchange Server 2007 en la organización.
 

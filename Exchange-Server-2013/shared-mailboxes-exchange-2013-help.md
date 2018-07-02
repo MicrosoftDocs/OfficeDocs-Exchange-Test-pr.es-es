@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-06-04_
+_**Última modificación del tema:** 2015-06-04_
 
 Obtenga más información sobre el buzón compartido de Exchange en Microsoft Exchange Server 2013, los motivos para usarlo y cómo convertir un buzón de correo delegado en un buzón compartido de Exchange.
 
@@ -35,9 +35,9 @@ No se admiten los buzones compartidos en los dispositivos móviles.
 
 Un buzón de correo compartido es un tipo de buzón de correo de usuario que no tiene su propio nombre de usuario y contraseña. Como resultado, los usuarios no pueden iniciar sesión en el buzón directamente. Para obtener acceso a un buzón de correo compartido, los usuarios primero deben obtener permisos para Enviar como o Acceso completo al buzón de correo. Luego, inician sesión en sus propios buzones de correo y, posteriormente, obtienen acceso al buzón de correo compartido agregándolo a su propio perfil de Outlook. En Exchange 2003 y en versiones anteriores, los buzones de correo compartidos eran sólo un buzón de correo regular a los cuales un administrador podía garantizar acceso delegado. A partir de Exchange 2007, los buzones compartidos se convirtieron en su propio tipo de destinatario:
 
-  - **RecipientType:** UserMailbox
+  - **RecipientType:**  UserMailbox
 
-  - **RecipientTypeDetails:** SharedMailbox
+  - **RecipientTypeDetails:**  SharedMailbox
 
 En versiones anteriores de Exchange, la creación de un buzón de correo compartido era un proceso de varios pasos donde tenía que usar el Shell de administración de Exchange para completar algunas de las tareas. En Exchange 2013, puede usar el Centro de administración de Exchange (EAC) para crear un buzón compartido en un paso. Para obtener información más detallada, consulte [Creación de un buzón compartido](create-a-shared-mailbox-exchange-2013-help.md). De hecho, el EAC tiene un área de características dedicada completamente a los buzones de correo compartidos. Simplemente, navegue a **Destinatarios** \> **Buzones de correo compartidos** para ver todas las tareas de administración para los buzones de correo compartidos.
 

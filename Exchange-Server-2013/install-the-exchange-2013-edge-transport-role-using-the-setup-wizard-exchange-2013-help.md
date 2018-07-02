@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server, Exchange Server 2013_
+_**Se aplica a:** Exchange Server, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-06-19_
+_**Última modificación del tema:** 2014-06-19_
 
 En este tema se explica cómo usar el asistente para instalación de Microsoft Exchange Server 2013 para instalar el rol de servidor de transporte perimetral de Exchange 2013 en un equipo. El rol de transporte perimetral está disponible con Exchange 2013 Service Pack 1 (SP1) o posterior. Para obtener más información acerca de la planificación e implementación de Exchange 2013, consulte [Planificación e implementación](planning-and-deployment-for-exchange-2013-installation-instructions.md).
 

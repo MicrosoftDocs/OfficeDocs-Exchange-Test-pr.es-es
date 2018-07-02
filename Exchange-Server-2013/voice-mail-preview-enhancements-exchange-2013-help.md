@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-07-05_
+_**Última modificación del tema:** 2012-07-05_
 
 La vista previa del correo de voz es una característica disponible para los usuarios que reciben mensajes de voz con Microsoft Exchange Server 2010 o la mensajería unificada (MU) de Exchange Server 2013. La vista previa del correo de voz mejora la funcionalidad de correo de voz de mensajería unificada proporcionando una versión de texto de las grabaciones sonoras. El texto del correo de voz se muestra en un mensaje de correo electrónico de Microsoft Office Outlook Web App, Outlook 2010 y otros programas de correo electrónico.
 

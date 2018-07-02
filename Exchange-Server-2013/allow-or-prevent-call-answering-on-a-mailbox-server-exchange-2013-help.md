@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-18_
+_**Última modificación del tema:** 2012-11-18_
 
 Puede permitir que el servicio de mensajería unificada de Microsoft Exchange en un servidor de buzones responda nuevas llamadas, o evitar que lo haga. De manera predeterminada, un servidor de buzones está habilitado después de su instalación. Cuando configura el servidor de buzones para que acepte llamadas entrantes de voz, de fax, de operador automático y de Outlook Voice Access, usa el cmdlet **Set-ServerComponentState**.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 En Microsoft Exchange Server 2013, el flujo de correo se produce a través de la canalización de transporte. La *canalización de transporte* es un conjunto de servicios, conexiones, componentes y colas que funcionan conjuntamente para enrutar todos los mensajes a un categorizador situado en el servicio de transporte en un servidor de buzones de correo dentro de la organización.
 

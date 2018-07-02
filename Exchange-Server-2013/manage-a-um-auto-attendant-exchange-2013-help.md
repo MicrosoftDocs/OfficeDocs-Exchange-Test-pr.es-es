@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-30_
+_**Última modificación del tema:** 2013-04-30_
 
 Después de crear un operador automático de mensajería unificada (MU), podrá ver o configurar diversos ajustes de configuración. Por ejemplo, puede agregar, quitar y editar números de extensión que estén asociados con el operador automático. También puede habilitar y deshabilitar el reconocimiento de voz automático (ASR) para el operador automático y cambiar los saludos utilizados para horarios comerciales y no comerciales.
 
@@ -203,7 +203,7 @@ Para conocer tareas de administración adicionales relacionadas con los operador
     
       - **Opciones para las búsquedas en la libreta de direcciones**   Use estas opciones para determinar una agrupación de usuarios. De forma predeterminada, se selecciona **Permitir que las personas que llaman busquen usuarios por nombre o por alias** junto con la opción **En este plan de marcado únicamente**. Sin embargo, puede cambiar las agrupaciones de usuarios para permitir a las personas que llamen transferir llamadas o enviar mensajes a los usuarios ubicados en la lista global de direcciones (GAL) de una organización. Se puede elegir entre las opciones siguientes:
         
-          - **Permitir a los autores de llamadas buscar usuarios por nombre o alias:**    De forma predeterminada, esta opción está seleccionada. Permite a las personas que llamen llamar en este operador automático para realizar una búsqueda de directorio de usuarios por nombre o por alias. Se asigna un alias a un usuario cuando se crea un buzón de correo para él. El alias es la primera parte de una dirección SMTP, por ejemplo, tonysmith@contoso.com. La dirección SMTP es tonysmith@contoso.com, mientras que el alias es tonysmith. La elección de esta opción sólo afecta a las personas que llaman que usan este operador automático y no las que usan Outlook Voice Access.
+          - **Permitir a los autores de llamadas buscar usuarios por nombre o alias:**     De forma predeterminada, esta opción está seleccionada. Permite a las personas que llamen llamar en este operador automático para realizar una búsqueda de directorio de usuarios por nombre o por alias. Se asigna un alias a un usuario cuando se crea un buzón de correo para él. El alias es la primera parte de una dirección SMTP, por ejemplo, tonysmith@contoso.com. La dirección SMTP es tonysmith@contoso.com, mientras que el alias es tonysmith. La elección de esta opción sólo afecta a las personas que llaman que usan este operador automático y no las que usan Outlook Voice Access.
             
               - **En este plan de marcado únicamente**   Seleccione esta opción para permitir a las personas que llaman que conectan con el operador automático de mensajería unificada ubicar y ponerse en contacto con usuarios del mismo plan de marcado asociado con el operador automático del mensajería unificada. De forma predeterminada, esta opción está habilitada en el pan de marcado y en el operador automático. Esto significa que los usuarios de Outlook Voice Access y las personas que llaman al operador automático pueden buscar usuarios dentro del mismo plan de marcado.
             

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-17_
+_**Última modificación del tema:** 2013-02-17_
 
 Puede configurar el puerto de Seguridad de la capa de transporte (TLS) que se usa para escuchar solicitudes SIP en un servidor de acceso de cliente que ejecute el servicio de enrutador de llamadas de mensajería unificada de Microsoft Exchange. De manera predeterminada, al instalar un servidor de acceso de cliente, el número de puerto de escucha SIP TLS se establece en 5061.
 

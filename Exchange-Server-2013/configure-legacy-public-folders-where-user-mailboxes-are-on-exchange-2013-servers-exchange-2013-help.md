@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2017-03-27_
+_**Última modificación del tema:** 2017-03-27_
 
 Cómo habilitar a los usuarios 2013 de Exchange o Exchange 2016 acceso Exchange 2010 o anteriores carpetas públicas (también conocido como carpetas públicas heredadas).
 

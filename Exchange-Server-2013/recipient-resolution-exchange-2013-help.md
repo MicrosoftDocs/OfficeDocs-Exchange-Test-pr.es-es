@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-03-17_
+_**Última modificación del tema:** 2016-03-17_
 
 La *resolución de destinatarios* es el proceso de expandir la lista de destinatarios y resolver todos los destinatarios de un mensaje. La acción de resolver destinatarios hace coincidir un destinatario con el objeto de Active Directory correspondiente de la organización de Microsoft Exchange. La acción de expandir destinatarios expande todos los grupos de distribución en una lista de destinatarios individuales. La resolución de destinatarios permite que se apliquen correctamente límites de mensajes y destinatarios alternativos a cada destinatario.
 
@@ -37,7 +37,7 @@ La *resolución de alto nivel* es la primera etapa de la resolución de destinat
 
 ## Direcciones de correo de destinatarios
 
-La resolución de alto nivel empieza con un mensaje y la lista de destinatarios inicial sin expandir del *sobre del mensaje*. El sobre del mensaje contiene los comandos que se usan para transmitir mensajes entre servidores de mensajería SMTP. La dirección de correo del remitente se incluye en el comando **MAIL FROM:** diferente. La dirección de correo de cada destinatario se incluye en un comando **RCPT TO:** independiente diferente. El remitente y los destinatarios del sobre se crean, normalmente, a partir del remitente y los destinatarios de los campos de encabezado `To:`, `From:`, `Cc:` y `Bcc:` del encabezado del mensaje. No obstante, esto no siempre es así. Los campos de encabezado `To:`, `From:`, `Cc:` y `Bcc:` de un mensaje se pueden manipular con facilidad y es posible que no coincidan con las direcciones de correo del remitente o de los destinatarios originales que se usaron para transmitir el mensaje.
+La resolución de alto nivel empieza con un mensaje y la lista de destinatarios inicial sin expandir del *sobre del mensaje*. El sobre del mensaje contiene los comandos que se usan para transmitir mensajes entre servidores de mensajería SMTP. La dirección de correo del remitente se incluye en el comando **MAIL FROM:**  diferente. La dirección de correo de cada destinatario se incluye en un comando **RCPT TO:**  independiente diferente. El remitente y los destinatarios del sobre se crean, normalmente, a partir del remitente y los destinatarios de los campos de encabezado `To:`, `From:`, `Cc:` y `Bcc:` del encabezado del mensaje. No obstante, esto no siempre es así. Los campos de encabezado `To:`, `From:`, `Cc:` y `Bcc:` de un mensaje se pueden manipular con facilidad y es posible que no coincidan con las direcciones de correo del remitente o de los destinatarios originales que se usaron para transmitir el mensaje.
 
 ## Direcciones de correo encapsuladas
 
@@ -148,11 +148,11 @@ El filtro LDAP que se usa para la resolución de direcciones se describe a conti
 
   - En los demás tipos de direcciones de correo, se usa el atributo de destinatario de Active Directory **proxyAddresses** como filtro LDAP.
 
-Si la dirección de correo usada en el mensaje no coincide con la dirección principal SMTP del objeto correspondiente de Active Directory, el categorizador reescribe la dirección en el mensaje para que coincida con la dirección principal SMTP. La dirección original se guarda en la entrada `ORCPT=` en el comando **RCPT TO:** en el sobre del mensaje.
+Si la dirección de correo usada en el mensaje no coincide con la dirección principal SMTP del objeto correspondiente de Active Directory, el categorizador reescribe la dirección en el mensaje para que coincida con la dirección principal SMTP. La dirección original se guarda en la entrada `ORCPT=` en el comando **RCPT TO:**  en el sobre del mensaje.
 
 ## Restricciones de mensajes del remitente
 
-El tamaño que se usa para la restricción de tamaño de los mensajes del remitente es el valor del campo de encabezado **X-MS-Exchange-Organization-OriginalSize:** el campo de encabezado del encabezado del mensaje. Exchange usa este campo de encabezado para registrar el tamaño original que tenía el mensaje al entrar en la organización de Exchange. Siempre que se comprueban los límites de los mensajes indicados con respecto al mensaje, se usa el valor más bajo del tamaño del mensaje actual o el encabezado del tamaño del mensaje original. El tamaño del mensaje puede cambiar debido a la conversión del contenido, la codificación y el procesamiento de agentes. Si este campo de encabezado no existe, se crea mediante el valor de tamaño del mensaje actual. Si el mensaje es demasiado grande, se genera un NDR y se detiene el procesamiento adicional del mensaje.
+El tamaño que se usa para la restricción de tamaño de los mensajes del remitente es el valor del campo de encabezado **X-MS-Exchange-Organization-OriginalSize:**  el campo de encabezado del encabezado del mensaje. Exchange usa este campo de encabezado para registrar el tamaño original que tenía el mensaje al entrar en la organización de Exchange. Siempre que se comprueban los límites de los mensajes indicados con respecto al mensaje, se usa el valor más bajo del tamaño del mensaje actual o el encabezado del tamaño del mensaje original. El tamaño del mensaje puede cambiar debido a la conversión del contenido, la codificación y el procesamiento de agentes. Si este campo de encabezado no existe, se crea mediante el valor de tamaño del mensaje actual. Si el mensaje es demasiado grande, se genera un NDR y se detiene el procesamiento adicional del mensaje.
 
 El límite de destinatarios del remitente solo se aplica en el servicio de transporte del primer servidor de buzones de correo que procesa el mensaje. El recuento original de destinatarios en el sobre del mensaje sin expandir se compara con el límite de destinatarios del remitente. El recuento original de destinatarios en el sobre del mensaje sin expandir se usa para evitar los problemas de entrega parcial de mensajes que se producen en Microsoft Exchange Server 2003 cuando las listas de distribución anidadas usan servidores de expansión remotos.
 
@@ -220,7 +220,7 @@ En la lista siguiente se describen los mensajes de informes de entrega disponibl
 
   - **Notificación de estado de entrega (DSN)**   Este informe describe el resultado de un intento de entrega de un mensaje. Para obtener más información acerca de los mensajes DSN, vea [DSN y NDR en Exchange 2013](dsns-and-ndrs-in-exchange-2013-exchange-2013-help.md).
 
-  - **Notificación de estado de mensaje (MDN)**   Este informe describe el estado de un mensaje después de su correcta entrega a un destinatario. Un mensaje MDN puede ser una notificación de lectura (RN) o una notificación de no lectura (NRN), por ejemplo. Los mensajes MDN se definen en RFC 2298 y los controla el campo de encabezado **Disposition-Notification-To:** el campo de encabezado del encabezado del mensaje. La configuración de MDN que usa el campo de encabezado `Disposition-Notification-To:` es compatible con muchos servidores de mensajes diferentes. La configuración de MDN también se puede definir con propiedades MAPI en Microsoft Outlook y Exchange.
+  - **Notificación de estado de mensaje (MDN)**   Este informe describe el estado de un mensaje después de su correcta entrega a un destinatario. Un mensaje MDN puede ser una notificación de lectura (RN) o una notificación de no lectura (NRN), por ejemplo. Los mensajes MDN se definen en RFC 2298 y los controla el campo de encabezado **Disposition-Notification-To:**  el campo de encabezado del encabezado del mensaje. La configuración de MDN que usa el campo de encabezado `Disposition-Notification-To:` es compatible con muchos servidores de mensajes diferentes. La configuración de MDN también se puede definir con propiedades MAPI en Microsoft Outlook y Exchange.
 
   - **Informe de no entrega (NDR)**   Este informe indica al remitente del mensaje que el mensaje no se ha podido entregar a los destinatarios especificados.
 
@@ -244,7 +244,7 @@ Cuando se envía un mensaje que no es un informe de entrega a un grupo de distri
 
   - Si la redirección del informe está establecida en el remitente del mensaje, la configuración de la solicitud del informe no se modifica.
 
-  - Si la redirección del informe no está establecida, se elimina toda la configuración de la solicitud del informe. La entrada `NOTIFY=NEVER` se agrega a **RCPT TO:** para todos los destinatarios del sobre del mensaje.
+  - Si la redirección del informe no está establecida, se elimina toda la configuración de la solicitud del informe. La entrada `NOTIFY=NEVER` se agrega a **RCPT TO:**  para todos los destinatarios del sobre del mensaje.
 
   - Si la redirección del informe está establecida en el administrador del grupo de distribución, se elimina toda la configuración de la solicitud del informe, excepto los mensajes NDR que se envían al administrador del grupo de distribución.
 
@@ -340,13 +340,13 @@ Debido a que la resolución de destinatarios resuelve y expande la lista complet
 
 La resolución de destinatarios bifurca un mensaje si se dan las siguientes condiciones:
 
-  - Si el remitente del mensaje que aparece en **MAIL FROM:**, en el sobre del mensaje, está actualizado. Esto ocurre, por ejemplo, cuando el parámetro *ReportToManagerEnabled* de un grupo de distribución tiene el valor `$true`.
+  - Si el remitente del mensaje que aparece en **MAIL FROM:** , en el sobre del mensaje, está actualizado. Esto ocurre, por ejemplo, cuando el parámetro *ReportToManagerEnabled* de un grupo de distribución tiene el valor `$true`.
 
   - Si deben eliminarse los mensajes de respuesta automática, como los mensajes DSN, OOF y de informes de recuperación.
 
   - Si se expanden los destinatarios alternativos.
 
-  - Cuando un campo de encabezado **Resent-From:** debe agregarse al encabezado del mensaje. Los campos de encabezado de reenvío son de tipo informativo y se pueden usar para determinar si un usuario ha reenviado un mensaje. Los campos de encabezado de reenvío se usan para que el mensaje se muestre al destinatario como si el remitente original lo hubiese enviado directamente. El destinatario puede ver el encabezado del mensaje para saber quién ha reenviado el mensaje. Los campos de encabezado de reenvío se definen en la sección 3.6.6 de RFC 2822.
+  - Cuando un campo de encabezado **Resent-From:**  debe agregarse al encabezado del mensaje. Los campos de encabezado de reenvío son de tipo informativo y se pueden usar para determinar si un usuario ha reenviado un mensaje. Los campos de encabezado de reenvío se usan para que el mensaje se muestre al destinatario como si el remitente original lo hubiese enviado directamente. El destinatario puede ver el encabezado del mensaje para saber quién ha reenviado el mensaje. Los campos de encabezado de reenvío se definen en la sección 3.6.6 de RFC 2822.
 
   - Si debe transmitirse el historial de expansiones del grupo de distribución.
 

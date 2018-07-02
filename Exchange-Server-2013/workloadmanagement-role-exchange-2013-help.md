@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 El rol de administración de `WorkloadManagement` habilita a los administradores para que puedan administrar directivas de administración de cargas de trabajo. Los administradores pueden configurar las definiciones de estado de los recursos, las clasificaciones de carga de trabajo y habilitar o deshabilitar la administración de cargas de trabajo. Los cambios se deben realizar solo con la dirección de Servicio de soporte y atención al cliente de Microsoft.
 

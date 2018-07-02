@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2013-03-22_
+_**Última modificación del tema:** 2013-03-22_
 
 La configuración de Exchange Server 2013 de Microsoft no puede continuar porque detectó que el equipo local no es un miembro de un dominio de Active Directory. Antes de poder instalar Exchange Server 2013, debe unir el equipo local a un dominio de Active Directory. Puede que también vea este mensaje si inicia sesión en una cuenta de usuario local en el equipo en lugar de una cuenta de usuario de dominio con suficientes derechos administrativos para poder instalar Exchange 2013.
 

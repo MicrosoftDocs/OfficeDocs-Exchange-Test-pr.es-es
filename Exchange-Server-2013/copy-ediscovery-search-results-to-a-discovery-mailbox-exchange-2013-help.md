@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-02-24_
+_**Última modificación del tema:** 2014-02-24_
 
 Después de crear una búsqueda de exhibición de documentos electrónicos local, puede usar el EAC para copiar los resultados en un buzón de correo de detección. También puede usar el Shell para iniciar una búsqueda de exhibición de documentos electrónicos que se creó con el cmdlet **New-MailboxSearch**, que copiará los resultados en el buzón de correo de detección que se especificó cuando creó la búsqueda.
 

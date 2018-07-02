@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013 SP1_
+_**Se aplica a:** Exchange Server 2013 SP1_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Puede usar el EAC o el Shell para deshabilitar o eliminar un buzón en Exchange 2013. Cuando se deshabilita o se elimina un buzón de correo, Exchange retiene el buzón en la base de datos de buzones de correo y cambia el estado del buzón a deshabilitado. Los buzones de correo deshabilitados y eliminados se conservan en la base de datos de buzones de correo hasta que expira el período de retención del buzón de correo eliminado, que, de manera predeterminada, es de 30 días. Una vez que el período de retención expira, el buzón de correo de elimina permanentemente o se *purga*.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:**  Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-07_
+_**Última modificación del tema:**  2013-02-07_
 
 El conjunto de mantenimiento IMAP.Protocol supervisa el protocolo IMAP4 en el servidor de buzones de correo. Si recibe una alerta que especifica que el conjunto de mantenimiento IMAP.Protocol es incorrecto, esto indica un problema que afecta el protocolo IMAP4 en el servidor de buzones de correo indicado en la alerta.
 

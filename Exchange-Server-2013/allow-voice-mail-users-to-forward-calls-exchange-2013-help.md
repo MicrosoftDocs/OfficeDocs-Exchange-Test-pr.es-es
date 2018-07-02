@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 La característica Reglas de respuesta a llamada se presentó por primera vez en Exchange 2010. Con esta característica, los usuarios habilitados para el correo de voz pueden controlar cómo se deben manejar sus llamadas entrantes. El modo en que se aplican las reglas de respuesta a llamada a las llamadas entrantes es similar al modo en que se aplican las reglas de bandeja de entrada a los mensajes de correo electrónico entrantes.
 

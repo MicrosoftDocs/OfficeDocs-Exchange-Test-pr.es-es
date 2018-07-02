@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-05-04_
+_**Última modificación del tema:** 2016-05-04_
 
 Puede usar el Shell de administración de Exchange para eliminar el buzón de correo de detección predeterminado, volver a crearlo y luego asignarle permisos.
 

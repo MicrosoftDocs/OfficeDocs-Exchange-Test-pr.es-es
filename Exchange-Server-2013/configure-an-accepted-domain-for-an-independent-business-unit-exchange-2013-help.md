@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-02-17_
+_**Última modificación del tema:** 2014-02-17_
 
 In some situations you may want to configure an accepted domain for an independent business unit with email servers outside your Exchange organization. In such scenarios, you can configure the accepted domain as an external relay domain.
 

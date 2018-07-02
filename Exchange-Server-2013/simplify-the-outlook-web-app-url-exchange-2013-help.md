@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-07-16_
+_**Última modificación del tema:** 2015-07-16_
 
-**Resumen:** Use los procedimientos de este artículo para simplificar la dirección URL que los usuarios de la organización usan para tener acceso a OWA en Exchange 2013.
+**Resumen:**  Use los procedimientos de este artículo para simplificar la dirección URL que los usuarios de la organización usan para tener acceso a OWA en Exchange 2013.
 
 Puede simplificar la dirección URL de MicrosoftOutlook Web App que usan los usuarios para tener acceso a su buzón de Exchange Server 2013.
 

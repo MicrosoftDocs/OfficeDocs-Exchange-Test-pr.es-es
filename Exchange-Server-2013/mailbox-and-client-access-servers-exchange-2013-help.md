@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 En Exchange Server 2013 se han reemplazado los cinco roles de servidor Exchange 2010 por dos tipos de servidores principales: los servidores de buzones y los servidores de acceso de clientes. El servidor de acceso de clientes es un servidor ligero y sin estado que actúa como un proxy para las conexiones de cliente con el servidor de buzones. El servidor de buzones administra el procesamiento de todas las conexiones de cliente a la base de datos de buzones activa.
 

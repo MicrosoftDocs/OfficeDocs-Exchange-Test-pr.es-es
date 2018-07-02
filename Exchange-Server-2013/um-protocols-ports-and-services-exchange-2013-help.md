@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Microsoft La mensajería unificada (MU) de Exchange 2013 requiere que se usen varios puertos TCP y Protocolos de datagramas de usuario (UDP) para establecer la comunicación entre servidores que ejecutan Exchange 2013 y otros dispositivos. Al permitir el acceso a través de estos puertos IP, se habilitará la mensajería unificada para que funcione correctamente. En este tema, se describen los puertos TCP y UDP que se usan en la mensajería unificada de Exchange 2013.
 

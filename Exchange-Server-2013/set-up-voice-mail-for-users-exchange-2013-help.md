@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-10-13_
+_**Última modificación del tema:** 2012-10-13_
 
 Después de conectar la red de telefonía o el servidor de Microsoft Lync Server integrado a la mensajería unificada (UM) de Exchange y de crear y configurar los componentes de mensajería unificada necesarios, debe establecer el correo de voz para los usuarios.
 

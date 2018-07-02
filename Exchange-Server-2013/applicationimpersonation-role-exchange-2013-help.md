@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-11-30_
+_**Última modificación del tema:** 2016-11-30_
 
 La función de administración `ApplicationImpersonation` permite a las aplicaciones usurpar la identidad de los usuarios de una organización para realizar tareas en su nombre.
 

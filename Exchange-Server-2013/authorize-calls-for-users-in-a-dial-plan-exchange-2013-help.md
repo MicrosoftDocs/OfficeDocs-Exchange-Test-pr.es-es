@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-21_
+_**Última modificación del tema:** 2013-02-21_
 
 Puede habilitar autorizaciones de marcado en un plan de marcado de mensajería unificada (UM). Las autorizaciones de marcado en un plan de marcado se utilizan para impedir que los usuarios no autenticados de Outlook Voice Access realicen llamadas nacionales/regionales o internacionales, o *llamadas externas*. Las llamadas externas se producen cuando la mensajería unificada realiza una llamada saliente para un usuario después de que hayan llamado a un número de teléfono de Outlook Voice Access que está configurado en un plan de marcado de MU. Cuando configura una opción en un plan de marcado de MU, dicha opción se aplica a todos los usuarios no autenticados que llaman a un número de Outlook Voice Access.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Con frecuencia, los trabajadores de información usan el correo electrónico para intercambiar información confidencial. Para garantizar la seguridad de esta información, una organización puede usar Information Rights Management (IRM) para aplicar protección persistente al contenido de los mensajes. Debido a que los dispositivos móviles se usan cada vez más para obtener acceso al correo electrónico, es importante que los usuarios de dispositivos móviles puedan crear y consumir contenido protegido por IRM.
 

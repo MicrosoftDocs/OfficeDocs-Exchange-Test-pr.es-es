@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-24_
+_**Última modificación del tema:** 2015-04-24_
 
 Una libreta de direcciones sin conexión (OAB) en Exchange Server 2013 es una copia de la libreta de direcciones que se puede descargar que permite que el usuario de Outlook pueda acceder a la información mientras no está conectado al servidor. Los administradores de Exchange pueden decidir qué libretas de direcciones ponen a disposición de los usuarios para que puedan trabajar sin conexión; asimismo, pueden configurar el método de distribución de las libretas de direcciones (distribución basada en web o distribución de carpetas públicas).
 

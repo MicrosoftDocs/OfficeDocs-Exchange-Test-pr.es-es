@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 El servicio de transporte en los servidores de buzón de correo y en los servidores de transporte perimetral utilizan los directorios de recogida y reproducción para insertar archivos de mensajes directamente en la canalización de transporte. Los archivos de mensajes de correo electrónico con el formato correcto que copia al directorio de recogida o de reproducción se envían para su entrega. Los administradores usan el directorio de recogida para probar el flujo de correo y las aplicaciones lo usan para crear y enviar sus propios mensajes. El directorio de reproducción recibe mensajes de servidores de puertas de enlace externas que no son SMTP y reenvía los mensajes que usted exportó desde las colas de servidores de Microsoft Exchange.
 

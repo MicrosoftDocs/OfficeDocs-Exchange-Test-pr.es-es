@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-05-20_
+_**Última modificación del tema:** 2013-05-20_
 
 Por motivos de seguridad, puede que algunas organizaciones deseen restringir el acceso al Centro de administración de Exchange (EAC) a los usuarios procedentes de Internet. En este procedimiento se muestra cómo desactivar el acceso al EAC. Este procedimiento no evita que otros usuarios tengan acceso a las Opciones en Outlook Web App.
 

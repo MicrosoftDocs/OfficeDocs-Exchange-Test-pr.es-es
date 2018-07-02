@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Cuando actualiza de una organización de Microsoft Exchange 2007 con mensajería unificada a mensajería unificada de Exchange 2013, existen pasos obligatorios y otros pasos que ya se completaron como parte de la implementación de mensajería unificada de Exchange 2007. Dependiendo del entorno de telefonía y de los componentes de mensajería unificada creados y configurados para admitir la mensajería unificada en Exchange 2007, puede que sea necesario implementar equipo adicional de telefonía, incluidas puertas de enlace de voz sobre IP (VoIP) o centrales de conmutación (PBX) IP, o PBX tradicionales o habilitadas para SIP, y, a continuación, crear y configurar los componentes de mensajería unificada adicionales necesarios para mensajería unificada de Exchange 2013.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Cuando se habilitan las notificaciones de inserción para OWA para dispositivos (OWA para iPhone y OWA para iPad) en una implementación local de Microsoft Exchange 2013, el icono de Outlook Web App en el OWA para iPhone y el OWA para iPad del usuario se actualiza para indicar el número de mensajes no leídos en la bandeja de entrada del usuario. Si las notificaciones de inserción no se configuran ni se habilitan, un usuario que tenga OWA para dispositivos no podrá saber que tiene mensajes no leídos en la bandeja de entrada a menos que inicie la aplicación. Cuando se recibe un nuevo mensaje, la notificación de OWA para dispositivos se actualiza en el dispositivo del usuario, con un aspecto similar a este.
 
@@ -218,7 +218,7 @@ El resultado previsto debería ser similar a lo siguiente.
 
 Después de completar los pasos anteriores, pruebe las notificaciones de inserción siguiendo uno de estos métodos:
 
-  - **Enviar un mensaje de correo electrónico de prueba al buzón de correo del usuario:**
+  - **Enviar un mensaje de correo electrónico de prueba al buzón de correo del usuario:** 
     
     1.  Configure una cuenta en OWA para dispositivos en un dispositivo móvil para suscribirse a las notificaciones.
     

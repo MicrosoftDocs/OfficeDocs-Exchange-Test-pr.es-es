@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Si se pierde un servidor de buzones miembro de un grupo de disponibilidad de base datos (DAG), o bien falla, y no puede recuperarse sino que debe reemplazarse, puede llevar a cabo una operación de recuperación de servidor. El programa de instalación de Microsoft Exchange Server 2013 incluye el modificador */m:RecoverServer* que permite realizar una operación de recuperación de servidor. Al ejecutar el programa de instalación con el modificador */m:RecoverServer*, el programa de instalación lee la información de configuración del servidor de Active Directory para buscar un servidor con el mismo nombre que el servidor desde el que se está ejecutando la instalación. Una vez recopilada la información de configuración del servidor de Active Directory, los archivos y servicios originales de Exchange se instalan en el servidor, y los roles y la configuración que se almacenaba en Active Directory se aplica al servidor.
 

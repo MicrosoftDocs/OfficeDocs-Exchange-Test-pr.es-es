@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 El rol de administración de `Recipient Policies` permite que los administradores administren las directivas de destinatarios, como por ejemplo la directivas de limitación, las directivas de buzones de correo de Outlook Web App y las directivas de dispositivos móviles, de una organización.
 

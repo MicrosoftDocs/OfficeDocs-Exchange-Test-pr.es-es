@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Las marcas de correo electrónico no deseado le ayudan a diagnosticar los problemas relacionados con el correo no deseado mediante la aplicación de metadatos de diagnóstico, o marcas, como información específica del remitente, resultados de la validación del puzzle y resultados del filtrado de contenido, a los mensajes, mientras pasan a través de las características contra correo electrónico no deseado que filtran los mensajes entrantes de Internet.  Hay tres marcas contra correo electrónico no deseado: la marca de nivel de confianza contra suplantación de identidad (phishing), la marca de nivel de confianza contra correo no deseado y la marca de Id. de remitente.
 

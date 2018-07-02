@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-14_
+_**Última modificación del tema:** 2012-11-14_
 
 Puede deshabilitar el correo electrónico para un usuario de correo existente en su organización de Exchange. Cuando deshabilita el correo electrónico de un usuario de correo, se elimina de la libreta de direcciones de su organización y de Exchange. Si el usuario de correo es un miembro de un grupo de distribución, el usuario deja de recibir el correo enviado al grupo. Asimismo, los atributos de Exchange se eliminan del objeto de usuario en Active Directory, pero el objeto de usuario y sus atributos que no pertenecen a Exchange (como la información de contacto y de la organización) se conservan en Active Directory.
 

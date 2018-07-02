@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2014-01-15_
+_**Última modificación del tema:** 2014-01-15_
 
 El programa de instalación de Microsoft Exchange Server 2013 no puede continuar porque el sufijo del sistema de nombres de dominio (DNS) del equipo donde va a instalar Exchange no se ha configurado.
 

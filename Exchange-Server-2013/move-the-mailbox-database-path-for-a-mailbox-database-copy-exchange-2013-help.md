@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-05-07_
+_**Última modificación del tema:** 2014-05-07_
 
 Después de crear una base de datos de buzones de correo, es posible moverla a otro volumen u otra carpeta, ubicación o ruta de acceso mediante el EAC o el Shell. Para obtener instrucciones paso a paso acerca de cómo mover la ruta de acceso a una base de datos de buzones de correo no replicada, consulte [Move a mailbox database path](manage-mailbox-databases-in-exchange-2013-exchange-2013-help.md).
 

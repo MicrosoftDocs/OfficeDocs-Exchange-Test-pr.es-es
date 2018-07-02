@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Los *ámbitos exclusivos* consisten en una clase especial de ámbito de administración explícito que se puede asociar con asignaciones de funciones de administración. Los ámbitos exclusivos se han ideado para situaciones en que existe un grupo con objetos de gran valor, por ejemplo, el buzón de correo de un presidente ejecutivo, y desea controlar estrechamente la obtención de acceso a dicho buzón para administrar esos objetos.
 

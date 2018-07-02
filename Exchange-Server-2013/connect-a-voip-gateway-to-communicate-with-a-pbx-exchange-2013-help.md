@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-15_
+_**Última modificación del tema:** 2016-12-15_
 
 Al configurar sus redes de datos y de telefonía para la mensajería unificada en Microsoft Exchange Server 2013, debe configurar las puertas de enlace VoIP para que se comuniquen con los servidores de acceso de cliente que se ejecutan en el servicio de enrutador de llamadas de mensajería unificada de Microsoft Exchange y los servidores de buzones de correo que ejecutan el servicio de mensajería unificada de Microsoft Exchange. También debe configurar las puertas de enlace VolP para que se comuniquen con las centrales de conmutación (PBX) de la organización. Puede usar la información y los vínculos de este tema para configurar una puerta de enlace VolP para que se comunique con una PBX.
 

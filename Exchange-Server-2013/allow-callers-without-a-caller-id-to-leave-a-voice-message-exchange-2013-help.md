@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede permitir que los usuarios habilitados para mensajería unificada reciban mensajes de correo de voz de personas anónimas o impedir que lo hagan. De forma predeterminada, cuando los usuarios se habilitan para mensajería unificada (MU) o correo de voz, pueden recibir llamadas anónimas que no contengan información de identificación del usuario.
 

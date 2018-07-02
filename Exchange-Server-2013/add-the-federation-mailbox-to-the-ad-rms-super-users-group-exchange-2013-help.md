@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En las siguientes características de Microsoft Exchange Server 2013 Information Rights Management (IRM) que se habilitarán, debe agregar un buzón de correo de la federación (un buzón de correo del sistema creado por la configuración de Exchange 2013) para el grupo de superusuarios en el clúster [Información general sobre Active Directory Rights Management Services](https://technet.microsoft.com/es-es/library/hh831364.aspx):
 

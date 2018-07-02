@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-12-16_
+_**Última modificación del tema:** 2012-12-16_
 
 Cuando el buzón de un usuario se habilita para el correo de voz de mensajería unificada, se envía al usuario un mensaje de correo electrónico que le da la bienvenida a la mensajería unificada. Este mensaje contiene la información del PIN que el usuario necesita para acceder por primera vez al sistema de correo de voz.
 

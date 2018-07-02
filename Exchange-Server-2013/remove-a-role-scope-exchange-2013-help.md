@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-02_
+_**Última modificación del tema:** 2012-10-02_
 
 Los ámbitos de funciones de administración determinan los objetos a los que puede tener acceso un usuario, que los puede cambiar mediante los cmdlets y los parámetros que estén asignados a dicho usuario. Si deja de usar un ámbito, se puede quitar. Para obtener más información acerca de los ámbitos de función de administración en Microsoft Exchange Server 2013, consulte [Descripción de los ámbitos de roles de administración](understanding-management-role-scopes-exchange-2013-help.md).
 

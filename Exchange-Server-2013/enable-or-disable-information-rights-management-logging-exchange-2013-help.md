@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-12_
+_**Última modificación del tema:** 2012-10-12_
 
 En Exchange Server 2013, puede usar los registros de Information Rights Management (IRM) para supervisar las operaciones de IRM y solucionar problemas en ellas. El registro de IRM está habilitado de forma predeterminada.
 

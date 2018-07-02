@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La contrapresión es una característica de supervisión de recursos del sistema del servicio de transporte de Microsoft Exchange que está presente en los servidores de buzones de correo y en los servidores de transporte perimetral de Microsoft Exchange 2013.
 

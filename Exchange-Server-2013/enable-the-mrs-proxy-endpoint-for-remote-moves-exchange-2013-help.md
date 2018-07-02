@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-07-02_
+_**Última modificación del tema:** 2013-07-02_
 
 El proxy de servicio de replicación de buzón de correo (proxy MRS) facilita los movimientos de buzón de correo entre bosques y las migraciones de movimiento remoto entre su organización Exchange local y Exchange Online. En Exchange 2013, el proxy MRS está incluido en el rol de servidor Buzón de correo (también llamado el *servidor de buzones de correo*). Durante las migraciones de movimiento remoto y entre bosques, un servidor de acceso de cliente actúa como un proxy para las solicitudes de movimiento entrantes para el servidor de buzones de correo. La capacidad de un servidor de acceso de cliente para aceptar estas solicitudes está deshabilitada de forma predeterminada. Para permitir que el servidor de acceso de cliente pueda aceptar solicitudes de movimiento entrantes, tiene que habilitar el extremo del proxy MRS.
 

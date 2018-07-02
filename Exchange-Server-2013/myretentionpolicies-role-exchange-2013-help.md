@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La función de administración `MyRetentionPolicies` permite que los usuarios individuales puedan tener acceso a sus etiquetas de retención, además de ver y modificar la configuración y la predeterminación de dichas etiquetas.
 

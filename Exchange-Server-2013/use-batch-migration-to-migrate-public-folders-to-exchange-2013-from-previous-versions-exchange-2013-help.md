@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2018-03-26_
+_**Última modificación del tema:** 2018-03-26_
 
-**Resumen:** En este artículo se describe cómo mover las carpetas públicas de Exchange 2007 o Exchange 2010 a Exchange 2013.
+**Resumen:**  En este artículo se describe cómo mover las carpetas públicas de Exchange 2007 o Exchange 2010 a Exchange 2013.
 
 En este artículo se describe cómo migrar las carpetas públicas de Exchange Server 2010 SP3 RU8 o Exchange 2007 SP3 RU15 a Microsoft Exchange Server 2013 CU7 o posterior dentro del mismo bosque.
 

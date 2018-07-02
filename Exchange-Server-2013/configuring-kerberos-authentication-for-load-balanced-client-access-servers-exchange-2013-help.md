@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
-**Resumen:** describe cómo usar autenticación Kerberos con servidores de acceso de cliente de carga equilibrada en Exchange 2013.
+**Resumen:**  describe cómo usar autenticación Kerberos con servidores de acceso de cliente de carga equilibrada en Exchange 2013.
 
 Para que pueda usar la autenticación Kerberos con servidores de acceso de cliente de carga equilibrada, necesita completar los pasos de configuración que se describen en este artículo.
 
@@ -59,7 +59,7 @@ Procedimiento para crear la credencial ASA como una cuenta de equipo
     
         New-ADComputer [-Name] <string> [-AccountPassword <SecureString>] [-AllowReversiblePasswordEncryption <System.Nullable[boolean]>] [-Description <string>] [-Enabled <System.Nullable[bool]>]
     
-    **Ejemplo:**
+    **Ejemplo:** 
     
         New-ADComputer -Name EXCH2013ASA -AccountPassword (Read-Host 'Enter password' -AsSecureString) -Description 'Alternate Service Account credentials for Exchange' -Enabled:$True -SamAccountName EXCH2013ASA
     
@@ -69,7 +69,7 @@ Procedimiento para crear la credencial ASA como una cuenta de equipo
     
         Set-ADComputer [-Name] <string> [-add @{<attributename>="<value>"]
     
-    **Ejemplo:**
+    **Ejemplo:** 
     
         Set-ADComputer EXCH2013ASA -add @{"msDS-SupportedEncryptionTypes"="28"}
     

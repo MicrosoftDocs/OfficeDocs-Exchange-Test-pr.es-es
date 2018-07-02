@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede configurar la longitud mínima del PIN de los usuarios de Outlook Voice Access que estén habilitados para mensajería unificada (UM). Las opciones de PIN que configure en una directiva de buzón de mensajería unificada se aplicarán a todos los usuarios habilitados para mensajería unificada asociados a dicha directiva.
 

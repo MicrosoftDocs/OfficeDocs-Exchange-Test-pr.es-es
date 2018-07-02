@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-01-28_
+_**Última modificación del tema:** 2013-01-28_
 
 La portabilidad del tono de marcado es una función de Microsoft Exchange Server 2013 que proporciona una solución de continuidad empresarial limitada para los errores que afectan a una base de datos de buzones, un servidor o un sitio completo. La portabilidad del tono de marcado permite a los usuarios tener un buzón temporal para enviar y recibir mensajes de correo electrónico mientras su buzón original se restaura o repara. El buzón temporal puede estar en el mismo servidor de buzones de Exchange 2013 o en cualquier otro servidor de buzones de Exchange 2013 de su organización que tenga bases de datos con la misma versión de esquema de la base de datos. Esto permite que un servidor alternativo hospede los buzones de los usuarios que estaban previamente en un servidor que ya no estará disponible. Los clientes que son compatibles con la Detección automática se redirigen automáticamente al nuevo servidor sin necesidad de actualizar manualmente el perfil de escritorio del usuario. Una vez restaurados los datos del buzón original del usuario, un administrador puede combinar un buzón recuperado del usuario con el buzón de tono de marcado del usuario y crear un solo buzón actualizado.
 

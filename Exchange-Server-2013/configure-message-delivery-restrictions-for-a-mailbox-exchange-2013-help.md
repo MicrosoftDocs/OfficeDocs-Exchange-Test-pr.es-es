@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-29_
+_**Última modificación del tema:** 2012-11-29_
 
 Puede usar la EAC o el Shell para establecer restricciones sobre si los mensajes se entregan a destinatarios individuales. Las restricciones de entrega de mensajes resultan útiles para controlar quién puede enviar mensajes a los usuarios de una organización. Por ejemplo, puede configurar un buzón para aceptar o rechazar mensajes enviados por usuarios específicos o aceptar mensajes procedentes solo de usuarios de la organización de Exchange.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-16_
+_**Última modificación del tema:** 2012-10-16_
 
 Puede usar el Shell para crear una directiva de dirección de correo electrónico mediante filtros de destinatario. Para obtener más información acerca de las directivas de dirección de correo electrónico, consulte [Directivas de dirección de correo electrónico](email-address-policies-exchange-2013-help.md).
 

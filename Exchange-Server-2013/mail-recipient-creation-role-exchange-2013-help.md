@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La función de administración `Mail Recipient Creation` permite que los administradores creen buzones de correo, usuarios de correo, contactos de correo, grupos de distribución y grupos de distribución dinámica en una organización. Esta función se puede combinar con la función `Mail Recipients` para posibilitar la creación y la administración de destinatarios. Para obtener más información, consulte [Rol Destinatarios de correo](mail-recipients-role-exchange-2013-help.md).
 

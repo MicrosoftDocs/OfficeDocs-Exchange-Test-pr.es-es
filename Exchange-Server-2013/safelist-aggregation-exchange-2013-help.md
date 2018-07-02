@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-09-30_
+_**Última modificación del tema:** 2013-09-30_
 
 En Microsoft Exchange Server 2013, la *agregación de lista segura* hace referencia a la funcionalidad contra correo electrónico no deseado compartida entre Microsoft Outlook y Exchange. Esta funcionalidad recopila datos de las listas contra correo electrónico no deseado de destinatarios seguros, de remitentes seguros, de remitentes bloqueados y datos de contacto que configuran los usuarios de Outlook y los pone a disposición de los agentes contra correo electrónico no deseado de Exchange.
 

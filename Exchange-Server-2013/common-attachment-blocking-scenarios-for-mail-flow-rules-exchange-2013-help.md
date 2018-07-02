@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Última modificación del tema:**2017-02-23_
+_**Última modificación del tema:** 2017-02-23_
 
 Es posible que su organización necesite bloquear o rechazar determinados tipos de mensajes con el fin de cumplir requisitos legales o de cumplimiento normativo, o bien para satisfacer necesidades empresariales específicas. Aquí se incluyen algunos ejemplos de escenarios comunes para el bloqueo de todos los datos adjuntos que puede configurar mediante reglas de transporte en Exchange:
 
@@ -51,7 +51,7 @@ Para empezar a implementar cualquiera de estos escenarios para bloquear determin
 
 5.  Seleccione las condiciones y las acciones que desee.
 
-**Nota:** En CEF, 1 kilobyte es el tamaño de archivo más pequeño que se puede adjuntar. Por lo tanto, debería detectar la mayoría de los datos adjuntos. Sin embargo, si desea que se detecten todos los posibles datos adjuntos de cualquier tamaño, deberá usar PowerShell para ajustar el tamaño de los datos adjuntos a 1 byte tras crear la regla en CEF. Para obtener información sobre cómo abrir el Shell de administración de Exchange en su organización local Exchange, vea [Abrir el Shell](https://technet.microsoft.com/es-es/library/dd638134\(v=exchg.150\)).Para obtener información sobre cómo usar Windows PowerShell para conectarse a Exchange Online, vea [Conexión a Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).Para obtener información sobre cómo usar Windows PowerShell para conectarse a Protección de Exchange Online, vea [Conexión a PowerShell de Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290).
+**Nota:**  En CEF, 1 kilobyte es el tamaño de archivo más pequeño que se puede adjuntar. Por lo tanto, debería detectar la mayoría de los datos adjuntos. Sin embargo, si desea que se detecten todos los posibles datos adjuntos de cualquier tamaño, deberá usar PowerShell para ajustar el tamaño de los datos adjuntos a 1 byte tras crear la regla en CEF. Para obtener información sobre cómo abrir el Shell de administración de Exchange en su organización local Exchange, vea [Abrir el Shell](https://technet.microsoft.com/es-es/library/dd638134\(v=exchg.150\)).Para obtener información sobre cómo usar Windows PowerShell para conectarse a Exchange Online, vea [Conexión a Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).Para obtener información sobre cómo usar Windows PowerShell para conectarse a Protección de Exchange Online, vea [Conexión a PowerShell de Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290).
 
 Reemplace *\<Rule Name\>* por el nombre de la regla existente y ejecute el comando siguiente para establecer el tamaño de los datos adjuntos en 1 byte:
 

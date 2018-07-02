@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-05-05_
+_**Última modificación del tema:** 2014-05-05_
 
 Cuando se exporta un mensaje desde una cola a un archivo, el mensaje no se elimina de la cola. Se copiará el mensaje como archivo de texto sin formato en la ubicación especificada. El archivo que se origina se puede visualizar en una aplicación, como un editor de texto o una aplicación de cliente de correo electrónico, o el archivo de mensaje se puede reenviar por medio del directorio de reproducción en cualquier otro servidor de buzones o de transporte perimetral, tanto dentro como fuera de la organización de Exchange.
 

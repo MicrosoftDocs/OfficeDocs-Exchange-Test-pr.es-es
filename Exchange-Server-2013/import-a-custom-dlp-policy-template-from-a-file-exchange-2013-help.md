@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-08-09_
+_**Última modificación del tema:** 2016-08-09_
 
 Puede administrar la información confidencial con las directivas de DLP mediante la importación de un archivo que contiene la configuración de información de directivas. Pueden desarrollarse plantillas de directivas DLP independientes de Exchange como archivos XML. Pero deben cumplir con requisitos de formato específicos para funcionar correctamente. Opcionalmente, las directivas que se exportan de una versión anterior de Exchange se pueden importar a Microsoft Exchange Server 2013.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-15_
+_**Última modificación del tema:** 2013-02-15_
 
 [Habilitar o deshabilitar Outlook Voice Access para los usuarios](enable-or-disable-outlook-voice-access-for-users-exchange-2013-help.md)
 

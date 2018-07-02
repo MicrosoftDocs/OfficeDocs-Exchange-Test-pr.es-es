@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-02-21_
+_**Última modificación del tema:** 2014-02-21_
 
 En este tema se describen los procedimientos para realizar cambios de configuración manuales en la forma en que un servidor de transporte perimetral administra el flujo de correo. Estos procedimientos están dirigidos a determinados escenarios. Cuando suscriba servidores de transporte perimetral, es preferible usar la configuración predeterminada, a menos que su organización tenga unas necesidades concretas que requieran realizar cambios de configuración manuales.
 

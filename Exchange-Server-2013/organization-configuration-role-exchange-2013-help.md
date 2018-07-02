@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La función de administración de `Organization Configuration` permite a los administradores administrar la configuración de toda la organización. Estos son algunos de los aspectos de la configuración de una organización que se pueden controlar mediante esta función:
 

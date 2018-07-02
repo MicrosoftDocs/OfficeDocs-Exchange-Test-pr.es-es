@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-12-16_
+_**Última modificación del tema:** 2014-12-16_
 
 Puede utilizar el Shell para actualizar una lista global de direcciones (LGD). Una LGD es un directorio que contiene entradas para cada grupo, usuario y contacto dentro de la implementación de Microsoft Exchange de una organización.
 

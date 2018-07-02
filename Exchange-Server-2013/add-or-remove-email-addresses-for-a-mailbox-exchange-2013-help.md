@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Puede configurar más de una dirección de correo electrónico para el mismo buzón de correo. Las direcciones adicionales se denominan *direcciones proxy*. Una dirección proxy permite a un usuario recibir el correo que se envía a otra dirección de correo electrónico. Todos los mensajes de correo electrónico que se envíen a la dirección proxy del usuario se entregan a la dirección de correo electrónico principal, también conocida como la *dirección SMTP principal* o la *dirección de respuesta predeterminada*.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Microsoft Exchange Server 2013 emplea el concepto de movilidad de base de datos, que es la conmutación por error en el nivel de la base de datos administrada por Exchange. La movilidad de base de datos desconecta las bases de datos de los servidores, agrega soporte para hasta 16 copias de una sola base de datos y ofrece una experiencia nativa para agregar copias de bases de datos a una base de datos.
 

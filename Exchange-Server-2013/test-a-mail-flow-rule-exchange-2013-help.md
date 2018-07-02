@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Cada vez que se crea una regla de flujo de correo de Exchange, se recomienda probarla antes de activarla. De este modo, si crea accidentalmente una condición que no es exactamente lo que quiere o interactúa con otras reglas de forma inesperada, no tendrá consecuencias no deseadas.
 

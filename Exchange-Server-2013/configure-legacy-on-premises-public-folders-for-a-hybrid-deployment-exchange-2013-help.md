@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2018-05-22_
+_**Última modificación del tema:** 2018-05-22_
 
-**Resumen:** Siga los pasos de este artículo para sincronizar las carpetas públicas entre Office 365 y su implementación local de Exchange 2007 o Exchange 2010.
+**Resumen:**  Siga los pasos de este artículo para sincronizar las carpetas públicas entre Office 365 y su implementación local de Exchange 2007 o Exchange 2010.
 
 En una implementación híbrida, los usuarios pueden estar hospedados en Exchange Online, de forma local o ambos, mientras que las carpetas públicas lo pueden estar en Exchange Online o localmente. Las carpetas públicas solo pueden estar en una ubicación, de modo que deberá decidir si colocarlas en Exchange Online o localmente. No pueden estar en ambas ubicaciones. Los buzones de correo de carpeta pública se sincronizan en Exchange Online mediante el servicio de sincronización de directorios. Sin embargo, las carpetas públicas habilitadas para correo no se sincronizan entre locales.
 

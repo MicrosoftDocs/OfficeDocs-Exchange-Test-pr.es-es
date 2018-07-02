@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Outlook Voice Access contiene dos interfaces: una interfaz de usuario de teléfono (TUI) y una interfaz de usuario de voz (VUI). Puede configurar las opciones de TUI del usuario habilitado para MU cuando el usuario obtiene acceso al buzón mediante el sistema de mensajería unificada (MU) en Exchange 2013. Cuando modifica los parámetros de TUI del usuario habilitado para MU en una directiva de buzones de MU, los cambios afectan a todos los usuarios que pertenecen o están asociados a dicha directiva de buzones de MU. Puede modificar los siguientes parámetros de TUI en una directiva de buzones de MU:
 

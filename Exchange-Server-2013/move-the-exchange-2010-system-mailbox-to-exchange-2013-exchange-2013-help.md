@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 En Exchange 2010, el buzón del sistema de Microsoft Exchange es un buzón de arbitraje que se usa para almacenar datos de toda la organización, como registros de auditoría de administrador, metadatos para búsquedas de exhibición de documentos electrónicos y datos de Mensajería unificada, como menús, planes de marcado y saludos personalizados. El buzón del sistema de Microsoft Exchange se denomina **SystemMailbox {e0dc1c29-89c3-4034-b678-e6c29d823ed9}**; el nombre para mostrar es **Microsoft Exchange**.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 Puede usar el Shell para ver o configurar una o varias reglas de respuesta a llamada para un usuario. También puede usar los cmdlets **Get-UMCallAnsweringRule** o **Set-UMCallAnsweringRule** en un script del Shell de administración de Exchange para ver o administrar reglas de respuesta a llamada para varios usuarios.
 

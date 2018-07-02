@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-30_
+_**Última modificación del tema:** 2012-10-30_
 
 Cuando agrega una copia a la base de datos del buzón, se habilita automáticamente la replicación continua entre la base de datos existente y la copia de la base de datos. Se asigna una identidad automáticamente a las copias de la base de datos en formato de \<*DatabaseName*\>\\\<*HostMailboxServerName*\>. Por ejemplo, una copia de una base de datos DB1 que se hospeda en el servidor MBX3 sería DB1/MBX3.
 

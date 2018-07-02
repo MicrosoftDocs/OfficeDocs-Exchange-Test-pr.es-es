@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Puede usar las reglas de protección de transporte para aplicar una protección de derechos constante a los mensajes, en función de las propiedades de los mensajes, como remitente, destinatario, asunto y contenido.
 

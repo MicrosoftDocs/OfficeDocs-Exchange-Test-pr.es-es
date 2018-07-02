@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-16_
+_**Última modificación del tema:** 2013-04-16_
 
 Puede quitar servidores de acceso de cliente y de buzones de los planes de marcado URI de SIP. Cuando va a implementar Microsoft Lync Server, para que las llamadas salientes funcionen correctamente, debe agregar manualmente todos los servidores de acceso de cliente y de buzones a los planes de marcado URI de SIP que haya creado para Lync Server. Sin embargo, puede que tenga que quitar un servidor de acceso de cliente o de buzones de la implementación de Lync, por ejemplo, si está haciendo tareas de mantenimiento o va a desconectar el servidor.
 

@@ -20,9 +20,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 En Microsoft Exchange Server 2013, el *firewall de encabezado* es un mecanismo que quita campos de encabezado específicos de los mensajes entrantes y salientes. Hay dos tipos diferentes de campos de encabezado que resultan afectados por el firewall de encabezado:
 
@@ -56,9 +56,9 @@ Los siguientes tipos de encabezados X y encabezados de enrutamiento resultan afe
     
     Para obtener ejemplos de encabezados X de organización y de encabezados X de bosque, consulte la sección Encabezados X de organización y los encabezados X de bosque en Exchange al final de este tema.
 
-  - **Recibido: encabezados de enrutamiento**   Cada servidor de mensajería que ha aceptado y reenviado el mensaje al destinatario agrega otra instancia de este campo de encabezado al encabezado del mensaje. El encabezado **Received:** normalmente incluye el nombre del servidor de mensajería y una marca de tiempo con la fecha.
+  - **Recibido: encabezados de enrutamiento**   Cada servidor de mensajería que ha aceptado y reenviado el mensaje al destinatario agrega otra instancia de este campo de encabezado al encabezado del mensaje. El encabezado **Received:**  normalmente incluye el nombre del servidor de mensajería y una marca de tiempo con la fecha.
 
-  - **Reenvío-\*: encabezados de enrutamiento**   Los campos de encabezado de reenvío son de tipo informativo y se pueden usar para determinar si un usuario ha reenviado un mensaje. Están disponibles los siguientes campos de encabezado de reenvío: **Resent-Date:**, **Resent-From:**, **Resent-Sender:**, **Resent-To:**, **Resent-Cc:**, **Resent-Bcc:** y **Resent-Message-ID:**. Los campos de **Resent-** se usan para que el mensaje se muestre al destinatario como si el remitente original lo hubiese enviado directamente. El destinatario puede ver el encabezado del mensaje para saber quién ha reenviado el mensaje.
+  - **Reenvío-\*: encabezados de enrutamiento**   Los campos de encabezado de reenvío son de tipo informativo y se pueden usar para determinar si un usuario ha reenviado un mensaje. Están disponibles los siguientes campos de encabezado de reenvío: **Resent-Date:** , **Resent-From:** , **Resent-Sender:** , **Resent-To:** , **Resent-Cc:** , **Resent-Bcc:**  y **Resent-Message-ID:** . Los campos de **Resent-** se usan para que el mensaje se muestre al destinatario como si el remitente original lo hubiese enviado directamente. El destinatario puede ver el encabezado del mensaje para saber quién ha reenviado el mensaje.
 
 Exchange usa dos formas diferentes de aplicar los encabezados X, los encabezados X de bosque y los encabezados de enrutamiento que existen en los mensajes:
 
@@ -340,13 +340,13 @@ Los mensajes pueden entrar en la canalización de transporte en un servidor de b
     
     Los encabezados de enrutamiento se conservan en los mensajes enviados por el directorio de reproducción.
     
-    El hecho de que los encabezados X de organización y los encabezados X de bosque se conserven o se quitan de los mensajes en el directorio de reproducción, se controla desde el campo de encabezado **X-CreatedBy:** en el archivo del mensaje:
+    El hecho de que los encabezados X de organización y los encabezados X de bosque se conserven o se quitan de los mensajes en el directorio de reproducción, se controla desde el campo de encabezado **X-CreatedBy:**  en el archivo del mensaje:
     
-      - Si el valor de **X-CreatedBy:** es `MSExchange15`, los encabezados X de organización y los encabezados X de bosque se conservan en los mensajes.
+      - Si el valor de **X-CreatedBy:**  es `MSExchange15`, los encabezados X de organización y los encabezados X de bosque se conservan en los mensajes.
     
-      - Si el valor de **X-CreatedBy:** no es `MSExchange15`, los encabezados X de organización y los encabezados X de bosque se quitan de los mensajes.
+      - Si el valor de **X-CreatedBy:**  no es `MSExchange15`, los encabezados X de organización y los encabezados X de bosque se quitan de los mensajes.
     
-      - Si el campo de encabezado **X-CreatedBy:** no existe en el archivo del mensaje, los encabezados X de organización y los encabezados X de bosque se quitan de los mensajes.
+      - Si el campo de encabezado **X-CreatedBy:**  no existe en el archivo del mensaje, los encabezados X de organización y los encabezados X de bosque se quitan de los mensajes.
 
   - **Directorio de entrega**   Los conectores externos de los servidores de buzones de correo usan el directorio de entrega para enviar mensajes a servidores de mensajería que no usan SMTP para transferir mensajes. Para obtener más información acerca de los conectores externos, consulte [Conectores externos](foreign-connectors-exchange-2013-help.md).
     

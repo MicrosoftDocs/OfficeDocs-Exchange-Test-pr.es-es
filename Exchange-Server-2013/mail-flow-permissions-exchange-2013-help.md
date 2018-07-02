@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Los permisos necesarios para llevar a cabo tareas relacionadas con el flujo de correo varían en función del procedimiento que se esté realizado o del cmdlet que se desee ejecutar. Para obtener más información acerca de las características de transporte, vea [Flujo de correo](mail-flow-exchange-2013-help.md).
 

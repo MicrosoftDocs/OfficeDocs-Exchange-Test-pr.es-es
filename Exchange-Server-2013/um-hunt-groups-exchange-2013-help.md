@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-18_
+_**Última modificación del tema:** 2013-02-18_
 
 Un grupo de extensiones de telefonía proporciona una forma de distribuir las llamadas telefónicas desde un solo número a varias extensiones o números de teléfono. En la mensajería unificada, un grupo de extensiones de mensajería unificada es una representación lógica de un grupo de extensiones de telefonía y enlaza una puerta de enlace IP de mensajería unificada a un plan de marcado de mensajería unificada.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-06-25_
+_**Última modificación del tema:** 2013-06-25_
 
 Después de instalar los servidores de acceso de cliente y de buzones de correo en la organización, puede que tenga que probar la funcionalidad de Mensajería unificada (UM). Podrá usar las herramientas de diagnóstico y los cmdlets incluidos con Exchange 2013 o la herramienta para la solución de problemas de Mensajería unificada en las siguientes situaciones:
 

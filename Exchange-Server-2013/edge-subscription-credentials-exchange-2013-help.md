@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 En este tema se explica cómo el proceso de suscripción perimetral establece las credenciales utilizadas para ayudar a proteger el proceso de sincronización de EdgeSync y cómo EdgeSync usa esas credenciales para establecer una conexión de LDAP segura entre un servidor de buzones de correo de Exchange 2013 y un servidor Transporte perimetral. Para obtener más información acerca del proceso de suscripciones perimetrales, vea [Suscripciones perimetrales](edge-subscriptions-exchange-2013-help.md).
 

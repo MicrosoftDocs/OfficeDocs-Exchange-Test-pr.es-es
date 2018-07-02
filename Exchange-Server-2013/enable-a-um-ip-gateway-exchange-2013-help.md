@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-05_
+_**Última modificación del tema:** 2012-11-05_
 
 De forma predeterminada, cuando se crea una puerta de enlace IP de mensajería unificada (MU), su estado se establece en habilitado. Sin embargo, puede que tenga que deshabilitar la puerta de enlace IP de mensajería unificada para que esté fuera de línea y no permitir que administre llamadas entrantes y salientes. Después de crear una puerta de enlace IP de mensajería unificada, puede controlar su funcionamiento y funcionalidad estableciendo su variable de estado en habilitada o deshabilitada.
 

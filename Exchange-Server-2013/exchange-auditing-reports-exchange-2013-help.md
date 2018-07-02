@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Use el registro de auditoría para solucionar los problemas de configuración mediante el seguimiento de cambios específicos efectuados por los administradores y como ayuda para cumplir los requisitos normativos, de cumplimiento normativo y de litigio. Microsoft Exchange proporciona dos tipos de registro de auditoría:
 

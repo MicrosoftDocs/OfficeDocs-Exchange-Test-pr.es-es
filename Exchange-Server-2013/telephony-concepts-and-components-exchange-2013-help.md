@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-25_
+_**Última modificación del tema:** 2013-04-25_
 
 Si va a planear e implementar mensajería unificada (UM) de Microsoft Exchange 2013 en la red, debe comprender el funcionamiento de la mensajería unificada y las redes de telefonía. En este tema se proporciona información general sobre los conceptos y componentes de infraestructura telefónica que le ayudarán a planear e implementar servidores que ejecutan la mensajería unificada de Exchange 2013.
 

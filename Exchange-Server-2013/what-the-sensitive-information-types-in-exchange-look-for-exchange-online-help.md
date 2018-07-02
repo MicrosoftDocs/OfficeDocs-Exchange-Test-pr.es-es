@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2018-05-03_
+_**Última modificación del tema:** 2018-05-03_
 
 La prevención de pérdida de datos (DLP) de Exchange incluye 80 tipos de información confidencial listos para usarse en las directivas DLP. En este tema, aparecen todos los tipos de información confidencial y se muestra lo que busca una directiva DLP cuando detecta cada tipo. Un tipo de información confidencial se define con un patrón que se puede identificar mediante una expresión regular o una función. Además, las pruebas de corroboración (como las palabras clave y las sumas de comprobación) se pueden usar para identificar un tipo de información confidencial. La proximidad y el nivel de confianza también se emplean en el proceso de evaluación.
 

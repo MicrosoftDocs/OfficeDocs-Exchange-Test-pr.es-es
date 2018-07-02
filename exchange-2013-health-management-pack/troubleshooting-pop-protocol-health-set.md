@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Project Server 2013_
+_**Se aplica a:**  Exchange Server 2013, Project Server 2013_
 
-_**Última modificación del tema:**2013-02-11_
+_**Última modificación del tema:**  2013-02-11_
 
 El conjunto de mantenimiento POP.Protocol supervisa el protocolo POP3 de Microsoft Exchange en el servidor de buzones. Si recibe una alerta que especifica que el conjunto de mantenimiento POP.Proxy es incorrecto, significa que existe un problema que puede afectar al protocolo POP3 en el servidor de buzones que muestra la alerta.
 

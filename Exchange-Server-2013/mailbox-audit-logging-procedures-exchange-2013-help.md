@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2010-07-16_
+_**Última modificación del tema:** 2010-07-16_
 
 [Habilitar o deshabilitar el registro de auditoría de buzones para un buzón](enable-or-disable-mailbox-audit-logging-for-a-mailbox-exchange-2013-help.md)
 

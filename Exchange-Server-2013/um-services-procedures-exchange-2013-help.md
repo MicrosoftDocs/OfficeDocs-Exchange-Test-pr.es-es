@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-15_
+_**Última modificación del tema:** 2013-02-15_
 
 [Administrar la configuración de mensajería unificada en un servidor de buzones](manage-um-settings-on-a-mailbox-server-exchange-2013-help.md)
 

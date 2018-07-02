@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 Los ámbitos de función de administración determinan qué objetos estarán disponibles para un usuario de modo que los objetos se puedan cambiar mediante el uso de parámetros y cmdlets asignados a éstos. Es posible ver los ámbitos para determinar cuáles se han agregado a la organización, la configuración de un ámbito específico o los ámbitos que son huérfanos.
 

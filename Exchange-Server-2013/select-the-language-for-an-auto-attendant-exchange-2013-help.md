@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Puede configurar el idioma predeterminado del mensaje en un operador automático de mensajería unificada (MU). La opción de idioma que está disponible en un operador automático de MU permite configurar el idioma de los mensajes predeterminados del operador automático. Cuando usa los mensajes predeterminados del sistema para el operador automático, el idioma de dichos mensajes será el que escuche la persona que llama cuando el operador automático responda la llamada entrante. Esta configuración de idioma solo afecta los mensajes predeterminados del sistema que se proporcionan después de la instalación del servidor de buzones que ejecuta el servicio de mensajería unificada de Microsoft Exchange. Esta configuración no afecta a los mensajes personalizados que están configurados en un operador automático. Los idiomas disponibles están basados en los paquetes de idioma de mensajería unificada que están instalados en el servidor de buzones.
 

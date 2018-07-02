@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:**  Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:**  2015-03-09_
 
 El conjunto de mantenimiento ECP.Proxy supervisa la disponibilidad de la infraestructura de proxy del Centro de administración de Exchange (EAC) en el servidor de acceso de cliente (CAS). El conjunto de mantenimiento ECP.Proxy se relaciona estrechamente con el siguiente conjunto de mantenimiento:
 

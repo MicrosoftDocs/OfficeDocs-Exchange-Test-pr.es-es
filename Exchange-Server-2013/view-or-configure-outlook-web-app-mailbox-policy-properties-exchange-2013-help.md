@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-04-13_
+_**Última modificación del tema:** 2016-04-13_
 
 Después de haber creado una directiva de buzón de Outlook Web App, podrá configurar una amplia variedad de opciones para controlar las funciones que tienen disponibles los usuarios en Outlook Web App. Por ejemplo, podrá habilitar o deshabilitar las reglas de la Bandeja de entrada, o bien crear una lista de los tipos de archivos permitidos para datos adjuntos.
 

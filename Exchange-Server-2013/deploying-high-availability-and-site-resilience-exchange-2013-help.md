@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Microsoft Exchange Server 2013 utiliza, tanto para la alta disponibilidad como para la resistencia de sitio, un concepto conocido como *implementación incremental*. Simplemente, instale dos o más servidores de buzones de correo de Exchange 2013 como servidores independientes y, luego, configúrelos de manera incremental junto con las bases de datos de buzones de correo para que haya una alta disponibilidad y resistencia de sitios según sea necesario.
 

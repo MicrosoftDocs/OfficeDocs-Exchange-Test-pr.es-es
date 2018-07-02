@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La función de administración `Database Availability Groups` permite a los administradores administrar los grupos de disponibilidad de base de datos en una organización. Los administradores que tienen asignada esta función directa o indirectamente son los administradores de nivel más alto responsables de la configuración de alta disponibilidad en una organización.
 

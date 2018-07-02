@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede configurar la vigencia del PIN de los usuarios que estén habilitados para mensajería unificada. La vigencia del PIN es el tiempo máximo que un PIN de Outlook Voice Access es válido para los destinatarios habilitados para mensajería unificada. La opción de vigencia del PIN se configura en una directiva de buzón de mensajería unificada y se aplica a todos los usuarios con mensajería unificada habilitada que estén asociados a dicha directiva.
 

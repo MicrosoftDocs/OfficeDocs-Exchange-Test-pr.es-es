@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-13_
+_**Última modificación del tema:** 2012-10-13_
 
 De manera predeterminada, Exchange incluye una directiva de direcciones de correo electrónico que especifica el alias del destinatario como la parte local de la dirección de correo electrónico y usa el dominio predeterminado aceptado. La parte local de una dirección de correo electrónico es el nombre que aparece antes del símbolo de arroba (@). Esta directiva de direcciones de correo electrónico se aplica a todos los usuarios de la organización. No puede quitar esta directiva de direcciones de correo electrónico.
 

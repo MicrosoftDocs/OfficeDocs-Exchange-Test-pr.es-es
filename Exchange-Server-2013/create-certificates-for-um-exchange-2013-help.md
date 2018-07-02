@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-29_
+_**Última modificación del tema:** 2013-04-29_
 
 Puede usar el Asistente de nuevo certificado de intercambio en el EAC o el Shell para crear certificados autofirmados o solicitudes de certificado para un certificado interno de infraestructura de clave pública (PKI). Para la mensajería unificada (UM), puede utilizar uno de estos certificados para el servicio de mensajería unificada de Microsoft Exchange y el servicio de enrutamiento de llamadas de mensajería unificada de Microsoft Exchange. Puede utilizar el mismo certificado para ambos servicios, o bien un certificado distinto para cada uno. También puede comprar e importar un certificado comercial de otros fabricantes para servicios de mensajería unificada (UM). Si usa un certificado autofirmado para mensajería unificada (UM), es posible que necesite incluir el nombre de los servidores de acceso de cliente y de buzón en el nombre alternativo del firmante (SAN).
 

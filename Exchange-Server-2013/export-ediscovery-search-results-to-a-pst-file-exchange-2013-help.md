@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2017-09-07_
+_**Última modificación del tema:** 2017-09-07_
 
 Puede utilizar la herramienta de exportación de eDiscovery en Centro de administración de Exchange (EAF) para exportar los resultados de una búsqueda de eDiscovery In situ a un archivo de datos de Outlook, que también se denomina un archivo PST. Los administradores pueden distribuir los resultados de la búsqueda a otras personas dentro de su organización, como un administrador de recursos humanos o registros, o para oponerse a un asesor en casos legales. Después de exportan los resultados de la búsqueda a un archivo PST, usted u otros usuarios pueden abrir en Outlook para revisar o imprimir mensajes devueltos en los resultados de la búsqueda. También se pueden abrir archivos PST en eDiscovery de terceros y aplicaciones de informes. Este tema muestra cómo hacer esto, así como solucionar los problemas que puedan existir.
 

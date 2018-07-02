@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-13_
+_**Última modificación del tema:** 2015-04-13_
 
 Los dominios remotos son dominios SMTP externos a la organización de Microsoft Exchange. Puede crear entradas de dominio remoto para definir la configuración de mensajes transferidos entre la organización de Exchange y dominios externos específicos. La configuración de la entrada de dominio remota de un dominio externo concreto sustituye la configuración del dominio remoto predeterminado que se aplica normalmente a todos los destinatarios externos. La configuración de dominio remoto es global para la organización de Exchange.
 

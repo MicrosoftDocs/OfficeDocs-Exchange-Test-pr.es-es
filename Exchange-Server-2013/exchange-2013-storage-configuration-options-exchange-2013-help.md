@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Comprender los requisitos y las opciones de almacenamiento del rol de servidor de buzones de correo en Exchange Server 2013 es una parte importante de la solución de diseño de almacenamiento del servidor de buzones de correo.
 

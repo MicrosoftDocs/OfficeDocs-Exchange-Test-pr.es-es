@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-07-02_
+_**Última modificación del tema:** 2014-07-02_
 
 En Microsoft Exchange 2013, ha habido importantes cambios en la arquitectura de los roles de servidores de Exchange. En lugar de los cinco roles de servidor que proporcionaban Exchange 2010 y Exchange 2007, en Exchange 2013, el número de roles de servidor se ha reducido a tres: el servidor de acceso de cliente y el servidor de buzones de correo y, con el Service Pack 1, el rol de servidor de transporte perimetral.
 

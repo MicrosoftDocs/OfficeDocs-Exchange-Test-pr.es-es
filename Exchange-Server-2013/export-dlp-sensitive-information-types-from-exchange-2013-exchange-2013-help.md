@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-05-04_
+_**Última modificación del tema:** 2016-05-04_
 
 Puede ver o cambiar los detalles de las directivas DLP sin utilizar el Centro de administración de Exchange (CEF) o cmdlets Shell de administración de Exchange exportar las directivas, guardarlos como un archivo XML y modificando el archivo XML. Normalmente, a continuación, podría importar el archivo XML en Exchange. De esta forma, las directivas pueden editarse independiente de Exchange. Sin embargo, deben cumplir los requisitos de formato específico, que también se conoce como un esquema XML para funcionar correctamente.
 

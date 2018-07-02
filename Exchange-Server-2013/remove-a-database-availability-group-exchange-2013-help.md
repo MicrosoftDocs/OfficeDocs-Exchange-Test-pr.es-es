@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-16_
+_**Última modificación del tema:** 2012-11-16_
 
 Quitar un grupo de disponibilidad de la base de datos (DAG) es una tarea rápida y fácil. Puede usar el Centro de Administración de Exchange o el Shell para eliminar un DAG.
 

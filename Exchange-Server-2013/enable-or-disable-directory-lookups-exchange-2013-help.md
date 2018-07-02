@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-05-10_
+_**Última modificación del tema:** 2016-05-10_
 
 Puede habilitar búsquedas en el directorio para que los autores de las llamadas de un operador automático de mensajería unificada puedan buscar nombres en el directorio con el teclado numérico del teléfono, pero no puedan realizar búsquedas en el directorio con entradas de voz. Esta opción está habilitada de manera predeterminada. Si esta configuración está deshabilitada, las personas que llaman no podrán buscar en el directorio a una persona específica que use entradas de teclado o comandos de voz.
 

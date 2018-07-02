@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-09-10_
+_**Última modificación del tema:** 2012-09-10_
 
 Los temas incluidos en esta sección proporcionan detalles acerca de las comprobaciones de disponibilidad que Microsoft Exchange Server 2013 realiza cuando Exchange está instalado. Las comprobaciones de disponibilidad garantizan que su bosque de Active Directory y servidores Exchange estén disponibles para Exchange 2013. Cada tema de comprobación de disponibilidad describe las acciones que puede realizar para solucionar los problemas que se encuentre al ejecutarse las comprobaciones de disponibilidad. Solo debe realizar los pasos detallados en un tema de comprobación de disponibilidad si dicha comprobación de disponibilidad se mostró durante la instalación.
 

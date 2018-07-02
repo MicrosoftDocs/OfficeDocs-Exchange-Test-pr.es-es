@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-22_
+_**Última modificación del tema:** 2013-04-22_
 
 Este tema contiene los términos y las definiciones que se usan en la mensajería unificada (UM).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede permitir que los usuarios asociados a una directiva de buzones de mensajería unificada (UM) configuren reglas de respuesta a llamadas o evitar que lo hagan. Si la opción para configurar reglas de respuesta a llamadas está deshabilitada en un plan de marcado de mensajería unificada, la función de reglas de respuesta a llamadas no estará disponible para los usuarios habilitados para mensajería unificada asociados a la directiva de buzones de mensajería unificada. De forma predeterminada, esta opción está habilitada.
 

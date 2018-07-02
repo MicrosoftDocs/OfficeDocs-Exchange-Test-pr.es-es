@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Los permisos necesarios para llevar a cabo tareas de administración de destinatarios pueden variar en función del procedimiento que se esté realizando o del cmdlet que se quiera ejecutar.
 

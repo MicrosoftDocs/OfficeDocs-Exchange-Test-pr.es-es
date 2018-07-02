@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2017-07-26_
+_**Última modificación del tema:** 2017-07-26_
 
 Para establecer una confianza de federación entre la organización de Exchange Server 2013 de Microsoft y el [sistema de autenticación de Active Directory de Azure](https://go.microsoft.com/fwlink/p/?linkid=135986), necesita un certificado digital instalado en el servidor de Exchange utilizado para crear la confianza. Es más recomendable usar un certificado autofirmado. Un certificado autofirmado creado y se instala automáticamente cuando se utiliza al Asistente para **Habilitar la confianza de federación** en la Centro de administración de Exchange (EAF).
 

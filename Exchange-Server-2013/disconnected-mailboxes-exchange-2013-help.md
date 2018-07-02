@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Cada buzón de correo de Microsoft Exchange está compuesto por una cuenta de usuario de Active Directory y los datos de buzón de correo almacenados en la base de datos de buzones de correo de Exchange. Todos los datos de configuración de un buzón se almacenan en los atributos de Exchange del objeto de usuario de Active Directory. La base de datos de buzones de correo contiene los datos de correo que se encuentran en el buzón de correo asociado a la cuenta de usuario. En la siguiente figura, se muestran los componentes de un buzón de correo.
 

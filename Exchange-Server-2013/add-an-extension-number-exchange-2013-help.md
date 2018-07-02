@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-14_
+_**Última modificación del tema:** 2012-11-14_
 
 Cuando se habilita a un usuario para la mensajería unificada y se lo vincula a un plan de marcado de extensión telefónica, se crea una dirección proxy de EUM para el usuario que tiene el número de extensión del usuario. Debe definir, al menos, un número de extensión para que la mensajería unificada use, de manera que se pueda enviar correo de voz al buzón de correo del usuario. El número de extensión también se usa cuando el usuario llama a un número de Outlook Voice Access.
 

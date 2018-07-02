@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-21_
+_**Última modificación del tema:** 2013-02-21_
 
 Si su organización tiene problemas con la calidad de audio de las llamadas de mensajería unificada y los mensajes de correo de voz, use el informe de estadísticas de llamadas como ayuda para conocer lo que provoca los problemas.
 
@@ -74,7 +74,7 @@ Para ver tareas adicionales relacionadas con las estadísticas de llamadas consu
         > La NMOS máxima posible para una llamada depende del códec de audio que se use. Puede que la NMOS no esté disponible para las llamadas breves de menos de 10&nbsp;segundos.
 
     
-      - **DETERIORO NMOS:**   Cantidad de degradación de audio de la NMOS a partir del máximo valor posible para el códec de audio que se está usando. Por ejemplo, si el valor de degradación NMOS para una llamada fuera 1.2 y la NMOS notificada para la llamada fuera 3.3, la máxima puntuación NMOS para esa llamada sería 4.5 (1.2 + 3.3).
+      - **DETERIORO NMOS:**    Cantidad de degradación de audio de la NMOS a partir del máximo valor posible para el códec de audio que se está usando. Por ejemplo, si el valor de degradación NMOS para una llamada fuera 1.2 y la NMOS notificada para la llamada fuera 3.3, la máxima puntuación NMOS para esa llamada sería 4.5 (1.2 + 3.3).
     
       - **VIBRACIÓN**   Variación promedio en la llegada de paquetes de datos para la llamada.
     

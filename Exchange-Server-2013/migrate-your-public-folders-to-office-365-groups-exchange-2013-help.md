@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2010, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2010, Exchange Server 2013_
 
-_**Última modificación del tema:**2017-09-25_
+_**Última modificación del tema:** 2017-09-25_
 
-**Resumen:** ¿por qué debe o no debe migrar las carpetas públicas de Exchange a los grupos de Office 365.
+**Resumen:**  ¿por qué debe o no debe migrar las carpetas públicas de Exchange a los grupos de Office 365.
 
 En este artículo se proporciona una comparación de las carpetas públicas y grupos de Office 365 y cómo uno u otro podría ser la mejor solución para su organización. Las carpetas públicas han estado presentes desde los albores de Exchange, mientras que los grupos se introdujeron más recientemente. Si desea migrar algunas o todas las carpetas públicas a grupos, este artículo describe cómo funciona el proceso y proporciona vínculos a los artículos que le guían paso a paso por el proceso.
 
@@ -89,15 +89,15 @@ Ventajas clave de las migraciones de lote son:
 
 Los pasos siguientes describen el proceso general de migrar el contenido de carpetas públicas a grupos de Office 365 en una migración por lotes. Los detalles específicos están contenidos en los artículos que se enumeran a continuación.
 
-1.  **Seleccione fuente:** elija las carpetas públicas que desea migrar. Puede elegir cualquier correo de la carpeta que lo contiene o el contenido de calendario.
+1.  **Seleccione fuente:**  elija las carpetas públicas que desea migrar. Puede elegir cualquier correo de la carpeta que lo contiene o el contenido de calendario.
 
-2.  **El objetivo de crear:** crear grupos correspondientes para las carpetas, con las configuraciones deseadas, como miembros, la configuración de privacidad y clasificación de datos.
+2.  **El objetivo de crear:**  crear grupos correspondientes para las carpetas, con las configuraciones deseadas, como miembros, la configuración de privacidad y clasificación de datos.
 
-3.  **Copiar datos:** usar los cmdlets de migración por lotes para copiar los datos de carpetas públicas a grupos.
+3.  **Copiar datos:**  usar los cmdlets de migración por lotes para copiar los datos de carpetas públicas a grupos.
 
-4.  **Origen de bloqueo:** bloquear las carpetas públicas, una vez que haya verificado los datos en grupos.
+4.  **Origen de bloqueo:**  bloquear las carpetas públicas, una vez que haya verificado los datos en grupos.
 
-5.  **Cutover:** copia cualquier dato nuevo que se ha creado entre los pasos 3 y 4.
+5.  **Cutover:**  copia cualquier dato nuevo que se ha creado entre los pasos 3 y 4.
 
 Tenga en cuenta que las carpetas públicas y sus correspondientes grupos permanecerán en línea para los usuarios durante los pasos del 1 al 3 anteriores. Después del paso 3, puede evaluar si debe o no continuar con el resto de la migración, basado en la experiencia de grupos y el hecho de que se ajuste a los usuarios y su organización. Puede revertir la migración y volver a utilizar las carpetas públicas en ese momento. Si continúa con la migración, después de que finalice el paso 5, puede eliminar las carpetas públicas originales. Incluso después de la migración, es posible hacer roll back a carpetas públicas, proporcionado ha guardado los archivos de copia de seguridad desde el proceso de migración y no ha eliminado las carpetas públicas originales.
 

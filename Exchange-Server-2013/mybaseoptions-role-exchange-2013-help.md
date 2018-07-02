@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La función de administración `MyBaseOptions` permite que los usuarios individuales vean y modifiquen la configuración básica de sus propios buzones y las configuraciones asociadas.
 

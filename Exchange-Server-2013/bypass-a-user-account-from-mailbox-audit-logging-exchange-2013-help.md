@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-05-21_
+_**Última modificación del tema:** 2013-05-21_
 
 Cuando habilite un registro de auditoría de buzón para buzón, se registran eventos de acceso a buzón especificados (por ejemplo, acceso a una carpeta o a un mensaje o la eliminación permanente de un mensaje). Sin embargo, el acceso de algunas cuentas autorizadas, tales como cuentas usadas por herramientas de terceros o por controles legales, pueden crear una gran cantidad de entradas de registro de auditoría de buzón que, posiblemente, no sean importantes para la organización.
 

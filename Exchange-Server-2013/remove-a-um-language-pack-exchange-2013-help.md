@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-14_
+_**Última modificación del tema:** 2013-02-14_
 
 Puede usar el EAC o el Shell para administrar idiomas de mensajería unificada (UM) en servidores de buzón de correo que ejecutan el servicio de mensajería unificada de Exchange. Sin embargo, para quitar un idioma de la lista en un plan de marcado de mensajería unificada, debe quitar el correspondiente paquete de idioma de mensajería unificada usando el comando **Setup.exe /RemoveUmLanguagePack**. Después de quitar el paquete de idioma de mensajería unificada del servidor de buzón de correo, el lenguaje ya no estará disponible al configurar un plan de marcado de mensajería unificada o un operador automático de mensajería unificada. Si desea ver los paquetes de idiomas de mensajería unificada que están instalados, examine las propiedades del servidor de buzón de correo o use el cmdlet **Get-UMService**.
 

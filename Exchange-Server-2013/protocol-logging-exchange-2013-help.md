@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 El registro de protocolo registra las conversaciones del SMTP que se producen entre servidores de mensajería como parte de la entrega de mensajes. Estas conversaciones de SMTP se producen en conectores de envío y de recepción que existen en el servicio de transporte front-end en servidores de acceso de clientes, el servicio de transporte en servidores de buzones de correo y el servicio de transporte de buzones en servidores de buzones de correo. Puede usar el registro de protocolo para diagnosticar problemas del flujo de correo.
 
@@ -83,15 +83,15 @@ La información se escribe en el archivo de registro hasta que el tamaño del ar
 
 Los archivos de registro de protocolos son archivos de texto que contienen datos en el formato de archivo de valores separados por comas (CSV). Cada archivo de registro de protocolo tiene un encabezado que contiene la siguiente información:
 
-  - **\#Software:** el nombre del software que creó el archivo de registro de protocolo. Normalmente, el valor es Microsoft Exchange Server.
+  - **\#Software:**  el nombre del software que creó el archivo de registro de protocolo. Normalmente, el valor es Microsoft Exchange Server.
 
-  - **\#Versión:** el número de versión del software que creó el archivo de registro de protocolo. Actualmente, el valor es 15.0.0.0.
+  - **\#Versión:**  el número de versión del software que creó el archivo de registro de protocolo. Actualmente, el valor es 15.0.0.0.
 
-  - **\#Tipo de registro:** el valor de tipo de registro de este campo, que es Registro de protocolo de recepción SMTP o Registro de protocolo de envío SMTP.
+  - **\#Tipo de registro:**  el valor de tipo de registro de este campo, que es Registro de protocolo de recepción SMTP o Registro de protocolo de envío SMTP.
 
-  - **\#Fecha:** la fecha y hora UTC en el momento en que se creó el archivo. La fecha y hora UTC se representa mediante el formato de fecha y hora conforme a ISO 8601: *yyyy-mm-dd*T*hh:mm:ss.fff*Z, donde *yyyy* = año, *mm* = mes, *dd* = día, T indica el comienzo del componente tiempo, *hh* = hora, *mm* = minuto, *ss* = segundo, *fff* = fracciones de un segundo, y Z significa Zulu, que es otra forma de denominar UTC.
+  - **\#Fecha:**  la fecha y hora UTC en el momento en que se creó el archivo. La fecha y hora UTC se representa mediante el formato de fecha y hora conforme a ISO 8601: *yyyy-mm-dd*T*hh:mm:ss.fff*Z, donde *yyyy* = año, *mm* = mes, *dd* = día, T indica el comienzo del componente tiempo, *hh* = hora, *mm* = minuto, *ss* = segundo, *fff* = fracciones de un segundo, y Z significa Zulu, que es otra forma de denominar UTC.
 
-  - **\#Campos:** los nombres de campos delimitados por comas que se usan en los archivos de registro del protocolo.
+  - **\#Campos:**  los nombres de campos delimitados por comas que se usan en los archivos de registro del protocolo.
 
 Volver al principio
 

@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2010, Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2010, Exchange Server 2013_
 
-_**Última modificación del tema:**2018-04-30_
+_**Última modificación del tema:** 2018-04-30_
 
-**Resumen:** cómo mover las carpetas públicas de Exchange 2010 a Office 365 grupos.
+**Resumen:**  cómo mover las carpetas públicas de Exchange 2010 a Office 365 grupos.
 
 Mediante un proceso conocido como *migración de lote*, puede mover algunas o todas las carpetas públicas de Exchange 2010 a los grupos de Office 365. Grupos es una nueva oferta de Microsoft que ofrece ciertas ventajas sobre las carpetas públicas de colaboración. Consulte [Migrar las carpetas públicas a grupos de Office 365](migrate-your-public-folders-to-office-365-groups-exchange-2013-help.md) para obtener una introducción de las diferencias entre carpetas públicas y grupos y razones por la organización podrá o no podrá acogerse a los grupos de conmutación.
 
@@ -69,7 +69,7 @@ Antes de continuar, compruebe que ha descargado y guardado todos los scripts y l
 
   - **LockAndSavePublicFolderProperties.ps1**. esta secuencia de comandos hace que las carpetas públicas de sólo lectura para evitar modificaciones y transfiere las propiedades relacionadas con el correo de carpetas públicas (siempre que las carpetas públicas están habilitados para correo) a los grupos de destino, que le reconducirá correos electrónicos de las carpetas públicas a los grupos de destino. Esta secuencia de comandos también copia las entradas de permisos y las propiedades de correo antes de modificarlas.
 
-  - **LockAndSavePublicFolderProperties.strings.psd1:** este archivo de ayuda es utilizado por la secuencia de comandos `LockAndSavePublicFolderProperties.ps1`.
+  - **LockAndSavePublicFolderProperties.strings.psd1:**  este archivo de ayuda es utilizado por la secuencia de comandos `LockAndSavePublicFolderProperties.ps1`.
 
   - **UnlockAndRestorePublicFolderProperties.ps1**. esta secuencia de comandos restaura los derechos de acceso y las propiedades de correo de las carpetas públicas mediante archivos de copia de seguridad creados por `LockandSavePublicFolderProperties.ps1`.
 
@@ -282,9 +282,9 @@ Como referencia, esta sección ofrece descripciones detalladas en tres de las se
 
 Esta secuencia de comandos leerá los permisos de las carpetas públicas que se está migrando y, a continuación, agregar miembros y propietarios a Office 365 grupos como sigue:
 
-  - Los usuarios con las siguientes funciones de permiso se agregarán como miembros a un grupo de Office 365. **Roles de permisos:** propietario, PublishingEditor, Editor, PublishingAuthor, autor
+  - Los usuarios con las siguientes funciones de permiso se agregarán como miembros a un grupo de Office 365. **Roles de permisos:**  propietario, PublishingEditor, Editor, PublishingAuthor, autor
 
-  - Además de los usuarios anteriores, con el siguiente acceso mínimo derechos se agregará también como miembros a un grupo de Office 365. **Derechos de acceso:** ReadItems, CreateItems, FolderVisible, EditOwnedItems, DeleteOwnedItems
+  - Además de los usuarios anteriores, con el siguiente acceso mínimo derechos se agregará también como miembros a un grupo de Office 365. **Derechos de acceso:**  ReadItems, CreateItems, FolderVisible, EditOwnedItems, DeleteOwnedItems
 
   - Usuarios con acceso derecho "Propietario" se agregará como propietarios a un grupo y los usuarios con otros derechos de acceso elegibles se agregarán como miembros.
 

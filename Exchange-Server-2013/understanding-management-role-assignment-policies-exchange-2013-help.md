@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Una *directiva de asignación de funciones de administración* es una colección de una o más funciones de administración de usuarios finales que permite a los usuarios finales administrar su propio buzón Microsoft Exchange Server 2013 y la configuración de un grupo de distribución. Las directivas de asignación de funciones, que son parte del modelo de permisos de control de acceso basado en funciones (RBAC) en Exchange 2013, le permiten controlar qué configuración de un buzón específico y un grupo de distribución podrán modificar los usuarios finales. Los diferentes grupos de usuarios pueden tener directivas de asignación de funciones especializadas.
 

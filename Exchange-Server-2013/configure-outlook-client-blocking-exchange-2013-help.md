@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 En Exchange Server 2013, puede usar directivas de retención o carpetas administradas para la administración de registros de mensajes (MRM). Solo los usuarios que ejecutan Microsoft Outlook 2010 y versiones posteriores tienen acceso a todas las características de cliente de las directivas de retención. No obstante, el Asistente para carpeta administrada aplica las directivas de retención al servidor de buzones de correo independientemente de la versión de cliente de Outlook que tenga el usuario. Los clientes más antiguos de Outlook no exponen la funcionalidad MRM de estas características. Por ejemplo, dado que Outlook 2007 no admite directivas de retención, los usuarios no pueden aplicar etiquetas personales a elementos o carpetas.
 

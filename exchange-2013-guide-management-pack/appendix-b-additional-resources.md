@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Última modificación del tema:** 2012-11-14_
+_**Última modificación del tema:**   2012-11-14_
 
 Los recursos siguientes proporcionan información acerca de las tareas habituales asociadas a los paquetes de administración de System Center:
 

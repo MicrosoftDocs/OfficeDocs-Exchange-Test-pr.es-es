@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-05_
+_**Última modificación del tema:** 2012-10-05_
 
 Puede administrar varias opciones de configuración de la aplicación Exchange ActiveSync en Exchange Server 2013 mediante el directorio virtual de Exchange ActiveSync. Internet Information Services (IIS) usa un directorio virtual para permitir el acceso a una aplicación web, como Exchange ActiveSync. Parte de la configuración del directorio virtual que puede administrar para Exchange ActiveSync incluye la autenticación, la seguridad y la generación de informes.
 

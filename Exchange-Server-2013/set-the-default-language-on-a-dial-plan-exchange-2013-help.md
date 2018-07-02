@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Puede establecer el idioma predeterminado del plan de marcado de mensajería unificada. Cada plan de marcado que cree usarán el idioma inglés de Estados Unidos (en-US) como idioma predeterminado. El paquete de idioma inglés de Estados Unidos (en-US) se instala en todas las versiones de Microsoft Exchange Server 2013 y no se puede quitar.
 

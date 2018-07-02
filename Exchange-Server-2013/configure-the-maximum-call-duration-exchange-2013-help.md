@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-09_
+_**Última modificación del tema:** 2012-11-09_
 
 Puede especificar el número de minutos máximo que una llamada entrante puede permanecer conectada al sistema sin ser transferida a un número de extensión válido antes de dar la llamada por concluida. Para la mayoría de las organizaciones, este valor debe establecerse en el valor predeterminado, es decir: 30 minutos. Esta configuración se aplica a todas las llamadas, incluyendo llamadas entrantes de Outlook Voice Access, llamadas de voz internas de su organización, llamadas de voz en mensajería unificada (MU) operadores automáticos y llamadas de fax realizadas desde fuera de la organización.
 

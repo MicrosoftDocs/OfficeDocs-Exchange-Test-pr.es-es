@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-06-15_
+_**Última modificación del tema:** 2016-06-15_
 
 Las carpetas públicas están diseñadas para un acceso compartido y ofrecen una manera fácil y efectiva de obtener, organizar y compartir información con otras personas de su grupo de trabajo u organización. La habilitación del correo de una carpeta pública permite a los usuarios publicar en una carpeta pública, enviándole un mensaje de correo electrónico. Cuando una carpeta pública tiene el correo habilitado, su configuración adicional pasa a estar disponible en el Centro de administración de Exchange (EAC), como direcciones de correo electrónico y cuotas de correo. En el Shell, antes de que se habilite el correo en una carpeta pública, puede usar el cmdlet **Set-PublicFolder** para administrar toda su configuración. Después de que se habilite el correo de la carpeta pública, use los cmdlets **Set-PublicFolder** y **Set-MailPublicFolder** para administrar la configuración.
 

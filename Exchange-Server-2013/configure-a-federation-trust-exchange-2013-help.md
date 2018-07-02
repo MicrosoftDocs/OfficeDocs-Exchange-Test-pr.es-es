@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2017-07-26_
+_**Última modificación del tema:** 2017-07-26_
 
 Una confianza de federación establece una relación de confianza entre una organización de Exchange 2013 de Microsoft y el sistema de autenticación de Azure Active Directory. Al configurar una confianza de federación, podrá configurar el uso compartido federado con otras organizaciones federadas de Exchange y compartir la información de calendarios de disponibilidad entre los destinatarios. El uso compartido federado se puede configurar entre dos organizaciones de Exchange 2013 federadas o entre una organización de Exchange 2013 federada y otras organizaciones de Exchange 2010 federadas. También puede configurar el uso compartido con una organización de Office 365.
 

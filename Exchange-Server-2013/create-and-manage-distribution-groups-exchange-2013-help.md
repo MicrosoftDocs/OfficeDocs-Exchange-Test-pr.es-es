@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2016, Office 365_
+_**Se aplica a:** Exchange Online, Exchange Server 2016, Office 365_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Use el Centro de Administración de Exchange (EAC) o el Shell de administración de Exchange para crear un nuevo grupo de distribución en su organización de Exchange o para habilitar el correo a un grupo existente en Active Directory.
 

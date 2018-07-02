@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 ¿Necesita ayuda para instalar Exchange? En este artículo encontrará información orientativa para planear una implementación de Microsoft Exchange Server 2013, además de vínculos a los artículos que necesitará durante el proceso de implementación.
 

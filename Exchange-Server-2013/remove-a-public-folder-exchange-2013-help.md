@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-11-16_
+_**Última modificación del tema:** 2016-11-16_
 
 Es posible que deba eliminar carpetas públicas que ya no se utilicen en la organización. Para determinar qué carpetas públicas se deben quitar, consulte [Ver estadísticas de carpetas públicas y elementos de carpetas públicas](view-statistics-for-public-folders-and-public-folder-items-exchange-2013-help.md).
 

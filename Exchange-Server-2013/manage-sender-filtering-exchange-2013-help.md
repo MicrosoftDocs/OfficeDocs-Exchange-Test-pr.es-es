@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
-El Agente de filtrado de remitentes proporciona el filtrado del remitente. El agente de filtro de remitentes se basa en **MAIL FROM:** El encabezado SMTP determina qué acción, si la hay, se debería realizar en un mensaje de correo electrónico de entrada.
+El Agente de filtrado de remitentes proporciona el filtrado del remitente. El agente de filtro de remitentes se basa en **MAIL FROM:**  El encabezado SMTP determina qué acción, si la hay, se debería realizar en un mensaje de correo electrónico de entrada.
 
 Si se habilita en un servidor Exchange la función de filtrado de remitentes, ésta filtra todos los mensajes que llegan a través de los conectores de recepción a dicho equipo.
 

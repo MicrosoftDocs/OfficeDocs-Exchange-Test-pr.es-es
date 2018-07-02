@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Un grupo de disponibilidad de base de datos (DAG) es un conjunto de hasta 16 servidores de buzones Microsoft Exchange Server 2013 que ofrece recuperación automática de base de datos a partir de un error de base de datos, servidor o red. Cuando un servidor de buzones se agrega a un DAG, funciona con los demás servidores del DAG para ofrecer recuperación automática de base de datos a partir de los errores de base de datos, servidor y red.
 

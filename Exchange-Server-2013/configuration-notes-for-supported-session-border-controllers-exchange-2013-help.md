@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2017-07-25_
+_**Última modificación del tema:** 2017-07-25_
 
 Los controladores de borde de sesión (SBC) permiten conectar la red de telefonía local a un centro de datos de Microsoft a través de una conexión WAN pública dedicada. Los SBC se ubican en el borde de la red IP local y se conectan a un segundo SBC en un centro de datos de Microsoft.
 

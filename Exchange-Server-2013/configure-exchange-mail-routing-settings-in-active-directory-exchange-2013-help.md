@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 De manera predeterminada, Microsoft Exchange Server 2013 hace referencia a los objetos de vínculo a sitios IP en Active Directory para ayudarlo a determinar la ruta de acceso menos costosa. Sin embargo, si determina que los costos de vínculo a sitios IP de Active Directory y los patrones de flujo de tráfico no son los mejores para el enrutamiento de correo en Exchange, puede establecer configuraciones en Active Directory que solo usen Exchange para optimizar el flujo de correo.
 

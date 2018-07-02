@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-07-14_
+_**Última modificación del tema:** 2014-07-14_
 
 Puede parar o reiniciar una búsqueda de Exhibición de documentos electrónicos en contexto en cualquier momento. Por ejemplo, si desea modificar las propiedades de búsqueda como palabras clave o búsquedas realizadas en buzones, primero debe detener una búsqueda. Puede reiniciar la búsqueda después de realizar los cambios necesarios.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 El agente de filtrado de destinatarios proporciona la capacidad de filtrado de destinatarios. Cuando el filtrado de destinatarios está habilitado en un servidor de Exchange, filtra los mensajes entrantes que provienen de Internet pero que no están autenticados. Estos mensajes se consideran mensajes externos.
 

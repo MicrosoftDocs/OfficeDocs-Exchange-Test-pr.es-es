@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Cuando un usuario con correo de voz habilitado para mensajería unificada (UM) se bloquea en un buzón que usa Outlook Voice Access porque intentó iniciar sesión con un PIN incorrecto varias veces o se le olvidó el PIN, puede usar uno de los siguientes procedimientos para restablecer el PIN del usuario. Cuando restablece el PIN de Voice Access de un usuario de Outlook, puede configurar la mensajería unificada (UM) para generar automáticamente un PIN o para especificarlo manualmente. El nuevo PIN se envía al usuario por correo electrónico. Puede especificar opciones de PIN adicionales, como que se requiera que el usuario restablezca el PIN después de la primera vez que inicie sesión. Los usuarios también pueden restablecer el PIN de mensajería unificada mediante Outlook o Outlook Web App.
 

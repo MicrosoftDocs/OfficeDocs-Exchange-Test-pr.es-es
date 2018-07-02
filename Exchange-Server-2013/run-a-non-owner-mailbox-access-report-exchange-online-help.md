@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online_
+_**Se aplica a:** Exchange Online_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 El informe de acceso al buzón de correo del que no se es propietario en el centro de administración de Exchange (EAC) enumera los buzones de correo a los que ha tenido acceso otro usuario que no es su propietario. Cuando un usuario tiene acceso a un buzón de correo del que no es propietario, Microsoft Exchange registra información acerca de esta acción en un registro de auditoría de buzones de correo que se almacena como un mensaje de correo electrónico en una carpeta oculta del buzón de correo que se está auditando. Las entradas de este registro se muestran como resultados de la búsqueda e incluyen una lista de buzones de correo a los que ha obtenido acceso el usuario que no es el propietario, quién obtuvo acceso al buzón y cuándo, las acciones realizadas por el usuario que no es propietario y si la acción se ha llevado a cabo correctamente. De manera predeterminada, las entradas del registro de auditoría de buzones de correo se retienen durante 90 días.
 

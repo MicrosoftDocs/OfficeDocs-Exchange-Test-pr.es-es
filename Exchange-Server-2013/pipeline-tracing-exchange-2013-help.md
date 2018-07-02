@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 El seguimiento de canalización captura copias de mensajes de correo electrónico de un remitente específico mientras se mueven a través del servicio de transporte en los servidores de buzones de correo, el servicio de entrega de transporte de buzones de correo en los servidores de buzones de correo y a través de los servidores de transporte perimetral. El seguimiento de canalización captura información detallada acerca de los cambios que cada agente de transporte aplica a los mensajes en la canalización de transporte en archivos de instantáneas de mensajes. Al examinar los contenidos de los archivos de instantáneas de mensajes, puede determinar si los agentes de transporte han aplicado los cambios a los mensajes en el conducto de transporte que esperaba. Si está solucionando un problema, debería determinar qué agente de transporte presenta el error. A continuación, se puede centrar en los esfuerzos de solución de problemas en ese agente para solucionar el problema. Puede ver, a continuación, los archivos de instantáneas de mensajes de nuevo para comprobar que la solución es satisfactoria.
 

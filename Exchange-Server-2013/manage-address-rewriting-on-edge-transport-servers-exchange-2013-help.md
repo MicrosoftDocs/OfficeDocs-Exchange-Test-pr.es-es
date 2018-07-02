@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 El Shell de administración de Exchange se usa en un servidor de transporte perimetral para todas las tareas de administración relativas a la reconfiguración de direcciones y a los agentes de reconfiguración de direcciones. Para obtener más información acerca de la reconfiguración de direcciones, consulte [Reconfiguración de direcciones en los servidores de transporte perimetral](address-rewriting-on-edge-transport-servers-exchange-2013-help.md).
 

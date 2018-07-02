@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-17_
+_**Última modificación del tema:** 2012-10-17_
 
 El rol de administración `MyPersonalInformation` permite que los usuarios individuales vean y modifiquen su sitio web, dirección y el número de teléfono de su domicilio. Este es un rol personalizado que se crea a partir del rol primario [Rol MyContactInformation](mycontactinformation-role-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-07-27_
+_**Última modificación del tema:** 2016-07-27_
 
 El Asistente para carpeta administrada (MFA) es uno de los muchos procesos del *asistente de buzón* que se ejecutan en los servidores de buzones de correo. Su trabajo consiste en procesar buzones a los que se ha aplicado una directiva de retención, agregar las etiquetas de retención incluidas en la directiva para el buzón y procesar los elementos en el buzón. Si los elementos tienen una etiqueta de retención, el asistente comprueba la antigüedad de esos elementos. Si un elemento ha superado su *antigüedad de retención*, realiza la *acción de retención* especificada. Entre las acciones de retención se incluye mover un elemento al archivo del usuario, eliminar el elemento y permitir su recuperación o eliminar el elemento de forma permanente.
 

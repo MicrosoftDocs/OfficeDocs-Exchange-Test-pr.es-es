@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En Microsoft Exchange Server 2013 y Exchange Online, la administración de registros de mensajes (MRM) ayuda a las organizaciones a administrar el ciclo de vida del correo electrónico y a reducir los riesgos legales asociados con el correo electrónico y otras comunicaciones. MRM facilita el mantenimiento de mensajes necesario para cumplir con la directiva de la compañía, la normativa del Gobierno o las necesidades legales, y ayuda a quitar el contenido que no disponga de valor legal o empresarial.
 

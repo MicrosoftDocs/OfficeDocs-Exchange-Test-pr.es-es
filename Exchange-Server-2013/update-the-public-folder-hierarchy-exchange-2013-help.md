@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2014-04-03_
+_**Última modificación del tema:** 2014-04-03_
 
 Solo tiene que actualizar la jerarquía de carpetas públicas si desea invocar manualmente el sincronizador de jerarquía y el asistente para buzones de correo. Ambos se invocan al menos una vez cada 24 horas para cada buzón de carpeta pública en la organización. El sincronizador de jerarquía se invoca cada 15 minutos si algún usuario inició sesión en un buzón de correo secundario mediante Microsoft Outlook o un cliente de los servicios web de Microsoft Exchange.
 

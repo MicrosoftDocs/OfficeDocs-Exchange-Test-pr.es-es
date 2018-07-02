@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013 SP1_
+_**Se aplica a:** Exchange Online, Exchange Server 2013 SP1_
 
-_**Última modificación del tema:**2013-12-02_
+_**Última modificación del tema:** 2013-12-02_
 
 Puede utilizar cmdlets de informes de mantenimiento integrados para realizar diversas tareas relacionadas con la disponibilidad administrada, tales como:
 

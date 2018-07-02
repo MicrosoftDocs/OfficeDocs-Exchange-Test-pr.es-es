@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-11-09_
+_**Última modificación del tema:** 2015-11-09_
 
-**Resumen:** Cómo configurar carpetas públicas, incluida la asignación de permisos en el Centro de admin. de Exchange.
+**Resumen:**  Cómo configurar carpetas públicas, incluida la asignación de permisos en el Centro de admin. de Exchange.
 
 This topic shows you how to get public folders configured and running in a new organization or in an organization that has never previously had public folders.
 

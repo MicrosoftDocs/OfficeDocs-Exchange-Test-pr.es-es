@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-09-11_
+_**Última modificación del tema:** 2014-09-11_
 
 Si su organización usa formularios para recopilar información confidencial, los usuarios podrían tratar de enviar esos formularios por correo electrónico a contactos externos, lo que supone un riesgo para la seguridad. La prevención de pérdida de datos (DLP) de Exchange le ayuda a proteger esa información mediante la detección con [Creación de huella digital de documento](overview-of-document-fingerprinting-in-exchange.md). Para usar huellas digitales de documentos, simplemente cargue un formulario en blanco, por ejemplo, un documento de propiedad intelectual, un formulario oficial u otro formulario estándar que se use en su organización. Después, agregue la huella digital de documento resultante a una regla de transporte o directiva de DLP. Aquí se muestra cómo hacerlo.
 

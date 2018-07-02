@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-02-01_
+_**Última modificación del tema:** 2016-02-01_
 
 El archivado local permite recuperar el control de los datos de mensajería de la organización mediante la eliminación de los archivos de almacenamiento personal (.pst). Asimismo, permite satisfacer los requisitos de retención de mensajes y de exhibición de documentos electrónicos de la organización. Con el archivado habilitado, los usuarios pueden almacenar mensajes en un buzón de archivo, al que puede acceder mediante MicrosoftOutlook y Outlook Web App.
 

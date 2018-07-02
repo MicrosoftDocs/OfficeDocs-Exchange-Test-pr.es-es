@@ -18,9 +18,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-20_
+_**Última modificación del tema:** 2013-02-20_
 
 Microsoft Exchange Server 2013 usa notificaciones del estado de entrega (DSN) para proporcionar informes de no entrega (NDRs) y otros mensajes de estado a los remitentes de mensajes. Puede usar los DSN integrados, o puede crear mensajes DSN personalizados para adaptarse a las necesidades de su organización.
 

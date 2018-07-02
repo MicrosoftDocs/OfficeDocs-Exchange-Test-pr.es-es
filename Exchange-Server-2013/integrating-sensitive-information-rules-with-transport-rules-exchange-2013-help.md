@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-01-14_
+_**Última modificación del tema:** 2015-01-14_
 
 En Microsoft Exchange, puede crear directivas de DLP que contengan reglas no solo para clasificaciones tradicionales de mensajes y reglas de transporte existentes sino también combinarlas con reglas para información confidencial encontrada en los mensajes. El marco de reglas de transporte existente ofrece completas funcionalidades para definir directivas de mensajería, que abarcan toda la variedad de controles parciales o completos. Algunos ejemplos son:
 

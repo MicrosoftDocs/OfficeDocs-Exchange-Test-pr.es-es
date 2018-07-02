@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Los permisos necesarios para configurar las características de dirección de correo electrónico y libreta de direcciones varían según el procedimiento que se efectúe o el cmdlet que se vaya a ejecutar. Para obtener más información acerca de las direcciones de correo electrónico y las libretas de direcciones, consulte [Direcciones de correo electrónico y libretas de direcciones](email-addresses-and-address-books-exchange-2013-help.md).
 

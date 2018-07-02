@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Los usuarios de correo son similares a los contactos de correo. Ambos tienen direcciones de correo electrónico externas y contienen información acerca de personas no pertenecientes a la organización de Exchange o de Exchange Online que se puede mostrar en la libreta de direcciones compartida y en otras listas de direcciones. No obstante, a diferencia de un contacto de correo, un usuario de correo tiene credenciales de inicio de sesión de la organización de Exchange o de Office 365 y puede tener acceso a los recursos. Para obtener más información, consulte [Destinatarios](recipients-exchange-2013-help.md).
 

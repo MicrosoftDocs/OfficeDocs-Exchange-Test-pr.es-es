@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 MicrosoftExchange Server 2013 incluye muchas características que se integran con Microsoft SharePoint 2013 y Microsoft Lync 2013. Juntos, estos productos ofrecen un conjunto de características que posibilitan escenarios como la exhibición de documentos electrónicos de empresas y la colaboración mediante buzones de sitio.
 

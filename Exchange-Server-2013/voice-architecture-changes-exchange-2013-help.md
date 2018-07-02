@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La arquitectura de Microsoft Exchange Server 2013 es diferente a la de Exchange Server 2007 y Exchange Server 2010. En Exchange 2007 y en Exchange 2010, los tipos de servidor se dividían en varios roles de servidor: acceso de clientes, buzones, transporte de concentradores y mensajería unificada. En Exchange 2013, todos los roles de servidor se combinan para formar dos tipos de servidor, y todos los componentes o servicios de dichos roles de servidor se ejecutan en el mismo servidor físico o en dos servidores separados denominados acceso de clientes y buzones de correo. En el nuevo modelo, el servidor de acceso de clientes que ejecuta el servicio del enrutador de llamadas de mensajería unificada de Microsoft Exchange redirige el tráfico del protocolo de inicio de sesión (SIP) que se genera de una llamada entrante a un servidor de buzones. A continuación, se establece un canal de medios (protocolo de transporte en tiempo real (RTP) o RTP seguro (SRTP)) desde la puerta de enlace VoIP o la central de conmutación (PBX) IP hasta el servidor de buzones que hospeda el buzón del usuario. En Exchange 2013, el servidor de buzones tiene los mismos procesos que el rol de servidor Mensajería unificada en Exchange 2007 y en Exchange 2010. El servidor de buzones ejecuta el servicio de mensajería unificada de Microsoft Exchange y los procesos de trabajo de mensajería unificada. El servidor de acceso de clientes ejecuta el servicio del enrutador de llamadas de mensajería unificada de Microsoft Exchange, que recibe una llamada entrante y la reenvía al servidor de buzones.
 

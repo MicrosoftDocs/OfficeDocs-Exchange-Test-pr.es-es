@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-09-25_
+_**Última modificación del tema:** 2012-09-25_
 
 Un conector externo entrega mensajes a un servidor o a un sistema externo que no usa SMTP como mecanismo de transporte principal. Un ejemplo de esto puede ser un servidor de la puerta de enlace de fax. Un conector externo usa un directorio de destino local o compartido para enviar mensajes salientes, mediante una transferencia de archivos, al sistema externo. Los conectores externos se pueden crear en el servicio de transportes del servidor de buzones de correo de Microsoft Exchange Server 2013.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-01-22_
+_**Última modificación del tema:** 2015-01-22_
 
 La carpeta Elementos recuperables contiene los elementos que han eliminado los usuarios de Microsoft Outlook y Microsoft OfficeOutlook Web App o el asistente de buzones de correo. El tiempo que los elementos eliminados permanecen en esta carpeta se basa en la configuración de la retención de elementos eliminados establecida para la base de datos del buzón o para el buzón. De forma predeterminada, una base de datos de buzones está configurada para retener los elementos eliminados durante 14 días, y la cuota de advertencia de elementos recuperables y la cuota de elementos recuperables están configuradas a 20 gigabytes (GB) y 30 GB respectivamente. No obstante, si se habilita una conservación local o una retención por juicio para el buzón de correo, la carpeta Elementos recuperables puede acumular elementos eliminados durante más tiempo del que se estipula en el período de retención, así como conservar versiones diferentes de los elementos del buzón de correo modificados.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Los grupos de reglas de marcado consisten en entradas de reglas de marcado. Las reglas de marcado se usan para modificar un número de teléfono antes de enviarlo al sistema telefónico local (PBX) o IP PBX para las llamadas salientes. Las reglas de marcado tienen dos finalidades:
 

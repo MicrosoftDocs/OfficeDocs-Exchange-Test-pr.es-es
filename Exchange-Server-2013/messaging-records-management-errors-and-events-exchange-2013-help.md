@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La administración de registros de mensajería (MRM) genera eventos que se pueden visualizar en el Visor de eventos. Esto le permite solucionar problemas y comprobar el rendimiento del asistente para carpeta administrada. El Visor de eventos realiza un seguimiento de los siguientes tipos de eventos según el orden de importancia siguiente:
 

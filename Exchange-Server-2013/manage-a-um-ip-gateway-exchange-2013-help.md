@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-21_
+_**Última modificación del tema:** 2013-02-21_
 
 Después de crear una puerta de enlace IP de mensajería unificada (MU), puede ver o configurar diversas opciones. Por ejemplo, puede configurar la dirección IP o un nombre de dominio completo (FQDN), configurar las opciones de llamadas salientes y habilitar o deshabilitar el indicador de mensaje en espera.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Si se daña el catálogo del índice de contenido de una copia de base de datos de buzones de correo, es posible que deba reinicializar el catálogo. El siguiente evento indica en el registro de eventos de la aplicación los índices de contenido dañados.
 

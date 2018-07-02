@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Outlook 2013_
+_**Se aplica a:** Exchange Server 2013, Outlook 2013_
 
-_**Última modificación del tema:**2015-02-27_
+_**Última modificación del tema:** 2015-02-27_
 
 Puede que tenga que coordinar programas con personas de otras organizaciones, con amigos o con familiares para, de este modo, poder trabajar juntos en proyectos o planear eventos sociales. Con Exchange 2013, los administradores pueden configurar distintos niveles de acceso a calendario para permitir que las empresas colaboren con otras empresas y permitir que los usuarios compartan sus programas con otros. El uso compartido de calendario de negocio a negocio se configura creando *relaciones de organización*. El uso compartido de calendario de negocio a negocio se configura aplicando *directivas de uso compartido*.
 

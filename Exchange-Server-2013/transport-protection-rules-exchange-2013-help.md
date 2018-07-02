@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Los mensajes y los datos adjuntos de correo electrónico contienen cada vez más información crítica para la empresa como especificaciones de productos, documentos de estrategia empresarial y datos financieros, o información de identificación personal (PII) como detalles de contactos, números de seguridad social, números de tarjetas de crédito y registros de empleados. Existen varias reglamentaciones locales y específicas de la industria en muchas partes del mundo que rigen la recopilación, el almacenamiento y la divulgación de la información de identificación personal.
 

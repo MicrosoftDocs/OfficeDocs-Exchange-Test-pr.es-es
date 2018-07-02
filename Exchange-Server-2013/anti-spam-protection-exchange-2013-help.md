@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-06_
+_**Última modificación del tema:** 2015-03-06_
 
 Los *emisores de correo no deseado*, o remitentes malintencionados, usan diversas técnicas para enviar correo electrónico no deseado a una organización. Ninguna herramienta o proceso puede eliminar por sí solo todo el correo electrónico no deseado. No obstante, Microsoft Exchange Server 2013 ofrece un enfoque multidireccional, versátil y por niveles para reducir estos mensajes no deseados. Exchange usa agentes de transporte para ofrecer protección contra correo no deseado, aunque los agentes integrados que están disponibles en Exchange 2013 no han cambiado mucho desde Microsoft Exchange Server 2010.
 

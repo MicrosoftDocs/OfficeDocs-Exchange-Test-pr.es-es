@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Para implementar correctamente la mensajería unificada (UM), se deben conocer y comprender los conceptos y los componentes básicos de telefonía. Después de conocer los conceptos básicos sobre telefonía, puede integrar la mensajería unificada en una organización de Exchange. Los conceptos y componentes básicos incluyen:
 

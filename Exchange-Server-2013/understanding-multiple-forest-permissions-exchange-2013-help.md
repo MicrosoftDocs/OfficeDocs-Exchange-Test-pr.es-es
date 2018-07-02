@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Muchas organizaciones implementan bosques múltiples para crear límites de seguridad dentro de sus organizaciones. El uso de bosques múltiples ayuda a los administradores a definir dichos límites de seguridad de tal forma que se adapten mejor a sus requisitos, ya sea asegurándose de que muy pocas personas tienen acceso a los recursos o segmentando las divisiones de una organización.
 

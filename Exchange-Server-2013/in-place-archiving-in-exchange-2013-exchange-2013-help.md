@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Puede usar *archivos locales* para volver a tener el control de los datos de mensajería de la organización sin necesitar los archivos del almacén personal (.pst) y permitir, así, a los usuarios almacenar mensajes en un *buzón de correo de archivo* al que se puede tener acceso desde Microsoft Outlook 2010 y superior y Microsoft Office Outlook Web App.
 

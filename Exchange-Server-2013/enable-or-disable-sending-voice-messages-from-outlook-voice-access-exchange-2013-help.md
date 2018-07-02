@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-12-13_
+_**Última modificación del tema:** 2012-12-13_
 
 Puede habilitar o deshabilitar a los usuarios de Outlook Voice Access para que envíen mensajes de correo de voz a otros usuarios habilitados para mensajería unificada que estén asociados al mismo plan de marcado.
 

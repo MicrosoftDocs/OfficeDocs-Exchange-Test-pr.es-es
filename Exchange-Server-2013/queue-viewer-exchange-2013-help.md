@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-09-25_
+_**Última modificación del tema:** 2012-09-25_
 
 El visor de cola es un complemento de la Microsoft Management Console que se instala en un servidor de buzones de correo o en el servidor de transporte perimetral. El visor de cola se encuentra en la sección **Herramientas de flujo de correo** de la consola Cuadro de herramientas de Exchange. Esta herramienta se usa no sólo para ver información sobre las colas de un servidor de transporte y sus mensajes, sino también para realizar acciones de administración en dichas colas y en los elementos de correo. El Visor de cola es también útil para solucionar problemas del flujo de correo e identificar correo electrónico no deseado.
 

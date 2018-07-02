@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-02_
+_**Última modificación del tema:** 2012-11-02_
 
 La actualización, también denominada *propagación*, es el proceso por el que se agrega una copia de una base de datos de buzones a otro servidor de buzones en un grupo de disponibilidad de base de datos (DAG). La copia recién agregada se convierte en la base de datos de línea base para la copia pasiva en la que se reproducen los archivos de registro copiados de la copia activa. La inicialización es necesaria en las siguientes condiciones:
 

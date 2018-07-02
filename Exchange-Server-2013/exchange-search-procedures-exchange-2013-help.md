@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-05_
+_**Última modificación del tema:** 2013-02-05_
 
 [Deshabilitar o habilitar el servicio de búsqueda de Exchange](disable-or-enable-exchange-search-exchange-2013-help.md)
 

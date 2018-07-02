@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-09_
+_**Última modificación del tema:** 2012-10-09_
 
 Si desea personalizar los permisos que asigna a un grupo de usuarios finales, cree una nueva directiva de asignación de roles de administración. La directiva de asignación que crea se puede personalizar para adecuarla a los requisitos concretos del usuario final. Para obtener más información acerca de las directivas de asignación en Microsoft Exchange Server 2013, consulte [Descripción de las directivas de asignación de roles de administración](understanding-management-role-assignment-policies-exchange-2013-help.md).
 

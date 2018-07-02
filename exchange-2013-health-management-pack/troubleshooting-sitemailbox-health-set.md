@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Project Server 2013_
+_**Se aplica a:**  Exchange Server 2013, Project Server 2013_
 
-_**Última modificación del tema:**2013-02-11_
+_**Última modificación del tema:**  2013-02-11_
 
 El conjunto de mantenimiento SiteMailbox supervisa el mantenimiento general y la accesibilidad de los buzones de correo del sitio de su organización.
 

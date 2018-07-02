@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-12-10_
+_**Última modificación del tema:** 2012-12-10_
 
 Para que un destinatario reciba o envíe mensajes de correo electrónico, debe disponer de una dirección de correo electrónico. Las directivas de direcciones de correo electrónico generan la dirección principal y la secundaria de los destinatarios (usuarios, contactos y grupos) para que puedan recibir y enviar correo electrónico.
 

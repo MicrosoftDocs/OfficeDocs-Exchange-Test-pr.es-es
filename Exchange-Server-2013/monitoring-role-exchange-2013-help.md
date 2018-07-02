@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La función de administración Supervisión permite a los administradores controlar la disponibilidad de los servicios y los componentes de Exchange en una organización. Esta función también puede usarse con las cuentas de servicio usadas por las aplicaciones de supervisión para recabar información sobre el estado de los servidores que ejecutan Exchange.
 

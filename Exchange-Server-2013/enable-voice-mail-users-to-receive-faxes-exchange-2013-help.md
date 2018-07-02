@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 La mensajería unificada (MU) de Microsoft Exchange permite entregar mensajes de correo de voz en el buzón de un usuario y además permite a los usuarios recibir faxes en su buzón. En la mensajería unificada, se envía un mensaje de fax al buzón de correo del usuario como mensaje de correo electrónico que contiene un archivo de imagen adjunto con la extensión .tif. El usuario puede abrir el archivo adjunto mediante una aplicación de software que permite abrir y ver archivos de imagen con una extensión .tif. En este tema se explica el envío de faxes y cómo funciona en la mensajería unificada.
 

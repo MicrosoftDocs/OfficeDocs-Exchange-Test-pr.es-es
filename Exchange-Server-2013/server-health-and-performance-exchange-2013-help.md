@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Entender el rendimiento y el estado del servidor es vital para diseñar y mantener una infraestructura de mensajería de alto rendimiento. Microsoft Exchange Server 2013 introduce mejoras en el rendimiento y la salud del servidor.
 

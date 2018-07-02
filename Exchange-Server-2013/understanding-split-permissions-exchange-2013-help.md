@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Las organizaciones que separan la administración de los objetos de Microsoft Exchange Server 2013 y los objetos de Active Directory usan un modelo denominado *permisos divididos*. Los permisos divididos permiten a las organizaciones asignar permisos específicos y tareas relacionadas a grupos específicos dentro de la organización. Esta separación de tareas ayuda a mantener estándares y flujos de trabajo, y a controlar los cambios en la organización.
 

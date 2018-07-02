@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-17_
+_**Última modificación del tema:** 2012-10-17_
 
 Pueden ocurrir situaciones en las que desee enviar y recibir mensajes desde un servidor de puerta de enlace de fax que no use SMTP como mecanismo principal de transporte. Siga los pasos descritos en este procedimiento para crear un conector externo que entregue y reciba mensajes del sistema externo.
 

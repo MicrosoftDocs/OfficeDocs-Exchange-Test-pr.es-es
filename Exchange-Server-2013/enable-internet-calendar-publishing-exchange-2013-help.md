@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-08-22_
+_**Última modificación del tema:** 2016-08-22_
 
-**Resumen:** Use estos procedimientos para permitir que los usuarios OWA en la organización de Exchange 2013 compartan información de disponibilidad de calendario con organizaciones externas.
+**Resumen:**  Use estos procedimientos para permitir que los usuarios OWA en la organización de Exchange 2013 compartan información de disponibilidad de calendario con organizaciones externas.
 
 Los usuarios de las organizaciones de Microsoft Exchange Server 2013 pueden compartir la información de disponibilidad (libre/ocupado) de calendario con usuarios de organizaciones que no son de Exchange y con otros usuarios con acceso a Internet. La publicación de calendarios en Internet ofrece una mayor flexibilidad y aumenta el número de usuarios que pueden compartir la información de disponibilidad de calendario.
 

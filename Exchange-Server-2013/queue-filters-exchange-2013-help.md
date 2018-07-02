@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 El filtrado genera distintas vistas de las colas. Las propiedades de las colas se utilizan como opciones de filtro. Mediante la especificación de criterios de filtro, es posible localizar las colas con rapidez y realizar acciones en ellas. Las siguientes situaciones son ejemplos de cómo podría utilizar el filtrado de colas para administrar el flujo de correo:
 

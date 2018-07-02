@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 La mensajería unificada (MU) permite a los usuarios usar el correo de voz y otras características, incluyendo Outlook Voice Access y Reglas de respuesta a llamada habilitadas. La mensajería unificada combina la mensajería de voz y la mensajería del correo electrónico en un buzón de correo al que se puede tener acceso desde muchos dispositivos diferentes. Los usuarios pueden escuchar los mensajes desde su Bandeja de entrada del correo electrónico o desde cualquier teléfono si utilizan Outlook Voice Access. Puede controlar el modo en que los usuarios realizan llamadas salientes desde la mensajería unificada, y la experiencia que tienen las personas cuando llaman a su organización.
 

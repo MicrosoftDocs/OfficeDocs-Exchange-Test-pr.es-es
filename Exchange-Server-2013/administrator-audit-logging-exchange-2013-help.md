@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2018-03-05_
+_**Última modificación del tema:** 2018-03-05_
 
 Puede usar el registro de auditoría de administrador en Microsoft Exchange Server 2013 para registrar cuando un usuario o un administrador realizan cambios en la organización. Al mantener un registro de los cambios, puede realizar un seguimiento de los cambios de la persona que realizó el cambio, aumentar los registros de cambios con registros detallados de los cambios implementados, cumplir con los requisitos reglamentarios y las solicitudes de detección, y mucho más.
 

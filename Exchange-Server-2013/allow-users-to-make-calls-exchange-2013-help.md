@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 *Llamada externa* es el proceso mediante el cual los usuarios llaman a un plan de marcado de mensajería unificada usando un número de Outlook Voice Access, y colocan o transfieren una llamada a un número de teléfono interno o externo. La mensajería unificada usa muchas configuraciones de llamadas externas para marcar llamadas para los usuarios. Para configurar las llamadas externas, hay que configurar reglas de marcado, grupos de reglas de marcado y autorizaciones de marcado en los planos de marcado de mensajería unificada y, a continuación, autorizar las llamadas externas en los planos de marcado de mensajería unificada, en las directivas de buzones de correo de mensajería unificada y en los operadores automáticos. También puede configurar los planes de marcado de mensajería unificada para, así, tener códigos de acceso o de marcado, un prefijo numérico nacional y formatos numéricos internacionales o regionales/nacionales que le permitan controlar las llamadas externas en su organización. En este tema se tratan las reglas de marcado, los grupos de reglas de marcado y las autorizaciones de marcado, además de su uso para autorizar y controlar las llamadas externas en su organización.
 

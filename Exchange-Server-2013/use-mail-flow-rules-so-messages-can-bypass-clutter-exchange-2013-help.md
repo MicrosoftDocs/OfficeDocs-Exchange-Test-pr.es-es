@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Si desea asegurarse de que recibe mensajes concretos, puede crear una regla de transporte de Exchange para garantizar que estos mensajes omiten la carpeta de desorden. Vea [Usar Desorden para ordenar los mensajes de prioridad baja en Outlook Web App](https://go.microsoft.com/fwlink/p/?linkid=528411) para obtener más información sobre el desorden.
 

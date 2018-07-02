@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2017-07-25_
+_**Última modificación del tema:** 2017-07-25_
 
 La mensajería unificada (UM) requiere que se integre Microsoft Exchange con el sistema telefónico que haya en su organización. Una implementación correcta requiere un análisis cuidadoso de la infraestructura telefónica existente y la realización de los pasos de planificación adecuados para implementar la mensajería unificada.
 

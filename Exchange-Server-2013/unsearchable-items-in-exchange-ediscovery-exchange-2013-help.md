@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En la exhibición de documentos electrónicos local de Exchange Server 2013 y Exchange Online, los elementos no aptos para la búsqueda son elementos de buzón que el servicio de búsqueda de Exchange no puede indizar o que se han indizado solo parcialmente. Normalmente, un elemento no apto para la búsqueda contiene un archivo que no se puede indizar adjunto a un mensaje de correo electrónico. Estos son algunos motivos por los que los archivos no se pueden indizar para búsquedas y se devuelven como elementos no aptos para la búsqueda cuando se adjuntan a un mensaje de correo electrónico.
 

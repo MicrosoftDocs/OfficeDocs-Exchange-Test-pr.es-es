@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013 SP1_
+_**Se aplica a:** Exchange Server 2013 SP1_
 
-_**Última modificación del tema:**2017-04-14_
+_**Última modificación del tema:** 2017-04-14_
 
-**Resumen:**
+**Resumen:** 
 
 En el caso de las implementaciones locales de Exchange 2013 Service Pack 1 (SP1), si instala y configura Servicios de federación de Active Directory (AD FS), podrá usar la autenticación basada en notificaciones de AD FS para conectarse a Outlook Web App y EAC. Puede integrar AD FS y la autenticación basada en notificaciones con Exchange 2013 SP1, y su uso reemplaza los métodos de autenticación convencionales, incluidos los siguientes:
 
@@ -372,17 +372,17 @@ Otra opción es crear relaciones de confianza para usuario autenticado y reglas 
 
 3.  Ejecute los siguientes dos cmdlets para crear las relaciones de confianza para usuarios autenticados. En este ejemplo, esto también configurará las reglas de notificaciones.
 
-**IssuanceAuthorizationRules.txt contiene:**
+**IssuanceAuthorizationRules.txt contiene:** 
 
     @RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");
 
-**IssuanceTransformRules.txt contiene:**
+**IssuanceTransformRules.txt contiene:** 
 
     @RuleName = "ActiveDirectoryUserSID" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"] => issue(store = "Active Directory", types = ("http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"), query = ";objectSID;{0}", param = c.Value); 
     
     @RuleName = "ActiveDirectoryUPN" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"] => issue(store = "Active Directory", types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn"), query = ";userPrincipalName;{0}", param = c.Value);
 
-**Ejecute los comandos siguientes:**
+**Ejecute los comandos siguientes:** 
 
     [string]$IssuanceAuthorizationRules=Get-Content -Path C:\IssuanceAuthorizationRules.txt
     

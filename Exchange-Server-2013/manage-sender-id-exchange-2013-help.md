@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 El agente del Id. de remitente proporciona la funcionalidad del Id. del remitente. Para validar el origen de los mensajes de correo electrónico, el Id. del remitente compara la dirección IP del remitente con el supuesto propietario del dominio de envío. El filtrado del Id. del remitente se realiza en los mensajes entrantes procedentes de Internet pero no autenticados. Estos mensajes se tratan como si fuesen mensajes externos.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 La mensajería unificada (MU) y Microsoft Lync Server se pueden implementar conjuntamente para ofrecer mensajería de voz, mensajería instantánea, presencia de usuario mejorada, conferencias de audio y vídeo, y una experiencia de mensajería y correo electrónico integrados para los usuarios de su organización. La mensajería unificada se usa para ofrecer servicios de contestador automático, de Outlook Voice Access y de operador automático. Microsoft Lync Server admite características más avanzadas presentes en Enterprise Voice, como la mensajería instantánea (IM), conferencia y llamadas entrantes y salientes. En este tema se describe cómo configurar la mensajería unificada y Microsoft Lync Server para que admitan estas características.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 El registro de agentes graba las acciones realizadas por agentes específicos contra correo electrónico no deseado de Exchange. La información escrita en el registro de agentes depende del agente, del evento SMTP y de la acción realizada en el mensaje.
 

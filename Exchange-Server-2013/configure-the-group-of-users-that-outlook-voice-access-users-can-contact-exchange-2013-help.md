@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-09_
+_**Última modificación del tema:** 2012-11-09_
 
 Puede especificar qué usuarios pueden recibir las llamadas transferidas o los mensajes de correo de voz de los usuarios de Outlook Voice Access. La opción **En este plan de marcado únicamente** está seleccionada de manera predeterminada. Puede cambiar esta configuración para permitir que los usuarios de Outlook Voice Access transfieran llamadas o envíen mensajes de voz a los usuarios ubicados en toda la organización, a un operador automático de mensajería unificada existente o a un número de extensión específico.
 

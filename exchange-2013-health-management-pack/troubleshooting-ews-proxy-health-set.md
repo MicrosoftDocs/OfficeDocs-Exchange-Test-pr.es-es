@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:**  Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:**  2015-03-09_
 
 El conjunto de mantenimiento EWS.Proxy supervisa la disponibilidad de la infraestructura proxy de los servicios Web Exchange (EWS) en el servidor de acceso de cliente (CAS). El conjunto de mantenimiento EWS.Proxy está estrechamente relacionado con el conjunto de mantenimiento siguiente:
 

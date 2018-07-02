@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La función de administración `Cmdlet Extension Agents` permite que los administradores habiliten, deshabiliten y establezcan la prioridad de los agentes de extensión de cmdlet en una organización.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-05-17_
+_**Última modificación del tema:** 2013-05-17_
 
 El registro de auditoría de administrador en Microsoft Exchange Server 2013 le permite crear una entrada de registro cada vez que se ejecute un cmdlet especificado. Las entradas de registro le proporcionan información sobre qué cmdlet se ejecutó, qué parámetros se usaron, quién ejecutó el cmdlet y qué objetos estuvieron afectados. Para obtener más información acerca del registro de auditoría del administrador, consulte [Registro de auditoría de administrador](administrator-audit-logging-exchange-2013-help.md).
 

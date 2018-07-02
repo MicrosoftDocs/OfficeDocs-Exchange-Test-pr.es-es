@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2013-03-22_
+_**Última modificación del tema:** 2013-03-22_
 
 El programa de instalación de Microsoft Exchange Server 2013 detectó que el equipo en el que intenta instalar Exchange 2013 es un controlador de dominio de Active Directory. No se recomienda instalar Exchange 2013 en un controlador de dominio.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Existen muchos clientes diferentes que se pueden usar para obtener acceso a información en un buzón de correo de Microsoft Exchange Server 2013. Estos clientes incluyen programas de escritorio, como Microsoft Outlook, Outlook Web App y clientes móviles, como teléfonos móviles, tabletas y otros dispositivos móviles. Cada uno de estos clientes ofrece una variedad de características.
 

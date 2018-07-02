@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En Microsoft Exchange Server 2013, el registro de seguimiento de mensajes es un registro detallado de toda la actividad de mensajes cuando estos se transfieren desde y hacia el servicio de transporte en los servidores de buzones de correo, los buzones de correo en los servidores de buzones de correo y en los servidores de transporte perimetral. Puede utilizar los registros de seguimiento de mensajes para análisis de mensajes, análisis del flujo de correo, elaboración de informes y solución de problemas.
 
@@ -103,15 +103,15 @@ La información se escribe en cada archivo de registro hasta que el tamaño del 
 
 Los archivos de registro de seguimiento de mensajes son archivos de texto que contienen datos en el formato de valores separados por comas (CSV). Cada archivo de registro de seguimiento de mensajes tiene un encabezado con la siguiente información:
 
-  - **\#Software:**   Nombre del software que crea el archivo de registro de seguimiento de mensajes. Normalmente, el valor es Microsoft Exchange Server.
+  - **\#Software:**    Nombre del software que crea el archivo de registro de seguimiento de mensajes. Normalmente, el valor es Microsoft Exchange Server.
 
-  - **\#Version:**   Número de versión del software que crea el archivo de registro de seguimiento de mensajes. Actualmente, el valor es 15.0.0.0.
+  - **\#Version:**    Número de versión del software que crea el archivo de registro de seguimiento de mensajes. Actualmente, el valor es 15.0.0.0.
 
-  - **\#Log-Type:**   Valor de tipo de registro, que es el registro de seguimiento de mensajes.
+  - **\#Log-Type:**    Valor de tipo de registro, que es el registro de seguimiento de mensajes.
 
-  - **\#Fecha:**   La fecha y hora UTC en el momento de crearse el archivo. La fecha y hora UTC se representa mediante el formato de fecha y hora conforme a ISO 8601: *yyyy-mm-dd*T*hh:mm:ss.fff*Z, donde *yyyy* = año, *mm* = mes, *dd* = día, T indica el comienzo del componente tiempo, *hh* = hora, *mm* = minuto, *ss* = segundo, *fff* = fracciones de un segundo, y Z significa Zulu, que es otra forma de denominar UTC.
+  - **\#Fecha:**    La fecha y hora UTC en el momento de crearse el archivo. La fecha y hora UTC se representa mediante el formato de fecha y hora conforme a ISO 8601: *yyyy-mm-dd*T*hh:mm:ss.fff*Z, donde *yyyy* = año, *mm* = mes, *dd* = día, T indica el comienzo del componente tiempo, *hh* = hora, *mm* = minuto, *ss* = segundo, *fff* = fracciones de un segundo, y Z significa Zulu, que es otra forma de denominar UTC.
 
-  - **\#Fields:**   Nombres de campos delimitados por comas que se usan en los archivos de registro de seguimiento de mensajes.
+  - **\#Fields:**    Nombres de campos delimitados por comas que se usan en los archivos de registro de seguimiento de mensajes.
 
 Volver al principio
 

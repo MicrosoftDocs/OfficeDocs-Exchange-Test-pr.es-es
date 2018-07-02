@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Utilice esta lista de comprobación para actualizarse de Microsoft Exchange 2010 a Exchange 2013. Antes de empezar con la lista de comprobación, debe estar familiarizado con los conceptos que se explican en:
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-15_
+_**Última modificación del tema:** 2016-12-15_
 
 Puede proteger sus bases de datos de buzones de correo de Exchange Server 2013 y los datos que contienen configurando los servidores de buzones de correo y las bases de datos para que tengan alta disponibilidad y resistencia de sitios. Exchange 2013 minimiza el coste y la complejidad de la implementación de una solución de mensajería altamente disponible y resistente, al tiempo que proporciona mayores niveles de disponibilidad de servicio y datos, y admitir buzones de mayor tamaño.
 

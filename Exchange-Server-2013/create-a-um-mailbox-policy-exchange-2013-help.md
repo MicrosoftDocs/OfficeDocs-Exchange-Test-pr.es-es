@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-03-08_
+_**Última modificación del tema:** 2013-03-08_
 
 Puede crear una directiva de buzones de mensajería unificada (MU) para aplicar un conjunto común de opciones de directiva de mensajería unificada, como opciones de directiva del NIP o restricciones de marcado, para una serie de buzones con mensajería unificada habilitada. Las directivas de buzones de mensajería unificada vinculan a un usuario habilitado para mensajería unificada con un plan de conmutación de llamadas de mensajería unificada y aplican una configuración de seguridad o conjunto de directivas común a una colección de buzones habilitados para mensajería unificada. Las directivas de buzones de mensajería unificada resultan útiles para aplicar y estandarizar la configuración de la mensajería unificada para los usuarios habilitados para ella.
 

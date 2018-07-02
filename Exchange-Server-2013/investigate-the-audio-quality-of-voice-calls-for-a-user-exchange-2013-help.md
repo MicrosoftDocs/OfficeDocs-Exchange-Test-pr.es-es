@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-21_
+_**Última modificación del tema:** 2013-02-21_
 
 Si un usuario informa un problema con la calidad de audio de sus llamadas de mensajería unificada (MU), use el informe Registros de llamadas de usuario como ayuda para conocer qué provoca los problemas.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 Las entradas de función de administración en funciones de administración de nivel superior sin ámbito hacen referencia a los scripts y a los cmdlets que no son Exchange, los cuales se desea que estén disponibles para su asignación por función. Al cambiar los parámetros disponibles en una entrada de función, se controlan las acciones con el script o el cmdlet que no es Exchange de quienes tienen la función asignada. Para obtener más información acerca de las entradas de funciones sin ámbito, consulte [Descripción de los roles de administración](understanding-management-roles-exchange-2013-help.md).
 

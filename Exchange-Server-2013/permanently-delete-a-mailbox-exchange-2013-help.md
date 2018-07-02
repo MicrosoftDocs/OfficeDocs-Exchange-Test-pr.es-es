@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-16_
+_**Última modificación del tema:** 2012-11-16_
 
 Cuando se eliminan buzones activos y buzones desconectados de forma permanente, el contenido de los buzones se purga de la base de datos de buzones de Exchange y los datos se pierden de manera irreversible. Cuando se elimina un buzón activo de forma permanente, la cuenta de usuario de Active Directory asociada también se elimina.
 

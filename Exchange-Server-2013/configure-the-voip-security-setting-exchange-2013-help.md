@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2014-10-16_
+_**Última modificación del tema:** 2014-10-16_
 
 Puede habilitar la seguridad de voz sobre IP (VoIP) para un plan de marcado de Mensajería unificada. De forma predeterminada, cuando se crea un plan de marcado de mensajería unificada, se usará el modo no protegido o sin cifrado. Los servidores Exchange pueden responder a llamadas de uno o de varios planes de marcado de mensajería unificada, y pueden responder a llamadas de planes de marcado con diferentes configuraciones de seguridad de VoIP. En Office 365 y Exchange Online, el modo protegido es obligatorio y no se puede deshabilitar.
 

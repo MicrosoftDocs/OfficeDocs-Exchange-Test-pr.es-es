@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2018-04-16_
+_**Última modificación del tema:** 2018-04-16_
 
 Bienvenido a Microsoft Exchange Server 2013. Este tema contiene información importante que debe conocer para implementar correctamente Exchange 2013. Lea todo este tema antes de comenzar con la implementación.
 

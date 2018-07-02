@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-20_
+_**Última modificación del tema:** 2013-04-20_
 
 Una vez que se hayan implementado todos los equipos de telefonía necesarios para la organización (incluidas las puertas de enlace VoIP, las IP PBX y las PBX habilitadas para SIP o Microsoft Lync Server), se deben crear todos los componentes de mensajería unificada que permitirán que los dispositivos de telefonía se comuniquen con los servidores de la organización.
 

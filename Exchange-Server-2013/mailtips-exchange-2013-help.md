@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2017-04-28_
+_**Última modificación del tema:** 2017-04-28_
 
 Las sugerencias de correo electrónico son mensajes informativos que se muestran a los usuarios mientras escriben un mensaje. Microsoft Exchange Server 2013 analiza el mensaje, incluida la lista de destinatarios a la que debe enviarse. Si se detecta un posible problema, notifica a los usuarios mediante sugerencias de correo electrónico antes de enviar el mensaje. Con la ayuda de la información brindada por las sugerencias de correo electrónico, los remitentes pueden ajustar el mensaje que están redactando para evitar situaciones no deseadas o informes de no entrega (NDR).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-07-14_
+_**Última modificación del tema:** 2014-07-14_
 
 En Microsoft Exchange Server 2013, puede usar el servicio de exhibición de documentos electrónicos local para hacer búsquedas del contenido de los buzones de correo. Puede quitar una búsqueda de exhibición de documentos electrónicos local en cualquier momento. Al eliminar la búsqueda, los resultados de búsqueda se eliminan del buzón de exhibición de documentos electrónicos.
 

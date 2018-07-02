@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La *cola de prioridad* es una característica de Microsoft Exchange Server 2013 que permite que la prioridad definida por el remitente de un mensaje afecte al procesamiento del mensaje por parte del servicio de transporte en el servidor de buzones.
 

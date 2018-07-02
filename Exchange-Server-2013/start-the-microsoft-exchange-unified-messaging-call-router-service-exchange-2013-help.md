@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-16_
+_**Última modificación del tema:** 2012-11-16_
 
 Puede utilizar el complemento Servicios de la Consola de administración de Microsoft (MMC) o cmd.exe en un símbolo del sistema para iniciar el servicio de enrutador de llamadas de mensajería unificada de MicrosoftExchange en un servidor de acceso de cliente. De forma predeterminada, el servicio de enrutador de llamadas de mensajería unificada MicrosoftExchange se inicia tras la instalación del servidor de acceso de cliente. No obstante, puede haber ocasiones en las que necesite reiniciar o detener el servicio de enrutador de llamadas de mensajería unificadaMicrosoftExchange manualmente, por ejemplo, cuando haya desconectado el servidor de acceso de cliente y necesite conectarlo de nuevo.
 

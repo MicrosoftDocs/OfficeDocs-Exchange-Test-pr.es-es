@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-01-14_
+_**Última modificación del tema:** 2015-01-14_
 
 Puede desarrollar plantillas de directiva de prevención de pérdida de datos (DLP) como archivos XML independientes de Microsoft Exchange Server 2013 y, a continuación, importarlas mediante el Centro de administración de Exchange o el Shell de administración de Exchange. En esta sección, se describen el proceso y los detalles sobre la creación y el ajuste de archivos XML DLP para usar con una solución DLP. No es necesario que desarrolle sus propios archivos XML DLP, ya que el Centro de administración de Exchange ofrece una manera de comenzar rápidamente con plantillas de directiva DLP y reglas de transporte existentes a fin de analizar mensajes.
 

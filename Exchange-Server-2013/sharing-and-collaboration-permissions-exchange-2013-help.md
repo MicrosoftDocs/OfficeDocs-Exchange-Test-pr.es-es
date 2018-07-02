@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Los permisos necesarios para configurar las funciones de uso compartido y colaboración varían según el procedimiento que se efectúe o el cmdlet que se vaya a ejecutar. Para obtener más información acerca del uso compartido y la colaboración, vea [Colaboración](collaboration-exchange-2013-help.md) y [Uso compartido](sharing-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-08-26_
+_**Última modificación del tema:** 2013-08-26_
 
 La mensajería unificada de Microsoft Exchange permite crear operadores automáticos de mensajería unificada únicos o múltiples, según las necesidades de la organización. A diferencia de otros componentes de mensajería unificada, como los planes de marcado de mensajería unificada y las puertas de enlace IP de MU, no es necesario crear operadores automáticos MU. Sin embargo, los operadores automáticos ayudan a quienes realizan llamadas, tanto internas como externas, a buscar a los usuarios o departamentos que están en una organización y a transferirles llamadas.  En este tema, se explica la característica de operadores automáticos de la mensajería unificada.
 

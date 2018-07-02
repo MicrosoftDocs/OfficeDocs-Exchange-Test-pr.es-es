@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013 SP1_
+_**Se aplica a:** Exchange Online, Exchange Server 2013 SP1_
 
-_**Última modificación del tema:**2015-11-30_
+_**Última modificación del tema:** 2015-11-30_
 
 La disponibilidad administrada realiza sondeos continuos para detectar posibles problemas con los componentes de Exchange o sus dependencias, además de realizar acciones de recuperación para garantizar que la experiencia del usuario final no se vea afectada debido a un problema con cualquiera de estos componentes. Sin embargo, puede haber situaciones donde la configuración de fábrica no sea adecuada para el entorno. Los sondeos, monitores y respondedores de disponibilidad administrada se pueden personalizar mediante la creación de un reemplazo.
 

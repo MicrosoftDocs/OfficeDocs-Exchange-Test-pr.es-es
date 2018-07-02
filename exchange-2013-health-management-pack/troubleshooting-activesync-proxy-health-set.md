@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:**  Exchange Server 2013_
 
-_**Última modificación del tema:**2014-09-22_
+_**Última modificación del tema:**  2014-09-22_
 
 El conjunto de mantenimiento ActiveSync.Proxy supervisa el mantenimiento de la infraestructura de Exchange ActiveSync en los servidores de acceso de cliente (CAS). Si recibe una alerta que especifica que el conjunto de mantenimiento ActiveSync.Proxy es incorrecto, esto indica un problema que puede afectar a los componentes de Exchange ActiveSync en el CAS indicado en la alerta.
 

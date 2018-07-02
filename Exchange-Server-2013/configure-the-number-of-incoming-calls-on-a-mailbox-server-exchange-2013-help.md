@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-23_
+_**Última modificación del tema:** 2013-02-23_
 
 Puede configurar el número de conexiones entrantes simultáneas que aceptará un servidor de buzones que ejecute el servicio de mensajería unificada de Microsoft Exchange. Esto incluye todas las llamadas entrantes, incluidos Outlook Voice Access, el contestador automático, los operadores automáticos y las llamadas de fax. Cuando se aumenta el número de conexiones simultáneas en un servidor de buzones, se necesitan más recursos del sistema que si se disminuye dicho número. La disminución del número de llamadas simultáneas es especialmente importante en los equipos más lentos en los que están instalados los servicios de mensajería unificada. El número de llamadas de voz simultáneas puede oscilar entre 0 y 200. El valor predeterminado es 100.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Microsoft Exchange Server 2013 utiliza Active Directory para almacenar y compartir la información de directorios con Windows. El diseño de bosque de Active Directory para Exchange 2013 es similar al de Exchange Server 2010, exceptuando algunos detalles que se mencionan a continuación.
 

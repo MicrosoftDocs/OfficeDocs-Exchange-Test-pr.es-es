@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013 SP1_
+_**Se aplica a:** Exchange Server 2013 SP1_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La reinicialización automática, o AutoReseed, es una característica que sustituye a las acciones que generalmente suele realizar un administrador como respuesta a un error en el disco, un evento de base de datos dañada u otro problema que precise reinicializar una copia de base de datos. AutoReseed se ha diseñado con el fin de restaurar automáticamente la redundancia de bases de datos después de un error en el disco mediante el uso de discos de reserva que se aprovisionan al sistema.
 

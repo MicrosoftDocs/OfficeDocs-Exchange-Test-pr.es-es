@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-16_
+_**Última modificación del tema:** 2012-11-16_
 
 Puede utilizar el complemento Servicios de Microsoft Management Console (MMC) o cmd.exe en un símbolo del sistema para iniciar el servicio de mensajería unificada de Microsoft Exchange en un servidor de buzones. De manera predeterminada, el servicio de mensajería unificada de Microsoft Exchange se inicia después de instalar un servidor de buzones. No obstante, puede haber ocasiones en las que deba reiniciar el servicio de mensajería unificada de Microsoft Exchange manualmente como, por ejemplo, cuando haya desconectado el servidor de buzones y tenga que conectarlo de nuevo.
 

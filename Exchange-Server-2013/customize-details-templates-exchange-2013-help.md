@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-09-25_
+_**Última modificación del tema:** 2012-09-25_
 
 Use el editor de plantilla de detalles para personalizar la presentación de la interfaz gráfica de usuario (GUI) de cliente de las propiedades de un objeto a las que se tiene acceso mediante las listas de direcciones de MicrosoftOutlook. Por ejemplo, cuando un usuario abre una lista de direcciones en Outlook, se presentan las propiedades de un determinado objeto según se define en la plantilla de detalles de la organización de Exchange. Es posible personalizar los objetos cambiando los tamaños del campo, agregando o quitando campos, agregando o quitando pestañas o reorganizando campos. El diseño de estas plantillas puede variar según el idioma.
 

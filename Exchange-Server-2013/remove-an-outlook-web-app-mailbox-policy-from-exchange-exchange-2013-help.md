@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2013-03-15_
+_**Última modificación del tema:** 2013-03-15_
 
 Para quitar una directiva de buzón de MicrosoftOutlook Web App de una organización de Exchange, puede usar el EAC o el Shell.
 

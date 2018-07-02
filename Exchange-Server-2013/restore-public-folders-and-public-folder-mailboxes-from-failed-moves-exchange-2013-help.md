@@ -13,15 +13,15 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-13_
+_**Última modificación del tema:** 2013-02-13_
 
 Si falla una solicitud de movimiento para una carpeta pública o un buzón de carpetas públicas, puede restaurar la carpeta o el buzón siempre y cuando se den las siguientes condiciones:
 
-  - **Movimiento de carpeta pública erróneo:** una copia eliminada temporalmente de la carpeta pública sigue existiendo en el buzón de carpetas públicas de origen y está todavía en período de retención.
+  - **Movimiento de carpeta pública erróneo:**  una copia eliminada temporalmente de la carpeta pública sigue existiendo en el buzón de carpetas públicas de origen y está todavía en período de retención.
 
-  - **Movimiento de buzón de carpetas públicas erróneo:** una copia eliminada temporalmente del buzón de carpetas públicas sigue existiendo en la base de datos de buzones de origen y está todavía en período de retención de buzón.
+  - **Movimiento de buzón de carpetas públicas erróneo:**  una copia eliminada temporalmente del buzón de carpetas públicas sigue existiendo en la base de datos de buzones de origen y está todavía en período de retención de buzón.
 
 Si ha transcurrido el período de retención de buzón, puede recuperar un buzón de carpetas públicas individuales a partir de la copia de seguridad. A continuación, se extraen los datos del buzón restaurado y se copian a una carpeta de destino o se combinan con otro buzón. Para obtener más información, consulte [Restauración de datos mediante una base de datos de recuperación](restore-data-using-a-recovery-database-exchange-2013-help.md).
 

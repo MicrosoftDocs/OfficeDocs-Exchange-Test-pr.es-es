@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Puede usar el registro de protocolos para revisar las conexiones POP3 y IMAP4 en su entorno Exchange. Puede resultar útil al solucionar problemas relacionados con el rendimiento de POP3 o IMAP4.
 

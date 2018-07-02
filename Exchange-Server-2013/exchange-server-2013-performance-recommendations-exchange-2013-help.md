@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 El ajuste del rendimiento y la solución de problemas de Exchange Server 2013 es más eficaz cuando el entorno ha sido correctamente dimensionado y planeado. Aunque Exchange 2013 se ha diseñado para simplificar la infraestructura subyacente de recursos, aún puede consumir una gran cantidad de recursos del sistema, tales como memoria, capacidad de almacenamiento y capacidad de la CPU.
 

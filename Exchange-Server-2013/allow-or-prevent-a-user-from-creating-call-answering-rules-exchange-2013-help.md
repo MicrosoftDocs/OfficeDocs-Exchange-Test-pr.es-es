@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede especificar si desea que los usuarios individuales puedan crear y administrar sus propias reglas de contestador automático mediante la configuración de las propiedades de su buzón. De forma predeterminada, puede crear reglas de contestador automático.
 

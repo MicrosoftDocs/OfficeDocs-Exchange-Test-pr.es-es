@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Microsoft Exchange Server 2013 no puede continuar porque se encontraron uno o varios equipos que ejecutan Exchange 2000 Server o Exchange Server 2003 en el bosque de Active Directory. Antes de que pueda instalar Exchange 2013, hay que eliminar todos los servidores de Exchange 2000 y Exchange 2003 del bosque. Los buzones de correo, las carpetas públicas y todos los objetos o componentes de Exchange tienen que actualizarse a Exchange Server 2007 o Exchange Server 2010. No puede actualizar desde Exchange 2000 o Exchange 2003 directamente a Exchange 2013.
 

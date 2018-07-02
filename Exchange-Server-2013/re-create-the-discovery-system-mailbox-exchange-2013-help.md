@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2018-01-17_
+_**Última modificación del tema:** 2018-01-17_
 
 En la exhibición de documentos electrónicos en contexto se usa un buzón de sistema para almacenar los metadatos de búsqueda. Este buzón de sistema de detección tiene el nombre para mostrar **SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}**. Como los buzones de sistema no son visibles en las listas de direcciones del Centro de administración de Exchange (EAC) ni de Exchange, en raras ocasiones se eliminan de manera inadvertida.
 

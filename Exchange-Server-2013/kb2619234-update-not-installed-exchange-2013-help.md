@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2016-12-15_
+_**Última modificación del tema:** 2016-12-15_
 
 El programa de instalación de Microsoft Exchange Server 2013 no puede continuar porque el equipo local requiere una actualización de software. Instale esta actualización para que el programa de instalación de Exchange 2013 continúe.
 

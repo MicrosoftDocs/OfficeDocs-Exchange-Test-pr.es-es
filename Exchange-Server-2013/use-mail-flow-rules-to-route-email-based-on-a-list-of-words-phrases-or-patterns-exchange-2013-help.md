@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Última modificación del tema:**2017-10-30_
+_**Última modificación del tema:** 2017-10-30_
 
 Para ayudar a los usuarios a cumplir con las políticas de correo electrónico de su organización, puede utilizar las reglas de transporte de Exchange para determinar cómo se enrutan los mensajes que contienen palabras específicas o patrones. Para una breve lista de palabras o frases, puede utilizar el Centro de administración de Exchange. Para obtener una lista más larga, puedes usar el módulo para Windows PowerShellExchange para leer la lista de un archivo de texto.
 

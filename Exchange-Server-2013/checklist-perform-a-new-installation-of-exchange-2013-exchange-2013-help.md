@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Use esta lista de comprobación para implementar Microsoft Exchange Server 2013. Antes de empezar con la lista de comprobación, debe estar familiarizado con los conceptos que se explican en:
 

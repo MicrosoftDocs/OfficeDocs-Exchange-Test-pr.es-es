@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Microsoft Exchange 2013 admite migraciones y movimientos de buzones de correo mediante los cmdlets **New-MoveRequest** y **New-MigrationBatch**. También puede mover el buzón a través del Centro de administración de Exchange (EAC). Puede mover un buzón de correo de un bosque Exchange de origen a un bosque Exchange 2010 de destino.
 

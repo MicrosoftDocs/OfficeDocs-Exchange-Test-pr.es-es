@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-15_
+_**Última modificación del tema:** 2012-10-15_
 
 En Microsoft Exchange Server 2013, los conectores de envío controlan el flujo de mensajes salientes al servidor de recepción y están configurados en servidores de buzones que ejecutan el servicio de transporte. En general, los conectores de envío se configuran para enviar mensajes de correo electrónico saliente a un host inteligente, o directamente a su destinatario, a través de DNS.
 

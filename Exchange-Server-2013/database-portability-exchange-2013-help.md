@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2017-01-30_
+_**Última modificación del tema:** 2017-01-30_
 
 La portabilidad de bases de datos es una característica que permite que una base de datos de buzones de correo de Microsoft Exchange Server 2013 se pueda mover o montar en cualquier otro servidor de buzones de correo en la misma organización que ejecuta Exchange 2013 y que tiene bases de datos con la misma versión de esquema de la base de datos. Las bases de datos de buzones de correo de versiones anteriores de Exchange no pueden moverse a un servidor de buzón que ejecuta Exchange 2013. Al usar esta función, la fiabilidad se mejora mediante la eliminación de varios pasos manuales propensos a errores en el proceso de recuperación. Además, la portabilidad de bases de datos reduce los tiempos de recuperación completa en distintos escenarios de error.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-01-28_
+_**Última modificación del tema:** 2014-01-28_
 
 Una copia de la base de datos de buzones de correo atrasada es una copia de la base de datos de buzones de correo configurada con un valor de tiempo de retardo de reproducción mayor que 0. La activación y la recuperación de una copia de la base de datos de buzones de correo atrasada es un proceso sencillo si desea que la base de datos reproduzca todos los archivos de registro y actualice la copia de la base de datos. Si desea reproducir los archivos de registro hasta un momento dado, la operación es un poco más difícil porque debe modificar los archivos de registro de forma manual y ejecutar Eseutil.
 

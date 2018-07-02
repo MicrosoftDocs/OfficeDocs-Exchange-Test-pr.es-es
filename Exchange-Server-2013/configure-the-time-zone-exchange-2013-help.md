@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-17_
+_**Última modificación del tema:** 2012-11-17_
 
 De manera predeterminada, el operador automático de mensajería unificada usa la zona horaria del servidor de buzones en la que se creó. Sin embargo, en algunas situaciones deberá cambiar la zona horaria a otra diferente para un operador automático de mensajería unificada. Por ejemplo, si tiene dos planes de marcado de MU y cada plan de marcado representa una zona horaria diferente, debe configurar un operador automático de MU para que tenga la misma zona horaria que el servidor de buzones y el otro, para que tenga una zona horaria diferente.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Microsoft mantiene el compromiso de hacer más fácil para todos el uso de sus productos y servicios. Las secciones siguientes ofrecen información sobre los abreviados de teclado que hacen a Microsoft Exchange y a otros productos y servicios de Microsoft más accesibles para aquellas personas que conviven con una discapacidad.
 

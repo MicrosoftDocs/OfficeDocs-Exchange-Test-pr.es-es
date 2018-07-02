@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Puede habilitar y deshabilitar los faxes entrantes para usuarios que estén asociados con una directiva de buzón de mensajería unificada. De manera predeterminada, cuando habilita usuarios para mensajería unificada, los usuarios no pueden recibir mensajes de fax hasta que habilite los faxes entrantes en la directiva de buzones de mensajería unificada y especifique el URI para el servidor de fax del socio. Si los URI están configurados en la directiva de buzones de mensajería unificada pero la opción para permitir faxes entrantes está deshabilitada en el plan de marcado de mensajería unificada o para un usuario determinado, los usuarios habilitados para mensajería unificada vinculados con dicha directiva aún seguirán sin poder recibir faxes.
 

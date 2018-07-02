@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-21_
+_**Última modificación del tema:** 2013-02-21_
 
 Puede habilitar las autorizaciones de marcado en un operador automático de mensajería unificada. Las autorizaciones de marcado en un operador automático se usan para prohibir que los usuarios que llaman al operador automático realicen llamadas telefónicas nacionales/regionales o internacionales o *llamadas externas*. Las llamadas externas se producen cuando la mensajería unificada realiza una llamada saliente para un usuario después de haber llamado a un número de teléfono configurado en un operador automático de mensajería unificada.
 

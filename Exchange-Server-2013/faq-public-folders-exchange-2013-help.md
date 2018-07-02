@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2017-03-27_
+_**Última modificación del tema:** 2017-03-27_
 
 En este tema, se proporciona una lista de las preguntas más frecuentes referentes a las carpetas públicas en Exchange Server 2013. Para obtener más información acerca de las carpetas públicas, consulte [Carpetas públicas](public-folders-exchange-2013-help.md).
 

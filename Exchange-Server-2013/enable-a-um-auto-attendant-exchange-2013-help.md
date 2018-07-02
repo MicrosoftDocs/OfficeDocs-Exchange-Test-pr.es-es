@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-05_
+_**Última modificación del tema:** 2012-11-05_
 
 De forma predeterminada, cuando se crea un operador automático de mensajería unificada (MU), su estado se establece en deshabilitado. Después de crear el operador automático de mensajería unificada, puede cambiar su estado para habilitarlo para responder a llamadas entrantes.
 

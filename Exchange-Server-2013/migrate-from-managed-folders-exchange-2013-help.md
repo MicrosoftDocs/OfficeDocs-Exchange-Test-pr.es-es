@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 En Microsoft Exchange Server 2013, la administración de registros de mensajes (MRM) se realiza mediante etiquetas de retención y directivas de retención. Una directiva de retención es un grupo de etiquetas de retención que se puede aplicar a un buzón. Para obtener más información, vea [Etiquetas de retención y directivas de retención](retention-tags-and-retention-policies-exchange-2013-help.md). Las carpetas administradas, la tecnología MRM que se introdujo en Exchange Server 2007, no son compatibles.
 

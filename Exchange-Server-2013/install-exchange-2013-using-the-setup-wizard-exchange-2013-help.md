@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-06-19_
+_**Última modificación del tema:** 2014-06-19_
 
 En este tema se explica cómo usar el asistente para instalación de Microsoft Exchange Server 2013 para instalar los roles de buzón de correo y de acceso de cliente de Exchange 2013 en un equipo. Para obtener más información acerca de la planificación e implementación de Exchange 2013, vea [Planificación e implementación](planning-and-deployment-for-exchange-2013-installation-instructions.md).
 

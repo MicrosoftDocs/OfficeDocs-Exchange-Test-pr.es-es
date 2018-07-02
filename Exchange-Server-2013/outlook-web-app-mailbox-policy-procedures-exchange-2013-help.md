@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-09-22_
+_**Última modificación del tema:** 2012-09-22_
 
 [Crear una directiva de buzones de Outlook Web App](create-an-outlook-web-app-mailbox-policy-exchange-2013-help.md)
 

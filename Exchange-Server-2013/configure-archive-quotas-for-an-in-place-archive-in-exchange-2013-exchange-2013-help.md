@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-12-04_
+_**Última modificación del tema:** 2012-12-04_
 
 En las implementaciones locales, los archivos locales se crean con cuotas de almacenamiento ilimitadas de manera predeterminada. Debido a esto, es necesario editar las propiedades de un buzón para establecer cuotas de almacenamiento para el archivo. Puede establecer las siguientes cuotas para un archivo:
 

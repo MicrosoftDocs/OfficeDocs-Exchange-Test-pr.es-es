@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-31_
+_**Última modificación del tema:** 2012-10-31_
 
 Cada red de grupo de disponibilidad de base de datos (DAG) tiene diversas propiedades que puede configurar, la cual incluye el nombre de la red de DAG, el campo de descripción para la red de DAG, una lista de subredes que son usadas por la red de DAG y si la red de DAG está habilitada para replicación.
 

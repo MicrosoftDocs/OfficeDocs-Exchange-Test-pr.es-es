@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-03-25_
+_**Última modificación del tema:** 2014-03-25_
 
 Utilice este procedimiento para quitar una directiva de libreta de direcciones (ABP).
 

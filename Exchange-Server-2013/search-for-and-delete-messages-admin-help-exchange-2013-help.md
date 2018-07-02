@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2017-12-20_
+_**Última modificación del tema:** 2017-12-20_
 
 Los administradores pueden usar el cmdlet **Search-Mailbox** para buscar en buzones de usuario y, después, eliminar mensajes de un buzón.
 
@@ -33,7 +33,7 @@ Como una protección adicional, primero puede copiar los mensajes en otro buzón
     
       - **Búsqueda en el buzón**   Este rol le permite buscar mensajes en varios buzones de correo de una organización. Los administradores no tienen asignado este rol de forma predeterminada. Para asignarse a sí mismo este rol para poder buscar en buzones, agréguese como miembro del grupo de rol de administración de la detección. Vea [Asignar permisos de exhibición de documentos electrónicos en Exchange](assign-ediscovery-permissions-in-exchange-exchange-2013-help.md).
     
-      - **Importación o exportación de buzones:** este rol le permite eliminar los mensajes del buzón de correo de un usuario. De forma predeterminada, este rol no está asignado a ningún grupo de roles. Para eliminar mensajes de los buzones de los usuarios, puede agregar el rol de importación o exportación de buzones al grupo de roles de administración de la organización. Para obtener más información, consulte la sección \&quot;Agregar una función a un grupo de funciones\&quot; en [Administrar grupos de roles](manage-role-groups-exchange-2013-help.md).
+      - **Importación o exportación de buzones:**  este rol le permite eliminar los mensajes del buzón de correo de un usuario. De forma predeterminada, este rol no está asignado a ningún grupo de roles. Para eliminar mensajes de los buzones de los usuarios, puede agregar el rol de importación o exportación de buzones al grupo de roles de administración de la organización. Para obtener más información, consulte la sección \&quot;Agregar una función a un grupo de funciones\&quot; en [Administrar grupos de roles](manage-role-groups-exchange-2013-help.md).
 
   - Si el buzón desde el cual desea eliminar los mensajes tiene la recuperación de un solo elemento habilitada, primero debe deshabilitar la función. Para obtener más información, consulte [Habilitar o deshabilitar la recuperación de elementos individuales de un buzón de correo](enable-or-disable-single-item-recovery-for-a-mailbox-exchange-2013-help.md).
 

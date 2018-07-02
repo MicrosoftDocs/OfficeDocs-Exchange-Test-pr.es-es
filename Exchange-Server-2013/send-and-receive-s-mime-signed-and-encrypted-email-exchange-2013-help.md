@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Enviar o responder a un mensaje cifrado con S/MIME en Microsoft Outlook es muy similar a la experiencia con un mensaje no cifrado. Para obtener más información sobre cómo leer o enviar mensajes cifrados con S/MIME en un programa de correo electrónico como Outlook Web App, consulte el tema sobre el [uso de Outlook para enviar y responder a mensajes cifrados con S/MIME](https://go.microsoft.com/fwlink/p/?linkid=392520).
 

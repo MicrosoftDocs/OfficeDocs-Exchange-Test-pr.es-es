@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-14_
+_**Última modificación del tema:** 2013-02-14_
 
 A fin de cumplir con necesidades individuales, de TI o comerciales, es posible que deba desactivar o suspender temporalmente la administración de registros de mensajes (MRM). Entre los motivos para que esto suceda se incluyen los siguientes:
 

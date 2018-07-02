@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-09_
+_**Última modificación del tema:** 2012-10-09_
 
 Los permisos en Microsoft Exchange Server 2013 se otorgan mediante funciones de administración que se asignan a grupos de funciones de administración, directivas de asignación de funciones de administración, grupos de seguridad universal o directamente a usuarios. Se conceden permisos a los usuarios si pertenecen a los grupos de funciones o a los grupos de seguridad universal, o tienen asignadas funciones de asignación de funciones.
 

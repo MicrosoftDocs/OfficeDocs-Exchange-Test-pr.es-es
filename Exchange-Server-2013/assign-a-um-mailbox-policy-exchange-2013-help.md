@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-30_
+_**Última modificación del tema:** 2012-11-30_
 
 Cuando habilita a un usuario para utilizar la mensajería unificada (MU) y el correo de voz, debe seleccionar la directiva del buzón de mensajería unificada que se asociará al buzón del usuario. Puede modificar la directiva del buzón de mensajería unificada asociada con el buzón del usuario después de haberlo habilitado para mensajería unificada.
 

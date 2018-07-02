@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-09-13_
+_**Última modificación del tema:** 2012-09-13_
 
 Los siguientes procedimientos permiten que se lleve a cabo la administración de permisos avanzados. Estos procedimientos solamente deben usarse si los grupos de funciones de administración y las directivas de asignación de funciones de administración no satisfacen las necesidades de su organización.
 

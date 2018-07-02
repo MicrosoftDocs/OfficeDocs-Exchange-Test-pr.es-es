@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 Puede usar el Shell para quitar una o varias reglas de contestador automático para un usuario. También puede usar el cmdlet **Remove-UMCallAnsweringRule** en un script del Shell de administración de Exchange para quitar una o varias reglas del mismo tipo en varios usuarios.
 

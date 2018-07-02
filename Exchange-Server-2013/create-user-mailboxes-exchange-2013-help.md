@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2013-04-12_
+_**Última modificación del tema:** 2013-04-12_
 
 Los buzones son el tipo de destinatario más frecuente que usan las personas que trabajan con datos en una organización de Exchange. Cada buzón está asociado a una cuenta de usuario de Active Directory. El usuario puede usar el buzón para enviar y recibir mensajes, así como para almacenar mensajes, citas, tareas, notas y documentos. Use el EAC o el Shell para crear buzones de correo de usuarios.
 
@@ -55,8 +55,7 @@ También puede crear buzones para los usuarios existentes que tengan una cuenta 
 
 
 
-4.  
-    
+4.
     Seleccione una de las opciones para:
     
       - **Usuario existente**   Seleccione habilitar el correo y crear un buzón para un usuario existente.
@@ -71,8 +70,7 @@ También puede crear buzones para los usuarios existentes que tengan una cuenta 
 
 
 
-5.  
-    
+5.      
     Si seleccionó **Nuevo usuario** en el paso 4, complete los siguientes cuadros en la página **Buzón de nuevo usuario**. De lo contrario, vaya al Paso 7.
     
       - **Nombre**   Use este cuadro para escribir el nombre del usuario.
@@ -109,8 +107,7 @@ También puede crear buzones para los usuarios existentes que tengan una cuenta 
         
         Si activa esta casilla de verificación, la primera vez que el nuevo usuario inicie una sesión se le pedirá que cambie la contraseña mediante un cuadro de diálogo. El usuario no podrá realizar ninguna tarea hasta que haya modificado la contraseña correctamente.
 
-6.  
-    
+6.      
     Haga clic en **Más opciones** para configurar los siguientes cuadros. De lo contrario, vaya al Paso 7 para guardar el buzón de nuevo usuario.
     
       - **Especificar la base de datos de buzones**   Use esta opción para especificar una base de datos de buzones en vez de permitir que Exchange seleccione la base de datos. Haga clic en **Examinar** para abrir el cuadro de diálogo **Seleccionar base de datos de buzones**. En este cuadro de diálogo se enumeran todas las bases de datos de buzones de la organización de Exchange. De manera predeterminada, las bases de datos de buzones se ordenan por el nombre. También puede hacer clic en el título de la columna correspondiente para ordenar las bases de datos por versión o nombre del servidor. Seleccione la base de datos de buzones que desee usar y haga clic en **Aceptar**.

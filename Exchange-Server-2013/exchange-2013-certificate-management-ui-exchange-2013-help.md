@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-04-21_
+_**Última modificación del tema:** 2014-04-21_
 
 La administración de certificados en una implementación de Exchange Server es una de las tareas administrativas más importantes. Asegurar que los certificados estén correctamente definidos y configurados es fundamental para suministrar una infraestructura de mensajería segura para la empresa. En Exchange 2010, la Consola de administración de Exchange (EMC) era el método principal de administración de certificados. En Exchange 2013, la función de administración de certificados está suministrada por la Consola de administración de Exchange (EAC), la nueva interfaz de usuario administrativa de Exchange 2013. En Exchange 2013, se hace énfasis en minimizar el número de certificados que un administrador debe administrar, minimizar la interacción que debe tener el administrador con los certificados y permitir la administración de certificados desde una ubicación central.
 

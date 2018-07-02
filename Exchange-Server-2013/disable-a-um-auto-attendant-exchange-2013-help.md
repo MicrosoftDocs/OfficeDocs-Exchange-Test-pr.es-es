@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-05_
+_**Última modificación del tema:** 2012-11-05_
 
 De forma predeterminada, cuando se crea un operador automático de mensajería unificada (UM), su estado se establece en deshabilitado. Después de crear al operador automático de mensajería unificada, puede cambiar su estado a control si puede responder las llamadas entrantes. Por ejemplo, que desea deshabilitar al operador automático de mensajería unificada cuando está grabando o grabando mensajes personalizados y entradas.
 

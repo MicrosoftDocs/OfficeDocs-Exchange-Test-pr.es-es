@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-01-17_
+_**Última modificación del tema:** 2013-01-17_
 
 El Visor de cola se utiliza en el cuadro de herramientas de Exchange para ver las propiedades de un mensaje que está en cola para la entrega.
 

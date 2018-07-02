@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Los agentes de transporte permiten instalar software personalizado creado por Microsoft, por otros proveedores o por una organización en un servidor Exchange. A continuación, el software procesa los mensajes de correo electrónico que pasan por la canalización de transporte. En Microsoft Exchange Server 2013, la canalización de transporte consta de los siguientes procesos:
 

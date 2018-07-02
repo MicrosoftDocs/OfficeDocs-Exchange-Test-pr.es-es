@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 Al usar grupos de funciones vinculados de administración en Microsoft Exchange Server 2013, puede vincular un grupo de funciones en un bosque de recursos de Exchange 2013 con un grupo de seguridad universal (USG) en un bosque de usuarios externo. Esto resulta útil cuando desea que los administradores con cuentas en el bosque de usuarios administren los servidores que ejecutan Exchange en el bosque de recursos. Para obtener más información acerca de los grupos de funciones vinculados, consulte [Descripción de los grupos de roles de administración](understanding-management-role-groups-exchange-2013-help.md).
 

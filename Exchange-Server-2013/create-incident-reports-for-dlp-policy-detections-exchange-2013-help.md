@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 En Exchange Server 2013, puede establecer una acción para crear un informe de incidentes dentro del conjunto de reglas de directivas de DLP. Además, puede indicar a quién debe enviarse el informe y qué hacer con el mensaje original. El informe de incidentes puede contener la siguiente información.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En este tema, se explica cómo implementar Microsoft Exchange 2013 en una topología de bosques de recursos de Exchange. Un bosque de recursos de Exchange se llama también bosque dedicado de Exchange. En este tema, se supone que no tiene una topología existente de Exchange 2013.
 

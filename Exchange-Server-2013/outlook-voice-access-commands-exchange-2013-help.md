@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Outlook Voice Access permite a los usuarios habilitados para mensajería unificada obtener acceso a su buzón de correo usando teléfonos móviles, analógicos o digitales. Gracias al sistema de menús de Outlook Voice Access, dichos usuarios pueden leer el correo electrónico, escuchar los mensajes de voz, interactuar con su calendario de Outlook, tener acceso a sus contactos personales y administrar opciones personales, como configurar el PIN de Outlook Voice Access o realizar grabaciones de mensajes de correo de voz. Este tema contiene una lista de comandos de Outlook Voice Access e instrucciones para utilizarlos cuando tienen acceso a su buzón de correo llamando a un número de Outlook Voice Access.
 

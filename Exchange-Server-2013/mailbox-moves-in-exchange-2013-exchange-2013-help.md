@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Cuando mueve un buzón de correo, lo hace de una *base de datos de buzones de origen* a una *base de datos de buzones de destino*. La base de datos de buzones de correo de destino puede estar ubicada en el mismo servidor, en otro servidor, en un dominio diferente, en un sitio de Active Directory diferente o en otro bosque.
 

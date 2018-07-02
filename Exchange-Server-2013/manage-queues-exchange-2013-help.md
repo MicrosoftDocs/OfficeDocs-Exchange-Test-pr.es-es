@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-01-31_
+_**Última modificación del tema:** 2014-01-31_
 
 En Microsoft Exchange Server 2013, puede usar el Visor de cola del cuadro de herramientas de Exchange o el Shell de administración de Exchange para administrar las colas. Para más información sobre cómo usar los cmdlets de administración de colas en el Shell de administración de Exchange, consulte [Uso del Shell de administración de Exchange para administrar colas](use-the-exchange-management-shell-to-manage-queues-exchange-2013-help.md)
 

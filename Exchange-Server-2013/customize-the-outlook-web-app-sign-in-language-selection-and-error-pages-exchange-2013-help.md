@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En este tema se explica cómo personalizar el color y las imágenes de las páginas de inicio de sesión,‏‏ de selección de idioma y de error para Outlook Web App.
 

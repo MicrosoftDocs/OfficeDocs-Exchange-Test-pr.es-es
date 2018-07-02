@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Última modificación del tema:** 2013-04-09_
+_**Última modificación del tema:**   2013-04-09_
 
 En [Introducción al módulo de administración de Exchange Server 2013](getting-started-with-exchange-server-2013-management-pack.md) encontrará una introducción al panel de módulo de administración Este tema sirve de orientación para saber cómo se puede usar dicho panel para solucionar un problema. El proceso queda ilustrado de mejor forma con un ejemplo. Imaginemos el siguiente escenario:
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Puede habilitar un anuncio informativo en un plan de marcado de mensajería unificada (UM). Los anuncios informativos se usan para avisos generales que cambian con mayor frecuencia que los saludos de bienvenida o para anuncios requeridos por las directivas de conformidad corporativas.
 

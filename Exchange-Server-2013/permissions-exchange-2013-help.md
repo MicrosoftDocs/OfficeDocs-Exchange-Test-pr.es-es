@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server, Exchange Server 2013_
+_**Se aplica a:** Exchange Server, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Microsoft Exchange Server 2013 incluye una amplia variedad de permisos predefinidos, basados en el modelo de permisos Control de acceso basado en roles (RBAC), que puede usar de inmediato para conceder de forma fácil permisos a los administradores y usuarios. Puede usar las características de permisos de Exchange 2013 para preparar y poner en marcha la nueva organización de forma rápida.
 

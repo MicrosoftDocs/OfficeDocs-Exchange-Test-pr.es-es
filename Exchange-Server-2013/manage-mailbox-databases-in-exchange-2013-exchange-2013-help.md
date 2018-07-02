@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-04-29_
+_**Última modificación del tema:** 2013-04-29_
 
 Una base de datos de buzones de correo es una unidad de granularidad donde se crean y se almacenan buzones. Una base de datos de buzones se almacena como archivo de base de datos de Exchange (.edb). En Microsoft Exchange Server 2013, cada base de datos de buzones cuenta con sus propias propiedades que pueden configurarse.
 

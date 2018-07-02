@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Microsoft Exchange Server 2013 incluye un componente denominado *Active Manager* que administra la plataforma de alta disponibilidad e incluye el grupo de disponibilidad de base de datos (DAG) y copias de la base de datos de buzones de correo. Active Manager se ejecuta dentro del servicio de replicación de Microsoft Exchange (MSExchangeRepl.exe) en todos los servidores de buzones de correo. En los servidores de buzones de correo que no son miembros de un DAG, existe un único rol de Active Manager: *Active Manager independiente*. En los servidores que son miembros de un DAG, existen dos roles de Active Manager: *Primary Active Manager* (PAM) y *Standby Active Manager* (SAM). PAM es el rol de Active Manager de un DAG que decide qué copias serán activas y qué copias serán pasivas. PAM se encarga de recibir las notificaciones de cambio de topología y de reaccionar a los errores de servidor. El miembro de DAG que posee el rol de PAM siempre es aquél que actualmente posee el recurso de quórum de clúster (grupo de clústeres predeterminado). Si el servidor que posee el recurso de quórum de clúster experimenta un error, el rol de PAM pasa automáticamente a un servidor subsistente que se apropia del recurso de quórum de clúster. Además, si necesita desconectar el servidor que hospeda el recurso de quórum de clúster para realizar tareas de mantenimiento o una actualización, primero deberá mover el PAM a otro servidor del DAG. El PAM controla el movimiento de las designaciones activas entre las copias de una base de datos. (Solo puede haber una copia activa en un momento dado, que se puede montar o desmontar.) El PAM también realiza las funciones del rol de SAM en el sistema local (detección de errores en bases de datos locales y almacenes de información locales).
 

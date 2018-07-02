@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-05_
+_**Última modificación del tema:** 2012-10-05_
 
 A muchos de los protocolos de cliente usados con Exchange Server 2013 se accede a través de directorios virtuales. Un directorio virtual lo usan los Internet Information Services (IIS) para permitir el acceso a una aplicación web como Exchange ActiveSync, Outlook Web App o el servicio de detección automática. Puede administrar una variedad de configuración del directorio virtual en Exchange 2013 incluyendo la configuración de autenticación, seguridad e informes.
 

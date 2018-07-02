@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Cuando se habilita un usuario para la mensajería unificada (UM), se le debe asignar un número de extensión y una directiva de buzón de mensajería unificada que lo vinculará a un plan de marcado de mensajería unificada. Después de que se haya habilitado el usuario para la mensajería unificada, podrá asignarle números de extensión adicionales dentro del mismo plan de marcado, pero los números de extensión dentro del plan deben ser únicos. En algunas implantaciones, puede que un usuario necesite que se le asigne el mismo número de extensión en dos planes de marcado distintos. En este caso, puede vincular el usuario a un plan de marcado de mensajería unificada secundario. Esto puede resultar útil, por ejemplo, si el usuario tiene dos teléfonos fijos o se traslada a distintas ubicaciones.
 

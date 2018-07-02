@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Puede habilitar un usuario de mensajería unificada para que reciba faxes. De manera predeterminada, cuando habilite un usuario para la mensajería unificada, podrá recibir faxes si habilita los faxes y configura un URI del socio de fax en la directiva de buzón de correo de mensajería unificada enlazada al usuario. El envío de faxes se puede habilitar o deshabilitar en los planes de marcado y las directivas de buzón de mensajería unificada, o en el buzón de correo del usuario habilitado para mensajería unificada.
 

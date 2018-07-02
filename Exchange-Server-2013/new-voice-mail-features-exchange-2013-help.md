@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 La mensajería unificada (MU) de Microsoft Exchange Server 2013 incluye el mismo conjunto de características que en Exchange 2010 y Exchange 2007, con algunas mejoras y cambios en la arquitectura. Sin embargo, la mensajería unificada ya no es un rol de servidor por separado. Ahora es un componente de las características relacionadas con voz que se ofrecen en Exchange 2013.
 

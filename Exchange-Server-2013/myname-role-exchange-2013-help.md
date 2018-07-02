@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-17_
+_**Última modificación del tema:** 2012-10-17_
 
 La función de administración `MyName` permite que los usuarios particulares vean y modifiquen el campo de sus nombres y de sus notas. Este es un rol personalizado que se crea a partir del rol primario [Rol MyProfileInformation](myprofileinformation-role-exchange-2013-help.md).
 

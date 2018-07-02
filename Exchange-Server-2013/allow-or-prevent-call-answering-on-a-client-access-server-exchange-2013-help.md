@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-18_
+_**Última modificación del tema:** 2012-11-18_
 
 Puede permitir que el servicio de enrutador de llamadas de mensajería unificada de Microsoft Exchange en un servidor de acceso de cliente responda llamadas nuevas o evitar que lo haga. De forma predeterminada, el servidor de acceso de cliente está habilitado una vez instalado. Cuando configure el servidor de acceso de cliente para que acepte llamadas de voz entrantes, de fax, de operador automático y de Outlook Voice Access, use el cmdlet **Set-ServerComponentState**.
 

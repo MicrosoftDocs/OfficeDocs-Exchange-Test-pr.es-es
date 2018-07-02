@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Los servidores de transporte perimetral minimizan la superficie expuesta a ataques controlando todo el flujo de correo de Internet y proporcionando retransmisión SMTP y servicios de host inteligente para la organización de Exchange. Una serie de agentes que se ejecutan en el servidor Transporte perimetral de la red perimetral de la organización proporcionan niveles adicionales de protección de mensajes y seguridad. Dichos agentes son compatibles con las características que ofrecen protección frente a virus y correo no deseado, y aplican reglas de transporte para controlar el flujo de correo.
 

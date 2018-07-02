@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-11-16_
+_**Última modificación del tema:** 2016-11-16_
 
 Si el contenido de un buzón de carpeta pública empieza a superar sus cuotas de buzón de correo, puede que necesite mover las carpetas públicas a otro buzón de carpetas públicas. Hay dos formas de hacerlo. Para mover una o más carpetas públicas que no contienen subcarpetas, puede usar los cmdlets **PublicFolderMoveRequest**. Si necesita mover toda una rama de carpetas públicas (que incluye la carpeta pública principal y todas las subcarpetas), puede usar el script `Move-PublicFolderBranch.ps1` disponible cuando instale Exchange 2013.
 

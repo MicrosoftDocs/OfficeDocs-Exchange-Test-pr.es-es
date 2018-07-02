@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-01-23_
+_**Última modificación del tema:** 2015-01-23_
 
 De forma predeterminada, Microsoft Exchange Server 2013 no permite enviar correo fuera del dominio. Para enviar correo fuera del dominio, debe crear un conector de envío. El gráfico siguiente ilustra el flujo de correo al crear un conector de envío para enviar correo a Internet.
 

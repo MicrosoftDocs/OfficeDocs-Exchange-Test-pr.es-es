@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-08-21_
+_**Última modificación del tema:** 2012-08-21_
 
 Microsoft Exchange Server 2013 incluye muchas funciones de administración de forma predeterminada. Las siguientes funciones se asignan a los grupos de funciones de administración o directivas de asignación de funciones de administración en diversas combinaciones que conceden permisos para administrar y usar las características proporcionadas en Exchange 2013. Para obtener más información acerca de los roles, consulte [Descripción de los roles de administración](understanding-management-roles-exchange-2013-help.md).
 

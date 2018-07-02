@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-01_
+_**Última modificación del tema:** 2012-11-01_
 
 La activación de una copia de base de datos de buzones consiste en designar una determinada copia pasiva como la nueva copia activa de una base de datos de buzones. Se hace referencia a este proceso como *cambio de base de datos*. Un cambio de base datos implica desmontar la base de datos que esté activa y montar la copia de la base de datos en un determinado servidor como la nueva copia activa de base de datos de buzones. La copia de base de datos que va a convertirse en la base de datos de buzones activa debe estar al día y encontrarse en buen estado.
 

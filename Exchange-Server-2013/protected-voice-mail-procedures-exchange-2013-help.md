@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-01-30_
+_**Última modificación del tema:** 2013-01-30_
 
 [Configurar correo de voz protegido de llamadores autenticados](configure-protected-voice-mail-from-authenticated-callers-exchange-2013-help.md)
 

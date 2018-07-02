@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-08-12_
+_**Última modificación del tema:** 2013-08-12_
 
 Puede usar el EAC o el Shell para ver o configurar las propiedades de un directorio virtual de Outlook Web App.
 

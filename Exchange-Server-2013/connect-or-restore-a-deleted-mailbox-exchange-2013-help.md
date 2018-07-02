@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-05-04_
+_**Última modificación del tema:** 2015-05-04_
 
 Puede usar el EAC o el Shell para conectar un buzón de correo eliminado en una cuenta de usuario de Active Directory. Cuando elimina un buzón de correo, Exchange retiene el buzón en la base de datos del buzón y conmuta el buzón de correo a un estado de deshabilitado. También se elimina la cuenta de usuario de Active Directory asociada. El buzón de correo se retiene hasta que expira el período de retención del buzón de correo eliminado, que es de 30 días de forma predeterminada, y, a continuación, se elimina permanentemente (o *se purga*) de la base de datos de buzones de correo.
 

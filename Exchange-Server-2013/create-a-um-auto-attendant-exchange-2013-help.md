@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-03-08_
+_**Última modificación del tema:** 2013-03-08_
 
 Al crear un operador automático de Mensajería unificada (MU), éste contesta las llamadas entrantes a un número de teléfono externo, que, normalmente, contestaría un operador humano. A diferencia de otros componentes de mensajería unificada, tales como los planes de marcado y las puertas de enlace IP de mensajería unificada, no es necesario crear operadores automáticos de mensajería unificada. Sin embargo, los operadores automáticos ayudan a quienes realizan llamadas, tanto internas como externas, a buscar a los usuarios o departamentos que están en una organización y a transferir llamadas a estos.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 A menudo, los trabajadores de la información necesitan colaborar con destinatarios externos, proveedores, asociados y clientes, y comparten la información de disponibilidad (conocida como disponibilidad de calendario). La federación en Microsoft Exchange Server 2013 ayuda con estos esfuerzos de colaboración. *Federación* hace referencia a la infraestructura de confianza subyacente que es compatible con *el uso compartido federado*, un método sencillo para que los usuarios compartan la información de calendario con los destinatarios en otras organizaciones federadas externas. Para obtener más información acerca del uso compartido federado, consulte [Uso compartido](sharing-exchange-2013-help.md).
 

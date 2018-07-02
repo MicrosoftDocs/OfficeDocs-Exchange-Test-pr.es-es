@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2017-04-26_
+_**Última modificación del tema:** 2017-04-26_
 
 La conversión de un buzón a otro tipo de buzón es muy similar a la experiencia de Exchange 2010. Todavía debe usar el cmdlet Set-Mailbox en el shell para realizar la conversión.
 

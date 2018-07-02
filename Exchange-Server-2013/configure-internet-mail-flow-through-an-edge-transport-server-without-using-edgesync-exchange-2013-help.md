@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2017-01-23_
+_**Última modificación del tema:** 2017-01-23_
 
 Se recomienda usar el proceso de suscripción perimetral para establecer flujo de correo entre la organización de Exchange y un servidor Transporte perimetral. Sin embargo, determinadas situaciones pueden impedir la suscripción del servidor Transporte perimetral a la organización de Exchange con el proceso de suscripción perimetral. Para establecer manualmente flujo de correo entre la organización de Exchange y el servidor Transporte perimetral, deberá crear y configurar los conectores de envío y recepción en el servidor Transporte perimetral y en los servidores de buzones de correo que haya en la organización de Exchange.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2017-02-08_
+_**Última modificación del tema:** 2017-02-08_
 
 Puede especificar que los administradores de la organización tienen permisos para instalar y administrar complementos para Outlook. También puede especificar qué usuarios de la organización tienen permiso para instalar y administrar complementos para su propio uso.
 

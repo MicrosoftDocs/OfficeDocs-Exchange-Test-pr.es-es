@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-10-18_
+_**Última modificación del tema:** 2016-10-18_
 
 Coloque un buzón en retención por juicio para conservar todo el contenido del buzón, incluidos los elementos eliminados y las versiones originales de los elementos modificados. Al colocar el buzón de correo de un usuario en retención por juicio, el contenido del buzón de archivo del usuario (si está habilitado) también se coloca en retención. Los elementos eliminados y modificados se conservan durante un período especificado o hasta que se elimina la retención por juicio del buzón. Todos los elementos del buzón de correo se devuelven en una búsqueda de [Exhibición de documentos electrónicos en contexto](in-place-ediscovery-exchange-2013-help.md).
 
@@ -57,7 +57,7 @@ Coloque un buzón en retención por juicio para conservar todo el contenido del 
 
 5.  En la página **Retención por juicio**, especifique la siguiente información opcional:
     
-      - **Duración de retención por juicio (días):**   Utilice este cuadro para especificar cuánto tiempo se conservarán los elementos del buzón cuando este se ponga en retención por juicio. La duración se calcula desde la fecha en que un elemento de buzón se recibe o se crea. Si deja este cuadro en blanco, los elementos se conservan indefinidamente o hasta que se elimine la retención. Use días para especificar la duración.
+      - **Duración de retención por juicio (días):**    Utilice este cuadro para especificar cuánto tiempo se conservarán los elementos del buzón cuando este se ponga en retención por juicio. La duración se calcula desde la fecha en que un elemento de buzón se recibe o se crea. Si deja este cuadro en blanco, los elementos se conservan indefinidamente o hasta que se elimine la retención. Use días para especificar la duración.
     
       - **Nota**   Utilice este cuadro para informar al usuario de que su buzón está en retención por juicio. La nota aparecerá en el buzón del usuario si está usando Outlook 2010 o versiones posteriores.
     

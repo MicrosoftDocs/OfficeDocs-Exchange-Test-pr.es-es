@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-16_
+_**Última modificación del tema:** 2016-12-16_
 
 La administración de detección de directivas de prevención de pérdida de datos (DLP) define, en términos generales, las actividades que una organización lleva a cabo para identificar, investigar y solucionar las infracciones de directivas de DLP. Para administrar incidentes, debe acceder a la información que identifica lo que han detectado las directivas de DLP. Esta información de detección está integrada con los formatos de registros y datos de Microsoft Exchange Server 2013, de manera que puede utilizar un sistema con datos ya existentes para administrar los incidentes del flujo de correo.
 

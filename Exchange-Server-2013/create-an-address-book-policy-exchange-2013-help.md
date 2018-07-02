@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-12-16_
+_**Última modificación del tema:** 2014-12-16_
 
 Las directivas de libreta de direcciones (ABP) permiten clasificar a los usuarios en grupos específicos para proporcionar vistas personalizadas de la lista global de direcciones (LGD) de una organización. Al crear una ABP, asigna una GAL, una libreta de direcciones sin conexión (OAB), una lista de sala y una o varias listas de direcciones a la directiva. A continuación, puede asignar la ABP a usuarios de los buzones y proporcionarles acceso a una GAL personalizada en Outlook y Outlook Web App. El objetivo es proporcionar un mecanismo más sencillo para cumplir la segmentación de GAL para organizaciones locales que necesiten varias GAL. Para obtener más información acerca de las ABP, consulte [Directivas de la libreta de direcciones](address-book-policies-exchange-2013-help.md).
 
@@ -43,15 +43,15 @@ Para consultar otras tareas de administración relacionadas con las directivas d
 
 En este ejemplo se crea una ABP con la siguiente configuración:
 
-  - **Nombre:** Todas las ABP Fabrikam
+  - **Nombre:**  Todas las ABP Fabrikam
 
-  - **LGD:** Todo Fabrikam
+  - **LGD:**  Todo Fabrikam
 
-  - **OAB:** Todas las OAB Fabrikam
+  - **OAB:**  Todas las OAB Fabrikam
 
-  - **Lista de salas:** Todas las salas Fabrikam
+  - **Lista de salas:**  Todas las salas Fabrikam
 
-  - **Listas de direcciones:** Todo Fabrikam, Todos los buzones Fabrikam, Todas las DL Fabrikam y Todos los contactos Fabrikam
+  - **Listas de direcciones:**  Todo Fabrikam, Todos los buzones Fabrikam, Todas las DL Fabrikam y Todos los contactos Fabrikam
 
 <!-- end list -->
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En Microsoft Exchange Server 2013, la característica Outlook Anywhere, anteriormente conocida como RPC mediante HTTP, permite a los clientes que usan MicrosoftOutlook 2013, Outlook 2010 o Outlook 2007 conectarse a sus servidores de Exchange desde fuera de la red corporativa o por Internet por medio del componente de red RPC mediante HTTP de Windows. Este tema describe la función Outlook Anywhere y enumera las ventajas de utilizar Outlook Anywhere.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Puede configurar una libreta jerárquica de direcciones (HAB), que es una característica disponible para usuarios finales de Microsoft Outlook 2010 o posterior. Con una HAB, los usuarios pueden buscar destinatarios en su organización de Exchange usando una jerarquía organizativa basada en la estructura de antigüedad o administración. Para obtener más información sobre las HAB, vea [Libretas de direcciones jerárquicas](hierarchical-address-books-exchange-2013-help.md).
 

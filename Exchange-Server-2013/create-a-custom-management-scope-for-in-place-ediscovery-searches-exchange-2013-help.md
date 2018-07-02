@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-01-21_
+_**Última modificación del tema:** 2015-01-21_
 
 Puede usar un ámbito de administración personalizado para permitir que determinadas personas o grupos usen la exhibición de documentos electrónicos local para buscar un subconjunto de los buzones de la organización de Exchange 2013 o Exchange Online. Por ejemplo, quizás quiera permitir que un administrador de detección realice búsquedas solo en los buzones de los usuarios de un departamento o una ubicación en particular. Para ello, puede crear un ámbito de administración personalizado. Este ámbito de administración personalizado usa un filtro de destinatarios para controlar los buzones de correo en los que se pueden realizar búsquedas. Los ámbitos de filtro de destinatario usan filtros para dirigirse a destinatarios específicos en función del tipo de destinatario o de otras propiedades del destinatario.
 

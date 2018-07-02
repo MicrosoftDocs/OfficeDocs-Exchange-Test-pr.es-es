@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 La información sobre correo que proporciona información acerca del tamaño de los grupos de distribución y los grupos de distribución dinámica confían en los datos de métricas de grupo. Los datos de métricas de grupo se generan en los servidores de buzones designados. Para obtener más información acerca de las métricas de grupos, consulte [Grupo métricas y sugerencias de correo electrónico](group-metrics-and-mailtips-exchange-2013-help.md).
 

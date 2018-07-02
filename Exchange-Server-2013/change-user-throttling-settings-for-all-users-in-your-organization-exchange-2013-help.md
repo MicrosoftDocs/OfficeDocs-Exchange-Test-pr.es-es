@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-08-05_
+_**Última modificación del tema:** 2014-08-05_
 
 Puede controlar el modo en que los usuarios individuales de una organización de Exchange consumen recursos mediante la modificación de la configuración de limitación predeterminada.
 

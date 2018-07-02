@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-12_
+_**Última modificación del tema:** 2012-10-12_
 
 Las plantillas de detalles controlan el aspecto de las propiedades de los objetos a los que se obtiene acceso mediante listas de direcciones en un cliente de correo, como Microsoft Outlook. Por ejemplo, cuando un usuario abre una lista de direcciones en Outlook, se presentan las propiedades de los destinatarios de la lista según se define en la plantilla de detalles de la organización de Exchange. La figura siguiente ilustra las propiedades del destinatario Kim Akers como aparecen en Outlook 2013. Con el Editor de plantillas de detalles del cuadro de herramientas de Exchange 2013 puede modificar la organización y el contenido de los distintos objetos que aparecen en esta página de propiedades.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2017-07-25_
+_**Última modificación del tema:** 2017-07-25_
 
 Tras instalar el servidor de acceso de clientes de Exchange 2013, hay varias tareas de configuración que puede realizar. Aunque el servidor de acceso de clientes de Exchange 2013 no gestiona el procesamiento de los protocolos de cliente, se deben aplicar varias configuraciones al servidor de acceso de clientes, incluyendo la configuración del directorio virtual y la configuración de los certificados.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-05-26_
+_**Última modificación del tema:** 2016-05-26_
 
 A continuación se indican las ventajas de usar la protección contra correo no deseado de Exchange en la nube (Microsoft Exchange Online o Microsoft Exchange Online Protection) en lugar de Microsoft Exchange Server 2013, que tiene la mayor parte de las mismas capacidades integradas contra correo no deseado que Microsoft Exchange Server 2010:
 

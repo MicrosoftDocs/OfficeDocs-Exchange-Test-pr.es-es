@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La redundancia de la instantánea fue introducida en Microsoft Exchange Server 2010 para proporcionar copias redundantes de mensajes antes de que se entreguen a los buzones de correo. En Exchange 2010, la redundancia de la instantánea retrasaba la eliminación de un mensaje desde la base de datos de transporte de un servidor de transporte hasta que el servidor había comprobado si el siguiente salto de la ruta de entrega del mensaje había completado la entrega. Si el salto siguiente dada error antes de notificar al servidor de transporte que había realizado satisfactoriamente la entrega, este reenviaba el mensaje al siguiente salto. Los servidores Exchange 2010 usaban el verbo XSHADOW para anunciar su soporte de redundancia de la instantánea. Si un servidor SMTP no admitía la redundancia de la instantánea, Exchange 2010 usaba el reconocimiento retrasado basándose en un intervalo de tiempo configurado en el conector de recepción para realizar una copia redundante del mensaje.
 

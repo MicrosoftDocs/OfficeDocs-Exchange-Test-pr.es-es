@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 El Id. del remitente es un agente contra correo electrónico no deseado que está disponible en Microsoft Exchange Server 2013. El agente del Id. de remitente usa el encabezado RECEIVED del SMTP y una consulta al servicio DNS del sistema de envío para determinar qué acción hay que tomar sobre los mensajes entrantes, si hay que tomar alguna.
 

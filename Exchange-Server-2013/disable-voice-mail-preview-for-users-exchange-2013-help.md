@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-21_
+_**Última modificación del tema:** 2013-02-21_
 
 Puede deshabilitar la función de Vista previa de correo de voz para los usuarios asociados a una directiva de buzones de mensajería unificada (UM). Si se deshabilita esta configuración, los usuarios no podrán recibir el texto de un mensaje de correo de voz en el cuerpo de un correo o mensaje de texto. La configuración predeterminada está habilitada.
 

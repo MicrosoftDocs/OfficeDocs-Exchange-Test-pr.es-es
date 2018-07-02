@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Los conectores de recepción controlan el flujo de los mensajes entrantes a su organización de Exchange. Se configuran en equipos que ejecutan Microsoft Exchange Server 2013 con el servicio de transporte o en el servicio front-end en un servidor de acceso de clientes. Se pueden crear en el Centro de administración de Exchange (EAC) o en el Shell de administración de Exchange.
 

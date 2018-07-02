@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Al diseñar la implementación de la mensajería unificada (MU), existen muchos factores que debe tener en cuenta para poder implementarla correctamente. Es preciso que conozca los distintos elementos de la mensajería unificada, así como cada componente y característica, para poder diseñar adecuadamente su infraestructura e implementación. La asignación de tiempo para planear y resolver estos problemas ayudará a impedir que surjan problemas al implementar la mensajería unificada en la organización.
 

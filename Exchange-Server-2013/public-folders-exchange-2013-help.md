@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2017-03-27_
+_**Última modificación del tema:** 2017-03-27_
 
 Las carpetas públicas están diseñadas para un acceso compartido y ofrecen una manera fácil y efectiva de obtener, organizar y compartir información con otras personas de su grupo de trabajo u organización. Las carpetas públicas organizan el contenido en una jerarquía profunda que es fácil de examinar. Los usuarios verán la jerarquía completa en Outlook, lo que les permitirá examinar fácilmente el contenido que les interesa.
 

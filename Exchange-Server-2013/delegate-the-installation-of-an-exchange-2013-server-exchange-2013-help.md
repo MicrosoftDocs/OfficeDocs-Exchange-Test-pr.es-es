@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-07-31_
+_**Última modificación del tema:** 2014-07-31_
 
 Exchange Server 2013 le permite delegar la instalación de los servidores de Exchange a personas que no son miembros del grupo de roles Administración de la organización de Exchange 2013. A menudo esto resulta útil en las empresas de gran tamaño en las que las personas que instalan y configuran los servidores no son las encargadas de administrar servicios como Exchange. Si esto se asemeja a lo que desea hacer, este tema es para usted.
 

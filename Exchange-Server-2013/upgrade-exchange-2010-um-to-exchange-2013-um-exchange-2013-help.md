@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Al actualizar una organización de Microsoft Exchange 2010 con Mensajería unificada (UM) a Mensajería unificada de Exchange 2013, hay algunos pasos que se deben llevar a cabo y otros que ya se completaron al implementar Mensajería unificada de Exchange 2010. En función del entorno de telefonía y de los componentes de UM que se crearon y configuraron para admitir Mensajería unificada en Exchange 2010, puede que tenga que implementar equipos de telefonía adicionales, como puertas de enlace de voz sobre IP (VoIP), centrales de conmutación (PBX) de IP o PBX tradicionales o con SIP habilitado, y luego crear y configurar los componentes de UM necesarios para Mensajería unificada de Exchange 2013.
 

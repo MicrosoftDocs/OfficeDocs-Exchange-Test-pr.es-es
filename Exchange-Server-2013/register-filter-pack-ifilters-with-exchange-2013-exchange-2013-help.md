@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Las reglas de transporte con condiciones de análisis de datos adjuntos realizan la extracción de textos cuando analizan el contenido de los datos adjuntos. Exchange 2013 puede analizar los tipos de datos adjuntos más usados nativamente. Es posible incluir tipos de datos adjuntos adicionales registrando IFilters en Exchange 2013. En este tema, se muestra cómo registrar IFilters de Microsoft y de otros fabricantes.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-08-22_
+_**Última modificación del tema:** 2016-08-22_
 
 La siguiente información le ayudará a configurar la descarga de SSL para los protocolos y los servicios relacionados en los servidores de acceso de cliente de Exchange 2013 con Service Pack 1 (SP1) instalado. Si tiene varios servidores de acceso de cliente, debe realizar los pasos necesarios para cada protocolo o servicio en cada servidor de acceso de cliente con el Service Pack 1 instalado en la organización local. Además, cada servidor de acceso de cliente de la organización debe estar configurado de forma idéntica. Si va a actualizar a actualizaciones acumulativas o Service Packs más recientes y quiere continuar usando la descarga de SSL, debe realizar los pasos siguientes después de aplicar las actualizaciones en sus servidores de acceso de cliente de Exchange 2013.
 

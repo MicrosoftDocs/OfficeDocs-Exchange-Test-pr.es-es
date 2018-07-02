@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2014-12-02_
+_**Última modificación del tema:** 2014-12-02_
 
 La instalación de Microsoft Exchange Server 2013 no puede continuar porque ha comprobado que la cuenta actual no ha iniciado sesión en ningún dominio de Active Directory. Debe iniciar sesión con una cuenta de Active Directory que tenga los permisos necesarios para instalar Exchange Server 2013.
 

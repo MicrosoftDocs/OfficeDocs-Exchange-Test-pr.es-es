@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-02-15_
+_**Última modificación del tema:** 2014-02-15_
 
 El hecho de compartir directivas permite que los usuarios individuales de la organización de Exchange compartan la información de disponibilidad de los calendarios con otras organizaciones federadas, con organizaciones de Exchange no federadas y con usuarios individuales de Internet. Durante el curso de operaciones habituales, puede cambiar algunas propiedades de la directiva de uso compartido, como por ejemplo modificar las reglas de uso compartido, cambiar el nivel de acceso de disponibilidad, deshabilitar temporalmente una directiva de uso compartido o eliminar una por completo.
 

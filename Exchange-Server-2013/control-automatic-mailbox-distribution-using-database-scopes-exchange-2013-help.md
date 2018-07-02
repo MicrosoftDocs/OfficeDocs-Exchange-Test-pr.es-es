@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 La distribución automática de buzones es una característica en Exchange Server 2013 de Microsoft que selecciona aleatoriamente un base de dato del buzón para almacenar un buzón nuevo o movido cuando no especifica una base de datos de forma específica. Esta característica puede ser útil cuando desea permitir que administradores junior o el personal de la asistencia técnica creen buzones sin necesidad de saber qué buzones de las bases de datos deben crearse.
 

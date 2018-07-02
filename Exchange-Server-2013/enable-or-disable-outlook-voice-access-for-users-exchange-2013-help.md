@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-12-12_
+_**Última modificación del tema:** 2012-12-12_
 
 Puede habilitar o deshabilitar el acceso a Outlook Voice Access para usuarios habilitados para Mensajería unificada asociados con un buzón de Mensajería unificada. Outlook Voice Access es una característica que usan los usuarios habilitados para mensajería unificada con el fin de obtener acceso a su buzón de correo a través de un teléfono. Esta opción está habilitada de forma predeterminada.
 

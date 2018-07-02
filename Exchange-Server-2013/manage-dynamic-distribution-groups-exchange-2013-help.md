@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Los grupos de distribución dinámicos son objetos de grupo de Active Directory habilitados para correo que se crean para acelerar el envío masivo de mensajes de correo electrónico y demás información dentro de una organización de Microsoft Exchange.
 

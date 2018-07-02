@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-16_
+_**Última modificación del tema:** 2012-11-16_
 
 Puede usar el complemento Servicios de Microsoft Management Console (MMC) o cmd.exe en un símbolo del sistema para detener el servicio de mensajería unificada de Microsoft Exchange en el servidor de buzones. Es posible que, en ciertas ocasiones, deba detener este servicio, por ejemplo, cuando sea necesario desconectar el servidor de buzones. Cuando detenga el servicio de mensajería unificada de Microsoft Exchange, el servidor de buzones no podrá aceptar ni procesar llamadas entrantes.
 

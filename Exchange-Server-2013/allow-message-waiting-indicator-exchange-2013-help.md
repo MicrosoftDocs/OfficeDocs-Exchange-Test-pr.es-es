@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 El Indicador de mensaje en espera (MWI) es una función incluida en la mayoría de los sistemas de correo de voz heredados. Permite a los usuarios saber si tienen mensajes de correo de voz nuevos o sin escuchar. En su formato más común, esta característica enciende una luz en el teléfono del usuario para indicar la presencia de un mensaje de correo de voz nuevo o no escuchado.
 

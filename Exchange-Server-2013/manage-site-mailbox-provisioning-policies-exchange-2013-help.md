@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-21_
+_**Última modificación del tema:** 2013-02-21_
 
 Las directivas de aprovisionamiento del buzón del sitio sólo se aplican al correo electrónico que se envía a y desde el buzón del sitio y el tamaño del buzón del sitio en el servidor Exchange.
 

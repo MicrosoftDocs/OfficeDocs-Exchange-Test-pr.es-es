@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Este tema explica cómo implementar Exchange 2013 en una topología entre bosques usando Forefront Identity Manager 2010 R2 SP1. Para implementar Exchange 2013 en una topología entre bosques, primero tiene que instalar Exchange 2013 en cada bosque y, a continuación, conectar los bosques para que los usuarios puedan ver los datos de dirección y disponibilidad de los boques.
 

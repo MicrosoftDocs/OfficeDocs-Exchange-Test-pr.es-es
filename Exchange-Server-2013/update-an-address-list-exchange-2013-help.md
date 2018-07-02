@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-14_
+_**Última modificación del tema:** 2012-10-14_
 
 Las listas de direcciones son un conjunto de objetos de destinatario y otros objetos de Active Directory. La lista de direcciones se aplica cuando se ha modificado la regla de filtro de lista de direcciones. Para actualizar la pertenencia de la lista de direcciones con el fin de incluir los destinatarios nuevos y quitar los destinatarios que ya no cumplen los criterios de filtrado, deberá aplicar la lista de direcciones.
 

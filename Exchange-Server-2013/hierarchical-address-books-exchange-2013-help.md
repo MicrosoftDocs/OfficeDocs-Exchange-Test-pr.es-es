@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-03-26_
+_**Última modificación del tema:** 2014-03-26_
 
 La libreta jerárquica de direcciones (HAB) permite a los usuarios finales buscar destinatarios en su libreta de direcciones usando una jerarquía organizativa. Normalmente, los usuarios están limitados a la lista global de direcciones (GAL) y sus propiedades de destinatario, y la estructura de la GAL no suele reflejar de forma precisa las relaciones de administración y antigüedad de los destinatarios de la organización. Poder personalizar una HAB que asigne a la organización una estructura empresarial exclusiva dota a los usuarios de un método eficiente para buscar destinatarios internos.
 

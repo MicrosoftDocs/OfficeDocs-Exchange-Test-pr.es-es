@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 Las funciones de administración que ya no se requieren pueden ser eliminadas de la organización. Un usuario solamente puede quitar las funciones de administración que definió. No se pueden quitar las funciones de administración integradas. Para obtener más información acerca de las funciones de administración en Microsoft Exchange Server 2013, consulte [Descripción de los roles de administración](understanding-management-roles-exchange-2013-help.md).
 

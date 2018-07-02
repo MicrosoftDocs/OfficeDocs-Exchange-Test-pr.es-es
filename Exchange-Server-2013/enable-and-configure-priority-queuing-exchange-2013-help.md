@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-12-16_
+_**Última modificación del tema:** 2014-12-16_
 
 *Prioridad en las colas* es una característica de Microsoft Exchange Server 2013 que permite que la prioridad de mensajes configurada por el remitente de Microsoft Outlook o Outlook Web Access influya en el procesamiento del mensaje por el servicio de transporte del servidor de buzones. Cuando la cola de prioridad está habilitada, los mensajes de prioridad alta se transmiten a los destinos antes que los mensajes de prioridad normal y éstos, a su vez, se transmiten a sus destinos antes que los de prioridad baja. Para obtener más información, consulte [Prioridad en las colas](priority-queuing-exchange-2013-help.md).
 

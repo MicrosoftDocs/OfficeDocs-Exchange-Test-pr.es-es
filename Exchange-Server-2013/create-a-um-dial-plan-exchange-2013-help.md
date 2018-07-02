@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-16_
+_**Última modificación del tema:** 2013-04-16_
 
 Un plan de marcado de mensajería unificada (MU) contiene información de configuración relacionada con la red de telefonía. Un plan de marcado de mensajería unificada establece un vínculo desde el número de extensión telefónica de un usuario con correo de voz habilitado hasta su buzón de correo. Al crear un plan de marcado de mensajería unificada, puede configurar el número de dígitos de los números de extensión, el tipo de Identificador uniforme de recursos (URI) y los ajustes de seguridad VoIP para el plan de marcado.
 

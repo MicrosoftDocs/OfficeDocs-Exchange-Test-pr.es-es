@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-07-21_
+_**Última modificación del tema:** 2015-07-21_
 
 En MicrosoftExchange Server 2013 y en Exchange Online, Exchange Search incluye filtros para indizar los tipos de formatos de archivo más habituales incluidos como datos adjuntos de los mensajes. También puede instalar filtros para indizar otros tipos de archivos.
 

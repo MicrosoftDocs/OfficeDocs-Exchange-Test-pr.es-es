@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-28_
+_**Última modificación del tema:** 2012-11-28_
 
 Puede usar el Centro de Administración de Exchange o el Shell para configurar los límites de tiempo de espera de conexión para conexiones autenticadas y no autenticadas inactivas IMAP4.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-06-25_
+_**Última modificación del tema:** 2013-06-25_
 
 En este tema, se explica cómo usar el Shell para comprobar el funcionamiento de su sistema de correo de voz. Al realizar el siguiente procedimiento, el servidor de mensajes de correo que ejecuta el Servicio de mensajería unificada de Microsoft Exchange inicia una llamada de Protocolo de inicio de sesión (SIP) de diagnóstico y, luego, devuelve una variable del estado de los Servicios de mensajería unificada.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-02-17_
+_**Última modificación del tema:** 2014-02-17_
 
 If a domain belonging to your organization hosts mailboxes for all the recipients within an SMTP namespace, that domain is considered to be authoritative. By default, one accepted domain is configured as authoritative for the Exchange organization. If your organization has more than one SMTP namespace, you can configure more than one accepted domain as authoritative.
 

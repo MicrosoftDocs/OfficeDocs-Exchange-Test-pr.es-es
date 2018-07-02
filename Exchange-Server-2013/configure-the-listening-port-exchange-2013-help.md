@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede configurar el puerto TCP que se usa para escuchar las solicitudes del Protocolo de inicio de sesión (SIP) en una puerta de enlace IP de mensajería unificada (MU). De manera predeterminada, cuando crea una puerta de enlace IP de MU, el número de puerto de escucha TCP de SIP se establece en 5060. El puerto de escucha TCP de SIP no puede configurarse mediante el uso del EAC. Debe configurar el número del puerto de escucha TCP de SIP con el cmdlet **Set-UMIPGateway**.
 

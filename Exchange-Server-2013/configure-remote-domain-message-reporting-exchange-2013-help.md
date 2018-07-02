@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 Se puede utilizar Exchange Management Shell para configurar los modos de envío y recepción de los mensajes de correo electrónico desde dominios remotos. Lo siguiente demuestra cómo utilizar el Shell de administración de Exchange para configurar la forma en que Exchange gestiona los informes de entrega y de no entrega.
 

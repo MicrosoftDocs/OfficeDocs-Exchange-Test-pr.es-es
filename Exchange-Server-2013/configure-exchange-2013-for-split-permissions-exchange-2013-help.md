@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Los permisos divididos habilitan a dos grupos distintos, como administradores de Active Directory y administradores de Microsoft Exchange Server 2013, para administrar sus respectivos servicios, objetos y atributos. Los administradores de Active Directory administran entidades de seguridad, como usuarios que proporcionan permisos de acceso a un bosque Active Directory. Los administradores de Exchange administran los atributos relacionados con Exchange en objetos de Active Directory, y la creación y administración de objetos específicos de Exchange.
 

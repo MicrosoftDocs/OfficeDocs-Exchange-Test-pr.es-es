@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-05_
+_**Última modificación del tema:** 2012-11-05_
 
 Puede habilitar o deshabilitar las llamadas de los usuarios que no están habilitados para mensajería unificada (MU). De forma predeterminada, la mensajería unificada hace posible que las llamadas entrantes de personas no autenticadas realizadas por medio de un operador automático se transfieran a usuarios habilitados para MU. Cuando esta opción está habilitada, los usuarios que se encuentran fuera de la organización pueden transferir llamadas a usuarios habilitados para MU.
 

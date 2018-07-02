@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2018-04-02_
+_**Última modificación del tema:** 2018-04-02_
 
-**Summary:** These articles contain architectural and security information for administrators about Outlook for iOS and Android in an Exchange 2013 on-premises environment.
+**Summary:**  These articles contain architectural and security information for administrators about Outlook for iOS and Android in an Exchange 2013 on-premises environment.
 
 Outlook for iOS and Android supports two authentication types in Exchange on-premises environments: Basic authentication and hybrid Modern Authentication.
 

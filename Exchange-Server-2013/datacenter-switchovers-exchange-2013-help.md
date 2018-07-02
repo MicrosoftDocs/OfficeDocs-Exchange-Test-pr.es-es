@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013 SP1_
+_**Se aplica a:** Exchange Server 2013 SP1_
 
-_**Última modificación del tema:**2016-03-17_
+_**Última modificación del tema:** 2016-03-17_
 
 En una configuración con resistencia de sitios se puede producir una recuperación automática en respuesta a un fallo en el nivel de sitio dentro de un DAG, lo que permitiría al sistema de mensajería permanecer operativo. Esta configuración requiere al menos tres ubicaciones ya que necesita la implementación de los miembros de DAG en dos ubicaciones y el servidor de testigo de DAG en una tercera.
 

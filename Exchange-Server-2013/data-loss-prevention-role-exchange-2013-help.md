@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 El rol de administración de prevención de pérdida de datos permite a los administradores crear y administrar las directivas de prevención de pérdida de datos (DLP) y las reglas que las integran, lo que puede afectar a la entrega de correo de toda la organización. Además, este rol proporciona a los administradores la capacidad de configurar consejos de directivas que aparecen en clientes de correo electrónico y administrar informes de infracción de las directivas de DLP. Este rol DLP también permite el acceso a las reglas de transporte de Microsoft Exchange. Para obtener más información acerca de las reglas de transporte en Exchange, consulte los siguientes temas:
 

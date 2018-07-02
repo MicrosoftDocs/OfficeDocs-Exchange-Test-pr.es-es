@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede configurar el número de errores de inicio de sesión permitidos antes de que al usuario de Outlook Voice Access se le bloquee el uso de su buzón de correo. El número de errores de inicio de sesión permitidos antes de que un usuario de correo de voz quede bloqueado se configura en una directiva de buzones de mensajería unificada y se aplica a todos los usuarios habilitados para mensajería unificada que estén asociados a dicha directiva. De forma predeterminada, está establecida en 15.
 

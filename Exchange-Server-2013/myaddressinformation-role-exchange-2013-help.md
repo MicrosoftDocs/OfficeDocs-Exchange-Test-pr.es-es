@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-17_
+_**Última modificación del tema:** 2012-10-17_
 
 El rol de administración `MyAddressInformation` permite que los usuarios vean y modifiquen la dirección y números de teléfono y fax profesionales. Se trata de un rol personalizado que se crea a partir del rol primario [Rol MyContactInformation](mycontactinformation-role-exchange-2013-help.md).
 

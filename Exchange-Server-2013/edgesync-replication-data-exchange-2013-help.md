@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Cuando se implementa un servidor de transporte perimetral, este no tiene acceso a Active Directory. Pero el servidor de transporte perimetral necesita datos de Active Directory para realizar ciertas tareas, como la agregación de listas seguras y la búsqueda de destinatarios, y para implementar la seguridad de dominio mediante la autenticación de Seguridad de la capa de transporte mutua (MTLS). Para replicar estos datos en el servidor de transporte perimetral usamos EdgeSync. Después, el servidor de transporte perimetral almacena toda la información replicada en Active Directory Lightweight Directory Services (AD LDS).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2016-12-15_
+_**Última modificación del tema:** 2016-12-15_
 
 Microsoft Exchange Server 2013 Setup can’t continue because it detected that the **ExecutionPolicy** Group Policy Object (GPO) defines one or both of the following policies:
 

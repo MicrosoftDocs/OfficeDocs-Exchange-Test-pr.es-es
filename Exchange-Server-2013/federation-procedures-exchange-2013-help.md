@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2017-02-28_
+_**Última modificación del tema:** 2017-02-28_
 
 [Configuración del uso compartido federado](configure-federated-sharing-exchange-2013-help.md)
 

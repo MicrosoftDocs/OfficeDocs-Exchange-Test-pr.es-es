@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 Las entradas de funciones de administración en una función de administración determinan cmdlets y los parámetros disponibles en una función de administración. Si quita las entradas o los parámetros de función en una entrada de función, puede restringir las acciones que pueden realizar los usuarios asignados a esa función de administración. Para obtener más información acerca de las entradas de funciones de administración en Microsoft Exchange Server 2013, consulte [Descripción de los roles de administración](understanding-management-roles-exchange-2013-help.md).
 
