@@ -27,7 +27,7 @@ Para obtener más información acerca de los preparativos para movimientos entre
 
   - Descargue el código de ejemplo de la página [Prepararse para mover buzones de correo en línea](https://go.microsoft.com/fwlink/p/?linkid=177882) del Centro de descarga de Microsoft.
 
-  - Para ejecutar el código de ejemplo, necesitará ILM 2007 Feature Pack 1 Service Pack 1 (SP1). Para descargar el paquete de características, consulte el artículo 977791 de Microsoft Knowledge Base, [Service Pack 1 (compilación 3.3.1139.2) está disponible para Identity Lifecycle Manager 2007 Feature Pack 1](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=977791).
+  - Para ejecutar el código de ejemplo, necesitará ILM 2007 Feature Pack 1 Service Pack 1 (SP1). Para descargar el paquete de características, consulte el artículo 977791 de Microsoft Knowledge Base, [Service Pack 1 (compilación 3.3.1139.2) está disponible para Identity Lifecycle Manager 2007 Feature Pack 1](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=977791).
 
   - También necesitará lo siguiente:
     

@@ -109,7 +109,7 @@ La siguiente tabla proporciona una lista de los tipos de discos físicos compati
 </ul></td>
 <td><p>Se admiten:  Discos con sector de 512 bytes para Windows Server 2008 y Windows Server 2008 R2. Además, los discos 512e se admiten en Windows Server 2008 R2 con lo siguiente:</p>
 <ul>
-<li><p>La revisión descrita en el <a href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=982018">artículo de Microsoft Knowledge Base 982018</a>. Hay disponible una actualización que mejora la compatibilidad de Windows 7 y Windows Server 2008 R2 con discos de formato avanzado.</p></li>
+<li><p>La revisión descrita en el <a href="https://go.microsoft.com/fwlink/p/?linkid=3052&kbid=982018">artículo de Microsoft Knowledge Base 982018</a>. Hay disponible una actualización que mejora la compatibilidad de Windows 7 y Windows Server 2008 R2 con discos de formato avanzado.</p></li>
 <li><p>Windows Server 2008 R2 con Service Pack 1 (SP1) y Exchange Server 2010 SP1.</p></li>
 </ul>
 <p>Exchange 2013 y versiones posteriores es compatible con los discos con sectores de 4 kilobytes (KB) nativos y con los discos 512e. Para la compatibilidad es necesario que todas las copias de una base de datos residan en el mismo tipo de disco físico. Por ejemplo, no se admite la configuración en la que se hospede una copia de la base de datos en un disco con sectores de 512 bytes y otra copia de la misma base de datos en un disco 512e o 4K.</p>
@@ -126,7 +126,7 @@ La siguiente tabla proporciona una lista de los tipos de discos físicos compati
 </ul></td>
 <td><p>Se admiten:  Discos con sector de 512 bytes para Windows Server 2008 y Windows Server 2008 R2. Además, los discos 512e se admiten en Windows Server 2008 R2 con lo siguiente:</p>
 <ul>
-<li><p>La revisión descrita en el <a href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=982018">artículo de Microsoft Knowledge Base 982018</a>. Hay disponible una actualización que mejora la compatibilidad de Windows 7 y Windows Server 2008 R2 con discos de formato avanzado.</p></li>
+<li><p>La revisión descrita en el <a href="https://go.microsoft.com/fwlink/p/?linkid=3052&kbid=982018">artículo de Microsoft Knowledge Base 982018</a>. Hay disponible una actualización que mejora la compatibilidad de Windows 7 y Windows Server 2008 R2 con discos de formato avanzado.</p></li>
 <li><p>Windows Server 2008 R2 con Service Pack 1 (SP1) y Exchange Server 2010 SP1.</p></li>
 </ul>
 <p>Exchange 2013 y versiones posteriores es compatible con los discos con sectores de 4 kilobytes (KB) nativos y con los discos 512e. Para la compatibilidad es necesario que todas las copias de una base de datos residan en el mismo tipo de disco físico. Por ejemplo, no se admite la configuración en la que se hospede una copia de la base de datos en un disco con sectores de 512 bytes y otra copia de la misma base de datos en un disco 512e o 4K.</p>
@@ -143,7 +143,7 @@ La siguiente tabla proporciona una lista de los tipos de discos físicos compati
 </ul></td>
 <td><p>Se admiten:  Discos con sector de 512 bytes para Windows Server 2008 y Windows Server 2008 R2. Además, los discos 512e se admiten en Windows Server 2008 R2 con lo siguiente:</p>
 <ul>
-<li><p>La revisión descrita en el <a href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=982018">artículo de Microsoft Knowledge Base 982018</a>. Hay disponible una actualización que mejora la compatibilidad de Windows 7 y Windows Server 2008 R2 con discos de formato avanzado.</p></li>
+<li><p>La revisión descrita en el <a href="https://go.microsoft.com/fwlink/p/?linkid=3052&kbid=982018">artículo de Microsoft Knowledge Base 982018</a>. Hay disponible una actualización que mejora la compatibilidad de Windows 7 y Windows Server 2008 R2 con discos de formato avanzado.</p></li>
 <li><p>Windows Server 2008 R2 con Service Pack 1 (SP1) y Exchange Server 2010 SP1.</p></li>
 </ul>
 <p>Exchange 2013 y versiones posteriores es compatible con los discos con sectores de 4 kilobytes (KB) nativos y con los discos 512e. Para la compatibilidad es necesario que todas las copias de una base de datos residan en el mismo tipo de disco físico. Por ejemplo, no se admite la configuración en la que se hospede una copia de la base de datos en un disco con sectores de 512 bytes y otra copia de la misma base de datos en un disco 512e o 4K.</p>
@@ -159,7 +159,7 @@ La siguiente tabla proporciona una lista de los tipos de discos físicos compati
 </ul></td>
 <td><p>Se admiten:  Discos con sector de 512 bytes para Windows Server 2008 y Windows Server 2008 R2. Además, los discos 512e se admiten en Windows Server 2008 R2 con lo siguiente:</p>
 <ul>
-<li><p>La revisión descrita en el <a href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=982018">artículo de Microsoft Knowledge Base 982018</a>. Hay disponible una actualización que mejora la compatibilidad de Windows 7 y Windows Server 2008 R2 con discos de formato avanzado.</p></li>
+<li><p>La revisión descrita en el <a href="https://go.microsoft.com/fwlink/p/?linkid=3052&kbid=982018">artículo de Microsoft Knowledge Base 982018</a>. Hay disponible una actualización que mejora la compatibilidad de Windows 7 y Windows Server 2008 R2 con discos de formato avanzado.</p></li>
 <li><p>Windows Server 2008 R2 con Service Pack 1 (SP1) y Exchange Server 2010 SP1.</p></li>
 </ul>
 <p>Exchange 2013 y versiones posteriores es compatible con los discos con sectores de 4 kilobytes (KB) nativos y con los discos 512e. Para la compatibilidad es necesario que todas las copias de una base de datos residan en el mismo tipo de disco físico. Por ejemplo, no se admite la configuración en la que se hospede una copia de la base de datos en un disco con sectores de 512 bytes y otra copia de la misma base de datos en un disco 512e o 4K.</p>
@@ -695,7 +695,7 @@ En la siguiente tabla, se proporciona orientación sobre las configuraciones de 
 <td><p>Windows BitLocker (cifrado de volumen)</p></td>
 <td><p>Windows BitLocker es una característica para la protección en Windows Server 2008. BitLocker protege contra el robo o la puesta en peligro de los datos en equipos perdidos o robados y ofrece un borrado de datos más seguro cuando los equipos se retiran.</p></td>
 <td><p>Se admite: todas las bases de datos y los archivos de registro de Exchange.</p></td>
-<td><p>Se admite: Todas las bases de datos y los archivos de registro de Exchange. Los clústeres de conmutación por error de Windows requieren Windows Server 2008 R2 o Windows Server 2008 R2 SP1 y la revisión siguiente: <a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2446607">No puede habilitar BitLocker en un volumen de disco en Windows Server 2008 R2 si el PC es un nodo de clústeres de conmutación por error</a>. Los volúmenes de Exchange que tienen habilitado Bitlocker no se admiten en clústeres de conmutación por error de Windows que ejecutan versiones anteriores de Windows.</p>
+<td><p>Se admite: Todas las bases de datos y los archivos de registro de Exchange. Los clústeres de conmutación por error de Windows requieren Windows Server 2008 R2 o Windows Server 2008 R2 SP1 y la revisión siguiente: <a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=2446607">No puede habilitar BitLocker en un volumen de disco en Windows Server 2008 R2 si el PC es un nodo de clústeres de conmutación por error</a>. Los volúmenes de Exchange que tienen habilitado Bitlocker no se admiten en clústeres de conmutación por error de Windows que ejecutan versiones anteriores de Windows.</p>
 <p>Para obtener más información sobre el cifrado BitLocker en Windows 7, vea <a href="https://go.microsoft.com/fwlink/p/?linkid=220898">Cifrado de unidades BitLocker en Windows 7: Preguntas más frecuentes</a>.</p></td>
 </tr>
 <tr class="odd">

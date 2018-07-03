@@ -221,7 +221,7 @@ Si usa la herramienta para la solución de problemas de Mensajería unificada en
 
 
 
-  - Administración remota de Windows (WinRM) 2.0 y Windows PowerShell V2 (Windows6.0-KB968930.msu)   Vea el artículo 968930 de Microsoft Knowledge Base, sobre el [paquete de Windows Management Framework Core (Windows PowerShell 2.0 y WinRM 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930).
+  - Administración remota de Windows (WinRM) 2.0 y Windows PowerShell V2 (Windows6.0-KB968930.msu)   Vea el artículo 968930 de Microsoft Knowledge Base, sobre el [paquete de Windows Management Framework Core (Windows PowerShell 2.0 y WinRM 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930).
 
   - API 2.0 administrada de comunicaciones unificadas de Microsoft, Core Runtime (UcmaRuntimeWebDownloadX64.msi)   Vea [API 2.0 administrada de comunicaciones unificadas, Core Runtime (64 bits)](https://go.microsoft.com/fwlink/?linkid=198175).
 

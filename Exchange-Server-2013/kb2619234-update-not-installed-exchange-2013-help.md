@@ -29,7 +29,7 @@ Descargue e instale la actualización de 64 bits de la siguiente dirección URL 
 
 
 
-Microsoft Knowledge Base, artículo KB2619234, [Hay una revisión disponible para habilitar el GUID/cookie de asociación que RPC sobre HTTP usa para que también se use en la capa RPC en Windows 7 y en Windows Server 2008 R2)](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2619234)
+Microsoft Knowledge Base, artículo KB2619234, [Hay una revisión disponible para habilitar el GUID/cookie de asociación que RPC sobre HTTP usa para que también se use en la capa RPC en Windows 7 y en Windows Server 2008 R2)](https://go.microsoft.com/fwlink/?linkid=3052&kbid=2619234)
 
 ¿Tiene algún problema? Solicite ayuda en los foros de Exchange. Visite los foros en [Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=267542), o [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=285351).
 

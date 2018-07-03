@@ -104,7 +104,7 @@ Una configuración híbrida con carpetas públicas de Exchange 2003 no es posib
 
 7.  En Exchange 2007, debe tener asignado el rol de Administrador de organización de Exchange o Administrador de servidores de Exchange. Además, debe tener asignado el rol de Administrador de carpetas públicas y el grupo de administradores locales para el servidor de destino. Para obtener más información, vea [Cómo agregar un usuario o grupo a una función de administrador](https://go.microsoft.com/fwlink/p/?linkid=81779).
 
-8.  Si Exchange Server 2007 se ejecuta en Windows Server 2008 x64, deberá actualizar a [Windows PowerShell 2.0 y WinRM 2.0 para Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930). Si Exchange Server 2007 se ejecuta en Windows Server 2003 x64, deberá actualizar a Windows PowerShell 2.0. Para obtener información detallada, vea la [Actualización para Windows Server 2003 x64 Edition](https://www.microsoft.com/es-es/download/details.aspx?id=10512).
+8.  Si Exchange Server 2007 se ejecuta en Windows Server 2008 x64, deberá actualizar a [Windows PowerShell 2.0 y WinRM 2.0 para Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930). Si Exchange Server 2007 se ejecuta en Windows Server 2003 x64, deberá actualizar a Windows PowerShell 2.0. Para obtener información detallada, vea la [Actualización para Windows Server 2003 x64 Edition](https://www.microsoft.com/es-es/download/details.aspx?id=10512).
 
 9.  Los usuarios deben actualizar sus clientes de Outlook a la actualización pública de Outlook de noviembre de 2012 (o posterior) para poder acceder a las carpetas públicas entre locales.
     

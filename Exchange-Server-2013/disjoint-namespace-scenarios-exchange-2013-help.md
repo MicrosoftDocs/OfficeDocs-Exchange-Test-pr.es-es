@@ -101,7 +101,7 @@ Además, para asegurarse de que la lista de búsqueda de sufijos DNS contiene to
 
   - [Preguntas más frecuentes sobre directivas de grupos](https://go.microsoft.com/fwlink/p/?linkid=100128)
 
-  - [Nuevas directivas de grupos para DNS en Windows Server 2003](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=294785)
+  - [Nuevas directivas de grupos para DNS en Windows Server 2003](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=294785)
 
   - [Directiva de grupo](https://go.microsoft.com/fwlink/p/?linkid=268043)
 

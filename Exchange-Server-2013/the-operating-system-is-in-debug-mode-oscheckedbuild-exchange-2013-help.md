@@ -41,5 +41,5 @@ Para eliminar este error, edite el archivo Boot.ini y elimine el parámetro **/d
 
 5.  Guarde y cierre el archivo y reinicie el equipo con Exchange Server para que el cambio surta efecto.
 
-Para obtener más información acerca de los parámetros que pueden utilizarse en el archivo Boot.ini, consulte el artículo 833721 de Microsoft Knowledge Base, "opciones de modificador disponibles para los archivos de Boot.ini de Windows Server 2003 y Windows XP" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=833721](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=833721)).
+Para obtener más información acerca de los parámetros que pueden utilizarse en el archivo Boot.ini, consulte el artículo 833721 de Microsoft Knowledge Base, "opciones de modificador disponibles para los archivos de Boot.ini de Windows Server 2003 y Windows XP" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=833721](https://go.microsoft.com/fwlink/?linkid=3052&kbid=833721)).
 

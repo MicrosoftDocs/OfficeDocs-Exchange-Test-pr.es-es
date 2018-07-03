@@ -31,7 +31,7 @@ Al instalar las actualizaciones de zonas horarias lo antes posible, se minimiza 
 
 Debido a que el sistema de autenticación de Office 365 se actualiza cuando cambia el DST o una zona horaria, todos los equipos cliente de Office 365 deben actualizarse. De lo contrario, es posible que tengan problemas de conectividad.
 
-  - Asegúrese de que todos los equipos cliente y de escritorio tengan instalada la actualización de DST de Windows. Para obtener más información, vea [Cómo configurar el horario de verano en sistemas operativos Microsoft Windows](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=914387).
+  - Asegúrese de que todos los equipos cliente y de escritorio tengan instalada la actualización de DST de Windows. Para obtener más información, vea [Cómo configurar el horario de verano en sistemas operativos Microsoft Windows](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=914387).
 
 ## Paso 2: Instalar la actualización de Windows de DST en todos los servidores
 
@@ -47,7 +47,7 @@ Debido a que el sistema de autenticación de Office 365 se actualiza cuando camb
 
 2.  Envíe un mensaje a los usuarios que deben actualizar sus equipos, con el vínculo a la herramienta correspondiente.
 
-En la siguiente tabla se muestra el momento en que los usuarios deben ejecutar la [Herramienta de actualización de calendario de Exchange](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=930879) o la [Herramienta de actualización de datos de zona horaria para Microsoft Office Outlook](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667). Averigüe qué versión ejecutan los servidores de la organización y determine qué programas cliente ejecutan los usuarios.
+En la siguiente tabla se muestra el momento en que los usuarios deben ejecutar la [Herramienta de actualización de calendario de Exchange](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=930879) o la [Herramienta de actualización de datos de zona horaria para Microsoft Office Outlook](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667). Averigüe qué versión ejecutan los servidores de la organización y determine qué programas cliente ejecutan los usuarios.
 
 
 <table>
@@ -69,45 +69,45 @@ En la siguiente tabla se muestra el momento en que los usuarios deben ejecutar l
 </tr>
 <tr class="odd">
 <td><p><strong>Exchange 2003 local</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=930879">Herramienta de calendario de Exchange</a> o</p>
-<p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Herramienta de actualización de datos de zona horaria para Microsoft Office Outlook</a></p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=930879">Herramienta de calendario de Exchange</a> o</p>
+<p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Herramienta de actualización de datos de zona horaria para Microsoft Office Outlook</a></p></td>
 <td><p>No se requiere ninguna acción.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Exchange 2007 local</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=930879">Herramienta de calendario de Exchange</a> o</p>
-<p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Herramienta de actualización de datos de zona horaria para Microsoft Office Outlook</a></p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=930879">Herramienta de calendario de Exchange</a> o</p>
+<p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Herramienta de actualización de datos de zona horaria para Microsoft Office Outlook</a></p></td>
 <td><p>No se requiere ninguna acción.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Exchange 2010 local</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=930879">Herramienta de calendario de Exchange</a> o</p>
-<p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Herramienta de actualización de datos de zona horaria para Microsoft Office Outlook</a></p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=930879">Herramienta de calendario de Exchange</a> o</p>
+<p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Herramienta de actualización de datos de zona horaria para Microsoft Office Outlook</a></p></td>
 <td><p>No se requiere ninguna acción.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Exchange 2013 local</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Herramienta de actualización de datos de zona horaria para Microsoft Office Outlook</a></p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Herramienta de actualización de datos de zona horaria para Microsoft Office Outlook</a></p></td>
 <td><p>No se requiere ninguna acción.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BPOS-S (Exchange 2007)</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Herramienta de actualización de datos de zona horaria para Microsoft Office Outlook</a></p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Herramienta de actualización de datos de zona horaria para Microsoft Office Outlook</a></p></td>
 <td><p>No se requiere ninguna acción.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BPOS-D (Exchange 2010)</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Herramienta de actualización de datos de zona horaria para Microsoft Office Outlook</a></p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Herramienta de actualización de datos de zona horaria para Microsoft Office Outlook</a></p></td>
 <td><p>No se requiere ninguna acción.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Office 365 (Exchange 2010)</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Herramienta de actualización de datos de zona horaria para Microsoft Office Outlook</a> (no es compatible con Outlook 2003)</p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Herramienta de actualización de datos de zona horaria para Microsoft Office Outlook</a> (no es compatible con Outlook 2003)</p></td>
 <td><p>No se requiere ninguna acción</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Office 365 (Exchange 2013)</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Herramienta de actualización de datos de zona horaria para Microsoft Office Outlook</a> (no es compatible con Outlook 2003)</p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Herramienta de actualización de datos de zona horaria para Microsoft Office Outlook</a> (no es compatible con Outlook 2003)</p></td>
 <td><p>No se requiere ninguna acción</p></td>
 </tr>
 <tr class="odd">

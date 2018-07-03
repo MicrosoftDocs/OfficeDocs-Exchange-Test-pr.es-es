@@ -37,7 +37,7 @@ Para llevar a cabo el siguiente procedimiento en Exchange 2013, confirme los si
 
   - Asegúrese de que no se haya instalado la administración remota de Windows mediante WindowsUpdate.
 
-  - Instale Windows PowerShell y la administración remota de Windows. Para obtener detalles, consulte el artículo 968930 de Microsoft Knowledge Base, el [paquete Windows Management Framework Core (Windows PowerShell 2.0 y WinRM 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930).
+  - Instale Windows PowerShell y la administración remota de Windows. Para obtener detalles, consulte el artículo 968930 de Microsoft Knowledge Base, el [paquete Windows Management Framework Core (Windows PowerShell 2.0 y WinRM 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930).
 
   - Descargue Forefront Identity Manager 2010 R2 SP1. Consulte [Descargar Microsoft Forefront Identity Manager 2010 R2 SP1](https://go.microsoft.com/fwlink/p/?linkid=279868).
 

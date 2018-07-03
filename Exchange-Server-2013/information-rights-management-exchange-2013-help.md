@@ -323,7 +323,7 @@ Para implementar IRM en su organización de Exchange 2013, su implementación d
 <tr class="odd">
 <td><p>Clúster de AD RMS</p></td>
 <td><ul>
-<li><p><strong>Sistema operativo</strong>   Se requiere Windows Server 2012, Windows Server 2008 R2 o Windows Server 2008 SP2 con la revisión del <a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=973247">rol de Active Directory Rights Management Services en Windows Server 2008</a>.</p></li>
+<li><p><strong>Sistema operativo</strong>   Se requiere Windows Server 2012, Windows Server 2008 R2 o Windows Server 2008 SP2 con la revisión del <a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=973247">rol de Active Directory Rights Management Services en Windows Server 2008</a>.</p></li>
 <li><p><strong>Punto de conexión de servicio</strong>   Las aplicaciones compatibles con Exchange 2010 y AD RMS usan el punto de conexión de servicio registrado en Active Directory para detectar el clúster de AD RMS y las direcciones URL. AD RMS permite registrar el punto de conexión de servicio desde el programa de instalación de AD RMS. Si la cuenta que se usa para configurar AD RMS no es miembro del grupo de seguridad Administradores de empresas, se puede realizar el registro de punto de conexión de servicio después de completar la instalación. Solamente hay disponible un punto de conexión de servicio para AD RMS en un bosque de Active Directory.</p></li>
 <li><p><strong>Permisos</strong>   Los permisos para leer y ejecutar del canal de certificación del servidor AD RMS (archivo <code>ServerCertification.asmx</code> en los servidores AD RMS) se deben asignar a lo siguiente:</p>
 <ul>
@@ -338,7 +338,7 @@ Para implementar IRM en su organización de Exchange 2013, su implementación d
 <td><p>Exchange</p></td>
 <td><ul>
 <li><p>Se requiere Exchange 2010 o posterior.</p></li>
-<li><p>La revisión <a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=973136">FIX: mensaje de error de excepción ArgumentNullException si una aplicación basada en .NET Framework 2.0 SP2 intenta procesar una respuesta con contenido de longitud cero para una solicitud de servicio Web ASP.NET asincrónico: Se recomienda &quot;El valor no puede ser nulo&quot;</a> para Microsoft .NET Framework 2.0 SP2.</p></li>
+<li><p>La revisión <a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=973136">FIX: mensaje de error de excepción ArgumentNullException si una aplicación basada en .NET Framework 2.0 SP2 intenta procesar una respuesta con contenido de longitud cero para una solicitud de servicio Web ASP.NET asincrónico: Se recomienda &quot;El valor no puede ser nulo&quot;</a> para Microsoft .NET Framework 2.0 SP2.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
