@@ -45,17 +45,13 @@ Ejecute el siguiente comando:
 
 En este ejemplo, se establece la siguiente configuración de registro de agente en el servidor de buzones de correo denominado Mailbox01:
 
-  -  
-    Establece la ubicación de los archivos de registro de agente en D:\\Anti-Spam Agent Log. Tenga en cuenta que si la carpeta no existe, se creará para usted.
+  -  Establece la ubicación de los archivos de registro de agente en D:\\Anti-Spam Agent Log. Tenga en cuenta que si la carpeta no existe, se creará para usted.
 
-  -  
-    Establece el tamaño máximo de un archivo de registro de agente en 20 MB.
+  -  Establece el tamaño máximo de un archivo de registro de agente en 20 MB.
 
-  -  
-    Establece el tamaño máximo del directorio de registro de agente en 400 MB.
+  -  Establece el tamaño máximo del directorio de registro de agente en 400 MB.
 
-  -  
-    Establece la antigüedad máxima de un archivo de registro de agente en 14 días.
+  -  Establece la antigüedad máxima de un archivo de registro de agente en 14 días.
 
 <!-- end list -->
 

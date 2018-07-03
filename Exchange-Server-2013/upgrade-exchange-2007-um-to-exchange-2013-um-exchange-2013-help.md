@@ -520,14 +520,11 @@ Cuando actualiza a la mensajería unificada de Exchange 2013, debe tener previam
 
 El último paso en el proceso de actualizar a mensajería unificada de Exchange 2013 es configurar las puertas de enlace VoIP, IP-PBX o PBX habilitadas para SIP para enviar llamadas entrantes a los servidores de acceso de cliente de Exchange 2013. (Se incluyen autores de llamadas que desean dejar un correo de voz para un usuario, llamadas de usuarios habilitados para mensajería unificada que llaman a Outlook Voice Access y llamadas de personas que llaman a un operador automático de mensajería unificada). Todas estas llamadas son recibidas primero por una puerta de enlace VoIP, IP-PBX o PBX habilitadas para SIP y luego son reenviadas a los servidores de acceso de cliente de Exchange 2013 de la organización de Exchange 2013. Para obtener más información, vea los recursos siguientes:
 
-  -  
-    [Servicios de mensajería unificada](um-services-exchange-2013-help.md)
+  -  [Servicios de mensajería unificada](um-services-exchange-2013-help.md)
 
-  -  
-    [Notas para la configuración de puertas de enlace de VoIP, IP PBX y PBX compatibles](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+  -  [Notas para la configuración de puertas de enlace de VoIP, IP PBX y PBX compatibles](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
 
-  -  
-    [Asesor de telefonía para Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
+  -  [Asesor de telefonía para Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
 
 ## Paso 14: Deshabilitar el contestador automático en un servidor de mensajería unificada de Exchange 2007
 

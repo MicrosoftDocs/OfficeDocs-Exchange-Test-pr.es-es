@@ -19,17 +19,13 @@ _**Última modificación del tema:** 2017-02-23_
 
 Es posible que su organización necesite bloquear o rechazar determinados tipos de mensajes con el fin de cumplir requisitos legales o de cumplimiento normativo, o bien para satisfacer necesidades empresariales específicas. Aquí se incluyen algunos ejemplos de escenarios comunes para el bloqueo de todos los datos adjuntos que puede configurar mediante reglas de transporte en Exchange:
 
-  -  
-    Example 1: Block messages with attachments, and notify the sender
+  -  Example 1: Block messages with attachments, and notify the sender
 
-  -  
-    Example 2: Notify intended recipients when an inbound message is blocked
+  -  Example 2: Notify intended recipients when an inbound message is blocked
 
-  -  
-    Example 3: Modify the subject line for notifications
+  -  Example 3: Modify the subject line for notifications
 
-  -  
-    Example 4: Apply a rule with a time limit
+  -  Example 4: Apply a rule with a time limit
 
 Para obtener más ejemplos de cómo bloquear datos adjuntos concretos, consulte:
 

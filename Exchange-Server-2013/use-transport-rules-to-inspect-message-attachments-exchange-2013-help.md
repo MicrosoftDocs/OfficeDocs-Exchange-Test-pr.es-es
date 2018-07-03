@@ -72,11 +72,9 @@ Puede usar las condiciones de reglas de transporte de la siguiente tabla para ex
 
 Los nombres de Shell de administración de Exchange para las condiciones enumeradas aquí son parámetros que requieren el cmdlet `TransportRule`.
 
-  -  
-    Encontrará más información sobre el cmdlet en [New-TransportRule](https://technet.microsoft.com/es-es/library/bb125138\(v=exchg.150\)).
+  -  Encontrará más información sobre el cmdlet en [New-TransportRule](https://technet.microsoft.com/es-es/library/bb125138\(v=exchg.150\)).
 
-  -  
-    Encontrará más información acerca de los tipos de propiedades de estas condiciones en [Conditions and exceptions for mail flow rules on Mailbox servers](mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md).
+  -  Encontrará más información acerca de los tipos de propiedades de estas condiciones en [Conditions and exceptions for mail flow rules on Mailbox servers](mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md).
 
 Las reglas de transporte sólo pueden inspeccionar el contenido de tipos de archivo admitidos. Si el agente de reglas de transporte se encuentra con datos adjuntos que no aparecen en la lista de tipos de archivo admitidos, se activa la condición `AttachmentIsUnsupported`. Los tipos de archivo admitidos se enumeran en la siguiente sección. Cualquier archivo que no aparezca en la lista activará la condición `AttachmentIsUnsupported`.
 
@@ -213,11 +211,9 @@ Las siguientes condiciones de regla de transporte inspeccionan las propiedades d
 
 Los nombres de Shell de administración de Exchange para las condiciones enumeradas aquí son parámetros que requieren el cmdlet `TransportRule`.
 
-  -  
-    Encontrará más información sobre el cmdlet en [New-TransportRule](https://technet.microsoft.com/es-es/library/bb125138\(v=exchg.150\)).
+  -  Encontrará más información sobre el cmdlet en [New-TransportRule](https://technet.microsoft.com/es-es/library/bb125138\(v=exchg.150\)).
 
-  -  
-    Encontrará más información acerca de los tipos de propiedades de estas condiciones en [Conditions and exceptions for mail flow rules on Mailbox servers](mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md).
+  -  Encontrará más información acerca de los tipos de propiedades de estas condiciones en [Conditions and exceptions for mail flow rules on Mailbox servers](mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md).
 
 ## Tipos de archivo ejecutables admitidos para la inspección de reglas de transporte
 

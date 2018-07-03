@@ -59,14 +59,11 @@ Para configurar S/MIME para Exchange 2013 SP1 o Exchange Online con Outlook Web
 
 Debido al aumento de la importancia de la seguridad de los mensajes, los administradores necesitan comprender los principios y conceptos de la mensajería segura. Esto es especialmente importante por la creciente variedad de nuevas tecnologías relativas a la protección, como S/MIME. Para obtener más información sobre S/MIME y cómo funciona en el contexto del correo electrónico, consulte [Descripción de S/MIME](https://go.microsoft.com/fwlink/?linkid=393948). Diversas tecnologías de cifrado trabajan juntas para proporcionar protección a los mensajes en reposo y en tránsito. S/MIME puede trabajar simultáneamente con las siguientes tecnologías pero no depende de ellas:
 
-  -  
-    **Seguridad de la capa de transporte (TLS)** cifra el túnel o la ruta entre los servidores de correo electrónico para ayudar a evitar exámenes y escuchas no autorizados.
+  -  **Seguridad de la capa de transporte (TLS)** cifra el túnel o la ruta entre los servidores de correo electrónico para ayudar a evitar exámenes y escuchas no autorizados.
 
-  -  
-    **Capa de sockets seguros (SSL)** cifra la conexión entre los clientes de correo electrónico y los servidores de Office 365.
+  -  **Capa de sockets seguros (SSL)** cifra la conexión entre los clientes de correo electrónico y los servidores de Office 365.
 
-  -  
-    **BitLocker** cifra los datos de un disco duro en un centro de datos para que si alguien obtiene acceso no autorizado, no pueda leerlos.
+  -  **BitLocker** cifra los datos de un disco duro en un centro de datos para que si alguien obtiene acceso no autorizado, no pueda leerlos.
 
 ## Comparación de S/MIME con Cifrado de mensajes de Office 365
 
