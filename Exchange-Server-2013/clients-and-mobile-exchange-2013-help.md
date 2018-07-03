@@ -51,7 +51,7 @@ La siguiente tabla contiene vínculos a temas que lo ayudarán a obtener informa
 <td><p>Sepa cómo los usuarios pueden acceder a su correo electrónico de Exchange 2013 mediante programas de correo electrónico que usan POP3 o IMAP4.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://technet.microsoft.com/es-es/library/jj150495(v=exchg.150)">Integración del servidor de Office Web Apps</a></p></td>
+<td><p>Integración del servidor de Office Web Apps</p></td>
 <td><p>Obtenga información acerca de cómo la integración de Microsoft Office Web Apps Server lo ayuda a proporcionar la funcionalidad de vista previa de datos adjuntos enriquecidos en Outlook Web App.</p></td>
 </tr>
 <tr class="odd">
