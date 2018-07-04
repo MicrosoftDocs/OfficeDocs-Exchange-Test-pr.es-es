@@ -19,18 +19,7 @@ _**Última modificación del tema:** 2016-12-09_
 
 Utilice esta lista de verificación para instalar e implementar la mensajería unificada y Microsoft Lync Server 2013. En este tema, "Lync Server" también se refiere a Lync Server 2010. No obstante, también se puede implementar Microsoft Office Communications Server 2007 R2 junto con la mensajería unificada.
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ126608.note(EXCHG.150).gif" title="Nota" alt="Nota" />Nota:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
 
 
 Antes de empezar con la lista de comprobación, debe estar familiarizado con los conceptos que se explican en:

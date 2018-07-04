@@ -77,7 +77,7 @@ No se pueden migrar carpetas públicas directamente desde Exchange 2003. Si su 
 
   - En Exchange 2007, debe tener asignado el rol Administrador de organización de Exchange o Administrador de servidores de Exchange. Asimismo, debe tener asignado el rol de administrador de carpetas públicas y el grupo de administradores locales para el servidor de destino. Para más información, vea [Cómo agregar un usuario o grupo a una función de administrador](https://go.microsoft.com/fwlink/p/?linkid=81779).
 
-  - En el servidor de Exchange 2007, actualice a [Windows PowerShell 2.0 y WinRM 2.0 para Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930).
+  - En el servidor de Exchange 2007, actualice a [Windows PowerShell 2.0 y WinRM 2.0 para Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930).
 
   - Antes de la migración, si el tamaño de alguna de las carpetas públicas de la organización es mayor que 2 GB, recomendamos eliminar el contenido de dicha carpeta o dividirlo en varias carpetas públicas. Si ninguna de estas opciones no es viable, recomendamos que no mueva sus carpetas públicas a Office 365 y Exchange Online.
 
