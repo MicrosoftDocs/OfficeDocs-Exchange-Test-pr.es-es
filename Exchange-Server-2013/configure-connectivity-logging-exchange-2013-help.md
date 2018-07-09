@@ -61,17 +61,13 @@ Para configurar el registro de seguimiento de mensajes, ejecute el comando sigui
 
 Este ejemplo establece la siguiente configuración de registro de conectividad en el servidor de transporte en el servidor de buzones de correo denominado "Mailbox01":
 
-  -  
-    Establece la ubicación de los archivos de registro de conectividad al registro de conectividad D:\\Hub. Tenga en cuenta que si la carpeta no existe, se creará para usted.
+  -  Establece la ubicación de los archivos de registro de conectividad al registro de conectividad D:\\Hub. Tenga en cuenta que si la carpeta no existe, se creará para usted.
 
-  -  
-    Establece el tamaño máximo de un archivo de registro de conectividad a 20 MB.
+  -  Establece el tamaño máximo de un archivo de registro de conectividad a 20 MB.
 
-  -  
-    Establece el tamaño máximo del directorio de registro de conectividad a 1,5 GB.
+  -  Establece el tamaño máximo del directorio de registro de conectividad a 1,5 GB.
 
-  -  
-    La antigüedad máxima de un archivo de registro de conectividad se establece en 45 días.
+  -  La antigüedad máxima de un archivo de registro de conectividad se establece en 45 días.
 
 <!-- end list -->
 

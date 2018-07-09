@@ -47,24 +47,19 @@ Puede incorporar definiciones de contenido confidencial y plantillas de directiv
 
 Puede crear un archivo con la plantilla de la directiva de DLP independiente de Exchange que coincida con la definición del esquema de XML específico proporcionado por Microsoft y luego importar el archivo a su sistema para que pueda crear directivas de DLP a partir de él. Al crear sus propios archivos de plantilla, puede definir su propio modelo de directivas de DLP que Microsoft aun no ha proporcionado. Esto no es lo mismo que crear una directiva de DLP usando el Centro de Administración de Exchange, que usualmente se da luego de que están disponibles las plantillas de la directiva. Si crea una plantilla de directiva independiente de Exchange, deberá importarla antes de poder usarla para examinar mensajes. También puede crear sus propias definiciones de información confidencial independientes de las definidas por Microsoft en Exchange. Hay una definición del esquema de XML separada para los archivos de plantilla de la directiva de DLP y para los paquetes de reglas de clasificación. Para empezar, consulte la siguiente información:
 
-  -  
-    [Definir sus propios tipos de información y plantillas de DLP](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md)
+  -  [Definir sus propios tipos de información y plantillas de DLP](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md)
 
-  -  
-    [Importar una plantilla de directiva DLP personalizada desde un archivo](import-a-custom-dlp-policy-template-from-a-file-exchange-2013-help.md)
+  -  [Importar una plantilla de directiva DLP personalizada desde un archivo](import-a-custom-dlp-policy-template-from-a-file-exchange-2013-help.md)
 
 ## Incluye la funcionalidad DLP con las reglas de transporte vigentes
 
 Puede incorporar capacidades de detección de DLP con reglas de transporte tradicionales sin crear una nueva directiva de DLP. Si usted ha creado un juego complejo de reglas en una versión anterior de Exchange y desea duplicarlas o agregar la detección de información confidencial en Exchange 2013, puede usar el editor de reglas de transporte en el Centro de Administración de Exchange o el Shell de administración de Exchange para incorporar estas características. Para empezar, consulte la siguiente información:
 
-  -  
-    [Reglas de transporte o de flujo de correo](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md) (Exchange Server 2013)
+  -  [Reglas de transporte o de flujo de correo](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md) (Exchange Server 2013)
 
-  -  
-    [Reglas de flujo de correo (reglas de transporte) en Exchange Online](https://technet.microsoft.com/es-es/library/jj919238\(v=exchg.150\)) (Exchange Online)
+  -  [Reglas de flujo de correo (reglas de transporte) en Exchange Online](https://technet.microsoft.com/es-es/library/jj919238\(v=exchg.150\)) (Exchange Online)
 
-  -  
-    [Administrar reglas de flujo de correo](manage-mail-flow-rules-exchange-2013-help.md)
+  -  [Administrar reglas de flujo de correo](manage-mail-flow-rules-exchange-2013-help.md)
     
     [Cmdlets de directiva y conformidad](https://technet.microsoft.com/es-es/library/dd298082\(v=exchg.150\))
 

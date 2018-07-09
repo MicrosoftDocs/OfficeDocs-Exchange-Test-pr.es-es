@@ -61,17 +61,13 @@ Para configurar el seguimiento de mensajes, ejecute el siguiente comando:
 
 En este ejemplo, se establece la siguiente configuración de registro de seguimiento de mensajes en el servidor de buzones denominado Mailbox01:
 
-  -  
-    Establece la ubicación de los archivos de registro de seguimiento de mensajes en D:\\Message Tracking Log. Tenga en cuenta que si la carpeta no existe, se creará para usted.
+  -  Establece la ubicación de los archivos de registro de seguimiento de mensajes en D:\\Message Tracking Log. Tenga en cuenta que si la carpeta no existe, se creará para usted.
 
-  -  
-    Establece el tamaño máximo de un archivo de registro de seguimiento de mensajes en 20 MB.
+  -  Establece el tamaño máximo de un archivo de registro de seguimiento de mensajes en 20 MB.
 
-  -  
-    Establece el tamaño máximo del directorio de registro de seguimiento de mensajes en 1,5 GB.
+  -  Establece el tamaño máximo del directorio de registro de seguimiento de mensajes en 1,5 GB.
 
-  -  
-    Establece la antigüedad máxima de un archivo de registro de seguimiento de mensajes en 45 días.
+  -  Establece la antigüedad máxima de un archivo de registro de seguimiento de mensajes en 45 días.
 
 <!-- end list -->
 
