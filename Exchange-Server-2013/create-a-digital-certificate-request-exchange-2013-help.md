@@ -62,11 +62,13 @@ Si no seleccionó un certificado autofirmado, deberá enviar el archivo de solic
 ## Usar el Shell para crear una nueva solicitud de certificado
 
 Ejecute los siguientes comandos.
-
+  ```
     $reqfile = New-ExchangeCertificate -GenerateRequest -SubjectName "C=US,o=Contoso,cn=contosotocert" -DomainName "contoso.com" -PrivateKeyExportable $true
-
+  ```
+  ```
     $reqfile | out-file c:\certreq.txt
-
+  ```
+  
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Si creó un certificado autofirmado, el certificado creado recientemente aparecerá en la interfaz de usuario de administración de certificados. Si creó una solicitud de certificado a partir de una entidad de certificación, el archivo de solicitud de certificado estará en la ubicación especificada. Envíe este archivo a la entidad de certificación.

@@ -93,15 +93,17 @@ To verify that you’ve successfully created a public folder, do the following:
   - In the EAC, click **Refresh** to refresh the list of public folders. Your new public folder should be displayed in the list.
 
   - In the Shell, run any of the following commands:
-    
+    ```
         Get-PublicFolder -Identity \Marketing\2013\Reports | Format-List
-    
+    ```
+    ```
         Get-PublicFolder -Identity \Marketing\2013 -GetChildren
-    
+    ```
+    ```
         Get-PublicFolder -Recurse
+    ```
 
-
-> [!TIP]
+> [!TIP]  
 > ¿Tiene algún problema? Solicite ayuda en los foros de Exchange. Visite los foros en <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, o <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>.
 
 

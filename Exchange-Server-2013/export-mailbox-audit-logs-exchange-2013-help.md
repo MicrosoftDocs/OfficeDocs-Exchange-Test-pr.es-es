@@ -64,10 +64,12 @@ Para habilitar el registro de auditoría de buzones de correo para un solo buzó
     Set-Mailbox <Identity> -AuditEnabled $true
 
 Para habilitar la auditoría de buzones de correo para todos los buzones de usuarios de la organización, ejecute los siguientes comandos.
-
+```
     $UserMailboxes = Get-mailbox -Filter {(RecipientTypeDetails -eq 'UserMailbox')}
-
+```
+```
     $UserMailboxes | ForEach {Set-Mailbox $_.Identity -AuditEnabled $true}
+```
 
 ## Paso 2: Configuración de Outlook Web App para permitir datos adjuntos de XML
 

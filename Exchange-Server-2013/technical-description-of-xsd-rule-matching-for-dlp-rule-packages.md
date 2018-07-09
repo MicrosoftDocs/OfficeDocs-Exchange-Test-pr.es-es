@@ -224,24 +224,27 @@ El atributo "minMatches" opcional se puede usar (valor predeterminado = 1) para 
     Hacer coincidir un subconjunto exacto de cualquier elemento "Coincidir" secundario
 
 <!-- end list -->
-
+```
     <Any minMatches="3" maxMatches="3">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
         <Match idRef="Name" />
     </Any>
-
+```
+```
     <Any maxMatches="0">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
         <Match idRef="Name" />
     </Any>
-
+```
+```
     <Any minMatches="1" maxMatches="1">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
         <Match idRef="Name" />
     </Any>
+```
 
 ## Aumentar el nivel de confianza con más evidencias
 

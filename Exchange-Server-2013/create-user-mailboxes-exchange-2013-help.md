@@ -122,9 +122,7 @@ También puede crear buzones para los usuarios existentes que tengan una cuenta 
         
         En la lista desplegable, seleccione la directiva que desea asociar con este buzón.
 
-7.  
-    
-    Cuando haya terminado, haga clic en **Guardar** para crear el buzón.
+7.  Cuando haya terminado, haga clic en **Guardar** para crear el buzón.
 
 ## Usar el Shell para crear un buzón de usuario
 

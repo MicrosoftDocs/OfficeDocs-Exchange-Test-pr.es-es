@@ -102,10 +102,12 @@ Para obtener información acerca de cómo crear una directiva de uso compartido,
         Set-SharingPolicy -Identity "Contoso" -Enabled $False
 
   - El primer ejemplo quita la directiva de uso compartido Contoso. El segundo ejemplo quita la directiva de uso compartido Contoso y suprime la confirmación de que desea eliminar la directiva.
-    
+      ```
         Remove-SharingPolicy -Identity Contoso
-    
+      ```
+      ```
         Remove-SharingPolicy -Identity Contoso -Confirm
-
+      ```
+      
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Set-SharingPolicy](https://technet.microsoft.com/es-es/library/dd297931\(v=exchg.150\)) y [Remove-SharingPolicy](https://technet.microsoft.com/es-es/library/dd351071\(v=exchg.150\)).
 

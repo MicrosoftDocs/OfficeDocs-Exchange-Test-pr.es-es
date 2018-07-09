@@ -167,12 +167,15 @@ Volver al principio
 El conmutador *EstimateOnly* sirve únicamente para obtener una estimación de los resultados, no para copiarlos en un buzón de detección. Se debe iniciar una búsqueda de solo estimación con el cmdlet **Start-MailboxSearch**. A continuación, puede recuperar los resultados de búsqueda estimados mediante el cmdlet **Get-MailboxSearch**.
 
 Así, por ejemplo, para crear una búsqueda de exhibición de documentos electrónicos y, luego, ver una estimación de los resultados, ejecutaríamos los siguientes comandos:
-
+```
     New-MailboxSearch "FY13 Q2 Financial Results" -StartDate "04/01/2013" -EndDate "06/30/2013" -SourceMailboxes "DG-Finance" -SearchQuery '"Financial" AND "Fabrikam"' -EstimateOnly -IncludeKeywordStatistics
-
+```
+```
     Start-MailboxSearch "FY13 Q2 Financial Results"
-
+```
+```
     Get-MailboxSearch "FY13 Q2 Financial Results"
+```
 
 Para ver información concreta sobre los resultados de búsqueda estimados del ejemplo anterior, ejecutaríamos el siguiente comando:
 

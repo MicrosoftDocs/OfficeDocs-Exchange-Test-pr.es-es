@@ -51,9 +51,7 @@ Puede usar el Centro de administración de Exchange o el Shell para configurar l
 
 2.  Seleccione el DAG que desea configurar y haga clic en ![Icono Editar](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icono Editar").
 
-3.  
-    
-    Use la página **General** para ver el estado operativo y la pertenencia del DAG y para configurar el servidor testigo del DAG, el directorio testigo y la configuración de red automática:
+3.  Use la página **General** para ver el estado operativo y la pertenencia del DAG y para configurar el servidor testigo del DAG, el directorio testigo y la configuración de red automática:
     
       - **Servidor testigo**   El nombre del host o el nombre de dominio completo (FQDN) del servidor testigo para el DAG. Aunque esta propiedad es necesaria para todos los DAG, el servidor testigo se usa cuando hay un número par de miembros de DAG y el modelo de quórum que usa el clúster sea Mayoría de recurso compartido de archivos y nodo.
     
@@ -63,9 +61,7 @@ Puede usar el Centro de administración de Exchange o el Shell para configurar l
     
       - **Configurar la red de grupos de base de datos manualmente**   Una casilla que se selecciona si se desea configurar todas las redes de DAG manualmente. Cuando se deja la casilla sin seleccionar, el sistema configura las redes de DAG automáticamente según la configuración de la interfaz de la red. Si la casilla está sin seleccionar, los cmdlets **Set-DatabaseAvailabilityGroupNetwork** y **New-DatabaseAvailabilityGroupNetwork** se deshabilitan para el uso administrativo en el DAG.
 
-4.  
-    
-    Use la página **Direcciones IP** para ver y modificar las direcciones IP asignadas al DAG:
+4.  Use la página **Direcciones IP** para ver y modificar las direcciones IP asignadas al DAG:
     
       - Seleccione una dirección IP existente y haga clic en ![Icono Editar](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icono Editar") para modificarla.
     
@@ -73,9 +69,7 @@ Puede usar el Centro de administración de Exchange o el Shell para configurar l
     
       - Escriba una dirección IP y haga clic en el icono ![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono") para agregarla al DAG.
 
-5.  
-    
-    Haga clic en **Guardar** para guardar los cambios realizados.
+5.  Haga clic en **Guardar** para guardar los cambios realizados.
 
 ## Usar el Shell para configurar las propiedades del grupo de disponibilidad de base de datos
 

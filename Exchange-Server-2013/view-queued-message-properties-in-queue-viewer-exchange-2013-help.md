@@ -49,9 +49,7 @@ El Visor de cola se utiliza en el cuadro de herramientas de Exchange para ver la
 
 4.  Haga clic con el botón secundario del mouse en las propiedades que desea ver y, a continuación, seleccione **Propiedades**.
 
-5.  
-    
-    La ficha **General** muestra la siguiente información detallada acerca del mensaje:
+5.  La ficha **General** muestra la siguiente información detallada acerca del mensaje:
     
       - **Identidad**   Este campo muestra el entero que representa un mensaje en particular. La base de datos de cola asigna la identidad del mensaje cuando éste se recibe para su procesamiento. Puede incluir una identidad de servidor y de cola opcionales para identificar una copia única del mensaje.
     
@@ -95,9 +93,7 @@ El Visor de cola se utiliza en el cuadro de herramientas de Exchange para ver la
     
       - **Número de reintentos**   Este campo muestra el número de veces que se ha intentado entregar un mensaje a un destino.
 
-6.  
-    
-    La ficha **Información de los destinatarios** muestra la siguiente información acerca de los destinatarios del mensaje:
+6.  La ficha **Información de los destinatarios** muestra la siguiente información acerca de los destinatarios del mensaje:
     
       - **Dirección**   Este campo muestra la dirección SMTP del destinatario del mensaje. Este valor se obtiene de `RCPT TO:` en el sobre del mensaje.
     

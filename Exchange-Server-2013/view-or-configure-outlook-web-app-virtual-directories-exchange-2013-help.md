@@ -61,9 +61,7 @@ Si utiliza el EAC para ver las propiedades de un directorio virtual de Outlook W
 
 2.  En el panel de resultados, haga clic para seleccionar el directorio virtual que desea ver o editar y, a continuación, haga clic en **Editar**.
 
-3.  
-    
-    En la ficha **General**, puede ver las propiedades del sitio web predeterminado de Outlook Web App y especificar una URL externa y una URL interna. Vea o seleccione las opciones siguientes:
+3.  En la ficha **General**, puede ver las propiedades del sitio web predeterminado de Outlook Web App y especificar una URL externa y una URL interna. Vea o seleccione las opciones siguientes:
     
       - **Servidor**   (Sólo lectura.) **Servidor** muestra el nombre del servidor host del directorio virtual de Outlook Web App.
     
@@ -79,9 +77,7 @@ Si utiliza el EAC para ver las propiedades de un directorio virtual de Outlook W
     
       - **URL externa**   En este cuadro de texto, especifique la dirección URL utilizada para obtener acceso al sitio web desde Internet. De manera predeterminada, la **URL externa** está en blanco. Para servidores de acceso de cliente abierto a Internet, la **URL externa** se debe establecer con el valor publicado en DNS para ese sitio de Active Directory. Para los servidores de Exchange 2013 que no tengan presencia en Internet, la configuración **URL externa** debe dejarse en blanco.
 
-4.  
-    
-    En la ficha **Autenticación**, especifique métodos de autenticación, el formato de inicio de sesión y el dominio de inicio de sesión.
+4.  En la ficha **Autenticación**, especifique métodos de autenticación, el formato de inicio de sesión y el dominio de inicio de sesión.
     
       - **Usar uno o varios métodos de autenticación estándar**   Seleccione esta opción para usar uno o varios de los siguientes métodos de autenticación estándar:
         
@@ -106,9 +102,7 @@ Si utiliza el EAC para ver las propiedades de un directorio virtual de Outlook W
         
         **Solo nombre de usuario** El usuario únicamente especifica el nombre de usuario, sin el nombre de dominio; por ejemplo, Kweku. Si usa la solicitud de inicio de sesión **Solo nombre de usuario** para la autenticación basada en formularios, también debe especificar la propiedad **Dominio de inicio de sesión**. La propiedad **Dominio de inicio de sesión** determina el dominio predeterminado que se usará cuando un usuario intente iniciar sesión en Outlook Web App. Por ejemplo, si el dominio predeterminado es Contoso y un usuario del dominio llamado Kweku inicia sesión en Outlook Web App, solo es necesario escribir Kweku como nombre de usuario. El servidor utilizará el dominio predeterminado Contoso. Si el usuario no es miembro del dominio Contoso, será necesario escribir el nombre de usuario y el dominio.
 
-5.  
-    
-    En la ficha **Características**, especifique las características que desea habilitar o deshabilitar para los usuarios de Outlook Web App en un directorio virtual.
+5.  En la ficha **Características**, especifique las características que desea habilitar o deshabilitar para los usuarios de Outlook Web App en un directorio virtual.
     
 
     > [!NOTE]
@@ -123,9 +117,7 @@ Si utiliza el EAC para ver las propiedades de un directorio virtual de Outlook W
 
 
 
-6.  
-    
-    En la ficha **Acceso a los archivos**, utilice las casillas para configurar el acceso a archivos y ver las opciones de los usuarios. El acceso a archivos permite que un usuario abra o vea el contenido de los archivos adjuntos a un correo electrónico.
+6.  En la ficha **Acceso a los archivos**, utilice las casillas para configurar el acceso a archivos y ver las opciones de los usuarios. El acceso a archivos permite que un usuario abra o vea el contenido de los archivos adjuntos a un correo electrónico.
     
     El acceso a archivos se puede controlar en función de si el usuario inició sesión en un equipo público o privado. La opción para que los usuarios seleccionen el acceso al equipo privado o público están disponibles únicamente al utilizar la autenticación basada en formularios. El resto de formas de autenticación están establecidas de forma predeterminada en el acceso mediante equipo privado.
     

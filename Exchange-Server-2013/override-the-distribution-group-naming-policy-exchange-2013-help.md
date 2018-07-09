@@ -68,10 +68,12 @@ Por ejemplo, supongamos que crea la directiva de nomenclatura de grupos a últim
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar si ha logrado crear o cambiar el nombre de un grupo de distribución que omitirá la directiva de nombramiento del grupo, ejecute los siguientes comandos.
-
+```
     Get-DistributionGroup <Name> | FL DisplayName
-
+```
+```
     Get-OrganizationConfig | FL DistributionGroupNamingPolicy
+```
 
 Sabrá si ha funcionado cuando el formato del nombre para mostrar del grupo sea distinto al que su organización aplica en la directiva de nomenclatura de grupo.
 

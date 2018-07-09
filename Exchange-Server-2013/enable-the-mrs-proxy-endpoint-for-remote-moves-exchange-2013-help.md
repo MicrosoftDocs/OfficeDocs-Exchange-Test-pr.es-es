@@ -100,10 +100,12 @@ Compruebe que el parámetro *MRSProxyEnabled* esté establecido en `True`.
 Otra forma de comprobar que el extremo de proxy MRS está habilitado consiste en utilizar el cmdlet **Test-MigrationServerAvailability** para probar la capacidad de comunicación con el servidor remoto que hospeda los buzones de correo que desea mover o, en el caso de exteriorizar buzones de correo de Exchange Online a su organización local, un servidor de su organización local. Para obtener más información, consulte [Test-MigrationServerAvailability](https://technet.microsoft.com/es-es/library/jj219169\(v=exchg.150\)).
 
 En el siguiente ejemplo se muestra la conexión a un servidor en el bosque corp.contoso.com.
-
+```
     $Credentials = Get-Credential
-
+```
+```
     Test-MigrationServerAvailability -ExchangeRemoteMove -Autodiscover -EmailAddress administrator@corp.contoso.com -Credentials $Credentials
+```
 
 Para ejecutar este comando correctamente, el extremo de proxy MRS debe estar habilitado.
 

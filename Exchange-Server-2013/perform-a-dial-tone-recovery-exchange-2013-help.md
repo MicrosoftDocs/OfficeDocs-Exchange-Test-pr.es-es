@@ -85,11 +85,13 @@ Con el uso de la portabilidad del tono de marcado, los usuarios pueden tener un 
         Mount-Database -Identity RDB1
 
 13. Use los cmdlet [Get-Mailbox](https://technet.microsoft.com/es-es/library/bb123685\(v=exchg.150\)) y [New-MailboxRestoreRequest](https://technet.microsoft.com/es-es/library/ff829875\(v=exchg.150\)) para exportar los datos de la RDB e importarlos en la base de datos recuperada, como se muestra en este ejemplo. Esto importará todos los mensajes enviados y recibidos con la base de datos de tono de marcado a la base de datos de producción.
-    
+    ```
         $mailboxes = Get-Mailbox -Database DTDB1
-    
+    ```
+    ```
         $mailboxes | %{ New-MailboxRestoreRequest -SourceStoreMailbox $_.ExchangeGuid -SourceDatabase RDB1 -TargetMailbox $_ }
-
+    ```
+    
 14. Después de finalizar la operación de restauración, puede desmotar y quitar la RDB, como se muestra en este ejemplo.
     
         Dismount-Database -Identity RDB1

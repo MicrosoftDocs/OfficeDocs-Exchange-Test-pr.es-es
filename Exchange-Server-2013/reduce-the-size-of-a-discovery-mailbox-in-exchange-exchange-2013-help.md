@@ -111,11 +111,13 @@ El paso siguiente permite usar el cmdlet **New-MailboxSearch** para copiar los r
 4.  Cuando finalice las pruebas de la búsqueda, copie los resultados de la búsqueda en el buzón de correo de detección de destino desde el Shell o el EAC.
     
       - **Desde el Shell:**  ejecute los comandos siguientes para copiar los resultados de la búsqueda. Antes de hacerlo, debe quitar el modificador *EstimateOnly*.
-        
+        ```
             Set-MailboxSearch "Search results from 2010" -EstimateOnly $false
-        
+        ```
+        ```
             Start-MailboxSearch "Search results from 2010"
-    
+        ```
+        
       - **Desde el EAC:**  vaya a **Administración de cumplimiento** \> **eDiscovery y retención local**. Seleccione la búsqueda y haga clic en **Buscar**![icono de Buscar](images/Dn750895.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "icono de Buscar") y en **Copiar resultados de búsqueda**.
     
     Para más información, vea [Copiar los resultados de la búsqueda de exhibición de documentos electrónicos en un buzón de correo de detección](copy-ediscovery-search-results-to-a-discovery-mailbox-exchange-2013-help.md).

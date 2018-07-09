@@ -47,9 +47,7 @@ Para otras tareas de administración relacionadas con puertas de enlace IP de me
 
 1.  En el EAC, vaya a **Mensajería unificada** \> **Puertas de enlace IP de mensajería unificada**. En la vista de lista, seleccione la puerta de enlace IP de mensajería unificada que desee administrar y, a continuación, haga clic en **Editar**![Icono Editar](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icono Editar").
 
-2.  
-    
-    Use la página **Puerta de enlace IP de la mensajería unificada** para ver y configurar las opciones de la puerta de enlace IP de mensajería unificada. Se pueden ver o configurar las siguientes opciones:
+2.  Use la página **Puerta de enlace IP de la mensajería unificada** para ver y configurar las opciones de la puerta de enlace IP de mensajería unificada. Se pueden ver o configurar las siguientes opciones:
     
       - **Estado**   Este campo de sólo lectura muestra el estado de la puerta de enlace IP de MU.
     

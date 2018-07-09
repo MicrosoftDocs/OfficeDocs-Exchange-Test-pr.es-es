@@ -78,11 +78,13 @@ En este ejemplo se realiza lo siguiente:
 3.  Transforma el certificado en un archivo una vez especificados el nombre de usuario y la contraseña.
 
 <!-- end list -->
-
+  ```
     $file = Get-ExchangeCertificate -DomainName umcorp.northwindtraders.com | Export-ExchangeCertificate -BinaryEncoded:$true -Password (Get-Credential).password
-
+  ```
+  ```
     Set-Content -Path "d:\umcerts\selfsigned.pfx" -Value $file.FileData =Encoding Byte
-
+  ```
+  
 ## Usar el EAC para importar un certificado
 
 1.  En el EAC, haga clic en **Servidores** \> **Certificados** \> **Más opciones**![Icono Más opciones](images/JJ150550.5381819e-3b21-4873-8714-e9b956290b28(EXCHG.150).gif "Icono Más opciones") y, a continuación, haga clic en **Importar certificado de Exchange**.

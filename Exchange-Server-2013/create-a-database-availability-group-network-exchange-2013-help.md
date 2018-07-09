@@ -47,9 +47,7 @@ Si es necesario, puede crear redes adicionales para su uso en un grupo de dispon
 
 2.  Seleccione el DAG que desea configurar y, a continuación, haga clic en ![Agregar red de DAG](images/Dd298051.befcdc4e-7f7a-451d-a0a8-608c79f5d186(EXCHG.150).gif "Agregar red de DAG").
 
-3.  
-    
-    En la página **nueva red de grupo de disponibilidad de base de datos**, especifique la siguiente información:
+3.  En la página **nueva red de grupo de disponibilidad de base de datos**, especifique la siguiente información:
     
       - **Nombre de la red del grupo de disponibilidad de base de datos**   Use este campo para escribir un nombre que sea único en el DAG.
     

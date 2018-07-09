@@ -65,9 +65,7 @@ Un grupo de disponibilidad de base de datos (DAG) es un conjunto de hasta 16 ser
 
 2.  Haga clic en ![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono") para crear un DAG.
 
-3.  
-    
-    En la página **Nuevo grupo de disponibilidad de base de datos**, proporcione la información siguiente para el DAG:
+3.  En la página **Nuevo grupo de disponibilidad de base de datos**, proporcione la información siguiente para el DAG:
     
       - **Nombre de grupo de disponibilidad de base de datos**   Use este campo para asignar un nombre exclusivo válido al DAG. Debe tener 15 caracteres como máximo. El nombre equivale a un nombre de equipo y el correspondiente CNO se creará con ese nombre en Active Directory. Este nombre será tanto el nombre del DAG como el nombre del clúster subyacente.
     

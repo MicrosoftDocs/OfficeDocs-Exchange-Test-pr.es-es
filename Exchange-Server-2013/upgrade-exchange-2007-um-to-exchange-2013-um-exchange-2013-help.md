@@ -338,9 +338,7 @@ En implementaciones más pequeñas, es posible que solo desee implementar la men
 
 Si es necesario, puede crear un operador automático de mensajería unificada con el EAC de la siguiente manera:
 
-1.  
-    
-    En el EAC, vaya a **Mensajería unificada** \> **Planes de marcado de mensajería unificada**. Seleccione el plan de marcado de mensajería unificada en el que desea configurar el operador automático y, a continuación, haga clic en **Editar**![Icono Editar](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icono Editar").
+1.  En el EAC, vaya a **Mensajería unificada** \> **Planes de marcado de mensajería unificada**. Seleccione el plan de marcado de mensajería unificada en el que desea configurar el operador automático y, a continuación, haga clic en **Editar**![Icono Editar](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icono Editar").
 
 2.  En la página **Plan de marcado de mensajería unificada**, en **Operadores automáticos de mensajería unificada**, haga clic en **Agregar**![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono").
 

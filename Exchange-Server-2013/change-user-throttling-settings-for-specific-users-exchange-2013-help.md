@@ -50,10 +50,12 @@ En este ejemplo, se asocia un usuario con el nombre de usuario tonysmith a la di
     Set-ThrottlingPolicyAssociation -Identity tonysmith -ThrottlingPolicy ITStaffPolicy
 
 No necesita utilizar el cmdlet **Set-ThrottlingPolicyAssociation** para asociar al usuario con una directiva. Los comandos siguientes muestran otra manera de asociar tonysmith a la directiva de limitación ITStaffPolicy.
-
+```
     $b = Get-ThrottlingPolicy ITStaffPolicy
-
+```
+```
     Set-Mailbox -Identity tonysmith -ThrottlingPolicy $b
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [New-ThrottlingPolicy](https://technet.microsoft.com/es-es/library/dd351045\(v=exchg.150\)) y [Set-ThrottlingPolicyAssociation](https://technet.microsoft.com/es-es/library/ff459231\(v=exchg.150\)).
 

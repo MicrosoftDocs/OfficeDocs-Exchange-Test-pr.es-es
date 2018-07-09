@@ -146,10 +146,12 @@ Puede usar una regla personalizada que defina un patrón sin pruebas adicionales
 ```
 
 La ilustración de las tarjetas de crédito de este artículo se puede hacer extensible a otras reglas de información confidencial. Para ver la lista completa de reglas proporcionadas por Microsoft en Exchange, use el cmdlet [Get-ClassificationRuleCollection](https://technet.microsoft.com/es-es/library/jj218696\(v=exchg.150\)) en el Shell de administración de Exchange de la siguiente forma:
-
+```
     $rule_collection = Get-ClassificationRuleCollection
-
+```
+```
     $rule_collection[0].SerializedClassificationRuleCollection | Set-Content oob_classifications.xml -Encoding byte
+```
 
 ## Más información
 

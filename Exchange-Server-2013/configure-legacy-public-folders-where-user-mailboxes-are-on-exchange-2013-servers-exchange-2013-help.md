@@ -56,11 +56,13 @@ Los usuarios cuyos buzones se encuentran en 2013 de Exchange Server o Exchange S
 
 
 3.  Cree un buzón proxy en la nueva base de datos de buzones de correo y ocúltelo de la libreta de direcciones. La detección automática devolverá el SMTP de este buzón de correo como *DefaultPublicFolderMailbox* SMTP, de modo que al resolver este SMTP, el cliente podrá llegar al servidor Exchange heredado para el acceso a carpetas públicas.
-    
+    ```
         New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
-    
+    ```
+    ```
         Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
-
+    ```
+    
 4.  Para Exchange 2010, habilite la detección automática para devolver los buzones proxy de carpetas públicas. Este paso no es necesario para Exchange 2007.
     
         Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>

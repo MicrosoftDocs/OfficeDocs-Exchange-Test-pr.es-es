@@ -88,14 +88,17 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 **Uso del Shell**
 
 Ejecute los siguientes comandos para detener y deshabilitar el servicio de búsqueda de Microsoft Exchange.
-
+```
     Stop-Service MSExchangeFastSearch
-
+```
+```
     Set-Service MSExchangeFastSearch -StartupType Disabled
+```
 
 Ejecute los siguientes comandos para configurar el servicio de búsqueda de Exchange para que se inicie automáticamente y luego inicie el servicio.
-
+```
     Set-Service MSExchangeFastSearch -StartupType Automatic
-
+```
+```
     Start-Service MSExchangeFastSearch
-
+```

@@ -51,9 +51,7 @@ A diferencia de los grupos de distribución regular, que contienen un conjunto d
 
 1.  En el Centro de administración de Exchange (EAC), navegue hasta **Destinatarios**  \> **Grupos** \> **Nuevo** \> **Grupo de distribución dinámico**.
 
-2.  
-    
-    En la página **Nuevo grupo de distribución dinámico**, complete los siguientes cuadros:
+2.  En la página **Nuevo grupo de distribución dinámico**, complete los siguientes cuadros:
     
       - **\* Nombre para mostrar** Utilice este cuadro para introducir el nombre para mostrar. Este nombre aparece en la libreta de direcciones compartida, en las líneas Para: cuando se envía un correo electrónico a este grupo, y en la lista Grupos en el EAC. El nombre para mostrar es obligatorio y debe ser sencillo para que los usuarios puedan identificarlo. También deben ser únicos en el bosque.
         
@@ -72,9 +70,7 @@ A diferencia de los grupos de distribución regular, que contienen un conjunto d
     
       - **Propietario** Es opcional introducir un propietario de un grupo de distribución dinámico. Puede agregar propietarios haciendo clic en **Explorar** y, a continuación, seleccionando los usuarios de la lista.
 
-3.  
-    
-    Utilice la sección **Miembros** para especificar los tipos de destinatarios del grupo y configurar las reglas que determinarán la pertenencia. Seleccione uno de los siguientes cuadros:
+3.  Utilice la sección **Miembros** para especificar los tipos de destinatarios del grupo y configurar las reglas que determinarán la pertenencia. Seleccione uno de los siguientes cuadros:
     
       - **Todos los tipos de destinatarios**   Elija esta opción para enviar mensajes que cumplan con los criterios definidos para este grupo a todos los tipos de destinatarios.
     
@@ -90,9 +86,7 @@ A diferencia de los grupos de distribución regular, que contienen un conjunto d
         
           - **Grupos habilitados para correo**   Active esta casilla si desea incluir los grupos de seguridad o de distribución habilitados para correo. Los grupos con correo habilitado son similares a los grupos de distribución. Los mensajes de correo electrónico enviados a las cuentas de dichos grupos se entregarán a varios destinatarios.
 
-4.  
-    
-    Haga clic en **Agregar una regla** para definir los criterios de pertenencia de este grupo.
+4. Haga clic en **Agregar una regla** para definir los criterios de pertenencia de este grupo.
 
 5.  Seleccione uno de los siguientes atributos de destinatario en la lista desplegable y añádale un valor. Si el valor del atributo seleccionado coincide con el valor definido, el destinatario recibirá un mensaje enviado a este grupo.
     

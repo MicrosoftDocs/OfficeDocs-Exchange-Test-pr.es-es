@@ -48,10 +48,12 @@ Por ejemplo, para habilitar la auditoría de buzones de correo de un usuario que
     Set-Mailbox "Florence Flipo" -AuditEnabled $true
 
 Para habilitar la auditoría de buzones de correo para todos los buzones de la organización, ejecute los siguientes comandos.
-
+```
     $UserMailboxes = Get-mailbox -Filter {(RecipientTypeDetails -eq 'UserMailbox')}
-
+```
+```
     $UserMailboxes | ForEach {Set-Mailbox $_.Identity -AuditEnabled $true}
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

@@ -138,12 +138,15 @@ Use el siguiente comando para deshabilitar buzones de correo de usuario, buzones
 Cuando ejecute este comando, aparecerá un mensaje que le solicitará que confirme que desea deshabilitar el buzón de correo.
 
 A continuación, se muestran algunos ejemplos de comandos para deshabilitar buzones de correo.
-
+```
     Disable-Mailbox danj
-
+```
+```
     Disable-Mailbox "Conf Room 31/1234 (12)"
-
+```
+```
     Disable-Mailbox sharedmbx@contoso.com
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -196,12 +199,15 @@ Use el siguiente comando para eliminar buzones de correo de usuario, buzones vin
 Cuando ejecute este comando, aparecerá un mensaje que le solicitará que confirme que desea eliminar el buzón de correo y la cuenta de usuario de Active Directory correspondiente.
 
 A continuación, se muestran algunos ejemplos de comandos para eliminar buzones de correo.
-
+```
     Remove-Mailbox pilarp@contoso.com
-
+```
+```
     Remove-Mailbox "Fleet Van (16)"
-
+```
+```
     Remove-Mailbox corpprint
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
