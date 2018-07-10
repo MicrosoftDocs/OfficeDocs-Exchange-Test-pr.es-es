@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2014-09-17_
+_**Última modificación del tema:** 2014-09-17_
 
 Puede probar el funcionamiento de Mensajería unificada (UM) y los equipos de telefonía relacionados que estén conectados. Al realizar el siguiente procedimiento, el servidor de acceso de cliente y de buzones comprueba el funcionamiento de un extremo a otro del sistema de correo de voz. Esto incluye los componentes de telefonía conectados a los servidores de acceso de cliente y de buzones, incluidas las puertas de enlace VoIP, las centrales de conmutación (PBX), las PBX IP y el cableado.
 

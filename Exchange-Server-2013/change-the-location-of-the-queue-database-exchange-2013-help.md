@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Una *cola* es una ubicación temporal para hospedar mensajes que esperan a entrar en la próxima etapa de procesamiento. Cada cola representa un conjunto lógico de mensajes que procesa el servidor de transporte en un orden específico.
 

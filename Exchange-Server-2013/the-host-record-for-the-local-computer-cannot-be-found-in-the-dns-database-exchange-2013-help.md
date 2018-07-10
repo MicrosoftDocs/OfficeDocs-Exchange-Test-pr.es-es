@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 No se puede continuar con la instalación de Microsoft Exchange Server 2013 porque no se encuentra el registro host (A) de este PC en la base de datos Sistema de nombres de dominio (DNS).
 

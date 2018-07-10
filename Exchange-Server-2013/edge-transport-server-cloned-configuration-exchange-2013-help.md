@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Los servidores de transporte perimetral almacenan su información de configuración en Active Directory Lightweight Directory Services (AD LDS). Puede instalar más de un servidor de transporte perimetral en la red perimetral y usar un round robin de DNS para ayudar a equilibrar el tráfico de red entre los servidores de transporte perimetral. Round robin es un sencillo mecanismo usado por los servidores DNS para compartir y distribuir cargas de los recursos de red.
 

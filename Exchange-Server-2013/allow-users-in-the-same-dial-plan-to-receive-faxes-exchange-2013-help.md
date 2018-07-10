@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Puede permitir que todos los usuarios vinculados a un plan de marcado de mensajería unificada reciban mensajes de faxes en sus buzones de correo. Los usuarios habilitados para mensajería unificada que están vinculados a un plan de marcado de mensajería unificada pueden recibir mensajes de fax de manera predeterminada. Para permitir que los usuarios con mensajería unificada habilitada reciban mensajes de fax en sus buzones de correo, el plan de marcado se debe configurar para aceptar llamadas de fax entrantes. También debe habilitar los faxes en la directiva de buzones de correo de mensajería unificada y para el usuario. El envío de faxes está habilitado de forma predeterminada en los planes de marcado, en las directivas de buzones de correo de mensajería unificada y para los usuarios. No obstante, a veces puede que esta configuración predeterminada haya cambiado y que los usuarios habilitados para mensajería unificada no puedan recibirlos.
 

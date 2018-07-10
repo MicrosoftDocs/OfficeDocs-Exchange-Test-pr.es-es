@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Los registros de llamadas del usuario se usan para ver la siguiente información acerca de determinados usuarios de mensajería unificada:
 

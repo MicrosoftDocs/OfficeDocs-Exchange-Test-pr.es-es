@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La función de administración de `Exchange Virtual Directories` permite que los administradores se encarguen de Microsoft Office Outlook Web App, Microsoft ActiveSync, libretas de direcciones sin conexión (OAB), la detección automática, Windows PowerShell y los directorios virtuales de interfaces de administración web en servidores individuales.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-12-09_
+_**Última modificación del tema:** 2012-12-09_
 
 Puede habilitar o deshabilitar las notificaciones de llamadas perdidas en una directiva de buzones de correo de mensajería unificada mediante el Shell o el EAC. Una notificación de llamada perdida es un mensaje de correo electrónico que se envía a un usuario cuando este no responde a una llamada entrante y el autor de la llamada no deja un mensaje de voz. Se trata de un mensaje de correo electrónico diferente al mensaje que contiene el mensaje de voz que se deja para un usuario.
 

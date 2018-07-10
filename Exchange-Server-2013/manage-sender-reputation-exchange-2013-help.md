@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 La reputación del remitente es proporcionada por el agente de análisis del protocolo. La reputación del remitente bloquea los mensajes según diversas características del remitente. La reputación del remitente depende de datos que se conserven de él para decidir la acción que efectuar con el mensaje entrante, si se debe realizar alguna.
 

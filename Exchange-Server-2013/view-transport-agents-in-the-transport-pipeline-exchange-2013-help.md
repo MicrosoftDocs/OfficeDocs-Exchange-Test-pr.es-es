@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 Puede usar el Shell de administración de Exchange para ver una lista de los agentes de transporte en la canalización de transporte de los servidores de buzones de correo y servidores de acceso de cliente de Microsoft Exchange Server 2013. De manera específica, el cmdlet **Get-TransportPipeline** muestra información sobre los siguientes tipos de agente de transporte en la canalización de transporte:
 

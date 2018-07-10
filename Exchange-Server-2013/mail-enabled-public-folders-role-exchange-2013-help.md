@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La función de administración `Mail Enabled Public Folders` permite que los administradores configuren las carpetas públicas individuales de una organización como habilitadas para correo o deshabilitadas para correo.
 

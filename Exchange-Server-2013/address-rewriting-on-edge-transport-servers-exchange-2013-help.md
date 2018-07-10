@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La reconfiguración de direcciones modifica las direcciones de correo electrónico de los remitentes y destinatarios en los mensajes que entran o salen de la organización a través de un servidor Transporte perimetral. Dos agentes de transporte en el servidor Transporte perimetral proporcionan la funcionalidad de reconfiguración: el agente de reconfiguración de direcciones en entrada y agente de reconfiguración de direcciones en salida. El objetivo principal de la reconfiguración de direcciones en mensajes salientes es presentar un dominio de correo electrónico único y coherente a los destinatarios externos. El objetivo principal de la reconfiguración de direcciones en mensajes entrantes es entregar los mensajes al destinatario correcto.
 

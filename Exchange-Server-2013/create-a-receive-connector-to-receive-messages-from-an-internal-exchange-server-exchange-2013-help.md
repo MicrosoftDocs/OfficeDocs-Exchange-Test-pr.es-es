@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 Los conectores de recepción de tipo **Interno** se crean cuando desea recibir correo de un servidor Exchange. Utilice este tipo de conector para controlar el enrutamiento de correo dentro de su organización: por ejemplo, cuando desee enrutar correo del servicio de transporte de un servidor de buzones a un servidor de transporte perimetral específico o de un servidor de buzones a otro.
 

@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Los usuarios de correo son similares a los contactos de correo. Ambos tienen direcciones de correo electrónico externas y contienen información acerca de personas no pertenecientes a la organización de Exchange o de Exchange Online que se puede mostrar en la libreta de direcciones compartida y en otras listas de direcciones. No obstante, a diferencia de un contacto de correo, un usuario de correo tiene credenciales de inicio de sesión de la organización de Exchange o de Office 365 y puede tener acceso a los recursos. Para obtener más información, consulte [Destinatarios](recipients-exchange-2013-help.md).
 
@@ -43,7 +43,7 @@ Los usuarios de correo son similares a los contactos de correo. Ambos tienen dir
 
 1.  En el EAC, vaya a **Destinatarios**  \> **Contactos** \> **Nuevo** \> **Usuario de correo**.
 
-2.  En la página **Nuevo usuario de correo**, en el cuadro **\* Alias**, escriba el alias para el usuario de correo. El alias no puede superar 64 caracteres y debe ser único en el bosque. Este cuadro es obligatorio.
+2.  En la página **Nuevo usuario de correo**, en el cuadro \* **Alias**, escriba el alias para el usuario de correo. El alias no puede superar 64 caracteres y debe ser único en el bosque. Este cuadro es obligatorio.
 
 3.  Realice uno de lo siguiente para especificar el tipo de dirección de correo electrónico para el usuario de correo:
     
@@ -56,11 +56,9 @@ Los usuarios de correo son similares a los contactos de correo. Ambos tienen dir
     
       - Para especificar un tipo de dirección personalizada, haga clic en el botón de opción y luego escriba el tipo de dirección personalizada. Por ejemplo, puede especificar una dirección X.500, GroupWise o Lotus Notes.
 
-4.  En el cuadro **\* Dirección de correo electrónico externa**, escriba la dirección de correo electrónico externa del usuario de correo. El correo electrónico que se envíe a este usuario de correo electrónico se reenviará a esta dirección de correo electrónico. Este cuadro es obligatorio.
+4.  En el cuadro \* **Dirección de correo electrónico externa**, escriba la dirección de correo electrónico externa del usuario de correo. El correo electrónico que se envíe a este usuario de correo electrónico se reenviará a esta dirección de correo electrónico. Este cuadro es obligatorio.
 
-5.  
-    
-    Seleccione una de las opciones para:
+5.  Seleccione una de las opciones para:
     
       - **Usuario existente**   Seleccione esta opción para habilitar el correo de un usuario existente.
         
@@ -68,9 +66,7 @@ Los usuarios de correo son similares a los contactos de correo. Ambos tienen dir
     
       - **Nuevo usuario**   Seleccione esta opción para crear una nueva cuenta del usuario en Active Directory y habilitar para correo al usuario. Si selecciona esta opción, tendrá que proporcionar la información de la cuenta del usuario que se requiera.
 
-6.  
-    
-    Si seleccionó **Nuevo usuario** en el paso 5, complete los siguientes cuadros en la página **Nuevo usuario de correo**. De lo contrario, vaya al Paso 7.
+6.  Si seleccionó **Nuevo usuario** en el paso 5, complete los siguientes cuadros en la página **Nuevo usuario de correo**. De lo contrario, vaya al Paso 7.
     
       - **Nombre**   Use este cuadro para escribir el nombre del usuario de correo.
     
@@ -78,9 +74,9 @@ Los usuarios de correo son similares a los contactos de correo. Ambos tienen dir
     
       - **Apellido**   Use este cuadro para escribir el apellido del usuario de correo.
     
-      - **\* Nombre para mostrar**   Use este cuadro para escribir el nombre para mostrar para el usuario. Este es el nombre que se incluye en la lista de contactos de EAC y en la libreta de direcciones de la organización. Este cuadro se rellena de forma predeterminada con los nombres que escribe en los cuadros **Nombre**, **Iniciales** y **Apellido**. Aunque no haya usado dichos cuadros, debe escribir un nombre en este cuadro, ya que es obligatorio. El nombre no puede superar los 64 caracteres.
+      - \* **Nombre para mostrar**   Use este cuadro para escribir el nombre para mostrar para el usuario. Este es el nombre que se incluye en la lista de contactos de EAC y en la libreta de direcciones de la organización. Este cuadro se rellena de forma predeterminada con los nombres que escribe en los cuadros **Nombre**, **Iniciales** y **Apellido**. Aunque no haya usado dichos cuadros, debe escribir un nombre en este cuadro, ya que es obligatorio. El nombre no puede superar los 64 caracteres.
     
-      - **\* Nombre**   Use este cuadro para escribir el nombre del usuario de correo. Se trata del nombre que se muestra en el servicio de directorio. Este cuadro se rellena con los nombres que escribe en los cuadros **Nombre**, **Iniciales** y **Apellido**. Aunque no haya usado dichos cuadros, debe escribir un nombre, ya que este cuadro es obligatorio. Este nombre tampoco puede superar los 64 caracteres.
+      - \* **Nombre**   Use este cuadro para escribir el nombre del usuario de correo. Se trata del nombre que se muestra en el servicio de directorio. Este cuadro se rellena con los nombres que escribe en los cuadros **Nombre**, **Iniciales** y **Apellido**. Aunque no haya usado dichos cuadros, debe escribir un nombre, ya que este cuadro es obligatorio. Este nombre tampoco puede superar los 64 caracteres.
         
 
         > [!NOTE]
@@ -96,29 +92,27 @@ Los usuarios de correo son similares a los contactos de correo. Ambos tienen dir
         > El cuadro <STRONG>Unidad organizativa</STRONG> solo está disponible en Exchange Server 2013. No está disponible en Exchange Online.
 
     
-      - **\* Nombre de inicio de sesión de usuario**   Use este cuadro para escribir el nombre que el usuario de correo usará para iniciar sesión en el dominio. El nombre de inicio de sesión del usuario consta de un nombre de usuario a la izquierda del símbolo arroba (@) y un sufijo a la derecha. Por lo general, el sufijo es el nombre de dominio en el que reside la cuenta de usuario.
+      - \* **Nombre de inicio de sesión de usuario**   Use este cuadro para escribir el nombre que el usuario de correo usará para iniciar sesión en el dominio. El nombre de inicio de sesión del usuario consta de un nombre de usuario a la izquierda del símbolo arroba (@) y un sufijo a la derecha. Por lo general, el sufijo es el nombre de dominio en el que reside la cuenta de usuario.
         
 
         > [!NOTE]
         > En Exchange Online, este cuadro se etiqueta como <STRONG>Id. de usuario</STRONG>.
 
     
-      - **\* Nueva contraseña**   Use este cuadro para escribir la contraseña que el usuario de correo debe usar para iniciar sesión en el dominio.
+      - \* **Nueva contraseña**   Use este cuadro para escribir la contraseña que el usuario de correo debe usar para iniciar sesión en el dominio.
         
 
         > [!NOTE]
         > Asegúrese de que la contraseña que proporciona cumple los requisitos de longitud, complejidad e historial de la contraseña del dominio en el que está creando la cuenta de usuario.
 
     
-      - **\* Confirmar contraseña**   Use este cuadro para confirmar la contraseña que escribió en el cuadro **Contraseña**.
+      - \* **Confirmar contraseña**   Use este cuadro para confirmar la contraseña que escribió en el cuadro **Contraseña**.
     
       - **Requerir cambio de contraseña en el próximo inicio de sesión**   Seleccione este cuadro de verificación si desea que el usuario de correo restablezca la contraseña cuando inicie sesión por primera vez en el dominio.
         
         Si activa este cuadro, la primera vez que el nuevo usuario de correo inicie una sesión aparecerá un cuadro de diálogo en el que se le solicitará que cambie la contraseña. El usuario de correo no podrá realizar ninguna tarea hasta que haya cambiado la contraseña correctamente.
 
-7.  
-    
-    Cuando haya terminado, haga clic en **Guardar** para crear el usuario de correo.
+7.  Cuando haya terminado, haga clic en **Guardar** para crear el usuario de correo.
 
 ## Uso del Shell para crear usuarios de correo
 
@@ -192,11 +186,11 @@ Use la sección **General** para ver o cambiar información básica del usuario 
 
   - **Nombre**, **Iniciales**, **Apellido**
 
-  - **\* Nombre**   Se trata del nombre indicado en Active Directory. Si cambia este nombre, no debe superar los 64 caracteres.
+  - \* **Nombre**   Se trata del nombre indicado en Active Directory. Si cambia este nombre, no debe superar los 64 caracteres.
 
-  - **\* Nombre para mostrar**    Este nombre aparece en la libreta de direcciones de la organización, en Para: y De: líneas en el correo electrónico y en la lista de contactos en el EAC. Este nombre no puede contener espacios en blanco antes o después del nombre para mostrar.
+  - \* **Nombre para mostrar**    Este nombre aparece en la libreta de direcciones de la organización, en Para: y De: líneas en el correo electrónico y en la lista de contactos en el EAC. Este nombre no puede contener espacios en blanco antes o después del nombre para mostrar.
 
-  - **\* Nombre de inicio de sesión de usuario**   El usuario puede utilizar este nombre para iniciar sesión en el dominio. En Exchange Online, este es el identificador de usuario que el usuario usa para iniciar sesión en Office 365.
+  - \* **Nombre de inicio de sesión de usuario**   El usuario puede utilizar este nombre para iniciar sesión en el dominio. En Exchange Online, este es el identificador de usuario que el usuario usa para iniciar sesión en Office 365.
 
   - **Ocultar de las listas de direcciones**   Seleccione este cuadro para evitar que el usuario de correo aparezca en la lista de direcciones y en otras listas de direcciones definidas en su organización de Exchange. Cuando active esta casilla, los usuarios aún podrán enviar mensajes al destinatario mediante la dirección de correo electrónico.
 
@@ -234,7 +228,7 @@ Use la sección **Información de contacto** para ver o cambiar la información 
 
 Use la sección **Organización** para registrar información detallada acerca de la función del usuario en la organización. Esta información se muestra en la libreta de direcciones. Asimismo, puede crear un gráfico de organización virtual al que se pueda obtener acceso desde clientes de correo electrónico como Outlook.
 
-  - **Título   **Use este cuadro para ver o cambiar el título del destinatario.
+  - **Título**   Use este cuadro para ver o cambiar el título del destinatario.
 
   - **Departamento** Use este cuadro para ver o cambiar el departamento en el que trabaja el usuario. Puede usar este cuadro para crear condiciones de destinatario para grupos de distribución dinámicos, directivas de direcciones de correo electrónico o listas de direcciones.
 
@@ -248,11 +242,11 @@ Use la sección **Organización** para registrar información detallada acerca d
 
 Use la sección **Direcciones de correo electrónico** para ver o cambiar las direcciones de correo electrónico asociadas con el usuario de correo. Esto incluye la dirección SMTP principal del usuario de correo, las direcciones de correo electrónico externas y todas las direcciones proxy asociadas. La dirección SMTP principal (también denominada *dirección de respuesta predeterminada*) se muestra en negritas en la lista de direcciones, con el valor **SMTP** en mayúsculas en la columna **Tipo**. De manera predeterminada, después de que se crea el usuario de correo, la dirección SMTP principal y la dirección de correo electrónico externa son iguales.
 
-  - **Agregar **  Haga clic en **Agregar**![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono") para agregar una dirección de correo electrónico nueva para este buzón de correo. Seleccione uno de los siguientes tipos de dirección:
+  - **Agregar**  Haga clic en **Agregar**![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono") para agregar una dirección de correo electrónico nueva para este buzón de correo. Seleccione uno de los siguientes tipos de dirección:
     
-      - **SMTP**   Este es el tipo de dirección predeterminado. Haga clic en este botón y luego escriba la nueva dirección SMTP en el cuadro **\* Dirección de correo electrónico**.
+      - **SMTP**   Este es el tipo de dirección predeterminado. Haga clic en este botón y luego escriba la nueva dirección SMTP en el cuadro \* **Dirección de correo electrónico**.
     
-      - **Tipo de dirección personalizada**   Haga clic en este botón y escriba uno de los tipos de dirección de correo electrónico que no sean SMTP admitidos en el cuadro de texto **\* Dirección de correo electrónico**.
+      - **Tipo de dirección personalizada**   Haga clic en este botón y escriba uno de los tipos de dirección de correo electrónico que no sean SMTP admitidos en el cuadro de texto \* **Dirección de correo electrónico**.
         
 
         > [!NOTE]

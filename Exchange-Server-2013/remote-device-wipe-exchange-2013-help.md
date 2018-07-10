@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-09-19_
+_**Última modificación del tema:** 2012-09-19_
 
 Los dispositivos móviles, tabletas y otros dispositivos pueden almacenar datos corporativos importantes y proporcionar acceso a varios recursos corporativos. Si un dispositivo móvil se pierde o es robado, los datos pueden estar en peligro. Con las directivas de buzón de dispositivo móvil de Microsoft Exchange, puede agregar una contraseña a los dispositivos móviles. De este modo, los usuarios deberán introducir una contraseña para tener acceso a sus dispositivos móviles. Le recomendamos que, además de requerir una contraseña para el dispositivo, configure los dispositivos móviles para que solicite automáticamente una contraseña después de un período de inactividad. La combinación de una contraseña para el dispositivo y del bloqueo por inactividad proporciona seguridad mejorada a sus datos corporativos.
 

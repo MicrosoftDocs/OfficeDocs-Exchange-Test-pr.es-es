@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-05-03_
+_**Última modificación del tema:** 2013-05-03_
 
 [Crear una directiva de buzón de mensajería unificada](create-a-um-mailbox-policy-exchange-2013-help.md)
 

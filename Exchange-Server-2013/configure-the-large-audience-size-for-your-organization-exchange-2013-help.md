@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 Puede usar el Shell de administración de Exchange para configurar varios parámetros que definen cómo usar información sobre correo en su organización.
 

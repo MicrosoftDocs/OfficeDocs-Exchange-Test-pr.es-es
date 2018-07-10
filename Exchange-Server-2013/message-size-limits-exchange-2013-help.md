@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-08-20_
+_**Última modificación del tema:** 2015-08-20_
 
 Se pueden aplicar límites a los mensajes que se mueven por la organización Exchange Server 2013 de Microsoft. Se puede restringir el tamaño total de un mensaje o el tamaño de los componentes de un mensaje, por ejemplo, el encabezado, los datos adjuntos y el número de destinatarios. Se pueden aplicar los límites globalmente para toda la organización de Exchange o para un conector u objeto de usuario concretos.
 
@@ -117,18 +117,8 @@ En la tabla siguiente figuran los límites de mensajes, además de información 
 </tr>
 <tr class="odd">
 <td><p>Número máximo de destinatarios por mensaje</p>
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ126608.note(EXCHG.150).gif" title="Nota" alt="Nota" />Nota:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]  
 
 </td>
 <td><p>5000</p></td>

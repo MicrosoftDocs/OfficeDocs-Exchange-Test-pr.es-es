@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Los permisos necesarios para llevar a cabo tareas de administración de destinatarios pueden variar en función del procedimiento que se esté realizando o del cmdlet que se quiera ejecutar.
 
@@ -28,7 +28,7 @@ Para obtener más información sobre qué permisos requiere para realizar el pro
 3.  Ejecute el cmdlet de **Get-ManagementRoleAssignment** para ver los grupos de roles o los roles de administración que se le asignaron, a fin de consultar si tiene los permisos necesarios para administrar este rol.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Debe tener asignado el rol de administración Administración de rol para ejecutar el cmdlet <STRONG>Get-ManagementRoleAssignment</STRONG>. Si no posee los permisos para ejecutar el cmdlet <STRONG>Get-ManagementRoleAssignment</STRONG>, pídale a su administrador de Exchange que recupere los grupos de rol o los roles de administración que le asignaron.
 
 
@@ -78,7 +78,7 @@ Los usuarios a los que se les asigna el grupo de roles Administración con permi
 <p><a href="view-only-organization-management-exchange-2013-help.md">Administración de organización de solo lectura</a></p>
 <p>Función Diagnósticos de soporte</p>
 
-> [!NOTE]
+> [!NOTE]  
 > La función Diagnósticos de soporte no está asignada a un grupo de funciones. Para obtener más información, vea <A href="add-a-role-to-a-user-or-usg-exchange-2013-help.md">Agregar una función a un usuario o grupo de seguridad universal</A>.
 
 
@@ -93,7 +93,7 @@ Los usuarios a los que se les asigna el grupo de roles Administración con permi
 <td><p>Importar Exportar</p></td>
 <td><p>Función Importar/Exportar buzón</p>
 
-> [!NOTE]
+> [!NOTE]  
 > La función Importar/Exportar buzón no está asignada a un grupo de funciones. Para obtener más información, vea <A href="mailbox-import-export-role-exchange-2013-help.md">Rol Importar/Exportar buzón</A>.
 
 

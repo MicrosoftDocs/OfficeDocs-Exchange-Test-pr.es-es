@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 El Shell de administración de Exchange ofrece varios métodos que puede usar para dar formato a la salida de comandos. En este tema se explican los siguientes asuntos:
 

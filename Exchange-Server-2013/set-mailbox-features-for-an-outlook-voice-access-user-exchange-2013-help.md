@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 La configuración de la interfaz de usuario de teléfono se utiliza cuando un usuario obtiene acceso al sistema de mensajería unificada mediante Outlook Voice Access. Cuando se modifica una configuración de la interfaz de usuario de teléfono de un usuario habilitado para mensajería unificada, se modifican las propiedades y sus valores en el buzón del usuario habilitado para mensajería unificada.
 

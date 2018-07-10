@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-13_
+_**Última modificación del tema:** 2012-11-13_
 
 Puede usar el EAC o el Shell para conectar un buzón de correo deshabilitado en una cuenta de usuario de Active Directory. Cuando deshabilita un buzón de correo, Exchange retiene el buzón en la base de datos del buzón y conmuta el buzón de correo a un estado de deshabilitado. Los atributos de Exchange también se quitan de la cuenta del usuario de Active Directory correspondiente, pero la cuenta del usuario se retiene. El buzón de correo se retiene hasta que expira el período de retención del buzón de correo eliminado, que es de 30 días de forma predeterminada, y, a continuación, se elimina permanentemente (o *se purga*) de la base de datos de buzones de correo.
 

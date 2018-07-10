@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-08_
+_**Última modificación del tema:** 2012-10-08_
 
 En este tema se muestra cómo agregar, quitar, copiar y ver los grupos de roles de administración en Microsoft Exchange Server 2013. También se explica cómo agregar, quitar y listar los roles de administración en grupos de roles y cómo cambiar los ámbitos y delegados de administración en los grupos de roles. Para obtener más información sobre los grupos de roles en Exchange 2013, consulte [Descripción de los grupos de roles de administración](understanding-management-role-groups-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-14_
+_**Última modificación del tema:** 2012-11-14_
 
 Puede usar el EAC o el Shell para habilitar o deshabilitar Outlook Web App para un buzón de correo de usuario. Cuando Outlook Web App se habilita, un usuario puede usar Outlook Web App y enviar y recibir correo electrónico. Cuando Outlook Web App está deshabilitado, el buzón de correo continuará recibiendo mensajes de correo electrónico y un usuario puede acceder al mismo para enviar y recibir correo usando un cliente MAPI, como Microsoft Outlook, o un cliente de correo POP o IMAP, si el buzón de correo está habilitado para admitir el acceso de dichos clientes.
 

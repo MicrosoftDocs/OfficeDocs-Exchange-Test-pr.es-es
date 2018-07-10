@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 [Mejor arquitectura](https://blogs.technet.com/b/exchange/archive/2014/04/21/the-preferred-architecture.aspx) para Exchange Server 2013 de Microsoft aprovecha un concepto conocido como Exchange nativo de protección de datos. Exchange Protección de datos nativa se basa en características de nativo Exchange para proteger los datos de buzón, sin el uso de backups tradicionales. Pero si desea crear copias de seguridad, incluye un complemento para Windows Server Backup (WSB) que le permite crear copias de seguridad basado en Volume Shadow Copy Service VSS para Exchange de Exchange datos de Exchange. Para realizar copias de seguridad para Exchange, debe tener instalada la característica de WSB.
 

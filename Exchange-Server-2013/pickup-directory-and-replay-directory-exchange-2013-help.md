@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 De manera predeterminada, los directorios de recogida y de reproducción existen en todos los servidores Buzón de correo de Microsoft Exchange Server 2013 o en el servidor de transporte perimetral. Los archivos de mensajes de correo electrónico con el formato correcto que copia al directorio de recogida o de reproducción se envían para su entrega. Los administradores usan el directorio de recogida para probar el flujo de correo y las aplicaciones lo usan para crear y enviar sus propios mensajes. El directorio de reproducción recibe mensajes de servidores de puerta de enlace externos y también se lo puede utilizar para reenviar los mensajes que los administradores exportan desde las colas de servidores de Exchange.
 

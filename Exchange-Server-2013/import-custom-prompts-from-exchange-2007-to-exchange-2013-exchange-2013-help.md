@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 Puede importar los archivos de audio que contienen saludos, anuncios, menús y mensajes personalizados de mensajería unificada (UM) de Exchange 2007 a mensajería unificada de Exchange 2013. Mediante un script del Shell, los mensajes se importan en un buzón del sistema de Exchange denominado {e0dc1c29-89c3-4034-b678-e6c29d823ed9}, que se crea cuando instala Microsoft Exchange 2013. Este buzón de sistema se usa en la mensajería unificada para almacenar saludos, anuncios, menús, mensajes e informes de mensajería unificada personalizados del operador automático y plan de marcado.
 

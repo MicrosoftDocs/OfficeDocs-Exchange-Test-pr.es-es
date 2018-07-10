@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-06-18_
+_**Última modificación del tema:** 2014-06-18_
 
 Puede usar Copias de seguridad de Windows Server para realizar copias de seguridad y restauraciones de bases de datos de Exchange. Exchange incluye un nuevo complemento para Copias de seguridad de Windows Server que permite realizar y restaurar copias de seguridad basadas en el servicio de instantáneas de volumen (VSS) de los datos de Exchange. Para obtener más información, consulte [Uso de copias de seguridad de Windows Server para realizar copias de seguridad y restaurar datos de Exchange](using-windows-server-backup-to-back-up-and-restore-exchange-data-exchange-2013-help.md).
 

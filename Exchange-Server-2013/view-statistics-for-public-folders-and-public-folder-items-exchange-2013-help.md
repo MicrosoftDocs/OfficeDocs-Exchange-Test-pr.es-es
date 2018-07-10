@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-14_
+_**Última modificación del tema:** 2013-02-14_
 
 En este tema, se explica cómo recuperar estadísticas de una carpeta pública, como el nombre para mostrar, la hora de creación, la hora de la última modificación del usuario, la hora del último acceso del usuario y el tamaño del elemento. Esta información se puede usar para decidir si se debe borrar o mantener una carpeta pública.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 El rol de administración Restablecer contraseña permite a los usuarios individuales restablecer sus propias contraseñas y permite a los administradores restablecer las contraseñas de los usuarios de una organización.
 

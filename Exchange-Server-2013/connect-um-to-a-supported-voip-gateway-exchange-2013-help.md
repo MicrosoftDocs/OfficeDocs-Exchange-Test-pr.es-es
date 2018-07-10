@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-19_
+_**Última modificación del tema:** 2013-04-19_
 
 Cuando configure la mensajería unificada (UM), deberá configurar puertas de enlace de voz sobre IP (VoIP), IP PBX, PBX habilitadas para SIP o controladores de borde de sesión (SBC) en la red a fin de poder comunicarse con los servidores de acceso de clientes que ejecuten el servicio de enrutador de llamadas de mensajería unificada de Microsoft Exchange, así como con los servidores de buzones que ejecuten el servicio de mensajería unificada de Microsoft Exchange en la organización de Exchange. También deberá configurar los servidores de buzones y de acceso de clientes para comunicarse con las puertas de enlace VoIP, IP PBX, PBX habilitadas para SIP o SBC.
 

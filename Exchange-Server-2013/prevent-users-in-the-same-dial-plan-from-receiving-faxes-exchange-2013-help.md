@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Puede evitar que los usuarios habilitados para mensajería unificada vinculados a un plan de marcado de mensajería unificada reciban mensajes de fax. De manera predeterminada, los usuarios habilitados para mensajería unificada que están vinculados con un plan de marcado de mensajería unificada pueden recibir mensajes de fax. Sin embargo, puede que en alguna ocasión desee impedir que los usuarios asociados con un plan de marcado de mensajería unificada específico reciban mensajes de fax.
 

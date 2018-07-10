@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-12-18_
+_**Última modificación del tema:** 2013-12-18_
 
 Puede usar el EAC o el Shell para importar o exportar certificados comerciales autofirmados, de infraestructura de clave pública (PKI) internos o de terceros. Para la mensajería unificada (UM), puede utilizar uno de estos certificados para el servicio de mensajería unificada de Microsoft Exchange y el servicio de enrutamiento de llamadas de mensajería unificada de Microsoft Exchange. Puede utilizar el mismo certificado para ambos servicios, o bien un certificado distinto para cada uno.
 
@@ -78,11 +78,13 @@ En este ejemplo se realiza lo siguiente:
 3.  Transforma el certificado en un archivo una vez especificados el nombre de usuario y la contraseña.
 
 <!-- end list -->
-
+  ```
     $file = Get-ExchangeCertificate -DomainName umcorp.northwindtraders.com | Export-ExchangeCertificate -BinaryEncoded:$true -Password (Get-Credential).password
-
+  ```
+  ```
     Set-Content -Path "d:\umcerts\selfsigned.pfx" -Value $file.FileData =Encoding Byte
-
+  ```
+  
 ## Usar el EAC para importar un certificado
 
 1.  En el EAC, haga clic en **Servidores** \> **Certificados** \> **Más opciones**![Icono Más opciones](images/JJ150550.5381819e-3b21-4873-8714-e9b956290b28(EXCHG.150).gif "Icono Más opciones") y, a continuación, haga clic en **Importar certificado de Exchange**.

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Una propiedad con varios valores es una propiedad que puede tener más de un valor. Por ejemplo, la propiedad **BlockedRecipients** del objeto **RecipientFilterConfig** puede aceptar varias direcciones de destinatario, tal y como se muestra en los ejemplos siguientes:
 

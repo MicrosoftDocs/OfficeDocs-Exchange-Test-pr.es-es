@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Durante la instalación de Microsoft Exchange Server 2013 se crea un buzón de correo de detección de forma predeterminada. En Exchange Online, también se crea un buzón de correo de detección de forma predeterminada. Los buzones de correo de detección están disponibles como buzones de destino para las búsquedas de [Exhibición de documentos electrónicos en contexto](in-place-ediscovery-exchange-2013-help.md) en el Centro de administración de Exchange (EAC). Puede crear buzones de correo de detección adicionales según sea necesario. Después de crear un nuevo buzón de correo de detección, tendrá que asignar permisos de acceso total a los usuarios adecuados para que puedan acceder a los resultados de la búsqueda de eDiscovery que se copian en el buzón de correo de detección.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Exchange crea la directiva de retención Directiva de MRM predeterminada en la organización de Exchange Online y Exchange local. La directiva se aplica automáticamente a los nuevos usuarios de Exchange Online. En organizaciones locales, la directiva se aplica cuando se crea un archivo para el buzón. Puede cambiar la directiva de retención aplicada a un usuario en cualquier momento.
 

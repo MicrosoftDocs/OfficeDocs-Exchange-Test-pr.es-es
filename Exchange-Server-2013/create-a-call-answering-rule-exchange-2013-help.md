@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 Para crear una o varias reglas de contestador automático para un usuario, se puede usar el Shell. También se puede usar el cmdlet **New-UMCallAnsweringRule** en un script del Shell de administración de Exchange para crear reglas de contestador automático para varios usuarios.
 
@@ -71,14 +71,11 @@ En este ejemplo se crea la regla de contestador automático `MyCallAnsweringRule
 
 En este ejemplo se crea la regla de contestador automático `MyCallAnsweringRule` en el buzón de correo de Tony Smith y se realizan las siguientes acciones:
 
-  -  
-    Se establece la prioridad de la regla de contestador automático en 2.
+  -  Se establece la prioridad de la regla de contestador automático en 2.
 
-  -  
-    Se crean asignaciones de teclas para la regla de contestador automático.
+  -  Se crean asignaciones de teclas para la regla de contestador automático.
 
-  -  
-    Si el autor de la llamada conecta con el buzón de voz del usuario y el estado de este es "ocupado", el autor de la llamada puede:
+  -  Si el autor de la llamada conecta con el buzón de voz del usuario y el estado de este es "ocupado", el autor de la llamada puede:
     
       - Pulsar la tecla 1 para que se le transfiera a la recepcionista en la extensión 45678.
     

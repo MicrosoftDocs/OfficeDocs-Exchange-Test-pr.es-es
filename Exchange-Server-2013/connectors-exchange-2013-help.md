@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-12_
+_**Última modificación del tema:** 2012-10-12_
 
 Los conectores se utilizan para controlar el flujo de correo entrante y saliente en Microsoft Exchange Server 2013. Con los conectores, podrá dirigir (y recibir) el correo de destinatarios fuera de su organización, de un asociado a través de un canal seguro o un dispositivo de procesamiento de mensajes.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-11-17_
+_**Última modificación del tema:** 2016-11-17_
 
 Puede configurar unos parámetros específicos de filtro de correo no deseado en buzones de correo individuales que sean diferentes a los filtros de correo no deseado que se han aplicado al resto de buzones de la organización de Exchange. Al configurar los parámetros de filtro de correo no deseado de un buzón, dicha configuración sobrescribe la correspondiente configuración del filtrado del contenido de toda la organización y de la configuración de filtros de correo no deseado de la misma.
 

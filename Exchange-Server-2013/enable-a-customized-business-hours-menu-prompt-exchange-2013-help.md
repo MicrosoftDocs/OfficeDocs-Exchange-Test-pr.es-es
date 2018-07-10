@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-19_
+_**Última modificación del tema:** 2013-04-19_
 
 Puede personalizar el mensaje de menú que debe utilizar un operador automático de mensajería unificada en horario comercial. Después de crear un operador automático de mensajería unificada, se usa un aviso del sistema predeterminado (\&quot;Bienvenido a la mensajería unificada\&quot;) como mensaje del menú que los llamantes escuchan después de que se reproduzca la bienvenida personalizada en horario comercial. Aunque no se debe sustituir ni cambiar el aviso del sistema, puede personalizar los saludos y avisos del menú utilizados con los operadores automáticos de mensajería unificada. Después de crear un archivo de audio de mensaje del menú de horario comercial personalizado, debe habilitar las entradas de navegación del menú en el operador automático de mensajería unificada.
 

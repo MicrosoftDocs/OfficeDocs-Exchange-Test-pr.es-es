@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede incluir texto adicional en el mensaje de correo electrónico que se envía a los usuarios después de restablecer su PIN de mensajería unificada o de correo de voz. Para hacerlo, escriba el texto personalizado en el cuadro **Cuando se restablezca el PIN de Outlook Voice Access de un usuario** en una directiva de buzón de mensajería unificada. El texto personalizado puede incluir, por ejemplo, información relacionada con la seguridad para los usuarios habilitados para mensajería unificada.
 

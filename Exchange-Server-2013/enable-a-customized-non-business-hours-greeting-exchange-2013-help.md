@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-30_
+_**Última modificación del tema:** 2012-11-30_
 
 Puede habilitar un saludo personalizado en horario no comercial para un operador automático de mensajería unificada (UM). El saludo de horario no comercial es lo primero que escucha la persona que llama cuando el operador automático de mensajería unificada responde a la llamada en horas no comerciales. Probablemente deseará personalizar el saludo.
 

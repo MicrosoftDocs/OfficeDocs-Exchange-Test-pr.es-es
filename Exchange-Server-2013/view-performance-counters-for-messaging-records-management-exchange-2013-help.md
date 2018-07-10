@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2009-12-09_
+_**Última modificación del tema:** 2009-12-09_
 
 Puede usar el Monitor de confiabilidad y rendimiento (Perfmon.exe) de Windows para seleccionar y ver los contadores de rendimiento correspondientes a la administración de registros de mensajería (MRM). Al utilizar los contadores de rendimiento, podrá supervisar el Asistente para carpetas administradas mientras este ejecuta procesos de MRM que consumen muchos recursos.
 

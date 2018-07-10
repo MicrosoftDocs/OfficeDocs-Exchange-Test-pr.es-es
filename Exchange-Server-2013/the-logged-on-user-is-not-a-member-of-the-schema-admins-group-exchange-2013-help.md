@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2014-12-02_
+_**Última modificación del tema:** 2014-12-02_
 
 El programa de instalación de Microsoft Exchange Server 2013 no puede continuar porque la cuenta de usuario que realiza el proceso de actualización de esquema de Active Directory no es miembro de los grupos de administradores de organización o administradores de esquema.
 

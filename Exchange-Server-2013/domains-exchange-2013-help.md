@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Office 365_
+_**Se aplica a:** Exchange Server 2013, Office 365_
 
-_**Última modificación del tema:**2012-10-11_
+_**Última modificación del tema:** 2012-10-11_
 
 Los dominios representan los espacios de nombres SMTP para los cuales se configuran los directorios de correo electrónico y los buzones de correo. Al configurar los dominios que interactúan con su organización de Microsoft Exchange Server 2013, puede configurar cómo procesa el envío de correo electrónico a y desde varios dominios Exchange.
 

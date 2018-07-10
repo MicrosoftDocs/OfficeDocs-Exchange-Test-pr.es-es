@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-29_
+_**Última modificación del tema:** 2013-04-29_
 
 Puede usar Seguridad de la capa de transporte mutua (Mutual TLS) para habilitar la mensajería unificada (UM) para cifrar datos enviados entre sus servidores de Microsoft Exchange 2013 y puertas de enlace VoIP, IP PBX y controladores de borde de sesión (SBC), o puede usar Microsoft Lync Server. Los certificados enlazan la identidad del propietario del certificado con un par de claves electrónicas (pública y privada) que se utilizan para cifrar y firmar la información digitalmente.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La tarea principal del servicio de transporte que existe en todos los servidores de buzones de correo de la organización de Microsoft Exchange Server 2013 es enrutar los mensajes que se reciben de los usuarios y los orígenes externos hacia su destino final. Las decisiones de enrutamiento se toman durante la categorización de los mensajes. El categorizador es un componente del servicio de transporte de un servidor de buzones de correo que procesa todos los mensajes entrantes y determina qué hacer con ellos en función de la información acerca de su destino.
 

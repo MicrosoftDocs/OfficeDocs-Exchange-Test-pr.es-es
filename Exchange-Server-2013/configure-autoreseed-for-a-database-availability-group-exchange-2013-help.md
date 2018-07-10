@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-04-15_
+_**Última modificación del tema:** 2013-04-15_
 
 La Reinicialización automática es una función para restaurar rápidamente la redundancia después de un error de disco. Si un disco presenta un error, las copias de la base de datos almacenadas en ese disco se reinicializan automáticamente en un disco de repuesto preconfigurado en un servidor de buzones. Siga los pasos descritos en este tema para configurar la Reinicialización automática para un grupo de disponibilidad de base de datos (DAG).
 
@@ -121,14 +121,18 @@ Los volúmenes montados deben aparecer en la lista de resultados.
 ## Paso 5: crear las carpetas de la base de datos
 
 A continuación, cree los directorios de base de datos en la ruta de acceso raíz C:\\ExchangeDatabases. En este ejemplo, se ilustra cómo crear directorios para una configuración de almacenamiento con cuatro bases de datos en cada volumen.
-
+```
     md c:\ExchangeDatabases\db001
-
+```
+```
     md c:\ExchangeDatabases\db002
-
+```
+```
     md c:\ExchangeDatabases\db003
-
+```
+```
     md c:\ExchangeDatabases\db004
+```
 
 ## ¿Cómo sabe si este paso se ha completado correctamente?
 
@@ -161,22 +165,30 @@ C:\\\<*nombreCarpetaBaseDeDatos*\>\\*nombreBaseDeDatos*\\\<*nombreBaseDeDatos*\>
 C:\\\<*nombreCarpetaBaseDeDatos*\>\\*nombreBaseDeDatos*\\\<*nombreBaseDeDatos*\>.log
 
 En este ejemplo, se muestra cómo crear directorios para cuatro bases de datos que se almacenarán en el Volumen 1:
-
+```
     md c:\ExchangeDatabases\db001\db001.db
-
+```
+```
     md c:\ExchangeDatabases\db001\db001.log
-
+```
+```
     md c:\ExchangeDatabases\db002\db002.db
-
+```
+```
     md c:\ExchangeDatabases\db002\db002.log
-
+```
+```
     md c:\ExchangeDatabases\db003\db003.db
-
+```
+```
     md c:\ExchangeDatabases\db003\db003.log
-
+```
+```
     md c:\ExchangeDatabases\db004\db004.db
-
+```
+```
     md c:\ExchangeDatabases\db004\db004.log
+```
 
 Repita los comandos anteriores para las bases de datos de cada volumen.
 
@@ -211,8 +223,10 @@ Para comprobar que haya configurado la Reinicialización automática para un DAG
         Get-DatabaseAvailabilityGroup DAG1 | Format-List *auto*
 
 2.  Ejecute el siguiente comando para comprobar que la estructura de directorios esté configurada correctamente (las rutas de acceso predeterminadas se muestran a continuación; si es necesario, sustitúyalas por las que esté usando).
-    
+    ```
         Dir c:\ExchangeDatabases /s
-    
+    ```
+    ```
         Dir c:\ExchangeVolumes /s
+    ```
 

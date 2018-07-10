@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-19_
+_**Última modificación del tema:** 2013-04-19_
 
 Puede habilitar un saludo de horario comercial de un operador automático de mensajería unificada de Microsoft. El saludo de horario comercial es lo primero que escucha la persona que llama cuando el operador automático de mensajería unificada responde a la llamada durante el horario comercial. Probablemente deseará personalizar el saludo.
 

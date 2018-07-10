@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Después de instalar Microsoft Exchange Server 2013, se recomienda comprobar la instalación mediante la ejecución del cmdlet **Get-ExchangeServer** y el análisis del archivo de registro de configuración. Si el proceso de instalación falla o se produce algún error durante la instalación, puede usar el archivo de registro de la instalación para averiguar el origen del problema.
 

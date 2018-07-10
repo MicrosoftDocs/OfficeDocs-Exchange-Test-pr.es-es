@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-09_
+_**Última modificación del tema:** 2012-11-09_
 
 Puede especificar el número máximo de minutos que se permiten para cada grabación de voz cuando una persona que llama deja un mensaje de correo de voz. Este valor puede establecerse en un número entre 1 y 100. Para la mayoría de las organizaciones, el valor debe establecerse de manera predeterminada en 20 minutos. Si el valor establecido es demasiado bajo es posible que los mensajes de voz extensos se desconecten antes de completarse. Si especifica un valor demasiado alto, los usuarios podrán guardar mensajes de voz de larga duración en su bandeja de entrada.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 Las funciones de administración se pueden enumerar de diferentes maneras, según la información que desee. Por ejemplo, puede elegir devolver solamente funciones de un tipo de funciones específico, funciones que contienen sólo cmdlets y parámetros o puede ver los detalles de una función de administración específica. Para obtener más información acerca de las funciones de administración en Microsoft Exchange Server 2013, consulte [Descripción de los roles de administración](understanding-management-roles-exchange-2013-help.md).
 

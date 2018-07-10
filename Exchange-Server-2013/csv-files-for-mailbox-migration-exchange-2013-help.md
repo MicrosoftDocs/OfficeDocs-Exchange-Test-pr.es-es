@@ -13,32 +13,32 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2017-11-16_
+_**Última modificación del tema:** 2017-11-16_
 
 Puede usar un archivo CSV para migrar en bloque una gran cantidad de buzones de correo de usuario. Puede especificar un archivo CSV cuando usa el Centro de administración de Exchange (EAC) o el cmdlet **New-MigrationBatch** en el Shell de administración de Exchange para crear un lote de migración. El uso de un archivo CSV para especificar varios usuarios para migrarlos en un lote de migración se admite en los siguientes escenarios de migración:
 
   - **Movimientos en organizaciones locales de Exchange**
     
-      - **Movimiento local:** el movimiento local consiste en mover los buzones de correo de una base datos de buzones a otra. Se produce un movimiento local dentro de un solo bosque.
+      - **Movimiento local:**  el movimiento local consiste en mover los buzones de correo de una base datos de buzones a otra. Se produce un movimiento local dentro de un solo bosque.
     
-      - **Movimiento de empresas entre bosques:** en el movimiento de empresas entre bosques, los buzones de correo se mueven a otro bosque. Los movimientos entre bosques se inician desde el bosque de destino, que es el bosque al que se van a mover los buzones, o desde el bosque de origen, que es el que hospeda los buzones actualmente.
+      - **Movimiento de empresas entre bosques:**  en el movimiento de empresas entre bosques, los buzones de correo se mueven a otro bosque. Los movimientos entre bosques se inician desde el bosque de destino, que es el bosque al que se van a mover los buzones, o desde el bosque de origen, que es el que hospeda los buzones actualmente.
 
   - **Carga y descarga en Exchange Online**
     
-      - **Migración de movimientos remotos de carga:** en una implementación híbrida de Exchange, puede mover los buzones de correo desde una organización de Exchange local hacia Exchange Online. Esto también se conoce como migración de movimientos remotos de *carga* porque los buzones se incorporan a Exchange Online.
+      - **Migración de movimientos remotos de carga:**  en una implementación híbrida de Exchange, puede mover los buzones de correo desde una organización de Exchange local hacia Exchange Online. Esto también se conoce como migración de movimientos remotos de *carga* porque los buzones se incorporan a Exchange Online.
     
-      - **Migración de movimientos remotos de descarga:** también puede ejecutar una migración de movimientos remotos de *descarga*, en la que los buzones de Exchange Online se migran a la organización local de Exchange.
+      - **Migración de movimientos remotos de descarga:**  también puede ejecutar una migración de movimientos remotos de *descarga*, en la que los buzones de Exchange Online se migran a la organización local de Exchange.
         
 
         > [!NOTE]
         > Tanto las migraciones de movimientos remotos de carga como de descarga se inician en la organización de Exchange Online.
 
     
-      - **Migración preconfigurada de Exchange:** también puede migrar un subconjunto de buzones de correo desde una organización local de Exchange hacia Exchange Online. Es otro tipo de migración de carga. Solo puede migrar buzones de correo de Exchange 2003 y Exchange 2007 con una migración preconfigurada de Exchange. No se pueden migrar buzones de Exchange 2010 y Exchange 2013 con una migración preconfigurada. Antes de ejecutar una migración preconfigurada, debe usar una sincronización de directorio o cualquier otro método para aprovisionar los usuarios de correo de la organización de Exchange Online.
+      - **Migración preconfigurada de Exchange:**  también puede migrar un subconjunto de buzones de correo desde una organización local de Exchange hacia Exchange Online. Es otro tipo de migración de carga. Solo puede migrar buzones de correo de Exchange 2003 y Exchange 2007 con una migración preconfigurada de Exchange. No se pueden migrar buzones de Exchange 2010 y Exchange 2013 con una migración preconfigurada. Antes de ejecutar una migración preconfigurada, debe usar una sincronización de directorio o cualquier otro método para aprovisionar los usuarios de correo de la organización de Exchange Online.
     
-      - **Migración del IMAP:** este tipo de migración de carga migra datos del buzón de correo desde un servidor IMAP (incluyendo Exchange) hacia Exchange Online. En la migración del IMAP, primero debe aprovisionar los buzones de correo en Exchange Online para poder migrar los datos del buzón de correo.
+      - **Migración del IMAP:**  este tipo de migración de carga migra datos del buzón de correo desde un servidor IMAP (incluyendo Exchange) hacia Exchange Online. En la migración del IMAP, primero debe aprovisionar los buzones de correo en Exchange Online para poder migrar los datos del buzón de correo.
 
 
 > [!NOTE]

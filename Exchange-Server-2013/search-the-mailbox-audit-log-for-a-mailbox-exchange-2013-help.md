@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 De forma sincrónica, puede buscar en el registro de auditoría del buzón las entradas de un buzón y mostrar los resultados de la búsqueda en el Shell.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Siga estas recomendaciones para las reglas de transporte de Exchange a fin de evitar errores comunes de configuración. Cada recomendación está vinculada a un tema en el que se incluyen un ejemplo e instrucciones paso a paso.
 

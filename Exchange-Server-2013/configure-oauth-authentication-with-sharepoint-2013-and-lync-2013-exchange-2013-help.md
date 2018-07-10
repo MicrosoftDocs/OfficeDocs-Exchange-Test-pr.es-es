@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-03-03_
+_**Última modificación del tema:** 2014-03-03_
 
 Exchange Server 2013 permite que otras aplicaciones utilicen OAuth para autenticar a Exchange. Las aplicaciones deben estar configuradas como aplicaciones de socios en Exchange 2013.
 

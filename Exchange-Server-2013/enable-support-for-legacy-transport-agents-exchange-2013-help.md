@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 En Microsoft Exchange Server 2013, los agentes de transporte creados con Microsoft .NET Framework versión 4.0 son compatibles de forma predeterminada. Exchange 2013 es compatible con agentes de soporte creados con versiones previas de .NET Framework, pero la compatibilidad con estos agentes de transporte heredados no está habilitada de forma predeterminada. Para habilitar la compatibilidad con los agentes de transporte heredados, deberá modificar el archivo de configuración de la aplicación XML adecuada. Los archivos que debe modificar dependen del agente de transporte instalado:
 

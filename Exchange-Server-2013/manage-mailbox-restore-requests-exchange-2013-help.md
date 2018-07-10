@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Las solicitudes de restauración de buzones de correo se utilizan para restaurar buzones desconectados. Un buzón de correo desconectado es una base de datos de buzones de correo de Exchange que no está asociada con una cuenta de usuario de Active Directory. Los buzones se desconectan cuando está desactivados, eliminados o se mueven a otra base de datos. Para obtener más información, consulte [Buzones desconectados](disconnected-mailboxes-exchange-2013-help.md).
 

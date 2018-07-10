@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-07-02_
+_**Última modificación del tema:** 2013-07-02_
 
 El proxy de servicio de replicación de buzón de correo (proxy MRS) facilita los movimientos de buzón de correo entre bosques y las migraciones de movimiento remoto entre su organización Exchange local y Exchange Online. En Exchange 2013, el proxy MRS está incluido en el rol de servidor Buzón de correo (también llamado el *servidor de buzones de correo*). Durante las migraciones de movimiento remoto y entre bosques, un servidor de acceso de cliente actúa como un proxy para las solicitudes de movimiento entrantes para el servidor de buzones de correo. La capacidad de un servidor de acceso de cliente para aceptar estas solicitudes está deshabilitada de forma predeterminada. Para permitir que el servidor de acceso de cliente pueda aceptar solicitudes de movimiento entrantes, tiene que habilitar el extremo del proxy MRS.
 
@@ -100,10 +100,12 @@ Compruebe que el parámetro *MRSProxyEnabled* esté establecido en `True`.
 Otra forma de comprobar que el extremo de proxy MRS está habilitado consiste en utilizar el cmdlet **Test-MigrationServerAvailability** para probar la capacidad de comunicación con el servidor remoto que hospeda los buzones de correo que desea mover o, en el caso de exteriorizar buzones de correo de Exchange Online a su organización local, un servidor de su organización local. Para obtener más información, consulte [Test-MigrationServerAvailability](https://technet.microsoft.com/es-es/library/jj219169\(v=exchg.150\)).
 
 En el siguiente ejemplo se muestra la conexión a un servidor en el bosque corp.contoso.com.
-
+```
     $Credentials = Get-Credential
-
+```
+```
     Test-MigrationServerAvailability -ExchangeRemoteMove -Autodiscover -EmailAddress administrator@corp.contoso.com -Credentials $Credentials
+```
 
 Para ejecutar este comando correctamente, el extremo de proxy MRS debe estar habilitado.
 

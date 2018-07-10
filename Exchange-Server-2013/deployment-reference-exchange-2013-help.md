@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-08-02_
+_**Última modificación del tema:** 2013-08-02_
 
 [Exchange 2013: ediciones y versiones](exchange-2013-editions-and-versions-exchange-2013-help.md)
 

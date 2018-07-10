@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-05_
+_**Última modificación del tema:** 2012-11-05_
 
 Puede utilizar la página de la **nueva entrada del menú de navegación** para crear una sola o varias asignaciones de clave para el negocio o menú principal de horario no laborable pide operadores automáticos. Puede definir la acción que se realizará cuando se presiona una tecla del teclado del teléfono es, por ejemplo, transferir la llamada a un número de extensión u otro operador automático.
 

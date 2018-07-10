@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Puede usar la información detallada de este tema para supervisar el mantenimiento y el estado de las copias de la base de datos de buzones de correo para los grupos de disponibilidad de base de datos (DAG), para recopilar información de diagnóstico y configurar el umbral de supervisión de espacio insuficiente en disco.
 

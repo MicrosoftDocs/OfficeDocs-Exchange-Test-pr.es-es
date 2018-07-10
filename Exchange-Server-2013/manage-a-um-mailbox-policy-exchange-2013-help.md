@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Después de crear una directiva de buzón de mensajería unificada (MU), puede ver y configurar diversas opciones. Por ejemplo, puede configurar características de MU, como Vista previa de correo de voz o Reproducir en teléfono, y otras opciones relacionadas con la seguridad, como opciones de configuración de directivas de PIN y Correo de voz protegido.
 
@@ -100,9 +100,9 @@ Para conocer tareas de administración adicionales relacionadas con las directiv
             
             El texto que escriba en este cuadro puede ser texto sin formato. También puede contener etiquetas de formato HTML sencillas si desea resaltar texto o agregar hipervínculos a otro contenido.
             
-            **Ejemplo 1:** Si tiene alguna duda o sugerencia sobre el servicio de correo de voz, llame a la extensión 4200 del servicio de asistencia técnica.
+            **Ejemplo 1:**  Si tiene alguna duda o sugerencia sobre el servicio de correo de voz, llame a la extensión 4200 del servicio de asistencia técnica.
             
-            **Ejemplo 2:** Si tiene alguna duda o sugerencia sobre el \<b\>servicio de correo de voz\</b\>, llame al servicio de asistencia técnica a la extensión 4200 o visite nuestro sitio web en \<a href=”http://emp.contoso.com/itinfo/vmail”\>\</a\>.
+            **Ejemplo 2:**  Si tiene alguna duda o sugerencia sobre el \<b\>servicio de correo de voz\</b\>, llame al servicio de asistencia técnica a la extensión 4200 o visite nuestro sitio web en \<a href=”http://emp.contoso.com/itinfo/vmail”\>\</a\>.
         
           - **Cuando se restablece el PIN de Outlook Voice Access de un usuario**   El texto que se escribe en el cuadro de texto se incluye en el mensaje de correo electrónico que se envía a los usuarios habilitados para mensajería unificada cuando se restablece su PIN de MU.
             

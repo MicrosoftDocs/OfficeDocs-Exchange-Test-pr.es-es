@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-01-09_
+_**Última modificación del tema:** 2014-01-09_
 
 El agente de enrutamiento de directivas de libretas de direcciones es un agente de transporte que se ejecuta en el servidor de buzones que controla cómo se resuelven los destinatarios en la organización. Cuando el agente de enrutamiento de ABP se instala y configura, los usuarios asignados a diferentes GAL aparecen como destinatarios externos que no pueden ver las tarjetas de contacto de los destinatarios externos.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-15_
+_**Última modificación del tema:** 2012-10-15_
 
 Si desea garantizar la comunicación segura, cifrada con un asociado, puede crear un conector de envío que se configura para aplicar Seguridad de la capa de transporte (TLS) para mensajes que se envían a un dominio asociado. TLS proporciona comunicación segura mediante Internet.
 

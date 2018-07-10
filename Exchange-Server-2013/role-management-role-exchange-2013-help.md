@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La función de administración `Role Management` permite que los administradores administren grupos de funciones, directivas de asignación de funciones y funciones de administración y entradas, asignaciones y ámbitos de funciones en una organización.
 

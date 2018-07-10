@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-07-21_
+_**Última modificación del tema:** 2015-07-21_
 
 Es posible que necesite mover un buzón de una carpeta pública a una base de datos de buzones distinta para equilibrar la carga o para acercar recursos a su ubicación física. De forma similar a mover un buzón normal, puede usar los cmdlets **MoveRequest** para mover un buzón de una carpeta pública. Para obtener más información acerca del movimiento de buzones, vea [Movimientos de buzones de Exchange 2013](mailbox-moves-in-exchange-2013-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-07-28_
+_**Última modificación del tema:** 2016-07-28_
 
 Este tema describe técnicas para hacer coincidir patrones y elementos de evidencia dentro de un archivo XML de prevención de pérdida de datos (DLP) diseñado para contener su propio paquete de reglas de tipo de información confidencial. Cuando haya creado un archivo XML bien formado, puede importar el archivo usando el Centro de administración de Exchange (EAC) o el Shell de administración de Exchange para crear la solución de DLP de Microsoft Exchange Server 2013. Antes de poder usar los métodos de coincidencias que se describen aquí, debería tener un archivo XML DLP empezado. Para obtener información acerca de la definición de sus propias plantillas DLP y archivos XML, consulte [Definir sus propios tipos de información y plantillas de DLP](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
 
@@ -203,8 +203,7 @@ El elemento "Regex" tiene un atributo de “id” que se usa como referencia en 
     </Regex>
     ...
     <Regex id="ItinFormatted">
-        (?:^|[\s\,\:])(?:9\d{2})[- ](?:[78]\d[-  
-         ]\d{4})(?:$|[\s\,]|\.\s)
+        (?:^|[\s\,\:])(?:9\d{2})[- ](?:[78]\d[-       ]\d{4})(?:$|[\s\,]|\.\s)
     </Regex>
     ...
     <Regex id="NorthCarolinaDriversLicenseNumber">
@@ -224,24 +223,27 @@ El atributo "minMatches" opcional se puede usar (valor predeterminado = 1) para 
     Hacer coincidir un subconjunto exacto de cualquier elemento "Coincidir" secundario
 
 <!-- end list -->
-
+```
     <Any minMatches="3" maxMatches="3">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
         <Match idRef="Name" />
     </Any>
-
+```
+```
     <Any maxMatches="0">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
         <Match idRef="Name" />
     </Any>
-
+```
+```
     <Any minMatches="1" maxMatches="1">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
         <Match idRef="Name" />
     </Any>
+```
 
 ## Aumentar el nivel de confianza con más evidencias
 

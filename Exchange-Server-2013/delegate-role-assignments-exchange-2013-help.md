@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-02_
+_**Última modificación del tema:** 2012-10-02_
 
 La delegación de funciones de administración permite a los usuarios a los que se asigna la función asignar una función de administración específica a otros grupos de función, a directivas de asignación de funciones de administración o a grupos de seguridad universal (USG). De modo predeterminado, sólo los miembros del grupo de funciones de administración de la organización pueden delegar asignaciones de funciones. Cuando se implementa una nueva instalación de Microsoft Exchange Server 2013, sólo la cuenta de usuario que instala Exchange 2013 es miembro del grupo de funciones de administración de la organización.
 

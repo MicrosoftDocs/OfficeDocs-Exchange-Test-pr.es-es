@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 La mensajería unificada puede usar uno de cuatro códecs para crear mensajes de correo voz: MP3, Windows Media Audio (WMA), Group System Mobile (GSM) 06.10 y G.711 Pulse Code Modulation (PCM) Linear. De forma predeterminada, al crear un plan de marcado de mensajería unificada, éste usa el códec de audio MP3 para grabar mensajes de voz. El formato de audio MP3 es un formato de audio popular que se usa en varios sistemas operativos, clientes de correo electrónico y reproductores de MP3. Después de crear el plan de marcado de mensajería unificada, puede configurarlo de forma que use uno de los formatos de audio que incluyen los códecs de audio WMA, GSM 06.10 o G.711 PCM Linear. Para escuchar un mensaje de voz, un teléfono móvil o un equipo deben tener una aplicación de software compatible instalada.
 

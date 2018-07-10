@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-19_
+_**Última modificación del tema:** 2013-04-19_
 
 Al configurar el horario comercial en un operador automático de mensajería unificada (UM), se definen las horas del día durante las cuales la organización permanece abierta y los saludos y mensajes de menú en horario comercial que oirán las personas que llamen a una extensión configurada en el operador automático. Si alguien llama al operador automático fuera del horario comercial definido, oirá los mensajes y los saludos definidos para el horario no comercial.
 

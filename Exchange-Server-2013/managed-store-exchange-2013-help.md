@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-07-14_
+_**Última modificación del tema:** 2014-07-14_
 
 Todas las versiones previas de Exchange Server, desde Exchange Server 4.0 hasta Exchange Server 2010, han admitido la ejecución de una sola instancia del proceso de almacén de información (Store.exe) en el rol de servidor Buzón de correo. Esta única instancia del almacén hospeda todas las bases de datos en el servidor: activas, pasivas, retrasadas y de recuperación. En las arquitecturas anteriores de Exchange, hay poco aislamiento, si lo hay, entre las distintas bases de datos hospedadas en un servidor de buzones. El problema que existe con una base de datos de un solo buzón es que puede afectar potencialmente de forma negativa a todas las demás bases de datos. Las interrupciones que surgen a raíz del daño del buzón pueden afectar el servicio para todos los usuarios cuyas bases de datos están hospedadas en dicho servidor.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Con el uso compartido federado en Exchange Server 2013, los usuarios pueden compartir información con los destinatarios en las organizaciones federadas externas. Esto incluye el uso compartido de la información de disponibilidad (también conocida como disponibilidad del calendario) para finalidad de programación o, según la naturaleza de la relación comercial, el uso compartido de información del calendario más detallada. Para obtener más información acerca del uso compartido federado, consulte [Uso compartido](sharing-exchange-2013-help.md).
 

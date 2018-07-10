@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En este tema, se proporciona información acerca del concepto de espacios de nombres distintos y los escenarios en los que se admite la implementación de Microsoft Exchange 2013 en un dominio con un espacio de nombres distinto.
 
@@ -101,7 +101,7 @@ Además, para asegurarse de que la lista de búsqueda de sufijos DNS contiene to
 
   - [Preguntas más frecuentes sobre directivas de grupos](https://go.microsoft.com/fwlink/p/?linkid=100128)
 
-  - [Nuevas directivas de grupos para DNS en Windows Server 2003](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=294785)
+  - [Nuevas directivas de grupos para DNS en Windows Server 2003](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=294785)
 
   - [Directiva de grupo](https://go.microsoft.com/fwlink/p/?linkid=268043)
 

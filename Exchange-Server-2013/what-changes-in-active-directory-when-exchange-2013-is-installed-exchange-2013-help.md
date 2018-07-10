@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server, Exchange Server 2013_
+_**Se aplica a:** Exchange Server, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-05-26_
+_**Última modificación del tema:** 2014-05-26_
 
 Cuando instala Exchange 2013, se realizan cambios en el bosque y los dominios de Active Directory. Exchange lo hace para que se pueda almacenar información sobre los servidores de Exchange, los buzones y otros objetos relacionados con Exchange en la organización. Estos cambios se realizan cuando se ejecuta el Asistente para la instalación de Exchange 2013 o cuando se ejecutan los comandos *PrepareSchema*, *PrepareAD* y *PrepareDomains* (vea cómo usar estos comandos en [Preparar Active Directory y los dominios](prepare-active-directory-and-domains-exchange-2013-help.md)) durante la instalación de la línea de comandos de Exchange 2013. Si tiene curiosidad sobre los cambios que Exchange hace en Active Directory, este tema es para usted. Explica lo que Exchange hace en cada paso de la preparación de Active Directory.
 

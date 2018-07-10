@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede hacer que los usuarios que reciben mensajes de correo de voz protegidos utilicen la característica "Reproducir en teléfono" para escucharlos. O bien si el software cliente no admite la administración de derechos, los usuarios deben usar Outlook Voice Access para poder escucharlos.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-04_
+_**Última modificación del tema:** 2012-10-04_
 
 [Crear una libreta de direcciones sin conexión](create-an-offline-address-book-exchange-2013-help.md)
 

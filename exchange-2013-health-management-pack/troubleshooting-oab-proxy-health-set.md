@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Project Server 2013_
+_**Se aplica a:**  Exchange Server 2013, Project Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:**  2015-03-09_
 
 El conjunto de mantenimiento OAB.Proxy supervisa la disponibilidad de la infraestructura de proxy de la libreta de direcciones sin conexión en el servidor de acceso de cliente (CAS).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La función de administración `Mail Recipients` permite que los administradores administren buzones de correo, usuarios de correo y contactos de correo existentes en una organización. Esta función no puede crear a estos destinatarios. Use el rol `Mail Recipient Creation` para crearlos.
 

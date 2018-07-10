@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Al crear un plan de marcado, puede configurar los *métodos de marcado por nombre* o formas de que los autores de llamada puedan buscar nombres. Los autores de llamada usan estos métodos de marcado por nombre para buscar nombres cuando desean encontrar usuarios y comunicarse con ellos al llamar a un número de Outlook Voice Access o al llamar a un operador automático de mensajería unificada que está asociado al plan de marcado. Los autores de llamada pueden usar la marcación por tonos para localizar un usuario activo en la mensajería unificada.
 

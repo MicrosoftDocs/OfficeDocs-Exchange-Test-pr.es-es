@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 El seguimiento de canalizaciones captura copias de los mensajes de correo cuando se mueven por la canalización de transporte en el servicio de transporte o en el de transporte de buzones del servidor de buzones y de los servidores de transporte perimetral.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2010, Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2010, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-11-16_
+_**Última modificación del tema:** 2014-11-16_
 
 Una libreta de direcciones sin conexión (OAB) es una recopilación de una lista de direcciones que se ha descargado para que un usuario de Microsoft Outlook pueda obtener acceso a la libreta de direcciones cuando no tiene conexión con el servidor. Microsoft Exchange genera los archivos OAB nuevos y los comprime y los sitúa en un recurso compartido local. Puede decidir qué listas de direcciones estarán disponibles para los usuarios que trabajan sin conexión; también puede configurar el método de distribución de las mismas.
 

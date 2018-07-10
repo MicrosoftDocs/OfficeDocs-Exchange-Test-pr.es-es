@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-11_
+_**Última modificación del tema:** 2012-11-11_
 
 Puede especificar la cantidad de segundos de silencio permitidos por el sistema durante la grabación de un mensaje de voz antes de finalizar la llamada. Para la mayoría de las organizaciones, este valor se debería establecer en los 5 segundos predeterminados.
 

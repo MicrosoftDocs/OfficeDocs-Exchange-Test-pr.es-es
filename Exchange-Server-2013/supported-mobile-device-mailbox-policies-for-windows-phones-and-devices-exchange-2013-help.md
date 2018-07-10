@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Con el lanzamiento de Windows Phone 8, Windows 8 y Windows RT hay varios dispositivos que son compatibles con Exchange ActiveSync y directivas de buzones de correo de dispositivos móviles. Cada sistema operativo del dispositivo es compatible con un conjunto específico de configuraciones de directivas de buzones de correo de dispositivos móviles.
 

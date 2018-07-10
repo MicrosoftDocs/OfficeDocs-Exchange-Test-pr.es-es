@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-21_
+_**Última modificación del tema:** 2013-02-21_
 
 Los planes de marcado de mensajería unificada (MU) son el componente principal de la mensajería unificada y son necesarios para implementar correctamente el correo de voz de mensajería unificada en la red. En las siguientes secciones, se describen los planes de marcado de mensajería unificada y cómo se usan en una implementación de mensajería unificada.
 

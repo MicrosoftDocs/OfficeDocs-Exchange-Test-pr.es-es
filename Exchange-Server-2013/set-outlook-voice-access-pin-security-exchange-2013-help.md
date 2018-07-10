@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-16_
+_**Última modificación del tema:** 2013-04-16_
 
 Cuando los usuarios de mensajería unificada (UM) se conectan al sistema de correo de voz por teléfono, usan Outlook Voice Access para navegar por el sistema de menús. El sistema solicita a los usuarios que especifiquen su PIN para que puedan tener acceso al sistema de correo de voz. Como administrador, puede configurar los valores y requisitos del PIN y ejecutar tareas de administración del PIN. Después de que un usuario se haya habilitado para el correo de voz y se haya generado un PIN, el PIN del usuario se almacena cifrado en su buzón.
 

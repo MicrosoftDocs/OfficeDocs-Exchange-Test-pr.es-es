@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En este tema se explica cómo usar la Consola de administración de directivas de grupos (GPMC) para configurar la lista de búsqueda de sufijos del Sistema de nombres de dominio (DNS). En algunos escenarios de Microsoft Exchange 2013, si tiene un espacio de nombres distinto, debe configurar la lista de búsqueda de sufijos DNS para incluir varios sufijos DNS.
 

@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2018-04-26_
+_**Última modificación del tema:** 2018-04-26_
 
 Después de crear un plan de marcado de mensajería unificada (UM), es posible ver y configurar una amplia variedad de opciones. Por ejemplo, es posible configurar el nivel de seguridad de voz sobre IP (VoIP), el códec de audio y las restricciones de marcado. Las opciones que configure en el plan de marcado de mensajería unificada afectarán a los usuarios que estén enlazados al plan de marcado a través de la directiva de buzones de correo de mensajería unificada.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 En Active Directory, los destinatarios (incluidos los usuarios, recursos, contactos y grupos) son cualquier objeto habilitado para correo al que Microsoft Exchange puede entregar o enrutar mensajes. Para que un destinatario reciba o envíe mensajes de correo electrónico, debe disponer de una dirección de correo electrónico. Las libretas de direcciones son el método por el cual los usuarios se encuentran para poder enviar correos electrónicos. Hay muchos métodos diferentes para organizar las libretas de direcciones. Vea Terminología básica para obtener descripciones detalladas de las características de las libretas de direcciones en Exchange Server 2013.
 

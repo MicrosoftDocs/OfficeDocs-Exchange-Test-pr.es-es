@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2017-12-31_
+_**Última modificación del tema:** 2017-12-31_
 
 Puede usar el Centro de administración de Exchange o el Shell de administración de Exchange para habilitar o deshabilitar MAPI para el buzón de un usuario. Cuando se habilita MAPI, Outlook o cualquier otro cliente de correo electrónico MAPI puede obtener acceso al buzón del usuario. Cuando MAPI se deshabilita, ni Outlook ni otros clientes de correo electrónico MAPI podrán obtener acceso. Sin embargo, el buzón seguirá recibiendo mensajes de correo electrónico y, suponiendo que el buzón está habilitado para admitir el acceso de esos clientes, el usuario podrá obtener acceso a él para enviar o recibir correo electrónico a través de Outlook Web App, de un cliente de correo electrónico POP o de un cliente IMAP.
 

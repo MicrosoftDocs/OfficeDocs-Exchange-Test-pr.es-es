@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-16_
+_**Última modificación del tema:** 2013-04-16_
 
 Puede agregar servidores de acceso de cliente y de buzones a los planes de marcado URI de SIP. Los servidores de acceso de cliente y de buzones no se pueden asociar con planes de marcado de extensión telefónica ni E.164, pero responderán a todas las llamadas entrantes.
 

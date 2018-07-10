@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-01-04_
+_**Última modificación del tema:** 2015-01-04_
 
 Una confianza de federación establece una relación de confianza entre una organización de Microsoft Exchange 2013 y el sistema de autenticación de Azure Active Directory y admite el uso compartido con otras organizaciones federadas de Exchange. Al quitar una confianza de federación de la organización de Exchange local, se deshabilitará el uso compartido federado con otras organizaciones de Exchange y con organizaciones de Office 365 conectadas a su organización como parte de una implementación híbrida. Debe evaluar detenidamente el impacto general para su organización antes de quitar una confianza de federación.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede establecer directivas de NIP en una directiva de buzón de mensajería unificada (MU). Las directivas de buzón de MU pueden configurarse para aumentar el nivel de seguridad de los usuarios habilitados para la MU que usan Outlook Voice Access al solicitar que los usuarios cumplan con las directivas de PIN predefinidas para su organización.
 

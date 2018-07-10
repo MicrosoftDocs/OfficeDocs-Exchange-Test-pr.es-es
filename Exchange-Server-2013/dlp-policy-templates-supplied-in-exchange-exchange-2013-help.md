@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 En Microsoft Exchange Server 2013 y Exchange Online, puede usar las plantillas de directivas de prevención de pérdida de datos (DLP) como punto de inicio para crear directivas de DLP que le ayudarán a satisfacer las necesidades normativas y de cumplimiento específicas. Puede modificar las plantillas para satisfacer las necesidades específicas de su organización.
 

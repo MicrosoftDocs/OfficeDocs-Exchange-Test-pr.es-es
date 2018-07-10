@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 El contenido de este tema no se ha actualizado para Microsoft Exchange Server 2013. Aun así, se puede aplicar a Exchange 2013. Si necesita más ayuda, consulte los siguientes recursos de la comunidad.
 
@@ -55,5 +55,5 @@ Para modificar la dirección SMTP de la directiva de destinatarios
 
 4.  Haga clic en la ficha **Direcciones de correo electrónico**, y después cambie la dirección SMTP adecuada.
 
-Para obtener más información sobre problemas de registro de Directivas de destinatarios, consulte el artículo 288175 de Microsoft Knowledge Base, "XCON: Directiva de destinatario no coincide con el FQDN de un servidor en la organización, 5.4.8 NDR" ([http://go.microsoft.com/fwlink/?linkid=3052\&kbid=288175](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=288175)).
+Para obtener más información sobre problemas de registro de Directivas de destinatarios, consulte el artículo 288175 de Microsoft Knowledge Base, "XCON: Directiva de destinatario no coincide con el FQDN de un servidor en la organización, 5.4.8 NDR" ([http://go.microsoft.com/fwlink/?linkid=3052\&kbid=288175](http://go.microsoft.com/fwlink/?linkid=3052&kbid=288175)).
 

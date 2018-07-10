@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2017-03-20_
+_**Última modificación del tema:** 2017-03-20_
 
 Este tema describe los pasos para instalar los requisitos previos necesarios de los sistemas operativos Windows Server 2012 R2, Windows Server 2012 y Windows Server 2008 R2 con Service Pack 1 (SP1) para los roles de servidor Transporte perimetral, Acceso de clientes y Buzón de correo de Microsoft Exchange 2013. También describe los requisitos previos necesarios para instalar las herramientas de administración de Exchange 2013 en equipos cliente Windows 8, Windows 8.1 y Windows 7.
 
@@ -191,11 +191,11 @@ Una vez instalados los roles del sistema operativo y las características, insta
 
 3.  [Microsoft Unified Communications Managed API 4.0, Runtime principal de 64 bits](https://go.microsoft.com/fwlink/p/?linkid=258269)
 
-4.  [Artículo de la base de conocimientos Microsoft KB974405 (Windows Identity Foundation)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=974405)
+4.  [Artículo de la base de conocimientos Microsoft KB974405 (Windows Identity Foundation)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=974405)
 
-5.  [Artículo de la base de conocimientos KB2619234 (Habilitar la cookie/GUID de la asociación usada por RPC por HTTP que también se usa en la capa RPC en Windows 7 y en Windows Server 2008 R2)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2619234)
+5.  [Artículo de la base de conocimientos KB2619234 (Habilitar la cookie/GUID de la asociación usada por RPC por HTTP que también se usa en la capa RPC en Windows 7 y en Windows Server 2008 R2)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=2619234)
 
-6.  [Artículo de la base de conocimientos KB2533623 (La carga de biblioteca no protegida puede permitir la ejecución de código remoto)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2533623)
+6.  [Artículo de la base de conocimientos KB2533623 (La carga de biblioteca no protegida puede permitir la ejecución de código remoto)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=2533623)
     
 
     > [!NOTE]
@@ -251,7 +251,7 @@ Una vez instalados las características del sistema operativo, instale el siguie
 
 2.  [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=390234)
 
-3.  [Artículo de la base de conocimientos KB974405 (Windows Identity Foundation)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=974405)
+3.  [Artículo de la base de conocimientos KB974405 (Windows Identity Foundation)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=974405)
 
 ## Requisitos previos de Windows 8 y Windows 8.1 (solo herramientas de administración)
 

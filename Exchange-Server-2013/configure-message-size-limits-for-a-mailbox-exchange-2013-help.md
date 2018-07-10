@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-12_
+_**Última modificación del tema:** 2012-11-12_
 
 Puede usar la EAC o el Shell para configurar los límites de tamaño de mensaje de un buzón de usuario. Estos límites controlan el tamaño de los mensajes que un usuario puede enviar o recibir. De manera predeterminada, cuando se crea un buzón, no hay ningún límite de tamaño para los mensajes enviados y recibidos.
 

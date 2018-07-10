@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-06-27_
+_**Última modificación del tema:** 2014-06-27_
 
 Con el uso de la portabilidad del tono de marcado, los usuarios pueden tener un buzón temporal para enviar y recibir mensajes de correo mientras su buzón original se recupera o restaura. El buzón temporal puede estar en el mismo servidor de buzones de Exchange 2013 o en cualquier otro servidor de buzones de Exchange 2013 de su organización. El proceso para usar la portabilidad del tono de marcado se denomina recuperación del tono de marcado, que implica la creación de una base de datos vacía en el servidor de buzones para sustituir la base de datos en la que se produjeron errores. Para obtener más información, consulte [Portabilidad del tono de marcado](dial-tone-portability-exchange-2013-help.md).
 
@@ -85,11 +85,13 @@ Con el uso de la portabilidad del tono de marcado, los usuarios pueden tener un 
         Mount-Database -Identity RDB1
 
 13. Use los cmdlet [Get-Mailbox](https://technet.microsoft.com/es-es/library/bb123685\(v=exchg.150\)) y [New-MailboxRestoreRequest](https://technet.microsoft.com/es-es/library/ff829875\(v=exchg.150\)) para exportar los datos de la RDB e importarlos en la base de datos recuperada, como se muestra en este ejemplo. Esto importará todos los mensajes enviados y recibidos con la base de datos de tono de marcado a la base de datos de producción.
-    
+    ```
         $mailboxes = Get-Mailbox -Database DTDB1
-    
+    ```
+    ```
         $mailboxes | %{ New-MailboxRestoreRequest -SourceStoreMailbox $_.ExchangeGuid -SourceDatabase RDB1 -TargetMailbox $_ }
-
+    ```
+    
 14. Después de finalizar la operación de restauración, puede desmotar y quitar la RDB, como se muestra en este ejemplo.
     
         Dismount-Database -Identity RDB1

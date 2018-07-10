@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Última modificación del tema:**2017-02-28_
+_**Última modificación del tema:** 2017-02-28_
 
 En este tema, se explica cómo actualizar el certificado autofirmado de federación que se utiliza en una confianza de federación:
 
@@ -75,7 +75,7 @@ En este ejemplo, se utiliza el valor de huella digital de certificado de `6A99CE
 
 Para obtener información detallada sobre la sintaxis y los parámetros, consulte [Set-FederationTrust](https://technet.microsoft.com/es-es/library/dd298034\(v=exchg.150\)).
 
-**Nota:** El resultado que proporciona el comando contiene una advertencia que le indica que debe actualizar el registro TXT de prueba de propiedad del dominio en DNS. Lo podrá hacer en el paso siguiente.
+**Nota:**  El resultado que proporciona el comando contiene una advertencia que le indica que debe actualizar el registro TXT de prueba de propiedad del dominio en DNS. Lo podrá hacer en el paso siguiente.
 
 ## Paso 3: Actualizar el registro TXT de prueba de propiedad del dominio de federación en un DNS externo
 
@@ -111,7 +111,7 @@ Para utilizar el Shell de administración de Exchange para comprobar la distribu
 
     $Servers = Get-ExchangeServer; $Servers | foreach {Get-ExchangeCertificate -Server $_ | Where {$_.Services -match 'Federation'}} | Format-List Identity,Thumbprint,Services,Subject
 
-**Nota:** En Exchange 2010, el resultado del cmdlet de **Test-FederationCertificate** contiene nombres de servidor. El resultado del cmdlet en Exchange 2013 o posterior no incluye nombres de servidor.
+**Nota:**  En Exchange 2010, el resultado del cmdlet de **Test-FederationCertificate** contiene nombres de servidor. El resultado del cmdlet en Exchange 2013 o posterior no incluye nombres de servidor.
 
 ## Paso 5: Activar el nuevo certificado de federación
 
@@ -121,7 +121,7 @@ Para utilizar el Shell de administración de Exchange para activar el nuevo cert
 
 Para obtener información detallada sobre la sintaxis y los parámetros, consulte [Set-FederationTrust](https://technet.microsoft.com/es-es/library/dd298034\(v=exchg.150\)).
 
-**Nota:** El resultado que proporciona el comando contiene una advertencia que le indica que debe actualizar el registro TXT de prueba de propiedad del dominio en DNS (lo que ya hizo en el paso 3).
+**Nota:**  El resultado que proporciona el comando contiene una advertencia que le indica que debe actualizar el registro TXT de prueba de propiedad del dominio en DNS (lo que ya hizo en el paso 3).
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

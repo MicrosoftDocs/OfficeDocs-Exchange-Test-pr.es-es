@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-21_
+_**Última modificación del tema:** 2013-02-21_
 
 En Active Directory, el *bosque* representa los límites externos del servicio de directorio. Puede crear conectores de envío para permitir la comunicación entre los bosques. En este ejemplo, los conectores utilizan la autenticación básica.
 

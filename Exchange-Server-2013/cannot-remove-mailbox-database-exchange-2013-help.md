@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2012-11-08_
+_**Última modificación del tema:** 2012-11-08_
 
 El programa de instalación de Microsoft Exchange Server 2013 no puede continuar porque no puede quitar una base de datos de buzones de usuario del servidor local sin incurrir en una pérdida potencial de datos.
 

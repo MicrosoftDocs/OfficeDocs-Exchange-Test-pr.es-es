@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-25_
+_**Última modificación del tema:** 2013-02-25_
 
 Una solicitud de traslado es el proceso de traslado de un buzón de una base de datos de buzones a otra. Una solicitud de movimiento local es una acción de movimiento de buzones que se produce dentro de un mismo bosque. En Microsoft Exchange Server 2013, los buzones de correo y los buzones correo de archivos personales pueden residir en bases de datos independientes. Mediante la función de solicitud de movimiento, puede mover el buzón principal y el archivo asociado a la misma base de datos o a bases de datos independientes. Los procedimientos de este tema le ayudarán con los movimientos de los buzones de correo locales.
 
@@ -106,10 +106,12 @@ Inicie sesión en el EAC y realice los siguientes pasos:
 ## Uso del Shell para crear una solicitud de movimiento de lote
 
 Este ejemplo crea un lote de migración para un movimiento local, donde los buzones de correo que se encuentran en el archivo .csv especificado se mueven a otra base de datos de buzones de correo. El archivo .csv contiene una sola columna que contiene las direcciones de correo electrónico de cada uno de los buzones de correo que desea mover. El encabezado de esta columna debe denominarse **EmailAddress**. El lote de migración de este ejemplo se debe iniciar de forma manual mediante el cmdlet **Start-MigrationBatch** o el Centro de administración de Exchange (EAC). Como alternativa, puede utilizar el parámetro *AutoStart* para iniciar el lote de migración de forma automática.
-
+```
     New-MigrationBatch -Local -Name LocalMove1 -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\LocalMove1.csv")) -TargetDatabases MBXDB2 -TimeZone "Pacific Standard Time"
-
+```
+```
     Start-MigrationBatch -Identity LocalMove1
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [New-MigrationBatch](https://technet.microsoft.com/es-es/library/jj219166\(v=exchg.150\)) y [Start-MigrationBatch](https://technet.microsoft.com/es-es/library/jj219165\(v=exchg.150\)).
 

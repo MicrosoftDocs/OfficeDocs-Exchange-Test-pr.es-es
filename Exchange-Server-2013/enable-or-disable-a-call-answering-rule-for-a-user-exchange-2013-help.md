@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 Puede usar el Shell para habilitar o deshabilitar una o más reglas de contestador automático para un usuario. También puede usar los cmdlets **Enable-UMCallAnsweringRule** o **Disable-UMCallAnsweringRule** en un script del Shell de administración de Exchange para habilitar o deshabilitar una o más reglas de contestador automático para varios usuarios.
 

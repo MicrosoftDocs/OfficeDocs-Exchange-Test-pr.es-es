@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-06-19_
+_**Última modificación del tema:** 2014-06-19_
 
 Para hacer una instalación desatendida, debe instalar Microsoft Exchange Server 2013 desde el símbolo del sistema. Para obtener más información acerca de la planificación e implementación de Exchange 2013, vea [Planificación e implementación](planning-and-deployment-for-exchange-2013-installation-instructions.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2018-04-20_
+_**Última modificación del tema:** 2018-04-20_
 
 Puede usar el EAC o el Shell para asignar permisos a usuarios o grupos (llamados *delegados*) para que puedan abrir o enviar mensajes desde otros buzones. Los permisos pueden asignarse a buzones de usuarios, buzones vinculados, buzones de recurso y buzones compartidos. También puede asignar permisos a grupos de distribución, grupos de distribución dinámicos y grupos de seguridad habilitados para correo para que los delegados puedan enviar mensajes en nombre de dicho grupo. También puede asignar los siguientes permisos a los delegados para acceder a los buzones de correo o enviar mensajes en nombre de buzones o grupos:
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Project Server 2013_
+_**Se aplica a:**  Exchange Server 2013, Project Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:**  2015-03-09_
 
 El conjunto de mantenimiento **MailboxTransport** supervisa el estado general de los servicios de envío de transporte de buzones y entrega de transporte de buzones en servidores de buzones de correo. Estos servicios son responsables de enviar correo hacia y desde las bases de datos de buzones de correo. Para obtener más información, vea [Flujo de correo](https://technet.microsoft.com/es-es/library/aa996349\(v=exchg.150\)).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-15_
+_**Última modificación del tema:** 2012-10-15_
 
 En Microsoft Exchange Server 2013, la alta disponibilidad de transporte es responsable de mantener copias redundantes de los mensajes antes y después de la entrega correcta de estos. Exchange 2013 mejora las características de alta disponibilidad de transporte presentadas en Exchange Server 2010, por ejemplo, la redundancia de instantáneas y el contenedor de transporte, para ayudar a garantizar que los mensajes no se pierdan.
 

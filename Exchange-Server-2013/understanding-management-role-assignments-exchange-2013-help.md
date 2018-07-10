@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-04_
+_**Última modificación del tema:** 2012-10-04_
 
 Una *asignación de funciones de administración*, que es parte del modelo de permisos de control de acceso basado en funciones (RBAC) de Microsoft Exchange Server 2013, representa el vínculo entre una función de administración y un usuario al que se le asigna una función. Un *usuario al que se asigna una función* es un grupo de funciones, una directiva de asignación de funciones, un usuario o un grupo de seguridad universal (USG). Una función debe estar asignada a un usuario al que se le asigna una función para que surta efecto. Para obtener más información acerca RBAC, consulte [Descripción del control de acceso basado en funciones](understanding-role-based-access-control-exchange-2013-help.md).
 

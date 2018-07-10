@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 En Microsoft Exchange Server 2013, cuando se crea una regla de registro en diario para registrar en diario mensajes de correo electrónico enviados o recibidos por remitentes o destinatarios en una organización de Exchange, se incluyen el correo de voz y las notificaciones de llamadas perdidas generadas por el servicio de mensajería unificada (UM). Siga los procedimientos de este tema para activar o desactivar esta característica para toda la organización.
 

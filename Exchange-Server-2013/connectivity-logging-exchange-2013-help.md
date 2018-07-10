@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 El registro de conectividad registra la actividad de conexión saliente que se utiliza para transmitir mensajes de un servicio de transporte en el servidor de Exchange. El objetivo del registro de conectividad no es realizar el seguimiento de la transmisión de los mensajes individuales de correo electrónico, sino realizar el seguimiento del registro de conexión desde una fuente hasta el destino, independientemente de la cantidad de mensajes que se transmiten. Está habilitado el registro de conectividad en el servicio de transporte de front-end en servidores de Acceso de clientes, el servicio de transporte en servidores Buzón de correo y el servicio de transporte de buzones en servidores Buzón de correo. En la siguiente lista se describe el tipo de información registrada en el registro de conectividad:
 

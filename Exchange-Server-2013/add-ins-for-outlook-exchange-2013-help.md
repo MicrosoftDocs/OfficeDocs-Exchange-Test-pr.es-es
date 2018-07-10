@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2017-03-13_
+_**Última modificación del tema:** 2017-03-13_
 
-**Resumen:** una visión general de complementos para Outlook, que funcione con Outlook en los equipos Windows y MacIntosh, en dispositivos móviles y en Outlook Web App y Outlook en el web.
+**Resumen:**  una visión general de complementos para Outlook, que funcione con Outlook en los equipos Windows y MacIntosh, en dispositivos móviles y en Outlook Web App y Outlook en el web.
 
 Complementos para Outlook son aplicaciones que amplían las posibilidades de los clientes de Outlook agregando información o herramientas que pueden utilizar los usuarios sin tener que salir de Outlook. Complementos son construidos por programadores de otros fabricantes y pueden instalarse desde un archivo o una dirección URL o desde el almacén de la oficina. De forma predeterminada, todos los usuarios pueden instalar complementos los administradores de Exchange pueden utilizar funciones para controlar la capacidad del usuario para instalar complementos.
 

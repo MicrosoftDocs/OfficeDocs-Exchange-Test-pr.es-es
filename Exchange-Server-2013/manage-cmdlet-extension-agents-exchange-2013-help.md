@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-19_
+_**Última modificación del tema:** 2012-11-19_
 
 Este tema le muestra cómo habilitar, deshabilitar, ver y cambiar la prioridad de los agentes de extensiones cmdlet en Microsoft Exchange Server 2013. Para obtener más información acerca de los agentes de extensión del cmdlet Exchange 2013, consulte [Agentes de extensión de cmdlet](cmdlet-extension-agents-exchange-2013-help.md).
 

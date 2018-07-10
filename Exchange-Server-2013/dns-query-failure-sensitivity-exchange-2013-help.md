@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-12-02_
+_**Última modificación del tema:** 2014-12-02_
 
 En Microsoft Exchange Server 2013, el grado de sensibilidad de consulta DNS se puede ajustar para lograr que los mensajes se entreguen un poco más rápido cuando se produzcan errores DNS en relación con el dominio de destino. No obstante, en función de los errores DNS, este ajuste podría provocar errores en la entrega si se dan determinadas circunstancias.
 

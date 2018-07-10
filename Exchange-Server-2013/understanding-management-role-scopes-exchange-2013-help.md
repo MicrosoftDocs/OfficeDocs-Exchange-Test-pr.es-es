@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Los *ámbitos de rol de administración* permiten establecer el ámbito de impacto o influencia específico de un rol de administración cuando se crea una asignación de rol de administración. Cuando se aplica un ámbito, el usuario asignado a un rol solamente puede modificar los objetos contenidos en dicho ámbito. El usuario puede ser un grupo de roles de administración, un rol de administración, una directiva de rol de administración, un usuario o un grupo de seguridad universal (USG). Para obtener más información acerca de los roles de administración, vea [Descripción del control de acceso basado en funciones](understanding-role-based-access-control-exchange-2013-help.md).
 

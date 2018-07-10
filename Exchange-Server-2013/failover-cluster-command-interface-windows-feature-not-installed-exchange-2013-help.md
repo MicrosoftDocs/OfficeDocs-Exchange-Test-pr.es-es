@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2014-12-03_
+_**Última modificación del tema:** 2014-12-03_
 
 El programa de instalación de Microsoft Exchange Server 2013 no puede continuar porque el equipo local no tiene una característica de Windows necesaria. Tendrá que instalar esta característica de Windows para que Exchange 2013 pueda continuar.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Los permisos necesarios para configurar la directiva y conformidad de mensajería varían según el procedimiento que se efectúe o el cmdlet que se vaya a ejecutar. Para obtener más información acerca de la directiva y conformidad de mensajería, vea [Directiva de mensajería y conformidad](messaging-policy-and-compliance-exchange-2013-help.md).
 

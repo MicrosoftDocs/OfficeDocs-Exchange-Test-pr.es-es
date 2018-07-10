@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-10-09_
+_**Última modificación del tema:** 2014-10-09_
 
 Un *buzón de equipamiento* es un buzón de recursos asignado a un recurso sin una ubización específica, por ejemplo, un equipo portátil, un proyector, un micrófono o un automóvil de la empresa. Después de que un administrador crea un buzón de correo de equipamiento, los usuarios pueden reservar fácilmente el equipamiento al incluir el correspondiente buzón de correo de equipamiento en una solicitud de reunión. Puede usar el EAC y el Shell para crear un buzón de correo de equipamiento o cambiar las propiedades de buzón de correo de equipamiento. Para obtener más información, consulte [Destinatarios](recipients-exchange-2013-help.md).
 

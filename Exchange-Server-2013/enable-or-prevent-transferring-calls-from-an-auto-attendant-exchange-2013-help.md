@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede permitir o impedir que los autores de llamadas transfieran llamadas a usuarios a través de un operador automático. Esta opción está habilitada de manera predeterminada y permite que los autores de llamadas transfieran llamadas a usuarios con mensajería unificada habilitada en el plan de marcado de mensajería unificada asociado al operador automático de mensajería unificada.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 Las asignaciones de funciones de administración asignan una función de administración a un usuario al que se le asigna una función. Para obtener más información acerca de las asignaciones de funciones en Microsoft Exchange Server 2013, consulte [Descripción de las asignaciones de funciones de administración](understanding-management-role-assignments-exchange-2013-help.md).
 

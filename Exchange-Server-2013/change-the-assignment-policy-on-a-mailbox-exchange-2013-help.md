@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-08_
+_**Última modificación del tema:** 2012-10-08_
 
 Puede cambiar la directiva de asignación de funciones de administración asignada a un buzón. Cuando cambia una directiva de asignación del buzón, el cambio surte efecto apenas el usuario actualiza la conexión, por ejemplo, la próxima vez que inicie sesión en el buzón o que abra la página de opciones del buzón. Para obtener más información acerca de las directivas de asignación en Microsoft Exchange Server 2013, consulte [Descripción de las directivas de asignación de roles de administración](understanding-management-role-assignment-policies-exchange-2013-help.md).
 

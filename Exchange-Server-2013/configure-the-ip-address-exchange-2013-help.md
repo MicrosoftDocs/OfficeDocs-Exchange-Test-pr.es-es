@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-11_
+_**Última modificación del tema:** 2012-11-11_
 
 Antes de crear una puerta de enlace IP de mensajería unificada, debe definir un conjunto de direcciones IP o el nombre de dominio completo (FQDN) configurado en la puerta de enlace IP, IP PBX o el controlador de borde de sesión (SBC) que esté usando. Entonces, al crear la puerta de enlace IP de mensajería unificada, establezca la dirección IP de FQDN. Puede cambiar la dirección IP o el FQDN posteriormente.
 

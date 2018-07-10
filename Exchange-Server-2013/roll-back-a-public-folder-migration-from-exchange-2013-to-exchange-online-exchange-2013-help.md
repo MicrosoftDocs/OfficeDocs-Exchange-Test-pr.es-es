@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Última modificación del tema:**2017-03-20_
+_**Última modificación del tema:** 2017-03-20_
 
-**Resumen:** Siga estos pasos para revertir la infraestructura de carpeta pública al estado previo a la migración en su organización local de Exchange 2013.
+**Resumen:**  Siga estos pasos para revertir la infraestructura de carpeta pública al estado previo a la migración en su organización local de Exchange 2013.
 
 Si tiene problemas con la migración de carpetas públicas a Exchange Online o necesita reactivar las carpetas públicas de Exchange 2013 por cualquier motivo, siga los pasos siguientes.
 

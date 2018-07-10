@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 El correo electrónico se ha convertido en un medio de comunicación confiable y siempre presente para los profesionales de la información en las organizaciones de cualquier tamaño. Los buzones y los almacenes de mensajería han pasado a considerarse repositorios de datos valiosos. Para las organizaciones resulta importante crear directivas de mensajería que dicten el uso correcto de los sistemas de mensajería, proporcionen instrucciones al usuario sobre cómo actuar con las directivas y, si es necesario, suministren detalles sobre los tipos de comunicación que no están permitidos.
 

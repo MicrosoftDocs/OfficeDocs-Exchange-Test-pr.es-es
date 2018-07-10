@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-06-09_
+_**Última modificación del tema:** 2014-06-09_
 
 Se puede usar una función de administración sin ámbito para proporcionar acceso a los administradores y los usuarios expertos a los scripts de Windows PowerShell y a los cmdlets que no son Exchange. Puede crear una función de nivel superior sin ámbito y agregar scripts o cmdlets que no son Exchange a esa función o crear una función que se base en una función existente de nivel superior sin ámbito. Después de crear y personalizar una función sin ámbito, se la puede asignar a grupos de funciones de administración, usuarios y grupos de seguridad universales (USG). No se pueden asignar funciones sin ámbito a directivas de asignación de funciones de administración. Para obtener más información acerca de las funciones sin ámbito, consulte [Descripción de los roles de administración](understanding-management-roles-exchange-2013-help.md).
 

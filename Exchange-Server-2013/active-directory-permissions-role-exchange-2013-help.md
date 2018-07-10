@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La función de administración `Active Directory Permissions` permite a los administradores configurar los permisos de Active Directory en una organización. Algunas características que utilizan permisos de Active Directory o listas de control de acceso (ACL) son los conectores de envío y recepción de transporte, y el envío de buzones como y en nombre de permisos.
 

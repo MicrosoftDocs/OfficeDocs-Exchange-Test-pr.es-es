@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Las funciones de administración forman parte del modelo de permisos de control de acceso basado en funciones (RBAC) usado en Microsoft Exchange Server 2013. Los roles actúan como una agrupación lógica de cmdlets que se combinan para permitir el acceso a la visualización o modificación de la configuración de los componentes de Exchange 2013, como por ejemplo los de buzones de correo, reglas de transporte y destinatarios. Los roles de administración pueden combinarse en agrupaciones más grandes denominadas "grupos de roles de administración" y "directivas de asignación de roles de administración", que permiten la administración de áreas de características y de la configuración de destinatarios. Los grupos de funciones y las directivas de asignación asignan permisos a los administradores y a los usuarios finales, respectivamente. Para obtener más información sobre los grupos de funciones de administración y las directivas de asignación de funciones, vea [Descripción del control de acceso basado en funciones](understanding-role-based-access-control-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2017-05-03_
+_**Última modificación del tema:** 2017-05-03_
 
 Las acciones en las reglas de flujo de correo (también denominadas reglas de transporte) especifican lo que se desea hacer con los mensajes que cumplen las condiciones de la regla. Por ejemplo, puede crear una regla que reenvíe los mensajes de determinados remitentes a un moderador o agregue un aviso de declinación de responsabilidades o una firma personalizada a todos los mensajes salientes.
 

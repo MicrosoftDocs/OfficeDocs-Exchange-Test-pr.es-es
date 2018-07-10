@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-05-27_
+_**Última modificación del tema:** 2014-05-27_
 
 Después de haber creado un buzón de correo de usuario, puede hacer cambios y configurar propiedades adicionales mediante el uso del EAC o del Shell.
 
@@ -335,7 +335,7 @@ La sección **Delegación de buzones** sirve para asignar permisos a otros usuar
 
   - **Enviar como**   Esta configuración permite a aquellos usuarios que no sean el propietario usar el buzón para enviar mensajes. Después de asignar este permiso a un delegado, los mensajes que el delegado envíe desde el buzón aparecerán como si los hubiera enviado el propietario del buzón. Sin embargo, el delegado no podrá iniciar sesión en el buzón del usuario con este permiso.
 
-  - **Enviar en nombre de**   Esta configuración también permite que un delegado use el buzón para enviar mensajes. No obstante, después de asignar este permiso a un delegado, la dirección del campo **De:** de los mensajes enviados por el delegado indicará que el mensaje lo envió el delegado en nombre del propietario del buzón.
+  - **Enviar en nombre de**   Esta configuración también permite que un delegado use el buzón para enviar mensajes. No obstante, después de asignar este permiso a un delegado, la dirección del campo **De:**  de los mensajes enviados por el delegado indicará que el mensaje lo envió el delegado en nombre del propietario del buzón.
 
   - **Acceso completo**   Esta configuración permite que un delegado inicie sesión en el buzón del usuario y vea su contenido. Sin embargo, después de asignar este permiso a un delegado, no podrá enviar mensajes desde el buzón. Para que un delegado pueda enviar correos electrónicos desde el buzón del usuario, debe asignarle los permisos Enviar como o Enviar en nombre de.
 

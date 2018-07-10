@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Cuando se habilita a un usuario para mensajería unificada, se le aplican un conjunto de propiedades con las que el usuario podrá usar las características de correo de voz incluidas con la mensajería unificada. Después de habilitar un usuario para correo de voz, tiene la opción de agregar una dirección de Protocolo de inicio de sesión (SIP) al usuario si está asignado a una directiva de buzones de correo de mensajería unificada que esté vinculada al plan de marcado URI de SIP. O, puede agregar un número E.164 al usuario si está asignado a una directiva de buzones de correo de mensajería unificada vinculada al plan de marcado E.164. En ambos casos, el usuario debe tener un número de extensión configurado.
 

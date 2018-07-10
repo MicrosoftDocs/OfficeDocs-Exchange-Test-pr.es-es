@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-15_
+_**Última modificación del tema:** 2016-12-15_
 
-**Resumen:** instrucciones para permitir que los usuarios de Exchange 2013 local tengan acceso a carpetas públicas en Exchange Online.
+**Resumen:**  instrucciones para permitir que los usuarios de Exchange 2013 local tengan acceso a carpetas públicas en Exchange Online.
 
 En una implementación híbrida, los usuarios pueden estar hospedados en Exchange Online, en una ubicación local o de ambas formas, y las carpetas públicas pueden estar tanto en Exchange Online como ubicadas localmente. En ocasiones, los usuarios conectados pueden necesitar acceder a las carpetas públicas del entorno local de Exchange Server 2013. Asimismo, los usuarios de Exchange 2013 pueden necesitar acceder a las carpetas públicas de Exchange Online o de Office 365.
 

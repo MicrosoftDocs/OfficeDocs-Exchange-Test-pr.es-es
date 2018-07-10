@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Obtenga información sobre los requisitos de Exchange 2013 que debe conocer antes de instalar Exchange de 2013. Por ejemplo, podrá conocer los requisitos de hardware, red y sistema operativo.
 
@@ -155,7 +155,7 @@ A continuación, se indican los requisitos de red y los servidores de directorio
 <li><p>Dominios de etiqueta única</p></li>
 <li><p>Separados</p></li>
 </ul>
-<p>Para más información sobre los espacios de nombre de DNS compatibles con Exchange, vea el artículo de Microsoft Knowledge Base 2269838, <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2269838">Compatibilidad de Microsoft Exchange con dominios de etiqueta única, espacios de nombres disjuntos y espacios de nombres no contiguos</a>.</p></td>
+<p>Para más información sobre los espacios de nombre de DNS compatibles con Exchange, vea el artículo de Microsoft Knowledge Base 2269838, <a href="http://go.microsoft.com/fwlink/?linkid=3052&kbid=2269838">Compatibilidad de Microsoft Exchange con dominios de etiqueta única, espacios de nombres disjuntos y espacios de nombres no contiguos</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>Compatibilidad con IPv6</p></td>
@@ -175,7 +175,7 @@ El uso de controladores de dominio Active Directory de 64 bits aumenta el rendim
 
 
 > [!NOTE]
-> En entornos multidominio, en controladores de dominio de Windows Server 2008 que tienen la configuración regional del idioma Active Directory establecida en japonés, es posible que sus servidores no reciban ciertos atributos almacenados en un objeto durante una replicación entrante. Para obtener más información, vea el artículo 949189 de Microsoft Knowledge Base, <A href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=949189">Es posible que un controlador de dominio de Windows Server 2008 cuya configuración regional de idioma está establecida en japonés no aplique las actualizaciones a los atributos de un objeto durante una replicación entrante</A>.
+> En entornos multidominio, en controladores de dominio de Windows Server 2008 que tienen la configuración regional del idioma Active Directory establecida en japonés, es posible que sus servidores no reciban ciertos atributos almacenados en un objeto durante una replicación entrante. Para obtener más información, vea el artículo 949189 de Microsoft Knowledge Base, <A href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=949189">Es posible que un controlador de dominio de Windows Server 2008 cuya configuración regional de idioma está establecida en japonés no aplique las actualizaciones a los atributos de un objeto durante una replicación entrante</A>.
 
 
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-16_
+_**Última modificación del tema:** 2012-10-16_
 
 El directorio virtual OAB es la distribución de OAB. De forma predeterminada, cuando se instala Microsoft Exchange Server 2013, un directorio virtual nuevo denominado OAB se crea en el sitio web predeterminado interno en Internet Information Services (IIS). Si tiene usuarios de cliente que se conectan a Microsoft Outlook desde fuera del firewall de la organización, puede agregar un sitio web externo. Como alternativa, al ejecutar el cmdlet **New-OABVirtualDirectory** en el Shell, se crea un directorio virtual nuevo denominado OAB en el sitio web predeterminado IIS en el servidor Exchange local.
 

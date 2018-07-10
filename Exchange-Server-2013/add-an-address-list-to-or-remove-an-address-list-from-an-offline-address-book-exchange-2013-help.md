@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-12-16_
+_**Última modificación del tema:** 2014-12-16_
 
 Puede usar el Shell para agregar o quitar una lista de direcciones de una libreta de direcciones sin conexión (OAB). De forma predeterminada, existe una libreta de direcciones sin conexión denominada Libreta de direcciones sin conexión predeterminada que contiene la lista global de direcciones (GAL). Las OAB se generan según las listas de direcciones que contienen. Para crear OAB personalizadas que puedan ser descargadas por los usuarios, puede agregar o quitar listas de direcciones en las OAB.
 

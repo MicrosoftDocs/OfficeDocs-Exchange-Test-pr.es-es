@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 De manera predeterminada, los usuarios no pueden realizar llamadas salientes. Para especificar los tipos de llamadas que los usuarios realizan, debe crear primero reglas de marcado y, a continuación, autorizar a los grupos de dichas reglas de marcado en planes de marcado de mensajería unificada, directivas de buzón de correo de mensajería unificada u operadores automáticos de mensajería unificada. Antes de autorizar los grupos de reglas de marcado, primero tiene que definir las reglas de marcado para el plan de marcado de mensajería unificada. Para obtener información detallada, consulte [Crear reglas de marcado para usuarios](create-dialing-rules-for-users-exchange-2013-help.md).
 

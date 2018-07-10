@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-13_
+_**Última modificación del tema:** 2013-02-13_
 
 Puede establecer un identificador de socio de Vista previa de correo de voz en una directiva de buzón de mensajería unificada (MU). Después de configurar el identificador de socio de vista previa de correo de voz en una directiva de buzones de correo de mensajería unificada, la configuración se aplicará a todos los usuarios con mensajería unificada enlazados a esta directiva de buzones de correo.
 

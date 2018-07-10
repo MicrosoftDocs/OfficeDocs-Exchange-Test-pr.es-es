@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede usar el informe de estadísticas de llamadas para ver información acerca del tipo y del estado de las llamadas entrantes administradas por los servidores Exchange de la organización. El informe proporciona información acerca de las llamadas desviadas o realizadas por la mensajería unificada (UM) para la organización. Esta información le permite realizar un seguimiento del uso a fin de planificar la capacidad, supervisar y solucionar problemas en la disponibilidad y calidad de audio de la mensajería unificada, así como solucionar problemas en las llamadas erróneas.
 

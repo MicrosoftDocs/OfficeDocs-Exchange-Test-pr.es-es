@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2014-01-30_
+_**Última modificación del tema:** 2014-01-30_
 
 La configuración de Microsoft Exchange Server 2013 no puede continuar porque ha detectado un sistema operativo incompatible. Debe instalar un sistema operativo compatible en este equipo antes de instalar Exchange 2013. En la siguiente tabla se muestran los sistemas operativos que son compatibles con Exchange 2013.
 

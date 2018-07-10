@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-05-04_
+_**Última modificación del tema:** 2016-05-04_
 
 A veces es conveniente echar un segundo vistazo a un mensaje antes de entregarlo. Como administrador de Exchange, puede configurar esto. Este proceso se denomina *moderación* y el aprobador se llama *moderador*. Según qué mensajes necesiten aprobación, puede usar uno de estos dos enfoques:
 

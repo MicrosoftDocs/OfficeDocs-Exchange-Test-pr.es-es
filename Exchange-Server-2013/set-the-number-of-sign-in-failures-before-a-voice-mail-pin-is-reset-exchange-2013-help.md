@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede configurar el número de errores de inicio de sesión permitidos antes de restablecer el PIN para un usuario de Outlook Voice Access en un valor de 1 a 998. El valor predeterminado es 5. Este número está configurado en una directiva de buzón de mensajería unificada (MU) y se aplica a todos los usuarios de Outlook Voice Access asociados con la directiva de buzón de MU.
 

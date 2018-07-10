@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-04-29_
+_**Última modificación del tema:** 2013-04-29_
 
 Una base de datos de buzones de correo es una unidad de granularidad donde se crean y se almacenan buzones. Una base de datos de buzones se almacena como archivo de base de datos de Exchange (.edb). En Microsoft Exchange Server 2013, cada base de datos de buzones cuenta con sus propias propiedades que pueden configurarse.
 
@@ -85,9 +85,7 @@ En la Consola, compruebe que toda la información de la base de datos de buzones
 
 3.  Haga clic en **Editar** ![Icono Editar](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icono Editar") para configurar los atributos de una base de datos de buzones.
 
-4.  
-    
-    Use la ficha **General** para visualizar el estado de la ruta de acceso a la base de datos de buzones, incluso el estado de la base de datos de buzones, la ruta de acceso a la copia de base de datos de buzones y la última copia de seguridad:
+4.  Use la ficha **General** para visualizar el estado de la ruta de acceso a la base de datos de buzones, incluso el estado de la base de datos de buzones, la ruta de acceso a la copia de base de datos de buzones y la última copia de seguridad:
     
       - **Ruta de acceso a la base de datos**   Este campo de sólo lectura muestra la ruta completa al archivo de la base de datos de Exchange 2013 (.edb) de la base de datos de buzones seleccionada. Para ver la ruta completa, puede hacer clic en la ruta y usar la tecla de flecha derecha. Este campo no se puede usar para cambiar la ruta. Para cambiar la ubicación de los archivos de la base de datos, use el cmdlet [Move-DatabasePath](https://technet.microsoft.com/es-es/library/bb124742\(v=exchg.150\)).
     

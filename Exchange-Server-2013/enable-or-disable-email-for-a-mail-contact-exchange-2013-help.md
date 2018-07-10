@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-12-05_
+_**Última modificación del tema:** 2012-12-05_
 
 Puede deshabilitar el correo electrónico para un contacto de correo existente en la organización de Exchange. Cuando se deshabilita el correo electrónico para un contacto de correo, se quita de Exchange y de la libreta de direcciones de la organización. Si el contacto de correo es miembro de un grupo de distribución, el contacto dejará de recibir el correo que se envíe al grupo. Asimismo, los atributos de Exchange se eliminan del objeto de contacto habilitado para correo en Active Directory, pero el contacto y los atributos que no sean de Exchange (como la información de la organización y del contacto) se mantienen.
 

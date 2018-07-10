@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-17_
+_**Última modificación del tema:** 2015-03-17_
 
 El Centro de Administración de Exchange (EAC) es la consola de administración basada en web en Microsoft Exchange Server 2013 optimizada para las implementaciones de Exchange locales, en línea o híbridas de Exchange. El EAC reemplaza a la Consola de Administración de Exchange (EMC) y al Panel de Control de Exchange (ECP), que eran las dos interfaces que se usaban para administrar Exchange Server 2010.
 
@@ -185,11 +185,11 @@ Para tener la mejor experiencia con EAC, use una de las combinaciones de sistema
 
 
 
-  - **Premium:** Todas las características funcionales son compatibles y probadas en su totalidad.
+  - **Premium:**  Todas las características funcionales son compatibles y probadas en su totalidad.
 
-  - **Admitidos:** Tiene el mismo soporte de característica funcional que Premium. Sin embargo, a los navegadores admitidos le faltarán ciertas características que no admite la combinación de sistema operativo y navegador.
+  - **Admitidos:**  Tiene el mismo soporte de característica funcional que Premium. Sin embargo, a los navegadores admitidos le faltarán ciertas características que no admite la combinación de sistema operativo y navegador.
 
-  - **No admitido:** El navegador y sistema operativo no están admitidos o no fueron probados.
+  - **No admitido:**  El navegador y sistema operativo no están admitidos o no fueron probados.
 
 
 <table style="width:100%;">

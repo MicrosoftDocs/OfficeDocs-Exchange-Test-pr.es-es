@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Puede agregar un aviso de declinación de responsabilidades de correo electrónico, un aviso de declinación de responsabilidades legales, firmas u otro tipo de información en la parte superior o inferior de los mensajes de correo electrónico que ingresan a su organización o salen de ella. Esto puede resultar necesario por requisitos empresariales, legales o normativos, para identificar mensajes de correo electrónico potencialmente no seguros o por otros motivos exclusivos de su organización.
 

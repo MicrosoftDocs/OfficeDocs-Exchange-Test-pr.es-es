@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-13_
+_**Última modificación del tema:** 2013-02-13_
 
 Puede establecer el retraso máximo de entrega para un sistema asociado de vista previa de correo de voz en una directiva de buzones de mensajería unificada (UM). Después de establecer el retraso máximo de entrega, la configuración se aplicará a todos los usuarios habilitados para mensajería unificada que estén vinculados a esta directiva buzones de correo de mensajería unificada.
 

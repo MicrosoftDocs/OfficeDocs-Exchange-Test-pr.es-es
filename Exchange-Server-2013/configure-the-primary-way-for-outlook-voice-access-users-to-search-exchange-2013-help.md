@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-21_
+_**Última modificación del tema:** 2013-02-21_
 
 Cuando cree un plan de marcado de mensajería unificada (MU), puede configurar la forma principal y la secundaria en la que los usuarios pueden buscar nombres para localizar a un usuario cuando llaman a un número de acceso de voz de Outlook o a un operador automático de MU asociado al plan de marcado. Los autores de llamadas pueden usar la marcación por tonos para localizar un usuario habilitado para mensajería unificada.
 

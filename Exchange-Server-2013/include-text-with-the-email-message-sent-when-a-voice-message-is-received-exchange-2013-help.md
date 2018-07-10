@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-12-16_
+_**Última modificación del tema:** 2012-12-16_
 
 Se puede incluir texto adicional en el mensaje de correo electrónico que se envía cuando un usuario habilitado para mensajería unificada recibe un mensaje de correo de voz. El texto de un mensaje de voz solamente indica de manera predeterminada que el usuario ha recibido un mensaje de voz. No obstante, se puede crear un mensaje personalizado escribiendo texto en el cuadro de texto **Cuando un usuario recibe un mensaje de voz** en una directiva de buzones de correo de mensajería unificada. Por ejemplo, el texto puede incluir información acerca de las directivas de seguridad del sistema y describir el modo correcto de controlar los mensajes de voz en la organización. Tras escribirlo, se incluirá en cada mensaje de correo electrónico que se envíe cuando los usuarios habilitados para mensajería unificada asociados a la directiva de buzones de correo de mensajería unificada reciban un mensaje de voz.
 

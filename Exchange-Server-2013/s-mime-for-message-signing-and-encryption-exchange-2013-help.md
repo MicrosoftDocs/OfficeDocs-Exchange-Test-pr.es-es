@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 S/MIME (Extensiones seguras multipropósito al correo de Internet) es un método, o más concretamente un protocolo, ampliamente aceptado para enviar mensajes cifrados y firmados digitalmente. S/MIME permite cifrar mensajes de correo electrónico y firmarlos digitalmente. Cuando se usa S/MIME con un mensaje de correo electrónico, ayuda a las personas que reciben ese mensaje a estar seguras de que lo que ven en sus bandejas de entrada es el mensaje exacto que envió el remitente. También ayudará a las personas que reciben mensajes a estar seguras de que el mensaje proviene del remitente específico y no de alguien que pretende ser el remitente. Para ello, S/MIME proporciona servicios de seguridad criptográfica como autenticación, integridad de mensajes y no rechazo de origen (usando firmas digitales). También ayuda a mejorar la privacidad y la seguridad de los datos (mediante cifrado) en la mensajería electrónica. Para obtener más información sobre la historia y la arquitectura de S/MIME en el contexto del correo electrónico, consulte [Descripción de S/MIME](https://go.microsoft.com/fwlink/?linkid=393948).
 
@@ -59,14 +59,11 @@ Para configurar S/MIME para Exchange 2013 SP1 o Exchange Online con Outlook Web
 
 Debido al aumento de la importancia de la seguridad de los mensajes, los administradores necesitan comprender los principios y conceptos de la mensajería segura. Esto es especialmente importante por la creciente variedad de nuevas tecnologías relativas a la protección, como S/MIME. Para obtener más información sobre S/MIME y cómo funciona en el contexto del correo electrónico, consulte [Descripción de S/MIME](https://go.microsoft.com/fwlink/?linkid=393948). Diversas tecnologías de cifrado trabajan juntas para proporcionar protección a los mensajes en reposo y en tránsito. S/MIME puede trabajar simultáneamente con las siguientes tecnologías pero no depende de ellas:
 
-  -  
-    **Seguridad de la capa de transporte (TLS)** cifra el túnel o la ruta entre los servidores de correo electrónico para ayudar a evitar exámenes y escuchas no autorizados.
+  -  **Seguridad de la capa de transporte (TLS)** cifra el túnel o la ruta entre los servidores de correo electrónico para ayudar a evitar exámenes y escuchas no autorizados.
 
-  -  
-    **Capa de sockets seguros (SSL)** cifra la conexión entre los clientes de correo electrónico y los servidores de Office 365.
+  -  **Capa de sockets seguros (SSL)** cifra la conexión entre los clientes de correo electrónico y los servidores de Office 365.
 
-  -  
-    **BitLocker** cifra los datos de un disco duro en un centro de datos para que si alguien obtiene acceso no autorizado, no pueda leerlos.
+  -  **BitLocker** cifra los datos de un disco duro en un centro de datos para que si alguien obtiene acceso no autorizado, no pueda leerlos.
 
 ## Comparación de S/MIME con Cifrado de mensajes de Office 365
 

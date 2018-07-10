@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Microsoft Exchange Server 2013 le permite configurar relaciones de organización con Microsoft Exchange Online u otras organizaciones de Exchange. El establecimiento de una relación de organización le permite mejorar la experiencia de usuario al tratar con la otra organización. Por ejemplo, puede compartir datos disponibles u ocupados, configurar el flujo de mensajes seguros y habilitar el seguimiento de mensajes en ambas organizaciones.
 

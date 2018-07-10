@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Un *grupo de roles de administración* es un grupo de seguridad universal (USG) usado en el modelo de permisos de Control de acceso basado en roles (RBAC) en Microsoft Exchange Server 2013. Un grupo de roles de administración simplifica la asignación de roles de administración a un grupo de usuarios. A todos los miembros de un grupo de funciones se les asigna el mismo conjunto de funciones. Los grupos de funciones son funciones de administrador y de especialistas asignadas que definen las tareas administrativas principales de Exchange 2013, tales como la administración de la organización, la administración de destinatarios y otras tareas. Los grupos de funciones le permiten asignar fácilmente un conjunto de permisos más amplio a un grupo de administradores o usuarios especialistas.
 

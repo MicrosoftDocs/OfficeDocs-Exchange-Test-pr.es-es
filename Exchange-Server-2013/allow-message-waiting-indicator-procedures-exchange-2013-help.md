@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-05-03_
+_**Última modificación del tema:** 2013-05-03_
 
 [Permitir el Indicador de mensajes en espera (MWI) en una puerta de enlace IP de mensajería unificada](allow-message-waiting-indicator-mwi-on-a-um-ip-gateway-exchange-2013-help.md)
 

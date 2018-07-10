@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-09_
+_**Última modificación del tema:** 2012-11-09_
 
 Puede especificar el número de intentos de inicio de sesión incorrectos sucesivos que se permiten antes de que se desconecte la llamada. El valor de este parámetro puede estar entre 1 y 20. Si configura un valor demasiado bajo, puede frustrar a los usuarios. Para la mayoría de las organizaciones, este valor se debería establecer en los tres intentos predeterminados.
 

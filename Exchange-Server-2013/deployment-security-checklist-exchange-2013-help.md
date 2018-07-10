@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Las funciones de Microsoft Exchange Server 2013 están diseñadas para mejorar la seguridad de su entorno de mensajería. En general, para Exchange 2013, se cumplen las siguientes condiciones:
 

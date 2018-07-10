@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Las sugerencias de directiva son avisos informativos que se muestran a los remitentes de correo electrónico mientras crean un mensaje. El propósito de la sugerencia de directiva es indicar a los usuarios que pueden estar infringiendo las directivas o prácticas empresariales que se exigen con las directivas de prevención de pérdida de datos (DLP) establecidas. Los siguientes procedimientos lo ayudarán a comenzar a usar las sugerencias de directiva. Vea este vídeo para obtener más información.
 

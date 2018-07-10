@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Una clave de producto indica a Exchange Server 2013 que ha comprado una licencia Standard o Enterprise Edition. Si la clave de producto que adquirió es para una licencia Enterprise Edition, puede montar más de cinco bases de datos por servidor además de todas las características disponibles con una licencia Standard Edition. Para más información sobre las licencias de Exchange, vea [Exchange 2013: ediciones y versiones](exchange-2013-editions-and-versions-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-11-01_
+_**Última modificación del tema:** 2013-11-01_
 
 [Habilitar o deshabilitar IRM para mensajes internos](enable-or-disable-irm-for-internal-messages-exchange-2013-help.md)
 

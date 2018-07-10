@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Para que un idioma esté disponible en la lista de idiomas de mensajería unificada de un plan de marcado de mensajería unificada o un operador automático de mensajería unificada, primero debe instalar el paquete de idioma de mensajería unificada apropiado. Para instalar el paquete de idioma en un servidor de buzones de correo, debe ejecutar el servicio de mensajería unificada de Microsoft Exchange mediante el archivo ejecutable autoextraíble específico del idioma o el comando **setup.exe /AddUmLanguagePack**. Antes de instalar un paquete de idioma de mensajería unificada, debe descargarlo a una carpeta local del servidor de buzones de correo. Puede descargar los paquetes de idioma de mensajería unificada de [Paquetes de idioma de mensajería unificada para Exchange Server 2013](https://go.microsoft.com/fwlink/p/?linkid=266542). Hay un archivo ejecutable independiente para cada idioma.
 

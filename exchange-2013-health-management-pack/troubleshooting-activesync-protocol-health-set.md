@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:**  Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-06_
+_**Última modificación del tema:**  2013-02-06_
 
 El conjunto de mantenimiento de ActiveSync.Protocol supervisa el mantenimiento general del protocolo de comunicaciones de Exchange ActiveSync en sus servidores de buzones de correo. Si recibe una alerta que especifica que el conjunto de mantenimiento de ActiveSync.Protocol es incorrecto, esto indica un problema que puede afectar los componentes de ActiveSync en un servidor de buzones de correo indicado en la alerta.
 

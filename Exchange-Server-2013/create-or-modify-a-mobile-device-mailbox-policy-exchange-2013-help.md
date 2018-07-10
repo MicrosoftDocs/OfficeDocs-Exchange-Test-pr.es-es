@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-16_
+_**Última modificación del tema:** 2012-10-16_
 
 Una directiva de buzón de dispositivo móvil le permite aplicar un conjunto común de configuraciones de seguridad y de dispositivo móvil a un grupo de usuarios. Puede crear varias directivas de buzón de dispositivo móvil. Todos los destinatarios en su organización deben tener una directiva de buzón de correo para dispositivos móviles asignado a ellos. Cuando instala Microsoft Exchange Server 2013, se crea una directiva de buzón de correo para dispositivos móviles y los usuarios nuevos se asignan automáticamente a esta directiva. Para asignar usuarios específicos a una directiva de buzón de correo para dispositivos móviles, consulte [Agregar o quitar usuarios de una directiva de buzón móvil](add-or-remove-users-from-a-mobile-mailbox-policy-exchange-2013-help.md).
 

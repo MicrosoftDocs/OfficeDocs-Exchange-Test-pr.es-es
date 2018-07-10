@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-17_
+_**Última modificación del tema:** 2012-10-17_
 
 La función de administración de `MyDisplayName` permite a los usuarios individuales ver y modificar su nombre para mostrar. Se trata de rol personalizado que se crea a partir del rol principal [Rol MyProfileInformation](myprofileinformation-role-exchange-2013-help.md).
 

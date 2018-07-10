@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-06_
+_**Última modificación del tema:** 2013-02-06_
 
 Los usuarios llevan información confidencial corporativa en los bolsillos todos los días. Si pierden el teléfono móvil, los datos pueden acabar en manos de terceros. En caso de que un usuario pierda el teléfono móvil, puede usar el Centro de administración de Exchange (EAC) o el Shell de administración de Exchange para borrar completamente toda la información personal y corporativa del teléfono.
 

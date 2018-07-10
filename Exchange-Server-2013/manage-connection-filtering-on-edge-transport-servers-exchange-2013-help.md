@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 El filtrado de conexiones es una característica contra correo no deseado proporcionada por el agente de filtrado de conexiones, que está disponible solamente en los servidores de transporte perimetral de Microsoft Exchange 2013. El filtrado de conexiones habilita las siguientes características:
 

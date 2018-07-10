@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 El rol de administración de aplicaciones del catálogo de soluciones de la organización permite que los administradores vean y modifiquen las aplicaciones de su organización, así como agregar aplicaciones desde la Tienda Office de Microsoft.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-12-16_
+_**Última modificación del tema:** 2014-12-16_
 
 En este tema se explica cómo modificar la configuración de una lista global de direcciones (LGD).
 

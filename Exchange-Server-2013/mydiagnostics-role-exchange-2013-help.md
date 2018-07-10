@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La función de administración `MyDiagnostics` permite que los usuarios individuales realicen diagnósticos básicos en sus buzones, como recuperación de la información de diagnóstico del calendario.
 

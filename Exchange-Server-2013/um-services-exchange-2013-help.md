@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-18_
+_**Última modificación del tema:** 2012-11-18_
 
 Los servidores de acceso de cliente que ejecutan el servicio de enrutador de llamadas de mensajería unificada de Microsoft Exchange y los servidores de buzones que ejecutan el servicio de mensajería unificada de Microsoft Exchange permiten implementar la mensajería unificada (UM) y la funcionalidad de correo de voz para los usuarios de una organización.
 

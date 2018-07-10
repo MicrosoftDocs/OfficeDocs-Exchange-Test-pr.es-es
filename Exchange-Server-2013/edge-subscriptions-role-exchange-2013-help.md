@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 El rol de administración de `Edge Subscriptions` permite que los administradores gestionen la sincronización perimetral y la configuración de suscripciones entre los servidores de transporte perimetral de Microsoft Exchange Server 2010 y los servidores de buzones de correo de Microsoft Exchange Server 2013 de una organización.
 

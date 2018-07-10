@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-02-01_
+_**Última modificación del tema:** 2016-02-01_
 
 El archivado local permite recuperar el control de los datos de mensajería de la organización mediante la eliminación de los archivos de almacenamiento personal (.pst). Asimismo, permite satisfacer los requisitos de retención de mensajes y de exhibición de documentos electrónicos de la organización. Con el archivado habilitado, los usuarios pueden almacenar mensajes en un buzón de archivo, al que puede acceder mediante MicrosoftOutlook y Outlook Web App.
 
@@ -53,9 +53,7 @@ El archivado local permite recuperar el control de los datos de mensajería de l
 
 
 
-4.  
-    
-    Seleccione una de las opciones para:
+4.  Seleccione una de las opciones para:
     
       - **Usuario existente** Haga clic en este botón y luego haga clic en **Examinar** para abrir el cuadro de diálogo **Seleccionar usuario – Todo el bosque**. Este cuadro de diálogo muestra una lista de cuentas de usuario de Active Directory del bosque que no están habilitadas para correo o no tienen buzones de Exchange. Seleccione la cuenta de usuario que desea habilitar para correo y, a continuación, haga clic en **Aceptar**. Si selecciona esta opción, no es necesario proporcionar información de la cuenta del usuario debido a que esa información ya existe en Active Directory.
     
@@ -67,9 +65,7 @@ El archivado local permite recuperar el control de los datos de mensajería de l
 
 
 
-5.  
-    
-    Haga clic en **Más opciones** para configurar los siguientes parámetros.
+5.  Haga clic en **Más opciones** para configurar los siguientes parámetros.
     
       - **Base de datos de buzones de correo** Haga clic en **Examinar** para seleccionar una base de datos de buzones de correo donde desea almacenar el buzón. Si no selecciona una base de datos, Exchange le asignará una automáticamente.
     
@@ -81,9 +77,7 @@ El archivado local permite recuperar el control de los datos de mensajería de l
     
       - **Directiva de libreta de direcciones** Utilice esta lista para seleccionar una directiva de libreta de direcciones (ABP) para el buzón. Las ABP contienen una lista global de direcciones (GAL), una libreta de direcciones sin conexión (OAB), una lista de salas y un conjunto de listas de direcciones. Cuando se asigna una ABP a usuarios de buzones de correo, les proporciona acceso a una GAL personalizada en Outlook y Outlook Web App. Para obtener más información, vea [Directivas de la libreta de direcciones](address-book-policies-exchange-2013-help.md).
 
-6.  
-    
-    Cuando haya finalizado, haga clic en **Guardar** para crear el buzón.
+6.  Cuando haya finalizado, haga clic en **Guardar** para crear el buzón.
 
 ## Usar el Shell
 

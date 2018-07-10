@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-03-15_
+_**Última modificación del tema:** 2013-03-15_
 
 El registro de protocolo registra las conversaciones del SMTP que se producen entre conectores de envío y recepción como parte de la entrega de mensajes.
 
@@ -155,17 +155,13 @@ Para configurar los valores del registro del protocolo, ejecute el siguiente com
 
 Este ejemplo establece la siguiente configuración de registro de protocolo en el servicio de transporte en el servidor Buzón de correo denominado Mailbox01:
 
-  -  
-    Establezca la ubicación de todos los registros del protocolo del conector de recepción en D:\\Hub Receive SMTP Log, y todos los registros de protocolo del conector de envío en D:\\Hub Send SMTP Log. Tenga en cuenta que si la carpeta no existe, se creará para usted.
+  -  Establezca la ubicación de todos los registros del protocolo del conector de recepción en D:\\Hub Receive SMTP Log, y todos los registros de protocolo del conector de envío en D:\\Hub Send SMTP Log. Tenga en cuenta que si la carpeta no existe, se creará para usted.
 
-  -  
-    Establezca el tamaño máximo de un archivo de registro de protocolo del conector de recepción y establezca el tamaño del archivo de registro de protocolo del conector de envío en 20 MB.
+  -  Establezca el tamaño máximo de un archivo de registro de protocolo del conector de recepción y establezca el tamaño del archivo de registro de protocolo del conector de envío en 20 MB.
 
-  -  
-    Establezca el tamaño máximo de la carpeta de registro de protocolo del conector de recepción y establezca el tamaño de la carpeta de registro de protocolo del conector de envío en 400 MB.
+  -  Establezca el tamaño máximo de la carpeta de registro de protocolo del conector de recepción y establezca el tamaño de la carpeta de registro de protocolo del conector de envío en 400 MB.
 
-  -  
-    Establezca el tamaño máximo de un archivo de registro de protocolo del conector de recepción y establezca el tamaño del archivo de registro de protocolo del conector de envío en 45 días.
+  -  Establezca el tamaño máximo de un archivo de registro de protocolo del conector de recepción y establezca el tamaño del archivo de registro de protocolo del conector de envío en 45 días.
 
 <!-- end list -->
 

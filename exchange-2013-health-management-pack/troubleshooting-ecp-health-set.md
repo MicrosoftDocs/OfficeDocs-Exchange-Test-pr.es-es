@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Project Server 2013_
+_**Se aplica a:**  Exchange Server 2013, Project Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:**  2015-03-09_
 
 El conjunto de mantenimiento del panel de control de Exchange (ECP) supervisa el mantenimiento general del Centro de administración de Exchange y del servicio de configuración de usuarios de Outlook Web App (OWA). El conjunto de mantenimiento del ECP está estrechamente relacionado con el conjunto de mantenimiento siguiente:
 

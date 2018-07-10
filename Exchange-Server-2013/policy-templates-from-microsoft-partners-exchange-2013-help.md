@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2013-01-31_
+_**Última modificación del tema:** 2013-01-31_
 
 Las características para la prevención de pérdida de datos (DLP) pueden ayudarle a identificar y supervisar muchas categorías de información confidencial. Al configurar las directivas de DLP, tiene la opción de importar un archivo de un origen de fuera de Microsoft Exchange para usarlo como plantilla de directiva de DLP. Las compañías asociadas de Microsoft pueden desarrollar y distribuir estos tipos de plantillas. Este tema se actualizará con un vínculo para ayudarle a encontrar estas compañías cuando estén disponibles.
 

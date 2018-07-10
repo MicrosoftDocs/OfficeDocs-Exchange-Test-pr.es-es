@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-07_
+_**Última modificación del tema:** 2013-02-07_
 
 En algunos casos, puede que desee enrutar el correo electrónico mediante un host inteligente de terceros, por ejemplo, si tiene una aplicación de red para la que desea realizar comprobaciones de directiva en los mensajes salientes.
 

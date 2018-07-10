@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Cuando un buzón de correo tiene habilitada la auditoría, Microsoft Exchange guarda la información en el *registro de auditoría de buzones de correo* siempre que un usuario que no sea el propietario obtenga acceso al buzón de correo. Cada entrada de registro incluye información acerca de quién tuvo acceso al buzón y en qué momento, las acciones realizadas por el usuario que es no propietario y si la acción se realizó correctamente. Las entradas del registro de auditoría de buzones de correo se retienen, de manera predeterminada, durante 90 días. Puede usar el registro de auditoría de buzones de correo para determinar si un usuario que no es el propietario ha tenido acceso a un buzón de correo.
 
@@ -64,10 +64,12 @@ Para habilitar el registro de auditoría de buzones de correo para un solo buzó
     Set-Mailbox <Identity> -AuditEnabled $true
 
 Para habilitar la auditoría de buzones de correo para todos los buzones de usuarios de la organización, ejecute los siguientes comandos.
-
+```
     $UserMailboxes = Get-mailbox -Filter {(RecipientTypeDetails -eq 'UserMailbox')}
-
+```
+```
     $UserMailboxes | ForEach {Set-Mailbox $_.Identity -AuditEnabled $true}
+```
 
 ## Paso 2: Configuración de Outlook Web App para permitir datos adjuntos de XML
 

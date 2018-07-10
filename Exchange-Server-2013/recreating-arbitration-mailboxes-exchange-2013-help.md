@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Última modificación del tema:**2018-01-17_
+_**Última modificación del tema:** 2018-01-17_
 
-**Resumen:** acerca de los buzones de arbitraje en Exchange 2013 y cómo volver a crearlos.
+**Resumen:**  acerca de los buzones de arbitraje en Exchange 2013 y cómo volver a crearlos.
 
 Exchange 2013 incluye cinco buzones de sistema conocidos como *buzones de arbitraje*. Buzones de correo de arbitraje se utilizan para almacenar diferentes tipos de datos del sistema y administrar el flujo de trabajo de mensajería aprobación. El siguiente gráfico enumera cada tipo de buzón de arbitraje y sus responsabilidades.
 

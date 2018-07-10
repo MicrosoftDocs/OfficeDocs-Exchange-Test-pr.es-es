@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En Exchange Online y Exchange Server 2013, puede usar directivas de retención para administrar el ciclo de vida de correo electrónico. Para aplicar directivas de retención, se crean etiquetas de retención, se agregan a una directiva de retención y se aplica la directiva a los usuarios del buzón de correo.
 

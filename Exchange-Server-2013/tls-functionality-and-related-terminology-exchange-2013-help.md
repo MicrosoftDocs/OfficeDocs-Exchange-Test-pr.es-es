@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-06-18_
+_**Última modificación del tema:** 2014-06-18_
 
 Microsoft Exchange Server 2013 ofrece funciones administrativas y otros cambios que mejoran la administración general de la Seguridad de la capa de transporte (TLS). Debe conocer algunas de las características y funciones relacionadas con la TLS para poder usarlas. Algunos términos y conceptos se aplican a más de una característica relacionada con la TLS. En este tema, se ofrece una breve explicación de cada característica para ayudarlo a entender algunas diferencias y la terminología general relacionada con la TLS y el conjunto de características de seguridad de dominio:
 

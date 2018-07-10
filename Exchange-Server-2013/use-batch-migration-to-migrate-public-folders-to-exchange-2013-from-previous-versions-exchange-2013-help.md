@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2018-03-26_
+_**Última modificación del tema:** 2018-03-26_
 
-**Resumen:** En este artículo se describe cómo mover las carpetas públicas de Exchange 2007 o Exchange 2010 a Exchange 2013.
+**Resumen:**  En este artículo se describe cómo mover las carpetas públicas de Exchange 2007 o Exchange 2010 a Exchange 2013.
 
 En este artículo se describe cómo migrar las carpetas públicas de Exchange Server 2010 SP3 RU8 o Exchange 2007 SP3 RU15 a Microsoft Exchange Server 2013 CU7 o posterior dentro del mismo bosque.
 
@@ -75,7 +75,7 @@ No puede migrar las carpetas públicas directamente desde Exchange 2003. Si ejec
 
   - En Exchange 2007, debe tener asignado el rol Administrador de organización de Exchange o Administrador de servidores de Exchange. Asimismo, debe tener asignado el rol de administrador de carpetas públicas y el grupo de administradores locales para el servidor de destino. Para más información, vea [Cómo agregar un usuario o grupo a una función de administrador](https://go.microsoft.com/fwlink/p/?linkid=81779).
 
-  - En el servidor de Exchange 2007, actualice a [Windows PowerShell 2.0 y WinRM 2.0 para Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930).
+  - En el servidor de Exchange 2007, actualice a [Windows PowerShell 2.0 y WinRM 2.0 para Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930).
 
   - Antes de migrar, debe tener en cuenta los [Límites de las carpetas públicas](limits-for-public-folders-exchange-2013-help.md).
 
@@ -214,10 +214,12 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
         > [!NOTE]
         > Se eliminará definitivamente toda la información contenida en las carpetas públicas cuando se eliminen.
 
-        
+        ```
             Get-Mailbox -PublicFolder | Where{$_.IsRootPublicFolderMailbox -eq $false} | Remove-Mailbox -PublicFolder -Force -Confirm:$false
-        
+        ```
+        ```
             Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+        ```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte los siguientes temas:
 
@@ -285,11 +287,13 @@ Los pasos para migrar carpetas públicas de Exchange 2007 son distintos de los p
 **Migrar carpetas públicas de Exchange 2007**
 
 1.  Exchange 2013 no reconocerá las carpetas públicas del sistema heredado, como OWAScratchPad y el subárbol de carpeta raíz de esquema de Exchange 2007; por lo tanto, se considerarán elementos "incorrectos". En este caso, la migración no se realizará correctamente. Como parte de la solicitud de migración, debe especificar un valor para el parámetro `BadItemLimit`. Este valor dependerá del número de bases de datos de carpetas públicas que tenga. Los siguientes comandos determinarán las bases de datos de carpetas públicas de las que dispone y calculará el `BadItemLimit` para la solicitud de migración.
-    
+    ```
         $PublicFolderDatabasesInOrg = @(Get-PublicFolderDatabase)
-    
+    ```
+    ```
         $BadItemLimitCount = 5 + ($PublicFolderDatabasesInOrg.Count -1)
-
+    ```
+    
 2.  En el servidor de Exchange 2013, ejecute el siguiente comando:
     
         New-MigrationBatch -Name PFMigration -SourcePublicFolderDatabase (Get-PublicFolderDatabase -Server <Source server name>) -CSVData (Get-Content <Folder to mailbox map path> -Encoding Byte) -NotificationEmails <email addresses for migration notifications> -BadItemLimit $BadItemLimitCount 

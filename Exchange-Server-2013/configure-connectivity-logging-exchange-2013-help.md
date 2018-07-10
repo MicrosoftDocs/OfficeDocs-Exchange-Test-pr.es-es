@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-18_
+_**Última modificación del tema:** 2013-02-18_
 
 El registro de conectividad registra la actividad de conexiones salientes usada para transmitir mensajes desde un servicio de transportes en un servidor Exchange. El registro de conectividad registra el origen de la conexión, el destino y el número de mensajes y bytes transmitidos y la información de fallos de conexión.
 
@@ -49,7 +49,7 @@ El registro de conectividad registra la actividad de conexiones salientes usada 
     
       - **Habilitar el registro de seguimiento de mensajes**   Para deshabilitar el registro de seguimiento de mensajes en el servidor, desactive la casilla de verificación. Para habilitar el registro de seguimiento de mensajes en el servidor, seleccione la casilla de verificación.
     
-      - **Ruta del archivo de registro de conectividad:**   El valor que especifique debe estar en el servidor Exchange. Si la carpeta no existe, se creará cuando usted haga clic en **Guardar**.
+      - **Ruta del archivo de registro de conectividad:**    El valor que especifique debe estar en el servidor Exchange. Si la carpeta no existe, se creará cuando usted haga clic en **Guardar**.
     
     Cuando haya terminado, haga clic en **Guardar**.
 
@@ -61,17 +61,13 @@ Para configurar el registro de seguimiento de mensajes, ejecute el comando sigui
 
 Este ejemplo establece la siguiente configuración de registro de conectividad en el servidor de transporte en el servidor de buzones de correo denominado "Mailbox01":
 
-  -  
-    Establece la ubicación de los archivos de registro de conectividad al registro de conectividad D:\\Hub. Tenga en cuenta que si la carpeta no existe, se creará para usted.
+  -  Establece la ubicación de los archivos de registro de conectividad al registro de conectividad D:\\Hub. Tenga en cuenta que si la carpeta no existe, se creará para usted.
 
-  -  
-    Establece el tamaño máximo de un archivo de registro de conectividad a 20 MB.
+  -  Establece el tamaño máximo de un archivo de registro de conectividad a 20 MB.
 
-  -  
-    Establece el tamaño máximo del directorio de registro de conectividad a 1,5 GB.
+  -  Establece el tamaño máximo del directorio de registro de conectividad a 1,5 GB.
 
-  -  
-    La antigüedad máxima de un archivo de registro de conectividad se establece en 45 días.
+  -  La antigüedad máxima de un archivo de registro de conectividad se establece en 45 días.
 
 <!-- end list -->
 

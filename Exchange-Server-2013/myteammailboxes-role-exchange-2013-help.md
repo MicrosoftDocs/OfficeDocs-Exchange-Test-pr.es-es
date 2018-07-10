@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 El rol de administración `MyTeamMailboxes` permite que los usuarios individuales creen buzones de sitio y los conecten a los sitios de Microsoft SharePoint.
 

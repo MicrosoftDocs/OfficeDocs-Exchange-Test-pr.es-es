@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-08-27_
+_**Última modificación del tema:** 2014-08-27_
 
 Después de crear una búsqueda de Exhibición de documentos electrónicos en contexto, puede modificarla para cambiar los parámetros de la búsqueda. Por ejemplo, puede modificar los buzones de correo en los que buscar, los intervalos de fechas, las palabras clave y las opciones de registro, o puede especificar otro buzón de detección para almacenar resultados de búsqueda. Los cambios efectuados en las propiedades de la búsqueda se usarán al reanudar la búsqueda.
 

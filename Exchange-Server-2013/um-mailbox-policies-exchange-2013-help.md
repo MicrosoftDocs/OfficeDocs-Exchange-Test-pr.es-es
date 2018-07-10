@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-15_
+_**Última modificación del tema:** 2012-11-15_
 
 Las directivas de buzones de mensajería unificada (UM) son necesarias cuando habilita a los usuarios para mensajería unificada. Se crean directivas de buzones de mensajería unificada para aplicar un conjunto común de directivas o configuraciones de seguridad a una serie de buzones de usuarios de correo de voz. Las directivas de buzones de mensajería unificada permiten especificar configuraciones de mensajería unificada como las siguientes:
 

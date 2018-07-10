@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-01-21_
+_**Última modificación del tema:** 2013-01-21_
 
 Puede usar el Shell para crear una base de datos de recuperación, un tipo especial de base de datos de buzones de correo que se usa para instalar y extraer datos de la base de datos restaurada como parte de la operación de recuperación. Después de crear una base de datos de recuperación, es posible trasladar a ella una base de datos de buzones de correo recuperada o restaurada y luego utilizar el cmdlet [New-MailboxRestoreRequest](https://technet.microsoft.com/es-es/library/ff829875\(v=exchg.150\)) para extraer los datos de la base recuperada. Una vez hecha la extracción, los datos pueden exportarse a una carpeta o combinarse en los de un buzón existente. Con las bases de datos de recuperación, también puede recuperar datos de una copia de seguridad o copia de una base de datos sin interrumpir el acceso del usuario a los datos actuales.
 

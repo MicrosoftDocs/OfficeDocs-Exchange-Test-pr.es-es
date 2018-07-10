@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-12-16_
+_**Última modificación del tema:** 2012-12-16_
 
 Puede configurar el método que usará para los usuarios con nombres parecidos en las opciones **Libreta de direcciones y acceso del operador** de un operador automático, o bien dejar la configuración predeterminada del operador automático y definir esta configuración en el plan de marcado asociado al operador. De forma predeterminada, un operador automático puede desambiguar entre dos o más usuarios con nombres iguales o parecidos porque la configuración predeterminada del operador es **Heredar del plan de marcado**.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:**  Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-07_
+_**Última modificación del tema:**  2013-02-07_
 
 El conjunto de mantenimiento de IMAP.Proxy supervisa la disponibilidad de la infraestructura proxy de IMAP4 en el servidor de acceso de cliente (CAS). Si recibe una alerta que indica que el conjunto de mantenimiento de IMAP.Proxy no funciona bien, significa que existe un problema que puede afectar a los componentes del CAS citado en la alerta.
 

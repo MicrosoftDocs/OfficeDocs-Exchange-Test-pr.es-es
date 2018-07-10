@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-25_
+_**Última modificación del tema:** 2013-04-25_
 
 Cuando llega un mensaje de correo de voz, los usuarios pueden elegir escucharlo a través de los altavoces o auriculares de su equipo o usar la característica Reproducir en teléfono. La característica Reproducir en teléfono se incluye con Microsoft Outlook y Outlook Web App, y la configuración para Reproducir en teléfono está disponible en la sección **Reproducir en teléfono** dentro de las opciones de **Correo de voz**. Este tema trata sobre cómo un usuario habilitado para mensajería unificada puede usar la característica Reproducir en teléfono.
 

@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-07-07_
+_**Última modificación del tema:** 2015-07-07_
 
-**Resumen:** Use el CEF o el shell para configurar las cuotas de almacenamiento de buzones específicos.
+**Resumen:**  Use el CEF o el shell para configurar las cuotas de almacenamiento de buzones específicos.
 
 Las cuotas de almacenamiento le permiten controlar el tamaño de los buzones de correo y administrar el crecimiento de las bases de datos de buzones de correo. Cuando un buzón alcanza o excede una cuota de almacenamiento específica, Exchange envía una notificación descriptiva al propietario del buzón.
 

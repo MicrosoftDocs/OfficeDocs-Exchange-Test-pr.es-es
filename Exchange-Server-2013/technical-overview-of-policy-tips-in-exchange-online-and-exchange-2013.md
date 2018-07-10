@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-07-22_
+_**Última modificación del tema:** 2015-07-22_
 
 Para ayudar a evitar que los usuarios de correo electrónico de Microsoft Outlook Outlook Web App (OWA) y OWA para dispositivos de su organización envíen información confidencial de forma inapropiada, puede crear directivas de prevención de pérdida de datos (DLP) que incluyan mensajes de notificación *Sugerencias de directivas*. Al igual que las sugerencias de correo electrónico incluidas en Microsoft Exchange Server 2010, las sugerencias de directivas son mensajes de notificación que se muestran a los usuarios en Outlook mientras crean un mensaje de correo electrónico. Los mensajes de notificación de sugerencias de directivas sólo aparecen si el mensaje de correo electrónico del remitente parece infringir de alguna manera una directiva de DLP que implementó y dicha directiva incluye una regla para notificar al remitente cuando se cumplen las condiciones que usted estableció. Para obtener más información general acerca de la prevención de pérdida de datos, vea [Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md).
 

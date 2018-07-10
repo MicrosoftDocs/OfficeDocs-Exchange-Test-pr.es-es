@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-08-21_
+_**Última modificación del tema:** 2012-08-21_
 
 De forma predeterminada, Microsoft Exchange Server 2013 incluye varios grupos de funciones de administración. Los grupos de funciones siguientes integrados brindan una serie de funciones preconfiguradas que puede asignar a distintos administradores y usuarios especialistas de la organización.
 

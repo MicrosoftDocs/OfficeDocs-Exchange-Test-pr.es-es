@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-02_
+_**Última modificación del tema:** 2012-10-02_
 
 Asignaciones de funciones de administración asignan una función de administración a un usuario o un grupo de seguridad universal (USG). Si quita una asignación de función, los usuarios asignados a la función ya no tendrán acceso a los cmdlets disponibles en dicha función. Para obtener más información acerca de las asignaciones de funciones de administración en Microsoft Exchange Server 2013, consulte [Descripción de las asignaciones de funciones de administración](understanding-management-role-assignments-exchange-2013-help.md).
 

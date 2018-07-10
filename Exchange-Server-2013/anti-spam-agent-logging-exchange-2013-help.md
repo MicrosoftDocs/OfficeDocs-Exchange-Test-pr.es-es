@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Los registros de agente graban las acciones realizadas en un mensaje mediante agentes específicos contra correo electrónico no deseado en Microsoft Exchange Server 2013. Únicamente los siguientes agentes pueden escribir información en el registro de agente:
 
@@ -136,15 +136,15 @@ La información se escribe en el archivo de registro hasta que el tamaño del ar
 
 Los archivos de registro de agentes son archivos de texto que contienen datos en el formato de archivo de valores separados por comas (CSV). Cada archivo de registro de agentes tiene un encabezado que contiene la siguiente información:
 
-  - **\#Software:**   Nombre del software que crea el archivo de registro de agentes. Normalmente, el valor es Microsoft Exchange Server.
+  - **\#Software:**    Nombre del software que crea el archivo de registro de agentes. Normalmente, el valor es Microsoft Exchange Server.
 
-  - **\#Version:**   Número de versión del software que crea el archivo de registro de agentes. Actualmente, el valor es 15.0.0.0.
+  - **\#Version:**    Número de versión del software que crea el archivo de registro de agentes. Actualmente, el valor es 15.0.0.0.
 
-  - **\#Log-Type:**   Valor de tipo de registro, que es el registro de agentes.
+  - **\#Log-Type:**    Valor de tipo de registro, que es el registro de agentes.
 
   - **\#Date**   La fecha y hora UTC en el momento de crearse el archivo. La fecha y hora UTC se representa mediante el formato de fecha y hora conforme a ISO 8601: *yyyy-mm-dd*T*hh:mm:ss.fff*Z, donde *yyyy* = año, *mm* = mes, *dd* = día, T indica el comienzo del componente tiempo, *hh* = hora, *mm* = minuto, *ss* = segundo, *fff* = fracciones de un segundo, y Z significa Zulu, que es otra forma de denominar UTC.
 
-  - **\#Fields:**   Nombres de campos delimitados por comas que se usan en los archivos de registro de agentes.
+  - **\#Fields:**    Nombres de campos delimitados por comas que se usan en los archivos de registro de agentes.
 
 Volver al principio
 

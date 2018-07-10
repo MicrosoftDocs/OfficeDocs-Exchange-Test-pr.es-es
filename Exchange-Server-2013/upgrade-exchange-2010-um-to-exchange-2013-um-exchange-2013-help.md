@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Al actualizar una organización de Microsoft Exchange 2010 con Mensajería unificada (UM) a Mensajería unificada de Exchange 2013, hay algunos pasos que se deben llevar a cabo y otros que ya se completaron al implementar Mensajería unificada de Exchange 2010. En función del entorno de telefonía y de los componentes de UM que se crearon y configuraron para admitir Mensajería unificada en Exchange 2010, puede que tenga que implementar equipos de telefonía adicionales, como puertas de enlace de voz sobre IP (VoIP), centrales de conmutación (PBX) de IP o PBX tradicionales o con SIP habilitado, y luego crear y configurar los componentes de UM necesarios para Mensajería unificada de Exchange 2013.
 
@@ -550,14 +550,11 @@ Cuando actualiza a la mensajería unificada de Exchange 2013, debe tener previam
 
 El último paso en el proceso de actualizar a mensajería unificada de Exchange 2013 es configurar las puertas de enlace VoIP, IP-PBX o PBX habilitadas para SIP para enviar llamadas entrantes a los servidores de acceso de cliente de Exchange 2013. (Se incluyen autores de llamadas que desean dejar un correo de voz para un usuario, llamadas de usuarios habilitados para mensajería unificada que llaman a Outlook Voice Access y llamadas de personas que llaman a un operador automático de mensajería unificada). Todas estas llamadas son recibidas primero por una puerta de enlace VoIP, IP-PBX o PBX habilitadas para SIP y luego son reenviadas a los servidores de acceso de cliente de Exchange 2013 de la organización de Exchange 2013. Para obtener más información, vea los recursos siguientes:
 
-  -  
-    [Servicios de mensajería unificada](um-services-exchange-2013-help.md)
+  -  [Servicios de mensajería unificada](um-services-exchange-2013-help.md)
 
-  -  
-    [Notas para la configuración de puertas de enlace de VoIP, IP PBX y PBX compatibles](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+  -  [Notas para la configuración de puertas de enlace de VoIP, IP PBX y PBX compatibles](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
 
-  -  
-    [Asesor de telefonía para Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
+  -  [Asesor de telefonía para Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
 
 ## Paso 15: Deshabilitar el contestador automático en un servidor de Mensajería unificada de Exchange 2010
 

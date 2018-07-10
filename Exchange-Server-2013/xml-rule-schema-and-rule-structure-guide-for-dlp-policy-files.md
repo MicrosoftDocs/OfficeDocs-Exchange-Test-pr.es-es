@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 En esta introducción se explican los componentes de una definición de esquema XML para los archivos de plantilla de directiva de prevención de pérdida de datos (DLP). También se proporciona un archivo de plantilla en formato XML a modo de ejemplo, que le será útil para comprender la arquitectura general de DLP y el proceso de desarrollo de reglas antes de comenzar. Para obtener más información, vea [Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md) y [Definir sus propios tipos de información y plantillas de DLP](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
 

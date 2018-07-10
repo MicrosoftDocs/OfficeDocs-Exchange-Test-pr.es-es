@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-15_
+_**Última modificación del tema:** 2013-02-15_
 
 Es posible especificar el modo de inicio del servicio de mensajería unificada de Microsoft Exchange en un servidor de buzones. De manera predeterminada, el servidor de buzones se iniciará en el modo TCP, pero si usa Seguridad de la capa de transporte (TLS) para cifrar el tráfico de voz sobre IP (VoIP), debe configurar el servidor de buzones para que use el modo Dual o TLS. Recomendamos configurar los servidores de buzones para usar Dual como modo de inicio. Esto es porque todos los servidores de acceso de cliente y de buzones pueden responder las llamadas entrantes para todos los planes de marcado de MU, y esos planes de marcado pueden tener una configuración de seguridad distinta (No protegida, SIP protegida o Protegida). Si cambia el modo de inicio, debe reiniciar el servicio de mensajería unificada de Microsoft Exchange para que el cambio se aplique.
 

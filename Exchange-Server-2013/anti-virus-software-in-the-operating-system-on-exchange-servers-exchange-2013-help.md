@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-07-22_
+_**Última modificación del tema:** 2016-07-22_
 
 Este tema describe los efectos de los programas antivirus de nivel de archivo en los equipos que ejecutan Microsoft Exchange Server 2013. Si implementa las recomendaciones descritas en este tema, puede ayudar a mejorar la seguridad y la salud de su organización de Exchange.
 

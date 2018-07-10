@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La función de administración de `Team Mailboxes` permite que los administradores definan una o más directivas de aprovisionamiento del buzón en el sitio y administren buzones en el sitio en la organización. Los administradores que tienen esta función asignada pueden administrar buzones en el sitio incluso si no son los propietarios.
 

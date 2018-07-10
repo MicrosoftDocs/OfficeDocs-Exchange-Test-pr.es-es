@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En este tema se explica cómo utilizar Telnet para probar la comunicación SMTP (protocolo simple de transferencia de correo) entre servidores de mensajería. De forma predeterminada, SMTP escucha en el puerto 25. Si usa Telnet en el puerto 25, puede introducir los comandos SMTP que se usan para conectarse a un servidor SMTP y enviar un mensaje exactamente del mismo modo que si la sesión de Telnet fuera un servidor de mensajería SMTP. Puede ver el éxito o error de cada paso del proceso de conexión y envío de mensajes.
 

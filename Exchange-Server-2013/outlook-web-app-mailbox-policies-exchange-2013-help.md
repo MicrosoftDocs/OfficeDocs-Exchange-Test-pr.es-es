@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-05_
+_**Última modificación del tema:** 2012-10-05_
 
 Use las directivas de buzones de MicrosoftOutlook Web App para crear directivas en el nivel de la organización que permitan administrar el acceso a las características de Outlook Web App.
 

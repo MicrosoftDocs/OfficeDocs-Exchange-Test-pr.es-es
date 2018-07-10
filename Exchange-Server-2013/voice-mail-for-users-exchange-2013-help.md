@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-19_
+_**Última modificación del tema:** 2013-02-19_
 
 La mensajería unificada (MU) permite a los usuarios de una organización de Exchange recibir mensajes de correo electrónico y de voz en un buzón. La funcionalidad de mensajería unificada y las características de correo de voz aumentan considerablemente la productividad del usuario y posibilitan una mensajería más flexible dentro de la organización.
 
@@ -83,7 +83,7 @@ Después de crear un buzón de Exchange para el usuario, configure los valores d
     
     Deberá proporcionar un número de extensión válido para el usuario que deberá contener el mismo número de dígitos especificado en el plan de marcado. Solo se pueden especificar caracteres numéricos o dígitos del 1 al 20. Un número de extensión convencional tiene una longitud entre 3 y 7 caracteres, y se configura en el plan de marcado con el que la directiva de buzón de mensajería unificada se vincula y se asigna al usuario.
 
-3.  **Configuración de PIN para el usuario:**
+3.  **Configuración de PIN para el usuario:** 
     
       - **Generar PIN automáticamente**   Esta configuración permite generar un PIN de forma automática para el usuario habilitado para mensajería unificada para el acceso al correo de voz a través de Outlook Voice Access. Esta es la configuración predeterminada. Cuando hace clic en este botón, se genera automáticamente un PIN de acuerdo con las directivas de PIN configuradas en la directiva de buzón de correo de MU asignada al usuario. Se recomienda utilizar esta opción para aumentar la protección del PIN del usuario. El PIN se envía al usuario en el mensaje de bienvenida que este recibe después de su habilitación para MU. De manera predeterminada, tendrá que cambiar este PIN la primera vez que inicie sesión en el buzón de correo para obtener el correo de voz.
     

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-10-01_
+_**Última modificación del tema:** 2014-10-01_
 
 Es posible usar directivas de retención para agrupar una o más etiquetas de retención y aplicarlas a los buzones para hacer respetar las configuraciones de retención de mensajes. Un buzón no puede tener más de una directiva de retención.
 

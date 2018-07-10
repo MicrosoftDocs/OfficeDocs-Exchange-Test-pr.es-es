@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-19_
+_**Última modificación del tema:** 2013-04-19_
 
 Puede escribir el nombre de su empresa en el cuadro **Nombre de la empresa** en un operador automático de mensajería unificada. De manera predeterminada, no se indica ningún nombre de empresa. Si escribe un nombre de empresa, se reproducirá un mensaje de bienvenida personalizado con el nombre de la empresa a las personas que llamen en el operador automático de mensajería unificada.
 

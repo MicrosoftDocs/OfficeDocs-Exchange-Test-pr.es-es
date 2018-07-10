@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-05_
+_**Última modificación del tema:** 2012-11-05_
 
 Puede deshabilitar mensajería unificada (UM) para un usuario habilitado para mensajería unificada. Al hacerlo, el usuario ya no puede utilizar las características de correo de voz de mensajería unificada. Si lo prefiere, al deshabilitar mensajería unificada para un usuario, puede mantener la configuración de mensajería unificada para el usuario.
 

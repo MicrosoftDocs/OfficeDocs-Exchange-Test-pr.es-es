@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-20_
+_**Última modificación del tema:** 2013-02-20_
 
 En este tema, se describen las características de cliente que proporcionan acceso a los mensajes de correo electrónico y de voz de su buzón de correo para los usuarios habilitados para la mensajería unificada (MU) de Exchange. Estas características le permiten ofrecer a los usuarios acceso simplificado a su correo de voz y electrónico y una mejor experiencia general de usuario.
 

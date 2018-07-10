@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Puede archivar contenido de Lync Online, como las conversaciones de mensajería instantánea, en el buzón de un usuario en Exchange Online. En implementaciones locales, puede archivar contenido de Lync 2013 en buzones de Exchange 2013. En entornos locales y en línea, es necesario colocar una retención por juicio o una conservación local en el buzón del usuario. Cuando un usuario elimina permanentemente el contenido de Lync cuyo buzón se encuentra en suspensión, el contenido de Lync archivado se conserva en la carpeta Elementos recuperables del buzón del usuario. No es visible para los usuarios, pero se incluye en las búsquedas de eDiscovery.
 

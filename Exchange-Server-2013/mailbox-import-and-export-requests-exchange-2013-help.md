@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Usando los conjuntos de cmdlets **MailboxImportRequest** o **MailboxExportRequest** cmdlet establecidos en el Shell de administración de Exchange, puede importar datos o exportar datos a archivos .pst. Después de iniciar una solicitud de importación o exportación de buzones de correo, el servicio de replicación de buzón (MRS) de Microsoft Exchange completa el proceso asincrónicamente. MRS reside en todos los servidores de acceso de clientes de Exchange 2010 y es el servicio responsable de mover buzones de correo y de importar y exportar archivos .pst.
 

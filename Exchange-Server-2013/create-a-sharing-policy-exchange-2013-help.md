@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Las directivas de uso compartido permiten controlar la forma en que los usuarios de una organización de Exchange comparten la información de calendario con los usuarios que se encuentran fuera de la organización. Compartir directivas permite compartir información de calendario establecida por los usuarios de persona a persona con diferentes tipos de usuarios externos. Admiten el uso compartido de información de calendario con organizaciones externas federadas (como Office 365 u otra organización de Exchange local), organizaciones externas no federadas y personas con acceso a Internet. Para aplicar una directiva de uso compartido específica a los usuarios, vea [Aplicar una directiva de uso compartida a los buzones](apply-a-sharing-policy-to-mailboxes-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2017-02-02_
+_**Última modificación del tema:** 2017-02-02_
 
 Tiempo estimado para finalizar: 5 minutos.
 

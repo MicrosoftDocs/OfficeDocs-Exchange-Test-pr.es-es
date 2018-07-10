@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-19_
+_**Última modificación del tema:** 2013-02-19_
 
 En Microsoft Exchange Server 2010, el rol de servidor Buzón de correo hospedaba las bases de datos de carpetas públicas y de buzones y también proporcionaba almacenamiento de mensajes. Ahora, en Exchange Server 2013, el rol de servidor Buzón de correo también incluye los protocoles de acceso de clientes, el servicio de transporte, las bases de datos de buzones y los componentes de mensajería unificada.
 

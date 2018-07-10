@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Obtenga más información sobre el servicio Detección automática de Exchange para Microsoft Exchange 2013. Aprenderá qué hace y cómo funciona el servicio Detección automática de Exchange y cuáles son las opciones de implementación.
 

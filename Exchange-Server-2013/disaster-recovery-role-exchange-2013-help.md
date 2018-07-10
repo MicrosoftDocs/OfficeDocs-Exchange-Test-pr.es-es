@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 El rol de administración de `Disaster Recovery` permite a los administradores restaurar buzones y bases de datos de buzones, crear bases de datos de buzones y realizar cambios o retrocesos de centros de datos para los grupos de disponibilidad de base de datos de una organización.
 

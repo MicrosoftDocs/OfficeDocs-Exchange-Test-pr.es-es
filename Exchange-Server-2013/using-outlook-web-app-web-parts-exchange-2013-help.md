@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-07-31_
+_**Última modificación del tema:** 2015-07-31_
 
 Puede usar elementos web de MicrosoftOfficeOutlook Web App para especificar el buzón que se abrirá, la carpeta del buzón que se abrirá y la vista de contenido que se usará.
 
@@ -169,13 +169,13 @@ Los elementos web de Outlook Web App pueden especificarse también manualmente e
 
 En los ejemplos siguientes se muestra cómo acceder directamente a las vistas comunes de Outlook Web App:
 
-  - **Bandeja de entrada:** https://*\<server name\>*/owa/?cmd=contents\&module=inbox
+  - **Bandeja de entrada:**  https://*\<server name\>*/owa/?cmd=contents\&module=inbox
 
-  - **Calendario (hoy):**https://*\<server name\>*/owa/?cmd=contents\&module=calendar\&exsvurl=1
+  - **Calendario (hoy):** https://*\<server name\>*/owa/?cmd=contents\&module=calendar\&exsvurl=1
 
-  - **Calendario (semanal):** https://*\<server name\>*/owa/?cmd=contents\&module=calendar\&view=weekly\&exsvurl=1
+  - **Calendario (semanal):**  https://*\<server name\>*/owa/?cmd=contents\&module=calendar\&view=weekly\&exsvurl=1
 
-  - **Calendario (mensual):** https://*\<server name\>*/owa/?cmd=contents\&module=calendar\&view=monthly\&exsvurl=1
+  - **Calendario (mensual):**  https://*\<server name\>*/owa/?cmd=contents\&module=calendar\&view=monthly\&exsvurl=1
 
 ## Para obtener más información
 

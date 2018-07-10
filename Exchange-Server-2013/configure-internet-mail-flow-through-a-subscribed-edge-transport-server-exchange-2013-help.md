@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 To establish Internet mail through an Edge Transport server, subscribe the Edge Transport server to an Active Directory site. This automatically creates the two Send connectors required for Internet mail flow:
 

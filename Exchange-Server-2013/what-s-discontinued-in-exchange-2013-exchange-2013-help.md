@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En este tema se tratan los componentes, las características o las funcionalidades que se han quitado, dejado de utilizar o sustituido en Microsoft Exchange Server 2013.
 
@@ -381,7 +381,7 @@ Esta sección incluye las características de Exchange Server 2007 que ya no est
 </tr>
 <tr class="odd">
 <td><p>Notificaciones del protocolo de datagramas de usuario (UDP)</p></td>
-<td><p>La compatibilidad para notificaciones del Protocolo de datagramas de usuario (UDP) se ha quitado de Exchange 2013. Esto afecta a la experiencia de usuario cuando los clientes de Outlook 2003 se conectan a sus buzones en un servidor de Exchange 2013. Para más información, vea el artículo de Microsoft Knowledge Base 2009942, <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2009942">Las carpetas tardan mucho en actualizarse cuando un usuario de Exchange Server 2010 utiliza Outlook 2003 en modo en línea</a>.</p></td>
+<td><p>La compatibilidad para notificaciones del Protocolo de datagramas de usuario (UDP) se ha quitado de Exchange 2013. Esto afecta a la experiencia de usuario cuando los clientes de Outlook 2003 se conectan a sus buzones en un servidor de Exchange 2013. Para más información, vea el artículo de Microsoft Knowledge Base 2009942, <a href="http://go.microsoft.com/fwlink/?linkid=3052&kbid=2009942">Las carpetas tardan mucho en actualizarse cuando un usuario de Exchange Server 2010 utiliza Outlook 2003 en modo en línea</a>.</p></td>
 </tr>
 </tbody>
 </table>

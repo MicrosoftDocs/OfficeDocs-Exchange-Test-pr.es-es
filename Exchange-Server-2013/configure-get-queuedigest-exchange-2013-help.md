@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-12-16_
+_**Última modificación del tema:** 2014-12-16_
 
 El cmdlet **Get-QueueDigest** le permite ver información sobre algunas de las colas de su organización de Exchange, o de todas ellas, usando un solo comando.
 

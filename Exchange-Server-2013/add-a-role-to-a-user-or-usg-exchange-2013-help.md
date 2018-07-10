@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 Las asignaciones de funciones de administración pueden asignar una función a un usuario o un grupo de seguridad universal. Al asignar una función a un usuario o un grupo de seguridad universal, esos usuarios pueden efectuar tareas conforme a los cmdlets o las secuencias de comandos y sus parámetros que estén definidos en la función de administración.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-10-02_
+_**Última modificación del tema:** 2014-10-02_
 
 Si desea que los usuarios puedan usar la exhibición de documentos electrónicos local de Microsoft Exchange Server 2013, primero debe autorizarlos agregándolos al grupo de roles de administración del servicio de detección. Los miembros del grupo de roles de Discovery Management tienen permisos de acceso completo a buzones de detección creados por el programa de instalación de Exchange.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En la mensajería unificada (UM), los llamadores pueden usar tonos de marcación multifrecuencia (DTMF), también denominados tonos multifrecuencia, y entradas de voz para interactuar con el sistema. El método que pueden usar depende de cómo estén configurados los planes de marcado de mensajería unificada y los operadores automáticos.
 

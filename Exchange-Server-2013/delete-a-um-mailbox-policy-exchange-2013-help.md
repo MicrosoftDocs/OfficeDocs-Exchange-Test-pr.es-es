@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-05_
+_**Última modificación del tema:** 2012-11-05_
 
 Cuando elimine una directiva de buzones de mensajería unificada (UM), ésta no estará disponible para ser asociada a destinatarios que se hayan habilitado para mensajería unificada. No se puede eliminar una directiva de buzones de mensajería unificada si hace referencia a buzones habilitados para mensajería unificada, así como tampoco se puede eliminar un plan de marcado de mensajería unificada si hay una directiva de buzones de mensajería unificada asociada a él.
 

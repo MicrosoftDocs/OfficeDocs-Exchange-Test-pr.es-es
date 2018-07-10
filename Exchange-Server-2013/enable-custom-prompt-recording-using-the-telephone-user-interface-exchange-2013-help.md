@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2014-09-17_
+_**Última modificación del tema:** 2014-09-17_
 
 El Shell es válido para habilitar la grabación de mensajes y saludos personalizados para planes de marcado de mensajería unificada (MU) y operadores automáticos mediante la interfaz de usuario de teléfono (TUI). Esto puede resultar útil cuando quiere cambiar un anuncio o saludo personalizado mediante el EAC o el Shell, o bien cuando se presenta una emergencia como el cierre de una organización debido a malas condiciones meteorológicas. Cuando va a cambiar un anuncio o saludo personalizado en un operador automático de mensajería unificada, debe habilitar la grabación de mensajes de TUI en el plan de marcado con el que está asociado el operador automático de mensajería unificada.
 

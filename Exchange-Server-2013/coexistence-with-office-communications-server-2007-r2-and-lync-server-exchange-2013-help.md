@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Communications Server 2007 R2 y Lync Server ofrecen muchas características para el usuario final, como la mensajería instantánea (MI), presencia o MI entre varias entidades. Además, la funcionalidad de correo de voz se puede integrar en la mensajería unificada (UM) de Exchange. En las implementaciones que integran Lync Server 2010 o 2013, los usuarios se pueden habilitar para Enterprise Voice, lo que permite a aquellos usuarios que estén habilitados para el acceso a correo de voz que tengan acceso a dicho correo a través de los componentes de Lync Server.
 

@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-11_
+_**Última modificación del tema:** 2013-02-11_
 
 Después de instalar un servidor de buzones que ejecute el servicio de mensajería unificada de Microsoft Exchange, puede configurar varias opciones, incluidos la cantidad de llamadas simultáneas, los puertos de escucha de TCP y Seguridad de la capa de transporte (TLS), el estado y el modo de inicio de mensajería unificada.
 

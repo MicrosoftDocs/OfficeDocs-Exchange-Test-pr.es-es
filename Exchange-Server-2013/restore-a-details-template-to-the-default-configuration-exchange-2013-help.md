@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-12_
+_**Última modificación del tema:** 2012-10-12_
 
 El Editor de plantillas de detalles no contiene un botón **Deshacer** ni le permite usar un método abreviado de teclado para deshacer una acción. Para deshacer una adición realizada a la plantilla, debe usar la tecla SUPR. Para deshacer una eliminación, debe volver a aplicar el ajuste. También es posible volver a la configuración original saliendo del Editor de plantillas de detalles sin guardar los cambios. Si desea deshacer los cambios una vez guardados, puede restaurar la plantilla. Al restaurar una plantilla, se pierden todas las personalizaciones y se restaura la configuración original de la plantilla.
 

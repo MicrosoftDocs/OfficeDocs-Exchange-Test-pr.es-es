@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 La comprobación de esta página lo ayudará a identificar algunos de los problemas de conectividad más comunes. Puede usar la siguiente comprobación automática para validar su conectividad o ayudar a determinar la causa raíz.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-05-03_
+_**Última modificación del tema:** 2016-05-03_
 
 En Microsoft Exchange Online Protection (EOP), Microsoft Exchange Online y Microsoft Exchange 2013, puede usar el Centro de administración de Exchange (EAC) para buscar y ver entradas en el *registro de auditoría del administrador*. El registro de auditoría del administrador registra acciones específicas, según el cmdlet del Shell de administración de Exchange, realizadas por administradores y usuarios que tienen asignados privilegios de administrador. Las entradas en el registro de auditoría del administrador proporcionan información sobre el cmdlet que se ejecutó, los parámetros que se usaron, el usuario que ejecutó el cmdlet y los objetos que se vieron afectados.
 
@@ -61,17 +61,17 @@ En Microsoft Exchange Online Protection (EOP), Microsoft Exchange Online y Micro
 
 2.  Elija una **Fecha de inicio** y una **Fecha de finalización** y, a continuación, elija **Buscar**. Todos los cambios de configuración realizados durante el período de tiempo especificado se muestran y se pueden ordenar, mediante la siguiente información:
     
-      - **Fecha:** la fecha y hora en que se realizó el cambio de configuración. La fecha y la hora se almacenan en formato de hora universal coordinada (UTC).
+      - **Fecha:**  la fecha y hora en que se realizó el cambio de configuración. La fecha y la hora se almacenan en formato de hora universal coordinada (UTC).
     
-      - **Cmdlet:** el nombre del cmdlet que se usó para realizar el cambio de configuración.
+      - **Cmdlet:**  el nombre del cmdlet que se usó para realizar el cambio de configuración.
     
-      - **Usuario:** el nombre de la cuenta de usuario del usuario que realizó el cambio de configuración.
+      - **Usuario:**  el nombre de la cuenta de usuario del usuario que realizó el cambio de configuración.
     
     Se mostrarán hasta 5000 entradas en varias páginas. Especifique un intervalo de fechas menor si necesita limitar los resultados. Si selecciona un resultado de la búsqueda individual, se mostrará la siguiente información adicional en el panel de detalles:
     
-      - **Objeto modificado:** el objeto modificado por el cmdlet.
+      - **Objeto modificado:**  el objeto modificado por el cmdlet.
     
-      - **Parámetros (Parámetro:Valor):** los parámetros del cmdlet que se utilizaron, así como cualquier valor especificado con el parámetro.
+      - **Parámetros (Parámetro:Valor):**  los parámetros del cmdlet que se utilizaron, así como cualquier valor especificado con el parámetro.
 
 3.  Si desea imprimir una entrada específica del registro de auditoría, elija el botón **Imprimir** en el panel de detalles.
 

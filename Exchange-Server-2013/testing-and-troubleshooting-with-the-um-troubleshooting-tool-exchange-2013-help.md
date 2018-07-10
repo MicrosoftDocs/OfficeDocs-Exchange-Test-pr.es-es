@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 La herramienta de solución de problemas de mensajería unificada de Microsoft Exchange 2010 es un cmdlet del Shell de administración de Exchange denominado **Test-ExchangeUMCallFlow**. Puede usarlo para diagnosticar errores de configuración específicos de los escenarios de central de llamadas y para comprobar si el correo de voz funciona correctamente en las implementaciones locales o entre las instalaciones de mensajería unificada de Microsoft Exchange Server 2010 Service Pack 1 (SP1) o posterior. Puede usar este cmdlet con implementaciones de Microsoft Office, Microsoft Lync Server 2010 o posterior, o en implementaciones de mensajería unificada con puertas de enlace IP, IP PBX o controladores de borde de sesión (SBC).
 
@@ -47,7 +47,7 @@ El cmdlet **Test-ExchangeUMCallFlow** requiere que estén instalados los siguien
 
   - Las actualizaciones Microsoft .NET Framework 3.5 Family Update para Windows Vista x64 y Windows Server 2008 x64, si la herramienta se ejecutará en un PC con Windows Vista o Windows Server 2008. Para descargar la actualización, consulte [Microsoft .NET Framework 3.5 Family Update para Windows Vista x64 y Windows Server 2008 x64](https://go.microsoft.com/fwlink/?linkid=178998).
 
-  - Administración remota de Windows (WinRM) 2.0 y Windows PowerShell V2 (Windows6.0-KB968930.msu). Para más información, consulte el artículo 968930 de Microsoft Knowledge Base, [Paquete básico de Windows Management Framework (Windows PowerShell 2.0 y WinRM 2.0)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=968930).
+  - Administración remota de Windows (WinRM) 2.0 y Windows PowerShell V2 (Windows6.0-KB968930.msu). Para más información, consulte el artículo 968930 de Microsoft Knowledge Base, [Paquete básico de Windows Management Framework (Windows PowerShell 2.0 y WinRM 2.0)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=968930).
 
   - API 2.0 administrada de comunicaciones unificadas, Core Runtime (64 bits). Para descargar el archivo del programa UcmaRuntimeWebDownloadX64.msi, consulte [API 2.0 administrada de comunicaciones unificadas, Core Runtime (64 bits)](https://go.microsoft.com/fwlink/p/?linkid=198175).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Todos los días, los trabajadores de la información intercambian información confidencial por correo electrónico, incluso informes y datos financieros, información del cliente y del empleado e información y especificaciones confidenciales del producto. Con Microsoft Exchange Server 2013, Microsoft Outlook y Microsoft OfficeOutlook Web App, los usuarios pueden usar Information Rights Management (IRM) para proteger los mensajes mediante la aplicación de una plantilla de directivas de derechos de Active Directory Rights Management Services (AD RMS). Esto requiere implementar AD RMS en la organización. Para obtener más información acerca de AD RMS, consulte [Rights Management Services de Active Directory](https://go.microsoft.com/fwlink/p/?linkid=129823).
 

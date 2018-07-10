@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-05-07_
+_**Última modificación del tema:** 2014-05-07_
 
 El filtrado de destinatarios es una característica de Microsoft Exchange Server 2013 contra el correo no deseado que usa el encabezado RCPT TO SMTP para determinar qué acción, en caso de que sea necesario, se realizará en un mensaje de correo electrónico entrante. El filtrado de destinatarios lo realiza el agente de filtrado de destinatarios.
 

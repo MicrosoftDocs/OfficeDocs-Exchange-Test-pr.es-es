@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-30_
+_**Última modificación del tema:** 2012-11-30_
 
 Puede configurar un operador automático de mensajería unificada habilitada para voz que posee un operador automático de reserva multifrecuencia de doble tono (DTMF). Un operador automático de reserva DTMF se usa cuando un operador automático de mensajería unificada habilitado para voz no entiende o no reconoce las entradas de voz de quienes llaman. Si se ha configurado un operador automático de reserva DTMF, la persona que llama debe usar entradas de tono de marcación multifrecuencia o entradas de teclado, para explorar el sistema de menús del operador automático, deletrear el nombre de usuario o usar un mensaje del menú personalizado. Si no se ha configurado un operador automático de reserva DTMF y se ha superado el número máximo de entradas de voz porque el sistema no entendió lo que decía el autor de la llamada, el sistema responderá con el siguiente mensaje: "Lo siento, no puedo ayudarle. Llame más tarde."
 

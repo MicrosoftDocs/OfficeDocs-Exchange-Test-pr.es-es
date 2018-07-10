@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-09-30_
+_**Última modificación del tema:** 2015-09-30_
 
 El registro de auditoría de buzón permite controlar los inicios de sesión en un buzón así como las acciones realizadas mientras el usuario está conectado. Al habilitar el registro de auditoría de buzón en un buzón, algunas acciones realizadas por los administradores y delegados se registran de forma predeterminada. No se registra ninguna de las acciones realizadas por el propietario del buzón. Para obtener más información acerca de los registros de auditoría de buzones, consulte [Registro de auditoría de buzones de correo](mailbox-audit-logging-exchange-2013-help.md).
 

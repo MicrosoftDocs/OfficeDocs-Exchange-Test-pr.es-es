@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-06-11_
+_**Última modificación del tema:** 2013-06-11_
 
 Al integrar Microsoft Lync Server con la mensajería unificada de Exchange (MU), debe ejecutar el script ExchUcUtil.ps1 en el Shell. El script ExchUcUtil.ps1 hace lo siguiente:
 

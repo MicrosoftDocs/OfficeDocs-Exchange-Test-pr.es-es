@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Última modificación del tema:**2018-03-26_
+_**Última modificación del tema:** 2018-03-26_
 
-**Resumen:** Este artículo le indica cómo mover las carpetas públicas modernas de Exchange 2013 a Office 365.
+**Resumen:**  Este artículo le indica cómo mover las carpetas públicas modernas de Exchange 2013 a Office 365.
 
 Migrar las carpetas públicas de Exchange de 2013 a Exchange Online requiere Exchange Server 2013 CU15 o posterior ejecutándose en su entorno local.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-14_
+_**Última modificación del tema:** 2012-10-14_
 
 [Crear directivas de retención](create-a-retention-policy-exchange-2013-help.md)
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Microsoft Exchange Server 2010 y Exchange Server 2007 tienen múltiples roles de servidor: acceso de cliente, buzón de correo, transporte de concentradores, mensajería unificada y transporte perimetral. Con Exchange Server 2013, el número de roles de servidor se reduce de cinco a tres: acceso de cliente, buzón de correo y transporte perimetral. Ahora, la mensajería unificada se considera un componente o subfunción de las características relacionadas con la voz que se ofrecen en Exchange 2013. (Para obtener más información acerca de los cambios, vea "Arquitectura de Exchange 2013" en [Novedades en Exchange 2013](what-s-new-in-exchange-2013-exchange-2013-help.md)).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En Exchange Server 2013, hemos movido las carpetas públicas desde una arquitectura de bases de datos tradicional a una arquitectura de buzones. Este cambio permite a las carpetas públicas beneficiarse de aspectos como la resistencia del grupo de disponibilidad de la base de datos (DAG) y otras mejoras de los buzones realizadas con los años. Sin embargo, hay nuevos límites y cuestiones de rendimiento que deben tenerse en cuenta. En este documento proporcionamos una orientación general sobre las opciones de configuración que podrían afectar al rendimiento y a la conectividad de las carpetas públicas.
 

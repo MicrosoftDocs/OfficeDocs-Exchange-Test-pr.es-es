@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Para realizar con éxito búsquedas de exhibición de documentos electrónicos entre locales en una organización híbrida de Exchange 2013, tendrá que configurar la autenticación de OAuth (Open Authorization) entre sus organizaciones de Exchange locales y de Exchange Online para poder usar la exhibición de documentos electrónicos local para buscar buzones locales y basados en la nube. La autenticación de OAuth admite los siguientes escenarios de exhibición de documentos electrónicos en una implementación híbrida de Exchange:
 

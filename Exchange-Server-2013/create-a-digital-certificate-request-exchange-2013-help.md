@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-21_
+_**Última modificación del tema:** 2013-02-21_
 
 En Exchange Server 2013, puede administrar certificados con el EAC o el Shell. El EAC incluye una nueva interfaz de usuario de administración de certificados. A través de esta nueva interfaz de usuario, puede crear un certificado nuevo, editar un certificado existente o quitar un certificado.
 
@@ -62,11 +62,13 @@ Si no seleccionó un certificado autofirmado, deberá enviar el archivo de solic
 ## Usar el Shell para crear una nueva solicitud de certificado
 
 Ejecute los siguientes comandos.
-
+  ```
     $reqfile = New-ExchangeCertificate -GenerateRequest -SubjectName "C=US,o=Contoso,cn=contosotocert" -DomainName "contoso.com" -PrivateKeyExportable $true
-
+  ```
+  ```
     $reqfile | out-file c:\certreq.txt
-
+  ```
+  
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Si creó un certificado autofirmado, el certificado creado recientemente aparecerá en la interfaz de usuario de administración de certificados. Si creó una solicitud de certificado a partir de una entidad de certificación, el archivo de solicitud de certificado estará en la ubicación especificada. Envíe este archivo a la entidad de certificación.

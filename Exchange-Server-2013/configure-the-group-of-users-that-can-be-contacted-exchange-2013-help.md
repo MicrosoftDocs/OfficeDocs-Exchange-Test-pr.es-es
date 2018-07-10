@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-12-09_
+_**Última modificación del tema:** 2012-12-09_
 
 Puede especificar el grupo de usuarios con quienes los autores de llamadas se pueden comunicar cuando llaman a un operador automático de mensajería unificada. De manera predeterminada, las personas que llaman pueden comunicarse con los usuarios del mismo plan de marcado asociado con el operador automático de MU. Sin embargo, puede cambiar las agrupaciones de usuarios para permitir a los autores de llamadas transferir llamadas o enviar mensajes de voz a los usuarios de la lista de direcciones de la organización o a un conjunto concreto de usuarios.
 

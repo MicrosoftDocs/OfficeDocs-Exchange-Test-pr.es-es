@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2007, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2007, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2018-03-20_
+_**Última modificación del tema:** 2018-03-20_
 
 La Matriz de compatibilidad de Exchange Server proporciona un origen centralizado para que los administradores de Microsoft Exchange encuentren fácilmente información sobre el nivel de compatibilidad disponible para cualquier configuración o sobre cualquier componente necesario en las versiones compatibles de Microsoft Exchange.
 

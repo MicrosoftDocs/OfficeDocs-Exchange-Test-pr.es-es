@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-21_
+_**Última modificación del tema:** 2013-02-21_
 
 Cuando elimina una puerta de enlace IP de mensajería unificada, los servidores Exchange ya no pueden aceptar llamadas entrantes de la puerta de enlace de Voz sobre IP (VoIP), de la central de conmutación (PBX) habilitada para protocolo de inicio de sesión (SIP), de IP PBX ni del controlador de borde de sesión (SBC) asociado con la puerta de enlace IP de mensajería unificada.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-28_
+_**Última modificación del tema:** 2012-11-28_
 
 Puede usar el EAC y el Shell para configurar los servicios Microsoft Exchange POP3 y IMAP4 para que usen direcciones IP y puertos diferentes de la configuración predeterminada.
 

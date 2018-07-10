@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-05_
+_**Última modificación del tema:** 2012-11-05_
 
 Puede que sea necesario mover un usuario habilitado para mensajería unificada (MU) a un plan de marcado de MU diferente o cambiar el plan de marcado asociado al usuario. Por ejemplo, puede que desee mover un usuario habilitado para mensajería unificada de un plan de marcado de extensión telefónica a un plan de marcado URI de SIP.
 

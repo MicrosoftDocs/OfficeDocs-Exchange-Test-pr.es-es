@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-06-16_
+_**Última modificación del tema:** 2014-06-16_
 
 También puede usar la portabilidad de base de datos para mover una base de datos de buzones de correo de Microsoft Exchange Server 2013 entre servidores de buzones de Exchange 2013 de la misma organización. Esto puede ayudar a reducir los tiempos de recuperación generales para diversos escenarios de error. Para obtener más información, consulte [Portabilidad de bases de datos](database-portability-exchange-2013-help.md).
 

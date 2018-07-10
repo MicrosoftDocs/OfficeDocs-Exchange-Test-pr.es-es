@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 Puede agregar scripts y cmdlets que no son de Exchange a funciones de administración de nivel superior sin ámbito si desea que nuevos scripts o cmdlets que no son de Exchange estén disponibles para las funciones sin ámbito existentes. Estos scripts y cmdlets que no son de Exchange se agregan como entradas de función de administración a las funciones de administración de nivel superior sin ámbito. De esa manera, esas entradas de función de nivel superior sin ámbito o cualquier función sin ámbito derivada de funciones de nivel superior pueden usarlos. Para obtener más información acerca de las entradas de funciones sin ámbito, consulte [Descripción de los roles de administración](understanding-management-roles-exchange-2013-help.md).
 

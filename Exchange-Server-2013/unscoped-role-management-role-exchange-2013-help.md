@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La función de administración de `Unscoped Role Management` permite que los administradores creen y se encarguen de las funciones de administración de mensajería unificada de nivel superior de una organización.
 

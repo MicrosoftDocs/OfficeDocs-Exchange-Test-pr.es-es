@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 Puede importar y exportar los archivos de audio que haya grabado para utilizarlos en planes de marcado y operadores automáticos de la mensajería unificada (UM). Por ejemplo, si actualiza desde una versión anterior de Exchange, puede que quiera exportar y guardar una copia de un archivo de audio. O puede que deba importar una copia de un mensaje de audio grabado antes de configurar el plan de marcado o el operador automático.
 

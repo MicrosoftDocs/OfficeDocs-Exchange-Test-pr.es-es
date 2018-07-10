@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-05_
+_**Última modificación del tema:** 2012-11-05_
 
 Tras construir, validar e implementar una solución de alta disponibilidad y resistencia de sitios de Microsoft Exchange Server 2013, la solución pasa de la fase de implementación a la fase operativa dentro del ciclo de vida general de la misma. La fase operativa consta de varias tareas, todas ellas relacionadas con una de las áreas siguientes: grupos de disponibilidad de base de datos (DAG), copias de bases de datos de buzones, supervisión proactiva de rendimiento y administración de conmutación y conmutación por error.
 

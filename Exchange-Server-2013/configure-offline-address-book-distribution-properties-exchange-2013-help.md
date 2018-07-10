@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-14_
+_**Última modificación del tema:** 2012-10-14_
 
 Para cada punto de distribución de libreta de direcciones sin conexión (OAB) en Exchange, es posible configurar dos direcciones URL: una dirección URL interna a la que solo se puede obtener acceso desde la red corporativa interna y una dirección URL externa a la que se puede obtener acceso desde Internet.
 

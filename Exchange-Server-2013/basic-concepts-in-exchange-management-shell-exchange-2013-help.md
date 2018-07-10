@@ -13,7 +13,7 @@ ms.translationtype: MT
 
  
 
-_**Última modificación del tema:**2014-04-04_
+_**Última modificación del tema:** 2014-04-04_
 
 ## Ayuda
 

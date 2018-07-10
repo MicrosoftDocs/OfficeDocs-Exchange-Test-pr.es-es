@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-07-21_
+_**Última modificación del tema:** 2016-07-21_
 
 En Active Directory, los destinatarios (incluidos los usuarios, recursos, contactos y grupos) son cualquier objeto habilitado para correo al que Microsoft Exchange puede entregar o enrutar mensajes. Para que un destinatario reciba o envíe mensajes de correo electrónico, debe disponer de una dirección de correo electrónico. Las directivas de direcciones de correo electrónico generan direcciones primarias y secundarias para sus destinatarios a fin de que puedan recibir y enviar mensajes de correo electrónico.
 

@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-02-24_
+_**Última modificación del tema:** 2014-02-24_
 
 Public folders are designed for shared access and provide an easy and effective way to collect, organize, and share information with other people in your workgroup or organization.
 
@@ -93,15 +93,17 @@ To verify that you’ve successfully created a public folder, do the following:
   - In the EAC, click **Refresh** to refresh the list of public folders. Your new public folder should be displayed in the list.
 
   - In the Shell, run any of the following commands:
-    
+    ```
         Get-PublicFolder -Identity \Marketing\2013\Reports | Format-List
-    
+    ```
+    ```
         Get-PublicFolder -Identity \Marketing\2013 -GetChildren
-    
+    ```
+    ```
         Get-PublicFolder -Recurse
+    ```
 
-
-> [!TIP]
+> [!TIP]  
 > ¿Tiene algún problema? Solicite ayuda en los foros de Exchange. Visite los foros en <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, o <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>.
 
 

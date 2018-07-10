@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 De forma predeterminada, cada plan de marcado de mensajería unificada usa un archivo .wav estándar para el saludo de bienvenida que se reproduce a las personas que llaman, incluyendo los usuarios de Outlook Voice Access que marcan un número de Outlook Voice Access configurado. Sin embargo, puede crear un archivo .wav o .wma para el saludo de bienvenida y, a continuación, habilitarlo en el plan de marcado de mensajería unificada.
 

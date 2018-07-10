@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2016, Office 365_
+_**Se aplica a:** Exchange Online, Exchange Server 2016, Office 365_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Use el Centro de Administración de Exchange (EAC) o el Shell de administración de Exchange para crear un nuevo grupo de distribución en su organización de Exchange o para habilitar el correo a un grupo existente en Active Directory.
 
@@ -51,27 +51,22 @@ Es importante tener en cuenta las diferencias terminológicas entre Active Direc
 
 2.  Haga clic en **Nuevo**![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono") \> **Grupo de distribución**.
 
-3.  
-    
-
-    > [!TIP]
+3.  > [!TIP]
     > <IMG title="Nueva prueba de Grupos de Office 365" alt="Nueva prueba de Grupos de Office 365" src="images/Bb124513.3ea82c95-9dda-450f-823b-cd0772249d81(EXCHG.150).png"><BR>Ahora puede crear un grupo de Office 365 en lugar de un grupo de distribución si tiene un plan de Office 365 para empresas o un plan de Exchange Online. Los grupos de Office 365 tienen las características de un grupo de distribución y muchas más. Con los grupos de Office 365, puede enviar correos electrónicos a un grupo, compartir un calendario común, tener una biblioteca para almacenar y trabajar en archivos y carpetas de grupo. Haga clic en <STRONG>Nuevo</STRONG><IMG title="Agregar icono" alt="Agregar icono" src="images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif">&nbsp;&gt;&nbsp;<STRONG>Grupo de Office 365</STRONG> para comenzar y consulte <A href="https://go.microsoft.com/fwlink/p/?linkid=800653">Grupos de Office 365 - ayuda para administradores</A>.<BR>Si tiene grupos de distribución existentes que quiera migrar a grupos de Office 365, consulte <A href="https://go.microsoft.com/fwlink/p/?linkid=824756">Migrar listas de distribución a grupos de Office 365: ayuda para administradores</A>.<BR>Si desea crear un grupo de distribución, haga clic o pulse en el asistente para <STRONG>Nuevo grupo de distribución</STRONG>.
 
 
 
-4.  
+4.  En la página **Nuevo grupo de distribución**, complete los siguientes cuadros de texto:
     
-    En la página **Nuevo grupo de distribución**, complete los siguientes cuadros de texto:
+      - \* **Nombre para mostrar**   Use este cuadro de texto para escribir el nombre para mostrar. Este nombre aparece en la libreta de direcciones de su organización, en las líneas Para: cuando se envía un correo electrónico a este grupo, y en la lista Grupos en el EAC. El nombre para mostrar es obligatorio y debe ser sencillo para que los usuarios puedan identificarlo. También deben ser únicos en el bosque.
     
-      - **\* Nombre para mostrar**   Use este cuadro de texto para escribir el nombre para mostrar. Este nombre aparece en la libreta de direcciones de su organización, en las líneas Para: cuando se envía un correo electrónico a este grupo, y en la lista Grupos en el EAC. El nombre para mostrar es obligatorio y debe ser sencillo para que los usuarios puedan identificarlo. También deben ser únicos en el bosque.
-    
-      - **\* Alias**   Use este cuadro de texto para escribir el nombre de alias del grupo. El alias no puede superar los 64 caracteres y debe ser único en el bosque. Cuando un usuario escribe el alias en la línea Para: de un mensaje de correo electrónico, se resuelve en el nombre para mostrar del grupo.
+      - \* **Alias**   Use este cuadro de texto para escribir el nombre de alias del grupo. El alias no puede superar los 64 caracteres y debe ser único en el bosque. Cuando un usuario escribe el alias en la línea Para: de un mensaje de correo electrónico, se resuelve en el nombre para mostrar del grupo.
     
       - **Unidad organizativa** (Solo verá esta opción en Exchange 2013 local) Puede seleccionar una unidad organizativa (OU) que no sea la predeterminada (que es el ámbito del destinatario). Si el ámbito de destinatario definido corresponde al bosque, el valor predeterminado será el contenedor Usuarios del dominio de Active Directory que contiene el equipo en el que se ejecuta EAC. Si el ámbito del destinatario está establecido en un dominio específico, el contenedor de usuarios se selecciona de modo predeterminado. Si el ámbito del destinatario está establecido en una unidad organizativa específica (OU), esa OU se selecciona de modo predeterminado.
         
         Para seleccionar otra OU, haga clic en **Examinar**. En el cuadro de diálogo se muestran todas las OU del bosque dentro del ámbito especificado. Seleccione la unidad organizativa que desee y haga clic en **Aceptar**.
     
-      - **\* Propietarios**   De forma predeterminada, la persona que crea un grupo pasa a ser el propietario. Todos los grupos deben tener al menos un propietario. Puede agregar propietarios haciendo clic en **Agregar**![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono").
+      - \* **Propietarios**   De forma predeterminada, la persona que crea un grupo pasa a ser el propietario. Todos los grupos deben tener al menos un propietario. Puede agregar propietarios haciendo clic en **Agregar**![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono").
     
       - **Miembros**   Esta sección sirve para agregar miembros e indicar si se necesita aprobación para los usuarios que se unan al grupo o lo dejen.
         
@@ -157,11 +152,11 @@ Para comprobar si creó correctamente un grupo de distribución, siga uno de est
 
 Utilice esta sección para ver o cambiar la información básica sobre el grupo.
 
-  - **\* Nombre para mostrar**   Este nombre aparece en la libreta de direcciones, en las líneas Para: cuando se envía un correo electrónico a este grupo, y en la lista Grupos. El nombre para mostrar es obligatorio y debe ser sencillo para que los usuarios puedan identificarlo. También tiene que ser único en su dominio.
+  - \* **Nombre para mostrar**   Este nombre aparece en la libreta de direcciones, en las líneas Para: cuando se envía un correo electrónico a este grupo, y en la lista Grupos. El nombre para mostrar es obligatorio y debe ser sencillo para que los usuarios puedan identificarlo. También tiene que ser único en su dominio.
     
     Si ha implementado una directiva de nomenclatura de grupo, el nombre para mostrar tiene que cumplir al formato de nomenclatura definido por la directiva.
 
-  - **\* Alias**   Esta es la parte de la dirección de correo electrónico que aparece a la izquierda del símbolo (@). Si cambia el alias, la dirección SMTP primaria para el grupo también cambiará y contendrá el nuevo alias. Además, la dirección de correo electrónico con el alias anterior se mantendrá como dirección proxy para el grupo.
+  - \* **Alias**   Esta es la parte de la dirección de correo electrónico que aparece a la izquierda del símbolo (@). Si cambia el alias, la dirección SMTP primaria para el grupo también cambiará y contendrá el nuevo alias. Además, la dirección de correo electrónico con el alias anterior se mantendrá como dirección proxy para el grupo.
 
   - **Descripción**   Utilice este cuadro para describir el grupo, de forma que los usuarios sepan cuál es el propósito del grupo. Esta descripción aparece en la libreta de direcciones en el panel de detalles en el EAC.
 
@@ -199,7 +194,7 @@ Use esta sección para indicar si se necesita aprobación para que los usuarios 
 
   - **Elegir si el grupo está abierto para salir**. Seleccione uno de los siguientes parámetros:
     
-      - **Abierto: Cualquiera puede abandonar este grupo sin la aprobación de sus propietarios   **
+      - **Abierto: Cualquiera puede abandonar este grupo sin la aprobación de sus propietarios**   
     
       - **Cerrado: sólo los propietarios del grupo pueden quitar miembros. Se rechazarán automáticamente todas las solicitudes para abandonar**.
 
@@ -231,7 +226,7 @@ Use esta sección para establecer las opciones para moderar el grupo. Los modera
 
   - **Remitentes que no requieran la aprobación de mensajes**    Para agregar usuarios o grupos que no se vean afectados por la moderación de este grupo, haga clic en **Agregar**![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono"). Para quitar a un usuario o un grupo, selecciónelo y haga clic en **Quitar**![Icono de quitar](images/JJ657492.479b6ced-8d64-4277-a725-f17fea202b28(EXCHG.150).gif "Icono de quitar").
 
-  - **Seleccionar notificaciones de moderación   **Use esta sección para establecer la forma en que se notifica a los usuarios con respecto a la aprobación de mensajes.
+  - **Seleccionar notificaciones de moderación**   Use esta sección para establecer la forma en que se notifica a los usuarios con respecto a la aprobación de mensajes.
     
       - **Notificar a todos los remitentes cuando sus mensajes no son aprobados**   Es la configuración predeterminada. Envíe una notificación a todos los remitentes, de dentro y de fuera de la organización, cuando no se apruebe su mensaje.
     
@@ -243,16 +238,16 @@ Use esta sección para establecer las opciones para moderar el grupo. Los modera
 
 Use esta sección para ver o cambiar las direcciones de correo electrónico asociadas con el grupo. Esto incluye las direcciones de SMTP primarias del grupo y cualquier proxy asociado. La dirección SMTP principal (también denominada *dirección de respuesta* ) se muestra en negrita en la lista de direcciones, con el valor **SMTP** en mayúsculas en la columna **Tipo**.
 
-  - **Agregar **  Haga clic en **Agregar**![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono") para agregar una dirección de correo electrónico nueva para este buzón. Seleccione uno de los siguientes tipos de dirección:
+  - **Agregar**  Haga clic en **Agregar**![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono") para agregar una dirección de correo electrónico nueva para este buzón. Seleccione uno de los siguientes tipos de dirección:
     
-      - **Dirección SMTP**   Este es el tipo de dirección predeterminado. Haga clic en este botón y luego escriba la nueva dirección SMTP en la casilla **\* Dirección de correo electrónico**.
+      - **Dirección SMTP**   Este es el tipo de dirección predeterminado. Haga clic en este botón y luego escriba la nueva dirección SMTP en la casilla \* **Dirección de correo electrónico**.
         
 
         > [!NOTE]
         > Para que la nueva dirección se convierta en la dirección SMTP principal del grupo, seleccione la casilla <STRONG>Convertir en dirección de respuesta</STRONG>.
 
     
-      - **Tipo de dirección personalizada**   Haga clic en este botón y escriba uno de los tipos de dirección de correo electrónico que no sean SMTP admitidos en la casilla **\* Dirección de correo electrónico**.
+      - **Tipo de dirección personalizada**   Haga clic en este botón y escriba uno de los tipos de dirección de correo electrónico que no sean SMTP admitidos en la casilla \* **Dirección de correo electrónico**.
         
 
         > [!NOTE]
@@ -270,7 +265,7 @@ Use esta sección para ver o cambiar las direcciones de correo electrónico asoc
 
   - **Quitar**   Para quitar una dirección de correo electrónico asociada con el grupo, selecciónela de la lista y luego, haga clic en **Quitar**![Icono de quitar](images/JJ657492.479b6ced-8d64-4277-a725-f17fea202b28(EXCHG.150).gif "Icono de quitar").
 
-  - **Actualizar automáticamente las direcciones de correo electrónico según la directiva de dirección de correo electrónico aplicada al destinatario.   **Seleccione esta casilla de verificación para que las direcciones de correo electrónico del destinatario se actualicen automáticamente según los cambios realizados en las directivas de direcciones de correo electrónico de su organización. Esta casilla está activada de forma predeterminada.
+  - **Actualizar automáticamente las direcciones de correo electrónico según la directiva de dirección de correo electrónico aplicada al destinatario.**   Seleccione esta casilla de verificación para que las direcciones de correo electrónico del destinatario se actualicen automáticamente según los cambios realizados en las directivas de direcciones de correo electrónico de su organización. Esta casilla está activada de forma predeterminada.
 
 ## MailTip
 

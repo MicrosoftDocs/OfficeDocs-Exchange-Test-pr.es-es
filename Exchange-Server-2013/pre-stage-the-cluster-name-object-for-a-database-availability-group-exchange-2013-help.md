@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-08-14_
+_**Última modificación del tema:** 2014-08-14_
 
 En entornos donde la creación de cuentas de equipo se encuentra restringida o donde las cuentas se crean en un contenedor que no es el predeterminado, debe preconfigurar el objeto de nombre de clúster (CNO) y, a continuación, aprovisionarlo asignándole permisos. También es necesario preconfigurar el CNO para los miembros de DAG de Windows Server 2012 y Windows Server 2012 R2, debido a cambios en los permisos en Windows para los objetos de equipo. Cuando implemente un grupo de disponibilidad de base de datos (DAG) con servidores de buzones que ejecuten Windows Server 2012 o Windows Server 2012 R2, debe preconfigurar y aprovisionar el CNO, a menos que esté implementando un DAG sin punto de acceso administrativo del clúster. Los DAG sin punto de acceso administrativo del clúster no usan CNO; por lo tanto no se requiere preconfiguración para esos DAG.
 

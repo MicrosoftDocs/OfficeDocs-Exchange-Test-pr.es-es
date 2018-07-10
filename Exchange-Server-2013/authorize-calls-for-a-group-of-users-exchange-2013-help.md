@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-21_
+_**Última modificación del tema:** 2013-02-21_
 
 Puede habilitar las autorizaciones de marcado en una directiva de buzón de correo de mensajería unificada (UM). Con las autorizaciones de marcado de una directiva de buzón de correo, puede impedir que los usuarios autenticados de Outlook Voice Access que estén vinculados a la directiva de buzón de correo de mensajería unificada realicen llamadas telefónicas nacionales/regionales o internacionales, o bien *llamadas externas*. Las llamadas externas se producen cuando la mensajería unificada realiza una llamada saliente a un usuario después de que hayan llamado a un número de teléfono de Outlook Voice Access que está configurado en un plan de marcado de mensajería unificada. Al configurar una opción de una directiva de buzón de correo de mensajería unificada, la opción se aplica a todos los usuarios habilitados para mensajería unificada vinculados a la directiva de buzón de mensajería unificada.
 

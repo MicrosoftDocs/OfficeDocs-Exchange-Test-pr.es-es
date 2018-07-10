@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Última modificación del tema:**2016-09-15_
+_**Última modificación del tema:** 2016-09-15_
 
-**Resumen:** Acerca de los límites de conexión de un almacén administrado y cómo configurarlos.
+**Resumen:**  Acerca de los límites de conexión de un almacén administrado y cómo configurarlos.
 
 En MicrosoftExchange Server 2013, los límites de uso y conexión se han colocado en el almacén administrado de Exchange para evitar que una única aplicación o un único usuario use todas las conexiones disponibles para el almacén administrado. Si se permite que un único usuario o una única aplicación use todas las conexiones, los otros usuarios o las otras aplicaciones no podrán acceder al almacén administrado, lo que podría provocar tiempo de inactividad.
 

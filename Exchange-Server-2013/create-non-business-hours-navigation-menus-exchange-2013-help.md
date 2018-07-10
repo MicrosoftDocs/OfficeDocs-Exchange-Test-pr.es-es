@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-05_
+_**Última modificación del tema:** 2012-11-05_
 
 Puede habilitar asignaciones de clave de horario no laborable para un operador automático de mensajería unificada (UM). Después de crear a un operador automático de mensajería unificada, un símbolo del sistema de forma predeterminada se utilizará para las horas no laborales se reproduce el mensaje del menú principal de saludo que oirán después de saludo de bienvenida a las horas no hábiles. El predeterminado horario dice el mensaje del menú principal, "Bienvenido a la MicrosoftExchange después de horas auto operador." Porque no hay asignaciones de teclas se definen de forma predeterminada, no hay opciones de menú están disponibles para los llamadores y escuchar sólo el menú principal horario predeterminado preguntar.
 

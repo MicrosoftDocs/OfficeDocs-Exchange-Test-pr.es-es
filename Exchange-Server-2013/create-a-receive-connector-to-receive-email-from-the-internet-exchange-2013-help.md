@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-15_
+_**Última modificación del tema:** 2012-10-15_
 
 En este procedimiento se muestra cómo configurar un conector de recepción para recibir correo electrónico de Internet.
 

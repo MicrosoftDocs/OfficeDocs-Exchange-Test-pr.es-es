@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Última modificación del tema:**2017-02-08_
+_**Última modificación del tema:** 2017-02-08_
 
 El rol de mis aplicaciones ReadWriteMailbox permite a los usuarios individuales agregar complementos que solicitan el permiso ReadWriteMailbox en su manifiesto.
 

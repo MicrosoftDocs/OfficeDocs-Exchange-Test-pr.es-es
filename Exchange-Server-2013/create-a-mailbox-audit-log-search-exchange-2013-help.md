@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-11_
+_**Última modificación del tema:** 2012-10-11_
 
 Puede crear una búsqueda de registros de auditoría de buzón de correo para buscar de forma asincrónica uno o más buzones de correo y hacer que los resultados de búsqueda se envíen por correo electrónico como archivo XML a las direcciones especificadas.
 

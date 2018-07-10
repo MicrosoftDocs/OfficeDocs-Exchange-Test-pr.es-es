@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-19_
+_**Última modificación del tema:** 2013-04-19_
 
 Puede definir las fechas y las horas durante las que la organización estará cerrada por vacaciones y otros motivos. En el intervalo entre la fecha de inicio y fin que especifique, las personas que llamen al operador automático de mensajería unificada (MU) escucharán el saludo de vacaciones que haya especificado al configurar la programación de vacaciones. Después del saludo de vacaciones especificado, se escucharán los saludos correspondientes de fuera del horario comercial y las instrucciones del menú.
 
@@ -59,7 +59,7 @@ Para conocer tareas de administración adicionales relacionadas con los operador
     
       - **Fecha de inicio**: use esta lista para seleccionar la fecha en la que quiere que empiecen las vacaciones. La programación de vacaciones comenzará a la medianoche de la fecha especificada en esta lista.
     
-      - **Fecha de finalización:** use esta lista para seleccionar la fecha en la que quiere que terminen las vacaciones. La programación de vacaciones finalizará a las 11:59 p. m. de la fecha especificada en esta lista.
+      - **Fecha de finalización:**  use esta lista para seleccionar la fecha en la que quiere que terminen las vacaciones. La programación de vacaciones finalizará a las 11:59 p. m. de la fecha especificada en esta lista.
 
 5.  Una vez configurada la programación de vacaciones, haga clic en **Aceptar** y luego en **Guardar**.
 

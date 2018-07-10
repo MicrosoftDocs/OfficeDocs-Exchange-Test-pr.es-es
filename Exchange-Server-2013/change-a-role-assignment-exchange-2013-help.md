@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 Las asignaciones de roles de administración asignan un rol de administración a un usuario al que se le asigna un rol. Al modificar la asignación de roles, puede controlar los objetos que pueden modificar los usuarios a los que se asigna un rol. Los ámbitos de los roles de administración que se aplican a las asignaciones de roles invalidan el ámbito de escritura implícito del rol. Sin embargo, el ámbito de lectura implícito del rol sigue vigente. Los ámbitos que se aplican no pueden devolver objetos que se encuentren fuera del ámbito de lectura implícito del rol.
 

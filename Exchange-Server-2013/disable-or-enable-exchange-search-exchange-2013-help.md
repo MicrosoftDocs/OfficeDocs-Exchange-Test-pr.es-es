@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-05-07_
+_**Última modificación del tema:** 2014-05-07_
 
 De forma predeterminada, el servicio de búsqueda de Exchange está habilitado para todas las nuevas bases de datos de buzones y no precisa configuración adicional. Sin embargo, si desea que la búsqueda de Exchange no realice una indización del contenido del buzón, puede deshabilitarla para bases de datos individuales o para un servidor de buzones completo.
 
@@ -88,14 +88,17 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 **Uso del Shell**
 
 Ejecute los siguientes comandos para detener y deshabilitar el servicio de búsqueda de Microsoft Exchange.
-
+```
     Stop-Service MSExchangeFastSearch
-
+```
+```
     Set-Service MSExchangeFastSearch -StartupType Disabled
+```
 
 Ejecute los siguientes comandos para configurar el servicio de búsqueda de Exchange para que se inicie automáticamente y luego inicie el servicio.
-
+```
     Set-Service MSExchangeFastSearch -StartupType Automatic
-
+```
+```
     Start-Service MSExchangeFastSearch
-
+```

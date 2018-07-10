@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-06-24_
+_**Última modificación del tema:** 2016-06-24_
 
 En el cliente de Outlook, los usuarios de la organización pueden agregar carpetas públicas a sus carpetas **Favoritos**. Después, según las directivas de su organización, pueden usar Outlook en la web para agregar las mismas carpetas públicas a sus Favoritos y realizar determinadas funciones en Outlook en la web que usan en el cliente de Outlook.
 

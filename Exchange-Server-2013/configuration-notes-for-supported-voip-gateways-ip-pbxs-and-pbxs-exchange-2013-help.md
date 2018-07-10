@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En esta página, se ofrecen vínculos a notas de configuración creadas y probadas por Microsoft o por un asociado de puertas de enlace VoIP. Cuando Microsoft o un asociado implementa la mensajería unificada con una puerta de enlace VoIP y una configuración de PBX o IP PBX nuevas, se registran los requisitos previos y las opciones de configuración. Esta información se usa para crear una nota de configuración.
 

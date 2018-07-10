@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-01_
+_**Última modificación del tema:** 2012-11-01_
 
 Cada copia de base de datos de buzones tiene sus propiedades, configurables por el usuario. Consisten en la cantidad de tiempo, si lo hay, de retardo de reproducción y del retardo de truncamiento, así como el número de la preferencia de activación. Para obtener más información sobre el tiempo de retardo de reproducción y el de retardo de truncamiento y el número de la preferencia de activación, consulte [Administración de copias de bases de datos de buzones de correo](managing-mailbox-database-copies-exchange-2013-help.md).
 

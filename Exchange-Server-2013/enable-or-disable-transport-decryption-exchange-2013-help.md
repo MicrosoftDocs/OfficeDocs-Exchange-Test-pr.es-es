@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Descifrado de transporte habilitación permite al agente de reglas de transporte en Microsoft Exchange Server 2013 servidores de buzón para tener acceso al contenido de los mensajes protegidos por Information Rights Management (IRM). Como resultado, otros agentes de transporte pueden tener acceso al contenido del mensaje y posiblemente realizar cambios en él. Por ejemplo, el agente de reglas de transporte que necesite inspeccionar el contenido del mensaje y aplicar reglas de transporte (por ejemplo, las reglas que se aplican una renuncia al mensaje). Para descifrar los mensajes protegidos mediante IRM correctamente, debe agregar el buzón de entrega federada al grupo de superusuarios configurado en el servidor de [Active Directory Rights Management Services (AD RMS)](https://technet.microsoft.com/en-us/library/hh831364.aspx) .
 

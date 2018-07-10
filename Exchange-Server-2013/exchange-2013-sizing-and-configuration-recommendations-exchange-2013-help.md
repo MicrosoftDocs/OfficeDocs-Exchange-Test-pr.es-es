@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2017-03-27_
+_**Última modificación del tema:** 2017-03-27_
 
 Exchange 2013 consume más recursos del sistema que otras versiones anteriores de Exchange. Para establecer las bases de una implementación de rendimiento óptimo, debe dimensionar correctamente la infraestructura de Exchange 2013 y, después, aplicar algunas configuraciones recomendadas a los componentes relacionados con Exchange dentro de esa infraestructura.
 

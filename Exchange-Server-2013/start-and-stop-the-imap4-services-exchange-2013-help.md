@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-05_
+_**Última modificación del tema:** 2012-10-05_
 
 Por defecto, los dos servicios IMAP4, el servicio Microsoft Exchange IMAP4 y el servicio Microsoft Exchange IMAP4 Backend no se inician en equipos que ejecutan MicrosoftExchange Server 2013. Es necesario iniciar estos dos servicios para permitir que sus clientes de correo electrónico se conecten con Exchange usando IMAP4. Cuando se inician estos servicios, Exchange 2013 acepta comunicaciones no protegidas del cliente IMAP4 en el puerto 143 y mediante el puerto 993 a través de SSL (Capa de sockets seguros).
 

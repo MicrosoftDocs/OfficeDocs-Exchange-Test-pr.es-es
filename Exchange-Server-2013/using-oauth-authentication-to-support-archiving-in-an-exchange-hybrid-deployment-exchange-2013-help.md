@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Si dispone de una implementación híbrida de Exchange 2013 y usa el Archivado de Exchange Online (EOA) para Exchange Server, debe configurar la autenticación de OAuth entre las organizaciones locales y de Exchange Online tras actualizar a la actualización acumulativa 5 (CU5) de Exchange 2013. EOA ofrece un archivo basado en la nube para los usuarios con buzones locales. En este escenario, el asistente de administración de registros de mensajes (MRM) del servidor de buzones locales aplica directivas de archivado y mueve automáticamente los mensajes desde el buzón de un usuario al archivo basado en la nube. En la CU5 de Exchange 2013 se usa la autenticación de OAuth.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Las reglas de flujo de correo, también denominadas reglas de transporte, se pueden usar para buscar condiciones específicas en mensajes que pasan a través de su organización y para realizar distintas acciones. En este tema se muestra cómo crear, copiar, ajustar el orden, habilitar o deshabilitar, eliminar, importar o exportar reglas, y cómo supervisar su uso.
 
@@ -144,9 +144,9 @@ El EAC le permite crear reglas de flujo de correo desde cero, a partir de una pl
     
     3.  Para especificar excepciones, haga clic en **Agregar excepción** y luego seleccione excepciones en la lista desplegable **Excepto si...**. Para quitar cualquier excepción de la regla, puede hacer clic en **Quitar X** junto a cada una de ellas.
     
-    4.  Si desea que esta regla entre en vigor después de una fecha determinada, haga clic en **Activar esta regla en la siguiente fecha:** y especifique una fecha. Tenga en cuenta que esta regla aún estará habilitada antes de esa fecha, pero no se procesará.
+    4.  Si desea que esta regla entre en vigor después de una fecha determinada, haga clic en **Activar esta regla en la siguiente fecha:**  y especifique una fecha. Tenga en cuenta que esta regla aún estará habilitada antes de esa fecha, pero no se procesará.
         
-        De manera similar, puede detener el procesamiento de la regla en una fecha determinada. Para ello, haga clic en **Desactivar esta regla en la siguiente fecha:** y especifique una fecha. Tenga en cuenta que la regla permanecerá habilitada, pero no se procesará.
+        De manera similar, puede detener el procesamiento de la regla en una fecha determinada. Para ello, haga clic en **Desactivar esta regla en la siguiente fecha:**  y especifique una fecha. Tenga en cuenta que la regla permanecerá habilitada, pero no se procesará.
     
     5.  Puede elegir evitar aplicar reglas adicionales una vez que esta regla procesa un mensaje. Para ello, haga clic en **Detener el procesamiento de más reglas**. Si selecciona esto, y esta regla procesa un mensaje, no se procesan reglas posteriores para ese mensaje.
     

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2014-10-23_
+_**Última modificación del tema:** 2014-10-23_
 
 Para poder crear una carpeta pública primero debe crear un buzón de carpetas públicas. Los buzones de carpetas públicas contienen la información de jerarquía además del contenido de las carpetas públicas. El primer buzón de carpetas públicas que cree será el buzón de jerarquía principal, que contiene la copia de solo escritura de la jerarquía. El resto de los buzones de carpetas públicas que cree serán buzones secundarios, que contienen una copia de sólo lectura de la jerarquía.
 

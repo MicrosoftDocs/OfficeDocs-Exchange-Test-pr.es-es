@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 En Microsoft Exchange Server 2013, las operaciones de Information Rights Management (IRM) se graban en registros de IRM. Los registros de IRM lo ayudan a controlar y solucionar los problemas de interacciones entre el cliente de Rights Management Services (RMS) en un servidor de Exchange 2013 y el clúster de Active Directory Rights Management Services (AD RMS) en su organización.
 
@@ -103,13 +103,13 @@ Volver al principio
 
 Los archivos de registro de IRM son archivos de texto que contienen datos en el formato de valores separados por comas (CSV). Cada registro de IRM tiene un encabezado que contiene la siguiente información:
 
-  - **\#Software:** el nombre del software que creó el archivo de registro de IRM. Normalmente, el valor es `Microsoft Exchange Server`.
+  - **\#Software:**  el nombre del software que creó el archivo de registro de IRM. Normalmente, el valor es `Microsoft Exchange Server`.
 
-  - **\#Versión:** el número de versión del software que creó el archivo de registro de IRM.
+  - **\#Versión:**  el número de versión del software que creó el archivo de registro de IRM.
 
   - **\#Log-type**   valor del tipo de registro, que es `Rms Client Manager Log`.
 
-  - **\#Fecha:**   La fecha y la hora UTC en el momento de crearse el archivo. La fecha y la hora UTC se representa mediante el formato de fecha y hora conforme a ISO 8601: *yyyy*-*mm*-*dd*T*hh*:*mm*:*ss.fff*Z, donde:
+  - **\#Fecha:**    La fecha y la hora UTC en el momento de crearse el archivo. La fecha y la hora UTC se representa mediante el formato de fecha y hora conforme a ISO 8601: *yyyy*-*mm*-*dd*T*hh*:*mm*:*ss.fff*Z, donde:
     
       - yyyy = año
     
@@ -129,7 +129,7 @@ Los archivos de registro de IRM son archivos de texto que contienen datos en el 
     
       - Z = Zulu, que es otra forma de denotar UTC
 
-  - **\#Campos:** los nombres de campos delimitados por comas que se usan en los archivos de registro del IRM.
+  - **\#Campos:**  los nombres de campos delimitados por comas que se usan en los archivos de registro del IRM.
     
     El registro de IRM almacena todos los eventos de transacciones RMS en una sola línea, organizada en campos separados por comas. En la siguiente tabla, se detallan los campos en los registros de IRM para todas las funciones del servidor que tienen las características IRM habilitadas.
     

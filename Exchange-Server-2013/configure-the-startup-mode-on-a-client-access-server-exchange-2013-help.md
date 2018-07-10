@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-15_
+_**Última modificación del tema:** 2013-02-15_
 
 Es posible especificar el modo de inicio del servicio de enrutador de llamadas de mensajería unificada de Microsoft Exchange en un servidor de acceso de cliente. De forma predeterminada, el servidor de acceso de cliente se iniciará en el modo TCP, pero si utiliza Seguridad de la capa de transporte (TLS) para cifrar el tráfico de voz sobre IP (VoIP), debe configurar el servidor de acceso de cliente para que utilice el modo Dual o TLS. Le recomendamos configurar los servidores de acceso de cliente para que usen el modo Dual como modo de inicio. Esto se debe a que los servidores de acceso de cliente y de buzones de correo pueden responder a todas las llamadas entrantes para todos los planes de marcado de mensajería unificada, y esos planes de marcado pueden tener una configuración de seguridad de distinta. Si cambia el modo de inicio, debe reiniciar el servicio de enrutador de llamadas de mensajería unificada de Microsoft Exchange para que el cambio se aplique.
 

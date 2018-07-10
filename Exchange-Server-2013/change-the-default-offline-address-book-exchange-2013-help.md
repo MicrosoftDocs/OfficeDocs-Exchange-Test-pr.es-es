@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-12-16_
+_**Última modificación del tema:** 2014-12-16_
 
 De manera predeterminada, al instalar la función de servidor Buzón, se crea una libreta de direcciones sin conexión predeterminada basada en Web (OAB) llamada Libreta de direcciones sin conexión predeterminada. Puede establecer cualquier OAB en su organización de Exchange como la OAB predeterminada. Esta nueva OAB predeterminada se asocia con todas las bases de datos de buzón recién creadas. Solamente puede tener una OAB predeterminada en la organización. Si elimina la Libreta de direcciones sin conexión predeterminada, MicrosoftExchange asigna automáticamente otra Libreta de direcciones sin conexión como predeterminada. Debe designar manualmente otra Libreta de direcciones sin conexión como predeterminada.
 

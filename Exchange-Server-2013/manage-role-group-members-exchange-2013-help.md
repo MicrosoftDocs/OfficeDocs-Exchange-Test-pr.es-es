@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-08_
+_**Última modificación del tema:** 2012-10-08_
 
 Este tema muestra cómo agregar, quitar y ver los miembros de un grupo de funciones de administración en Microsoft Exchange Server 2013. Para obtener más información acerca de los grupos de roles en Exchange 2013, consulte [Descripción de los grupos de roles de administración](understanding-management-role-groups-exchange-2013-help.md).
 

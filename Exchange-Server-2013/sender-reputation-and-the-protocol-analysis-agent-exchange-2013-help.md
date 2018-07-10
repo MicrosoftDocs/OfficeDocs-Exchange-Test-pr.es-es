@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-16_
+_**Última modificación del tema:** 2012-10-16_
 
 La reputación del remitente forma parte de una funcionalidad contra correo no deseado de Exchange que bloquea los mensajes de acuerdo con varias características del remitente. La reputación del remitente depende de los datos que se conserven de él para decidir la acción que se debe llevar a cabo con el mensaje entrante, si se debe efectuar alguna. El agente de análisis de protocolo es el agente subyacente que se encarga de la función de reputación del remitente.
 
@@ -73,7 +73,7 @@ Volver al principio
 
 La reputación del remitente actúa en los mensajes en dos fases de la sesión SMTP:
 
-  - **En el comando SMTP MAIL FROM:**   La reputación del remitente solo actúa en un mensaje si está bloqueado o si los agentes de filtro de conexiones, filtro de remitentes, filtro de destinatarios o Id. del remitente han actuado en él anteriormente. En este caso, la reputación del remitente recupera la clasificación SRL actual del remitente a partir del perfil de este, que está almacenado en el servidor de Exchange. Cuando se recupera y evalúa esta clasificación, la configuración del servidor de Exchange dicta el comportamiento que tiene lugar en una conexión particular de acuerdo con el umbral de bloqueo.
+  - **En el comando SMTP MAIL FROM:**    La reputación del remitente solo actúa en un mensaje si está bloqueado o si los agentes de filtro de conexiones, filtro de remitentes, filtro de destinatarios o Id. del remitente han actuado en él anteriormente. En este caso, la reputación del remitente recupera la clasificación SRL actual del remitente a partir del perfil de este, que está almacenado en el servidor de Exchange. Cuando se recupera y evalúa esta clasificación, la configuración del servidor de Exchange dicta el comportamiento que tiene lugar en una conexión particular de acuerdo con el umbral de bloqueo.
 
   - **Tras el comando SMTP «fin de datos»**   El comando SMTP de fin de transferencia de datos (**EOD**) se emite cuando se han enviado todos los datos reales del mensaje. En este punto de la sesión SMTP, muchos de los agentes contra correo electrónico no deseado ya han procesado el mensaje. Como resultado del procesamiento contra el correo electrónico no deseado, se actualizan las estadísticas de las que depende la reputación del remitente. De esta forma, la reputación del remitente tiene datos para calcular o recalcular una clasificación SRL para el remitente.
 

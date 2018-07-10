@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2017-02-06_
+_**Última modificación del tema:** 2017-02-06_
 
 ## Contadores de rendimiento de Exchange 2013
 

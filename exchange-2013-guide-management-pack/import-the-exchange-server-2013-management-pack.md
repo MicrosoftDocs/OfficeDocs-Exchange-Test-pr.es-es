@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Última modificación del tema:** 2013-03-30_
+_**Última modificación del tema:**   2013-03-30_
 
 Comencemos con la importación del módulo de administración para su implementación de SCOM.
 

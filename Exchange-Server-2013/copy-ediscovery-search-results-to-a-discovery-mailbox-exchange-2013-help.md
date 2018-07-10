@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-02-24_
+_**Última modificación del tema:** 2014-02-24_
 
 Después de crear una búsqueda de exhibición de documentos electrónicos local, puede usar el EAC para copiar los resultados en un buzón de correo de detección. También puede usar el Shell para iniciar una búsqueda de exhibición de documentos electrónicos que se creó con el cmdlet **New-MailboxSearch**, que copiará los resultados en el buzón de correo de detección que se especificó cuando creó la búsqueda.
 
@@ -84,11 +84,13 @@ Si usó el modificador *EstimateOnly* para obtener un cálculo de los resultados
     New-MailboxSearch "FY13 Q2 Financial Results" -StartDate "04/01/2013" -EndDate "06/30/2013" -SourceMailboxes "DG-Finance" -SearchQuery '"Financial" AND "Fabrikam"' -EstimateOnly -IncludeUnsearchableItems
 
 Para copiar los resultados de esta búsqueda en un buzón de correo de detección, debería ejecutar los siguientes comandos:
-
+  ```
     Set-MailboxSearch "FY13 Q2 Financial Results" -EstimateOnly $false -TargetMailbox "Discovery Search Mailbox"
-
+  ```
+  ```
     Start-MailboxSearch "FY13 Q2 Financial Results"
-
+  ```
+  
 ## Más información sobre cómo copiar los resultados de la búsqueda
 
   - Después de copiar los resultados de la búsqueda en el buzón de correo de detección, puede exportar esos resultados de la búsqueda en un archivo PST. Para más información, vea [Exportar los resultados de la búsqueda de exhibición de documentos electrónicos a un archivo PST](export-ediscovery-search-results-to-a-pst-file-exchange-2013-help.md).

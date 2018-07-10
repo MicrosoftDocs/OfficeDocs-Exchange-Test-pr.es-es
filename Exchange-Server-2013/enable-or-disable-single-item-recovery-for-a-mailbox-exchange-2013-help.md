@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-13_
+_**Última modificación del tema:** 2015-03-13_
 
 Para habilitar o deshabilitar la recuperación de un elemento único en un buzón, puede usar el Shell. En Exchange Online, la recuperación de un elemento único está habilitada de forma predeterminada, cuando se crea un nuevo buzón. En Exchange 2013, la recuperación de un elemento único se deshabilita cuando se crea un buzón. Si la recuperación de un elemento único está habilitada, los mensajes que el usuario elimina (purga) permanentemente se conservan en la carpeta Elementos recuperables del buzón hasta que expira el período de retención de elementos eliminados. Esto permite al administrador recuperar los mensajes purgados por el usuario antes de que expire el período de retención de elementos eliminados. Además, si un usuario o un proceso modifican un mensaje, también se conservan copias del elemento original cuando se habilita la recuperación de un elemento único.
 

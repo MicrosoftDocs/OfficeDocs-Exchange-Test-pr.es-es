@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Puede recuperar un servidor perdido mediante el conmutador **Setup /m:RecoverServer** en Microsoft Exchange Server 2013. La mayoría de las opciones de configuración para un equipo que ejecuta Exchange 2013 se almacena en Active Directory. El conmutador */m:RecoverServer* reconstruye un servidor de Exchange con el mismo nombre con la configuración y otra información almacenada en Active Directory.
 

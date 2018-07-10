@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-19_
+_**Última modificación del tema:** 2013-02-19_
 
 Microsoft Exchange Server 2013 permite deshabilitar TLS para la comunicación SMTP entre los servidores de buzones de ciertas topologías en las se usan dispositivos WAN Optimization Controller (WOC) que comprimen el tráfico SMTP.
 
@@ -63,9 +63,9 @@ Este ejemplo hace que esta configuración cambie en el servidor denominado Mailb
 
 2.  En la primera página del asistente **Nuevo conector de recepción**, escriba los siguientes valores:
     
-      - **Nombre:** escriba un valor descriptivo.
+      - **Nombre:**  escriba un valor descriptivo.
     
-      - **Tipo:** interno
+      - **Tipo:**  interno
     
     Cuando haya terminado, haga clic en **Siguiente**.
 

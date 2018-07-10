@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-02-15_
+_**Última modificación del tema:** 2014-02-15_
 
 El hecho de compartir directivas permite que los usuarios individuales de la organización de Exchange compartan la información de disponibilidad de los calendarios con otras organizaciones federadas, con organizaciones de Exchange no federadas y con usuarios individuales de Internet. Durante el curso de operaciones habituales, puede cambiar algunas propiedades de la directiva de uso compartido, como por ejemplo modificar las reglas de uso compartido, cambiar el nivel de acceso de disponibilidad, deshabilitar temporalmente una directiva de uso compartido o eliminar una por completo.
 
@@ -102,10 +102,12 @@ Para obtener información acerca de cómo crear una directiva de uso compartido,
         Set-SharingPolicy -Identity "Contoso" -Enabled $False
 
   - El primer ejemplo quita la directiva de uso compartido Contoso. El segundo ejemplo quita la directiva de uso compartido Contoso y suprime la confirmación de que desea eliminar la directiva.
-    
+      ```
         Remove-SharingPolicy -Identity Contoso
-    
+      ```
+      ```
         Remove-SharingPolicy -Identity Contoso -Confirm
-
+      ```
+      
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Set-SharingPolicy](https://technet.microsoft.com/es-es/library/dd297931\(v=exchg.150\)) y [Remove-SharingPolicy](https://technet.microsoft.com/es-es/library/dd351071\(v=exchg.150\)).
 

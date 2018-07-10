@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2016-12-15_
+_**Última modificación del tema:** 2016-12-15_
 
 Microsoft Exchange Server 2013 Setup can’t continue because it detected that the **ExecutionPolicy** Group Policy Object (GPO) defines one or both of the following policies:
 
@@ -29,7 +29,7 @@ When you run Exchange 2013 Setup, Exchange stops and disables the Windows Manage
 
 Para que el programa de instalación pueda continuar, debe quitar temporalmente cualquier definición de **MachinePolicy** o **UserPolicy** en el GPO **ExecutionPolicy**.
 
-Para obtener información sobre cómo eliminar las definiciones de **MachinePolicy** o **UserPolicy** en **ExecutionPolicy** GPO, consulte [el artículo KB981474 de Knowledge Base](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=981474).
+Para obtener información sobre cómo eliminar las definiciones de **MachinePolicy** o **UserPolicy** en **ExecutionPolicy** GPO, consulte [el artículo KB981474 de Knowledge Base](https://go.microsoft.com/fwlink/?linkid=3052&kbid=981474).
 
 
 > [!NOTE]

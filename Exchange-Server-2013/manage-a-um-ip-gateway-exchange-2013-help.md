@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-21_
+_**Última modificación del tema:** 2013-02-21_
 
 Después de crear una puerta de enlace IP de mensajería unificada (MU), puede ver o configurar diversas opciones. Por ejemplo, puede configurar la dirección IP o un nombre de dominio completo (FQDN), configurar las opciones de llamadas salientes y habilitar o deshabilitar el indicador de mensaje en espera.
 
@@ -47,9 +47,7 @@ Para otras tareas de administración relacionadas con puertas de enlace IP de me
 
 1.  En el EAC, vaya a **Mensajería unificada** \> **Puertas de enlace IP de mensajería unificada**. En la vista de lista, seleccione la puerta de enlace IP de mensajería unificada que desee administrar y, a continuación, haga clic en **Editar**![Icono Editar](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icono Editar").
 
-2.  
-    
-    Use la página **Puerta de enlace IP de la mensajería unificada** para ver y configurar las opciones de la puerta de enlace IP de mensajería unificada. Se pueden ver o configurar las siguientes opciones:
+2.  Use la página **Puerta de enlace IP de la mensajería unificada** para ver y configurar las opciones de la puerta de enlace IP de mensajería unificada. Se pueden ver o configurar las siguientes opciones:
     
       - **Estado**   Este campo de sólo lectura muestra el estado de la puerta de enlace IP de MU.
     

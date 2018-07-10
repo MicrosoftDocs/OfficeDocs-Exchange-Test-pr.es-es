@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-13_
+_**Última modificación del tema:** 2015-04-13_
 
 Puede usar los scripts del Shell de administración de Exchange (que se encuentran en %ExchangeInstallPath%Scripts) para duplicar la configuración de un servidor Transporte perimetral. Este proceso se conoce como *configuración clonada*. La *configuración clonada* es la práctica de implementar nuevos servidores de transporte perimetral en función de la información de configuración de un servidor de origen configurado previamente. La información de configuración de un servidor de origen configurado previamente se copia y exporta a un archivo XML, que a continuación se importa en el servidor de destino. Para obtener una descripción general de este proceso, consulte [Configuración clonada del servidor de transporte perimetral](edge-transport-server-cloned-configuration-exchange-2013-help.md).
 

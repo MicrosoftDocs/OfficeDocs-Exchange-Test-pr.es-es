@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 La mensajería unificada (MU) de Exchange le permite proporcionar servicios de correo de voz a usuarios en su organización. Cuando implemente la mensajería unificada, debe integrar su implementación de Exchange Server con el sistema de telefonía existente para su organización o con Microsoft Lync Server. Una implementación correcta requiere un análisis cuidadoso de la infraestructura telefónica existente y la realización de los pasos de planificación adecuados para implementar y administrar el correo de voz en la mensajería unificada. Si integra Exchange con Lync Server, también debe familiarizarse con el producto.
 

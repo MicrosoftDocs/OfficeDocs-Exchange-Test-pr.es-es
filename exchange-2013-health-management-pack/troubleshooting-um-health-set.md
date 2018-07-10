@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Project Server 2013_
+_**Se aplica a:**  Exchange Server 2013, Project Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:**  2015-03-09_
 
 El conjunto de mantenimiento de mensajería unificada (UM) supervisa el mantenimiento general del servicio de la mensajería unificada en su organización.
 
@@ -158,7 +158,7 @@ Revise los registros de eventos para investigar qué grupo Lync se seleccionó y
 
 Renueve el certificado del servicio de mensajería unificada en el servidor de buzones.
 
-**Pasos adicionales para la solución de problemas:**
+**Pasos adicionales para la solución de problemas:**  
 
 1.  Inicie el Administrador de IIS y, luego, conéctese al servidor que informa el problema para determinar si el grupo de aplicaciones de **MSExchangeServicesAppPool** se está ejecutando.
 

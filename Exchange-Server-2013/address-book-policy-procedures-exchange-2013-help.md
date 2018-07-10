@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-11_
+_**Última modificación del tema:** 2012-10-11_
 
 [Crear una directiva de libreta de direcciones](create-an-address-book-policy-exchange-2013-help.md)
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Al instalar la mensajería unificada (UM), también se instala un conjunto común de archivos de audio predeterminados que se usa para el sistema de correo de voz y para los mensajes del menú, saludos y anuncios informativos. Si bien puede crear un operador automático de mensajería unificada o un plan de marcado que use solo los indicativos de audio predeterminados, estos indicativos son muy genéricos para que sirvan como una interfaz pública aceptable para muchas empresas. En este tema se tratan los mensajes del menú y del sistema, saludos y anuncios informativos usados por los planes de marcado y operadores automáticos de mensajería unificada, y cómo se usan cuando las personas que llaman tienen acceso al sistema de correo de voz.
 

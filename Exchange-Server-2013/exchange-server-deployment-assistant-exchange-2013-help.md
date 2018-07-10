@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 El Asistente para la implementación del servidor de Exchange es una herramienta basada en web que puede ayudar en la implementación de Microsoft Exchange Server 2016 y Exchange Server 2013. El asistente de implementación le formulará unas preguntas sobre el entorno actual y generará una lista de comprobación personalizada que le ayudará a simplificar su implementación. Para obtener acceso al asistente para la implementación, consulte [Asistente para la implementación de Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=277105).
 

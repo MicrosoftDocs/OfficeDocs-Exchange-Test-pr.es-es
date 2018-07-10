@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Debe configurar las puertas de enlace de voz sobre IP (VoIP) y las centrales de conmutación IP (PBX) correctamente cuando implemente la mensajería unificada (UM) en su organización. Si está implementando UM en un entorno híbrido, también necesitará configurar correctamente sus controladores de borde de sesión (SBC). Para hacer esto, necesita configurar la interfaz o interfaces de las puertas de enlace VoIP, IP PBX y SBC para comunicarse con los servidores de acceso de clientes que se ejecutan en el Servicio del enrutador de llamadas de mensajería unificada de Microsoft Exchange y con los servidores de buzones que se ejecutan en el Servicio de mensajería unificada de Microsoft Exchange.
 

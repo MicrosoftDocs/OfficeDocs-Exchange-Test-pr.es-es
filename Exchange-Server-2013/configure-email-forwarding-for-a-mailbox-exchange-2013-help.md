@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 El reenvío de correo electrónico permite configurar un buzón de correo para reenviar a otro destinatario mensajes de correo electrónico enviados a ese usuario dentro o fuera de la organización.
 

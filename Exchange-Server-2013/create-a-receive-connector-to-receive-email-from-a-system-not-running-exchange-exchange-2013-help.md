@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 Es posible que tenga problemas cuando quiera recibir mensajes de un sistema que no ejecuta Exchange. Por ejemplo, si tiene un dispositivo de red que realiza comprobaciones de directrices y más adelante redirige mensajes a su servidor de Exchange. En este caso, suponemos que el dispositivo utiliza SMTP. En caso contrario, deberá usar un conector externo o un conector de agente de entrega.
 

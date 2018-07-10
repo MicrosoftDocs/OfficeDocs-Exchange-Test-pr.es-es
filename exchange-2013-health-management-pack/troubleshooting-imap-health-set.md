@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:**  Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:**  2015-03-09_
 
 El conjunto de mantenimiento IMAP supervisa la disponibilidad de la infraestructura proxy de IMAP4 en el servidor de acceso de cliente (CAS). El conjunto de mantenimiento IMAP está estrechamente relacionado con los conjuntos de mantenimiento siguientes:
 

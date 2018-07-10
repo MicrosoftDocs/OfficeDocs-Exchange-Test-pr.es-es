@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013 SP1_
+_**Se aplica a:** Exchange Online, Exchange Server 2013 SP1_
 
-_**Última modificación del tema:**2013-12-02_
+_**Última modificación del tema:** 2013-12-02_
 
 Puede utilizar cmdlets de informes de mantenimiento integrados para realizar diversas tareas relacionadas con la disponibilidad administrada, tales como:
 
@@ -48,18 +48,23 @@ Puede usar el Shell para obtener un resumen del mantenimiento de un servidor que
 ## Usar el Shell para ver el mantenimiento del servidor
 
 Ejecute cualquiera de los siguientes comandos para ver los conjuntos de mantenimiento y la información de mantenimiento en un servidor que ejecuta Exchange 2013.
-
+```
     Get-HealthReport -Identity <ServerName>
-
+```
+```
     Get-ServerHealth -Identity <ServerName> | Format-Table Server,CurrentHealthSetState,Name,HealthSetName,AlertValue,HealthGroupName -Auto
+```
 
 Ejecute cualquiera de los siguientes comandos para ver conjuntos de mantenimiento en un servidor o grupo de disponibilidad de bases de datos que ejecuta Exchange 2013.
-
+```
     Get-ExchangeServer | Get-HealthReport -RollupGroup
-
+```
+```
     Get-ExchangeServer | Get-HealthReport -RollupGroup -HealthSetName <HealthSet>
-
+```
+```
     (Get-DatabaseAvailabiltyGroup <DAGName>).Servers | Get-HealthReport -RollupGroup
+```
 
 ## Ver una lista de conjuntos de mantenimiento
 

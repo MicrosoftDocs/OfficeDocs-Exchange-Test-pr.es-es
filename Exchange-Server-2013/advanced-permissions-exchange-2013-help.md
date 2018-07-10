@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-09-13_
+_**Última modificación del tema:** 2012-09-13_
 
 Los procedimientos de las secciones siguientes le permiten configurar los modelos de permisos avanzados para la organización. Debe conocer en profundidad el control de acceso basado en funciones (RBAC) antes de realizar una personalización avanzada de su modelo de permisos.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En este tema se describen las propiedades de los mensajes de correo electrónico de Exchange que se pueden buscar mediante la exhibición de documentos electrónicos y la retención local en Exchange Server 2013 y Exchange Online. En este tema también se describen los operadores de búsqueda booleanos y otras técnicas de consulta de búsqueda que se pueden usar para refinar los resultados de la búsqueda de exhibición de documentos electrónicos.
 

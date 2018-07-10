@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013 SP1_
+_**Se aplica a:** Exchange Server 2013 SP1_
 
-_**Última modificación del tema:**2014-06-23_
+_**Última modificación del tema:** 2014-06-23_
 
 Un cambio de servidor es una tarea que se puede efectuar para mover todas las copias activas de la base de datos de buzones del servidor de buzones a uno o más servidores de buzones en un grupo de disponibilidad de la base de datos (DAG). Esta tarea se efectúa como parte de la preparación de una interrupción programada para el servidor de buzones actual.
 

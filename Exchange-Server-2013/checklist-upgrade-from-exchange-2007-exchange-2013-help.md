@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Utilice esta lista de comprobación para actualizarse de Microsoft Exchange Server 2007 a Exchange Server 2013. Antes de comenzar a trabajar con esta lista de comprobación, asegúrese de estar familiarizado con los conceptos analizados en:
 

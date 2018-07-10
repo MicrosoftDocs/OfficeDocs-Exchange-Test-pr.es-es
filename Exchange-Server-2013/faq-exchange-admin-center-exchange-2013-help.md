@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Este tema proporciona una lista de las preguntas más frecuentes del nuevo Centro de administración de Exchange (EAC) en Microsoft Exchange Server 2013. ¿Tiene otras preguntas acerca de EAC que no se han respondido aquí? Envíenos un correo electrónico a [Ex2013HelpFeedback@microsoft.com](mailto:ex2013helpfeedback@microsoft.com).
 

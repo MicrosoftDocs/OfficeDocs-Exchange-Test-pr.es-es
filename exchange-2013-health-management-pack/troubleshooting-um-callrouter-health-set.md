@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:**  Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:**  2015-03-09_
 
 El conjunto de mantenimiento del enrutador de llamadas de mensajería unificada de Microsoft Exchange supervisa el mantenimiento general del servicio de enrutador de llamadas de mensajería unificada.
 
@@ -122,7 +122,7 @@ Si los registros de eventos no contienen información suficiente, es posible que
 
 Renueve el certificado del servicio de enrutador de llamadas de mensajería unificada en el CAS.
 
-**Pasos adicionales para la solución de problemas:**
+**Pasos adicionales para la solución de problemas:**  
 
 1.  Inicie el Administrador de IIS y, luego, conéctese al servidor que informa el problema para determinar si el grupo de aplicaciones **MSExchangeServicesAppPool** se está ejecutando.
 

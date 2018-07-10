@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Cuarentena de correo no deseado es una característica del agente de filtrado de contenido que reduce el riesgo de perder mensajes legítimos. La cuarentena de correo no deseado proporciona una ubicación de almacenamiento temporal para mensajes identificados como correo no deseado y que no deben ser entregados a un buzón de usuario dentro de la organización.
 
@@ -126,7 +126,7 @@ De forma predeterminada, no puede seleccionar estos campos en Microsoft Outlook.
         
           - *\<Versión de Office\>* Para Outlook 2007, el valor es `Office12`. Para Outlook 2010, el valor es `Office14`. Para Outlook 2013, el valor es `Office15`.
         
-          - *\<LCID\>* Este es el valor de su Id. de configuración regional (LCID). Por ejemplo, el LCID para inglés de los EE.UU. es 1033. Para obtener más información, consulte [KB221435: Lista de identificadores de configuración regional compatibles en Word](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=221435).
+          - *\<LCID\>* Este es el valor de su Id. de configuración regional (LCID). Por ejemplo, el LCID para inglés de los EE.UU. es 1033. Para obtener más información, consulte [KB221435: Lista de identificadores de configuración regional compatibles en Word](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=221435).
     
       - **Nombre**   Para el resto de este procedimiento, por defecto el archivo se denomina `QTNE.cfg`. El nombre del archivo no es importante, pero asegúrese de incluir el valor entre comillas para que se guarde como QTNE.cfg y no como QTNE.cfg.txt.
     

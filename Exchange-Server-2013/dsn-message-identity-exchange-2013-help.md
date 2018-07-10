@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Puede identificar un mensaje personalizado de notificación de estado de entrega (DNS) según su sintaxis. La identidad es la GUID del mensaje DSN personalizado o una cadena que contenga los siguientes valores:
 

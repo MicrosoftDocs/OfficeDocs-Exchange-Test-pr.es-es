@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-13_
+_**Última modificación del tema:** 2012-10-13_
 
 La directiva de nomenclatura de grupos para grupos de distribución solo se aplica a los grupos que crean los usuarios. Si usted u otros administradores utilizan el centro de administración de Exchange (EAC) para crear grupos de distribución, la directiva de nomenclatura de grupos se ignora y no se aplica al nombre del grupo.
 
@@ -68,10 +68,12 @@ Por ejemplo, supongamos que crea la directiva de nomenclatura de grupos a últim
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar si ha logrado crear o cambiar el nombre de un grupo de distribución que omitirá la directiva de nombramiento del grupo, ejecute los siguientes comandos.
-
+```
     Get-DistributionGroup <Name> | FL DisplayName
-
+```
+```
     Get-OrganizationConfig | FL DistributionGroupNamingPolicy
+```
 
 Sabrá si ha funcionado cuando el formato del nombre para mostrar del grupo sea distinto al que su organización aplica en la directiva de nomenclatura de grupo.
 

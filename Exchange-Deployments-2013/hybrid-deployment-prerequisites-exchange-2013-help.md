@@ -17,7 +17,7 @@ _<strong>Se aplica a:</strong>Exchange Online, Exchange Server 2013, Exchange Se
 
 _<strong>Última modificación del tema:</strong>2017-07-25_
 
-**Resumen:** Lo que necesita su entorno de Exchange antes de configurar una implementación híbrida.
+**Resumen:**   Lo que necesita su entorno de Exchange antes de configurar una implementación híbrida.
 
 Antes de crear y configurar una implementación híbrida con el Asistente para la configuración híbrida, su organización existente local de Exchange debe cumplir unos requisitos determinados. Si no cumple estos requisitos, no podrá completar los pasos del Asistente para la configuración híbrida y, por lo tanto, no podrá configurar una implementación híbrida entre su organización local de Exchange y Exchange Online.
 

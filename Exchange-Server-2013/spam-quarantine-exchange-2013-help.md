@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-12_
+_**Última modificación del tema:** 2012-10-12_
 
 Muchas organizaciones están obligadas por leyes o normativas a conservar o hacer entrega de todos los mensajes de correo electrónico legítimos. En Microsoft Exchange Server 2013, la cuarentena de correo no deseado es una característica del agente de filtro de contenido que reduce el riesgo de perder mensajes legítimos. La cuarentena de correo no deseado proporciona una ubicación de almacenamiento temporal para aquellos mensajes identificados como correo no deseado que no deben ser entregados a un buzón de usuario dentro de la organización.
 

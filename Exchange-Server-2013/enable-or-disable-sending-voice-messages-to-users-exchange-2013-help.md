@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-12-13_
+_**Última modificación del tema:** 2012-12-13_
 
 Puede habilitar a las personas que llaman para que envíen mensajes de voz a usuarios desde un operador automático de mensajería unificada (UM), o bien impedir que lo hagan. De forma predeterminada, esta opción está habilitada y permite que las personas que llaman dejen mensajes de voz a usuarios del plan de marcado de UM asociado con el operador automático de UM. Si deshabilita esta opción, el operador automático no invitará a las personas que llaman a enviar un mensaje de voz durante el mensaje del sistema.
 

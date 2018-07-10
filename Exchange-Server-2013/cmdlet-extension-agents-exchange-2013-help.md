@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Los agentes de extensión de cmdlet son componentes de Microsoft Exchange Server 2013 que invocan los cmdlets de Exchange 2013 cuando se ejecutan los cmdlets. Como su nombre indica, los agentes de extensión de cmdlet asisten en el procesamiento de datos o la realización de acciones adicionales en función de los requisitos de los cmdlets, a fin de extender las capacidades de los cmdlets que los invocan. Los agentes de extensión de cmdlet están disponibles en cualquier rol de servidor.
 

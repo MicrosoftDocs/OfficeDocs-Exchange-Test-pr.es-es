@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En la mensajería unificada (UM), se usa un códec de audio para almacenar los mensajes de correo de voz. Se usa otro códec entre una puerta de enlace VoIP o central de conmutación (PBX) IP y el servidor de buzones de correo que ejecuta el servicio de mensajería unificada de Microsoft Exchange o el servidor de acceso de cliente que ejecuta el servicio de enrutador de llamadas de mensajería unificada de Microsoft Exchange. La mensajería unificada puede usar cualquiera de los cuatro códecs de audio siguientes para crear y almacenar mensajes de voz:
 

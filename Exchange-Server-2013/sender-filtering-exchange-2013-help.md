@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-12_
+_**Última modificación del tema:** 2012-10-12_
 
 El filtrado de remitentes se basa en el encabezado MAIL FROM: El encabezado SMTP determina qué acción, si la hay, se debería realizar en un mensaje de correo electrónico de entrada. El Agente de filtrado de remitentes proporciona el filtrado del remitente.
 

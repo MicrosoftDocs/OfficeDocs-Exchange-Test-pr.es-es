@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede configurar el reconocimiento de voz automático (ASR) para un usuario habilitado para la mensajería unificada (MU) y el correo de voz. Cuando ASR está habilitado en el buzón de un usuario de Outlook Voice Access, el usuario puede moverse por los menús del buzón mediante comandos de voz. ASR está habilitado de manera predeterminada. Si ASR está deshabilitado, el usuario debe usar entradas de multifrecuencia de tono dual (DTMF), también conocidas como "marcación por tonos", para desplazarse por los menús. 
 

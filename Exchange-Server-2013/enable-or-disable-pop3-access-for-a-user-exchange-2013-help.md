@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-01-06_
+_**Última modificación del tema:** 2014-01-06_
 
 Puede habilitar o deshabilitar POP3 para un usuario.
 

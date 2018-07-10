@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Microsoft Exchange Server 2013 utiliza la comunicación remota de la interfaz de la línea de comandos de Windows PowerShell para establecer una conexión entre el servidor o la estación de trabajo desde la que administra Exchange y el servidor que ejecuta Exchange 2013 que está administrando. En Exchange 2013, esto se denomina Shell de administración de Exchange remoto o Shell remoto. Incluso si administra el servidor local de Exchange 2013, el shell remoto se utiliza para realizar la conexión. Para obtener más información acerca del shell local y remoto, consulte [Usar Powershell con Exchange 2013 (Shell de administración de Exchange)](https://technet.microsoft.com/es-es/library/bb123778\(v=exchg.150\)).
 

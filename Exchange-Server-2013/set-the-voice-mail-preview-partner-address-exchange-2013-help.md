@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-13_
+_**Última modificación del tema:** 2013-02-13_
 
 Se puede establecer una dirección de socio comercial de vista previa de correo de voz en una directiva de buzón de mensajería unificada (MU). Una vez establecida la dirección de socio comercial de vista previa de correo de voz en una directiva de buzón de mensajería unificada, la configuración se aplica a todos los usuarios habilitados para mensajería unificada que estén vinculados a esa directiva de buzón.
 

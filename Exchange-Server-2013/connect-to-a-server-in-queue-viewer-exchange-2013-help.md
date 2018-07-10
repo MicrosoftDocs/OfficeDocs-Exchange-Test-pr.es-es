@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 El uso del Visor de cola en el cuadro de herramientas de Exchange de un servidor de Microsoft Exchange Server 2013 ubicado dentro de la organización de Exchange permite conectarse a otros servidores de buzones. De forma predeterminada, cuando se abre el Visor de cola en un servidor de buzones, el Visor se conecta a la base de datos en cola del servidor local. No obstante, puede iniciar más de una instancia del Visor de cola de modo que cada instancia se concentre en un servidor diferente. También puede organizar las ventanas del Visor de cola en mosaico para poder supervisar con mayor facilidad más de un servidor de buzones a la vez.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 Puede usar el script **ConfigureAdam.ps1** (ubicado en $env:ExchangeInstallPath\\Scripts) para modificar la configuración predeterminada de Active Directory Lightweight Directory Services (AD LDS) en los servidores de transporte perimetral antes de suscribir el servidor de transporte perimetral a su organización de Exchange.
 

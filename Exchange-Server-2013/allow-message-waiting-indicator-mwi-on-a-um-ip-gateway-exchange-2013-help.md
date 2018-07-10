@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-23_
+_**Última modificación del tema:** 2013-02-23_
 
 Puede permitir o evitar las notificaciones de correo de voz a los usuarios con respecto a las llamadas recibidas por la puerta de enlace IP de mensajería unificada (MU). Si habilita este ajuste, la puerta de enlace IP de MU puede recibir y enviar mensajes de notificación de SIP para los usuarios. El indicador de mensaje en espera (MWI) está habilitado de forma predeterminada y permite que se envíen notificaciones de mensaje en espera a los usuarios, pero puede apagarlo de acuerdo con sus necesidades.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 El rol de administración Org Custom Apps permite a los administradores ver y modificar sus aplicaciones de la organización y agregar aplicaciones personalizadas desde un archivo o dirección URL.
 

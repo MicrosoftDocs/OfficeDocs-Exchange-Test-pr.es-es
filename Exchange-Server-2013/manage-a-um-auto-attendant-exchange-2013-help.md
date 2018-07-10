@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-30_
+_**Última modificación del tema:** 2013-04-30_
 
 Después de crear un operador automático de mensajería unificada (MU), podrá ver o configurar diversos ajustes de configuración. Por ejemplo, puede agregar, quitar y editar números de extensión que estén asociados con el operador automático. También puede habilitar y deshabilitar el reconocimiento de voz automático (ASR) para el operador automático y cambiar los saludos utilizados para horarios comerciales y no comerciales.
 
@@ -49,9 +49,7 @@ Para conocer tareas de administración adicionales relacionadas con los operador
 
 2.  En la página **Plan de marcado de la mensajería unificada**, en **Operadores automáticos de mensajería unificada**, seleccione el operador automático de mensajería unificada que desee ver o configurar y, a continuación, en la barra de herramientas, haga clic en **Editar**![Icono Editar](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icono Editar").
 
-3.  
-    
-    En la pestaña **Operador automático de mensajería unificada**, haga clic en **General** para ver la información solo para mostrar acerca del operador automático de mensajería unificada y para realizar tareas de administración en un operador automático de mensajería unificada de la siguiente forma:
+3.  En la pestaña **Operador automático de mensajería unificada**, haga clic en **General** para ver la información solo para mostrar acerca del operador automático de mensajería unificada y para realizar tareas de administración en un operador automático de mensajería unificada de la siguiente forma:
     
       - **Plan de marcado de la mensajería unificada**   Este cuadro muestra el plan de marcado de mensajería unificada asociado con el operador automático. Después de haber creado un operador automático, el plan de marcado asociado con el operador automático no se puede cambiar. Si necesita asociar un operador automático con un plan de marcado diferente debe eliminar el plan de marcado y volver a asociar el operador automático con el plan de marcado correcto después de haberlo creado de nuevo.
     
@@ -59,7 +57,7 @@ Para conocer tareas de administración adicionales relacionadas con los operador
     
       - **Estado**   Este cuadro muestra si el operador automático de MU está habilitado o deshabilitado. Para habilitar o deshabilitar el operador automático, cierre la página **Operador automático de mensajería unificada** y use la barra de herramientas en **Operadores automáticos de mensajería unificada** en la página **Plan de marcado de la mensajería unificada**.
     
-      - **Números de acceso   **Use este cuadro para escribir un número de extensión o número de acceso que dirige a los usuarios al operador automático. De forma predeterminada, no se configura ningún número de extensión ni de acceso al crear un operador automático.
+      - **Números de acceso**   Use este cuadro para escribir un número de extensión o número de acceso que dirige a los usuarios al operador automático. De forma predeterminada, no se configura ningún número de extensión ni de acceso al crear un operador automático.
         
         El número de dígitos de los números de extensión o de los números de acceso que proporcione debe coincidir con el número de dígitos de un número de extensión configurado en el plan de marcado de mensajería unificada (MU) asociado con el operador automático de mensajería unificada. También puede agregar una dirección de protocolo de inicio de sesión (SIP) en este cuadro. Algunas centrales de conmutación IP (PBXs), PBX con SIP habilitado y Microsoft Office Communications Server 2007 R2 o Microsoft Lync Server usan una dirección SIP.
         
@@ -81,13 +79,11 @@ Para conocer tareas de administración adicionales relacionadas con los operador
         
         Aunque puede seleccionar un idioma diferente al seleccionado para el plan de marcado de MU asociado con el operador automático, es recomendable que la configuración de ambos idiomas coincida. Si la configuración de idioma no coincide, cuando se llame a un número de extensión definido en el plan de marcado, la comunicación será en un idioma y si se marca un número de extensión asociado con un operador automático, la comunicación será en otro idioma.
     
-      - **Nombre comercial   **Use este cuadro para escribir el nombre de la empresa. De manera predeterminada, no se introduce ningún nombre comercial. Si escribe un nombre comercial en este cuadro, se reproducirá un mensaje con el nombre comercial a las personas que llaman, en lugar del saludo predeterminado.
+      - **Nombre comercial**   Use este cuadro para escribir el nombre de la empresa. De manera predeterminada, no se introduce ningún nombre comercial. Si escribe un nombre comercial en este cuadro, se reproducirá un mensaje con el nombre comercial a las personas que llaman, en lugar del saludo predeterminado.
     
-      - **Ubicación comercial   **Use este cuadro para escribir la ubicación de la empresa. De manera predeterminada, no se introduce ninguna ubicación empresarial. Si escribe la ubicación comercial en este cuadro, se reproducirá a las personas que llaman.
+      - **Ubicación comercial**   Use este cuadro para escribir la ubicación de la empresa. De manera predeterminada, no se introduce ninguna ubicación empresarial. Si escribe la ubicación comercial en este cuadro, se reproducirá a las personas que llaman.
 
-4.  
-    
-    Use **Saludos** en el operador automático para administrar saludos grabados. Puede seleccionar saludos predeterminados o personalizados que haya grabado previamente para horarios comerciales y no comerciales. Se pueden realizar las siguientes configuraciones:
+4.  Use **Saludos** en el operador automático para administrar saludos grabados. Puede seleccionar saludos predeterminados o personalizados que haya grabado previamente para horarios comerciales y no comerciales. Se pueden realizar las siguientes configuraciones:
     
       - **Saludo en horario comercial**   Este es el saludo inicial que se reproduce cuando una persona llama al operador automático durante el horario comercial de su organización. De forma predeterminada, el horario comercial es de 12:00 A.M. a 12:00 A.M. y no se establece horario no comercial. Si no especifica un saludo personalizado, las personas que llaman reciben un mensaje del sistema que dice, "Bienvenido al operador automático de Exchange". Los horarios comerciales y no comerciales se configuran en la pestaña **Horario comercial** del operador automático.
         
@@ -203,7 +199,7 @@ Para conocer tareas de administración adicionales relacionadas con los operador
     
       - **Opciones para las búsquedas en la libreta de direcciones**   Use estas opciones para determinar una agrupación de usuarios. De forma predeterminada, se selecciona **Permitir que las personas que llaman busquen usuarios por nombre o por alias** junto con la opción **En este plan de marcado únicamente**. Sin embargo, puede cambiar las agrupaciones de usuarios para permitir a las personas que llamen transferir llamadas o enviar mensajes a los usuarios ubicados en la lista global de direcciones (GAL) de una organización. Se puede elegir entre las opciones siguientes:
         
-          - **Permitir a los autores de llamadas buscar usuarios por nombre o alias:**    De forma predeterminada, esta opción está seleccionada. Permite a las personas que llamen llamar en este operador automático para realizar una búsqueda de directorio de usuarios por nombre o por alias. Se asigna un alias a un usuario cuando se crea un buzón de correo para él. El alias es la primera parte de una dirección SMTP, por ejemplo, tonysmith@contoso.com. La dirección SMTP es tonysmith@contoso.com, mientras que el alias es tonysmith. La elección de esta opción sólo afecta a las personas que llaman que usan este operador automático y no las que usan Outlook Voice Access.
+          - **Permitir a los autores de llamadas buscar usuarios por nombre o alias:**     De forma predeterminada, esta opción está seleccionada. Permite a las personas que llamen llamar en este operador automático para realizar una búsqueda de directorio de usuarios por nombre o por alias. Se asigna un alias a un usuario cuando se crea un buzón de correo para él. El alias es la primera parte de una dirección SMTP, por ejemplo, tonysmith@contoso.com. La dirección SMTP es tonysmith@contoso.com, mientras que el alias es tonysmith. La elección de esta opción sólo afecta a las personas que llaman que usan este operador automático y no las que usan Outlook Voice Access.
             
               - **En este plan de marcado únicamente**   Seleccione esta opción para permitir a las personas que llaman que conectan con el operador automático de mensajería unificada ubicar y ponerse en contacto con usuarios del mismo plan de marcado asociado con el operador automático del mensajería unificada. De forma predeterminada, esta opción está habilitada en el pan de marcado y en el operador automático. Esto significa que los usuarios de Outlook Voice Access y las personas que llaman al operador automático pueden buscar usuarios dentro del mismo plan de marcado.
             
@@ -250,9 +246,7 @@ Para conocer tareas de administración adicionales relacionadas con los operador
         
         Es útil habilitar esta opción para que una persona pueda dejar un mensaje de voz o conectarse con un operador humano cuando no consigue seguir las instrucciones del menú ni localizar en el directorio a la persona deseada después del horario comercial. Una vez habilitada esta opción, puede configurar el número de extensión de operador configurado en un buzón habilitado para MU supervisado. La persona que llama puede dejar un mensaje de voz, o bien un operador humano que posee el número de extensión puede ayudar a la persona que llama.
 
-9.  
-    
-    Use **Autorización de marcado** para configurar las reglas de marcado de las personas que llaman a un operador automático de mensajería unificada. Puede usar esta configuración para controlar los números de extensión a los que se puede obtener acceso desde un operador automático o para controlar los números de teléfono que pueden marcar las personas que llaman que hayan marcado al operador automático. Se pueden realizar las siguientes configuraciones:
+9.  Use **Autorización de marcado** para configurar las reglas de marcado de las personas que llaman a un operador automático de mensajería unificada. Puede usar esta configuración para controlar los números de extensión a los que se puede obtener acceso desde un operador automático o para controlar los números de teléfono que pueden marcar las personas que llaman que hayan marcado al operador automático. Se pueden realizar las siguientes configuraciones:
     
       - **Llamadas en el mismo plan de marcado de mensajería unificada**   Seleccione esta casilla para permitir a los usuarios que llamen a un operador automático realizar o transferir llamadas a un número de extensión asociado con un usuario habilitado para mensajería unificada que esté asociado con el mismo plan de marcado que el operador automático. Esta opción está habilitada de manera predeterminada.
         

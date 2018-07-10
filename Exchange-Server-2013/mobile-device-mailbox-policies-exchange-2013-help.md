@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-06-16_
+_**Última modificación del tema:** 2016-06-16_
 
 En MicrosoftExchange Server 2013, puede crear directivas de buzones de dispositivos móviles para aplicar un conjunto común de directivas o configuraciones de seguridad a un grupo de usuarios. Una vez que implemente Exchange ActiveSync en su organización de Exchange 2013, puede crear nuevas directivas de buzones de dispositivos móviles o modificar las directivas existentes. Al instalar Exchange 2013, se crea una directiva predeterminada de buzones de dispositivos móviles. A todos los usuarios se les asigna automáticamente esta directiva predeterminada de buzones de dispositivos móviles.
 

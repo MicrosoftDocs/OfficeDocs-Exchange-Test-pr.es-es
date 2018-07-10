@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2016-12-15_
+_**Última modificación del tema:** 2016-12-15_
 
 El contenido de este tema no se ha actualizado para Microsoft Exchange Server 2013. Aun así, se puede aplicar a Exchange 2013. Si necesita más ayuda, consulte los siguientes recursos de la comunidad.
 
@@ -54,11 +54,11 @@ Para resolver este problema, compruebe que existe una instancia del Servicio de 
 
 Para obtener más información acerca del Servicio de actualización de destinatarios, consulte los artículos siguientes de Microsoft Knowledge Base:
 
-  - "Cómo el Servicio de actualización de destinatarios aplica directivas de destinatarios" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=328738](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=328738)).
+  - "Cómo el Servicio de actualización de destinatarios aplica directivas de destinatarios" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=328738](https://go.microsoft.com/fwlink/?linkid=3052&kbid=328738)).
 
-  - "Cómo llena las listas de direcciones el Servicio de actualización de destinatarios" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=253828](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=253828)).
+  - "Cómo llena las listas de direcciones el Servicio de actualización de destinatarios" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=253828](https://go.microsoft.com/fwlink/?linkid=3052&kbid=253828)).
 
-  - "Cómo comprobar el progreso del Servicio de actualización de destinatarios de Exchange" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=246127](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=246127)).
+  - "Cómo comprobar el progreso del Servicio de actualización de destinatarios de Exchange" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=246127](https://go.microsoft.com/fwlink/?linkid=3052&kbid=246127)).
 
-  - "Tareas realizadas por el Servicio de actualización de destinatarios de Exchange" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=253770](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=253770)).
+  - "Tareas realizadas por el Servicio de actualización de destinatarios de Exchange" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=253770](https://go.microsoft.com/fwlink/?linkid=3052&kbid=253770)).
 

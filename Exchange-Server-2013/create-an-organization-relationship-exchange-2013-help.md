@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 Configure una relación de organización para compartir la información de calendario con un socio de negocio externo. Puede configurar una relación de organización entre dos organizaciones federadas de Exchange 2013 o entre una organización federada de Exchange 2013 y organizaciones federadas de Exchange 2010. También puede configurar una relación de organización entre la organización de Exchange local y una organización de Office 365.
 

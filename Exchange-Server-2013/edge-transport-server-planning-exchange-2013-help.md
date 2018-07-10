@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-07_
+_**Última modificación del tema:** 2015-04-07_
 
 El servidor de transporte perimetral se ha introducido de nuevo en Exchange Service Pack 1. El servidor de transporte perimetral proporciona una protección mejorada contra el correo no deseado para la organización de Exchange. El servidor de transporte perimetral, además, aplica directivas a los mensajes que se envían de unas organizaciones a otras. Este rol de servidor se implementa en la red perimetral y fuera del bosque de Active Directory. Los servidores de transporte perimetral no tienen acceso directo a Active Directory para configuración e información de destinatarios de la misma forma que los servidores de acceso de cliente. El servidor de transporte perimetral usa los Servicios de directorio ligero de Active Directory (AD LDS) para almacenar localmente información de configuración y destinatarios.
 

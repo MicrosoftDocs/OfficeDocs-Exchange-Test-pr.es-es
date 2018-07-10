@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-09-24_
+_**Última modificación del tema:** 2012-09-24_
 
 Los dispositivos móviles habilitados para Microsoft Exchange ActiveSync permiten a los usuarios obtener acceso a la mayoría de sus datos de buzón de correo de Microsoft Exchange en cualquier momento y lugar. Existen muchos teléfonos y dispositivos móviles diferentes habilitados para Exchange ActiveSync. Entre ellos se incluyen los teléfonos Windows, teléfonos móviles Nokia, teléfonos y tablets Android, y los iPhone, iPod e iPad de Apple.
 

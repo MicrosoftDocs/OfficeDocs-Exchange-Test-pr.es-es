@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Puede especificar si el Formato de encapsulamiento neutro para el transporte (TNEF) se debería conservar o quitar de los mensajes que dejan la organización de Exchange. TNEF, también conocido como formato de texto enriquecido (RTF) de Outlook o formato de texto enriquecido de Exchange, es un formato específico de Microsoft para encapsular las propiedades de los mensajes MAPI. Todas las versiones de MicrosoftOutlook admiten totalmente TNEF. Outlook Web App traduce TNEF a MAPI y muestra los mensajes con formato. Sin embargo, otros clientes de correo electrónico que no admiten TNEF normalmente muestran mensajes en formato TNEF como mensajes en texto sin formato con documentos adjuntos Winmail.dat o Win.dat.
 

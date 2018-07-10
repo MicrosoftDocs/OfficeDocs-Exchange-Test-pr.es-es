@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-07-16_
+_**Última modificación del tema:** 2015-07-16_
 
 Una directiva de buzón de dispositivo móvil le permite aplicar un conjunto común de configuraciones de seguridad y de dispositivo móvil a un grupo de usuarios. Puede crear varias directivas de buzón de dispositivo móvil.
 

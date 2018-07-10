@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2017-08-02_
+_**Última modificación del tema:** 2017-08-02_
 
-**Resumen:** cree y administre carpetas públicas con uno o varios de estos artículos.
+**Resumen:**  cree y administre carpetas públicas con uno o varios de estos artículos.
 
 Siga uno o varios de los procedimientos que aparecen a continuación para preparar la infraestructura de carpetas públicas y efectuar otras tareas necesarias para administrar las carpetas públicas.
 

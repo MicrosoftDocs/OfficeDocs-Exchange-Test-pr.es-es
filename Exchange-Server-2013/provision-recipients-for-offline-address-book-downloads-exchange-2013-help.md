@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-15_
+_**Última modificación del tema:** 2013-02-15_
 
 Si usa varias libretas de direcciones sin conexión (OAB) en la organización, existen varias maneras de especificar qué destinatarios descargan qué libreta de direcciones sin conexión:
 

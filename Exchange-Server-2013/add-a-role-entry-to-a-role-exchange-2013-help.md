@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-04_
+_**Última modificación del tema:** 2012-10-04_
 
 Si desea permitir el acceso a cmdlet, necesitará agregar la entrada de la función de administración asociada a la función de administración. Después de agregar la entrada de función a la función, los usuarios asignados a la función podrán tener acceso a ese cmdlet. Para obtener más información acerca de las entradas de funciones de administración en Microsoft Exchange Server 2013, consulte [Descripción de los roles de administración](understanding-management-roles-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-05_
+_**Última modificación del tema:** 2012-11-05_
 
 Puede configurar uno o varios números de extensión en un operador automático de mensajería unificada (MU). Cuando agrega un número de extensión a un operador automático de mensajería unificada, ese número puede ser utilizado por las personas que llaman para conectarse con el operador automático. Asimismo, quizá deba agregar números de extensión porque las personas que llaman pueden usar más de un número de extensión para obtener acceso a un operador automático. De forma predeterminada, no se configura ningún número de extensión al crear un operador automático.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-21_
+_**Última modificación del tema:** 2013-02-21_
 
 Puede configurar un plan de marcado de Mensajería unificada (UM) para especificar la información que dan los llamadores cuando los usuarios tienen nombres iguales o parecidos. La mensajería unificada usa esta configuración para diferenciar entre los usuarios que tienen nombres iguales o parecidos y da esta información a los autores de llamadas. Cuando una persona que llama o un usuario de Outlook Voice Access debe introducir letras para encontrar a un usuario determinado, a veces, más de un nombre coincide con las letras introducidas. Puede usar una de las opciones disponibles para ofrecer a la persona que llama más información que le ayude a encontrar al usuario con el que intenta ponerse en contacto.
 

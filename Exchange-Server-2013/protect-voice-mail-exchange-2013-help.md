@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Algunos sistemas de telefonía heredados de central de conmutación (PBX) e IP PBX permiten al autor de la llamada marcar un mensaje de correo de voz como privado, evitando que el destinatario deseado pueda reenviarlo. En sistemas de correo de voz integrados es posible tener acceso de diversos modos a un mensaje de voz, lo que hace más difícil evitar que otras personas tengan acceso a mensajes de voz marcados como privados.
 

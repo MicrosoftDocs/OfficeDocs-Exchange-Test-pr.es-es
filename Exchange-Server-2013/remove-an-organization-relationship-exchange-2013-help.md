@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-01-04_
+_**Última modificación del tema:** 2015-01-04_
 
 Con una relación de organización, los usuarios de la organización de Exchange pueden compartir la información de disponibilidad del calendario con una organización de Office 365 o con otra organización de Exchange local. Una relación de organización se puede quitar para deshabilitar el uso compartido de calendario con esa otra organización.
 

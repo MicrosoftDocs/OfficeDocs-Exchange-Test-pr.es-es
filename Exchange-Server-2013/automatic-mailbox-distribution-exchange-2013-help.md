@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
 
-_**Última modificación del tema:**2013-08-13_
+_**Última modificación del tema:** 2013-08-13_
 
 Cuando se crea o se mueve un buzón, o se habilita un usuario existente para correo, el buzón se debe almacenar en una base de datos de buzones. En Microsoft Exchange Server 2013 puede dejar que Exchange elija la base de datos mediante la distribución automática de buzones.
 

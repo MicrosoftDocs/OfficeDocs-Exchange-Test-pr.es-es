@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016, Office 365_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016, Office 365_
 
-_**Última modificación del tema:**2017-05-19_
+_**Última modificación del tema:** 2017-05-19_
 
-**Resumen:** Las últimas topologías de Exchange admitidas que permiten a los usuarios acceder a las carpetas públicas con Outlook 2016 para Mac.
+**Resumen:**  Las últimas topologías de Exchange admitidas que permiten a los usuarios acceder a las carpetas públicas con Outlook 2016 para Mac.
 
 Con las versiones de la [actualización de abril de 2016](https://go.microsoft.com/fwlink/?linkid=829202) de 2016 de Outlook para los clientes de Mac, [14 de actualización acumulativa (CU14)](https://go.microsoft.com/fwlink/p/?linkid=849432) para 2013 de intercambio y [actualización acumulativa 2 (2 CU)](https://go.microsoft.com/fwlink/p/?linkid=849793) de 2016, Exchange, los usuarios de Outlook de 2016 para Mac pueden ahora acceso a carpetas públicas en más tipos de topologías de que podían antes.
 

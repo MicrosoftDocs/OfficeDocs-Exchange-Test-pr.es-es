@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2013-05-30_
+_**Última modificación del tema:** 2013-05-30_
 
 Puede crear una directiva de buzón de correo de Outlook Web App para aplicarla un conjunto común de directivas de configuración. Las directivas de buzón de correo de Outlook Web App son útiles para aplicar y estandarizar la configuración, por ejemplo, la configuración de datos adjuntos de grupos concretos de usuarios.
 

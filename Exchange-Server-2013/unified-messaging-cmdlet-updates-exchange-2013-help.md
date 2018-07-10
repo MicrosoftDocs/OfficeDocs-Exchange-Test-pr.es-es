@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Muchos de los cmdlets de mensajería unificada (UM) que existían en Exchange Server 2010 han sido traídos a Exchange Server 2013, aunque se realizaron cambios en algunos de ellos. Además, se agregaron nuevos cmdlets para Exchange 2013.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-10-01_
+_**Última modificación del tema:** 2014-10-01_
 
 Una base de datos de recuperación (RDB) es un tipo de base de datos de buzones especial que permite montar una base de datos de buzones restaurada y extraer los datos ella como parte del proceso de recuperación. Las bases de datos de recuperación permiten recuperar datos de una copia de seguridad o copia de una base de datos sin perjudicar el acceso del usuario a los datos actuales.
 

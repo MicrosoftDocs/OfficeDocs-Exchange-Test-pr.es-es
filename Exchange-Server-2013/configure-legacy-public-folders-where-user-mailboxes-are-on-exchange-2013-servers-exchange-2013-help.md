@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2017-03-27_
+_**Última modificación del tema:** 2017-03-27_
 
 Cómo habilitar a los usuarios 2013 de Exchange o Exchange 2016 acceso Exchange 2010 o anteriores carpetas públicas (también conocido como carpetas públicas heredadas).
 
@@ -56,11 +56,13 @@ Los usuarios cuyos buzones se encuentran en 2013 de Exchange Server o Exchange S
 
 
 3.  Cree un buzón proxy en la nueva base de datos de buzones de correo y ocúltelo de la libreta de direcciones. La detección automática devolverá el SMTP de este buzón de correo como *DefaultPublicFolderMailbox* SMTP, de modo que al resolver este SMTP, el cliente podrá llegar al servidor Exchange heredado para el acceso a carpetas públicas.
-    
+    ```
         New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
-    
+    ```
+    ```
         Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
-
+    ```
+    
 4.  Para Exchange 2010, habilite la detección automática para devolver los buzones proxy de carpetas públicas. Este paso no es necesario para Exchange 2007.
     
         Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>

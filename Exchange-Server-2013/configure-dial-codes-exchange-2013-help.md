@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede configurar códigos de marcado, prefijos numéricos y formatos de número que la mensajería unificada usa para marcar llamadas entrantes y salientes de los usuarios con mensajería unificada habilitada. En la mayoría de los casos, se configurará un plan de marcado con los códigos de marcado, los prefijos y los formatos de número actualmente configurados en la red telefónica.
 

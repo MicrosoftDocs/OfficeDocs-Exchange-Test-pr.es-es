@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Evitar que un usuario de mensajería unificada (UM) de recibir faxes. Obtener información sobre cómo cambiar la configuración de fax para usuarios de mensajería UNIFICADA nuevos y existentes.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-05-04_
+_**Última modificación del tema:** 2016-05-04_
 
 Puede configurar varios códigos de marcado de los que usa la mensajería unificada (UM) para hacer llamadas internas y externas para usuarios habilitados para UM. Con frecuencia, querrá configurar un plan de marcado con los códigos de marcado o de acceso, un prefijo numérico nacional o los formatos de número nacionales o internacionales para poder controlar las llamadas externas de los usuarios de la organización. En este tema se tratan los códigos de marcado, los prefijos numéricos y los formatos de número, y cómo se pueden usar para controlar las llamadas externas en una organización.
 

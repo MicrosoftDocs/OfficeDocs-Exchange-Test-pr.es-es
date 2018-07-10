@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-29_
+_**Última modificación del tema:** 2012-11-29_
 
 Use el Shell para conectar un buzón eliminado de manera temporal con una cuenta de usuario de Active Directory. Un buzón de correo se *elimina temporalmente* de la base de datos de buzones de correo de origen cuando se mueve a una base de datos de buzones de correo diferente. Exchange no elimina totalmente el buzón de correo de la base de datos de buzones de correo de origen cuando el movimiento finaliza. En lugar de hacer eso, el buzón de la base de datos de buzones de origen cambia a un estado de eliminación temporal. Esto le permite restaurar el buzón de correo de origen en caso de que se produzcan errores durante el movimiento que provoquen fallas o daños en la base de datos de destino. Si esto sucede, puede restaurar el buzón de correo de origen y volver a realizar el movimiento.
 

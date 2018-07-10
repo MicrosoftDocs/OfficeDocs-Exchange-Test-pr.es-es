@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Además de permitir a los usuarios aacceder al correo de voz, la mensajería unificada (MU) le permite crear uno o más Operadores automáticos de mensajería unificada según las necesidades de su organización. Los operadores automáticos de mensajería unificada se pueden utilizar para crear los sistemas de menú de voz de una organización que permiten a los autores de llamadas, tanto internas como externas, localizar, colocar o transferir llamadas a los usuarios o departamentos de la empresa en una organización.
 

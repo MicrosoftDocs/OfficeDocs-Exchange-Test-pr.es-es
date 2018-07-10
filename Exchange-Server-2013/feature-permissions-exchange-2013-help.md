@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-12_
+_**Última modificación del tema:** 2012-10-12_
 
 Los Permisos de Microsoft Exchange Server 2013 se administran por medio del modelo de permisos de control de acceso basado en funciones (RBAC). Los siguientes temas identifican los grupos de administración de funciones necesarios para administrar las características asociadas con cada área funcional de Exchange 2013.
 

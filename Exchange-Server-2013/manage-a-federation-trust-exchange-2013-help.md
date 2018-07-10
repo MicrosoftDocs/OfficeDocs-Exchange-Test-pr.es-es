@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-01-01_
+_**Última modificación del tema:** 2015-01-01_
 
 Una confianza de federación establece una relación de confianza entre una organización de Microsoft Exchange 2013 y el sistema de autenticación de Azure Active Directory, y admite el uso compartido de recursos federados con otras organizaciones federadas de Exchange. Normalmente, no debería tener que administrar ni modificar la confianza de federación una vez creada. Sin embargo, puede que haya ciertas circunstancias que requieran la adición o eliminación de dominios federados o el restablecimiento del dominio usado para configurar el identificador de organización (OrgID) para la confianza de federación.
 

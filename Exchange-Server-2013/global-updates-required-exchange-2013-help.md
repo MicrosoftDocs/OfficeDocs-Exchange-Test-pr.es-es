@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2014-12-02_
+_**Última modificación del tema:** 2014-12-02_
 
 El programa de instalación de Microsoft Exchange Server 2013 no puede continuar porque el usuario que ha iniciado sesión no tiene los permisos de cuenta requeridos para realizar actualizaciones globales en Active Directory.
 

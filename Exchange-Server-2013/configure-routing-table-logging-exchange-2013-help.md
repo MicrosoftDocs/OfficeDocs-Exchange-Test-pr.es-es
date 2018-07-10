@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-08_
+_**Última modificación del tema:** 2015-04-08_
 
 El inicio de sesión de la tabla de enrutamiento hace un registro periódico de una instantánea de la tabla de enrutamiento que utiliza Microsoft Exchange Server 2013 para enrutar los mensajes a sus destinos.
 

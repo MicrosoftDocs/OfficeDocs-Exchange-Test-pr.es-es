@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2017-10-04_
+_**Última modificación del tema:** 2017-10-04_
 
 Los contactos de correo son objetos de servicio de directorio habilitados para correo que contienen información acerca de personas u organizaciones que existen fuera de su organización de Exchange Online. Cada contacto de correo tiene una dirección de correo electrónico externa. Para obtener más información acerca de los contactos de correo, consulte [Destinatarios](recipients-exchange-2013-help.md).
 

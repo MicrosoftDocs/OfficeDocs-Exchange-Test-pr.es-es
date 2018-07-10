@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-03-18_
+_**Última modificación del tema:** 2016-03-18_
 
 Una directiva de prevención contra la pérdida de datos (DLP) personalizada le permite establecer condiciones, reglas y acciones que ayuden a satisfacer las necesidades específicas de su organización y que no estén cubiertas en una de las plantillas de DLP preexistentes.
 

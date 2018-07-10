@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-09-11_
+_**Última modificación del tema:** 2014-09-11_
 
 Los trabajadores de la información en su organización tratan con diversos tipos de información confidencial durante un día normal. La *creación de huella digital de documento* facilita la protección de esta información al identificar los formularios estándar que se usan en toda la organización. En este tema se describen los conceptos detrás de la creación de huella digital de documento. Si quiere aprender a crear una huella digital de documento, consulte [Proteger los datos de formulario con huellas digitales de documentos](protect-form-data-with-document-fingerprinting-exchange-2013-help.md).
 

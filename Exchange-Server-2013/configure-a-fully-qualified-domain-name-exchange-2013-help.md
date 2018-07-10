@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-09_
+_**Última modificación del tema:** 2012-11-09_
 
 Puede configurar una puerta de enlace IP de mensajería unificada (MU) con una dirección IP o un nombre de dominio completo (FQDN). Al crear una puerta de enlace IP de mensajería unificada, debe definir la dirección IP o el FQDN configurado en la puerta de enlace VoIP, IP PBX o controlador de borde de sesión (SBC) que está utilizando. Puede cambiar la dirección IP o el FQDN después de haber creado la puerta de enlace IP de mensajería unificada.
 

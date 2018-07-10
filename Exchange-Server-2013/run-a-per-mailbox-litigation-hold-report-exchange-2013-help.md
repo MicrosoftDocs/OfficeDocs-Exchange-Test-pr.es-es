@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-13_
+_**Última modificación del tema:** 2012-10-13_
 
 Si su organización está implicada en una acción legal, tal vez deba adoptar medidas para conservar los datos pertinentes, como los mensajes de correo electrónico, que se puedan usar como pruebas. En las situaciones de este tipo, puede usar la retención por juicio para conservar todo el correo electrónico enviado o recibido por determinadas personas o retener todo el correo electrónico enviado y recibido en su organización durante un periodo de tiempo específico. Para obtener más información acerca de lo que sucede cuando un buzón de correo tiene una retención por juicio y cómo habilitarla y deshabilitarla, vea la sección "Características de buzón" en [Administrar los buzones de usuario](manage-user-mailboxes-exchange-2013-help.md).
 

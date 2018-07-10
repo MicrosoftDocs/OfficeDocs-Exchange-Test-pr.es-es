@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2010, Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2010, Exchange Server 2013_
 
-_**Última modificación del tema:**2018-04-02_
+_**Última modificación del tema:** 2018-04-02_
 
-**Resumen:** este artículo contiene la arquitectura y la información de seguridad para los administradores acerca de Outlook para iOS y Android en un intercambio de 2013 entorno local.
+**Resumen:**  este artículo contiene la arquitectura y la información de seguridad para los administradores acerca de Outlook para iOS y Android en un intercambio de 2013 entorno local.
 
 La aplicación de Outlook para iOS y Android está diseñada para reunir a correo electrónico, calendario, contactos y otros archivos, permitiendo a los usuarios de su organización hacer más desde sus dispositivos móviles. Este artículo proporciona una visión general de la arquitectura y el diseño de almacenamiento de información de la aplicación, para que los administradores de Exchange pueden implementar y mantener Outlook para iOS y Android en sus organizaciones de Exchange.
 

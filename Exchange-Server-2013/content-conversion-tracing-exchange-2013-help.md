@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-09-25_
+_**Última modificación del tema:** 2012-09-25_
 
 El seguimiento de conversión de contenido captura errores de conversión de contenido MAPI realizada por el servicio de transporte de buzones de correo en mensajes entrantes y salientes en un servidor de buzones de correo de Microsoft Exchange Server 2013.
 

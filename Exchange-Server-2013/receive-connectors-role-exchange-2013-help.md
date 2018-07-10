@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La función de administración `Receive Connectors` permite que los administradores controlen la configuración de los conectores de recepción de transporte, por ejemplo el límite de tamaño de un determinado servidor.
 

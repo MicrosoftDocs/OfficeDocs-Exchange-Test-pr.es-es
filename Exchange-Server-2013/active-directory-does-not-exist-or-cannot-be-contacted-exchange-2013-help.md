@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 El programa de instalación de Microsoft Exchange Server 2013 no puede continuar porque no puede contactar con un sitio de servicio de directorio de Active Directory válido. El programa de instalación requiere que el servidor en el que va a instalar Exchange pueda encontrar el contexto de asignación de nombres de configuración en Active Directory.
 

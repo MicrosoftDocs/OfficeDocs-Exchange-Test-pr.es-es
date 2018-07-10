@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-05_
+_**Última modificación del tema:** 2012-11-05_
 
 Cuando visualice las propiedades de un grupo de búsqueda de mensajería unificada (UM), puede ver las propiedades asociadas a un único grupo de búsqueda o a todos los grupos de búsqueda de mensajería unificada asociados a una puerta de enlace IP de mensajería unificada. Si no se especifica ningún parámetro, se devolverán todos los grupos de búsqueda de mensajería unificada. No se puede utilizar la EAC para ver las propiedades de un grupo de búsqueda de mensajería unificada; debe utilizar el Shell.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2014-12-16_
+_**Última modificación del tema:** 2014-12-16_
 
 La lista global de direcciones (LGD) es un directorio que contiene entradas para todos los grupos, usuarios y contactos de la implementación de Microsoft Exchange de una organización. Si la organización utiliza directivas de la libreta de direcciones, es posible que desee crear GAL adicionales. Para obtener más información, vea [Directivas de la libreta de direcciones](address-book-policies-exchange-2013-help.md).
 

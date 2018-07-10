@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 Cada entrada de función de administración representa un solo cmdlet o una secuencia de comandos. Los parámetros que se incluyen en una entrada de función determinan los parámetros del cmdlet o de la secuencia de comandos a los que el usuario puede obtener acceso.
 

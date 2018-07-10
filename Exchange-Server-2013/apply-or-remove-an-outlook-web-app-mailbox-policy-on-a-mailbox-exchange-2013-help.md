@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-12_
+_**Última modificación del tema:** 2012-10-12_
 
 Puede aplicar una directiva de buzón de Outlook Web App a uno o más buzones o eliminar una directiva con el EAC o con el Shell.
 
@@ -43,7 +43,7 @@ Puede aplicar una directiva de buzón de Outlook Web App a uno o más buzones o 
 
 2.  En el panel de trabajo, seleccione el buzón al que desea aplicarle una directiva de buzón de Outlook Web App. También puede seleccionar varios buzones.
 
-3.  **Si ha seleccionado un buzón:**
+3.  **Si ha seleccionado un buzón:** 
     
     1.  En el panel de detalles, vaya a **Conectividad de correo** y haga clic en **Ver detalles**.
     
@@ -51,7 +51,7 @@ Puede aplicar una directiva de buzón de Outlook Web App a uno o más buzones o 
     
     3.  Haga clic en **Guardar** para asignar la directiva elegida al buzón de correo seleccionado.
     
-    **Si ha seleccionado más de un buzón:**
+    **Si ha seleccionado más de un buzón:** 
     
     1.  En el panel de detalles, vaya a **Outlook Web App** y haga clic en **Asignar una directiva**.
     

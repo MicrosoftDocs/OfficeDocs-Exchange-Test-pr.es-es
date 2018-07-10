@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-06_
+_**Última modificación del tema:** 2012-11-06_
 
 Estos procedimientos le muestran cómo quitar una copia de una base de datos de buzones. No puede usar estos procedimientos para eliminar la última copia de una base de datos de buzones. Para obtener instrucciones detalladas sobre cómo quitar la última copia de una base de datos de buzones, vea [Remove a mailbox database](manage-mailbox-databases-in-exchange-2013-exchange-2013-help.md) o [Remove-MailboxDatabase](https://technet.microsoft.com/es-es/library/aa997931\(v=exchg.150\)).
 

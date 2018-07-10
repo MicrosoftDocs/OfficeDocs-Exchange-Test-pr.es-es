@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-04-17_
+_**Última modificación del tema:** 2015-04-17_
 
 Exchange Search indiza muchas propiedades de elementos, incluyendo el remitente, los destinatarios, el cuerpo del mensaje y los documentos adjuntos de los mensajes de correo electrónico.
 

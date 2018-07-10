@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-08-26_
+_**Última modificación del tema:** 2016-08-26_
 
 Una vez que un grupo de disponibilidad de base de datos (DAG) se ha creado, configurado y completado con miembros del servidor de buzones de correo, puede usar el Centro de administración de Exchange (EAC) o el Shell de administración de Exchange para agregar copias de la base de datos de buzones de correo de manera flexible y granular.
 

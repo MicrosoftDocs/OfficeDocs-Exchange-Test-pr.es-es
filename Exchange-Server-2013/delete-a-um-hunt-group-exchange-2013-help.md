@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-05_
+_**Última modificación del tema:** 2012-11-05_
 
 Cuando elimina un grupo de extensiones de mensajería unificada (MU), la puerta de enlace IP de MU asociada al grupo de extensiones de MU dejará de prestar servicio o responder a las llamadas entrantes. Si eliminar un grupo de extensiones de MU deja la puerta de enlace IP de MU sin ningún grupo de extensiones configurado, ésta no podrá manejar o procesar llamadas de MU.
 

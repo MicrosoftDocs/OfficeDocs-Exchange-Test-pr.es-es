@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-16_
+_**Última modificación del tema:** 2013-04-16_
 
 Un grupo de extensiones de mensajería unificada es una representación lógica del grupo de extensiones IP PBX o de la central de conmutación (PBX). Los grupos de extensiones de mensajería unificada actúan como conexión o vínculo entre la puerta de enlace IP de mensajería unificada y un plan de marcado de mensajería unificada.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La función de administración `View-Only Recipients` permite a los administradores ver la configuración de los destinatarios, como buzones, usuarios de correo, contactos de correo, grupos de distribución y grupos de distribución dinámicos.
 

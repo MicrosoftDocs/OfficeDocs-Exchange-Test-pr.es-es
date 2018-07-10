@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-09-28_
+_**Última modificación del tema:** 2012-09-28_
 
 En Microsoft Exchange Server 2013, el cifrado Seguridad de la capa de transporte (TLS) es obligatorio para todas las comunicaciones SMTP del servicio de transporte entre servidores de buzones. Esto aumenta la seguridad general de la comunicación del servicio de transporte entre los servidores de buzones. No obstante, en ciertas topologías en las que se usan controladores de optimización de WAN (WOC), el cifrado TLS del tráfico SMTP puede ser indeseable. Puede deshabilitar TLS para la comunicación del servicio de transporte entre los servidores de buzones para estos escenarios concretos.
 

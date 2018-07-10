@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-02-01_
+_**Última modificación del tema:** 2016-02-01_
 
 Los usuarios envían y reciben correos electrónicos todos los días. Si no se administra, el volumen de correo electrónico generado y recibido cada día puede inundar a los usuarios, tener un impacto en la productividad del usuario y exponer la organización a riesgos. Como resultado, la administración del ciclo de vida del correo electrónico es un componente fundamental para muchas organizaciones.
 
@@ -47,9 +47,9 @@ Puede usar directivas de retención para aplicar la retención de mensajes bási
 
 **Mover mensajes a buzones de archivo**   En esta estrategia, se implementan directivas de MRM que mueven elementos al buzón de archivo del usuario. Un buzón de archivo proporciona almacenamiento adicional para que los usuarios conserven contenidos antiguos y a los cuales se obtiene acceso poco frecuentemente. Las etiquetas de retención que mueven elementos también se conocen como *directivas de archivo*. En la misma directiva de retención, puede combinar una DPT y etiquetas personales para mover elementos, y una DPT, RPT y etiquetas personales para eliminar elementos. Para obtener más información acerca de las directivas de archivo, vea:
 
-  - **Exchange Server 2013:** [Archivado local en Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md)
+  - **Exchange Server 2013:**  [Archivado local en Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md)
 
-  - **Exchange Online:** [Buzones de archivo en Exchange Online](https://technet.microsoft.com/es-es/library/dn922147\(v=exchg.150\))
+  - **Exchange Online:**  [Buzones de archivo en Exchange Online](https://technet.microsoft.com/es-es/library/dn922147\(v=exchg.150\))
 
 
 > [!NOTE]

@@ -13,15 +13,15 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Office 365 Enterprise_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Office 365 Enterprise_
 
-_**Última modificación del tema:**2017-06-19_
+_**Última modificación del tema:** 2017-06-19_
 
 Mantenga en el lugar, retención para litigios y [las políticas de retención de Office 365](http://go.microsoft.com/fwlink/?linkid=827811) (creado en el Centro de seguridad y cumplimiento de Office 365 ) permiten conservar el contenido del buzón para satisfacer los requerimientos de eDiscovery y cumplimiento reglamentario. Información acerca de los destinatarios directamente tratada en para y Cc campos de un mensaje se incluye en todos los mensajes de forma predeterminada, pero su organización requiera la capacidad para buscar y reproducir detalles acerca de todos los destinatarios de un mensaje. Esto incluye:
 
-  - **Destinatarios a los que se dirigió mediante el campo CCO de un mensaje:** los destinatarios CCO se almacenan en el mensaje en el buzón de correo del remitente, pero no se incluyen en los encabezados del mensaje que se entrega a los destinatarios.
+  - **Destinatarios a los que se dirigió mediante el campo CCO de un mensaje:**  los destinatarios CCO se almacenan en el mensaje en el buzón de correo del remitente, pero no se incluyen en los encabezados del mensaje que se entrega a los destinatarios.
 
-  - **Destinatarios del grupo de distribución expandido:** destinatarios que reciben el mensaje porque son miembros de un grupo de distribución al que estaba dirigido el mensaje, ya sea en los campos Para, CC o CCO.
+  - **Destinatarios del grupo de distribución expandido:**  destinatarios que reciben el mensaje porque son miembros de un grupo de distribución al que estaba dirigido el mensaje, ya sea en los campos Para, CC o CCO.
 
 Exchange Online y Exchange Server 2013 (actualización acumulativa 7 y versiones posteriores) conservan la información acerca de CCO y los destinatarios del grupo de distribución expandidas. Puede buscar esta información mediante una búsqueda de eDiscovery In situ en el Centro de administración de Exchange (CEF) o una búsqueda de contenido en el Centro de seguridad y cumplimiento.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-14_
+_**Última modificación del tema:** 2012-10-14_
 
 En este tema se explica cómo mover una lista de direcciones existente a un contenedor nuevo bajo la lista de direcciones raíz.
 

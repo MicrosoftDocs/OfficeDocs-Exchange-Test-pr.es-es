@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013 SP1_
+_**Se aplica a:** Exchange Server 2013 SP1_
 
-_**Última modificación del tema:**2015-12-02_
+_**Última modificación del tema:** 2015-12-02_
 
 Los cambios y las conmutaciones por error son las dos formas de interrupciones en Microsoft Exchange Server 2013.
 

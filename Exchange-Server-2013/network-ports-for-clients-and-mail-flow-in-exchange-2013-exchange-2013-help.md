@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 En este tema se proporciona información sobre los puertos de red que usa MicrosoftExchange Server 2013 para la comunicación con clientes de correo electrónico, servidores de correo de Internet y otros servicios externos a la organización de Exchange local. Antes de entrar en el tema, debe comprender las siguientes reglas básicas:
 
@@ -41,7 +41,7 @@ Puertos de red necesarios para la mensajería unificada
 
 En el diagrama y la tabla siguientes se describen los puertos de red necesarios para que los clientes de correo electrónico tengan acceso a buzones y otros servicios en la organización de Exchange.
 
-**Notas:**
+**Notas:** 
 
   - El destino de estos clientes y servicios es un servidor de acceso de cliente. Podría tratarse de un servidor de acceso de cliente independiente o un servidor de acceso de cliente y un servidor de buzones de correo instalados en el mismo equipo.
 

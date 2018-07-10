@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-11-05_
+_**Última modificación del tema:** 2012-11-05_
 
 La configuración de **Límite de saludos personales (minutos)** permite escribir el número máximo de minutos que pueden usar los usuarios asociados a la directiva de buzones de mensajería unificada (UM) para grabar su saludo de correo por voz. Esta configuración se aplica a sus saludos de correos de voz estándar y de correos de voz de Fuera de la oficina. De forma predeterminada, la duración máxima de saludo está establecida en 5 minutos. Sin embargo, puede establecer la duración máxima del saludo en cualquier valor entre 1 y 10 minutos.
 

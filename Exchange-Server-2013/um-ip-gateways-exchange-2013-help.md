@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2014-06-24_
+_**Última modificación del tema:** 2014-06-24_
 
 La puerta de enlace IP de mensajería unificada representa un dispositivo de hardware con puerta de enlace física de voz sobre IP (VoIP), central de conmutación IP (PBX), o controlador de borde de sesión (SBC). Antes de usar una puerta de enlace VoIP, IP PBX, o SBC para responder a llamadas entrantes y enviar llamadas salientes a usuarios de correo de voz, debe crearse una puerta de enlace IP de MU en el servicio de directorio.
 

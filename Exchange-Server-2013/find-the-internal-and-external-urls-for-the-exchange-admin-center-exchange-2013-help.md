@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2013-02-04_
+_**Última modificación del tema:** 2013-02-04_
 
 Debido a que el Centro de administración de Exchange (EAC) es una consola de administración basada en web en Exchange Server 2013, puede acceder a él con la dirección URL del directorio virtual de ECP en un explorador web. Este tema muestra cómo encontrar la dirección URL del directorio virtual de ECP.
 

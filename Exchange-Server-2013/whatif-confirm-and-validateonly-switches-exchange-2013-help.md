@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-04_
+_**Última modificación del tema:** 2012-10-04_
 
 Tanto los administradores y los autores de scripts experimentados, como los administradores nuevos en Exchange y scripting, se pueden beneficiar con los modificadores *WhatIf*, *Confirm* y *ValidateOnly*. Estos modificadores permiten controlar la forma en la que se ejecutan los comandos e indican qué hará exactamente un comando antes de afectar a los datos. Esta funcionalidad es muy importante en las transiciones del entorno de prueba al entorno de producción y cuando aplica nuevos comandos o scripts.
 

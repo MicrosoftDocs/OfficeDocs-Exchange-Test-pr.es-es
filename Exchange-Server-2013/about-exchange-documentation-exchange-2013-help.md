@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Está leyendo un recopilatorio de temas con información conceptual y de procedimientos organizados por tema o por tecnologías de Microsoft Exchange. Puede tener acceso a cada tema directamente desde la tabla de contenido del panel de la izquierda, desde un vínculo presente en otro tema de ayuda, desde el resultado de una búsqueda o desde su propia lista personalizada de temas favoritos.
 

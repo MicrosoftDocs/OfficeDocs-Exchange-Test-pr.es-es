@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 El equilibrio de carga es una forma de administrar cuál de sus servidores recibe tráfico. El equilibrio de carga ayuda a distribuir las conexiones de clientes entrantes en una variedad de extremos, por ejemplo, servidores de acceso de cliente, para garantizar que ningún extremo se haga cargo de una parte desproporcionada de la carga. El equilibrio de carga también puede proporcionar redundancia de conmutación por error en caso de que se produzcan errores en uno o más extremos. Usando el equilibrio de carga con Exchange Server 2013, garantiza que los usuarios continúen recibiendo el servicio de Exchange en caso de un error del equipo. El equilibrio de carga también permite que la implementación pueda administrar más tráfico del que puede procesar un servidor al ofrecer un nombre de host único para sus clientes.
 

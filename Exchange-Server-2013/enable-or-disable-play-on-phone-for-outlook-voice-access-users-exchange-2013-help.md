@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2012-12-12_
+_**Última modificación del tema:** 2012-12-12_
 
 Puede habilitar o deshabilitar la característica Reproducir en el teléfono para usuarios que estén asociados con una directiva de buzones de correo de mensajería unificada. Esta opción está habilitada de manera predeterminada y permite a los usuarios reproducir sus mensajes de correo de voz en cualquier teléfono. Esta opción no está disponible para los usuarios habilitados para mensajería unificada que dispongan de un buzón en un servidor de Microsoft Microsoft Exchange Server 2007.
 

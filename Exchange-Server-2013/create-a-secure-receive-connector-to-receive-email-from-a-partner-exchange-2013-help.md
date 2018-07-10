@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 Este procedimiento le muestra cómo configurar un conector de recepción para recibir correo electrónico seguro de un asociado. Use este procedimiento cuando se le requiera que cifre las comunicaciones entre usted y un asociado de confianza. El conector está configurado para aceptar conexiones sólo de servidores que se autentiquen con Seguridad de la capa de transporte (TLS).
 

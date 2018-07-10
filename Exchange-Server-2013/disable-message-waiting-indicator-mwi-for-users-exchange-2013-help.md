@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-21_
+_**Última modificación del tema:** 2013-02-21_
 
 Puede habilitar o deshabilitar el indicador de mensaje en espera para usuarios que estén asociados con una directiva de buzón de mensajería unificada. Indicador de mensaje en espera es una función incluida en la mayoría de los sistemas de correo de voz heredados. En su formato más básico, enciende una luz en el teléfono de un suscriptor del correo de voz para indicar la presencia de un nuevo mensaje de correo de voz. El indicador de mensaje en espera también puede ser un mensaje de texto al teléfono móvil del usuario habilitado para mensajería unificada. De forma predeterminada, esta función está habilitada.
 

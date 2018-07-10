@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2018-05-22_
+_**Última modificación del tema:** 2018-05-22_
 
-**Resumen:** Siga los pasos de este artículo para sincronizar las carpetas públicas entre Office 365 y su implementación local de Exchange 2007 o Exchange 2010.
+**Resumen:**  Siga los pasos de este artículo para sincronizar las carpetas públicas entre Office 365 y su implementación local de Exchange 2007 o Exchange 2010.
 
 En una implementación híbrida, los usuarios pueden estar hospedados en Exchange Online, de forma local o ambos, mientras que las carpetas públicas lo pueden estar en Exchange Online o localmente. Las carpetas públicas solo pueden estar en una ubicación, de modo que deberá decidir si colocarlas en Exchange Online o localmente. No pueden estar en ambas ubicaciones. Los buzones de correo de carpeta pública se sincronizan en Exchange Online mediante el servicio de sincronización de directorios. Sin embargo, las carpetas públicas habilitadas para correo no se sincronizan entre locales.
 
@@ -104,7 +104,7 @@ Una configuración híbrida con carpetas públicas de Exchange 2003 no es posib
 
 7.  En Exchange 2007, debe tener asignado el rol de Administrador de organización de Exchange o Administrador de servidores de Exchange. Además, debe tener asignado el rol de Administrador de carpetas públicas y el grupo de administradores locales para el servidor de destino. Para obtener más información, vea [Cómo agregar un usuario o grupo a una función de administrador](https://go.microsoft.com/fwlink/p/?linkid=81779).
 
-8.  Si Exchange Server 2007 se ejecuta en Windows Server 2008 x64, deberá actualizar a [Windows PowerShell 2.0 y WinRM 2.0 para Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930). Si Exchange Server 2007 se ejecuta en Windows Server 2003 x64, deberá actualizar a Windows PowerShell 2.0. Para obtener información detallada, vea la [Actualización para Windows Server 2003 x64 Edition](https://www.microsoft.com/es-es/download/details.aspx?id=10512).
+8.  Si Exchange Server 2007 se ejecuta en Windows Server 2008 x64, deberá actualizar a [Windows PowerShell 2.0 y WinRM 2.0 para Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930). Si Exchange Server 2007 se ejecuta en Windows Server 2003 x64, deberá actualizar a Windows PowerShell 2.0. Para obtener información detallada, vea la [Actualización para Windows Server 2003 x64 Edition](https://www.microsoft.com/es-es/download/details.aspx?id=10512).
 
 9.  Los usuarios deben actualizar sus clientes de Outlook a la actualización pública de Outlook de noviembre de 2012 (o posterior) para poder acceder a las carpetas públicas entre locales.
     
@@ -143,11 +143,12 @@ Una configuración híbrida con carpetas públicas de Exchange 2003 no es posib
 
 
 3.  Cree un buzón proxy en la nueva base de datos de buzones de correo y ocúltelo de la libreta de direcciones. La detección automática devolverá el SMTP de este buzón de correo como *DefaultPublicFolderMailbox* SMTP, de modo que al resolver este SMTP, el cliente podrá llegar al servidor Exchange heredado para el acceso a carpetas públicas.
-    
+    ```
         New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs>
-    
+    ```
+    ```
         Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
-
+    ```
 4.  Para Exchange 2010, habilite la detección automática para devolver los buzones proxy de carpetas públicas. Este paso no es necesario para Exchange 2007.
     
         Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>

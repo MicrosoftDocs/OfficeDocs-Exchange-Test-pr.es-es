@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server_
+_**Se aplica a:** Exchange Server_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 El contenido de este tema no se ha actualizado para Microsoft Exchange Server 2013. Aun así, se puede aplicar a Exchange 2013. Si necesita más ayuda, consulte los siguientes recursos de la comunidad.
 
@@ -103,7 +103,7 @@ Para resolver este problema, asegúrese de que la configuración "Permitir que l
 <li><p>Seleccione la ficha <strong>Seguridad</strong> y, a continuación, haga clic en <strong>Avanzada</strong>.</p></li>
 <li><p>Active <strong>Permitir que los permisos heredables del primario se propaguen a este objeto y a todos los objetos secundarios</strong> para volver a habilitar la herencia de permisos.</p></li>
 <li><p>Haga clic en <strong>Aceptar</strong> dos veces para aplicar el cambio.</p></li>
-<li><p>Espere a que la replicación de Active Directory propague los cambios o fuércela siguiendo las instrucciones descritas en el artículo 232072 de Microsoft Knowledge Base, &quot;Iniciar la replicación entre Active Directory Direct Replication Partners&quot; (<a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=232072" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=232072</a>).</p></li>
+<li><p>Espere a que la replicación de Active Directory propague los cambios o fuércela siguiendo las instrucciones descritas en el artículo 232072 de Microsoft Knowledge Base, &quot;Iniciar la replicación entre Active Directory Direct Replication Partners&quot; (<a href="http://go.microsoft.com/fwlink/?linkid=3052&kbid=232072" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=232072</a>).</p></li>
 </ol></td>
 </tr>
 </tbody>

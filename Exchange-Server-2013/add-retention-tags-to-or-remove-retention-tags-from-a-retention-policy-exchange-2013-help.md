@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-02_
+_**Última modificación del tema:** 2015-03-02_
 
 Puede agregar etiquetas de retención a una directiva de retención al crear la directiva o en cualquier momento posterior a la creación. Para obtener información acerca de cómo crear una directiva de retención, incluido cómo agregar etiquetas de retención simultáneamente, vea [Crear directivas de retención](create-a-retention-policy-exchange-2013-help.md).
 

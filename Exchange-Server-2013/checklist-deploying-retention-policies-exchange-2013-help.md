@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Esta lista de comprobación se puede usar para implementar directivas de retención en su organización de Microsoft Exchange Server 2013. Antes de comenzar a trabajar con esta lista de comprobación, asegúrese de estar familiarizado con los conceptos en los temas siguientes:
 

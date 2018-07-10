@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-08-06_
+_**Última modificación del tema:** 2014-08-06_
 
 En algunos casos, quizá deba configurar un dominio aceptado para una unidad de negocios en la cual algunos o todos los destinatarios del dominio no tienen buzones en la organización de Exchange. Esto puede suceder, por ejemplo, cuando una organización comparte el mismo espacio de direcciones SMTP entre dos o más sistemas de correo electrónico diferentes. Para esos escenarios, puede configurar un dominio aceptado como un dominio de retransmisión interna.
 

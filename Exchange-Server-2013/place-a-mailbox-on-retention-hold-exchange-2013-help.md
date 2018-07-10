@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-14_
+_**Última modificación del tema:** 2012-10-14_
 
 Al colocar un buzón de correo en la suspensión de la retención se suspende, en ese buzón de correo, el procesamiento de una directiva de retención o de buzón de correo de carpeta administrada. La suspensión de la retención está diseñada, por ejemplo, para cuando el usuario está de vacaciones o ausente de manera temporal.
 

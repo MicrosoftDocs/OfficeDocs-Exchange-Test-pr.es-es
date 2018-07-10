@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Puede incluir un texto adicional en el mensaje de correo electrónico que se envía cuando un usuario habilitado para el correo de voz de mensajería unificada recibe un mensaje de fax y está habilitado para fax, así como también cuando la directiva de buzones de la mensajería unificada se ha configurado correctamente para usar un proveedor socio de fax. De forma predeterminada, el texto que se incluye cuando un usuario habilitado para MU recibe un mensaje de fax indica solamente que el usuario ha recibido el mensaje de fax. No obstante, puede crear un mensaje personalizado agregando texto en el cuadro **Cuando un usuario recibe un mensaje de fax** en una directiva de correo de mensajería unificada. Por ejemplo, el texto puede incluir información acerca de las directivas de seguridad del sistema y describir la forma correcta en que se deben tratar los mensajes de fax en su organización. Después de agregar el texto, este se incluirá en cada mensaje de correo electrónico enviado cuando los usuarios habilitados para MU asociados a la directiva de buzón de MU reciban un mensaje de fax.
 

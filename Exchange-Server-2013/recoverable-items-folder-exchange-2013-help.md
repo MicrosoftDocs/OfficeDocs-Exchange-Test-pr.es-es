@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Para brindar protección contra la eliminación accidental o malintencionada y facilitar los esfuerzos de detección comúnmente realizados antes o durante litigios o investigaciones, Microsoft Exchange Server 2013 y Exchange Online usan la carpeta Elementos recuperables. Esta carpeta sustituye la característica conocida como *contenedor* en las versiones anteriores de Exchange. Las siguientes características de Exchange usan la carpeta Elementos recuperables:
 

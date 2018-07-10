@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede ver o establecer las características de mensajería unificada (MU) y de correo de voz, así como los valores de configuración de un usuario que tiene habilitada la MU y el correo de voz. Por ejemplo, puede hacer lo siguiente:
 

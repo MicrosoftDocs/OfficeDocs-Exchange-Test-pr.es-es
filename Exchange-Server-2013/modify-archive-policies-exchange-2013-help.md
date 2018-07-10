@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-02-01_
+_**Última modificación del tema:** 2016-02-01_
 
 En Exchange Server 2013 y Exchange Online, puede usar directivas de archivo para mover automáticamente los elementos de los buzones a archivos personales (locales) o basados en la nube. Las directivas de archivo son etiquetas de retención que usan la acción de retención **Mover a archivo**.
 
@@ -25,9 +25,9 @@ Puede modificar las etiquetas de retención incluidas en la directiva predetermi
 
 Para ver otras tareas de administración relacionadas con los archivos, consulte:
 
-  - **Exchange Server 2013:** [Administrar archivos locales en Exchange 2013](manage-in-place-archives-in-exchange-2013-exchange-2013-help.md)
+  - **Exchange Server 2013:**  [Administrar archivos locales en Exchange 2013](manage-in-place-archives-in-exchange-2013-exchange-2013-help.md)
 
-  - **Exchange Online:** [Habilitar o deshabilitar un buzón de archivo en Exchange Online](https://technet.microsoft.com/es-es/library/jj984357\(v=exchg.150\))
+  - **Exchange Online:**  [Habilitar o deshabilitar un buzón de archivo en Exchange Online](https://technet.microsoft.com/es-es/library/jj984357\(v=exchg.150\))
 
 
 > [!NOTE]

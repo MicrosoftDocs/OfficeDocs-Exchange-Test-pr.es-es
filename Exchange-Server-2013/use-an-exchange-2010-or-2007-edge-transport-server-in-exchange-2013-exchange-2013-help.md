@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 El servidor de transporte perimetral está disponible en Microsoft Exchange Server 2013 Service Pack 1 (SP1). No obstante, puede seguir utilizando los servidores de transporte perimetral existentes de Exchange Server 2007 o Exchange Server 2010 que haya implementado en su red perimetral. De manera alternativa, puede instalar un servidor de transporte perimetral nuevo de Exchange 2007 o Exchange 2010 en la red perimetral para una organización nueva o actualizada de Exchange 2013.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 La mensajería unificada (UM) de Exchange Microsoft incluye una característica denominada Vista previa de correo de voz, que usa el reconocimiento de voz automático (ASR) para agregar una versión en texto del archivo de audio del correo de voz a los mensajes de correo de voz. ASR no es totalmente preciso, sobre todo cuando se usa para grabar audio que incluye voces o ruidos desconocidos con un teléfono. Algunas organizaciones requieren transcripciones sin errores (o casi sin errores) de los mensajes de voz. El programa de asociado de Vista previa de correo de voz puede ayudar a estas organizaciones a cumplir con esos requisitos.
 

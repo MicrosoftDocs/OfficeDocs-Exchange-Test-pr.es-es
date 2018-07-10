@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-01-21_
+_**Última modificación del tema:** 2015-01-21_
 
 Puede usar un ámbito de administración personalizado para permitir que determinadas personas o grupos usen la exhibición de documentos electrónicos local para buscar un subconjunto de los buzones de la organización de Exchange 2013 o Exchange Online. Por ejemplo, quizás quiera permitir que un administrador de detección realice búsquedas solo en los buzones de los usuarios de un departamento o una ubicación en particular. Para ello, puede crear un ámbito de administración personalizado. Este ámbito de administración personalizado usa un filtro de destinatarios para controlar los buzones de correo en los que se pueden realizar búsquedas. Los ámbitos de filtro de destinatario usan filtros para dirigirse a destinatarios específicos en función del tipo de destinatario o de otras propiedades del destinatario.
 
@@ -138,31 +138,40 @@ Aquí le presentamos algunas formas de comprobar si ha implementado correctament
       - Oculte el grupo de distribución de la libreta de direcciones compartida de la organización. Use el EAC o el cmdlet **Set-DistributionGroup** una vez que se creó el grupo. Si está usando el Shell, use la sintaxis `HiddenFromAddressListsEnabled $true`.
     
     En el siguiente ejemplo, el primer comando crea un grupo de distribución con pertenencia cerrada y moderación habilitada. El segundo comando oculta el grupo de la libreta de direcciones compartida.
-    
+    ```
         New-DistributionGroup -Name "Vancouver Users eDiscovery Scope" -Alias VancouverUserseDiscovery -MemberJoinRestriction closed -MemberDepartRestriction closed -ModerationEnabled $true
-    
+    ```
+    ```
         Set-DistributionGroup "Vancouver Users eDiscovery Scope" -HiddenFromAddressListsEnabled $true
+    ```
     
     Para obtener más información sobre la creación y la administración de los grupos de distribución, vea [Crear y administrar grupos de distribución](create-and-manage-distribution-groups-exchange-2013-help.md).
 
   - Si bien solo puede usar la pertenencia a grupos de distribución como filtro de destinatarios para un ámbito de administración personalizado que se usa para la exhibición de documentos electrónicos, puede usar otras propiedades de los destinatarios para agregar usuarios al grupo de distribución. Aquí hay algunos ejemplos de cómo usar los cmdlets **Get-Mailbox** y **Get-Recipient** para obtener un grupo específico de usuarios en función de atributos comunes de usuarios o buzones de correo.
-    
+    ```
         Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
-    
+    ```
+    ```
         Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "VancouverSubsidiary"'
-    
+    ```
+    ```
         Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
-    
+    ```
+    ```
         Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
-    
+    ```
+    ```
         Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -OrganizationalUnit "namsr01a002.sdf.exchangelabs.com/Microsoft Exchange Hosted Organizations/contoso.onmicrosoft.com"
+    ```
 
   - Luego, puede usar los ejemplos anteriores para crear una variable que se puede usar con el cmdlet **Add-DistributionGroupMember** para agregar un grupo de usuarios a un grupo de distribución. En el siguiente ejemplo, el primer comando crea una variable que contiene todos los buzones del usuario que tienen el valor **Vancouver** para la propiedad *Department* en su cuenta de usuario. El segundo comando agrega estos usuarios al grupo de distribución de usuarios de Vancouver.
-    
+    ```
         $members = Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "Vancouver"'
-    
+    ```
+    ```
         $members | ForEach {Add-DistributionGroupMember "Ottawa Users" -Member $_.Name}
-
+    ```
+    
   - Puede usar el cmdlet **Add-RoleGroupMember** para agregar un miembro a un grupo de roles existente que se usa para limitar las búsquedas en la exhibición de documentos electrónicos. Por ejemplo, el siguiente comando agrega el usuario admin@ottawa.contoso.com al grupo de roles de administración de detección de Ottawa.
     
         Add-RoleGroupMember "Vancouver Discovery Management" -Member paralegal@vancouver.contoso.com

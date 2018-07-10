@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-12-16_
+_**Última modificación del tema:** 2014-12-16_
 
 En Microsoft Exchange Server 2013, puede configurar los intervalos de reintento, reenvío y expiración de los mensajes en el servicio de transporte de los servidores de buzones de correo y los servidores de transporte perimetral. Para obtener descripciones de estos ajustes, consulte [Intervalos de reintento, reenvío y expiración de mensajes](message-retry-resubmit-and-expiration-intervals-exchange-2013-help.md).
 

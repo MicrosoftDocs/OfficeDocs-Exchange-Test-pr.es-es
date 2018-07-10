@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 La Mensajería unificada de Microsoft Exchange se basa en las soluciones certificadas de asociados de fax para obtener funcionalidades de fax mejoradas, como fax saliente o enrutamiento de fax. La configuración predeterminada de los servidores Exchange no permite que los faxes entrantes se entreguen a un usuario que está habilitado para la mensajería unificada. En su lugar, el servidor Exchange redirige las llamadas de fax entrantes a una solución certificada de asociados de fax. El servidor de asociados de fax recibe los datos del fax y, a continuación, los envía al buzón de correo del usuario en un mensaje de correo electrónico con el fax incluido como archivo .tif adjunto.
 

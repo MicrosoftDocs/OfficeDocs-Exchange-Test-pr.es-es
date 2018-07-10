@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-06-24_
+_**Última modificación del tema:** 2014-06-24_
 
 Cuando se habilita el registro circular para una base de datos de buzones, el tipo de registro circular que obtendrá depende de si la base de datos de buzón se replica mediante replicación continua:
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2016-03-30_
+_**Última modificación del tema:** 2016-03-30_
 
 Después de crear una directiva de libreta de direcciones (ABP), puede ver o modificar el nombre y la lista global de direcciones (LGD), la libreta de direcciones sin conexión (OAB), la lista de salas y las listas de direcciones asignadas.
 

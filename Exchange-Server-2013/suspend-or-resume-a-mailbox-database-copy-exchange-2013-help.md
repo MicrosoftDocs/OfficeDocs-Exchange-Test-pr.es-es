@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-02_
+_**Última modificación del tema:** 2012-11-02_
 
 Es posible que deba suspender o reanudar una copia de base de datos por diversos motivos, como el mantenimiento en el disco que contiene una copia de base de datos o la suspensión de la activación de una copia de base de datos individual con fines de recuperación de desastres.
 

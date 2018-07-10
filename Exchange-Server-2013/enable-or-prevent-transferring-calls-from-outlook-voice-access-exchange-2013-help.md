@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede permitir o impedir que los usuarios de Outlook Voice Access transfieran llamadas a un usuario asociado a un plan de marcado de mensajería unificada. Tanto esta opción como la opción **Dejar mensajes de voz sin que el teléfono de un usuario suene** están habilitadas de forma predeterminada, de modo que los usuarios de Outlook Voice Access pueden transferir llamadas a los usuarios en el mismo plan de marcado de mensajería unificada y dejarles mensajes de voz. Esta configuración solamente es válida con los usuarios de Outlook Voice Access que han especificado su PIN y están autenticados.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Los permisos necesarios para llevar a cabo tareas de configuración de funciones de administración pueden variar en función del procedimiento que se esté realizado o del cmdlet que se quiera ejecutar. Para obtener más información acerca de las funciones de administración, consulte [Descripción de los roles de administración](understanding-management-roles-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Cuando actualiza de una organización de Microsoft Exchange 2007 con mensajería unificada a mensajería unificada de Exchange 2013, existen pasos obligatorios y otros pasos que ya se completaron como parte de la implementación de mensajería unificada de Exchange 2007. Dependiendo del entorno de telefonía y de los componentes de mensajería unificada creados y configurados para admitir la mensajería unificada en Exchange 2007, puede que sea necesario implementar equipo adicional de telefonía, incluidas puertas de enlace de voz sobre IP (VoIP) o centrales de conmutación (PBX) IP, o PBX tradicionales o habilitadas para SIP, y, a continuación, crear y configurar los componentes de mensajería unificada adicionales necesarios para mensajería unificada de Exchange 2013.
 
@@ -338,9 +338,7 @@ En implementaciones más pequeñas, es posible que solo desee implementar la men
 
 Si es necesario, puede crear un operador automático de mensajería unificada con el EAC de la siguiente manera:
 
-1.  
-    
-    En el EAC, vaya a **Mensajería unificada** \> **Planes de marcado de mensajería unificada**. Seleccione el plan de marcado de mensajería unificada en el que desea configurar el operador automático y, a continuación, haga clic en **Editar**![Icono Editar](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icono Editar").
+1.  En el EAC, vaya a **Mensajería unificada** \> **Planes de marcado de mensajería unificada**. Seleccione el plan de marcado de mensajería unificada en el que desea configurar el operador automático y, a continuación, haga clic en **Editar**![Icono Editar](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icono Editar").
 
 2.  En la página **Plan de marcado de mensajería unificada**, en **Operadores automáticos de mensajería unificada**, haga clic en **Agregar**![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono").
 
@@ -520,14 +518,11 @@ Cuando actualiza a la mensajería unificada de Exchange 2013, debe tener previam
 
 El último paso en el proceso de actualizar a mensajería unificada de Exchange 2013 es configurar las puertas de enlace VoIP, IP-PBX o PBX habilitadas para SIP para enviar llamadas entrantes a los servidores de acceso de cliente de Exchange 2013. (Se incluyen autores de llamadas que desean dejar un correo de voz para un usuario, llamadas de usuarios habilitados para mensajería unificada que llaman a Outlook Voice Access y llamadas de personas que llaman a un operador automático de mensajería unificada). Todas estas llamadas son recibidas primero por una puerta de enlace VoIP, IP-PBX o PBX habilitadas para SIP y luego son reenviadas a los servidores de acceso de cliente de Exchange 2013 de la organización de Exchange 2013. Para obtener más información, vea los recursos siguientes:
 
-  -  
-    [Servicios de mensajería unificada](um-services-exchange-2013-help.md)
+  -  [Servicios de mensajería unificada](um-services-exchange-2013-help.md)
 
-  -  
-    [Notas para la configuración de puertas de enlace de VoIP, IP PBX y PBX compatibles](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+  -  [Notas para la configuración de puertas de enlace de VoIP, IP PBX y PBX compatibles](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
 
-  -  
-    [Asesor de telefonía para Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
+  -  [Asesor de telefonía para Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
 
 ## Paso 14: Deshabilitar el contestador automático en un servidor de mensajería unificada de Exchange 2007
 

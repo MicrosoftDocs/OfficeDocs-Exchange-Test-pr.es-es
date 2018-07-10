@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-02-22_
+_**Última modificación del tema:** 2013-02-22_
 
 Puede configurar la mensajería unificada para que responda a una llamada entrante y, a continuación, determinar si aplicará protección a los mensajes de correo de voz usando el cifrado. Cuando un mensaje de voz está protegido:
 

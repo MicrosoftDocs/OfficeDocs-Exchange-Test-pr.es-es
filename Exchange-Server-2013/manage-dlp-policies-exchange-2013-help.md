@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-01-14_
+_**Última modificación del tema:** 2015-01-14_
 
 Se pueden ver, cambiar o quitar las directivas de prevención contra la pérdida de datos (DLP) existentes en Microsoft Exchange, mediante el uso del Centro de Administración de Exchange (EAC) o el Shell de Administración de Exchange.
 
@@ -31,14 +31,11 @@ Para obtener más información acerca del comando de Shell de administración de
 
   - Para cualquier directiva de DLP, se puede seleccionar uno de tres modos:
     
-      -  
-        **Exigir**   Se evalúan las reglas dentro de la directiva para todos los mensajes y tipos de archivos compatibles. Se puede alterar el flujo de correo si se detecta que los datos cumplen con las condiciones de la directiva. Se toman todas las acciones descritas en la directiva.
+      -    **Exigir**   Se evalúan las reglas dentro de la directiva para todos los mensajes y tipos de archivos compatibles. Se puede alterar el flujo de correo si se detecta que los datos cumplen con las condiciones de la directiva. Se toman todas las acciones descritas en la directiva.
     
-      -  
-        **Probar la directiva de DLP con sugerencias de directiva**   Se evalúan las reglas dentro de la directiva para todos los mensajes y tipos de archivos compatibles. No se podrá alterar el flujo de correo si se detecta que los datos cumplen con las condiciones de la directiva. Es decir, los mensajes no están bloqueados. Si se configuran los consejos de política, se muestran a los usuarios.
+      -    **Probar la directiva de DLP con sugerencias de directiva**   Se evalúan las reglas dentro de la directiva para todos los mensajes y tipos de archivos compatibles. No se podrá alterar el flujo de correo si se detecta que los datos cumplen con las condiciones de la directiva. Es decir, los mensajes no están bloqueados. Si se configuran los consejos de política, se muestran a los usuarios.
     
-      -  
-        **Probar la directiva de DLP sin sugerencias de directiva**   Se evalúan las reglas dentro de la directiva para todos los mensajes y tipos de archivos compatibles. No se podrá alterar el flujo de correo si se detecta que los datos cumplen con las condiciones de la directiva. Es decir, los mensajes no están bloqueados. Si se configuran los consejos de política, no se muestran a los usuarios.
+      -    **Probar la directiva de DLP sin sugerencias de directiva**   Se evalúan las reglas dentro de la directiva para todos los mensajes y tipos de archivos compatibles. No se podrá alterar el flujo de correo si se detecta que los datos cumplen con las condiciones de la directiva. Es decir, los mensajes no están bloqueados. Si se configuran los consejos de política, no se muestran a los usuarios.
 
   - Una regla individual dentro de una directiva de DPL puede tener su propia configuración del modo. Cuando el modo de una directiva es diferente del modo de una regla dentro de dicha directiva, la configuración de la regla tiene prioridad y se evaluará de acuerdo con su modo.
 

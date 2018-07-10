@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2016-12-09_
+_**Última modificación del tema:** 2016-12-09_
 
 Cuando un usuario elimina elementos de la carpeta predeterminada Elementos eliminados utilizando las acciones Eliminar, Mayús+Eliminar o **Vaciar carpeta de elementos eliminados**, los elementos se mueven a la carpeta **Elementos recuperables\\Eliminaciones**. El tiempo que los elementos eliminados permanecen en esta carpeta se basa en la configuración de la retención de elementos eliminados establecida para la base de datos del buzón o para el buzón. De forma predeterminada, una base de datos de buzones está configurada para retener los elementos eliminados durante 14 días, y la cuota de advertencia de elementos recuperables y la cuota de elementos recuperables están configuradas a 20 gigabytes (GB) y 30 GB respectivamente.
 

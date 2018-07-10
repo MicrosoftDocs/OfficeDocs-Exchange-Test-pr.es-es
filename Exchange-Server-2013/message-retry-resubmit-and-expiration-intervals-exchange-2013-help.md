@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 En Microsoft Exchange Server 2013, los mensajes que no se puedan entregar correctamente están sujetos a varias fechas límite de reintento, reenvío y expiración en función del origen y el destino del mensaje. *Reintentar* es un nuevo intento de conexión con el destino. *Reenvío* es el acto de devolver los mensajes a la cola de envío para que los vuelva a procesar el categorizador. El mensaje *expira* después de que todos los intentos de entrega hayan sido erróneos durante un período de tiempo especificado. Cuando un mensaje expira, se avisa al remitente del error de entrega. A continuación, se elimina el mensaje de la cola.
 

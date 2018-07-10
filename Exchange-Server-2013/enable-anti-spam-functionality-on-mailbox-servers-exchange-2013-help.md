@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2014-01-23_
+_**Última modificación del tema:** 2014-01-23_
 
 Microsoft Exchange Server 2013 incluye los siguientes agentes contra correo no deseado en el servicio de transporte de los servidores de buzones, aunque no están instalados de manera predeterminada:
 

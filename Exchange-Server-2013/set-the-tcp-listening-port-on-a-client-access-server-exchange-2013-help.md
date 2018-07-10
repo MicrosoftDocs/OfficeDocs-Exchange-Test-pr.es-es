@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2013-04-09_
+_**Última modificación del tema:** 2013-04-09_
 
 Puede configurar el puerto TCP que se usa para atender las solicitudes de SIP en un servidor de acceso de cliente que ejecute el servicio de enrutador de llamadas de mensajería unificada de Microsoft Exchange. De manera predeterminada, cuando se instala un servidor de acceso de cliente, el número de puerto de escucha TCP de SIP se establece en 5060 y el servidor de acceso de cliente inicia en modo TCP. El puerto de escucha TCP de SIP no puede configurarse mediante el uso del EAC. Debe configurar el número del puerto de escucha TCP de SIP con el cmdlet **Set-UMCallRouterSettings**.
 

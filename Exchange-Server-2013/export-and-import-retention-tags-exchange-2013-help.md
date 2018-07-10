@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2017-11-15_
+_**Última modificación del tema:** 2017-11-15_
 
 Existen varios escenarios en los cuales tal vez desee exportar o importar etiquetas de retención, incluidos:
 

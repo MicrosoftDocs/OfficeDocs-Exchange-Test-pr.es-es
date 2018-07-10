@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2018-04-17_
+_**Última modificación del tema:** 2018-04-17_
 
 Puede usar el EAC o Exchange Online PowerShell para administrar el acceso de los usuarios a los complementos de Outlook.
 
@@ -110,10 +110,12 @@ O bien
 ## Usar Exchange Online PowerShell para limitar la disponibilidad a usuarios específicos
 
 Si quiere que solo los miembros de su grupo de distribución del equipo de marketing puedan usar el complemento de LinkedIn, ejecute los siguientes comandos.
-
+```
     $a = Get-DistributionGroupMember Marketing
-
+```
+```
     Set-app <add-in ID for the LinkedIn add-in> -Organizationadd-in -ProvidedTo SpecificUsers -UserList $a.Identity -DefaultStateForUser Enabled}
+```
 
 Para obtener información detallada sobre la sintaxis y los parámetros, consulte [Set-App](https://technet.microsoft.com/es-es/library/jj218630\(v=exchg.150\)).
 

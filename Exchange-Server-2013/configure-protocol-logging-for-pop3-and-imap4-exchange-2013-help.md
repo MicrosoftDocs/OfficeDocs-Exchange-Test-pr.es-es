@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-27_
+_**Última modificación del tema:** 2012-11-27_
 
 Puede usar el Shell para habilitar, deshabilitar o modificar la configuración del registro de protocolo para POP3 e IMAP4. De forma predeterminada, el registro de protocolo no está habilitado.
 

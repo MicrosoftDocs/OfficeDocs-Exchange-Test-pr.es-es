@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2017-04-20_
+_**Última modificación del tema:** 2017-04-20_
 
 Puede usar [Etiquetas de retención y directivas de retención](retention-tags-and-retention-policies-exchange-2013-help.md) para administrar el ciclo de vida de los correos electrónicos. Las políticas de retención contienen etiquetas de retención, que es la configuración que se puede usar para especificar cuándo se debe mover un mensaje automáticamente al archivo o cuándo se debe eliminar.
 

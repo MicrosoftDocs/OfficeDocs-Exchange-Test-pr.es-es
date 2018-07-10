@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013_
+_**Se aplica a:** Exchange Online, Exchange Server 2013_
 
-_**Última modificación del tema:**2012-11-13_
+_**Última modificación del tema:** 2012-11-13_
 
 Puede usar la EAC o el Shell para habilitar o deshabilitar Microsoft Exchange ActiveSync para un buzón de usuario. Exchange ActiveSync es un protocolo de cliente que permite a los usuario sincronizar un dispositivo móvil con su buzón de Exchange. Exchange ActiveSync se habilita de manera predeterminada cuando se crea un buzón de usuario. Para obtener más información, consulte [Exchange ActiveSync](exchange-activesync-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2012-10-03_
+_**Última modificación del tema:** 2012-10-03_
 
 Puede utilizar Microsoft Outlook para ver las marcas de correo electrónico no deseado que Microsoft Exchange aplicó a un mensaje de correo electrónico. Las marcas de correo electrónico no deseado lo ayudan a diagnosticar los problemas relacionados con el correo no deseado mediante la aplicación de metadatos de diagnóstico, o marcas, como información específica del remitente, resultados de la validación del puzzle y resultados del filtrado de contenido a los mensajes mientras pasan a través de agentes contra correo no deseado que filtran los mensajes entrantes de Internet.
 

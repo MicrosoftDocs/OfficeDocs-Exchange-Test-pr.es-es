@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Después de completar la instalación de Microsoft Exchange Server 2013, lea los siguientes temas para saber cómo configurar una nueva organización de Exchange 2013.
 

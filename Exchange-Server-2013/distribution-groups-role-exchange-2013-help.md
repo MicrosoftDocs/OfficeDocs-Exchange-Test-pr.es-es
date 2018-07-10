@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 La función de administración `Distribution Groups` permite a los administradores crear, modificar, ver y eliminar grupos de distribución, y agregar o eliminar miembros de grupos de distribución en una organización.
 
