@@ -53,42 +53,42 @@ Los registros de auditoría son archivos XML y pueden contener varias entradas d
 </tr>
 <tr class="odd">
 <td><p><code>Event</code></p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p>Esta etiqueta contiene la entrada de registro de auditoría para un cmdlet individual. Esta etiqueta contiene los atributos <code>Caller</code>, <code>Cmdlet</code>, <code>ObjectModified</code>, <code>RunDate</code>, <code>Succeeded</code>, <code>Error</code> y <code>OriginatingServer</code>. Las etiquetas <code>CmdletParameters</code> y <code>ModifiedProperties</code> son elementos secundarios de esta etiqueta.</p>
 <p>Hay una etiqueta <code>Event</code> por cada entrada de registro de auditoría.</p></td>
 </tr>
 <tr class="even">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Caller</code></p></td>
 <td><p>Este atributo contiene la cuenta de usuario del usuario que ejecuta el cmdlet en el atributo <code>Cmdlet</code>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Cmdlet</code></p></td>
 <td><p>Este atributo contiene el nombre del cmdlet ejecutado por el usuario en el atributo <code>Caller</code>.</p></td>
 </tr>
 <tr class="even">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>ObjectModified</code></p></td>
 <td><p>Este atributo contiene el objeto modificado por el cmdlet especificado en el atributo <code>Cmdlet</code>. La etiqueta <code>ModifiedProperties</code> muestra qué propiedades se modificaron en este objeto.</p></td>
 </tr>
 <tr class="odd">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>RunDate</code></p></td>
 <td><p>Este atributo contiene la fecha y la hora en que se ejecutó el cmdlet en el atributo <code>Cmdlet</code>.</p></td>
 </tr>
 <tr class="even">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Succeeded</code></p></td>
 <td><p>Este atributo especifica si el cmdlet en el atributo <code>Cmdlet</code> se ejecutó correctamente. El valor es <code>True</code> o <code>False</code>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Error</code></p></td>
 <td><p>Este atributo contiene el mensaje de error generado si el cmdlet en el atributo <code>Cmdlet</code> no se completó correctamente. Si no se ha producido ningún error, el valor se establece en <code>None</code>.</p></td>
 </tr>
 <tr class="even">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>OriginatingServer</code></p></td>
 <td><p>Este atributo contiene el servidor donde se ejecutó el cmdlet en el atributo <code>Cmdlet</code>.</p></td>
 </tr>
@@ -100,17 +100,17 @@ Los registros de auditoría son archivos XML y pueden contener varias entradas d
 </tr>
 <tr class="even">
 <td><p><code>Parameter</code></p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p>Esta etiqueta contiene un parámetro individual que se especificó cuando se ejecutó el cmdlet. Esta etiqueta contiene los atributos <code>Name</code> y <code>Value</code>.</p>
 <p>Puede haber varias etiquetas <code>Parameter</code> por cada etiqueta <code>CmdletParameters</code>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Name</code></p></td>
 <td><p>Este atributo contiene el nombre del parámetro que se especificó en el cmdlet ejecutado.</p></td>
 </tr>
 <tr class="even">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Value</code></p></td>
 <td><p>Este atributo contiene el valor provisto en el parámetro especificado en el atributo <code>Name</code>.</p></td>
 </tr>
@@ -128,22 +128,22 @@ Los registros de auditoría son archivos XML y pueden contener varias entradas d
 </tr>
 <tr class="even">
 <td><p><code>Property</code></p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p>Esta etiqueta contiene una propiedad individual que se especificó cuando se ejecutó el cmdlet. Esta etiqueta contiene los atributos <code>Name</code>, <code>OldValue</code> y <code>NewValue</code>.</p>
 <p>Puede haber varias etiquetas <code>Property</code> por cada etiqueta <code>ModifiedProperties</code>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Name</code></p></td>
 <td><p>Este atributo contiene el nombre de la propiedad que se modificó cuando se ejecutó el cmdlet.</p></td>
 </tr>
 <tr class="even">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>OldValue</code></p></td>
 <td><p>Este atributo contiene el valor que se encontraba en la propiedad especificada en el atributo <code>Name</code> antes de que esta fuera modificada.</p></td>
 </tr>
 <tr class="odd">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>NewValue</code></p></td>
 <td><p>Este atributo contiene el valor al cual fue modificada la propiedad en el atributo <code>Name</code>.</p></td>
 </tr>

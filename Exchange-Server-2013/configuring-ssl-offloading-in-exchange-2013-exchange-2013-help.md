@@ -119,8 +119,6 @@ Para habilitar la descarga de SSL para EAC, necesitará quitar el requisito de S
         
             appcmd set config "Default Web Site/ecp" /section:access /sslFlags:None /commit:APPHOST
         
-        ``` 
-        ```
 
   - **Paso 2** Necesita reciclar el grupo de aplicaciones correcto o reiniciar Internet Information Services mediante uno de los métodos siguientes:
     

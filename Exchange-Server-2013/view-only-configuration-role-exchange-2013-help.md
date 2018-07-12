@@ -139,7 +139,7 @@ Este rol tiene asignaciones de roles para uno o más usuarios a los que se asign
 <tr class="even">
 <td><p><a href="delegated-setup-exchange-2013-help.md">Configuración delegada</a></p></td>
 <td><p>X</p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Organization</code></p></td>
 <td><p><code>None</code></p></td>
 <td><p><code>OrganizationConfig</code></p></td>
@@ -148,7 +148,7 @@ Este rol tiene asignaciones de roles para uno o más usuarios a los que se asign
 <tr class="odd">
 <td><p><a href="hygiene-management-exchange-2013-help.md">Administración de higiene</a></p></td>
 <td><p>X</p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Organization</code></p></td>
 <td><p><code>None</code></p></td>
 <td><p><code>OrganizationConfig</code></p></td>
@@ -166,7 +166,7 @@ Este rol tiene asignaciones de roles para uno o más usuarios a los que se asign
 <tr class="odd">
 <td><p><a href="view-only-organization-management-exchange-2013-help.md">Administración de organización de solo lectura</a></p></td>
 <td><p>X</p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Organization</code></p></td>
 <td><p><code>None</code></p></td>
 <td><p><code>OrganizationConfig</code></p></td>
