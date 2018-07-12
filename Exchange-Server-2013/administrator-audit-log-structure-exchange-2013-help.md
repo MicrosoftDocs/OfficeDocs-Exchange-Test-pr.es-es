@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:** Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:** 2015-03-09_
 
 Los registros de auditoría de administrador contienen un registro de todos los cmdlets y parámetros que se han ejecutando en el Shell de administración de Exchange y el Centro de administración de Exchange (EAC). Estos se crean a demanda cuando ejecuta el informe del registro de auditorías del administrador en el EAC o cuando ejecuta el cmdlet **New-AdminAuditLogSearch** en el Shell. Para obtener más información acerca de los registros de auditoría, consulte [Registro de auditoría de administrador](administrator-audit-logging-exchange-2013-help.md).
 
