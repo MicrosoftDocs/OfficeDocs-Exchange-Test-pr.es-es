@@ -1,5 +1,5 @@
 ﻿---
-title: Cómo módulo de administración de Exchange Server 2013 informa el estado del sistema
+title: Cómo módulo de administración de Exchange Server informa el estado del sistema
 TOCTitle: Descripción de cómo el módulo de administración de Exchange Server 2013 informa el estado del sistema
 ms:assetid: 6ca8847f-93fe-458d-bd43-7afad7fdd2f4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn195910(v=EXCHG.150)
