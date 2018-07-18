@@ -1,5 +1,5 @@
 ﻿---
-title: Usar módulo de administración de Exchange Server para solucionar problemas
+title: Usar el módulo de administración de Exchange Server 2013 para solucionar problemas
 TOCTitle: Usar el módulo de administración de Exchange Server 2013 para solucionar problemas
 ms:assetid: c9672dad-1e67-4f07-bad9-539a67f2ac70
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn195913(v=EXCHG.150)
