@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Este tema se está redactando.  
 
-_**Se aplica a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Última modificación del tema:**2015-07-07_
+_<strong>Última modificación del tema:</strong>2015-07-07_
 
 La configuración y administración de las implementaciones híbridas basadas en Exchange 2013 con Exchange 2007 es más fácil que nunca gracias a las mejoras más recientes aplicadas al Asistente para la configuración híbrida y a los cambios estructurales aplicados a Microsoft Exchange Server 2013. Si desea conectar las organizaciones de Exchange 2007 local y de Exchange Online para que coexistan a largo plazo o como parte de una estrategia de migración a la nube, es importante que comprenda los conceptos de la implementación híbrida.
 

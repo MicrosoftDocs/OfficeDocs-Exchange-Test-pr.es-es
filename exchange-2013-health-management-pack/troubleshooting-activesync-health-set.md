@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:**  Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:**  2015-03-09_
 
 El conjunto de mantenimiento de Exchange ActiveSync supervisa el estado general del servicio de ActiveSync para los clientes móviles de su organización. El conjunto de mantenimiento de ActiveSync está estrechamente relacionado con los conjuntos de mantenimiento siguientes:
 

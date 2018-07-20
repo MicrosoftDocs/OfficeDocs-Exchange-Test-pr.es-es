@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2018-04-16_
+_<strong>Última modificación del tema:</strong>2018-04-16_
 
-**Resumen:** Lo que necesita saber para planear una implementación híbrida de Exchange.
+**Resumen:**   Lo que necesita saber para planear una implementación híbrida de Exchange.
 
 Una implementación híbrida ofrece a las organizaciones la capacidad de extender la experiencia enriquecida de características y el control administrativo de la organización local existente de Microsoft Exchange a la nube. Una implementación híbrida proporciona una apariencia de integración perfecta de una única organización de Exchange entre una organización de Exchange local y Exchange Online en Microsoft Office 365. Asimismo, una implementación híbrida puede funcionar como paso intermedio para pasar completamente a una organización de Exchange Online.
 

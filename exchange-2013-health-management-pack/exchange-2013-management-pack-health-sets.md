@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Última modificación del tema:**2013-05-17_
+_**Última modificación del tema:**  2013-05-17_
 
 El módulo de administración de Exchange Server 2013 se basa en la función de disponibilidad administrada de Microsoft Exchange Server 2013. En esta función, cada componente de Exchange Server 2013 se supervisa a sí mismo a través de sondas, monitores y respondedores. Los componentes que implementan la disponibilidad administrada se denominan *conjuntos de mantenimiento*. La tabla siguiente contiene una guía de solución de problemas para todos los conjuntos de mantenimiento disponibles en Exchange 2013:
 

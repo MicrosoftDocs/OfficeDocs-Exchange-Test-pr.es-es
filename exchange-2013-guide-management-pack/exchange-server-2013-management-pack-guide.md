@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Última modificación del tema:** 2015-03-09_
+_**Última modificación del tema:**   2015-03-09_
 
 El módulo de administración de MicrosoftExchange Server 2013 proporciona información detallada sobre el estado del servicio de su organización de Exchange.
 

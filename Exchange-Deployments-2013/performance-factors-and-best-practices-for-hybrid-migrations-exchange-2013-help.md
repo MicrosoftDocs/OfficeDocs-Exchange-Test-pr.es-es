@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_<strong>Última modificación del tema:</strong>2016-12-09_
 
 Existen varias rutas para migrar datos de una organización de correo electrónico local a Office 365. Al planificar una migración a Office 365, suelen surgir dudas sobre cómo mejorar el rendimiento de la migración de datos y optimizar la velocidad de migración. Este artículo describe el rendimiento de la migración para implementaciones híbridas de Exchange. Para obtener información de rendimiento sobre otros métodos de migración, consulte [Prácticas recomendadas y rendimiento de la migración de Office 365](http://go.microsoft.com/fwlink/p/?linkid=623651).
 

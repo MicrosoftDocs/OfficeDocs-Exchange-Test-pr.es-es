@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:**  Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:**  2015-03-09_
 
 El conjunto de mantenimiento de POP supervisa el mantenimiento general y la disponibilidad del servicio POP3 y la conectividad del cliente POP3 de Microsoft Exchange. El conjunto de mantenimiento de POP se relaciona estrechamente con los siguientes conjuntos de mantenimiento:
 

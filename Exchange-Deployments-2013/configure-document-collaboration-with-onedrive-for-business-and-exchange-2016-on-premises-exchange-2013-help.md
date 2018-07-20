@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Server 2016_
 
-_**Última modificación del tema:**2016-12-09_
+_<strong>Última modificación del tema:</strong>2016-12-09_
 
-**Resumen:** Cómo permitir que los usuarios de Exchange Server 2016 local aprovechen las ventajas del uso de la colaboración en documentos mediante OneDrive para la Empresa y SharePoint Online en una configuración híbrida.
+**Resumen:**   Cómo permitir que los usuarios de Exchange Server 2016 local aprovechen las ventajas del uso de la colaboración en documentos mediante OneDrive para la Empresa y SharePoint Online en una configuración híbrida.
 
 Recientemente se ha añadido una nueva opción de datos adjuntos en Office 365. En 2016 de Exchange, esta opción, conocida como *colaboración en documentos*, permite a los usuarios locales integrar datos adjuntos almacenados en OneDrive para la Empresa directamente en sus clientes de Outlook en la web.
 

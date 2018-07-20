@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Project Server 2013_
+_**Se aplica a:**  Exchange Server 2013, Project Server 2013_
 
-_**Última modificación del tema:**2012-10-11_
+_**Última modificación del tema:**  2012-10-11_
 
 Gracias por hacer clic en el vínculo que le trajo a esta página. Aunque actualmente no podemos ofrecerle orientación para solucionar los problemas de este conjunto de mantenimiento, el hecho de que intente buscar contenido nos ayuda a saber qué prioridad dar a los artículos de orientación para resolución de problemas del módulo de administración de Exchange 2013. A continuación encontrará algunas acciones recomendadas que pueden ayudarle a resolver los problemas de este conjunto de mantenimiento:
 

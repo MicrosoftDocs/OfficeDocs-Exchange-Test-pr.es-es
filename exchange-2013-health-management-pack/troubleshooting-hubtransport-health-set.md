@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013_
+_**Se aplica a:**  Exchange Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:**  2015-03-09_
 
 El conjunto de mantenimiento **HubTransport** supervisa el estado general de la canalización de transporte en los servidores de buzones de correo que se encargan de redirigir el correo de su organización. Para obtener más información, vea [Flujo de correo](https://technet.microsoft.com/es-es/library/aa996349\(v=exchg.150\)).
 

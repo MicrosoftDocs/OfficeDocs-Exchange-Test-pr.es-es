@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2017-10-02_
+_<strong>Última modificación del tema:</strong>2017-10-02_
 
 Con una implementación híbrida basada en Exchange, puede elegir si desea mover los buzones de correo de Exchange locales a la organización de Exchange Online o mover los buzones de correo de Exchange Online a la organización de Exchange. Cuando mueve los buzones de correo entre las organizaciones locales y de Exchange Online, usa lotes de migración para realizar la solicitud de movimiento remoto de buzones de correo. Este enfoque le permite mover los buzones de correo existentes en lugar de crear nuevos buzones de usuario e importar la información de los usuarios. Este enfoque es distinto a la migración de buzones de usuario desde una organización de Exchange local a Exchange Online como parte de una migración completa de Exchange a la nube. Los movimientos de buzones de correo se describen en este tema como parte de la administración de Exchange en una relación de coexistencia a largo plazo entre una organización de Exchange local y una organización de Exchange Online.
 
@@ -49,7 +49,7 @@ Para obtener más información acerca de cómo migrar organizaciones de Exchange
 
 Antes de realizar migraciones de movimientos remotos de carga y descarga en una implementación híbrida de Exchange, recomendamos crear extremos de migración remota de Exchange. El extremo de migración contiene la configuración de conexión de un servidor local de Exchange que se ejecuta en el servicio de proxy MRS, que es necesario para realizar las migraciones de movimientos remotos desde Exchange Online y hacia esta aplicación.
 
-Para conocer los procedimientos paso a paso, vea [Crear extremos de migración](https://technet.microsoft.com/es-es/library/jj874458\(v=exchg.150\)).
+Para conocer los procedimientos paso a paso, vea Crear extremos de migración.
 
 ## Paso 2: Habilitar el servicio de MRSProxy
 

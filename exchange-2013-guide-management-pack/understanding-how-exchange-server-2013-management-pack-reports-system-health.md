@@ -1,5 +1,5 @@
 ﻿---
-title: Descripción de cómo el módulo de administración de Exchange Server 2013 informa el estado del sistema
+title: Módulo de administración de Exchange Server 2013 y estado del sistema
 TOCTitle: Descripción de cómo el módulo de administración de Exchange Server 2013 informa el estado del sistema
 ms:assetid: 6ca8847f-93fe-458d-bd43-7afad7fdd2f4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn195910(v=EXCHG.150)
@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Última modificación del tema:** 2015-03-09_
+_**Última modificación del tema:**   2015-03-09_
 
 En este tema, se proporciona información sobre cómo el módulo de administración de Exchange Server 2013 supervisa e informa el estado del sistema de Exchange. En el módulo de administración de Exchange 2013, la información sobre el estado se muestra de una forma simple. En el momento en que un conjunto de mantenimiento aparece en estado incorrecto y se activa el respondedor de transferencia, se registra el siguiente evento en el registro de eventos de Windows:
 

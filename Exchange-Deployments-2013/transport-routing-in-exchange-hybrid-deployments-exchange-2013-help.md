@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-07-29_
+_<strong>Última modificación del tema:</strong>2016-07-29_
 
 Este tema le brinda información sobre opciones de enrutamiento para mensajes entrantes desde Internet y salientes hacia Internet.
 

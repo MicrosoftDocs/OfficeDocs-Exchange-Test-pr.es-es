@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Project Server 2013_
+_**Se aplica a:**  Exchange Server 2013, Project Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:**  2015-03-09_
 
 El conjunto de mantenimiento de EWS.Protocol supervisa el protocolo de comunicaciones de servicios Web Exchange (EWS) en el servidor de buzones de correo. El conjunto de mantenimiento de EWS.Protocol se relaciona estrechamente con los siguientes conjuntos de mantenimiento:
 

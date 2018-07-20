@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Última modificación del tema:** 2012-11-14_
+_**Última modificación del tema:**   2012-11-14_
 
 Los recursos siguientes proporcionan información acerca de las tareas habituales asociadas a los paquetes de administración de System Center:
 
@@ -57,16 +57,6 @@ Los recursos siguientes proporcionan información acerca de las tareas habituale
 
   - [Paquete de administración de Operations Manager 2007 y recursos de creación de informes](http://go.microsoft.com/fwlink/?linkid=246388)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Dn195905.important(EXCHG.150).gif" title="Importante" alt="Importante" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Toda la información y el contenido de los sitios que no sean propiedad de Microsoft han sido proporcionados por el propietario o los usuarios del sitio web. Microsoft no ofrece garantía explícita ni implícita, así como tampoco la garantía legal sobre la información que se incluye en estos sitios web.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> Toda la información y el contenido de los sitios que no sean propiedad de Microsoft han sido proporcionados por el propietario o los usuarios del sitio web. Microsoft no ofrece garantía explícita ni implícita, así como tampoco la garantía legal sobre la información que se incluye en estos sitios web.
 

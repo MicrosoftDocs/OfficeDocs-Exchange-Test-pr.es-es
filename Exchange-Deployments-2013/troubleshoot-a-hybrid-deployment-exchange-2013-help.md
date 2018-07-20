@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Se aplica a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Última modificación del tema:**2016-04-29_
+_<strong>Última modificación del tema:</strong>2016-04-29_
 
 La configuración de una implementación híbrida en Exchange con el asistente para la configuración híbrida minimiza en gran medida los potenciales problemas que podrían surgir durante la implementación híbrida. Sin embargo, existen áreas típicas fuera del alcance del asistente para la configuración híbrida que, si se configuran incorrectamente, pueden presentar problemas en una implementación híbrida. Este tema cubre las siguientes áreas comunes en las que pueden surgir problemas y traza los pasos básicos para verificar o corregir los problemas:
 
@@ -124,12 +124,11 @@ Si recibe un error mientras ejecuta el Asistente para configuración híbrida, a
 
   - **Mensaje: "No se puede encontrar el conector de recepción predeterminado en el servidor \<nombre del servidor\>"**   Este mensaje aparece si el conector de recepción en cualquiera de los servidores de Exchange que aparecen en el siguiente atributo no escucha el puerto TCP 25 para los protocolos IPv4 e IPv6: `(Get-HybridConfiguration).ReceivingTransportServers.`
     
-      -  
-        Ejecute el siguiente comando en el Shell de administración de Exchange para comprobar si los conectores de recepción en los servidores de Exchange que aparecen al ejecutar `(Get-HybridConfiguration).ReceivingTransportServers.` tienen los enlaces adecuados.
+      -    Ejecute el siguiente comando en el Shell de administración de Exchange para comprobar si los conectores de recepción en los servidores de Exchange que aparecen al ejecutar `(Get-HybridConfiguration).ReceivingTransportServers.` tienen los enlaces adecuados.
         
-            Get-ReceiveConnector -Server <Server Name> | FT Identity, Bindings
+      Get-ReceiveConnector -Server <Server Name> | FT Identity, Bindings
         
-        Aparecerá la siguiente entrada relativa a los servidores de Exchange: `{[::]:25, 0.0.0.0:25}`
+      Aparecerá la siguiente entrada relativa a los servidores de Exchange: `{[::]:25, 0.0.0.0:25}`
         
-        Si este enlace no figura, deberá agregarlo al conector de recepción usando el parámetro *Bindings* del cmdlet **Set-ReceiveConnector**. Para obtener información detallada, consulte [Set-ReceiveConnector](https://technet.microsoft.com/es-es/library/bb125140\(v=exchg.150\)).
+      Si este enlace no figura, deberá agregarlo al conector de recepción usando el parámetro *Bindings* del cmdlet **Set-ReceiveConnector**. Para obtener información detallada, consulte [Set-ReceiveConnector](https://technet.microsoft.com/es-es/library/bb125140\(v=exchg.150\)).
 

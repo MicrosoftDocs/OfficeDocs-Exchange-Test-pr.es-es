@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Última modificación del tema:** 2013-04-08_
+_**Última modificación del tema:**   2013-04-08_
 
 El módulo de administración de Exchange Server 2013 agrega un contenedor a la sección **Supervisión** de la consola SCOM. Cuando expande el contenedor de Exchange Server 2013, puede ver que solo hay tres vistas debajo del contenedor.
 

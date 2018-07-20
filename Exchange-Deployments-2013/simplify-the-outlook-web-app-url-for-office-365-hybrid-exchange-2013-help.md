@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Última modificación del tema:**2016-11-11_
+_<strong>Última modificación del tema:</strong>2016-11-11_
 
 Obtenga información sobre cómo configurar una dirección URL para Outlook en la web (Outlook Web App) para los usuarios de buzón de correo en la nube en un entorno híbrido.
 
@@ -53,7 +53,7 @@ Para que los usuarios no tengan estos problemas con los buzones en la nube, real
     
         Set-OrganizationRelationship -TargetOWAUrl http://cloudowa.contoso.com/owa
     
-    **Notas:**
+    **Notas:**  
     
       - Use http, no https.
     
@@ -110,5 +110,5 @@ La experiencia de solicitudes de autenticación que los usuarios pueden esperar 
 </table>
 
 
-**Nota:** La federación de identidades requiere que el punto de conexión de AD FS esté configurado en la zona de intranet de Internet Explorer como se describe en el tema [https://go.microsoft.com/fwlink/p/?linkid=834460](https://go.microsoft.com/fwlink/p/?linkid=83446), y que AD FS esté configurado según las instrucciones generales de Office 365.
+**Nota:**   La federación de identidades requiere que el punto de conexión de AD FS esté configurado en la zona de intranet de Internet Explorer como se describe en el tema [https://go.microsoft.com/fwlink/p/?linkid=834460](https://go.microsoft.com/fwlink/p/?linkid=83446), y que AD FS esté configurado según las instrucciones generales de Office 365.
 

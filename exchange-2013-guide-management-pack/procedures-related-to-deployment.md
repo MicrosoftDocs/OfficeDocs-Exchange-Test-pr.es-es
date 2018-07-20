@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Última modificación del tema:** 2013-04-17_
+_**Última modificación del tema:**   2013-04-17_
 
 Esta sección contiene los procedimientos que puede usar como referencia con el módulo de administración de Exchange Server 2013. Para los procedimientos relacionados con la operación posterior a la implementación, consulte [Procedures related to post-deployment operation](procedures-related-to-post-deployment-operation.md).
 

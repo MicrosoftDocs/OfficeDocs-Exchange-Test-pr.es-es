@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Se aplica a:**Exchange Server 2013, Project Server 2013_
+_**Se aplica a:**  Exchange Server 2013, Project Server 2013_
 
-_**Última modificación del tema:**2015-03-09_
+_**Última modificación del tema:**  2015-03-09_
 
 El conjunto de mantenimiento **FIPS** supervisa el estado general de la configuración de Federal Information Processing Standards (FIPS) en los servidores de Exchange. Para obtener más información acerca de FIPS 140, vea [Validación de FIPS 140](http://go.microsoft.com/fwlink/p/?linkid=521913).
 
