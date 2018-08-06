@@ -1,5 +1,5 @@
 ﻿---
-title: 'Establecer el número de errores de inicio de sesión antes de bloquea un usuario de correo de voz: Exchange 2013 Help'
+title: 'Establecer n.º de errores de inicio de sesión antes bloquea usuario correo voz | Microsoft Docs'
 TOCTitle: Establecer el número de errores de inicio de sesión antes de bloquea un usuario de correo de voz
 ms:assetid: 855e1980-2868-4983-b097-0b5f63f202b8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb123544(v=EXCHG.150)

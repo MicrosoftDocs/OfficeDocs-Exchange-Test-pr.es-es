@@ -1,5 +1,5 @@
 ﻿---
-title: 'Mover un buzón de carpetas públicas a una base de datos de buzones diferente: Exchange 2013 Help'
+title: 'Mover un buzón de carpetas públicas a una base de datos de buzones diferente | Microsoft Docs'
 TOCTitle: Mover un buzón de carpetas públicas a una base de datos de buzones diferente
 ms:assetid: 67601d45-4824-4ae6-9a7e-b645ec3af4d3
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ906434(v=EXCHG.150)

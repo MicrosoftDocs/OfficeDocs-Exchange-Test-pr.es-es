@@ -1,5 +1,5 @@
 ﻿---
-title: 'No se encuentra un servicio de actualización de destinatarios_RUSMissing: Exchange 2013 Help'
+title: 'No encontrar service_RUSMissing actualización destinatarios Exchange 2013 Help | Microsoft Docs'
 TOCTitle: No se encuentra un servicio de actualización de destinatarios_RUSMissing
 ms:assetid: 920fbf51-d5e4-4ac6-869f-7f1c5d9a3024
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.rusmissing(v=EXCHG.150)

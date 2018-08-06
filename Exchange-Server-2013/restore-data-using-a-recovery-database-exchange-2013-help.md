@@ -1,5 +1,5 @@
 ﻿---
-title: 'Restauración de datos mediante una base de datos de recuperación: Exchange 2013 Help'
+title: 'Restaurar datos mediante una base de datos de recuperación: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Restauración de datos mediante una base de datos de recuperación
 ms:assetid: d64c18e7-16af-4bd8-a5c5-01206984d4d1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee332351(v=EXCHG.150)

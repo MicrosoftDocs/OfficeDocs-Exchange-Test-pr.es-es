@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar las llamadas de los usuarios que no están habilitados para mensajería unificada: Exchange 2013 Help'
+title: 'Habilitar llamadas usuarios no están habilitados para UM: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Habilitar las llamadas de los usuarios que no están habilitados para mensajería unificada
 ms:assetid: 3c39c6df-6d7a-469f-b92b-85b3f14bad31
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb267006(v=EXCHG.150)

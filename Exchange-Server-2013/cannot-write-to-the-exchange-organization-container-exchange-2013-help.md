@@ -1,5 +1,5 @@
 ﻿---
-title: 'No se puede escribir en el contenedor de la organización de Exchange: Exchange 2013 Help'
+title: 'No se puede escribir contenedor de organización Exchange: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: No se puede escribir en el contenedor de la organización de Exchange
 ms:assetid: 17c4667b-7db1-4e0a-b824-1f6d51d980a9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.globalserverinstall(v=EXCHG.150)

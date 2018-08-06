@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir o impedir la contestación en un servidor de buzón de llamadas: Exchange 2013 Help'
+title: 'Permitir o impedir contestación en servidor buzón llamadas: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Permitir o impedir la contestación en un servidor de buzón de llamadas
 ms:assetid: 4b860c09-6669-4e3d-b3dc-17b8018b3860
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa997908(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ejecución de la herramienta para la solución de problemas de Mensajería unificada de Exchange en Windows 7 o Windows 8: Exchange 2013 Help'
+title: 'Ejecutar herramienta solucionar problemas UM de Exchange Windows 7 Windows 8 | Microsoft Docs'
 TOCTitle: Ejecución de la herramienta para la solución de problemas de Mensajería unificada de Exchange en Windows 7 o Windows 8
 ms:assetid: 98d6869d-ee4a-4088-849d-ef75b0f5d932
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff851872(v=EXCHG.150)

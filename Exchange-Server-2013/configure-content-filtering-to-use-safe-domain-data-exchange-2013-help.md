@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar el filtrado de contenido para usar datos de dominio seguro: Exchange 2013 Help'
+title: 'Configurar filtrado contenido para usar dato dominio seguro Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Configurar el filtrado de contenido para usar datos de dominio seguro
 ms:assetid: 1ee2b663-b4f3-4fef-8954-986f2d820924
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn467930(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Descripción de las asignaciones de funciones de administración: Exchange 2013 Help'
+title: 'Descripción de asignaciones de funciones de administración: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Descripción de las asignaciones de funciones de administración
 ms:assetid: 1dc33dd6-52fb-4852-a5ce-027bc73e1d8f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd335131(v=EXCHG.150)

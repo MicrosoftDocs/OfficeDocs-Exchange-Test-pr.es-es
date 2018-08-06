@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar la directiva de activación para una copia de base de datos de buzones: Exchange 2013 Help'
+title: 'Configurar directiva activar para copia base datos buzones: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Configurar la directiva de activación para una copia de base de datos de buzones
 ms:assetid: 6b37ed6e-2e36-4688-b485-8fdbb8193ec8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd298046(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Administrar el filtrado de datos adjuntos en servidores de transporte perimetral: Exchange 2013 Help'
+title: 'Gestión filtro dato adjunto servidor transporte perimetral: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Administrar el filtrado de datos adjuntos en servidores de transporte perimetral
 ms:assetid: 2ec91cc6-6ade-48ee-88bb-66153874393d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa997139(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Establecer el número de errores de inicio de sesión antes de un restablecimiento del NIP de correo de voz: Exchange 2013 Help'
+title: 'Establecer n.º error inicio sesión antes de restablecer NIP de correo de voz | Microsoft Docs'
 TOCTitle: Establecer el número de errores de inicio de sesión antes de un restablecimiento del NIP de correo de voz
 ms:assetid: 4de38499-0a6f-4f00-8697-eeff805d7266
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa997939(v=EXCHG.150)

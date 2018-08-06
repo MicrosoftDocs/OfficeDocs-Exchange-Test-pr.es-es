@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar o deshabilitar libretas jerárquicas de direcciones: Exchange 2013 Help'
+title: 'Habilitar o deshabilitar libretas jerárquicas direcciones: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Habilitar o deshabilitar libretas jerárquicas de direcciones
 ms:assetid: b4c3a175-ce5e-4bfb-a4a0-92d25f3644b3
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff607473(v=EXCHG.150)

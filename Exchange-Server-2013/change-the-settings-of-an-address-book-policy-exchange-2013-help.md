@@ -1,5 +1,5 @@
 ﻿---
-title: 'Cambiar la configuración de una directiva de libreta de direcciones: Exchange 2013 Help'
+title: 'Cambiar configuración de directiva de libreta direcciones: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Cambiar la configuración de una directiva de libreta de direcciones
 ms:assetid: ba1ca350-71c2-4c60-a612-33bfa9320b5e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh529941(v=EXCHG.150)

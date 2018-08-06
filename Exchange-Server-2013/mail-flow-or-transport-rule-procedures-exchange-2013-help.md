@@ -1,5 +1,5 @@
 ﻿---
-title: 'Procedimientos de las reglas de transporte o de flujo de correo: Exchange 2013 Help'
+title: 'Procedimientos de reglas de transporte o de flujo correo: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Procedimientos de las reglas de transporte o de flujo de correo
 ms:assetid: f45f6eef-9e35-4ef4-97fa-1f6e277d14a1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn600440(v=EXCHG.150)

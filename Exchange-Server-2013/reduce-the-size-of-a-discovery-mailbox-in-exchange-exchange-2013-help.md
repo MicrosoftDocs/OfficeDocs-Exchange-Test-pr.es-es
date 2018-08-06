@@ -1,5 +1,5 @@
 ﻿---
-title: 'Reducir el tamaño de un buzón de correo de detección en Exchange: Exchange 2013 Help'
+title: 'Reducir tamaño de buzón de correo de detección en Exchange: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Reducir el tamaño de un buzón de correo de detección en Exchange
 ms:assetid: fa762d14-f942-4728-8813-887d11441a68
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn750895(v=EXCHG.150)

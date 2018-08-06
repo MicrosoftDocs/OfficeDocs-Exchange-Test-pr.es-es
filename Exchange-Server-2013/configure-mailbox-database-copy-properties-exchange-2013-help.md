@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configuración de las propiedades de una copia de base de datos de buzones: Exchange 2013 Help'
+title: 'Configuración propiedades de copia de base datos buzones: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Configuración de las propiedades de una copia de base de datos de buzones
 ms:assetid: cf186561-ab2c-45c0-90f5-8d3ecfabeeac
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd351151(v=EXCHG.150)

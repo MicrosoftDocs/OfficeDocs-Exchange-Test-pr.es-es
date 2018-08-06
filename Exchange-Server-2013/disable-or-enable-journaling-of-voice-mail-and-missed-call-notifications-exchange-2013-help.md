@@ -1,5 +1,5 @@
 ﻿---
-title: 'Deshabilitar o habilitar el registro en diario de correo de voz y notificaciones de llamadas perdidas: Exchange 2013 Help'
+title: 'Deshabilitar habilitar registro diario correo voz notificación llamada perdida | Microsoft Docs'
 TOCTitle: Deshabilitar o habilitar el registro en diario de correo de voz y notificaciones de llamadas perdidas
 ms:assetid: 5164a92e-69e6-4339-b80c-0cfbf0dc0198
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb201690(v=EXCHG.150)

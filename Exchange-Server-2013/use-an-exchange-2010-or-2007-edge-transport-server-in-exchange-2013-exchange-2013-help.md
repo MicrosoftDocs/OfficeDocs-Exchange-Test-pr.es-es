@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar un servidor de transporte perimetral de Exchange 2010 o 2007 en Exchange 2013: Exchange 2013 Help'
+title: 'Usar servidor transporte perimetral de Exchange 2010 o 2007 en Exchange 2013 | Microsoft Docs'
 TOCTitle: Usar un servidor de transporte perimetral de Exchange 2010 o 2007 en Exchange 2013
 ms:assetid: ce99b4bd-868c-4767-9009-e22c17ac0ac7
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ150569(v=EXCHG.150)

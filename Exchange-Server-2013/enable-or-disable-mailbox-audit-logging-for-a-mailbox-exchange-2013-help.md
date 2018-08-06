@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar o deshabilitar el registro de auditoría de buzones para un buzón: Exchange 2013 Help'
+title: 'Habilitar deshabilitar registro auditoría buzón para buzón: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Habilitar o deshabilitar el registro de auditoría de buzones para un buzón
 ms:assetid: c4bbfd52-6196-49c7-8c31-777fbbee11f2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff461937(v=EXCHG.150)

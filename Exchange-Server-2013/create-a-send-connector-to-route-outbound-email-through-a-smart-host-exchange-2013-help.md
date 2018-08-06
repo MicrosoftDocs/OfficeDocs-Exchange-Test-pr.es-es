@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear un conector de envío para enrutar el correo saliente a través de un Host inteligente: Exchange 2013 Help'
+title: 'Crear conector de envío para enrutar correo saliente a través Host inteligente | Microsoft Docs'
 TOCTitle: Crear un conector de envío para enrutar el correo saliente a través de un Host inteligente
 ms:assetid: 4a9ef08e-bd62-4c6b-8790-d24fb0f8f24b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ673059(v=EXCHG.150)

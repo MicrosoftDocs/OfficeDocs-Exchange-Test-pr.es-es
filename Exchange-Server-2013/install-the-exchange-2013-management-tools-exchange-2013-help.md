@@ -1,5 +1,5 @@
 ﻿---
-title: 'Instalar las herramientas de administración de Exchange 2013: Exchange 2013 Help'
+title: 'Instalar herramientas de administración de Exchange 2013: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Instalar las herramientas de administración de Exchange 2013
 ms:assetid: 71fcbe4c-783b-4f77-aabb-a21aa7a4ef23
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb232090(v=EXCHG.150)

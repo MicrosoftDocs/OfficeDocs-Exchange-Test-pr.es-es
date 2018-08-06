@@ -1,5 +1,5 @@
 ﻿---
-title: 'Agregar una entrada de función a una función de nivel superior sin ámbito: Exchange 2013 Help'
+title: 'Agregar entrada función a función nivel superior sin ámbito Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Agregar una entrada de función a una función de nivel superior sin ámbito
 ms:assetid: 52fd3f20-c348-49d5-9bdb-f2cbf780cf2d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd979789(v=EXCHG.150)

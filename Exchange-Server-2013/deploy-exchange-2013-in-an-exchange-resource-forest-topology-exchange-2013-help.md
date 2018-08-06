@@ -1,5 +1,5 @@
 ﻿---
-title: 'Implementación de Exchange 2013 en una topología de bosques de recursos de Exchange: Exchange 2013 Help'
+title: 'Implementar Exchange 2013 en una topología de bosques de recursos de Exchange | Microsoft Docs'
 TOCTitle: Implementación de Exchange 2013 en una topología de bosques de recursos de Exchange
 ms:assetid: 537a7b2b-d002-40a6-84ae-fd02635f9e23
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa998031(v=EXCHG.150)

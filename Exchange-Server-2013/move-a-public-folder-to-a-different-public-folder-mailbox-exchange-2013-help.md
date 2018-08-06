@@ -1,5 +1,5 @@
 ﻿---
-title: 'Mover una carpeta pública a otro buzón de carpetas públicas: Exchange 2013 Help'
+title: 'Mover una carpeta pública a otro buzón de carpetas públicas Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Mover una carpeta pública a otro buzón de carpetas públicas
 ms:assetid: b8744934-a3cb-443e-acce-a9a6ca5d88f6
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ906435(v=EXCHG.150)

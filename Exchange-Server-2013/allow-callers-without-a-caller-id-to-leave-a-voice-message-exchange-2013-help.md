@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir a quienes llaman sin un identificador para dejar un mensaje de voz: Exchange 2013 Help'
+title: 'Permitir quien llama sin identificar para dejar mensaje voz Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Permitir a quienes llaman sin un identificador para dejar un mensaje de voz
 ms:assetid: 51367d98-e17c-4bcf-8b14-208bd1ac3af0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb232040(v=EXCHG.150)

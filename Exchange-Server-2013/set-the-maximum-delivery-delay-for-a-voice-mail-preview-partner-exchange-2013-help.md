@@ -1,5 +1,5 @@
 ﻿---
-title: 'Establecer el retardo máximo de entrega para un socio de la vista previa del correo de voz: Exchange 2013 Help'
+title: 'Establecer retardo máximo entrega para socio de vista previa del correo de voz | Microsoft Docs'
 TOCTitle: Establecer el retardo máximo de entrega para un socio de la vista previa del correo de voz
 ms:assetid: c9a07f6d-6f7f-4036-9a4a-d668d21e2c76
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff630928(v=EXCHG.150)
