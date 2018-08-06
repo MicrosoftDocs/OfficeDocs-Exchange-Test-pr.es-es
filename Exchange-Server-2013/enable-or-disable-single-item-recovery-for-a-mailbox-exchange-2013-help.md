@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar o deshabilitar la recuperación de elementos individuales de un buzón de correo: Exchange 2013 Help'
+title: 'Habilitar o deshabilitar recuperar un elemento buzón correo Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Habilitar o deshabilitar la recuperación de elementos individuales de un buzón de correo
 ms:assetid: 2e7f1bcd-8395-45ad-86ce-22868bd46af0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee633460(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Copiar los resultados de la búsqueda de exhibición de documentos electrónicos en un buzón de correo de detección: Exchange 2013 Help'
+title: 'Copiar resultados búsqueda eDiscovery en buzón detección: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Copiar los resultados de la búsqueda de exhibición de documentos electrónicos en un buzón de correo de detección
 ms:assetid: bff2ce89-9e6f-494a-bd6a-2f2011507845
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn624163(v=EXCHG.150)

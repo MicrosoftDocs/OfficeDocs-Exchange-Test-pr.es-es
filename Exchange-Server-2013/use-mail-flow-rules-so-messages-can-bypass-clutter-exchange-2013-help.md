@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar reglas de flujo de correo para que los mensajes puedan evitar Otros correos: Exchange 2013 Help'
+title: 'Usar reglas flujo correo para mensajes evitar Otros correos Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Usar reglas de flujo de correo para que los mensajes puedan evitar Otros correos
 ms:assetid: 58e413f0-aa27-4307-bffd-4df03090a15e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn896639(v=EXCHG.150)

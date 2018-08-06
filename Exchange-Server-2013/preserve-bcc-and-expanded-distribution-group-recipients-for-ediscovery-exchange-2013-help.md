@@ -1,5 +1,5 @@
 ﻿---
-title: 'Conservar los destinatarios de grupos de distribución expandidos y CCO para la exhibición de documentos electrónicos: Exchange 2013 Help'
+title: 'Conservar destinatarios grupos distribución expandidos y CCO para eDiscovery | Microsoft Docs'
 TOCTitle: Conservar los destinatarios de grupos de distribución expandidos y CCO para la exhibición de documentos electrónicos
 ms:assetid: eb8ddf15-0080-457e-9d83-e73e193da334
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn770225(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lista de comprobación: Actualizar la mensajería unificada (UM) de Exchange 2010 a la mensajería unificada (UM) de Exchange 2013: Exchange 2013 Help'
+title: 'Lista comprobación Actualizar UM Exchange 2007 a UM de 2013 Exchange 2013 Help | Microsoft Docs'
 TOCTitle: 'Lista de comprobación: Actualizar la mensajería unificada (UM) de Exchange 2010 a la mensajería unificada (UM) de Exchange 2013'
 ms:assetid: 799bd1b1-a918-4bd8-911e-e6ca08bd7b52
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn169228(v=EXCHG.150)

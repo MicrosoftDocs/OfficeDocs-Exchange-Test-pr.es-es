@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lista de comprobación: implementación de directivas de retención: Exchange 2013 Help'
+title: 'Lista de comprobación: implementación directivas retención: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: 'Lista de comprobación: implementación de directivas de retención'
 ms:assetid: 59e299fd-b6a8-48f5-88ae-dc20dbe32e90
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee364743(v=EXCHG.150)

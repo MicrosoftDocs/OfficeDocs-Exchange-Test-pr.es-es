@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear una directiva de la dirección de correo electrónico mediante filtros de destinatario: Exchange 2013 Help'
+title: 'Crear directiva dirección correo con filtros destinatario: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Crear una directiva de la dirección de correo electrónico mediante filtros de destinatario
 ms:assetid: e3f446bd-1511-479c-8d87-2dfce5547c90
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb232194(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar o deshabilitar Outlook Web App para un buzón de correo: Exchange 2013 Help'
+title: 'Habilitar o deshabilitar Outlook Web App para buzón correo: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Habilitar o deshabilitar Outlook Web App para un buzón de correo
 ms:assetid: abc19646-6211-4f18-a060-e347452dcc53
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124124(v=EXCHG.150)

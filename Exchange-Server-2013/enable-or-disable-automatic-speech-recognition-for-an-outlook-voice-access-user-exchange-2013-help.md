@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar o deshabilitar el reconocimiento automático de voz para un usuario de Outlook Voice Access User: Exchange 2013 Help'
+title: 'Habilitar deshabilitar reconocer automático voz usuario Outlook Voice Access | Microsoft Docs'
 TOCTitle: Habilitar o deshabilitar el reconocimiento automático de voz para un usuario de Outlook Voice Access User
 ms:assetid: 58f41016-e725-432b-953e-415d61e0664c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb232062(v=EXCHG.150)

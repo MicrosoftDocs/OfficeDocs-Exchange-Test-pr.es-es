@@ -1,5 +1,5 @@
 ﻿---
-title: 'Instalación de la herramienta para la solución de problemas de Mensajería unificada de Exchange: Exchange 2013 Help'
+title: 'Instalación herramienta para solución problemas UM Exchange Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Instalación de la herramienta para la solución de problemas de Mensajería unificada de Exchange
 ms:assetid: 84223af0-a717-49ee-add6-86313bb30d17
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff844714(v=EXCHG.150)

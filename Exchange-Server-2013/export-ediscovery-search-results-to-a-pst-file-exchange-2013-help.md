@@ -1,5 +1,5 @@
 ﻿---
-title: 'Exportar los resultados de la búsqueda de exhibición de documentos electrónicos a un archivo PST: Exchange 2013 Help'
+title: 'Exportar resultados de búsqueda de eDiscovery a archivo PST Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Exportar los resultados de la búsqueda de exhibición de documentos electrónicos a un archivo PST
 ms:assetid: bc47f5f9-d056-4b69-b669-ae65fad541c8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn440164(v=EXCHG.150)

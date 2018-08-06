@@ -1,5 +1,5 @@
 ﻿---
-title: 'Información sobre herramienta para la solución de problemas de mensajería unificada de Exchange: Exchange 2013 Help'
+title: 'Información herramienta solucionar problemas UM Exchange: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Información sobre herramienta para la solución de problemas de mensajería unificada de Exchange
 ms:assetid: cc11bf5e-2c87-4495-b2ad-3e9a6bc81dbc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg584301(v=EXCHG.150)

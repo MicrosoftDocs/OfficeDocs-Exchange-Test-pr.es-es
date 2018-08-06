@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar la compatibilidad para agentes de transporte heredados: Exchange 2013 Help'
+title: 'Habilitar compatibilidad para agentes transporte heredados: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Habilitar la compatibilidad para agentes de transporte heredados
 ms:assetid: 00617e87-7199-406e-b4a3-94378f657f1f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ591524(v=EXCHG.150)

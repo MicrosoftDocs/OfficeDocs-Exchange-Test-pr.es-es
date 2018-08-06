@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar las opciones de formato de recepción de mensajes POP3 e IMAP4: Exchange 2013 Help'
+title: 'Configurar opciones formato recepción mensajes POP3 e IMAP4 Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Configurar las opciones de formato de recepción de mensajes POP3 e IMAP4
 ms:assetid: 481096e0-4492-46c2-8ca8-bdf84a84531e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa997869(v=EXCHG.150)

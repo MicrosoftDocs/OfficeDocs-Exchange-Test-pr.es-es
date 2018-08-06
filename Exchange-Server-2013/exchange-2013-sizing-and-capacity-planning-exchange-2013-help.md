@@ -1,5 +1,5 @@
 ﻿---
-title: 'Planeamiento de la capacidad y el ajuste de tamaño de Exchange 2013: Exchange 2013 Help'
+title: 'Planeación de capacidad y ajuste de tamaño de Exchange 2013 Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Planeamiento de la capacidad y el ajuste de tamaño de Exchange 2013
 ms:assetid: d9852860-1a4c-4162-83f1-7131432be7d6
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn178505(v=EXCHG.150)

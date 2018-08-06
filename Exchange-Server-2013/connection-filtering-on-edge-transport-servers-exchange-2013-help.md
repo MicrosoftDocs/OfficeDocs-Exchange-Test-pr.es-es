@@ -1,5 +1,5 @@
 ﻿---
-title: 'Filtrado de conexiones en servidores de transporte perimetral: Exchange 2013 Help'
+title: 'Filtrado de conexiones en servidores transporte perimetral: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Filtrado de conexiones en servidores de transporte perimetral
 ms:assetid: b513755c-5d3e-44fa-a6cb-771d48b544ac
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124320(v=EXCHG.150)

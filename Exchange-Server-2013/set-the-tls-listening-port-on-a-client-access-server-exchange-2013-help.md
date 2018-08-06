@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar el puerto de escucha TLS en un servidor de acceso de cliente: Exchange 2013 Help'
+title: 'Configurar puerto escucha TLS en servidor acceso cliente: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Configurar el puerto de escucha TLS en un servidor de acceso de cliente
 ms:assetid: f4401923-61fa-4dc5-95f8-c0d2f515b2ea
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ673576(v=EXCHG.150)

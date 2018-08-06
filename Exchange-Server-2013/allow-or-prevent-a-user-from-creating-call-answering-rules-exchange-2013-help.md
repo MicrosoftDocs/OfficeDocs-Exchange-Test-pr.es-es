@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir o impedir la creación de reglas de respuesta de llamada de un usuario: Exchange 2013 Help'
+title: 'Permitir o impedir crear reglas respuesta llamada usuario: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Permitir o impedir la creación de reglas de respuesta de llamada de un usuario
 ms:assetid: 81863440-8b21-4523-bdab-6a2311889a0d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd298097(v=EXCHG.150)

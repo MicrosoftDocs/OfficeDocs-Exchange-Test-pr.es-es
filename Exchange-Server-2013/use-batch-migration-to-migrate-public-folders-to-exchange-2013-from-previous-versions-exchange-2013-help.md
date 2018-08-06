@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar migración por lotes para migrar carpetas públicas a Exchange 2013 desde versiones anteriores: Exchange 2013 Help'
+title: 'Usar migrar lotes migrar carpetas públicas a Exchange 2013 de versión anterior | Microsoft Docs'
 TOCTitle: Usar migración por lotes para migrar carpetas públicas a Exchange 2013 desde versiones anteriores
 ms:assetid: da808e27-d2b7-4fbd-915c-a600751f526c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn912663(v=EXCHG.150)

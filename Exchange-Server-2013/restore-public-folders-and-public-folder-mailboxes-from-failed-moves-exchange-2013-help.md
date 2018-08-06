@@ -1,5 +1,5 @@
 ﻿---
-title: 'Restaurar carpetas públicas y buzones de carpetas públicas de movimientos fallidos: Exchange 2013 Help'
+title: 'Restaurar carpetas públicas y buzones carpetas públicas movimientos fallidos | Microsoft Docs'
 TOCTitle: Restaurar carpetas públicas y buzones de carpetas públicas de movimientos fallidos
 ms:assetid: 2ade83c9-5f9b-4945-bf32-48fa8185b515
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ983802(v=EXCHG.150)

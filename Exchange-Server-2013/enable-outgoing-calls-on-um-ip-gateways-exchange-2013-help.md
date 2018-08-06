@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar las llamadas salientes de puertas de enlace IP de mensajería unificada: Exchange 2013 Help'
+title: 'Habilitar llamadas salientes de puertas de enlace IP de UM: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Habilitar las llamadas salientes de puertas de enlace IP de mensajería unificada
 ms:assetid: c3ad8e53-d37e-499e-b1f1-defb0ba1bd12
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ673562(v=EXCHG.150)

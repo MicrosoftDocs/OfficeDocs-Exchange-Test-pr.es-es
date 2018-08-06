@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ayudar a identificar mi problema con comprobaciones automáticas: sincronización de directorios: Exchange 2013 Help'
+title: 'Ayudar identificar mi problema comprobacón automática: sincronizar directorios | Microsoft Docs'
 TOCTitle: 'Ayudar a identificar mi problema con comprobaciones automáticas: sincronización de directorios'
 ms:assetid: e6ea900a-c382-444c-a8ce-54d392bfeca3
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn793977(v=EXCHG.150)

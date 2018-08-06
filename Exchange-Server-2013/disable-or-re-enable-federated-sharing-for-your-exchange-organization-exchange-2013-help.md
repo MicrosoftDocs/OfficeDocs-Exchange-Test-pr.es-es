@@ -1,5 +1,5 @@
 ﻿---
-title: 'Deshabilitar o volver a habilitar compartir federados para la organización de Exchange: Exchange 2013 Help'
+title: 'Deshabilitar volver habilitar compartir federados para organización Exchange | Microsoft Docs'
 TOCTitle: Deshabilitar o volver a habilitar compartir federados para la organización de Exchange
 ms:assetid: d36490d8-0268-47b9-a6d4-e56427f1b02e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ657497(v=EXCHG.150)

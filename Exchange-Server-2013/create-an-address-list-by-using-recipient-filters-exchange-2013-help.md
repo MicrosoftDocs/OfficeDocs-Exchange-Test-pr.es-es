@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear una lista de direcciones mediante filtros de destinatario: Exchange 2013 Help'
+title: 'Crear lista direcciones mediante filtros de destinatario: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Crear una lista de direcciones mediante filtros de destinatario
 ms:assetid: 8eabea64-97c6-40af-b61c-9b6a125cbdf1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb123718(v=EXCHG.150)

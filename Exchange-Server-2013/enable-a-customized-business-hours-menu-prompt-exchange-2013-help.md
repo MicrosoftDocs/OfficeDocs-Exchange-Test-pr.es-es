@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar un mensaje del menú de horario comercial personalizada: Exchange 2013 Help'
+title: 'Habilitar mensaje del menú horario comercial personalizada: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Habilitar un mensaje del menú de horario comercial personalizada
 ms:assetid: 89053e84-3490-4dc6-ade3-9b6c5dbf4020
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb232116(v=EXCHG.150)

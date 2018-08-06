@@ -1,5 +1,5 @@
 ﻿---
-title: 'Propiedades a las que se puede aplicar un filtro para el parámetro -ContentFilter: Exchange 2013 Help'
+title: 'Propiedades a las que se puedan aplicar filtro para parámetro -ContentFilter | Microsoft Docs'
 TOCTitle: Propiedades a las que se puede aplicar un filtro para el parámetro -ContentFilter
 ms:assetid: cf504a59-1938-489c-bb48-b27b2ac3234e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff601762(v=EXCHG.150)

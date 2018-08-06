@@ -1,5 +1,5 @@
 ﻿---
-title: 'Administrar el filtrado de destinatarios en servidores de transporte perimetral: Exchange 2013 Help'
+title: 'Gestión filtro destinatario servidor transporte perimetral: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Administrar el filtrado de destinatarios en servidores de transporte perimetral
 ms:assetid: f2d0041f-2872-4669-95ec-443233f4956d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb125187(v=EXCHG.150)

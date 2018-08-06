@@ -1,5 +1,5 @@
 ﻿---
-title: 'Contadores de rendimiento para la administración de registros de mensajes: Exchange 2013 Help'
+title: 'Contador rendimiento para administración registro mensaje: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Contadores de rendimiento para la administración de registros de mensajes
 ms:assetid: b59def6f-4249-4e0c-8057-8ae6eb7c5676
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb310790(v=EXCHG.150)

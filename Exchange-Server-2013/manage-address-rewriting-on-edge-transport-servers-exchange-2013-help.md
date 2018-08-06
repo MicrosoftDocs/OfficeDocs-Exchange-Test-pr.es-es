@@ -1,5 +1,5 @@
 ﻿---
-title: 'Administrar la reconfiguración de direcciones en servidores de transporte perimetral: Exchange 2013 Help'
+title: 'Gestión reconfigura dirección servidor transporte perimetra Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Administrar la reconfiguración de direcciones en servidores de transporte perimetral
 ms:assetid: 323a0b55-f921-425d-b1b0-18ad0fac315c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa997185(v=EXCHG.150)

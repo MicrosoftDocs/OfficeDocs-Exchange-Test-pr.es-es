@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar o deshabilitar el correo para una carpeta pública: Exchange 2013 Help'
+title: 'Habilitar o deshabilitar el correo para una carpeta pública Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Habilitar o deshabilitar el correo para una carpeta pública
 ms:assetid: 3d69f76d-ff3c-46c1-b962-6a1baa425d8a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa997560(v=EXCHG.150)

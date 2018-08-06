@@ -1,5 +1,5 @@
 ﻿---
-title: 'Administración de la pertenencia a grupos de disponibilidad de base de datos: Exchange 2013 Help'
+title: 'Administración pertenencia grupos disponibilidad base datos Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Administración de la pertenencia a grupos de disponibilidad de base de datos
 ms:assetid: fb2ea15e-96d5-4045-b75b-b0aa5fc60479
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd351278(v=EXCHG.150)

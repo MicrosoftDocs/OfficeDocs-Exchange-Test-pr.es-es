@@ -1,5 +1,5 @@
 ﻿---
-title: 'Preconfiguración del objeto de nombre de clúster para un grupo de disponibilidad de base de datos: Exchange 2013 Help'
+title: 'Preconfiguración de objeto nombre clúster para grupo disponibilidad base datos | Microsoft Docs'
 TOCTitle: Preconfiguración del objeto de nombre de clúster para un grupo de disponibilidad de base de datos
 ms:assetid: 51ebf2f6-8a02-44ef-a489-ca361cb0f63a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff367878(v=EXCHG.150)

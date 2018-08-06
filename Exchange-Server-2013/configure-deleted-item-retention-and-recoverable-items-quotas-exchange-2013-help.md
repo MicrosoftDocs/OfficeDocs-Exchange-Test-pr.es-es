@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar la retención de elementos eliminados y las cuotas de elementos recuperables: Exchange 2013 Help'
+title: 'Configurar retención de elementos eliminados y cuotas elementos recuperables | Microsoft Docs'
 TOCTitle: Configurar la retención de elementos eliminados y las cuotas de elementos recuperables
 ms:assetid: de7d667a-1c93-4364-a4f9-2aa5e3678b12
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee364752(v=EXCHG.150)

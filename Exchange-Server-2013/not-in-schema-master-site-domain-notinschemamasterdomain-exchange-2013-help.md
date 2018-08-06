@@ -1,5 +1,5 @@
 ﻿---
-title: 'No en el sitio/dominio del maestro de esquema_NotInSchemaMasterDomain: Exchange 2013 Help'
+title: 'No está site/domain_NotInSchemaMasterDomain maestro esquema Exchange 2013 Help | Microsoft Docs'
 TOCTitle: No en el sitio/dominio del maestro de esquema_NotInSchemaMasterDomain
 ms:assetid: 5e44eb33-4c30-4c3d-ba68-5c30bef1731f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.notinschemamasterdomain(v=EXCHG.150)

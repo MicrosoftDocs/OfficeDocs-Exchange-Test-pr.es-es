@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar restricciones de entrega de mensajes para un buzón de correo: Exchange 2013 Help'
+title: 'Configurar restricciones entrega mensajes para buzón correo Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Configurar restricciones de entrega de mensajes para un buzón de correo
 ms:assetid: c4b8b89f-3dbe-4cb8-8839-9a4e8067e00c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb397214(v=EXCHG.150)

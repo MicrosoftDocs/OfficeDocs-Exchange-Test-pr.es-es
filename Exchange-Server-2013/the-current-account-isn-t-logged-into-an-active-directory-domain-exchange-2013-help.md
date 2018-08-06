@@ -1,5 +1,5 @@
 ﻿---
-title: 'La cuenta actual no ha iniciado sesión en ningún dominio de Active Directory: Exchange 2013 Help'
+title: 'La cuenta actual no ha iniciado sesión en ningún dominio de Active Directory | Microsoft Docs'
 TOCTitle: La cuenta actual no ha iniciado sesión en ningún dominio de Active Directory
 ms:assetid: 0e229d10-605a-420f-bf8b-58a7fcb5b259
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.loggedontodomain(v=EXCHG.150)

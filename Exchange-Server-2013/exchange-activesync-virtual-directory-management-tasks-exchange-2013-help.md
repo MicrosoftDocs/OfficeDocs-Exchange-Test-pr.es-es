@@ -1,5 +1,5 @@
 ﻿---
-title: 'Tareas de administración del directorio virtual de Exchange ActiveSync: Exchange 2013 Help'
+title: 'Tarea administración directorio virtual Exchange ActiveSync Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Tareas de administración del directorio virtual de Exchange ActiveSync
 ms:assetid: f0b339b7-e184-4392-a133-20523183459d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb125170(v=EXCHG.150)

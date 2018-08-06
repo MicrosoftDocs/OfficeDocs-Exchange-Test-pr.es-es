@@ -1,5 +1,5 @@
 ﻿---
-title: 'Proteger los datos de formulario con huellas digitales de documentos: Exchange 2013 Help'
+title: 'Proteger datos formulario con huellas digitales documentos: Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Proteger los datos de formulario con huellas digitales de documentos
 ms:assetid: 110c839b-7693-42f6-aa5d-58ce64f4c357
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn635175(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Conceptos básicos en el Shell de administración de Exchange: Exchange 2013 Help'
+title: 'Conceptos básicos en el Shell de administración de Exchange Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Conceptos básicos en el Shell de administración de Exchange
 ms:assetid: 87289884-7526-4f12-bf36-b252f4eff97e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn659284(v=EXCHG.150)

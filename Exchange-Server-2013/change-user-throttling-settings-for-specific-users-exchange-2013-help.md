@@ -1,5 +1,5 @@
 ﻿---
-title: 'Cambiar la configuración de limitación para determinados usuarios: Exchange 2013 Help'
+title: 'Cambiar configuración limitación para determinados usuarios Exchange 2013 Help | Microsoft Docs'
 TOCTitle: Cambiar la configuración de limitación para determinados usuarios
 ms:assetid: c5f834d6-189d-485e-9800-5e0066815ecf
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ863577(v=EXCHG.150)
