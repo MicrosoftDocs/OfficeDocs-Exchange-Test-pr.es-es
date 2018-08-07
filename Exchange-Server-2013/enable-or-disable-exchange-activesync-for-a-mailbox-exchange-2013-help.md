@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar o deshabilitar Exchange ActiveSync para un buzón de correo: Exchange 2013 Help'
+title: 'Habilitar o deshabilitar ActiveSync para buzón correo: Exchange 2013 Help'
 TOCTitle: Habilitar o deshabilitar Exchange ActiveSync para un buzón de correo
 ms:assetid: dcf7c05b-b1b9-4b0f-800d-fec9f2ddc9e4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124809(v=EXCHG.150)

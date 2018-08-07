@@ -1,5 +1,5 @@
 ﻿---
-title: 'El equipo local es un controlador de dominio de un dominio secundario_LocalComputerIsDCInChildDomain: Exchange 2013 Help'
+title: 'El equipo local es un controlador de dominio de un dominio secundario'
 TOCTitle: El equipo local es un controlador de dominio de un dominio secundario_LocalComputerIsDCInChildDomain
 ms:assetid: 7db1dcc0-d953-41b8-b081-2a47a70950c4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.localcomputerisdcinchilddomain(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'El nivel funcional de Active Directory no es Windows Server 2003 o posterior: Exchange 2013 Help'
+title: 'El nivel funcional de Active Directory no es Windows Server 2003 o posterior'
 TOCTitle: El nivel funcional de Active Directory no es Windows Server 2003 o posterior
 ms:assetid: 45f45976-62ac-4b6c-889a-ebd449402009
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.forestlevelnotwin2003native(v=EXCHG.150)

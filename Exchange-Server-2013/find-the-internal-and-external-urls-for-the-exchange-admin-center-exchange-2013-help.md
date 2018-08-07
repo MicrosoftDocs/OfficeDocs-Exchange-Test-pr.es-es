@@ -1,5 +1,5 @@
 ﻿---
-title: 'Encontrar las direcciones URL internas y externas para el Centro de Administración de Exchange: Exchange 2013 Help'
+title: 'Encontrar dirección URL internas externas para Centro Administración Exchange'
 TOCTitle: Encontrar las direcciones URL internas y externas para el Centro de Administración de Exchange
 ms:assetid: 3ddb30ff-a405-4b9d-8d77-2d7a3a5ab8fa
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ680108(v=EXCHG.150)

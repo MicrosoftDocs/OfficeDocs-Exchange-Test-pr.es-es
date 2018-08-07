@@ -1,5 +1,5 @@
 ﻿---
-title: 'Restaurar la configuración predeterminada de una plantilla de detalles: Exchange 2013 Help'
+title: 'Restaurar configuración predeterminada plantilla detalles: Exchange 2013 Help'
 TOCTitle: Restaurar la configuración predeterminada de una plantilla de detalles
 ms:assetid: 84c5f49b-614d-4f0e-8701-0979a2eb90bf
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb232102(v=EXCHG.150)

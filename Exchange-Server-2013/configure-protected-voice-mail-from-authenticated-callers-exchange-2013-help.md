@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar correo de voz protegido de llamadores autenticados: Exchange 2013 Help'
+title: 'Configurar correo voz protegido de llamadores autenticados: Exchange 2013 Help'
 TOCTitle: Configurar correo de voz protegido de llamadores autenticados
 ms:assetid: f69e94a7-9768-4445-9ded-e78d732bd623
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee423560(v=EXCHG.150)

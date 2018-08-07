@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar la lista de búsqueda de sufijos DNS para un espacio de nombres distintos: Exchange 2013 Help'
+title: 'Configurar lista de búsqueda de sufijos DNS para espacio de nombres distintos'
 TOCTitle: Configurar la lista de búsqueda de sufijos DNS para un espacio de nombres distintos
 ms:assetid: cfa715ac-7b69-47c3-b206-933ec2cf677b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb847901(v=EXCHG.150)

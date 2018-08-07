@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar la forma secundaria para los usuarios de Outlook Voice Access buscar: Exchange 2013 Help'
+title: 'Configurar forma secundaria para los usuarios de Outlook Voice Access buscar'
 TOCTitle: Configurar la forma secundaria para los usuarios de Outlook Voice Access buscar
 ms:assetid: 5cd4e0a0-d023-45a1-aa3c-b8dea6ec6d72
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa998311(v=EXCHG.150)

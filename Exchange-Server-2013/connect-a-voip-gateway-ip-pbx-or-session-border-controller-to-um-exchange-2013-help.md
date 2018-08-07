@@ -1,5 +1,5 @@
 ﻿---
-title: 'Conectar una puerta de enlace VoIP, IP PBX o un controlador de borde de sesión a mensajería unificada: Exchange 2013 Help'
+title: 'Conectar puerta enlace VoIP IP PBX o controlador borde sesión UM'
 TOCTitle: Conectar una puerta de enlace VoIP, IP PBX o un controlador de borde de sesión a mensajería unificada
 ms:assetid: a7cecf59-b93a-413b-bb88-29f2669ef2cf
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124084(v=EXCHG.150)

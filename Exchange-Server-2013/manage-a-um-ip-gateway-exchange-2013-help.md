@@ -1,5 +1,5 @@
 ﻿---
-title: 'Administrar una puerta de enlace IP de mensajería unificada: Exchange 2013 Help'
+title: 'Administrar una puerta de enlace IP de UM: Exchange 2013 Help'
 TOCTitle: Administrar una puerta de enlace IP de mensajería unificada
 ms:assetid: 387e540f-8c59-42d2-a423-99fcf97e00aa
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa997283(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar la autenticación basada en notificaciones de AD FS con Outlook Web App y EAC: Exchange 2013 Help'
+title: 'Uso autenticación basada en notificaciones de AD FS con Outlook Web App y EAC'
 TOCTitle: Usar la autenticación basada en notificaciones de AD FS con Outlook Web App y EAC
 ms:assetid: 919a9bfb-c6df-490a-b2c4-51796b0f0596
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn635116(v=EXCHG.150)

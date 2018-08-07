@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir a los usuarios ver una transcripción de correo de voz: Exchange 2013 Help'
+title: 'Permitir a usuarios ver una transcripción de correo de voz: Exchange 2013 Help'
 TOCTitle: Permitir a los usuarios ver una transcripción de correo de voz
 ms:assetid: c5192e05-905c-440f-beec-1f697edc15b3
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff629381(v=EXCHG.150)

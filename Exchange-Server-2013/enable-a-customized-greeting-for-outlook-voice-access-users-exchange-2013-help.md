@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar un saludo personalizado para los usuarios de Outlook Voice Access: Exchange 2013 Help'
+title: 'Habilitar un saludo personalizado para los usuarios de Outlook Voice Access'
 TOCTitle: Habilitar un saludo personalizado para los usuarios de Outlook Voice Access
 ms:assetid: abd418ec-2c65-4720-859d-c11a2698dc06
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124125(v=EXCHG.150)

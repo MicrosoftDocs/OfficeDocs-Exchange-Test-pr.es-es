@@ -1,5 +1,5 @@
 ﻿---
-title: 'Error al desinstalar un rol de servidor_interrupteduninstallnotcontinued: Exchange 2013 Help'
+title: 'Error al desinstalar un rol de servidor'
 TOCTitle: Error al desinstalar un rol de servidor_interrupteduninstallnotcontinued
 ms:assetid: 187967b2-cb28-45d7-8858-2a083c1ebe58
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.interrupteduninstallnotcontinued(v=EXCHG.150)

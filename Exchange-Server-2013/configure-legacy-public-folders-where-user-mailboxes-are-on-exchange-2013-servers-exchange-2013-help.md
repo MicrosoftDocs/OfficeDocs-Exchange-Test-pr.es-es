@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar las carpetas públicas heredadas en las que se encuentran los buzones de usuario en los servidores de Exchange 2013: Exchange 2013 Help'
+title: 'Configurar carpetas públicas heredadas con buzon usuario servidor Exchange 2013'
 TOCTitle: Configurar las carpetas públicas heredadas en las que se encuentran los buzones de usuario en los servidores de Exchange 2013
 ms:assetid: 1d5ca19e-696e-4054-a634-15dd34d952b7
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn690134(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar un anuncio informativo para los usuarios de Outlook Voice Access: Exchange 2013 Help'
+title: 'Habilitar un anuncio informativo para los usuarios de Outlook Voice Access'
 TOCTitle: Habilitar un anuncio informativo para los usuarios de Outlook Voice Access
 ms:assetid: b69ed0e1-f978-498a-963e-42a047678db4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124344(v=EXCHG.150)

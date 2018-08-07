@@ -1,5 +1,5 @@
 ﻿---
-title: 'No se recomienda instalar Exchange en un controlador de dominio: Exchange 2013 Help'
+title: 'No se recomienda instalar Exchange en un controlador de dominio'
 TOCTitle: No se recomienda instalar Exchange en un controlador de dominio
 ms:assetid: 48922de2-a68c-4092-96a5-d38c8e5f49f5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.warninginstallexchangerolesondomaincontroller(v=EXCHG.150)

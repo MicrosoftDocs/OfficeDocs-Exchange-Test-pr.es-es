@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lista de comprobación: Integrar mensajería unificada de Exchange 2013 con Lync Server: Exchange 2013 Help'
+title: 'Lista comprobar Integrar UM Exchange 2013 con Lync Server Exchange 2013 Help'
 TOCTitle: 'Lista de comprobación: Integrar mensajería unificada de Exchange 2013 con Lync Server'
 ms:assetid: 3b82e86f-9f30-4445-96ad-744082abeaeb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd638120(v=EXCHG.150)

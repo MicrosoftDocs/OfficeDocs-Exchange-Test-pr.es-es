@@ -1,5 +1,5 @@
 ﻿---
-title: 'Administrar la configuración de mensajería unificada en un servidor de acceso de cliente: Exchange 2013 Help'
+title: 'Administrar la configuración de UM servidor acceso cliente: Exchange 2013 Help'
 TOCTitle: Administrar la configuración de mensajería unificada en un servidor de acceso de cliente
 ms:assetid: 08667911-fa86-404e-84b1-65cedd94d579
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ673507(v=EXCHG.150)

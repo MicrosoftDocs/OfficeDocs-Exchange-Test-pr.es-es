@@ -1,5 +1,5 @@
 ﻿---
-title: 'El usuario ha iniciado sesión no es un miembro de la group_NotLocalAdmin de los administradores locales: Exchange 2013 Help'
+title: 'El usuario que inició sesión no es miembro del grupo Administradores local'
 TOCTitle: El usuario ha iniciado sesión no es un miembro de la group_NotLocalAdmin de los administradores locales
 ms:assetid: d06f0894-b139-49ba-afe3-f58d3bd28e32
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.notlocaladmin(v=EXCHG.150)

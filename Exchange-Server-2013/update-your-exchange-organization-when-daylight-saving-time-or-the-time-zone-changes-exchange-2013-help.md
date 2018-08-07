@@ -1,5 +1,5 @@
 ﻿---
-title: 'Actualizar la organización de Exchange cuando cambia el horario de verano o la zona horaria: Exchange 2013 Help'
+title: 'Actualizar organización Exchange al cambiar horario de verano o zona horaria'
 TOCTitle: Actualizar la organización de Exchange cuando cambia el horario de verano o la zona horaria
 ms:assetid: 5b12615c-24cf-4f46-bf3c-2334dc734ef8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh530051(v=EXCHG.150)

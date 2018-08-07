@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar el número de llamadas entrantes en un servidor de buzones: Exchange 2013 Help'
+title: 'Configurar n.º de llamadas entrantes en servidor de buzones Exchange 2013 Help'
 TOCTitle: Configurar el número de llamadas entrantes en un servidor de buzones
 ms:assetid: 419e1de9-2bf8-48a8-824d-2a536b0a6d90
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa997637(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Se han encontrado uno o varios servidores Conector de Active Directory_ADCFound: Exchange 2013 Help'
+title: 'Se han encontrado uno o varios servidores Conector de Active Directory'
 TOCTitle: Se han encontrado uno o varios servidores Conector de Active Directory_ADCFound
 ms:assetid: a874f51f-09a2-4a76-9695-d61fb1ee6c1c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.adcfound(v=EXCHG.150)

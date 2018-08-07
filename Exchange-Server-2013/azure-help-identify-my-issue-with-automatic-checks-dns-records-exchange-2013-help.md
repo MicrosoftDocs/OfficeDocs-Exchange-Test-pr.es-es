@@ -1,5 +1,5 @@
 ﻿---
-title: 'Azure Ayudar a identificar mi problema con comprobaciones automáticas: registros DNS: Exchange 2013 Help'
+title: 'Azure: ayudar a identificar problema con comprobaciones auto. registros DNS'
 TOCTitle: 'Azure Ayudar a identificar mi problema con comprobaciones automáticas: registros DNS'
 ms:assetid: 1ef42cde-4df4-401a-b8f2-494630996ca8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn793619(v=EXCHG.150)

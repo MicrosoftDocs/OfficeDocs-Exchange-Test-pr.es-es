@@ -1,5 +1,5 @@
 ﻿---
-title: 'Se debe reiniciar el equipo para continuar con la instalación: Exchange 2013 Help'
+title: 'Se debe reiniciar el equipo para continuar con la instalación'
 TOCTitle: Se debe reiniciar el equipo para continuar con la instalación
 ms:assetid: d5c73280-4e54-473a-b328-9673af11e2c0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.rebootpending(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Deshabilitar la vista previa del correo de voz para usuarios: Exchange 2013 Help'
+title: 'Deshabilitar vista previa del correo de voz para usuarios: Exchange 2013 Help'
 TOCTitle: Deshabilitar la vista previa del correo de voz para usuarios
 ms:assetid: 362fed13-3a9c-4111-bfa4-8c45ab6a3a01
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd335199(v=EXCHG.150)

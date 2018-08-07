@@ -1,5 +1,5 @@
 ﻿---
-title: 'Uso del Shell de administración de Exchange para administrar colas: Exchange 2013 Help'
+title: 'Uso Shell administración Exchange para administrar colas: Exchange 2013 Help'
 TOCTitle: Uso del Shell de administración de Exchange para administrar colas
 ms:assetid: 5433c1d3-ad2e-4f82-b50d-b67964b32f26
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa998047(v=EXCHG.150)

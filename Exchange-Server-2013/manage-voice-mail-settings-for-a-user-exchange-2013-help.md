@@ -1,5 +1,5 @@
 ﻿---
-title: 'Administrar la configuración de correo de voz para un usuario: Exchange 2013 Help'
+title: 'Administrar configuración de correo de voz para un usuario: Exchange 2013 Help'
 TOCTitle: Administrar la configuración de correo de voz para un usuario
 ms:assetid: 73957938-048a-4f9c-bd0f-a3c2c3dcd638
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa998851(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Agregar servidores de acceso de cliente y buzón a un plan de marcado de URI de SIP: Exchange 2013 Help'
+title: 'Agregar servidor de acceso de cliente y buzón a plan de marcado de URI de SIP'
 TOCTitle: Agregar servidores de acceso de cliente y buzón a un plan de marcado de URI de SIP
 ms:assetid: 17fed308-ff0d-4e61-b9f9-e6680b6eccaa
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa996399(v=EXCHG.150)

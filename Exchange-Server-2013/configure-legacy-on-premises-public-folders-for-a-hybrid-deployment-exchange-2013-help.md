@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar carpetas públicas locales heredadas para una implementación híbrida: Exchange 2013 Help'
+title: 'Configurar carpetas públicas locales heredadas para una implementación híbrida'
 TOCTitle: Configurar carpetas públicas locales heredadas para una implementación híbrida
 ms:assetid: bcb0ac98-2949-486b-a8ab-8549c021651b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn249373(v=EXCHG.150)

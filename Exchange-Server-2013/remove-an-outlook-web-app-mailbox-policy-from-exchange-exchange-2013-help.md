@@ -1,5 +1,5 @@
 ﻿---
-title: 'Quitar una directiva de buzón de Outlook Web App de Exchange: Exchange 2013 Help'
+title: 'Quitar directiva de buzón de Outlook Web App de Exchange: Exchange 2013 Help'
 TOCTitle: Quitar una directiva de buzón de Outlook Web App de Exchange
 ms:assetid: edab7bac-b62c-4b82-8f21-dcac77cf0e8f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd351239(v=EXCHG.150)

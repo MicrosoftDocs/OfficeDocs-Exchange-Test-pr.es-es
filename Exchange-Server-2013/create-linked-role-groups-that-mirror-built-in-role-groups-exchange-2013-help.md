@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear grupos de funciones vinculadas que reflejan grupos de funciones integradas: Exchange 2013 Help'
+title: 'Crear grupo función vinculada refleje función integrada: Exchange 2013 Help'
 TOCTitle: Crear grupos de funciones vinculadas que reflejan grupos de funciones integradas
 ms:assetid: 89dfcbb3-0568-4bbf-a885-746b91ba307e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd876918(v=EXCHG.150)

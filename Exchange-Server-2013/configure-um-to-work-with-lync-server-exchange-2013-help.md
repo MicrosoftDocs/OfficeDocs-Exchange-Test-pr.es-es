@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar la mensajería unificada para que funcione con Lync Server: Exchange 2013 Help'
+title: 'Configurar UM para que funcione con Lync Server: Exchange 2013 Help'
 TOCTitle: Configurar la mensajería unificada para que funcione con Lync Server
 ms:assetid: 29bdddbf-75d5-4c92-988e-c8506ecc7a1c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ966276(v=EXCHG.150)

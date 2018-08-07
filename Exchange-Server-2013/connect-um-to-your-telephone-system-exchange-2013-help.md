@@ -1,5 +1,5 @@
 ﻿---
-title: 'Conectar la mensajería unificada para su sistema telefónico: Exchange 2013 Help'
+title: 'Conectar la UM para su sistema telefónico: Exchange 2013 Help'
 TOCTitle: Conectar la mensajería unificada para su sistema telefónico
 ms:assetid: 92c3e029-f732-4d6d-b147-2b3006d5f088
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ673544(v=EXCHG.150)

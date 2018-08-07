@@ -1,5 +1,5 @@
 ﻿---
-title: 'Deshabilitar las llamadas salientes de puertas de enlace IP de mensajería unificada: Exchange 2013 Help'
+title: 'Deshabilitar llamadas salientes puertas enlace IP de UM: Exchange 2013 Help'
 TOCTitle: Deshabilitar las llamadas salientes de puertas de enlace IP de mensajería unificada
 ms:assetid: a3777cc6-37e4-4359-ada3-a962ac0ef0c3
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb232153(v=EXCHG.150)

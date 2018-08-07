@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar servicios de socios de vista previa del correo de voz para los usuarios: Exchange 2013 Help'
+title: 'Configurar servicio socios vista previa correo voz usuarios Exchange 2013 Help'
 TOCTitle: Configurar servicios de socios de vista previa del correo de voz para los usuarios
 ms:assetid: 7bb914ca-5502-4e64-bae5-555034138d8a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff630920(v=EXCHG.150)

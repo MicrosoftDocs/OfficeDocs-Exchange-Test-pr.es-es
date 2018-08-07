@@ -1,5 +1,5 @@
 ﻿---
-title: 'Importar y exportar saludos personalizados, anuncios, menús y avisos: Exchange 2013 Help'
+title: 'Importar y exportar saludos personalizados, anuncios, menús y avisos'
 TOCTitle: Importar y exportar saludos personalizados, anuncios, menús y avisos
 ms:assetid: e82da5d5-625f-4d8b-8d31-ac45513aacfd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee681667(v=EXCHG.150)

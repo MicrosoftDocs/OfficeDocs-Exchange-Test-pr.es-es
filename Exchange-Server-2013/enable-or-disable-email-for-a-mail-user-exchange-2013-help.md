@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar o deshabilitar el correo electrónico de un usuario de correo: Exchange 2013 Help'
+title: 'Habilitar o deshabilitar el correo de un usuario de correo: Exchange 2013 Help'
 TOCTitle: Habilitar o deshabilitar el correo electrónico de un usuario de correo
 ms:assetid: 1e2571d4-ff84-4fda-bb1d-825e96e1bd26
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa996598(v=EXCHG.150)

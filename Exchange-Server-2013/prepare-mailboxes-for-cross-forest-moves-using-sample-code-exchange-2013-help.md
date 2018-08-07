@@ -1,5 +1,5 @@
 ﻿---
-title: 'Preparar buzones para movimientos entre bosques mediante código de ejemplo: Exchange 2013 Help'
+title: 'Preparar buzón para pasar entre bosque con código ejemplo: Exchange 2013 Help'
 TOCTitle: Preparar buzones para movimientos entre bosques mediante código de ejemplo
 ms:assetid: f35ac7a5-bb84-4653-b6d0-65906e93627b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee861124(v=EXCHG.150)

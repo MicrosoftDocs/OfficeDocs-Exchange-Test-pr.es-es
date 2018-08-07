@@ -1,5 +1,5 @@
 ﻿---
-title: 'No tiene permisos suficientes para eliminar todos los roles_CannotUninstallDelegatedServer: Exchange 2013 Help'
+title: 'Permisos insuficientes para eliminar todos los roles'
 TOCTitle: No tiene permisos suficientes para eliminar todos los roles_CannotUninstallDelegatedServer
 ms:assetid: 214ae6f3-15e7-4337-99e8-40f9547c8e0c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.cannotuninstalldelegatedserver(v=EXCHG.150)

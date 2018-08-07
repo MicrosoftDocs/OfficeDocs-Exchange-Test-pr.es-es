@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ayudar a identificar mi problema con comprobaciones automáticas: cuota: Exchange 2013 Help'
+title: 'Ayuda identificar mi problema comprobación automática cuota Exchange 2013 Help'
 TOCTitle: 'Ayudar a identificar mi problema con comprobaciones automáticas: cuota'
 ms:assetid: ddb93b30-d25c-463e-9814-0c56601ae734
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn793976(v=EXCHG.150)

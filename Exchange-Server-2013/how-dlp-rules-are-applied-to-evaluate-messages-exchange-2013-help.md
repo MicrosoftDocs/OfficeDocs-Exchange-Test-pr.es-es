@@ -1,5 +1,5 @@
 ﻿---
-title: 'Cómo se aplican las reglas de DLP para la evaluación de mensajes: Exchange 2013 Help'
+title: 'Cómo se aplican reglas de DLP para evaluación de mensajes: Exchange 2013 Help'
 TOCTitle: Cómo se aplican las reglas de DLP para la evaluación de mensajes
 ms:assetid: 1ac77020-26ff-410c-ab09-4f28a99d67a1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn329050(v=EXCHG.150)

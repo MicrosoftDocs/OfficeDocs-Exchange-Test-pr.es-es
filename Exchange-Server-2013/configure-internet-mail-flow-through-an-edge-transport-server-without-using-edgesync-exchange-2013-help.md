@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar el flujo de correo de Internet a través de un servidor de transporte perimetral sin usar EdgeSync: Exchange 2013 Help'
+title: 'Configurar flujo correo Internet servidor transporte perimetral sin EdgeSync'
 TOCTitle: Configurar el flujo de correo de Internet a través de un servidor de transporte perimetral sin usar EdgeSync
 ms:assetid: 6bb98d10-6f12-4b08-a58e-36375f605d65
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb232082(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar el tamaño de gran audiencia para su organización: Exchange 2013 Help'
+title: 'Configurar el tamaño de gran audiencia para su organización Exchange 2013 Help'
 TOCTitle: Configurar el tamaño de gran audiencia para su organización
 ms:assetid: 8a37911c-4339-4921-b5d3-0a5a774d4517
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ659068(v=EXCHG.150)

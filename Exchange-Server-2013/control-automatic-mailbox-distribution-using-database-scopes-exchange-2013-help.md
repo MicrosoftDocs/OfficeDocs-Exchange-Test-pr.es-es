@@ -1,5 +1,5 @@
 ﻿---
-title: 'Controlar la distribución automática de buzones mediante los ámbitos de base de datos: Exchange 2013 Help'
+title: 'Controlar distribución automática buzones mediante ámbitos base datos'
 TOCTitle: Controlar la distribución automática de buzones mediante los ámbitos de base de datos
 ms:assetid: 8eaff177-2251-4c8b-8570-c91a77d0a6fc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff628332(v=EXCHG.150)

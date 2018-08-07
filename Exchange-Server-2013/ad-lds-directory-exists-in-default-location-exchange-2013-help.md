@@ -1,5 +1,5 @@
 ﻿---
-title: 'El directorio de AD LDS existe en la ubicación predeterminada: Exchange 2013 Help'
+title: 'El directorio de AD LDS existe en ubicación predeterminada: Exchange 2013 Help'
 TOCTitle: El directorio de AD LDS existe en la ubicación predeterminada
 ms:assetid: cf830dec-dd74-47b2-bee2-b8956f8023ce
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.adamdatapathexists(v=EXCHG.150)

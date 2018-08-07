@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ayudar a identificar mi problema con comprobaciones automáticas: implementación de Office: Exchange 2013 Help'
+title: 'Ayudar identificar mi problema comprobaciones automáticas: implementar Office'
 TOCTitle: 'Ayudar a identificar mi problema con comprobaciones automáticas: implementación de Office'
 ms:assetid: 77d4587c-7fd5-4231-931e-3d6608e622f4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn793978(v=EXCHG.150)

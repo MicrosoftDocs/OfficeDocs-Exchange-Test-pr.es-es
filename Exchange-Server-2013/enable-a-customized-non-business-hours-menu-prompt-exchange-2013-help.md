@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar un aviso de menú personalizado para el horario no comercial: Exchange 2013 Help'
+title: 'Habilitar aviso personalizado para horario no comercial Exchange 2013 Help'
 TOCTitle: Habilitar un aviso de menú personalizado para el horario no comercial
 ms:assetid: 094c50b2-072b-4929-aaf8-f7db5b19e9b6
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb266919(v=EXCHG.150)

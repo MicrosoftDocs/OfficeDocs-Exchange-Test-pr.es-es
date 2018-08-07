@@ -1,5 +1,5 @@
 ﻿---
-title: 'Procedimientos de directivas de direcciones de correo electrónico: Exchange 2013 Help'
+title: 'Procedimientos directivas direcciones correo electrónico: Exchange 2013 Help'
 TOCTitle: Procedimientos de directivas de direcciones de correo electrónico
 ms:assetid: 7b49b51d-265e-4857-a283-4368e858f8a5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa998940(v=EXCHG.150)

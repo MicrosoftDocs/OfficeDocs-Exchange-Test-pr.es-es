@@ -1,5 +1,5 @@
 ﻿---
-title: 'Formato de direcciones SMTP no Supported_SMTPAddressLiteral: Exchange 2013 Help'
+title: 'Formato de direcciones SMTP no admitido_SMTPAddressLiteral: Exchange 2013 Help'
 TOCTitle: Formato de direcciones SMTP no Supported_SMTPAddressLiteral
 ms:assetid: b8b55917-d81f-4c0a-ad65-7bb10ac58df8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.smtpaddressliteral(v=EXCHG.150)

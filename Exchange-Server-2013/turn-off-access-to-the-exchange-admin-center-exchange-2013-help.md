@@ -1,5 +1,5 @@
 ﻿---
-title: 'Desactivar el acceso al Centro de administración de Exchange: Exchange 2013 Help'
+title: 'Desactivar acceso al Centro de administración de Exchange: Exchange 2013 Help'
 TOCTitle: Desactivar el acceso al Centro de administración de Exchange
 ms:assetid: 49f4fa77-1722-4703-81c9-8724ae0334fb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ218639(v=EXCHG.150)

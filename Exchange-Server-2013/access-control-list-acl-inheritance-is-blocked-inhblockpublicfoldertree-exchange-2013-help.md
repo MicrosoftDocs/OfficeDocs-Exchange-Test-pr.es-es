@@ -1,5 +1,5 @@
 ﻿---
-title: 'La herencia de la lista de control de acceso (ACL) está bloqueada_InhBlockPublicFolderTree: Exchange 2013 Help'
+title: 'La herencia de la lista de control de acceso (ACL) está bloqueada'
 TOCTitle: La herencia de la lista de control de acceso (ACL) está bloqueada_InhBlockPublicFolderTree
 ms:assetid: e3b89c8a-d6f8-4864-8bf0-35a78ce87cc4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.inhblockpublicfoldertree(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Administrar sugerencias de correo electrónico para las relaciones de la organización: Exchange 2013 Help'
+title: 'Administrar sugerencias correo para relaciones organización Exchange 2013 Help'
 TOCTitle: Administrar sugerencias de correo electrónico para las relaciones de la organización
 ms:assetid: 6e6b48ef-c41c-47ad-8063-66901765c2a5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ649324(v=EXCHG.150)

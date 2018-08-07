@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar un plan de marcado para los usuarios con nombres parecidos: Exchange 2013 Help'
+title: 'Configurar plan marcado para usuarios con nombres parecidos Exchange 2013 Help'
 TOCTitle: Configurar un plan de marcado para los usuarios con nombres parecidos
 ms:assetid: 14783f45-95f5-49de-8215-0a3aef7dc034
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb266943(v=EXCHG.150)

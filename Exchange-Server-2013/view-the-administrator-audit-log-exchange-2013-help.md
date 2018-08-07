@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ver el registro de auditoría del administrador: Exchange Online Protection Help'
+title: 'Ver el registro de auditoría del administrador: Exchange 2013 Help'
 TOCTitle: Ver el registro de auditoría del administrador
 ms:assetid: 5c62072a-556d-4fea-9973-d668c6b9fd57
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn342832(v=EXCHG.150)

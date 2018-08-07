@@ -1,5 +1,5 @@
 ﻿---
-title: 'Procedimientos de administración de registros de mensajería: Exchange 2013 Help'
+title: 'Procedimientos de administración de registros de mensajería Exchange 2013 Help'
 TOCTitle: Procedimientos de administración de registros de mensajería
 ms:assetid: bc2ff408-4a2b-4202-9515-e3e922a6320d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ150558(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Recuperar mensajes en cuarentena del buzón de cuarentena de correo no deseado: Exchange 2013 Help'
+title: 'Recuperar mensajes en cuarentena del buzón de cuarentena de correo no deseado'
 TOCTitle: Recuperar mensajes en cuarentena del buzón de cuarentena de correo no deseado
 ms:assetid: 7a86bfde-f868-4689-bdec-5f01e52b510d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa998920(v=EXCHG.150)

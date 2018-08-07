@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar las carpetas públicas de Exchange Online para una implementación híbrida: Exchange 2013 Help'
+title: 'Configurar carpetas públicas de Exchange Online para implementación híbrida'
 TOCTitle: Configurar las carpetas públicas de Exchange Online para una implementación híbrida
 ms:assetid: d979edb3-967b-4431-8beb-0c236bf7f56d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Mt729076(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Implementación de certificados para los procedimientos de mensajería unificada: Exchange 2013 Help'
+title: 'Implementación de certificados para procedimientos de UM: Exchange 2013 Help'
 TOCTitle: Implementación de certificados para los procedimientos de mensajería unificada
 ms:assetid: 21631c68-86ad-4f00-a1eb-dcc2758f6bf0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn205139(v=EXCHG.150)

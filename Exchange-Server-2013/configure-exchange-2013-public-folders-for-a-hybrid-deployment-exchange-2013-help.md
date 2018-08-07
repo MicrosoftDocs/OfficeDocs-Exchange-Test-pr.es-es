@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configuración de las carpetas públicas de Exchange 2013 para una implementación híbrida: Exchange 2013 Help'
+title: 'Configurar carpetas públicas de Exchange 2013 para una implementación híbrida'
 TOCTitle: Configuración de las carpetas públicas de Exchange 2013 para una implementación híbrida
 ms:assetid: b828520f-022c-4fcb-ab68-e1c330e87c33
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn986544(v=EXCHG.150)

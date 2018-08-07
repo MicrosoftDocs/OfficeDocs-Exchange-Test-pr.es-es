@@ -1,5 +1,5 @@
 ﻿---
-title: 'Métodos abreviados de teclado en el Centro de administración de Exchange: Exchange 2013 Help'
+title: 'Métodos abreviados de teclado en el Centro de administración de Exchange'
 TOCTitle: Métodos abreviados de teclado en el Centro de administración de Exchange
 ms:assetid: 146b2b52-1ef8-4606-991a-4cf4da694970
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ150484(v=EXCHG.150)

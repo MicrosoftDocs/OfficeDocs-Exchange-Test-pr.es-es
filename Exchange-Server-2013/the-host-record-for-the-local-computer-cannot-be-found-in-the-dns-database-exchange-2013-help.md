@@ -1,5 +1,5 @@
 ﻿---
-title: 'No se encuentra el registro host del PC local en la base de datos DNS: Exchange 2013 Help'
+title: 'No se encuentra el registro host del PC local en la base de datos de DNS'
 TOCTitle: No se encuentra el registro host del PC local en la base de datos DNS
 ms:assetid: 2f18cb65-29fe-4b72-8d68-52fd503d5673
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.hostrecordmissing(v=EXCHG.150)

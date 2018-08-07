@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar o deshabilitar el registro de Information Rights Management: Exchange 2013 Help'
+title: 'Habilita deshabilita registro Information Rights Management Exchange 2013 Help'
 TOCTitle: Habilitar o deshabilitar el registro de Information Rights Management
 ms:assetid: 6933bc65-4d98-4878-9167-0e9eaac68b6b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff686962(v=EXCHG.150)

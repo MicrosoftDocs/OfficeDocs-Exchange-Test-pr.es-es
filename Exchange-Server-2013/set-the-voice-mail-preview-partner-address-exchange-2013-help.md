@@ -1,5 +1,5 @@
 ﻿---
-title: 'Establecer la dirección del socio de vista previa del correo de voz: Exchange 2013 Help'
+title: 'Establecer la dirección socio vista previa correo de voz: Exchange 2013 Help'
 TOCTitle: Establecer la dirección del socio de vista previa del correo de voz
 ms:assetid: 57fbed1e-1b14-4939-95e6-ef7c072f32a9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff630917(v=EXCHG.150)

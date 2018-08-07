@@ -1,5 +1,5 @@
 ﻿---
-title: 'Definir sus propios tipos de información y plantillas de DLP: Exchange 2013 Help'
+title: 'Definir sus propios tipos de información y plantillas DLP: Exchange 2013 Help'
 TOCTitle: Definir sus propios tipos de información y plantillas de DLP
 ms:assetid: f4622dba-3347-4758-b4a2-f01b043c908c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ674310(v=EXCHG.150)

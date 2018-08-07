@@ -1,5 +1,5 @@
 ﻿---
-title: 'Descripción de los filtros de ámbito de los roles de administración: Exchange 2013 Help'
+title: 'Descripción de filtros de ámbito de roles administración: Exchange 2013 Help'
 TOCTitle: Descripción de los filtros de ámbito de los roles de administración
 ms:assetid: 6acc2922-ee9c-41f1-8a0f-10a541e8c273
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd298043(v=EXCHG.150)

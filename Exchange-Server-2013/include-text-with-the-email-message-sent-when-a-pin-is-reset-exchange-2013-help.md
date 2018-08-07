@@ -1,5 +1,5 @@
 ﻿---
-title: 'Incluir el texto con el mensaje de correo electrónico que se envía cuando un restablecimiento de PIN es: Exchange 2013 Help'
+title: 'Incluir texto con mensaje de correo que se envía cuando se restablece un PIN'
 TOCTitle: Incluir el texto con el mensaje de correo electrónico que se envía cuando un restablecimiento de PIN es
 ms:assetid: f7a4d775-a588-412f-ac2c-11ab1a5c67eb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb201750(v=EXCHG.150)

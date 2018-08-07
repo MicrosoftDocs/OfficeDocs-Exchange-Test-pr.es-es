@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar los intervalos de reintento, reenvío y expiración de mensajes: Exchange 2013 Help'
+title: 'Configurar los intervalos de reintento, reenvío y expiración de mensajes'
 TOCTitle: Configurar los intervalos de reintento, reenvío y expiración de mensajes
 ms:assetid: 5420124f-aa4c-4702-b493-40a9a7edb786
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa998043(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Descripción del llenado con ceros de las páginas de Exchange 2013: Exchange 2013 Help'
+title: 'Descripción del llenado con ceros de páginas Exchange 2013: Exchange 2013 Help'
 TOCTitle: Descripción del llenado con ceros de las páginas de Exchange 2013
 ms:assetid: 0ca7b188-efbc-4c0d-bcfe-5138cffc803c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg549096(v=EXCHG.150)

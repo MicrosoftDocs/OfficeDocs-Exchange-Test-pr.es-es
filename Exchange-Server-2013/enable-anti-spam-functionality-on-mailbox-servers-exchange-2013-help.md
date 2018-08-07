@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar la funcionalidad contra correo electrónico no deseado en un servidor Buzón de correo: Exchange 2013 Help'
+title: 'Habilitar funcionalidad contra spam servidor Buzón correo: Exchange 2013 Help'
 TOCTitle: Habilitar la funcionalidad contra correo electrónico no deseado en un servidor Buzón de correo
 ms:assetid: 59d22c5e-64bc-4879-8ad1-364862b6ba11
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb201691(v=EXCHG.150)

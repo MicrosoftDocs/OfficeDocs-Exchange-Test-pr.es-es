@@ -1,5 +1,5 @@
 ﻿---
-title: 'Detenga el servicio Microsoft Exchange Unified Messaging llame al Router: Exchange 2013 Help'
+title: 'Detener el servicio Enrutador de llamadas de mensajería unificada de Exchange'
 TOCTitle: Detenga el servicio Microsoft Exchange Unified Messaging llame al Router
 ms:assetid: 79935528-1a8c-4f22-826c-8f9a60f4f6f4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ673535(v=EXCHG.150)

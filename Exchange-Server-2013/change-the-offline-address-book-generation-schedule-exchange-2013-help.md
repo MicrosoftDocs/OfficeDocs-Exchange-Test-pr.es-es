@@ -1,5 +1,5 @@
 ﻿---
-title: 'Cambiar el programa de generación de libretas de direcciones sin conexión: Exchange 2013 Help'
+title: 'Cambiar programa generación libreta dirección sin conexión: Exchange 2013 Help'
 TOCTitle: Cambiar el programa de generación de libretas de direcciones sin conexión
 ms:assetid: d2b4d527-311e-442d-9f1f-54fac8371b80
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124719(v=EXCHG.150)

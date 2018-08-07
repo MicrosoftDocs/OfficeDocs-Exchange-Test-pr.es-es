@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ver las propiedades de mensajes en cola en el Visor de cola: Exchange 2013 Help'
+title: 'Ver las propiedades de mensajes en cola en Visor de cola: Exchange 2013 Help'
 TOCTitle: Ver las propiedades de mensajes en cola en el Visor de cola
 ms:assetid: 9d15d8b8-e061-4288-9354-df58e282fb6b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb123934(v=EXCHG.150)

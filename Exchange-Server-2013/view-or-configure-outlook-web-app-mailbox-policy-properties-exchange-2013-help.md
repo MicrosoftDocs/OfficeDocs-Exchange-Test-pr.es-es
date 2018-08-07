@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ver o configurar las propiedades de directiva de buzón de Outlook Web App: Exchange 2013 Help'
+title: 'Ver o configurar las propiedades de directiva de buzón de Outlook Web App'
 TOCTitle: Ver o configurar las propiedades de directiva de buzón de Outlook Web App
 ms:assetid: be012ffe-8fdb-4fb7-aebd-78b3a55593fa
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd351097(v=EXCHG.150)

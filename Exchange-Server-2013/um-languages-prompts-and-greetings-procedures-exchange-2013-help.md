@@ -1,5 +1,5 @@
 ﻿---
-title: 'Procedimientos de lenguajes, mensajes y saludos de mensajería unificada: Exchange 2013 Help'
+title: 'Procedimientos de lenguajes, mensajes y saludos de UM: Exchange 2013 Help'
 TOCTitle: Procedimientos de lenguajes, mensajes y saludos de mensajería unificada
 ms:assetid: 935bcf76-f27d-406e-962b-3adb014cf76e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ863293(v=EXCHG.150)

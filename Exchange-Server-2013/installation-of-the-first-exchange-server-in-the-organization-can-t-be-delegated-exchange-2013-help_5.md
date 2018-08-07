@@ -1,5 +1,5 @@
 ﻿---
-title: 'La instalación del primer servidor de Exchange de la organización no se puede delegar: Exchange 2013 Help'
+title: 'No se puede delegar instalación del primer servidor Exchange en organización'
 TOCTitle: La instalación del primer servidor de Exchange de la organización no se puede delegar
 ms:assetid: 0f4c5b2f-85ae-4160-9a53-f4b890d8ccdb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.delegatedfrontendtransportfirstinstall(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Qué buscan los tipos de información confidencial de Exchange: Exchange 2013 Help'
+title: '¿Qué buscan los tipos de información confidencial de Exchange?'
 TOCTitle: Qué buscan los tipos de información confidencial
 ms:assetid: 98b81f9c-87bb-4905-8e53-04621c3ae74d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ150541(v=EXCHG.150)

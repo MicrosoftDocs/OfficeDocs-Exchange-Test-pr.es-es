@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir a los usuarios en el mismo plan de marcado para recibir faxes: Exchange 2013 Help'
+title: 'Permitir a usuarios en mismo plan marcado recibir faxes: Exchange 2013 Help'
 TOCTitle: Permitir a los usuarios en el mismo plan de marcado para recibir faxes
 ms:assetid: cb245028-0b86-4171-879e-934dd35fa626
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124557(v=EXCHG.150)

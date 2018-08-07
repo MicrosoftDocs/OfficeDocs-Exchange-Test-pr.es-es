@@ -1,5 +1,5 @@
 ﻿---
-title: 'Caracteres no admitidos en los nombres de objetos de Exchange 2013: Exchange 2013 Help'
+title: 'Caracteres no admitidos en nombres objetos Exchange 2013: Exchange 2013 Help'
 TOCTitle: Caracteres no admitidos en los nombres de objetos de Exchange 2013
 ms:assetid: 76fa4e23-f0f6-473b-9227-70ded907578f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn169553(v=EXCHG.150)

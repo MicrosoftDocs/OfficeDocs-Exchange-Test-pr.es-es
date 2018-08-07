@@ -1,5 +1,5 @@
 ﻿---
-title: 'El servicio Coordinador de transacciones distribuidas debe iniciarse antes de que el programa de instalación pueda continue_MSDTCStopped: Exchange 2013 Help'
+title: 'Coordinador transacción distribuida iniciar antes programa instalar continuar'
 TOCTitle: El servicio Coordinador de transacciones distribuidas debe iniciarse antes de que el programa de instalación pueda continue_MSDTCStopped
 ms:assetid: 96e33c94-348e-4a0b-9585-9bee81be4355
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.msdtcstopped(v=EXCHG.150)

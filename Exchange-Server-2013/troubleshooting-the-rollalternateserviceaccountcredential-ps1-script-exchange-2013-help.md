@@ -1,5 +1,5 @@
 ﻿---
-title: 'Solución de problemas del script RollAlternateServiceAccountCredential.ps1: Exchange 2013 Help'
+title: 'Solución de problemas del script RollAlternateServiceAccountCredential.ps1'
 TOCTitle: Solución de problemas del script RollAlternateServiceAccountCredential.ps1
 ms:assetid: 2bbf36d3-eb89-4f92-a8de-259a7cb64d62
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff808310(v=EXCHG.150)

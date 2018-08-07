@@ -1,5 +1,5 @@
 ﻿---
-title: 'Revertir una migración de carpetas públicas de Exchange 2013 a Exchange Online: Exchange 2013 Help'
+title: 'Revertir una migración de carpetas públicas de Exchange 2013 a Exchange Online'
 TOCTitle: Revertir una migración de carpetas públicas de Exchange 2013 a Exchange Online
 ms:assetid: bcd54aa0-aa45-4c68-b504-1475842d4b96
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Mt798259(v=EXCHG.150)

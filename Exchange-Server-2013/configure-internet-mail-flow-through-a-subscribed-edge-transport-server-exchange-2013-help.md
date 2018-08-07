@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configure Internet mail flow through a subscribed Edge Transport server: Exchange 2013 Help'
+title: 'Configurar flujo correo Internet por servidor Transporte perimetral suscrito'
 TOCTitle: Configurar el flujo de correo de Internet por medio de un servidor de transporte perimetral suscrito
 ms:assetid: d12ea770-99ce-4ab4-a373-96f2554641fa
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb738158(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir el Indicador de mensajes en espera (MWI) en una puerta de enlace IP de mensajería unificada: Exchange 2013 Help'
+title: 'Permitir el MWI en una puerta de enlace IP de UM: Exchange 2013 Help'
 TOCTitle: Permitir el Indicador de mensajes en espera (MWI) en una puerta de enlace IP de mensajería unificada
 ms:assetid: 5667e37c-48c6-4659-9dc9-94b1dd8ba232
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd297995(v=EXCHG.150)

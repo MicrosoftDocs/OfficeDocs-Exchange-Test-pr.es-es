@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar la migración por lotes para migrar carpetas públicas heredadas a Office 365 y Exchange Online: Exchange 2013 Help'
+title: 'Usar migrar lote migrar carpeta pública heredada a Office 365 Exchange Online'
 TOCTitle: Usar la migración por lotes para migrar carpetas públicas heredadas a Office 365 y Exchange Online
 ms:assetid: e8ab9309-7d12-4f02-bfc4-14e61a373958
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn874017(v=EXCHG.150)

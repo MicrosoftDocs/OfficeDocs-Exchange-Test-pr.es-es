@@ -1,5 +1,5 @@
 ﻿---
-title: Esquema de la regla XML y guía de la estructura de la regla para archivos de directivas de DLP
+title: 'Esquema de regla XML y guía estructura de regla para archivos directivas DLP'
 TOCTitle: Desarrollo de archivos de plantilla de directivas de DLP
 ms:assetid: 4b263547-aef4-4ee8-aa4f-fa64a5863189
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ674703(v=EXCHG.150)

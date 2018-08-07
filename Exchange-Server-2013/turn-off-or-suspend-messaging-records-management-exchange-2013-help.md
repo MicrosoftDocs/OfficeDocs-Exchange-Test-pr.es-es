@@ -1,5 +1,5 @@
 ﻿---
-title: 'Desactivar o suspender la administración de registros de mensajería: Exchange 2013 Help'
+title: 'Desactivar o suspender administración registros mensajería: Exchange 2013 Help'
 TOCTitle: Desactivar o suspender la administración de registros de mensajería
 ms:assetid: 631191aa-3bba-4ebf-a727-c48ed2ebe176
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa998580(v=EXCHG.150)

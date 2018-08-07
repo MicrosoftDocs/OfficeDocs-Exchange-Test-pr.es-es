@@ -1,5 +1,5 @@
 ﻿---
-title: 'Directiva de retención predeterminada en Exchange Online y Exchange Server: Exchange 2013 Help'
+title: 'Directiva de retención predeterminada en Exchange Online y Exchange Server'
 TOCTitle: Directiva de retención predeterminada
 ms:assetid: bcf31b2d-463b-4623-b488-c8ac40f14f62
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn775046(v=EXCHG.150)

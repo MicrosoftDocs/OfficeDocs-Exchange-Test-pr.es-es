@@ -1,5 +1,5 @@
 ﻿---
-title: 'No se pueden instalar roles de Exchange 2007 después de preparar Active Directory para Exchange 2010_NoE12ServerWarning: Exchange 2013 Help'
+title: 'Incapaz instalar rol Exchange 2007 tras prepar. Active Directory Exchange 2010'
 TOCTitle: No se pueden instalar roles de Exchange 2007 después de preparar Active Directory para Exchange 2010_NoE12ServerWarning
 ms:assetid: 4e579f69-0de9-421c-ba31-4e63a25e6a45
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.noe12serverwarning(v=EXCHG.150)

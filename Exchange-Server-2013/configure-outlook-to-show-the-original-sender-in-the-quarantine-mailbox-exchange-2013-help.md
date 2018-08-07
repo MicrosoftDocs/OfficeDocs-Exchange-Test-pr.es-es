@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar Outlook para mostrar el remitente original en el buzón de cuarentena: Exchange 2013 Help'
+title: 'Configurar Outlook para mostrar remitente original en el buzón de cuarentena'
 TOCTitle: Configurar Outlook para mostrar el remitente original en el buzón de cuarentena
 ms:assetid: 9249425d-1b06-48a0-ad95-c4eefb641ff4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee861109(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Instalar el rol de transporte perimetral de Exchange 2013 mediante el asistente de instalación: Exchange 2013 Help'
+title: 'Instalar rol de transporte perimetral Exchange 2013 con asistente instalación'
 TOCTitle: Instalar el rol de transporte perimetral de Exchange 2013 mediante el asistente de instalación
 ms:assetid: b8e51b0b-201e-4c64-92c8-3ac0db04b6e2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn635117(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Modificar, deshabilitar o quitar una directiva de uso compartido: Exchange 2013 Help'
+title: 'Modificar, deshabilitar o quitar directiva uso compartido: Exchange 2013 Help'
 TOCTitle: Modificar, deshabilitar o quitar una directiva de uso compartido
 ms:assetid: 714af42d-ca29-4bb4-ac48-f0b3d4fd1c15
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ657460(v=EXCHG.150)

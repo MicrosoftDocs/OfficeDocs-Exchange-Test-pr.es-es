@@ -1,5 +1,5 @@
 ﻿---
-title: 'Puertos de red para los clientes y flujo de correo en Exchange 2013: Exchange 2013 Help'
+title: 'Puertos red para clientes y flujo correo en Exchange 2013: Exchange 2013 Help'
 TOCTitle: Puertos de red para los clientes y flujo de correo en Exchange 2013
 ms:assetid: fec09455-e99e-42eb-8b32-1ddc08d9a19e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb331973(v=EXCHG.150)
