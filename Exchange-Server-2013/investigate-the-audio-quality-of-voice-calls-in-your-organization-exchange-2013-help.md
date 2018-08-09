@@ -1,5 +1,5 @@
 ﻿---
-title: 'Investigar la calidad de audio de las llamadas de voz en su organización: Exchange 2013 Help'
+title: 'Investigar la calidad de audio de las llamadas de voz en su organización'
 TOCTitle: Investigar la calidad de audio de las llamadas de voz en su organización
 ms:assetid: 8a87694b-1678-4a01-859f-5ad3b2c73db5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ659069(v=EXCHG.150)

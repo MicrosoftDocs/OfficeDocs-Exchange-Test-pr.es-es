@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar o deshabilitar una regla de contestador automático para un usuario: Exchange 2013 Help'
+title: 'Habilitar deshabilitar regla contestar automático a usuario Exchange 2013 Help'
 TOCTitle: Habilitar o deshabilitar una regla de contestador automático para un usuario
 ms:assetid: f9e40ac3-117f-44f6-9ab1-dc9f4c72e8ac
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn140252(v=EXCHG.150)

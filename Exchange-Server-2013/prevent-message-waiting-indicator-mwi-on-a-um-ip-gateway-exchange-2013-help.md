@@ -1,5 +1,5 @@
 ﻿---
-title: 'Evitar que el indicador de espera de mensaje (MWI) en una puerta de enlace IP de mensajería unificada: Exchange 2013 Help'
+title: 'Evitar el MWI en una puerta de enlace IP de UM: Exchange 2013 Help'
 TOCTitle: Evitar que el indicador de espera de mensaje (MWI) en una puerta de enlace IP de mensajería unificada
 ms:assetid: 7af6d094-199f-4134-a25d-9fc7e9c05fe1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ673536(v=EXCHG.150)

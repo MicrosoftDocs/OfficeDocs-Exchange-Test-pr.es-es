@@ -1,5 +1,5 @@
 ﻿---
-title: 'Deshabilitar las características seleccionadas para los usuarios de Outlook Voice Access: Exchange 2013 Help'
+title: 'Deshabilitar característica usuarios Outlook Voice Access: Exchange 2013 Help'
 TOCTitle: Deshabilitar las características seleccionadas para los usuarios de Outlook Voice Access
 ms:assetid: 37421edf-af60-4ca9-9e8b-262b8b851607
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg602126(v=EXCHG.150)

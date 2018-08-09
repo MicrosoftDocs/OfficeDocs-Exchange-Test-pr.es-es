@@ -1,5 +1,5 @@
 ﻿---
-title: 'Activación de una copia de base de datos de buzones atrasada: Exchange 2013 Help'
+title: 'Activación de copia de base de datos de buzones atrasada: Exchange 2013 Help'
 TOCTitle: Activación de una copia de base de datos de buzones atrasada
 ms:assetid: 493d9c40-644d-49d6-9291-949acbcfdcb6
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd979786(v=EXCHG.150)

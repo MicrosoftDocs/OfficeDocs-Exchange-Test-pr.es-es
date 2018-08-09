@@ -1,5 +1,5 @@
 ﻿---
-title: 'Establecer las credenciales para usar con la herramienta para la solución de problemas de Mensajería unificada de Exchange: Exchange 2013 Help'
+title: 'Establecer credenciales usar con herramienta solucionar problemas UM Exchange'
 TOCTitle: Establecer las credenciales para usar con la herramienta para la solución de problemas de Mensajería unificada de Exchange
 ms:assetid: 542b7718-9345-40cc-bcb2-e307e70a1fa2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff630916(v=EXCHG.150)

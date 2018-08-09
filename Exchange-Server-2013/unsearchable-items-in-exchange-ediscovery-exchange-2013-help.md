@@ -1,5 +1,5 @@
 ﻿---
-title: 'Elementos no aptos para la búsqueda en la exhibición de documentos electrónicos de Exchange: Exchange 2013 Help'
+title: 'Elementos no aptos para búsqueda en eDiscovery de Exchange: Exchange 2013 Help'
 TOCTitle: Elementos no aptos para la búsqueda en la exhibición de documentos electrónicos de Exchange
 ms:assetid: 32550081-9af9-474b-ae7b-28f1e68cad41
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn602498(v=EXCHG.150)

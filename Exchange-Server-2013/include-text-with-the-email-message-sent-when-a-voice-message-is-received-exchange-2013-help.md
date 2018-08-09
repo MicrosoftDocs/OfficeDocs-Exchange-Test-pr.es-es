@@ -1,5 +1,5 @@
 ﻿---
-title: 'Incluir el texto con el mensaje de correo electrónico que se envía cuando se recibe un mensaje de voz: Exchange 2013 Help'
+title: 'Incluir texto con mensaje correo electrónico se envía al recibir mensaje voz'
 TOCTitle: Incluir el texto con el mensaje de correo electrónico que se envía cuando se recibe un mensaje de voz
 ms:assetid: b2eec29c-e5eb-4263-80d8-0b9813dd56dc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb201718(v=EXCHG.150)

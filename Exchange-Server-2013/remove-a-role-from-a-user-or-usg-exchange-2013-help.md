@@ -1,5 +1,5 @@
 ﻿---
-title: 'Quitar una función de un usuario o un grupo de seguridad universal: Exchange 2013 Help'
+title: 'Quitar función de usuario o grupo de seguridad universal: Exchange 2013 Help'
 TOCTitle: Quitar una función de un usuario o un grupo de seguridad universal
 ms:assetid: df3510ef-e0c2-4d3c-81b0-7dc3e70c01a0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd351196(v=EXCHG.150)

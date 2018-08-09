@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear un conector externo para entregar los mensajes a una puerta de enlace no SMTP fax: Exchange 2013 Help'
+title: 'Crear conector externo para entregar mensajes a puerta de enlace no SMTP fax'
 TOCTitle: Crear un conector externo para entregar los mensajes a una puerta de enlace no SMTP fax
 ms:assetid: 589db487-3c4c-409a-92e3-c78dd8f639b6
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ710163(v=EXCHG.150)

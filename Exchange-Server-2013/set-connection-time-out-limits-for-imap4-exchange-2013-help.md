@@ -1,5 +1,5 @@
 ﻿---
-title: 'Establecer límites de tiempo de espera de conexión para IMAP4: Exchange 2013 Help'
+title: 'Establecer límites tiempo de espera de conexión para IMAP4: Exchange 2013 Help'
 TOCTitle: Establecer límites de tiempo de espera de conexión para IMAP4
 ms:assetid: 6b6a5bd1-a878-4a70-8e21-14d5042a58f1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa998665(v=EXCHG.150)

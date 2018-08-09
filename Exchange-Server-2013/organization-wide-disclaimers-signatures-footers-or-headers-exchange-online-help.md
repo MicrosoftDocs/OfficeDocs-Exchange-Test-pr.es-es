@@ -1,5 +1,5 @@
 ﻿---
-title: 'Avisos de declinación de responsabilidades, firmas, pies de página o encabezados en toda la organización: Exchange 2013 Help'
+title: 'Aviso declinación responsabilidad firmas pie de página encabezado organización'
 TOCTitle: Avisos de declinación de responsabilidades, firmas, pies de página o encabezados en toda la organización
 ms:assetid: e45e33c9-e53b-427c-ada5-70901bc399b8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn600437(v=EXCHG.150)

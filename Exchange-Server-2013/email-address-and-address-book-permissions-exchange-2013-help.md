@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permisos de libreta de direcciones y dirección de correo electrónico: Exchange 2013 Help'
+title: 'Permisos de libreta de direcciones y dirección de correo: Exchange 2013 Help'
 TOCTitle: Permisos de libreta de direcciones y dirección de correo electrónico
 ms:assetid: 1c1de09d-16ef-4424-9bfb-eb7edffbc8c2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ150492(v=EXCHG.150)

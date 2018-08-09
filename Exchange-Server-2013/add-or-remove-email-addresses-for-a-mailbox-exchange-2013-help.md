@@ -1,5 +1,5 @@
 ﻿---
-title: 'Agregar o quitar direcciones de correo electrónico de un buzón: Exchange 2013 Help'
+title: 'Agregar o quitar direcciones correo electrónico de buzón: Exchange 2013 Help'
 TOCTitle: Agregar o quitar direcciones de correo electrónico de un buzón
 ms:assetid: 93e2d9a4-7558-4509-8641-8381a7eb674f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb123794(v=EXCHG.150)

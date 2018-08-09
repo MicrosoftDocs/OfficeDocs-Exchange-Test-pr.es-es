@@ -1,5 +1,5 @@
 ﻿---
-title: 'Recomendaciones de configuración y dimensionamiento de Exchange 2013: Exchange 2013 Help'
+title: 'Recomendación configuración y dimensión Exchange 2013: Exchange 2013 Help'
 TOCTitle: Recomendaciones de configuración y dimensionamiento de Exchange 2013
 ms:assetid: 4c4ba2fc-014a-46fb-949a-2dabba92c4a5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn879075(v=EXCHG.150)

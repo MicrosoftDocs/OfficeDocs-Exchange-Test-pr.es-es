@@ -1,5 +1,5 @@
 ﻿---
-title: 'Procedimientos de políticas de buzón de mensajería unificada: Exchange 2013 Help'
+title: 'Procedimientos de políticas de buzón de UM: Exchange 2013 Help'
 TOCTitle: Procedimientos de políticas de buzón de mensajería unificada
 ms:assetid: 37db12de-109f-4e81-9e6a-effab2c2171d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ851061(v=EXCHG.150)

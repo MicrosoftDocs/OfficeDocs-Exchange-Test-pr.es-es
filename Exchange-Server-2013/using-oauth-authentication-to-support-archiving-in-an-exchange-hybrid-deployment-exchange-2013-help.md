@@ -1,5 +1,5 @@
 ﻿---
-title: 'Uso de la autenticación de OAuth para admitir el archivado en una implementación híbrida de Exchange: Exchange 2013 Help'
+title: 'Uso autenticación OAuth admitir archivado en implementación híbrida Exchange'
 TOCTitle: Uso de la autenticación de OAuth para admitir el archivado en una implementación híbrida de Exchange
 ms:assetid: deb882b1-1ae2-40f3-a71c-423fafe3d66a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn689104(v=EXCHG.150)

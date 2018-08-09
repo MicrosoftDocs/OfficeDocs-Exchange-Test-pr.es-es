@@ -1,5 +1,5 @@
 ﻿---
-title: 'Administrar el filtrado de conexiones en servidores de transporte perimetral: Exchange 2013 Help'
+title: 'Administrar filtrar conexión servidor transporte perimetral Exchange 2013 Help'
 TOCTitle: Administrar el filtrado de conexiones en servidores de transporte perimetral
 ms:assetid: baebc865-ec3e-48ca-ac48-7aac8b34c003
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124376(v=EXCHG.150)

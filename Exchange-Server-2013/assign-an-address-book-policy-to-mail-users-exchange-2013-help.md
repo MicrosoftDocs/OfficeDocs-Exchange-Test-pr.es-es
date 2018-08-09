@@ -1,5 +1,5 @@
 ﻿---
-title: 'Asignar una directiva de libreta de direcciones a usuarios de correo: Exchange 2013 Help'
+title: 'Asignar directiva libreta direcciones a usuarios de correo: Exchange 2013 Help'
 TOCTitle: Asignar una directiva de libreta de direcciones a usuarios de correo
 ms:assetid: bdfe6575-24c0-47d0-9cfb-ece910db248b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh529942(v=EXCHG.150)

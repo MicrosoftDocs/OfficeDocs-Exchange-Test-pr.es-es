@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear un conector de envío para correo electrónico enviado a Internet: Exchange 2013 Help'
+title: 'Crear el conector de envío para correo enviado a Internet: Exchange 2013 Help'
 TOCTitle: Crear un conector de envío para correo electrónico enviado a Internet
 ms:assetid: 6deaefa8-1152-40d9-b1ba-9c19bdf8a928
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ657457(v=EXCHG.150)

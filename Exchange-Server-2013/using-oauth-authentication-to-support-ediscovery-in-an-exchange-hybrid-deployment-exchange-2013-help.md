@@ -1,5 +1,5 @@
 ﻿---
-title: 'Uso de la autenticación de OAuth para admitir la exhibición de documentos electrónicos en una implementación híbrida de Exchange: Exchange 2013 Help'
+title: 'Uso autenticación OAuth admitir eDiscovery en implementación híbrida Exchange'
 TOCTitle: Uso de la autenticación de OAuth para admitir la exhibición de documentos electrónicos en una implementación híbrida de Exchange
 ms:assetid: b069f8db-fbe1-4047-ad97-d00172ee6a12
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn497703(v=EXCHG.150)

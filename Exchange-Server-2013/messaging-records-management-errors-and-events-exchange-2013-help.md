@@ -1,5 +1,5 @@
 ﻿---
-title: 'Errores y eventos de administración de registros de mensajes: Exchange 2013 Help'
+title: 'Errores y eventos administración de registros de mensajes: Exchange 2013 Help'
 TOCTitle: Errores y eventos de administración de registros de mensajes
 ms:assetid: 8bc3f5ae-403b-45af-86c1-b2fccab34e63
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb310783(v=EXCHG.150)

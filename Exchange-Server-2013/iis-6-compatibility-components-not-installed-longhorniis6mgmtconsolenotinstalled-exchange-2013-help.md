@@ -1,5 +1,5 @@
 ﻿---
-title: 'Componentes de compatibilidad con IIS 6 no instalados_LonghornIIS6MgmtConsoleNotInstalled: Exchange 2013 Help'
+title: 'Los componentes de compatibilidad con IIS 6 no están instalados'
 TOCTitle: Componentes de compatibilidad con IIS 6 no instalados_LonghornIIS6MgmtConsoleNotInstalled
 ms:assetid: 8358eafb-def7-4b8d-8fe1-623bc5a0e20e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.longhorniis6mgmtconsolenotinstalled(v=EXCHG.150)

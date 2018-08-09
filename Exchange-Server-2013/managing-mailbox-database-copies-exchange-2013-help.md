@@ -1,5 +1,5 @@
 ﻿---
-title: 'Administración de copias de bases de datos de buzones de correo: Exchange 2013 Help'
+title: 'Administrar copias de bases de datos de buzones de correo: Exchange 2013 Help'
 TOCTitle: Administración de copias de bases de datos de buzones de correo
 ms:assetid: 28cedf1d-365a-4e36-b2ba-6bf81af8684f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd335158(v=EXCHG.150)

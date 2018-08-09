@@ -1,5 +1,5 @@
 ﻿---
-title: 'Mover la ruta de acceso a la base de datos de buzones de correo para la copia de una base de datos de buzones: Exchange 2013 Help'
+title: 'Mover ruta base dato buzón para copia base dato buzón Exchange 2013 Help'
 TOCTitle: Mover la ruta de acceso a la base de datos de buzones de correo para la copia de una base de datos de buzones
 ms:assetid: 324f255c-d95d-4a8a-a134-c8cee5c5b9cb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd979782(v=EXCHG.150)

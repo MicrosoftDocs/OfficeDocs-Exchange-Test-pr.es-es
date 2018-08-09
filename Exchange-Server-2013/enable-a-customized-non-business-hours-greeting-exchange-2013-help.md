@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar un personalizada no - saludo de horario comercial: Exchange 2013 Help'
+title: 'Habilitar saludo personalizado fuera horario comercial: Exchange 2013 Help'
 TOCTitle: Habilitar un personalizada no - saludo de horario comercial
 ms:assetid: d4743805-bab0-4735-a1e0-2cea4e088e8c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb232183(v=EXCHG.150)

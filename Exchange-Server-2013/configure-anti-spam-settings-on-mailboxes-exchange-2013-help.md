@@ -1,5 +1,5 @@
 ﻿---
-title: 'Establecer las configuraciones de filtro de correo no deseado en los buzones de correo: Exchange 2013 Help'
+title: 'Establecer configuración filtro spam en buzones correo: Exchange 2013 Help'
 TOCTitle: Establecer las configuraciones de filtro de correo no deseado en los buzones de correo
 ms:assetid: 868d7fd8-e817-46ba-9b67-edf2f50b9494
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb123559(v=EXCHG.150)

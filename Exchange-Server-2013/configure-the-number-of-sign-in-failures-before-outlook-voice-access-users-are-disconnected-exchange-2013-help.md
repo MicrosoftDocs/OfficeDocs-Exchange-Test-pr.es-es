@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar el número de errores de inicio de sesión antes de que se desconecten los usuarios de Outlook Voice Access: Exchange 2013 Help'
+title: 'Configura n.º fallo inicio sesión antes desconecte usuario Voice Access'
 TOCTitle: Configurar el número de errores de inicio de sesión antes de que se desconecten los usuarios de Outlook Voice Access
 ms:assetid: 02f93888-168c-44bb-8cf6-17f5fcc3d733
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee423537(v=EXCHG.150)

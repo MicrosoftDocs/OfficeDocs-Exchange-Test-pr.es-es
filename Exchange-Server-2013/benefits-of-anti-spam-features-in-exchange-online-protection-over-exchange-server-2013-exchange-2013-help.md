@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ventajas de las características contra correo no deseado de Exchange Online Protection en Exchange Server 2013: Exchange 2013 Help'
+title: 'Ventajas antispam de Exchange Online Protection frente a Exchange Server 2013'
 TOCTitle: Ventajas de las características contra correo no deseado de Exchange Online Protection en Exchange Server 2013
 ms:assetid: 00e37a3c-3fbc-488f-bdad-d52a3c80fd72
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ673032(v=EXCHG.150)

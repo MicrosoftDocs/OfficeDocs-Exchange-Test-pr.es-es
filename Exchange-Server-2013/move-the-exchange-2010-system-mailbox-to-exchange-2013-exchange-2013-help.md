@@ -1,5 +1,5 @@
 ﻿---
-title: 'Mover el buzón del sistema de Exchange 2010 a Exchange 2013: Exchange 2013 Help'
+title: 'Mover el buzón del sistema de Exchange 2010 a Exchange 2013 Exchange 2013 Help'
 TOCTitle: Mover el buzón del sistema de Exchange 2010 a Exchange 2013
 ms:assetid: a3b03c4e-0bc7-41a2-885c-e9cac37566c8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn249849(v=EXCHG.150)

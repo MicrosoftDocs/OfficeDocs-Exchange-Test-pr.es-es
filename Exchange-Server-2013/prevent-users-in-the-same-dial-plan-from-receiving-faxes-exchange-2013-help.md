@@ -1,5 +1,5 @@
 ﻿---
-title: 'Impedir que los usuarios en el mismo plan de marcado de recibir faxes: Exchange 2013 Help'
+title: 'Impedir que usuarios en mismo plan de marcado reciban faxes Exchange 2013 Help'
 TOCTitle: Impedir que los usuarios en el mismo plan de marcado de recibir faxes
 ms:assetid: 4fc66414-c950-4bca-ac20-4e489f288d06
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb201688(v=EXCHG.150)

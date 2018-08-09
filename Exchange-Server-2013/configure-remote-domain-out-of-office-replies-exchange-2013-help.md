@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar las respuestas “fuera de la oficina” desde dominios remotos: Exchange 2013 Help'
+title: 'Configurar respuestas fuera de oficina de dominios remotos: Exchange 2013 Help'
 TOCTitle: Configurar las respuestas “fuera de la oficina” desde dominios remotos
 ms:assetid: 0c1e56be-7a29-4294-9762-600f9f788741
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ657713(v=EXCHG.150)

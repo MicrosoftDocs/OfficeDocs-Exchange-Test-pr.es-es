@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configuración del uso compartido federado entre organizaciones de Exchange: Exchange 2013 Help'
+title: 'Configurar uso compartido federado entre organizaciones de Exchange'
 TOCTitle: Configuración del uso compartido federado entre organizaciones de Exchange
 ms:assetid: 94e31454-b027-4757-b52f-d3c2ead6d916
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ657473(v=EXCHG.150)

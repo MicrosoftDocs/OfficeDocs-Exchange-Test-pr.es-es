@@ -1,5 +1,5 @@
 ﻿---
-title: 'No se puede contactar con el servidor DNS principal_PrimaryDNSTestFailed: Exchange 2013 Help'
+title: 'No se puede contactar con el servidor DNS principal'
 TOCTitle: No se puede contactar con el servidor DNS principal_PrimaryDNSTestFailed
 ms:assetid: 5b39cb64-c8f1-4fd3-843b-ecd23f99fe3a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.primarydnstestfailed(v=EXCHG.150)

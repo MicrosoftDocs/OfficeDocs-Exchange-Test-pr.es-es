@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar el extremo del proxy MRS para movimientos remotos: Exchange 2013 Help'
+title: 'Habilitar el extremo del proxy MRS para movimientos remotos Exchange 2013 Help'
 TOCTitle: Habilitar el extremo del proxy MRS para movimientos remotos
 ms:assetid: 9840f712-127e-4c2d-bfe5-1b35cdb2a31b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn155787(v=EXCHG.150)

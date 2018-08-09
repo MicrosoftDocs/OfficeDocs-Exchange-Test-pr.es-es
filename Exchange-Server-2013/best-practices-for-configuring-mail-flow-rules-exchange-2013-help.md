@@ -1,5 +1,5 @@
 ﻿---
-title: 'Procedimientos recomendados para configurar las reglas de flujo de correo: Exchange Online Protection Help'
+title: 'Consejos para configurar reglas flujo correo Exchange Online Protection Help'
 TOCTitle: Procedimientos recomendados para configurar las reglas de flujo de correo
 ms:assetid: abd863c3-c0ce-42f3-9470-a573adc3cbba
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn960147(v=EXCHG.150)

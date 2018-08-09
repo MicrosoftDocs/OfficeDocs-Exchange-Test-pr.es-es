@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear un ámbito de administración personalizado para las búsquedas de exhibición de documentos electrónicos local: Exchange 2013 Help'
+title: 'Crear ámbito administración personalizado para búsquedas eDiscovery local'
 TOCTitle: Crear un ámbito de administración personalizado para las búsquedas de exhibición de documentos electrónicos local
 ms:assetid: 1543aefe-3709-402c-b9cd-c11fe898aad1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn741464(v=EXCHG.150)

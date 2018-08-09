@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar el directorio de recogida y el directorio de reproducción: Exchange 2013 Help'
+title: 'Configurar directorio recogida y directorio reproducción: Exchange 2013 Help'
 TOCTitle: Configurar el directorio de recogida y el directorio de reproducción
 ms:assetid: c9ca7358-9a08-4f57-89d0-910e4438df8a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124549(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lista de comprobación: Implementar mensajería unificada de Exchange 2013: Exchange 2013 Help'
+title: 'Lista de comprobación: Implementar UM de Exchange 2013: Exchange 2013 Help'
 TOCTitle: 'Lista de comprobación: Implementar mensajería unificada de Exchange 2013'
 ms:assetid: 41b666a2-0d0d-471f-90a3-07c3c562af85
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ673520(v=EXCHG.150)

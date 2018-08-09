@@ -1,5 +1,5 @@
 ﻿---
-title: 'Probar la conectividad de Mensajería unificada con puertas de enlace VoIP y PBX: Exchange 2013 Help'
+title: 'Probar conectividad de UM con puertas de enlace VoIP y PBX: Exchange 2013 Help'
 TOCTitle: Probar la conectividad de Mensajería unificada con puertas de enlace VoIP y PBX
 ms:assetid: 2aca8631-a99a-4e29-aff0-e462385f03b2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa996906(v=EXCHG.150)

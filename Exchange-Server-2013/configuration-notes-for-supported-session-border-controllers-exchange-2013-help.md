@@ -1,5 +1,5 @@
 ﻿---
-title: 'Notas de configuración de los controladores de borde de sesión admitidos: Exchange 2013 Help'
+title: 'Notas de configuración de los controladores de borde de sesión admitidos'
 TOCTitle: Notas de configuración de los controladores de borde de sesión admitidos
 ms:assetid: d161f94a-a243-4294-93b3-2bf1dc17b59f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ673565(v=EXCHG.150)

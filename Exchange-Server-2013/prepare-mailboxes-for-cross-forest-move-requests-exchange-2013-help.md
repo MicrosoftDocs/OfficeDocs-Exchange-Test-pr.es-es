@@ -1,5 +1,5 @@
 ﻿---
-title: 'Preparar los buzones para las solicitudes de movimiento entre bosques: Exchange 2013 Help'
+title: 'Preparar buzones para solicitudes movimiento entre bosques: Exchange 2013 Help'
 TOCTitle: Preparar los buzones para las solicitudes de movimiento entre bosques
 ms:assetid: fdbed4fc-a77e-40d5-a211-863b05d74784
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee633491(v=EXCHG.150)

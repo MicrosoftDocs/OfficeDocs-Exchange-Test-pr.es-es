@@ -1,5 +1,5 @@
 ﻿---
-title: 'Personalizar los tipos de información confidencial de DLP integrados: Exchange 2013 Help'
+title: 'Personalizar tipos información confidencial DLP integrados: Exchange 2013 Help'
 TOCTitle: Personalizar los tipos de información confidencial de DLP integrados
 ms:assetid: 3f8bf141-2e7c-4ea7-b102-dfd6c41539da
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn781122(v=EXCHG.150)

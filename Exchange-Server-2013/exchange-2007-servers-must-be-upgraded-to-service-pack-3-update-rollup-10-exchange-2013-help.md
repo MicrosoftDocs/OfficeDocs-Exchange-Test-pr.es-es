@@ -1,5 +1,5 @@
 ﻿---
-title: 'Los servidores Exchange 2007 deben actualizarse al Service Pack 3, paquete acumulativo de actualizaciones 10: Exchange 2013 Help'
+title: 'Servidor Exchange 2007 debe actualizar SP3 paquete acumulativo actualizacr 10'
 TOCTitle: Los servidores Exchange 2007 deben actualizarse al Service Pack 3, paquete acumulativo de actualizaciones 10
 ms:assetid: b8028a00-c451-412e-86f2-1669f6eee8fc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.e15e12coexistenceminversionrequirement(v=EXCHG.150)

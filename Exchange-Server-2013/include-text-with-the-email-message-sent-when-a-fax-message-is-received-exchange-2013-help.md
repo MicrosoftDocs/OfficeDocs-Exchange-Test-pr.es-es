@@ -1,5 +1,5 @@
 ﻿---
-title: 'Incluir el texto con el mensaje de correo electrónico que se envía cuando se recibe un mensaje de fax: Exchange 2013 Help'
+title: 'Incluir texto con mensaje correo que se envía cuando se recibe mensaje fax'
 TOCTitle: Incluir el texto con el mensaje de correo electrónico que se envía cuando se recibe un mensaje de fax
 ms:assetid: 48244e58-b7d6-4f0e-bbae-d22bf0fc11ff
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb201684(v=EXCHG.150)

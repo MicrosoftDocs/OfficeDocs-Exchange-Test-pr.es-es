@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar o deshabilitar el envío de mensajes de voz de Outlook Voice Access: Exchange 2013 Help'
+title: 'Habilitar o deshabilitar el envío de mensajes de voz de Outlook Voice Access'
 TOCTitle: Habilitar o deshabilitar el envío de mensajes de voz de Outlook Voice Access
 ms:assetid: 63544ae2-6a28-40b2-82fc-3df83e93ee56
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee423546(v=EXCHG.150)

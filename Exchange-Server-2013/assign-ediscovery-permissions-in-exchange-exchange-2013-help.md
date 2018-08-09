@@ -1,5 +1,5 @@
 ﻿---
-title: 'Asignar permisos de exhibición de documentos electrónicos en Exchange: Exchange 2013 Help'
+title: 'Asignar permisos de eDiscovery en Exchange: Exchange 2013 Help'
 TOCTitle: Asignar permisos de exhibición de documentos electrónicos en Exchange
 ms:assetid: 729e09d8-614b-431f-ae04-ae41fb4c628e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd298059(v=EXCHG.150)

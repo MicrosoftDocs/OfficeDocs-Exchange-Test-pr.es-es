@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar o deshabilitar el reconocimiento de voz automático: Exchange 2013 Help'
+title: 'Habilitar o deshabilitar reconocimiento de voz automático: Exchange 2013 Help'
 TOCTitle: Habilitar o deshabilitar el reconocimiento de voz automático
 ms:assetid: 92b3b679-b503-4068-8e88-25ec0f4537ab
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb232128(v=EXCHG.150)

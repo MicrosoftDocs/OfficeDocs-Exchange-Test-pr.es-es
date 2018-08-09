@@ -1,5 +1,5 @@
 ﻿---
-title: 'Establecer el número de correo de voz anterior pines para reciclaje: Exchange 2013 Help'
+title: 'Establecer número correo voz anterior pines para reciclaje: Exchange 2013 Help'
 TOCTitle: Establecer el número de correo de voz anterior pines para reciclaje
 ms:assetid: b094e68e-c493-4576-a6b1-4c780e635405
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124254(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar un dominio aceptado dentro de su organización de Exchange como autoritativo: Exchange 2013 Help'
+title: 'Configurar dominio aceptado dentro su organización Exchange como autoritativo'
 TOCTitle: Configurar un dominio aceptado dentro de su organización de Exchange como autoritativo
 ms:assetid: e182d54f-e58a-47ba-a5c1-28c0dfa86eed
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ657734(v=EXCHG.150)

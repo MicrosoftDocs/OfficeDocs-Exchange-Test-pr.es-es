@@ -1,5 +1,5 @@
 ﻿---
-title: 'Implementación de alta disponibilidad y resistencia de sitios: Exchange 2013 Help'
+title: 'Implementación alta disponibilidad y resistencia de sitios: Exchange 2013 Help'
 TOCTitle: Implementación de alta disponibilidad y resistencia de sitios
 ms:assetid: 4c4e00a4-1f57-4fdb-b9b2-2779abf381a9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd638129(v=EXCHG.150)

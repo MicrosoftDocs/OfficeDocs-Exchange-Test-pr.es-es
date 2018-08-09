@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ver o configurar los directorios virtuales de aplicación web de Outlook: Exchange 2013 Help'
+title: 'Ver o configurar directorios virtuales app web Outlook: Exchange 2013 Help'
 TOCTitle: Ver o configurar los directorios virtuales de aplicación web de Outlook
 ms:assetid: 90babcf6-4486-4e01-9819-6d3ca4ed756c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd298140(v=EXCHG.150)

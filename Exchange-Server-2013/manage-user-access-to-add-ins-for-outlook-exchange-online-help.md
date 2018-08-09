@@ -1,5 +1,5 @@
 ﻿---
-title: 'Administrar el acceso del usuario a aplicaciones para Outlook: Exchange 2013 Help'
+title: 'Administrar acceso del usuario a aplicaciones para Outlook: Exchange 2013 Help'
 TOCTitle: Administrar el acceso del usuario a aplicaciones para Outlook
 ms:assetid: e5833dec-a23a-439e-ac03-92671817bff8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ943757(v=EXCHG.150)

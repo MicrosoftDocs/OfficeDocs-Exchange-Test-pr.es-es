@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configuración del servidor de acceso de cliente de Exchange 2013: Exchange 2013 Help'
+title: 'Configurar el servidor acceso cliente de Exchange 2013: Exchange 2013 Help'
 TOCTitle: Configuración del servidor de acceso de cliente de Exchange 2013
 ms:assetid: 01432ae4-2a00-44a4-a4dd-4eb8d7e6cfae
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh529912(v=EXCHG.150)

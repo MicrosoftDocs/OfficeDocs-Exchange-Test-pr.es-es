@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar el modo principal para los usuarios de Outlook Voice Access buscar: Exchange 2013 Help'
+title: 'Configurar el modo principal para los usuarios de Outlook Voice Access buscar'
 TOCTitle: Configurar el modo principal para los usuarios de Outlook Voice Access buscar
 ms:assetid: 3d93a037-5820-41d3-9206-69f534414daf
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa997563(v=EXCHG.150)

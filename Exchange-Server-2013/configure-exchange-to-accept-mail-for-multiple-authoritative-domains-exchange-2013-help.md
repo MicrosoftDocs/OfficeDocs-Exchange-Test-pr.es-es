@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar Exchange para aceptar correo de varios dominios autoritativos: Exchange 2013 Help'
+title: 'Configurar Exchange para aceptar correo de varios dominios autoritativos'
 TOCTitle: Configurar Exchange para aceptar correo de varios dominios autoritativos
 ms:assetid: 11801f73-4934-4025-a1c1-3935dada7e9b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa996314(v=EXCHG.150)

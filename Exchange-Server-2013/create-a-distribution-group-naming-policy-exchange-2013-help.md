@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear una directiva de nomenclatura de grupos de distribución: Exchange 2013 Help'
+title: 'Crear directiva de nomenclatura de grupos de distribución: Exchange 2013 Help'
 TOCTitle: Crear una directiva de nomenclatura de grupos de distribución
 ms:assetid: b2ffb654-345d-4be1-be8e-83d28901373e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ218693(v=EXCHG.150)

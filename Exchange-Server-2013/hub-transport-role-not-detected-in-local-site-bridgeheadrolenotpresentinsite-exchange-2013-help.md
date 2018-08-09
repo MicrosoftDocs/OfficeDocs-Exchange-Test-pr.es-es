@@ -1,5 +1,5 @@
 ﻿---
-title: 'Función de concentrador de transporte no detectado en local site_BridgeheadRoleNotPresentInSite: Exchange 2013 Help'
+title: 'Función de concentrador de transporte no detectada en sitio local'
 TOCTitle: Función de concentrador de transporte no detectado en local site_BridgeheadRoleNotPresentInSite
 ms:assetid: f318c947-81a8-4c18-975a-0f1e7868042a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.bridgeheadrolenotpresentinsite(v=EXCHG.150)

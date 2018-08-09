@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar una máquina virtual de Microsoft Azure como un servidor testigo del DAG: Exchange 2013 Help'
+title: 'Usar VM Microsoft Azure como servidor testigo DAG Exchange 2013 Help'
 TOCTitle: Usar una máquina virtual de Microsoft Azure como un servidor testigo del DAG
 ms:assetid: 03d1e215-518b-4b48-bfcd-8d187ff8f5ef
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn903504(v=EXCHG.150)

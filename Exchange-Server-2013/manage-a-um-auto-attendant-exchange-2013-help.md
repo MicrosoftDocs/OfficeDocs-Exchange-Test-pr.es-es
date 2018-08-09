@@ -1,5 +1,5 @@
 ﻿---
-title: 'Administrar a un operador automático de mensajería unificada: Exchange 2013 Help'
+title: 'Administrar a un operador automático de UM: Exchange 2013 Help'
 TOCTitle: Administrar a un operador automático de mensajería unificada
 ms:assetid: 4809ff56-ae34-4ce6-8e39-9193311c3f83
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa997867(v=EXCHG.150)

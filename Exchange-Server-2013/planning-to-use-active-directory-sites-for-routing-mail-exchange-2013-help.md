@@ -1,5 +1,5 @@
 ﻿---
-title: 'Planeamiento de uso de Active Directory para el enrutamiento de correo: Exchange 2013 Help'
+title: 'Planeamiento uso Active Directory para enrutamiento correo: Exchange 2013 Help'
 TOCTitle: Planeamiento de uso de Active Directory para el enrutamiento de correo
 ms:assetid: 0f697cee-bcaa-4c69-b80c-7a2afd1817d2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa996299(v=EXCHG.150)

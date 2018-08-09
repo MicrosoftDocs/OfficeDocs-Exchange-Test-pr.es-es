@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir o impedir la transferencia de llamadas de un operador automático: Exchange 2013 Help'
+title: 'Permitir o impedir la transferencia de llamadas de un operador automático'
 TOCTitle: Permitir o impedir la transferencia de llamadas de un operador automático
 ms:assetid: ca961cc8-cc24-4e05-b72d-79979c155cf9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee423558(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Autoridades de certificación raíz de confianza para confianzas de federación: Exchange 2013 Help'
+title: 'Autoridades de certificación raíz de confianza para confianzas de federación'
 TOCTitle: Autoridades de certificación raíz de confianza para confianzas de federación
 ms:assetid: d4224bf5-69b3-484c-8a70-4f230d3dbdd9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee332350(v=EXCHG.150)

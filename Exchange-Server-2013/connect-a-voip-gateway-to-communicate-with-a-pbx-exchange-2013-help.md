@@ -1,5 +1,5 @@
 ﻿---
-title: 'Conectar una puerta de enlace VoIP para comunicarse con una PBX: Exchange 2013 Help'
+title: 'Conectar puerta de enlace VoIP para comunicarse con PBX: Exchange 2013 Help'
 TOCTitle: Conectar una puerta de enlace VoIP para comunicarse con una PBX
 ms:assetid: 76bcdc54-3ec2-408a-bdbe-37826580dd62
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa998872(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Directivas de buzones de correo para dispositivos móviles compatibles con teléfonos y dispositivos de Windows: Exchange 2013 Help'
+title: 'Directiva buzón correo dispositivo móvil compatible Windows Phone dispositivo'
 TOCTitle: Directivas de buzones de correo para dispositivos móviles compatibles con teléfonos y dispositivos de Windows
 ms:assetid: d76b1d4c-d1f6-4501-a7c9-854327aceda5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ983805(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Administración de alta disponibilidad y resistencia de sitios: Exchange 2013 Help'
+title: 'Administración alta disponibilidad y resistencia de sitios: Exchange 2013 Help'
 TOCTitle: Administración de alta disponibilidad y resistencia de sitios
 ms:assetid: f9677392-88d2-457f-a488-245771a8c1f2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd638215(v=EXCHG.150)

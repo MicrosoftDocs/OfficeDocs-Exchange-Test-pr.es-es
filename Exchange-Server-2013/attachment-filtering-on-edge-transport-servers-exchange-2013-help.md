@@ -1,5 +1,5 @@
 ﻿---
-title: 'Filtrado de datos adjuntos en servidores de transporte perimetral: Exchange 2013 Help'
+title: 'Filtrado datos adjuntos servidores transporte perimetral: Exchange 2013 Help'
 TOCTitle: Filtrado de datos adjuntos en servidores de transporte perimetral
 ms:assetid: be39a181-c82e-41f5-8846-085bf1f84164
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124399(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar IRM para la búsqueda y la exhibición de documentos electrónicos local de Exchange: Exchange 2013 Help'
+title: 'Configurar IRM para búsqueda y eDiscovery local de Exchange Exchange 2013 Help'
 TOCTitle: Configurar IRM para la búsqueda y la exhibición de documentos electrónicos local de Exchange
 ms:assetid: d96790e9-93ad-4a56-b90f-2dbfa2f2073c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg588319(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar manualmente el flujo de correo del servidor de transporte perimetral: Exchange 2013 Help'
+title: 'Gestión manual flujo correo servidor transporte perimetral: Exchange 2013 Help'
 TOCTitle: Configurar manualmente el flujo de correo del servidor de transporte perimetral
 ms:assetid: cb4cc165-6c09-44ab-a95f-167ae8ed2485
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn606261(v=EXCHG.150)

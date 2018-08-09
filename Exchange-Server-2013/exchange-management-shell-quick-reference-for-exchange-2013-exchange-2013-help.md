@@ -1,5 +1,5 @@
 ﻿---
-title: 'Guía de referencia rápida del Shell de administración de Exchange para Exchange 2013: Exchange 2013 Help'
+title: 'Guía referencia rápida Shell administración Exchange para Exchange 2013'
 TOCTitle: Guía de referencia rápida del Shell de administración de Exchange para Exchange 2013
 ms:assetid: 3ea4a105-a93c-48ba-96ce-6170125354e1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ619302(v=EXCHG.150)

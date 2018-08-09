@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configuración clonada del servidor de transporte perimetral: Exchange 2013 Help'
+title: 'Configuración clonada del servidor de transporte perimetral Exchange 2013 Help'
 TOCTitle: Configuración clonada del servidor de transporte perimetral
 ms:assetid: 683a6b8a-59bf-43ed-96c8-504945c2f665
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa998622(v=EXCHG.150)

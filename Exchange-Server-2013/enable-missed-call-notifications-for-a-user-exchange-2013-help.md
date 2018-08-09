@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar notificaciones de llamadas perdidas para un usuario: Exchange 2013 Help'
+title: 'Habilitar notificaciones de llamadas perdidas para usuario: Exchange 2013 Help'
 TOCTitle: Habilitar notificaciones de llamadas perdidas para un usuario
 ms:assetid: aa0cbb60-5422-474f-af16-621aade31c1f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb232159(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear un directorio virtual de la libreta de direcciones sin conexión: Exchange 2013 Help'
+title: 'Crear directorio virtual libreta direcciones sin conexión: Exchange 2013 Help'
 TOCTitle: Crear un directorio virtual de la libreta de direcciones sin conexión
 ms:assetid: 2c70e21f-2b12-414a-9e8c-65634a767c72
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa996917(v=EXCHG.150)

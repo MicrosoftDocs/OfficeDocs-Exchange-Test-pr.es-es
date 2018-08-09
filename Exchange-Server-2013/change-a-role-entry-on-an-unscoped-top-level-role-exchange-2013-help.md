@@ -1,5 +1,5 @@
 ﻿---
-title: 'Cambiar una entrada de función en una función de nivel superior sin ámbito: Exchange 2013 Help'
+title: 'Cambiar entrada función función nivel superior sin ámbito: Exchange 2013 Help'
 TOCTitle: Cambiar una entrada de función en una función de nivel superior sin ámbito
 ms:assetid: 65c0bfb3-aafd-4c64-8429-7616c57adf1c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd876896(v=EXCHG.150)

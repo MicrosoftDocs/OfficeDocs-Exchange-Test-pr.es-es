@@ -1,5 +1,5 @@
 ﻿---
-title: 'Administrar una directiva de buzones de correo de mensajería unificada: Exchange 2013 Help'
+title: 'Administrar directiva buzones correo mensajería unificada: Exchange 2013 Help'
 TOCTitle: Administrar una directiva de buzones de correo de mensajería unificada
 ms:assetid: 704b001c-3e6f-4ed5-bbe5-42a778f6ac0d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa998829(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Agregar el buzón de la federación para el grupo de usuarios de AD RMS Super: Exchange 2013 Help'
+title: 'Agregar buzón federación para grupo usuarios AD RMS Super: Exchange 2013 Help'
 TOCTitle: Agregar el buzón de la federación para el grupo de usuarios de AD RMS Super
 ms:assetid: 44618df9-54f0-4474-a450-dcba48a02901
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee424431(v=EXCHG.150)

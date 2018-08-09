@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar la grabación de mensajes personalizados con la interfaz de usuario de teléfono: Exchange 2013 Help'
+title: 'Habilitar grabación mensajes personalizados con interfaz usuario teléfono'
 TOCTitle: Habilitar la grabación de mensajes personalizados con la interfaz de usuario de teléfono
 ms:assetid: f2e5c636-2be9-4d48-b5e7-37913ded62d1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb691404(v=EXCHG.150)

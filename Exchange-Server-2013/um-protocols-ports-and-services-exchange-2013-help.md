@@ -1,5 +1,5 @@
 ﻿---
-title: 'Protocolos, puertos y servicios de mensajería unificada (UM): Exchange 2013 Help'
+title: 'Protocolos, puertos y servicios de UM: Exchange 2013 Help'
 TOCTitle: Protocolos, puertos y servicios de mensajería unificada (UM)
 ms:assetid: 5997ce29-1755-48bb-8ff4-b08da549482a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa998265(v=EXCHG.150)

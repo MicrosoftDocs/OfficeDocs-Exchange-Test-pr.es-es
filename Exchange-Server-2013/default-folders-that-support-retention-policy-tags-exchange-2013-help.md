@@ -1,5 +1,5 @@
 ﻿---
-title: 'Carpetas predeterminadas que admiten etiquetas de la directiva de retención: Exchange 2013 Help'
+title: 'Carpeta predeterminada admite etiquetas directiva retención Exchange 2013 Help'
 TOCTitle: Carpetas predeterminadas que admiten etiquetas de la directiva de retención
 ms:assetid: d2e2064f-4102-4018-b688-504d09da6d39
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn783294(v=EXCHG.150)

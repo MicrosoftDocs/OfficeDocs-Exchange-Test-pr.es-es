@@ -1,5 +1,5 @@
 ﻿---
-title: 'Diagnosticar problemas del servicio de búsqueda de Exchange: Exchange 2013 Help'
+title: 'Diagnosticar problemas del servicio de búsqueda de Exchange Exchange 2013 Help'
 TOCTitle: Diagnosticar problemas del servicio de búsqueda de Exchange
 ms:assetid: 8cfa26f4-ccf0-42dd-8570-67018188b4e8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb123701(v=EXCHG.150)

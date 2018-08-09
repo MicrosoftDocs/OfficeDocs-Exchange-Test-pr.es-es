@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar las propiedades del grupo de disponibilidad de base de datos: Exchange 2013 Help'
+title: 'Configurar propiedades grupo disponibilidad base datos: Exchange 2013 Help'
 TOCTitle: Configurar las propiedades del grupo de disponibilidad de base de datos
 ms:assetid: 50daeac5-a16f-4362-a325-19e0fe25d59d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd297985(v=EXCHG.150)

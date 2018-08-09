@@ -1,5 +1,5 @@
 ﻿---
-title: 'Especificar el texto que se muestra para los clientes de correo electrónico que no son compatibles con Windows Rights Management: Exchange 2013 Help'
+title: 'Indicar texto mostrar cliente correo incompatible Windows Rights Management'
 TOCTitle: Especificar el texto que se muestra para los clientes de correo electrónico que no son compatibles con Windows Rights Management
 ms:assetid: a9b2238a-b534-469c-a0c3-2768bc3d005b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee423552(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Enviar y recibir correo electrónico cifrado y firmado con S/MIME: Exchange 2013 Help'
+title: 'Enviar y recibir correo cifrado y firmado con S/MIME: Exchange 2013 Help'
 TOCTitle: Enviar y recibir correo electrónico cifrado y firmado con S/MIME
 ms:assetid: 1ce37ada-0a80-4b47-8611-d008979589ff
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn626157(v=EXCHG.150)

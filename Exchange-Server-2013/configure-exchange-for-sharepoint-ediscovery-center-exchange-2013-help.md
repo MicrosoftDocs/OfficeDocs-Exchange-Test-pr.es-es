@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar Exchange para el Centro de exhibición de documentos electrónicos de SharePoint: Exchange 2013 Help'
+title: 'Configurar Exchange para Centro de eDiscovery SharePoint: Exchange 2013 Help'
 TOCTitle: Configurar Exchange para el Centro de exhibición de documentos electrónicos de SharePoint
 ms:assetid: 795c1a3b-295c-4ee5-ade9-52cf3fda3f19
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ218665(v=EXCHG.150)

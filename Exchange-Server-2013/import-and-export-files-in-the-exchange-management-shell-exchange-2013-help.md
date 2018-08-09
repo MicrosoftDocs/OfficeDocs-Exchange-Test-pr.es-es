@@ -1,5 +1,5 @@
 ﻿---
-title: 'Importación y exportación de archivos en el Shell de administración de Exchange: Exchange 2013 Help'
+title: 'Importar y exportar archivos Shell administración Exchange: Exchange 2013 Help'
 TOCTitle: Importación y exportación de archivos en el Shell de administración de Exchange
 ms:assetid: b4b669e8-a3aa-4b0b-ad34-f1f15d9c9369
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd638170(v=EXCHG.150)

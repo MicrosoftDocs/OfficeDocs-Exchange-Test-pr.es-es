@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar o deshabilitar el descifrado de informes de diario: Exchange 2013 Help'
+title: 'Habilitar o deshabilitar descifrado de informes de diario: Exchange 2013 Help'
 TOCTitle: Habilitar o deshabilitar el descifrado de informes de diario
 ms:assetid: 1dedbe73-2c1a-4b14-8799-5091aaec7965
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd638092(v=EXCHG.150)

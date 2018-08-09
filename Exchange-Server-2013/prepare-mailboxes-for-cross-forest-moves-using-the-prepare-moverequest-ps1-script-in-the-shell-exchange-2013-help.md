@@ -1,5 +1,5 @@
 ﻿---
-title: 'Preparar buzones para moverlos entre bosques con el script Prepare-MoveRequest.ps1 en el Shell: Exchange 2013 Help'
+title: 'Preparar buzones para mover entre bosques script Prepare-MoveRequest.ps1 Shell'
 TOCTitle: Preparar buzones para moverlos entre bosques con el script Prepare-MoveRequest.ps1 en el Shell
 ms:assetid: 2cea59fb-69b7-4a2f-833f-de4d93cf1810
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee861103(v=EXCHG.150)

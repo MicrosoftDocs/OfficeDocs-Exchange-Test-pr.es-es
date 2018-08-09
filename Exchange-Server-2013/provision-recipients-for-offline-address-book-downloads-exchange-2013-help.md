@@ -1,5 +1,5 @@
 ﻿---
-title: 'Establecer destinatarios para descargas de la libreta de direcciones sin conexión: Exchange 2013 Help'
+title: 'Establecer destinatario descarga libreta dirección conexión Exchange 2013 Help'
 TOCTitle: Establecer destinatarios para descargas de la libreta de direcciones sin conexión
 ms:assetid: 141751ac-16d3-4e3c-b70c-004aeedcb5a0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa996345(v=EXCHG.150)

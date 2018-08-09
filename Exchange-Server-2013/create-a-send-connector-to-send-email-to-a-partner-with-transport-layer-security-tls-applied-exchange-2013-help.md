@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear un conector de envío para enviar correo electrónico a un colaborador con Seguridad de la capa de transporte (TLS) aplicada: Exchange 2013 Help'
+title: 'Crear conector envío para enviar correo a colaborador con TLS aplicada'
 TOCTitle: Creación de un conector de envío para enviar correo electrónico a un colaborador con seguridad de capa de transporte (TLS) aplicada
 ms:assetid: ff2abefc-dd3e-4431-b947-df942fbf82d9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ657514(v=EXCHG.150)

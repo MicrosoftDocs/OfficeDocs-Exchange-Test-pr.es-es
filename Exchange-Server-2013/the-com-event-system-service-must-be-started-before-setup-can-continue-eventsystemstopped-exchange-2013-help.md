@@ -1,5 +1,5 @@
 ﻿---
-title: 'El servicio del sistema de sucesos COM + debe iniciarse antes de que el programa de instalación pueda continue_EventSystemStopped: Exchange 2013 Help'
+title: 'Servicio sistema suceso COM+ debe iniciar antes programa instalación continuar'
 TOCTitle: El servicio del sistema de sucesos COM + debe iniciarse antes de que el programa de instalación pueda continue_EventSystemStopped
 ms:assetid: 3b8d2ba3-87fb-4749-b4d1-5dfec97e1ca4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.eventsystemstopped(v=EXCHG.150)

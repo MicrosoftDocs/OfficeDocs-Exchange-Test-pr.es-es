@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar límites de tamaño de mensaje para un buzón de correo: Exchange 2013 Help'
+title: 'Configurar límites tamaño mensaje para un buzón de correo: Exchange 2013 Help'
 TOCTitle: Configurar límites de tamaño de mensaje para un buzón de correo
 ms:assetid: d1220685-14c0-4c4f-abb2-3920f3046212
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124708(v=EXCHG.150)

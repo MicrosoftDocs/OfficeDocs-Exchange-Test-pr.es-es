@@ -1,5 +1,5 @@
 ﻿---
-title: 'Cambios en la alta disponibilidad y resistencia de sitios respecto a versiones anteriores: Exchange 2013 Help'
+title: 'Cambios alta disponibilidad y resistencia sitios respecto versiones anteriores'
 TOCTitle: Cambios en la alta disponibilidad y resistencia de sitios respecto a versiones anteriores
 ms:assetid: de53c00b-091c-4a31-aacc-1bd40c756ce2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn789066(v=EXCHG.150)

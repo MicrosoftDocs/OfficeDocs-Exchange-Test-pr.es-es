@@ -1,5 +1,5 @@
 ﻿---
-title: 'Creación de un conector de recepción para recibir correo electrónico de un sistema que no tenga instalado Exchange: Exchange 2013 Help'
+title: 'Crear conector recepción recibir correo de sistema no tenga Exchange'
 TOCTitle: Creación de un conector de recepción para recibir correo electrónico de un sistema que no tenga instalado Exchange
 ms:assetid: 85f0864a-6502-49db-8804-16755a7292b4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ657467(v=EXCHG.150)

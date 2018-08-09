@@ -1,5 +1,5 @@
 ﻿---
-title: 'Agregar etiquetas de retención o quitar etiquetas de retención de una directiva de retención: Exchange 2013 Help'
+title: 'Agregar o quitar etiquetas de retención en una directiva de retención'
 TOCTitle: Agregar etiquetas de retención o quitar etiquetas de retención de una directiva de retención
 ms:assetid: 3a5196ce-2764-453d-9bc1-5ec22d06b40d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd362328(v=EXCHG.150)

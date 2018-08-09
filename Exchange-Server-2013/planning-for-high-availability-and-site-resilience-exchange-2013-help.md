@@ -1,5 +1,5 @@
 ﻿---
-title: 'Planificación de alta disponibilidad y resistencia de sitios: Exchange 2013 Help'
+title: 'Planificación alta disponibilidad y resistencia de sitios: Exchange 2013 Help'
 TOCTitle: Planificación de alta disponibilidad y resistencia de sitios
 ms:assetid: 29bb0358-fc8e-4437-8feb-d2959ed0f102
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd638104(v=EXCHG.150)

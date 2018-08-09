@@ -1,5 +1,5 @@
 ﻿---
-title: 'El equipo local está ejecutando Exchange Server_ExchangeAlreadyInstalled: Exchange 2013 Help'
+title: 'El equipo local ya está ejecutando Exchange Server'
 TOCTitle: El equipo local está ejecutando Exchange Server_ExchangeAlreadyInstalled
 ms:assetid: 3f168b5d-9910-418f-86fb-e99d852dcb5e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.exchangealreadyinstalled(v=EXCHG.150)

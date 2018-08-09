@@ -1,5 +1,5 @@
 ﻿---
-title: 'Active Directory no existe o no se puede establecer contacto: Exchange 2013 Help'
+title: 'Active Directory no existe o no se puede contactar: Exchange 2013 Help'
 TOCTitle: Active Directory no existe o no se puede establecer contacto
 ms:assetid: 56adb6fe-ecb8-4a7f-b440-89aa401c28b7
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.cannotaccessad(v=EXCHG.150)

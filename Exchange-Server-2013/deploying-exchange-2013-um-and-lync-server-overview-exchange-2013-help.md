@@ -1,5 +1,5 @@
 ﻿---
-title: 'Resumen de implementación de Mensajería unificada de Exchange 2013 y Lync Server: Exchange 2013 Help'
+title: 'Resumen implementación UM de Exchange 2013 y Lync Server: Exchange 2013 Help'
 TOCTitle: Resumen de implementación de Mensajería unificada de Exchange 2013 y Lync Server
 ms:assetid: 96fcb0dd-79ee-4e55-9e59-3ee7fbe3c4a1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb676409(v=EXCHG.150)

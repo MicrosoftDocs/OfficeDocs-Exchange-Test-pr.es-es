@@ -1,5 +1,5 @@
 ﻿---
-title: 'Establecer la duración máxima del mensaje para un socio de la vista previa del correo de voz: Exchange 2013 Help'
+title: 'Establecer duración máxima de mensaje para socio de vista previa correo de voz'
 TOCTitle: Establecer la duración máxima del mensaje para un socio de la vista previa del correo de voz
 ms:assetid: 18f928ff-f4cc-4eed-a466-de13388780b3
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff630912(v=EXCHG.150)

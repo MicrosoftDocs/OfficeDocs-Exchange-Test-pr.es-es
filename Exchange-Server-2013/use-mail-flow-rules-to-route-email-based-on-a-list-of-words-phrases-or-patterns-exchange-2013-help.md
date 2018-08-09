@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar reglas de flujo de correo para enrutar el correo electrónico en función de una lista de palabras, expresiones o patrones: Exchange 2013 Help'
+title: 'Usar reglas flujo correo enrutar correo según lista palabra expresión patrón'
 TOCTitle: Usar reglas de flujo de correo para enrutar el correo electrónico en función de una lista de palabras, expresiones o patrones
 ms:assetid: 4c5bee1b-58b5-4152-baef-86fa103050ae
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn951131(v=EXCHG.150)

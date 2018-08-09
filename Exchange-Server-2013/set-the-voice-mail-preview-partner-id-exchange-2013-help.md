@@ -1,5 +1,5 @@
 ﻿---
-title: 'Establezca el identificador del socio de vista previa del correo de voz: Exchange 2013 Help'
+title: 'Establecer identificador socio vista previa correo voz: Exchange 2013 Help'
 TOCTitle: Establezca el identificador del socio de vista previa del correo de voz
 ms:assetid: ab98c320-9952-47a7-b141-ddfc2c0ad419
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff630924(v=EXCHG.150)

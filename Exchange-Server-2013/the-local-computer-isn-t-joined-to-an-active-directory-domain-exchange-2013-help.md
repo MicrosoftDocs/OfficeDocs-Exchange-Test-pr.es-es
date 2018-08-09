@@ -1,5 +1,5 @@
 ﻿---
-title: 'El equipo local no está unido a un dominio de Active Directory: Exchange 2013 Help'
+title: 'El equipo local no está unido a un dominio de Active Directory'
 TOCTitle: El equipo local no está unido a un dominio de Active Directory
 ms:assetid: feb08845-6d44-4760-9932-6eca22f35eec
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.computernotpartofdomain(v=EXCHG.150)

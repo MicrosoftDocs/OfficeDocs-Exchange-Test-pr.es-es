@@ -1,5 +1,5 @@
 ﻿---
-title: 'Deshabilitar notificaciones de llamadas perdidas para un usuario: Exchange 2013 Help'
+title: 'Deshabilitar notificaciones llamadas perdidas para usuario: Exchange 2013 Help'
 TOCTitle: Deshabilitar notificaciones de llamadas perdidas para un usuario
 ms:assetid: e54937d5-3074-454f-b561-e601fecfc6ad
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ673570(v=EXCHG.150)

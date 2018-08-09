@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lista de comprobación: Actualizar la Mensajería unificada de Exchange 2007 a la Mensajería unificada de Exchange 2013: Exchange 2013 Help'
+title: 'Lista comprobación Actualizar UM Exchange 2007 a UM de 2013 Exchange 2013 Help'
 TOCTitle: 'Lista de comprobación: Actualizar la Mensajería unificada de Exchange 2007 a la Mensajería unificada de Exchange 2013'
 ms:assetid: 99b1a081-4052-4516-b63c-77622cbdf962
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn169229(v=EXCHG.150)

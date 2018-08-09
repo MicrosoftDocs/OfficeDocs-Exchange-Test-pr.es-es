@@ -1,5 +1,5 @@
 ﻿---
-title: 'Creación de un conector de recepción para recibir correo electrónico de Internet: Exchange 2013 Help'
+title: 'Crear un conector de recepción para recibir correo electrónico de Internet'
 TOCTitle: Creación de un conector de recepción para recibir correo electrónico de Internet
 ms:assetid: 534bbd32-a0db-4d50-9579-4933b156d7b3
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ657447(v=EXCHG.150)

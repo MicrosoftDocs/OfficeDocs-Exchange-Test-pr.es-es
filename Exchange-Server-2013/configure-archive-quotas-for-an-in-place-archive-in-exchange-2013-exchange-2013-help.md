@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar cuotas de archivo para un archivo en contexto (local): Exchange 2013 Help'
+title: 'Configurar cuotas de archivo para un archivo local en Exchange 2013'
 TOCTitle: Configurar cuotas de archivo para un archivo en contexto (local)
 ms:assetid: f10e77c7-e1d4-415a-bef9-cb3f00e74c34
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee633489(v=EXCHG.150)

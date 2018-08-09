@@ -1,5 +1,5 @@
 ﻿---
-title: 'Uso de copias de seguridad de Windows Server para realizar copias de seguridad y restaurar datos de Exchange: Exchange 2013 Help'
+title: 'Uso copia seguridad Windows Server crear copia seguridad restaurar Exchange'
 TOCTitle: Uso de copias de seguridad de Windows Server para realizar copias de seguridad y restaurar datos de Exchange
 ms:assetid: 0fac891a-5713-42b6-afd5-c91b2b88f966
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd876851(v=EXCHG.150)
