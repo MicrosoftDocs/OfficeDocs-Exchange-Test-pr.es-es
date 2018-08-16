@@ -1,5 +1,5 @@
 ﻿---
-title: Introducción técnica a las sugerencias de directiva en Exchange Online y Exchange 2013
+title: 'Introducción técnica sugerencias directiva en Exchange Online y Exchange 2013'
 TOCTitle: Sugerencias de directiva
 ms:assetid: 4266b83c-dd8a-4b3d-99ff-402e68fc810c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ150512(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Conjunto de características de buzón para un usuario de Outlook Voice Access: Exchange 2013 Help'
+title: 'Conjunto características buzón usuario Outlook Voice Access Exchange 2013 Help'
 TOCTitle: Conjunto de características de buzón para un usuario de Outlook Voice Access
 ms:assetid: a56bfd75-7bc5-49b9-b098-06855a720dcd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124030(v=EXCHG.150)

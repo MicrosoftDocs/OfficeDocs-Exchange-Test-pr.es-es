@@ -94,7 +94,7 @@ Los elementos en la carpeta Elementos eliminados y los elementos que puedan tene
 <ol>
 <li><p>Una tarea no repetida expira según su <code>message-received date</code>, si es que la tiene.</p></li>
 <li><p>Si una tarea no recurrente no tiene una <code>message-received date</code>, dicha tarea expirará según su <code>message-creation date</code>.</p></li>
-<li><p>Si una tarea no recurrente no tiene una <code>message-received date</code> ni una<code></code><code>message-creation date</code>, dicha tarea no expirará.</p></li>
+<li><p>Si una tarea no recurrente no tiene una <code>message-received date</code> ni una <code>message-creation date</code>, dicha tarea no expirará.</p></li>
 </ol></li>
 <li><p>Una tarea recurrente expira según la <code>end date</code> en que ocurrió por última vez. Si una tarea recurrente no tiene una <code>end date</code>, dicha tarea no expirará.</p></li>
 <li><p>Una tarea regenerada (es decir, una tarea recurrente que se regenera un tiempo especificado después de que finaliza la instancia anterior de la tarea) no expira.</p></li>

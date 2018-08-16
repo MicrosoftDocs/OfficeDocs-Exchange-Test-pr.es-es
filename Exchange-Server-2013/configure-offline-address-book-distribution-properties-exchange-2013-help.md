@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar propiedades de distribución de libreta de direcciones sin conexión: Exchange 2013 Help'
+title: 'Configurar propiedad distribuír libreta dirección conexión: Exchange 2013 Help'
 TOCTitle: Configurar propiedades de distribución de libreta de direcciones sin conexión
 ms:assetid: 8df985e9-75ba-47ea-9cc3-aa98a5d8acf4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb123710(v=EXCHG.150)

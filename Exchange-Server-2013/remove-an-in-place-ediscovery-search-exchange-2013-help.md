@@ -1,5 +1,5 @@
 ﻿---
-title: 'Quitar una búsqueda de exhibición de documentos electrónicos local: Exchange 2013 Help'
+title: 'Quitar una búsqueda de eDiscovery local: Exchange 2013 Help'
 TOCTitle: Quitar una búsqueda de exhibición de documentos electrónicos local
 ms:assetid: 78461a78-1255-4a26-9d36-c6b8eb82a4f9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd298078(v=EXCHG.150)

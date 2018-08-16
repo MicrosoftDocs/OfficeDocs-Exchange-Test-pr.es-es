@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ayudar a identificar mi problema con comprobaciones automáticas: agregar dominios: Exchange 2013 Help'
+title: 'Ayudar identificar mi problema con comprobaciones automáticas agregar dominios'
 TOCTitle: 'Ayudar a identificar mi problema con comprobaciones automáticas: agregar dominios'
 ms:assetid: ea90a24b-7c9c-48d5-9475-0eb7777452f3
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn793981(v=EXCHG.150)

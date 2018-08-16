@@ -1,5 +1,5 @@
 ﻿---
-title: 'Establecer características de buzón de correo para los usuarios de Outlook Voice Access: Exchange 2013 Help'
+title: 'Características buzón correo usuarios Outlook Voice Access Exchange 2013 Help'
 TOCTitle: Establecer características de buzón de correo para los usuarios de Outlook Voice Access
 ms:assetid: 10960bf0-65cf-4d0b-bae5-d203c53662db
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa996307(v=EXCHG.150)

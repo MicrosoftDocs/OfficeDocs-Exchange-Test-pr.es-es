@@ -1,5 +1,5 @@
 ﻿---
-title: 'Actualizar la mensajería unificada (UM) de Exchange 2010 a la mensajería unificada de Exchange 2013: Exchange 2013 Help'
+title: 'Actualizar la UM de Exchange 2010 a la UM de Exchange 2013: Exchange 2013 Help'
 TOCTitle: Actualizar la mensajería unificada (UM) de Exchange 2010 a la mensajería unificada de Exchange 2013
 ms:assetid: 01aa5dab-689b-4738-afab-0d2f11a60b39
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn169226(v=EXCHG.150)

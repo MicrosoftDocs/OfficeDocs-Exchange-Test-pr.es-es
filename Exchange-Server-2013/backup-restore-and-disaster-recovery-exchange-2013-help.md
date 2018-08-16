@@ -1,5 +1,5 @@
 ﻿---
-title: 'Copia de seguridad, restauración y recuperación ante desastres: Exchange 2013 Help'
+title: 'Copia seguridad restauración y recuperación ante desastres: Exchange 2013 Help'
 TOCTitle: Copia de seguridad, restauración y recuperación ante desastres
 ms:assetid: 394fc4ed-fa02-41fa-9159-cc2754ff8875
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd876874(v=EXCHG.150)

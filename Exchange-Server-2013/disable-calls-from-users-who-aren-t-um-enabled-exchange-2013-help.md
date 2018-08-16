@@ -1,5 +1,5 @@
 ﻿---
-title: 'Deshabilitar las llamadas de los usuarios que no están habilitados para mensajería unificada: Exchange 2013 Help'
+title: 'Deshabilitar llamadas usuarios no están habilitados para UM Exchange 2013 Help'
 TOCTitle: Deshabilitar las llamadas de los usuarios que no están habilitados para mensajería unificada
 ms:assetid: 272ff4ab-b4d9-4647-98e2-7c171f9dfc3f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ673516(v=EXCHG.150)

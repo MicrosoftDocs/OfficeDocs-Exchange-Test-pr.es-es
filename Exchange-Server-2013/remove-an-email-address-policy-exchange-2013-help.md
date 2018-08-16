@@ -1,5 +1,5 @@
 ﻿---
-title: 'Eliminar una directiva de la dirección de correo electrónico: Exchange 2013 Help'
+title: 'Eliminar una directiva de dirección de correo electrónico: Exchange 2013 Help'
 TOCTitle: Eliminar una directiva de la dirección de correo electrónico
 ms:assetid: f1d05223-7d41-406d-8fae-f4227be1c1c2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb125181(v=EXCHG.150)

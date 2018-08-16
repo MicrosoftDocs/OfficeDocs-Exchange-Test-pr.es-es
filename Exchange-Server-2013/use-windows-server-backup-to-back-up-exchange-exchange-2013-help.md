@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar Copias de seguridad de Windows Server para realizar copias de seguridad de Exchange: Exchange 2013 Help'
+title: 'Uso Copias seguridad Windows Server hacer copias Exchange: Exchange 2013 Help'
 TOCTitle: Usar Copias de seguridad de Windows Server para realizar copias de seguridad de Exchange
 ms:assetid: 188a8291-0a41-4ca2-b6d2-94242e2b1ffc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd876854(v=EXCHG.150)

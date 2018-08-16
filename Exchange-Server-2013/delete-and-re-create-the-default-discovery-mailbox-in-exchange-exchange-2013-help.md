@@ -1,5 +1,5 @@
 ﻿---
-title: 'Eliminar y volver a crear el buzón de correo de detección predeterminado en Exchange: Exchange 2013 Help'
+title: 'Eliminar y volver a crear buzón correo detección predeterminado en Exchange'
 TOCTitle: Eliminar y volver a crear el buzón de correo de detección predeterminado en Exchange
 ms:assetid: 4bde0b00-bdf7-44b4-ba64-aa062bc10ca2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn750894(v=EXCHG.150)

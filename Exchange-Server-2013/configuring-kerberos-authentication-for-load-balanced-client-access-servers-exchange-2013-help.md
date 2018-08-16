@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar la autenticación de Kerberos para servidores de acceso de cliente con equilibrio de carga: Exchange 2013 Help'
+title: 'Configurar autenticación Kerberos servidores acceso cliente equilibrio carga'
 TOCTitle: Configurar la autenticación de Kerberos para servidores de acceso de cliente con equilibrio de carga
 ms:assetid: 8f4faeea-a825-438d-97dc-1c398ce7aba5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff808312(v=EXCHG.150)

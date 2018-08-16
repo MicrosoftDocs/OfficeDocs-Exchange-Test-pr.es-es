@@ -1,5 +1,5 @@
 ﻿---
-title: 'Procedimientos de puerta de enlace IP de mensajería unificada: Exchange 2013 Help'
+title: 'Procedimientos de puerta enlace IP de mensajería unificada: Exchange 2013 Help'
 TOCTitle: Procedimientos de puerta de enlace IP de mensajería unificada
 ms:assetid: 298e51f5-9e42-4395-b9ea-6f16c28a8422
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ822153(v=EXCHG.150)

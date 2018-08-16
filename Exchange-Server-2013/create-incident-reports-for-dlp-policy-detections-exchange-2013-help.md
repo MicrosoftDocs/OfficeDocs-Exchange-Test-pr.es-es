@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear informes de incidentes para detecciones de directivas de DLP: Exchange 2013 Help'
+title: 'Crear informes incidentes para detecciones directivas DLP: Exchange 2013 Help'
 TOCTitle: Crear informes de incidentes para detecciones de directivas de DLP
 ms:assetid: 8e807f94-384c-43f5-be6f-06c5587175a0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ150534(v=EXCHG.150)

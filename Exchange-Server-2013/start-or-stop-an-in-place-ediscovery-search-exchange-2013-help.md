@@ -1,5 +1,5 @@
 ﻿---
-title: 'Iniciar o detener una búsqueda de exhibición de documentos electrónicos local: Exchange 2013 Help'
+title: 'Iniciar o detener una búsqueda de eDiscovery local: Exchange 2013 Help'
 TOCTitle: Iniciar o detener una búsqueda de exhibición de documentos electrónicos local
 ms:assetid: 0d546763-4bf5-4523-91f4-d181b7ee4ac2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd335090(v=EXCHG.150)

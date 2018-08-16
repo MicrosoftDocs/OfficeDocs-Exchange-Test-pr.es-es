@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir o impedir que los usuarios de la misma directiva de buzón de mensajería unificada desde la creación de reglas de respuesta de llamada: Exchange 2013 Help'
+title: 'Permitir impedir usuarios directiva buzón UM creen reglas respuesta llamada'
 TOCTitle: Permitir o impedir que los usuarios de la misma directiva de buzón de mensajería unificada desde la creación de reglas de respuesta de llamada
 ms:assetid: e44acaa6-d5a8-41e8-94aa-100be0bd6391
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd351209(v=EXCHG.150)

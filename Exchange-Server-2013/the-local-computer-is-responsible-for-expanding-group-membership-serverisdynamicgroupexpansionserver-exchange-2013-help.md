@@ -1,5 +1,5 @@
 ﻿---
-title: 'El equipo local es responsable de expandir grupo membership_ServerIsDynamicGroupExpansionServer: Exchange 2013 Help'
+title: 'El equipo local es responsable de ampliar la pertenencia a grupos'
 TOCTitle: El equipo local es responsable de expandir grupo membership_ServerIsDynamicGroupExpansionServer
 ms:assetid: f6fdd8e1-fda1-45be-b8a2-0d356dbe7d83
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.serverisdynamicgroupexpansionserver(v=EXCHG.150)

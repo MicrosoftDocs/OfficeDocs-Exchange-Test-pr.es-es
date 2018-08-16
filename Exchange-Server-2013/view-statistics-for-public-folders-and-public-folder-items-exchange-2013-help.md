@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ver estadísticas de carpetas públicas y elementos de carpetas públicas: Exchange 2013 Help'
+title: 'Ver estadística carpeta pública y elemento carpeta pública: Exchange 2013 Help'
 TOCTitle: Ver estadísticas de carpetas públicas y elementos de carpetas públicas
 ms:assetid: 4e412710-9a74-4649-ab01-502e969a7eda
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa997949(v=EXCHG.150)

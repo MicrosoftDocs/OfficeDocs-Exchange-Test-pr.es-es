@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permisos insuficientes para preparar Active Directory_DomainPrepWithoutADUpdate: Exchange 2013 Help'
+title: 'Permisos insuficientes para preparar Active Directory'
 TOCTitle: Permisos insuficientes para preparar Active Directory_DomainPrepWithoutADUpdate
 ms:assetid: 4283c4b9-983f-460e-a5de-42b2772eae0d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.domainprepwithoutadupdate(v=EXCHG.150)

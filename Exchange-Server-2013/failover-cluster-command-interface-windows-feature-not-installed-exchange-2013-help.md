@@ -1,5 +1,5 @@
 ﻿---
-title: 'Característica de Windows Interfaz de comandos de clúster de conmutación por error no instalada: Exchange 2013 Help'
+title: 'Característica Windows Interfaz comando clúster conmutación error no instalada'
 TOCTitle: Característica de Windows Interfaz de comandos de clúster de conmutación por error no instalada
 ms:assetid: 0d839514-5ab7-497d-8945-41392b4c3980
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.rsatclusteringcmdinterfaceinstalled(v=EXCHG.150)

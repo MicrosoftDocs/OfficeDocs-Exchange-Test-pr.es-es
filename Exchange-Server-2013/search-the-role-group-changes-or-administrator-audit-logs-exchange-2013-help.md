@@ -1,5 +1,5 @@
 ﻿---
-title: 'Buscar los informes de cambios del grupo de roles o auditorías de administrador: Exchange 2013 Help'
+title: 'Buscar informes cambio grupo rol o auditorías administrador Exchange 2013 Help'
 TOCTitle: Buscar los informes de cambios del grupo de roles o auditorías de administrador
 ms:assetid: c7188d53-e672-492b-b57d-cd711379ddb3
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff459262(v=EXCHG.150)

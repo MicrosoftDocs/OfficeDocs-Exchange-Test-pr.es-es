@@ -1,5 +1,5 @@
 ﻿---
-title: 'Establecer límites de tiempo de espera de conexión para POP3: Exchange 2013 Help'
+title: 'Establecer límites tiempo de espera de conexión para POP3: Exchange 2013 Help'
 TOCTitle: Establecer límites de tiempo de espera de conexión para POP3
 ms:assetid: 40003115-be4e-4cf1-97b4-f5ca05b314dc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa997604(v=EXCHG.150)

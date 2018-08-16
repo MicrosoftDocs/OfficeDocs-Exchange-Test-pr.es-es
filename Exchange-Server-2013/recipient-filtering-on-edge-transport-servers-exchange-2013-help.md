@@ -1,5 +1,5 @@
 ﻿---
-title: 'Filtrado de destinatarios en servidores de transporte perimetral: Exchange 2013 Help'
+title: 'Filtrar destinatarios en servidores transporte perimetral: Exchange 2013 Help'
 TOCTitle: Filtrado de destinatarios en servidores de transporte perimetral
 ms:assetid: 994eefd9-3903-41e6-a882-1e333d6d2d18
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb123891(v=EXCHG.150)

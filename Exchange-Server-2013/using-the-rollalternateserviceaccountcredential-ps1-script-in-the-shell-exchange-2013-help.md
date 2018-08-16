@@ -1,5 +1,5 @@
 ﻿---
-title: 'Uso del script RollAlternateserviceAccountCredential.ps1 en el Shell: Exchange 2013 Help'
+title: 'Uso del script RollAlternateserviceAccountCredential.ps1 en el Shell'
 TOCTitle: Uso del script RollAlternateserviceAccountCredential.ps1 en el Shell
 ms:assetid: 6ac55aae-472a-4ed6-83df-2d0e7b48e05c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff808311(v=EXCHG.150)

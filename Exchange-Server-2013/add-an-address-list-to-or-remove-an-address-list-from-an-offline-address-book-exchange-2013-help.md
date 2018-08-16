@@ -1,5 +1,5 @@
 ﻿---
-title: 'Agregar una lista de direcciones o quitar una lista de direcciones de la libretas de direcciones sin conexión: Exchange 2013 Help'
+title: 'Agregar o quitar listas de direcciones en libretas de direcciones sin conexión'
 TOCTitle: Agregar una lista de direcciones o quitar una lista de direcciones de la libretas de direcciones sin conexión
 ms:assetid: 86bd5651-ad41-4516-bf23-6579f4e4da03
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb123563(v=EXCHG.150)

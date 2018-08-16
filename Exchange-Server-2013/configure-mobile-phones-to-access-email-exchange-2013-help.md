@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar teléfonos móviles para tener acceso al correo electrónico: Exchange 2013 Help'
+title: 'Configurar teléfonos móviles para acceder al correo: Exchange 2013 Help'
 TOCTitle: Configurar teléfonos móviles para tener acceso al correo electrónico
 ms:assetid: 8d6e2cea-265a-43d9-a074-076f35658436
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb123704(v=EXCHG.150)

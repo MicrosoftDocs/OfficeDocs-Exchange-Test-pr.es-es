@@ -1,5 +1,5 @@
 ﻿---
-title: 'Suspensión o reanudación de una copia de base de datos de buzones: Exchange 2013 Help'
+title: 'Suspensión o reanudación de una copia base datos buzones: Exchange 2013 Help'
 TOCTitle: Suspensión o reanudación de una copia de base de datos de buzones
 ms:assetid: 96aa1b82-3e15-4215-843e-3d583af9504b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd298159(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Pruebas y solución de problemas con la herramienta para la solución de problemas de UM: Exchange 2013 Help'
+title: 'Pruebas y solución de problemas con la herramienta solucionar problemas de UM'
 TOCTitle: Pruebas y solución de problemas con la herramienta para la solución de problemas de UM
 ms:assetid: 1fab2e52-bd2d-4e46-b222-53fee9d34cba
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg621148(v=EXCHG.150)

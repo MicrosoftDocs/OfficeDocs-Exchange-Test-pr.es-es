@@ -1,5 +1,5 @@
 ﻿---
-title: 'Omitir una cuenta de usuario desde el registro de auditoría de buzones: Exchange 2013 Help'
+title: 'Omitir cuenta de usuario del registro auditoría buzones: Exchange 2013 Help'
 TOCTitle: Omitir una cuenta de usuario desde el registro de auditoría de buzones
 ms:assetid: 98a87071-fe31-4b67-beb8-a73799e54df2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff461934(v=EXCHG.150)

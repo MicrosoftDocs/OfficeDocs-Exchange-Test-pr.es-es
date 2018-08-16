@@ -1,5 +1,5 @@
 ﻿---
-title: 'Mover una base de datos de buzones mediante la portabilidad de bases de datos: Exchange 2013 Help'
+title: 'Mover base datos buzones mediante portabilidad bases datos: Exchange 2013 Help'
 TOCTitle: Mover una base de datos de buzones mediante la portabilidad de bases de datos
 ms:assetid: a765ead1-43bc-4786-ae93-1835cacfc8fc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd876926(v=EXCHG.150)

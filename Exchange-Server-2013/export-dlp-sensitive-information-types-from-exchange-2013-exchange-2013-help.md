@@ -1,5 +1,5 @@
 ﻿---
-title: 'Exportar tipos de información confidencial de DLP desde Exchange 2013: Exchange 2013 Help'
+title: 'Exportar tipo información confidencial DLP de Exchange 2013 Exchange 2013 Help'
 TOCTitle: Exportar tipos de información confidencial de DLP desde Exchange
 ms:assetid: 8f02fbc2-dd1c-4276-be1a-517a43fe39b2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn479225(v=EXCHG.150)

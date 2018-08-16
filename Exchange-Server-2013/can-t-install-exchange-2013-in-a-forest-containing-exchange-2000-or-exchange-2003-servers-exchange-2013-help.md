@@ -1,5 +1,5 @@
 ﻿---
-title: 'No es posible instalar Exchange 2013 en un bosque que contenga servidores de Exchange 2000 o Exchange 2003.: Exchange 2013 Help'
+title: 'No puedo instalar Exchange 2013 en bosque con servidores de Exchange 2000 2003'
 TOCTitle: No es posible instalar Exchange 2013 en un bosque que contenga servidores de Exchange 2000 o Exchange 2003.
 ms:assetid: a115b182-cbd2-4d31-aa0e-375240939301
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.exchange2000or2003presentinorg(v=EXCHG.150)

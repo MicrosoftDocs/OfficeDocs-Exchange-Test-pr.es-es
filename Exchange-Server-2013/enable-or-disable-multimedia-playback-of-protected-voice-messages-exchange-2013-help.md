@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar o deshabilitar la reproducción multimedia de los mensajes de voz protegido: Exchange 2013 Help'
+title: 'Habilitar o deshabilitar reproducción multimedia de mensajes de voz protegido'
 TOCTitle: Habilitar o deshabilitar la reproducción multimedia de los mensajes de voz protegido
 ms:assetid: 3c33370c-4262-42b1-8d83-d61fc7c426cd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee423543(v=EXCHG.150)

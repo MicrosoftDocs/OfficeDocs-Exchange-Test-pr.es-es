@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ayudar a identificar mis problemas con comprobaciones automáticas: herramientas de terceros: Exchange 2013 Help'
+title: 'Ayudar identificar mis problemas comprobaciones automáticas: herramientas 3º'
 TOCTitle: 'Ayudar a identificar mis problemas con comprobaciones automáticas: herramientas de terceros'
 ms:assetid: 83b71e35-892e-44e3-9fce-c608b49bbc61
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn793974(v=EXCHG.150)

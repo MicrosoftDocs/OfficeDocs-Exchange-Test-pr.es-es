@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lista de comprobación: Integrar mensajería unificada de Exchange 2013 con Lync Server: Exchange 2013 Help'
+title: 'Lista comprobar Integrar UM Exchange 2013 con Lync Server Exchange 2013 Help'
 TOCTitle: 'Lista de comprobación: Integrar mensajería unificada de Exchange 2013 con Lync Server'
 ms:assetid: 3b82e86f-9f30-4445-96ad-744082abeaeb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd638120(v=EXCHG.150)
@@ -18,8 +18,6 @@ _**Se aplica a:** Exchange Server 2013, Exchange Server 2016_
 _**Última modificación del tema:** 2016-12-09_
 
 Utilice esta lista de verificación para instalar e implementar la mensajería unificada y Microsoft Lync Server 2013. En este tema, "Lync Server" también se refiere a Lync Server 2010. No obstante, también se puede implementar Microsoft Office Communications Server 2007 R2 junto con la mensajería unificada.
-
-> [!NOTE]  
 
 
 Antes de empezar con la lista de comprobación, debe estar familiarizado con los conceptos que se explican en:

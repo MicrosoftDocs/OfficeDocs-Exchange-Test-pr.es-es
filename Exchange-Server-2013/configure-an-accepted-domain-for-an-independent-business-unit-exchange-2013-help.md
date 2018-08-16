@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configure un dominio aceptado para una unidad de negocio independiente: Exchange 2013 Help'
+title: 'Configurar dominio aceptado para una unidad de negocio independiente'
 TOCTitle: Configure un dominio aceptado para una unidad de negocio independiente
 ms:assetid: bc95dbdc-3669-4c06-ab94-90093bc0dbfd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ657491(v=EXCHG.150)

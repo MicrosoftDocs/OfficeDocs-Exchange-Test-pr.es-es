@@ -1,5 +1,5 @@
 ﻿---
-title: 'Actualmente, el protocolo Simple de transferencia de correo es installed_SMTPSvcInstalled: Exchange 2013 Help'
+title: 'Actualmente, el protocolo Simple de transferencia de correo está instalada'
 TOCTitle: Actualmente, el protocolo Simple de transferencia de correo es installed_SMTPSvcInstalled
 ms:assetid: f786a93c-876d-4f4e-adb6-4dfea3d820d1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.smtpsvcinstalled(v=EXCHG.150)

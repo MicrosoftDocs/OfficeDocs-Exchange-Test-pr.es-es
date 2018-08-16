@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar las sugerencias de correo electrónico personalizadas para los destinatarios: Exchange 2013 Help'
+title: 'Configurar sugerencias correo personalizadas destinatarios Exchange 2013 Help'
 TOCTitle: Configurar las sugerencias de correo electrónico personalizadas para los destinatarios
 ms:assetid: df8ee7ae-2486-4890-b057-cda87b4cb1ec
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd638199(v=EXCHG.150)

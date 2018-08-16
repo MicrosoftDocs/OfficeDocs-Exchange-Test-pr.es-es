@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar el límite de saludos personales para los usuarios de Outlook Voice Access: Exchange 2013 Help'
+title: 'Configurar límite saludos personales para usuarios Outlook Voice Access'
 TOCTitle: Configurar el límite de saludos personales para los usuarios de Outlook Voice Access
 ms:assetid: d400f250-0f55-45f5-9918-5f1d7819fbdf
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb201731(v=EXCHG.150)

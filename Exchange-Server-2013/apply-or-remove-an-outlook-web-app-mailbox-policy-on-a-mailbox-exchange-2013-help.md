@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aplicar o quitar una directiva de buzón de Outlook Web App en un buzón: Exchange 2013 Help'
+title: 'Aplicar o quitar una directiva de buzón de Outlook Web App en un buzón'
 TOCTitle: Aplicar o quitar una directiva de buzón de Outlook Web App en un buzón
 ms:assetid: 51d8e269-b0d5-4bc7-9b3d-0460871e54fa
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd876884(v=EXCHG.150)

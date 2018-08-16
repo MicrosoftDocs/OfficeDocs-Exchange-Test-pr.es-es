@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ayudar a identificar mi problema con comprobaciones automáticas: Active Directory: Exchange 2013 Help'
+title: 'Ayudar a identificar mi problema comprobaciones automáticas: Active Directory'
 TOCTitle: 'Ayudar a identificar mi problema con comprobaciones automáticas: Active Directory'
 ms:assetid: af08e7a1-775a-4e56-a6fe-4ffc10460514
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn793979(v=EXCHG.150)

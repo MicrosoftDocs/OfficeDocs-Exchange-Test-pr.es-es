@@ -1,5 +1,5 @@
 ﻿---
-title: 'Integración de las reglas de información confidencial con las reglas de transporte: Exchange 2013 Help'
+title: 'Integración de reglas de información confidencial con las reglas de transporte'
 TOCTitle: Integración de las reglas de información confidencial con las reglas de transporte
 ms:assetid: feb014a7-89dd-4f2d-a06d-52806ce435d4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ150583(v=EXCHG.150)

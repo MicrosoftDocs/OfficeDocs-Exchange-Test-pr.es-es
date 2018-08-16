@@ -1,5 +1,5 @@
 ﻿---
-title: 'El asociado del conjunto de servidor de fax URI para permitir el envío de faxes: Exchange 2013 Help'
+title: 'Asociado conjunto servidor fax URI permitir envío faxes Exchange 2013 Help'
 TOCTitle: El asociado del conjunto de servidor de fax URI para permitir el envío de faxes
 ms:assetid: 77a9013b-d76b-4af2-8b2c-cef435cf67af
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ650873(v=EXCHG.150)

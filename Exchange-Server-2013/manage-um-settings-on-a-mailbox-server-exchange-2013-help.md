@@ -1,5 +1,5 @@
 ﻿---
-title: 'Administrar la configuración de mensajería unificada en un servidor de buzones: Exchange 2013 Help'
+title: 'Administrar la configuración de UM en servidor de buzones: Exchange 2013 Help'
 TOCTitle: Administrar la configuración de mensajería unificada en un servidor de buzones
 ms:assetid: 6df4853d-21d2-473f-b0ca-ebc996d8794a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa998815(v=EXCHG.150)

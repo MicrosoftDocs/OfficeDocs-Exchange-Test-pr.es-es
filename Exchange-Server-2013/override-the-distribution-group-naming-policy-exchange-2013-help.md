@@ -1,5 +1,5 @@
 ﻿---
-title: 'Invalidar la directiva de nomenclatura de grupos de distribución: Exchange 2013 Help'
+title: 'Invalidar directiva nomenclatura de grupos de distribución: Exchange 2013 Help'
 TOCTitle: Invalidar la directiva de nomenclatura de grupos de distribución
 ms:assetid: 9eb23fc9-3f59-4d09-9077-85c89a051ee0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ218685(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Agregar una función a un usuario o grupo de seguridad universal: Exchange 2013 Help'
+title: 'Agregar función a usuario o grupo de seguridad universal: Exchange 2013 Help'
 TOCTitle: Agregar una función a un usuario o grupo de seguridad universal
 ms:assetid: ae5608de-a141-4714-8876-bce7d2a22cb5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd351056(v=EXCHG.150)

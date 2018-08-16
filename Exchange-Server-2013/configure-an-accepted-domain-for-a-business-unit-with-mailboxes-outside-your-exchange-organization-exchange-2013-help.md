@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar un dominio aceptado para una unidad de negocio con buzones de correo fuera de la organización de Exchange: Exchange 2013 Help'
+title: 'Configurar dominio aceptado unidad negocio buzones fuera organización Exchange'
 TOCTitle: Configurar un dominio aceptado para una unidad de negocio con buzones de correo fuera de la organización de Exchange
 ms:assetid: ff46310b-5392-4eac-97bc-d39d397e1ce1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ657737(v=EXCHG.150)

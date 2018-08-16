@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir o evitar la llamada a responder en un servidor de acceso de cliente: Exchange 2013 Help'
+title: 'Permitir o evitar llamada responder servidor acceso cliente Exchange 2013 Help'
 TOCTitle: Permitir o evitar la llamada a responder en un servidor de acceso de cliente
 ms:assetid: 8287bb78-2621-4b80-a128-8f2ccd67923a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb123529(v=EXCHG.150)

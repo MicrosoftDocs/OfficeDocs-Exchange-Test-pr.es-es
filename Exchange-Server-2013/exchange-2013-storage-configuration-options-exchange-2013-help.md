@@ -1,5 +1,5 @@
 ﻿---
-title: 'Opciones de configuración de almacenamiento de Exchange 2013: Exchange 2013 Help'
+title: 'Opciones configuración de almacenamiento de Exchange 2013: Exchange 2013 Help'
 TOCTitle: Opciones de configuración de almacenamiento de Exchange 2013
 ms:assetid: 37cdeacf-74f9-4399-9860-4d1dbec12bb1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee832792(v=EXCHG.150)

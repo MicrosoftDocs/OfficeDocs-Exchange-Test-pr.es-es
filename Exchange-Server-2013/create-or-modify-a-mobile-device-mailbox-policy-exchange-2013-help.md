@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear o modificar una directiva de buzón de dispositivo móvil: Exchange 2013 Help'
+title: 'Crear o modificar directiva de buzón de dispositivo móvil: Exchange 2013 Help'
 TOCTitle: Crear o modificar una directiva de buzón de dispositivo móvil
 ms:assetid: b4a37a81-25e3-40ff-a18a-a62ae4493635
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124315(v=EXCHG.150)

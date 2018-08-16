@@ -1,5 +1,5 @@
 ﻿---
-title: 'No se admite la instalación en controladores de dominio con permisos divididos de Active Directory: Exchange 2013 Help'
+title: 'No admite instalar en controlador dominio permiso dividido Active Directory'
 TOCTitle: No se admite la instalación en controladores de dominio con permisos divididos de Active Directory
 ms:assetid: 977e3758-5e09-40a2-80c1-fe344b1d8a2a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.installondcinadsplitpermissionmode(v=EXCHG.150)

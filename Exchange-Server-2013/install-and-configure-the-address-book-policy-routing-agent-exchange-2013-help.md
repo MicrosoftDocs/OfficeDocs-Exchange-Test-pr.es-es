@@ -1,5 +1,5 @@
 ﻿---
-title: 'Instalar y configurar al agente de enrutamiento de directivas de libretas de direcciones: Exchange 2013 Help'
+title: 'Instalar y configurar agente enrutamiento directivas libretas direcciones'
 TOCTitle: Instalar y configurar al agente de enrutamiento de directivas de libretas de direcciones
 ms:assetid: 20e8a43d-4508-4388-a2c9-aa3073593cc2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ907308(v=EXCHG.150)

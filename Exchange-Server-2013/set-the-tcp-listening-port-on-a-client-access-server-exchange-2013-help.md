@@ -1,5 +1,5 @@
 ﻿---
-title: 'Establecer el puerto de escucha TCP en un servidor de acceso de cliente: Exchange 2013 Help'
+title: 'Establecer puerto escucha TCP en servidor acceso cliente: Exchange 2013 Help'
 TOCTitle: Establecer el puerto de escucha TCP en un servidor de acceso de cliente
 ms:assetid: 5f48f21a-d8d4-48b2-868f-9a3647693841
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ673530(v=EXCHG.150)

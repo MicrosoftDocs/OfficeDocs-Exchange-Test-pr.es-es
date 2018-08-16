@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar la migración por lotes para migrar carpetas públicas de Exchange 2013 a Exchange Online: Exchange 2013 Help'
+title: 'Usar migración lotes migrar carpetas públicas Exchange 2013 a Exchange Online'
 TOCTitle: Usar la migración por lotes para migrar carpetas públicas de Exchange 2013 a Exchange Online
 ms:assetid: 25a5234c-dd2c-487b-8541-3655fbeb030a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Mt798260(v=EXCHG.150)

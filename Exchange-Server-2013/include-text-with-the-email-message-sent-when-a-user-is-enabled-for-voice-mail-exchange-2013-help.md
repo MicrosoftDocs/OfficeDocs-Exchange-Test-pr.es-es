@@ -1,5 +1,5 @@
 ﻿---
-title: 'Incluir el texto con el mensaje de correo electrónico que se envía cuando un usuario está habilitado para correo de voz: Exchange 2013 Help'
+title: 'Incluir texto con mensaje correo se envía cuando usuario habilitado correo voz'
 TOCTitle: Incluir el texto con el mensaje de correo electrónico que se envía cuando un usuario está habilitado para correo de voz
 ms:assetid: 3e8292fb-0cdb-445d-8048-a59af7c38d63
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb201679(v=EXCHG.150)

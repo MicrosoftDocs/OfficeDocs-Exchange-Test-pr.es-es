@@ -1,5 +1,5 @@
 ﻿---
-title: 'Especifique los administradores y los usuarios que pueden instalar y administrar complementos para Outlook: Exchange 2013 Help'
+title: 'Especifique administrador usuario que instala administra complemento Outlook'
 TOCTitle: Especifique los administradores y los usuarios que pueden instalar y administrar complementos para Outlook
 ms:assetid: 7ee4302d-b8bb-40a0-9810-10d3a0271bcb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ943754(v=EXCHG.150)

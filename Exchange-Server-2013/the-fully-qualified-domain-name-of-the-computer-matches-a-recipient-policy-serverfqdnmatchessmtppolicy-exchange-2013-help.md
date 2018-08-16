@@ -1,5 +1,5 @@
 ﻿---
-title: 'El nombre de dominio completo del equipo coincide con un destinatario policy_ServerFQDNMatchesSMTPPolicy: Exchange 2013 Help'
+title: 'El nombre dominio completo del equipo coincide con directiva de destinatario'
 TOCTitle: El nombre de dominio completo del equipo coincide con un destinatario policy_ServerFQDNMatchesSMTPPolicy
 ms:assetid: f3ea61f8-1788-4cbf-814e-f7c088c1ac47
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.serverfqdnmatchessmtppolicy(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Sugerencias de correo electrónico sobre las relaciones de la organización: Exchange 2013 Help'
+title: 'Sugerencias de correo sobre relaciones de la organización: Exchange 2013 Help'
 TOCTitle: Sugerencias de correo electrónico sobre las relaciones de la organización
 ms:assetid: 1784256f-abe1-4503-b8c4-26d544b73452
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ670165(v=EXCHG.150)

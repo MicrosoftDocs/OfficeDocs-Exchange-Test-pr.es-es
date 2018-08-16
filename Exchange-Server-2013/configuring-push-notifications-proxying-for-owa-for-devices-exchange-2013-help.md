@@ -1,5 +1,5 @@
----
-title: 'Configuración del proxy de notificaciones de inserción para OWA para dispositivos: Exchange 2013 Help'
+﻿---
+title: 'Configuración del proxy notificaciones de inserción para OWA para dispositivos'
 TOCTitle: Configuración del proxy de notificaciones de inserción para OWA para dispositivos
 ms:assetid: c0f4912d-8bd3-4a54-9097-03619c645c6a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn511017(v=EXCHG.150)
@@ -54,10 +54,8 @@ En Exchange Server 2013 se emplea un solo método estándar para la autenticaci�
 Para la autenticación de OAuth se suelen emplear tres componentes: un único servidor de autorización y los dos dominios Kerberos que necesitan comunicarse entre sí. El servidor de autorización (también conocido como el servidor de tokens de seguridad) emite los tokens de seguridad para los dos dominios Kerberos que necesitan comunicarse. Estos tokens comprueban que las comunicaciones que se originan en un dominio Kerberos sean de confianza para el otro dominio. Por ejemplo, el servidor de autorización podría emitir tokens que comprueben que los usuarios de un determinado dominio Kerberos de Lync Server 2013 pueden acceder a un dominio Kerberos de Exchange 2013 específico, y viceversa.
 
 
-> [!TIP]  
+> [!TIP]    
 > Un dominio Kerberos actúa como un contenedor de seguridad.
-
-
 
 Pero para la autenticación de un servidor local a otro servidor, no es necesario usar un servidor de tokens de terceros. Los productos de servidor, como Lync Server 2013 y Exchange 2013 tienen cada uno un servidor de tokens integrado que puede usarse para la autenticación con otros servidores Microsoft (como SharePoint Server) que admitan la autenticación de servidor a servidor. Por ejemplo, Lync Server 2013 puede emitir y firmar un token de seguridad por sí mismo, y después usarlo para comunicarse con Exchange 2013. En un caso como este, no se necesita ningún servidor de tokens de terceros.
 
@@ -139,7 +137,7 @@ Para configurar la autenticación de servidor a servidor para una implementació
         Complete.
         ```
 
-        > [!WARNING]
+        > [!WARNING]  
         > Antes de continuar, son necesarios los cmdlets de Módulo Azure Active Directory para Windows PowerShell. Si los cmdlets de Módulo Azure Active Directory para Windows PowerShell (anteriormente conocidos como Módulo Microsoft Online Services para Windows PowerShell) no se han instalado, puede instalarlos desde <A href="http://aka.ms/aadposh">Administrar Azure AD mediante Windows PowerShell</A>.
 
 
@@ -234,31 +232,35 @@ Después de completar los pasos anteriores, pruebe las notificaciones de inserci
 
   - **Habilitar la supervisión.** Una alternativa para probar las notificaciones de inserción, o para investigar por qué se producen errores, consiste en habilitar la supervisión en un servidor de buzones de correo de la organización. Un administrador del servidor Exchange 2013 local debe usar este script para invocar la supervisión del proxy de notificaciones de inserción. Para ello, copie y pegue el siguiente código.
     
-        # Send a push notification to verify connectivity.
-        
-        $s = Get-ExchangeServer | ?{$_.ServerRole -match "Mailbox"}
-        If ($s.Count -gt 1)
-        {
-            $s = $s[0]
-        }
-        If ($s.Count -ne 0)
-        {
-            # Restart the monitoring service to clear the cache from when push was previously disabled.
-            Restart-Service MSExchangeHM
-        
-            # Give the monitoring service enough time to load.
-            Start-Sleep -Seconds:120
-        
-            Invoke-MonitoringProbe PushNotifications.Proxy\PushNotificationsEnterpriseConnectivityProbe -Server:$s.Fqdn | fl ResultType, Error, Exception
-        }
-        Else
-        {
-            Write-Error "Cannot find a Mailbox server in the current site."
-        }
+      ```
+      # Send a push notification to verify connectivity.
+      
+      $s = Get-ExchangeServer | ?{$_.ServerRole -match "Mailbox"}
+      If ($s.Count -gt 1)
+      {
+          $s = $s[0]
+      }
+      If ($s.Count -ne 0)
+      {
+          # Restart the monitoring service to clear the cache from when push was previously disabled.
+          Restart-Service MSExchangeHM
+      
+          # Give the monitoring service enough time to load.
+          Start-Sleep -Seconds:120
+      
+          Invoke-MonitoringProbe PushNotifications.Proxy\PushNotificationsEnterpriseConnectivityProbe -Server:$s.Fqdn | fl ResultType, Error, Exception
+      }
+      Else
+      {
+          Write-Error "Cannot find a Mailbox server in the current site."
+      }
+      ```
     
     El resultado previsto debería ser similar a lo siguiente.
     
-        ResultType : Succeeded
-        Error      :
-        Exception  :
+      ```
+      ResultType : Succeeded
+      Error      :
+      Exception  :
+      ```
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Conectar la mensajería unificada a una puerta de enlace VoIP compatible: Exchange 2013 Help'
+title: 'Conectar la UM a una puerta de enlace VoIP compatible: Exchange 2013 Help'
 TOCTitle: Conectar la mensajería unificada a una puerta de enlace VoIP compatible
 ms:assetid: b8dfc8bd-2ee5-418d-b0a4-4fa2ec7e2a2e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124360(v=EXCHG.150)

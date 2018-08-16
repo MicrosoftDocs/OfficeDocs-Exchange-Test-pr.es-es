@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ayudar a identificar mi problema con el envío y recepción de correo electrónico en Office Outlook (comprobaciones automáticas): Exchange 2013 Help'
+title: 'Ayudar identificar problema enviar recibir correo Outlook comprobar automática'
 TOCTitle: Ayudar a identificar mi problema con el envío y recepción de correo electrónico en Office Outlook (comprobaciones automáticas)
 ms:assetid: 0de16c79-807a-4cae-9097-22dd61a157b4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn793609(v=EXCHG.150)

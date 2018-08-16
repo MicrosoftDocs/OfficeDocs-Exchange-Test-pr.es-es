@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear un conector de recepción seguro para recibir correos electrónicos de un socio: Exchange 2013 Help'
+title: 'Crear conector de recepción seguro para recibir correos electrónicos de socio'
 TOCTitle: Cree un conector de recepción seguro para recibir correos electrónicos de un socio
 ms:assetid: 06aa692c-7940-4a14-a722-058c47440f85
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ673037(v=EXCHG.150)

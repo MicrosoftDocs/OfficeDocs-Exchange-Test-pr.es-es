@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear una búsqueda en los registros de auditoría de buzones: Exchange 2013 Help'
+title: 'Crear una búsqueda en los registros de auditoría de buzones Exchange 2013 Help'
 TOCTitle: Crear una búsqueda en los registros de auditoría de buzones
 ms:assetid: 48ba22cf-b1f2-4dbc-98fc-fed22d97db14
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff461929(v=EXCHG.150)

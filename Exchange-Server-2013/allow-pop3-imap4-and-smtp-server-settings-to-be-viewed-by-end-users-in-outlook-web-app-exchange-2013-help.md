@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir que los de usuarios finales vean la configuración de servidor de POP3, IMAP4 y SMTP en Outlook Web App: Exchange 2013 Help'
+title: 'Permitir usuarios finales ver configuración servidor POP3 IMAP4 y SMTP en OWA'
 TOCTitle: Permitir que los de usuarios finales vean la configuración de servidor de POP3, IMAP4 y SMTP en Outlook Web App
 ms:assetid: bd22bf7e-3bf7-45e6-8790-919b780166f6
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg298947(v=EXCHG.150)

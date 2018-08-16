@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ayudar a identificar mi problema con comprobaciones automáticas: SSO: Exchange 2013 Help'
+title: 'Ayuda identificar mi problema comprobación automática SSO: Exchange 2013 Help'
 TOCTitle: 'Ayudar a identificar mi problema con comprobaciones automáticas: SSO'
 ms:assetid: b7d8418d-f6a9-4bed-af84-0b2ad0554aa9
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn793975(v=EXCHG.150)

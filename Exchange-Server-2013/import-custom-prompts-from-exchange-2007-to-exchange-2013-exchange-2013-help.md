@@ -1,5 +1,5 @@
 ﻿---
-title: 'Importar mensajes personalizados de Exchange 2007 a Exchange 2013: Exchange 2013 Help'
+title: 'Importa mensaje personalizado Exchange 2007 a Exchange 2013 Exchange 2013 Help'
 TOCTitle: Importar mensajes personalizados de Exchange 2007 a Exchange 2013
 ms:assetid: 70c0b0bc-c0de-4e3c-8144-1fe59f86ebf4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg309147(v=EXCHG.150)

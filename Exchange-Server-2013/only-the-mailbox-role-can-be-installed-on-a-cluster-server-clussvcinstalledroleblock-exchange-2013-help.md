@@ -1,5 +1,5 @@
 ﻿---
-title: 'Sólo la función de buzón se puede instalar en un clúster de server_ClusSvcInstalledRoleBlock: Exchange 2013 Help'
+title: 'Sólo la función de buzón se puede instalar en un clúster de server'
 TOCTitle: Sólo la función de buzón se puede instalar en un clúster de server_ClusSvcInstalledRoleBlock
 ms:assetid: 3e20f408-2b8d-47c2-a402-07232ab9f234
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.clussvcinstalledroleblock(v=EXCHG.150)

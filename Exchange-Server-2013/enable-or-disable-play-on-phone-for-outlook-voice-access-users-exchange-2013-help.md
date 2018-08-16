@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar o deshabilitar reproducir en el teléfono para los usuarios de Outlook Voice Access: Exchange 2013 Help'
+title: 'Habilitar deshabilitar reproducir teléfono para usuarios Outlook Voice Access'
 TOCTitle: Habilitar o deshabilitar reproducir en el teléfono para los usuarios de Outlook Voice Access
 ms:assetid: d3281a97-6fc6-42a3-855f-1af1184a644a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd351161(v=EXCHG.150)

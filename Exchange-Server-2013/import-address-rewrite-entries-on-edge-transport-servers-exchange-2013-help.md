@@ -1,5 +1,5 @@
 ﻿---
-title: 'Importación de entradas de reescritura de direcciones en servidores de transporte perimetral: Exchange 2013 Help'
+title: 'Importa entrada reescritura dirección transporte perimetral Exchange 2013 Help'
 TOCTitle: Importación de entradas de reescritura de direcciones en servidores de transporte perimetral
 ms:assetid: bd0942c6-9c66-4b4c-b9bc-2f5f783def76
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb331966(v=EXCHG.150)

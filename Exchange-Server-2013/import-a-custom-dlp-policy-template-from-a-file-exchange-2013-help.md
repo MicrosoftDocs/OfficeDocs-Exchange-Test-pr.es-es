@@ -1,5 +1,5 @@
 ﻿---
-title: 'Importar una plantilla de directiva DLP personalizada desde un archivo: Exchange 2013 Help'
+title: 'Importar plantilla directiva DLP personalizada de archivo: Exchange 2013 Help'
 TOCTitle: Importar una plantilla de directiva DLP personalizada desde un archivo
 ms:assetid: 83f49dbd-f9b1-498e-b548-1529c5e1ccdb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ150531(v=EXCHG.150)

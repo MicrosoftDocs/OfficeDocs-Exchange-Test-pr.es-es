@@ -1,5 +1,5 @@
 ﻿---
-title: 'Utilizar lotes de migración para migrar carpetas públicas de Exchange de 2013 a Office 365 grupos: Exchange 2013 Help'
+title: 'Usar migración lote migrar carpetas públicas Exchange 2013 a Grupos Office 365'
 TOCTitle: Utilizar lotes de migración para migrar carpetas públicas de Exchange de 2013 a Office 365 grupos
 ms:assetid: 1d800576-957d-4916-ae2a-55c08ca75be1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Mt843873(v=EXCHG.150)

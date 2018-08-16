@@ -1,5 +1,5 @@
 ﻿---
-title: 'Actualizar Exchange 2013 a la actualización acumulativa o Service Pack más reciente: Exchange 2013 Help'
+title: 'Actualizar Exchange 2013 a actualización acumulativa o SP más reciente'
 TOCTitle: Actualizar Exchange 2013 a la actualización acumulativa o Service Pack más reciente
 ms:assetid: 928a4a0b-0082-4d50-a696-bfaf2782f42d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ983803(v=EXCHG.150)

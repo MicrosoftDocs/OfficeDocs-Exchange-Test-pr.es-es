@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ayudar a identificar mi problema con el envío y recepción de correo electrónico en un dispositivo móvil (comprobaciones automáticas): Exchange 2013 Help'
+title: 'No puedo enviar recibir correo dispositivo móvil (comprobaciones automáticas)'
 TOCTitle: Ayudar a identificar mi problema con el envío y recepción de correo electrónico en un dispositivo móvil (comprobaciones automáticas)
 ms:assetid: 7400a7c8-1e45-4e73-a642-b7d79d997462
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn793610(v=EXCHG.150)

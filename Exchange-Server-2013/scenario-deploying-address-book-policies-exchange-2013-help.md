@@ -1,5 +1,5 @@
 ﻿---
-title: 'Caso: implementación de directivas de libretas de direcciones: Exchange 2013 Help'
+title: 'Caso: implementación directivas de libretas de direcciones: Exchange 2013 Help'
 TOCTitle: 'Caso: implementación de directivas de libretas de direcciones'
 ms:assetid: 6ac3c87d-161f-447b-afb2-149ae7e3f1dc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ657455(v=EXCHG.150)

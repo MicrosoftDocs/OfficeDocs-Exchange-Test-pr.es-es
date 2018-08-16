@@ -1,5 +1,5 @@
 ﻿---
-title: 'El usuario que inició sesión no es un miembro del grupo de administradores de esquema: Exchange 2013 Help'
+title: 'El usuario inició sesión no es miembro del grupo administradores de esquema'
 TOCTitle: El usuario que inició sesión no es un miembro del grupo de administradores de esquema
 ms:assetid: a4a3f293-afb9-4c00-aa07-c438238b6a98
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.schemaupdaterequired(v=EXCHG.150)

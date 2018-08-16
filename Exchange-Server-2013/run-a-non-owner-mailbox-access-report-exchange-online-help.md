@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ejecución de un informe de acceso al buzón de correo del que no se es propietario: Exchange 2013 Help'
+title: 'Ejecución de informe de acceso al buzón de correo del que no se es propietario'
 TOCTitle: Ejecución de un informe de acceso al buzón de correo del que no se es propietario
 ms:assetid: dbbef170-e726-4735-abf1-2857db9bb52d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ150575(v=EXCHG.150)

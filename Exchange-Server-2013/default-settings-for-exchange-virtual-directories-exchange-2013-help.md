@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configuración predeterminada para directorios virtuales de Exchange: Exchange 2013 Help'
+title: 'Configuración predeterminada directorios virtuales Exchange Exchange 2013 Help'
 TOCTitle: Configuración predeterminada para directorios virtuales de Exchange
 ms:assetid: d2d89ce6-4721-4737-a325-fba5ad9422e0
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg247612(v=EXCHG.150)

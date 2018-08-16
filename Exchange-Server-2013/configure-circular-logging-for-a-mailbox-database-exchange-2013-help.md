@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar el registro circular para una base de datos de buzones: Exchange 2013 Help'
+title: 'Configurar registro circular para base de datos de buzones: Exchange 2013 Help'
 TOCTitle: Configurar el registro circular para una base de datos de buzones
 ms:assetid: 29cbd7cd-382b-4e0d-8368-2e49e75df2fc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn756374(v=EXCHG.150)

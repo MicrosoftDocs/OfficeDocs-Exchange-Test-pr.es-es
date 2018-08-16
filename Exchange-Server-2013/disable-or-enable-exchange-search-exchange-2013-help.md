@@ -1,5 +1,5 @@
 ﻿---
-title: 'Deshabilitar o habilitar el servicio de búsqueda de Exchange: Exchange 2013 Help'
+title: 'Deshabilitar o habilitar servicio de búsqueda de Exchange: Exchange 2013 Help'
 TOCTitle: Deshabilitar o habilitar el servicio de búsqueda de Exchange
 ms:assetid: 195b25be-53fb-4215-90a5-04340d640bcc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa996416(v=EXCHG.150)

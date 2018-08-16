@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear una búsqueda de exhibición de documentos electrónicos local: Exchange 2013 Help'
+title: 'Crear una búsqueda de eDiscovery local: Exchange 2013 Help'
 TOCTitle: Crear una búsqueda de exhibición de documentos electrónicos local
 ms:assetid: feedc0c9-4a44-4bb2-8520-cc29d66d4fc3
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd353189(v=EXCHG.150)

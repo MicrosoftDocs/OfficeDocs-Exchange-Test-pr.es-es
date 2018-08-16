@@ -1,5 +1,5 @@
 ﻿---
-title: 'Quitar servidores de buzón y acceso de cliente de un plan de marcado de URI de SIP: Exchange 2013 Help'
+title: 'Quitar servidores de buzón y acceso de cliente de plan marcado de URI de SIP'
 TOCTitle: Quitar servidores de buzón y acceso de cliente de un plan de marcado de URI de SIP
 ms:assetid: 367441e1-1a0f-42c8-9fa8-8abe80b3d015
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa997238(v=EXCHG.150)

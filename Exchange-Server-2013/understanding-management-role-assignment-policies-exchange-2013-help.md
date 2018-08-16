@@ -1,5 +1,5 @@
 ﻿---
-title: 'Descripción de las directivas de asignación de roles de administración: Exchange 2013 Help'
+title: 'Descripción de directivas asignación roles administración: Exchange 2013 Help'
 TOCTitle: Descripción de las directivas de asignación de roles de administración
 ms:assetid: 25913e43-326a-4371-90b5-021a35f100fe
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd638100(v=EXCHG.150)

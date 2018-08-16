@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configuración de enrutamiento de correo de Exchange en Active Directory: Exchange 2013 Help'
+title: 'Configurar enrutamiento de correo de Exchange en Active Directory'
 TOCTitle: Configuración de enrutamiento de correo de Exchange en Active Directory
 ms:assetid: d01f8545-c201-4a96-be39-ed4c7008afcf
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ674705(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Modificar una búsqueda de exhibición de documentos electrónicos local: Exchange 2013 Help'
+title: 'Modificar una búsqueda de eDiscovery local: Exchange 2013 Help'
 TOCTitle: Modificar una búsqueda de exhibición de documentos electrónicos local
 ms:assetid: 3162743c-cc12-4997-91e0-bcbfea8bcb17
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd335182(v=EXCHG.150)

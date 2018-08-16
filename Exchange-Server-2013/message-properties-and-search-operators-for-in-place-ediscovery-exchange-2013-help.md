@@ -1,5 +1,5 @@
 ﻿---
-title: 'Propiedades de mensajes y operadores de búsqueda para la exhibición de documentos electrónicos local: Exchange 2013 Help'
+title: 'Propiedades de mensajes y operadores de búsqueda para eDiscovery local'
 TOCTitle: Propiedades de mensajes y operadores de búsqueda para la exhibición de documentos electrónicos local
 ms:assetid: 402b74e4-8853-4c51-9737-1a9c19f8e3dd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn774955(v=EXCHG.150)

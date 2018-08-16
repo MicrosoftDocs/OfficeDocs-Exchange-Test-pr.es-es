@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar el reenvío de correo electrónico para un buzón de correo: Exchange 2013 Help'
+title: 'Configurar el reenvío de correo para un buzón de correo: Exchange 2013 Help'
 TOCTitle: Configurar el reenvío de correo electrónico para un buzón de correo
 ms:assetid: c7a7afaf-577e-49d6-8cee-bb4c4a5d570b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd351134(v=EXCHG.150)
