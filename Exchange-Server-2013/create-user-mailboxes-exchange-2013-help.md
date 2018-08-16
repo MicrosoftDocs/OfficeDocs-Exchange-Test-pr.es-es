@@ -32,46 +32,39 @@ También puede crear buzones para los usuarios existentes que tengan una cuenta 
   - Para obtener información acerca de los métodos abreviados de teclado aplicables a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > ¿Tiene algún problema? Solicite ayuda en los foros de Exchange. Visite los foros en <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, o <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>..
 
 
 
 ## ¿Qué desea hacer?
 
-## Crear un buzón de usuario
+### Crear un buzón de usuario
 
-## Usar el EAC para crear un buzón de usuario
+#### Usar el EAC para crear un buzón de usuario
 
 1.  En el EAC, vaya a **Destinatarios** \> **Buzones de correo**.
 
 2.  Haga clic en **Nuevo** \> **Buzón de usuario**.
 
 3.  En la página **Nuevo buzón de usuario**, en el cuadro **Alias**, escriba el alias del usuario, que especifica el alias de correo electrónico del usuario. El alias del usuario es la porción de la dirección de correo electrónico ubicada a la izquierda del símbolo arroba (@). Debe ser exclusivo en el bosque.
-    
-
-    > [!NOTE]
+  
+    > [!NOTE]    
     > Si deja este cuadro vacío, se usa para el alias de correo electrónico el valor de la parte del nombre de usuario del <STRONG>Nombre de inicio de sesión del usuario</STRONG>.
 
-
-
-4.
-    Seleccione una de las opciones para:
+4.  Seleccione una de las opciones para:
     
-      - **Usuario existente**   Seleccione habilitar el correo y crear un buzón para un usuario existente.
+      - **Usuario existente** Seleccione habilitar el correo y crear un buzón para un usuario existente.
         
         Haga clic en **Examinar** para abrir el cuadro de diálogo **Seleccionar usuario – Todo el bosque**. Este cuadro de diálogo muestra una lista de cuentas de usuario de Active Directory del bosque que no están habilitadas para correo o no tienen buzones de Exchange. Seleccione la cuenta de usuario que desee habilitar para correo y, a continuación, haga clic en **Aceptar**. Si selecciona esta opción, no es necesario proporcionar información de la cuenta del usuario debido a que esa información ya existe en Active Directory.
     
-      - **Nuevo usuario**   Seleccione crear una nueva cuenta de usuario en Active Directory y cree un buzón para el mismo. Si selecciona esta opción, tendrá que proporcionar la información de la cuenta del usuario que se requiera.
+      - **Nuevo usuario** Seleccione crear una nueva cuenta de usuario en Active Directory y cree un buzón para el mismo. Si selecciona esta opción, tendrá que proporcionar la información de la cuenta del usuario que se requiera.
     
 
-    > [!NOTE]
+    > [!NOTE]    
     > La cuenta de Active Directory&nbsp;que está asociada a los buzones de usuario debe residir en el mismo bosque que el servidor de Exchange. Para crear un buzón para una cuenta de usuario que está en un bosque de confianza, debe crear un buzón vinculado. Vea <A href="manage-linked-mailboxes-exchange-2013-help.md">Administrar buzones vinculados</A>.
 
-
-
-5.      
-    Si seleccionó **Nuevo usuario** en el paso 4, complete los siguientes cuadros en la página **Buzón de nuevo usuario**. De lo contrario, vaya al Paso 7.
+5.  Si seleccionó **Nuevo usuario** en el paso 4, complete los siguientes cuadros en la página **Buzón de nuevo usuario**. De lo contrario, vaya al Paso 7.
     
       - **Nombre**   Use este cuadro para escribir el nombre del usuario.
     
@@ -90,14 +83,14 @@ También puede crear buzones para los usuarios existentes que tengan una cuenta 
       - **\* Nombre de inicio de sesión del usuario**   Use este cuadro para escribir el nombre que usará el usuario para iniciar sesión en el buzón y en el dominio. El nombre de inicio de sesión del usuario consta de un nombre de usuario a la izquierda del símbolo arroba (@) y un sufijo a la derecha. Por lo general, el sufijo es el nombre de dominio en el que reside la cuenta de usuario. Tenga en cuenta que no puede usar un apóstrofo (') ni comillas (") en el nombre de inicio de sesión del usuario porque no están admitidos estos caracteres.
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Si el valor del nombre de usuario es diferente al valor usado en el cuadro <STRONG>Alias</STRONG>, la dirección de correo electrónico del usuario y el nombre de inicio de sesión de usuario serán diferentes.
 
     
       - **\* Nueva contraseña**   Use este cuadro para escribir la contraseña que el usuario debe usar para iniciar sesión en el buzón.
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Asegúrese de que la contraseña que proporciona cumple los requisitos de longitud, complejidad e historial de la contraseña del dominio en el que va a crear la cuenta de usuario.
 
     
@@ -107,8 +100,7 @@ También puede crear buzones para los usuarios existentes que tengan una cuenta 
         
         Si activa esta casilla de verificación, la primera vez que el nuevo usuario inicie una sesión se le pedirá que cambie la contraseña mediante un cuadro de diálogo. El usuario no podrá realizar ninguna tarea hasta que haya modificado la contraseña correctamente.
 
-6.      
-    Haga clic en **Más opciones** para configurar los siguientes cuadros. De lo contrario, vaya al Paso 7 para guardar el buzón de nuevo usuario.
+6.  Haga clic en **Más opciones** para configurar los siguientes cuadros. De lo contrario, vaya al Paso 7 para guardar el buzón de nuevo usuario.
     
       - **Especificar la base de datos de buzones**   Use esta opción para especificar una base de datos de buzones en vez de permitir que Exchange seleccione la base de datos. Haga clic en **Examinar** para abrir el cuadro de diálogo **Seleccionar base de datos de buzones**. En este cuadro de diálogo se enumeran todas las bases de datos de buzones de la organización de Exchange. De manera predeterminada, las bases de datos de buzones se ordenan por el nombre. También puede hacer clic en el título de la columna correspondiente para ordenar las bases de datos por versión o nombre del servidor. Seleccione la base de datos de buzones que desee usar y haga clic en **Aceptar**.
     
@@ -169,10 +161,8 @@ También puede crear buzones para los usuarios existentes que tengan una cuenta 
 3.  En la página **Nuevo buzón de usuario**, en el cuadro **Alias**, escriba el alias del usuario, que especifica el alias de correo electrónico del usuario. El alias del usuario es la porción de la dirección de correo electrónico ubicada a la izquierda del símbolo arroba (@). Debe ser exclusivo en el bosque.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Si deja este cuadro vacío, se usa para el alias de correo electrónico el valor de la parte del nombre de usuario del <STRONG>Nombre de inicio de sesión del usuario</STRONG>.
-
-
 
 4.  Haga clic en **Usuario existente**.
 
@@ -181,10 +171,8 @@ También puede crear buzones para los usuarios existentes que tengan una cuenta 
     Al crear un buzón para un usuario existente, no tiene que proporcionar información de la cuenta porque ésta ya existe en Active Directory.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > La cuenta de Active Directory&nbsp;que está asociada a los buzones de usuario debe residir en el mismo bosque que el servidor de Exchange. Para crear un buzón para una cuenta de usuario que está en un bosque de confianza, debe crear un buzón vinculado. Vea <A href="manage-linked-mailboxes-exchange-2013-help.md">Administrar buzones vinculados</A>.
-
-
 
 6.  Haga clic en **Más opciones** para configurar los siguientes cuadros. De lo contrario, vaya al Paso 7 para guardar el buzón de nuevo usuario.
     

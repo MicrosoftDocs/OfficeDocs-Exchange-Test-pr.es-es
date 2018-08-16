@@ -65,25 +65,25 @@ Para visualizar la información sobre la entrega, seleccione un mensaje en el pa
 
 En el informe de entrega se indica el estado de la entrega y se incluye información detallada sobre la entrega del mensaje seleccionado en el panel **Resultados de la búsqueda**. En la parte superior del informe, aparecen los campos siguientes:
 
-  - **Asunto   **La línea de asunto del mensaje aparece como encabezado del informe.
+  - **Asunto** La línea de asunto del mensaje aparece como encabezado del informe.
 
-  - **De   **Alias, nombre para mostrar o dirección de correo electrónico de la persona que envió el mensaje.
+  - **De** Alias, nombre para mostrar o dirección de correo electrónico de la persona que envió el mensaje.
 
   - **Para**   Alias, nombre para mostrar o dirección de correo electrónico del destinatario del mensaje.
 
-  - **Enviado el   **Fecha y hora en que se envió el mensaje.
+  - **Enviado el** Fecha y hora en que se envió el mensaje.
 
 ## Sección Resumen hasta la fecha
 
 Esta sección aparece en el informe de entrega cuando un mensaje se envió a varias personas o destinatarios. En la parte superior de esta sección se indica el número total de destinatarios a los que se envió el mensaje y aparece una breve descripción de la entrega a cada destinatario.
 
-  - **Resumen hasta la fecha   **Aquí se indica el número total de destinatarios y si los mensajes tienen el estado Pendiente, Entregado o Incorrecto. Haga clic en los hipervínculos para ordenar la información en función del estado.
+  - **Resumen hasta la fecha** Aquí se indica el número total de destinatarios y si los mensajes tienen el estado Pendiente, Entregado o Incorrecto. Haga clic en los hipervínculos para ordenar la información en función del estado.
 
   - **Cuadro de búsqueda**   El cuadro de búsqueda resulta útil cuando el mensaje se envía a un grupo formado por más de 30 destinatarios. En el cuadro de búsqueda, escriba la dirección de correo electrónico cuya información sobre la entrega desee consultar y haga clic en el icono de lupa.
 
-  - **Para   **Muestra la dirección de correo electrónico del destinatario.
+  - **Para** Muestra la dirección de correo electrónico del destinatario.
 
-  - **Estado   **En esta columna, se muestra el estado del mensaje de cada destinatario.
+  - **Estado** En esta columna, se muestra el estado del mensaje de cada destinatario.
 
 ## Información detallada del informe
 
@@ -95,15 +95,15 @@ Esta sección contiene información detallada sobre la entrega del mensaje envia
 
 En función del estado de entrega del mensaje, pueden verse una variedad de estados, entre ellos:
 
-  - **Entregado   **Indica que la entrega se realizó correctamente.
+  - **Entregado** Indica que la entrega se realizó correctamente.
 
-  - **Aplazado   **Indica que el mensaje se retrasó.
+  - **Aplazado** Indica que el mensaje se retrasó.
 
-  - **Pendiente   **Si la entrega del mensaje está pendiente porque el mensaje satisface los criterios de una regla o directiva que se aplica a toda la organización o porque está sujeto a la aprobación de mensajes, el mensaje de estado indica la acción que está realizando una regla o que el mensaje debe ser aprobado por un moderador antes de su entrega.
+  - **Pendiente** Si la entrega del mensaje está pendiente porque el mensaje satisface los criterios de una regla o directiva que se aplica a toda la organización o porque está sujeto a la aprobación de mensajes, el mensaje de estado indica la acción que está realizando una regla o que el mensaje debe ser aprobado por un moderador antes de su entrega.
 
   - **Moderador**   El estado indica si el moderador aprobó o rechazó el mensaje.
 
-  - **Grupo expandido   **Si se envió un mensaje a un grupo, cada uno de los usuarios aparece en la sección **Resumen hasta la fecha** a fin de que pueda ver el estado de entrega para cada destinatario. Si necesita quitar un usuario de un grupo o agregarlo mientras examina el informe de entrega, haga clic en **Editar grupos** para poder modificar los grupos.
+  - **Grupo expandido** Si se envió un mensaje a un grupo, cada uno de los usuarios aparece en la sección **Resumen hasta la fecha** a fin de que pueda ver el estado de entrega para cada destinatario. Si necesita quitar un usuario de un grupo o agregarlo mientras examina el informe de entrega, haga clic en **Editar grupos** para poder modificar los grupos.
 
   - **Error**   Muestra la fecha, la hora y el motivo de un error de entrega de un mensaje. Por ejemplo, puede haber una regla que afecte a toda la organización que impida la entrega del mensaje o puede que el mensaje no pudiera entregarse.
 
