@@ -32,16 +32,16 @@ También puede crear buzones para los usuarios existentes que tengan una cuenta 
   - Para obtener información acerca de los métodos abreviados de teclado aplicables a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > ¿Tiene algún problema? Solicite ayuda en los foros de Exchange. Visite los foros en <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, o <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>..
 
 
 
 ## ¿Qué desea hacer?
 
-## Crear un buzón de usuario
+### Crear un buzón de usuario
 
-## Usar el EAC para crear un buzón de usuario
+#### Usar el EAC para crear un buzón de usuario
 
 1.  En el EAC, vaya a **Destinatarios** \> **Buzones de correo**.
 
