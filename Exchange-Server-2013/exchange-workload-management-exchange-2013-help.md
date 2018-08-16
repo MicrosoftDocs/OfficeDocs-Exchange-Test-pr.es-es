@@ -86,7 +86,7 @@ Asignar directivas de limitación
   - [Set-ThrottlingPolicyAssociation](https://technet.microsoft.com/es-es/library/ff459231\(v=exchg.150\))
 
 
-> [!NOTE]
-> Los cmdlets de administración de carga de trabajo del sistema <STRONG>*-ResourcePolicy</STRONG>, <STRONG>*-WorkloadManagementPolicy</STRONG> y <STRONG>*-WorkloadPolicy</STRONG> han quedado obsoletos. Las opciones de administración de carga de trabajo del sistema se deben personalizar solo bajo la dirección del servicio de soporte y atención al cliente de Microsoft.
+> [!NOTE]  
+> Los cmdlets de administración de carga de trabajo del sistema <STRONG>&#42;-ResourcePolicy</STRONG>, <STRONG>&#42;-WorkloadManagementPolicy</STRONG> y <STRONG>&#42;-WorkloadPolicy</STRONG> han quedado obsoletos. Las opciones de administración de carga de trabajo del sistema se deben personalizar solo bajo la dirección del servicio de soporte y atención al cliente de Microsoft.
 
 

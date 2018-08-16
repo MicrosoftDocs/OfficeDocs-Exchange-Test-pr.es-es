@@ -99,7 +99,7 @@ Para buscar todas las entradas del registro de seguimiento de mensajes de un men
 
 En este ejemplo se buscan los registros de seguimiento de mensajes en todos los servidores de buzones de correo de Exchange 2013 con los siguientes criterios:
 
-  - Buscar todas las entradas relacionadas con un mensaje que tenga un valor de **MessageID:**  de `<ba18339e-8151-4ff3-aeea-87ccf5fc9796@mailbox01.contoso.com>`. Tenga en cuenta que puede omitir los caracteres de paréntesis angulares (`<``>`). Si no lo hace, deberá incluir todo el valor de **MessageID:**  entre comillas.
+  - Buscar todas las entradas relacionadas con un mensaje que tenga un valor de **MessageID:**  de `<ba18339e-8151-4ff3-aeea-87ccf5fc9796@mailbox01.contoso.com>`. Tenga en cuenta que puede omitir los caracteres de paréntesis angulares (`<>`). Si no lo hace, deberá incluir todo el valor de **MessageID:**  entre comillas.
 
   - Para cada entrada, muestre los campos **date-time**, **server-hostname**, **client-hostname**, **source**, **event-id** y **recipient-address**.
 

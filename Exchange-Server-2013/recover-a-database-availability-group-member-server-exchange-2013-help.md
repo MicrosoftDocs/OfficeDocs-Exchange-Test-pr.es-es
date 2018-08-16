@@ -89,9 +89,12 @@ Para comprobar que el miembro del DAG se recuperó correctamente, realice lo sig
 
   - En el Shell, ejecute el siguiente comando para comprobar el estado del miembro del DAG recuperado.
     
-        Test-ReplicationHealth <ServerName>
-    
-        Get-MailboxDatabaseCopyStatus -Server <ServerName>
+    ```
+    Test-ReplicationHealth <ServerName>
+    ```
+    ```
+    Get-MailboxDatabaseCopyStatus -Server <ServerName>
+    ```
     
     Todas las pruebas de estado de replicación deben tener un resultado satisfactorio y el estado de las bases de datos y sus índices de contenido debe ser adecuado.
 

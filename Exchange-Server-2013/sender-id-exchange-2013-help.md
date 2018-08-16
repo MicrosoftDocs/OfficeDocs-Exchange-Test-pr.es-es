@@ -43,19 +43,19 @@ El servidor Exchange actualiza los metadatos del mensaje con el estado de Id. de
 
 El proceso de evaluación de Id. del remitente genera un estado de Id. del remitente para el mensaje. El estado del Id. de remitente se usa para evaluar la clasificación del nivel de confianza contra correo no deseado (SCL) del mensaje. Este estado se puede establecer en uno de los valores siguientes:
 
-  - **Pass   **La dirección IP y la Dirección responsable pretendida (PRA) han superado la comprobación del Id. de remitente.
+  - **Pass** La dirección IP y la Dirección responsable pretendida (PRA) han superado la comprobación del Id. de remitente.
 
-  - **Neutral   **Los datos del Id. de remitente publicados no son explícitamente concluyentes.
+  - **Neutral** Los datos del Id. de remitente publicados no son explícitamente concluyentes.
 
-  - **Soft fail**   Es posible que la dirección IP de la PRA no esté en el conjunto permitido.
+  - **Soft fail** Es posible que la dirección IP de la PRA no esté en el conjunto permitido.
 
-  - **Fail   **La dirección IP no está permitida; no se encontró ninguna PRA en el correo entrante o no existe el dominio remitente.
+  - **Fail** La dirección IP no está permitida; no se encontró ninguna PRA en el correo entrante o no existe el dominio remitente.
 
-  - **None   **No hay datos publicados de la SPF en el DNS del remitente.
+  - **None** No hay datos publicados de la SPF en el DNS del remitente.
 
-  - **TempError   **Ha ocurrido un error temporal de DNS como, por ejemplo, un servidor DNS no disponible.
+  - **TempError** Ha ocurrido un error temporal de DNS como, por ejemplo, un servidor DNS no disponible.
 
-  - **PermError   **El registro DNS no es válido; por ejemplo, existe un error en el formato de registro.
+  - **PermError** El registro DNS no es válido; por ejemplo, existe un error en el formato de registro.
 
 El estado de Id. del remitente se agrega a los metadatos del mensaje y posteriormente se convierte en una propiedad de MAPI. El filtro de correo no deseado de Microsoft Outlook usa la propiedad MAPI durante la creación del valor de SCL.
 

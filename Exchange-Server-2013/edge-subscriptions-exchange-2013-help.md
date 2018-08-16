@@ -120,7 +120,7 @@ En este ejemplo se suscribe un servidor Transporte perimetral al sitio especific
     New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeSubscriptionInfo.xml" -Encoding Byte -ReadCount 0)) -CreateInternetSendConnector $true -CreateInboundSendConnector $true -Site "Default-First-Site-Name" 
 
 
-> [!NOTE]
+> [!NOTE]  
 > Si los valores de los parámetros <EM>CreateInternetSendConnector</EM> y <EM>CreateInboundSendConnector</EM> son <CODE>$true</CODE>: Se muestran a continuación solo para fines de demostración.
 
 
@@ -130,7 +130,7 @@ En este ejemplo, se exporta un archivo de suscripción perimetral.
     New-EdgeSubscription -FileName "C:\EdgeSubscriptionInfo.xml"
 
 
-> [!NOTE]
+> [!NOTE]  
 > Al ejecutar el cmdlet <STRONG>New-EdgeSubscription</STRONG> en el servidor Transporte perimetral, se recibe un mensaje para confirmar los comandos que se deshabilitarán y la configuración que se sobrescribirá en el servidor Transporte perimetral. Para omitir esta confirmación, debe utilizar el parámetro <EM>Force</EM>. Este parámetro resulta útil en scripts con el cmdlet <STRONG>New-EdgeSubscription</STRONG>. El parámetro <EM>Force</EM> también se utiliza para sobrescribir un archivo que tenga el mismo nombre que el archivo que se crea al volver a suscribirse en un servidor Transporte perimetral.
 
 
@@ -229,7 +229,7 @@ De forma predeterminada, cuando se ejecuta el cmdlet **New-EdgeSubscription** en
 <td><p><em>SourceTransportServers</em></p></td>
 <td><p>&lt;<em>Nombre de suscripción perimetral</em>&gt;</p>
 
-> [!NOTE]
+> [!NOTE]  
 > El nombre de la suscripción perimetral es el mismo que el del servidor de transporte perimetral con suscripción.
 
 
@@ -314,13 +314,13 @@ Un servidor Transporte perimetral con suscripción se asocia con un sitio de Act
 Este método de bloqueo y concesión evita que más de una instancia del servicio EdgeSync envíe datos al mismo servidor Transporte perimetral al mismo tiempo.
 
 
-> [!NOTE]
+> [!NOTE]  
 > Si también tiene servidores de buzones de correo de Exchange 2010 o Exchange 2007 en el sitio de Active Directory con suscripción, los servidores de buzones de correo de Exchange&nbsp;2013 siempre tendrán prioridad y realizarán la replicación.
 
 
 
 
-> [!NOTE]
+> [!NOTE]  
 > Cuando se suscribe un servidor Transporte perimetral a un sitio de Active Directory, todos los servidores de buzones de correo instalados en ese sitio de Active Directory en ese momento pueden participar en el proceso de sincronización de EdgeSync. Si se elimina uno de estos servidores, el servicio EdgeSync que se ejecuta en los servidores de buzones de correo restantes continuará el proceso de sincronización de datos. Sin embargo, si más adelante instala nuevos servidores de buzones de correo en el sitio de Active Directory, no participarán automáticamente en la sincronización de EdgeSync. Si desea habilitar dichos servidores de buzones de correo nuevos para que participen en la sincronización de EdgeSync, tendrá que volver a suscribir el servidor Transporte perimetral.
 
 
@@ -368,7 +368,7 @@ Antes de que pueda suscribir su servidor Transporte perimetral en la organizaci�
 
   - Comprobar que el firewall perimetral de la red que separa el servidor Transporte perimetral de la organización de Exchange está configurado para habilitar las comunicaciones a través de los puertos correctos. El servidor de transporte perimetral usa puertos LDAP no estándar. Si el entorno requiere puertos específicos, puede modificar los puertos utilizados por AD LDS mediante el script ConfigureAdam.ps1 incluido en Exchange. Para obtener más información, vea [Modificar la configuración de AD LDS](modify-ad-lds-configuration-exchange-2013-help.md). Modifique los puertos antes de crear la suscripción perimetral. Si modifica los puertos después de haber creado la suscripción perimetral, deberá quitar la suscripción perimetral y crear una nueva suscripción perimetral. De forma predeterminada, los siguientes puertos LDAP se usan para tener acceso a AD LDS:
     
-      - **LDAP   **El puerto 50389/TCP se usa localmente para enlazar con la instancia de AD LDS. No es necesario que este puerto esté abierto en el firewall perimetral de la red.
+      - **LDAP** El puerto 50389/TCP se usa localmente para enlazar con la instancia de AD LDS. No es necesario que este puerto esté abierto en el firewall perimetral de la red.
     
       - **LDAP seguro**   El puerto 50636/TCP se usa para la sincronización de directorios de servidores de buzones de correo en AD LDS. Este puerto debe estar abierto en el firewall para que la sincronización de EdgeSync se realice correctamente.
 

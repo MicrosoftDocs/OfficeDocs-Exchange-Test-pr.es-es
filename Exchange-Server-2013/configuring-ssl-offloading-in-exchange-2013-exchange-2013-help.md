@@ -118,7 +118,7 @@ Para habilitar la descarga de SSL para EAC, necesitará quitar el requisito de S
       - En la línea de comandos, escriba lo siguiente y, a continuación, presione Entrar.
         
             appcmd set config "Default Web Site/ecp" /section:access /sslFlags:None /commit:APPHOST
-        
+       
 
   - **Paso 2** Necesita reciclar el grupo de aplicaciones correcto o reiniciar Internet Information Services mediante uno de los métodos siguientes:
     
@@ -179,7 +179,7 @@ La descarga de SSL para Outlook en cualquier lugar está habilitada de forma pre
       - Mediante el Administrador de Internet Information Services (IIS): En Administrador de Internet Information Services (IIS), en el panel **Acciones**, haga clic en **Reiniciar**.
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Debe esperar a que el proceso de Host de servicio aplique los cambios de Active Directory a Internet Information Services (IIS) cada 15 minutos, aunque reinicie IIS en un servidor de acceso de cliente.
 
 
@@ -351,7 +351,7 @@ Volver al principio
 Si está trabajando con una organización grande con varios servidores de acceso de cliente de Exchange 2013, quizás sea conveniente acelerar los pasos anteriores que realizó. Puede copiar y pegar los comandos en cualquiera de los siguientes scripts en el Bloc de notas, realizar los cambios, guardar el archivo con la extensión .ps1 y, después, ejecutarlo desde el Shell de administración de Exchange. Dependiendo de sus necesidades, se pueden usar ambos scripts para configurar la descarga de SSL para todos los protocolos y servicios de un solo servidor acceso de cliente o para varios.
 
 
-> [!NOTE]
+> [!NOTE]  
 > En las entradas del cmdlet <STRONG>Set-OutlookAnywhere</STRONG>, reemplace "MyServer" por el nombre de sus servidores de acceso de cliente.
 
 
@@ -372,7 +372,7 @@ Si está trabajando con una organización grande con varios servidores de acceso
 **Usar appcmd**
 
 
-> [!NOTE]
+> [!NOTE]  
 > En las entradas del cmdlet <STRONG>Set-OutlookAnywhere</STRONG>, reemplace "MyServer" por el nombre de sus servidores de acceso de cliente.
 
 

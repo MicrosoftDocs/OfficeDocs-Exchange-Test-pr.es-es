@@ -59,27 +59,27 @@ La navegación entre empresas le permite intercambiar fácilmente entre su organ
 
 Este es el primer nivel de la navegación para la mayoría de las tareas que realizará en EAC. El panel de características es similar al árbol de la consola de EMC en Exchange 2010. Sin embargo, en Exchange 2013 el panel de características está organizado por áreas de características a diferencia de los roles del servidor y hay menos clics para encontrar lo que necesita.
 
-  - **Destinatarios   **Es donde administrará los buzones de correo, grupos, buzones de recursos, contactos, buzones de correo compartidos y migraciones y movimientos de buzones de correo.
+  - **Destinatarios** Es donde administrará los buzones de correo, grupos, buzones de recursos, contactos, buzones de correo compartidos y migraciones y movimientos de buzones de correo.
 
-  - **Permisos   **Es donde podrá administrar los roles de administrador, los roles de usuario y las directivas de Outlook Web App.
+  - **Permisos** Es donde podrá administrar los roles de administrador, los roles de usuario y las directivas de Outlook Web App.
 
-  - **Administración de cumplimiento   **Es donde administrará la búsqueda de exhibición de documentos electrónicos local, la retención local, las auditorías, la prevención contra la pérdida de datos (DLP), las directivas de retención, las etiquetas de retención y las reglas del diario.
+  - **Administración de cumplimiento** Es donde administrará la búsqueda de exhibición de documentos electrónicos local, la retención local, las auditorías, la prevención contra la pérdida de datos (DLP), las directivas de retención, las etiquetas de retención y las reglas del diario.
 
-  - **Organización   **Es donde administrará las tareas correspondientes a la organización de Exchange, incluso el uso compartido federado, las aplicaciones de Outlook y las listas de direcciones.
+  - **Organización** Es donde administrará las tareas correspondientes a la organización de Exchange, incluso el uso compartido federado, las aplicaciones de Outlook y las listas de direcciones.
 
-  - **Protección   **Es donde administrará la protección antimalware de su organización.
+  - **Protección** Es donde administrará la protección antimalware de su organización.
 
-  - **Flujo de correo   **Es donde administrará las reglas, informes de entrega, dominios aceptados, directivas de dirección de correo electrónico y conectores de envío y recepción.
+  - **Flujo de correo** Es donde administrará las reglas, informes de entrega, dominios aceptados, directivas de dirección de correo electrónico y conectores de envío y recepción.
 
-  - **Móvil   **Es donde administrará los dispositivos móviles que le permiten conectarse a su organización. Puede administrar las directivas de acceso a dispositivos móviles y de buzones de dispositivos móviles.
+  - **Móvil** Es donde administrará los dispositivos móviles que le permiten conectarse a su organización. Puede administrar las directivas de acceso a dispositivos móviles y de buzones de dispositivos móviles.
 
-  - **Carpetas públicas   **En Exchange 2010, debe administrar las carpetas públicas mediante el uso de la Consola de Administración de Carpetas Públicas, que está ubicada fuera de la EMC en el cuadro de herramientas. En Exchange 2013, las carpetas públicas se pueden administrar desde dentro del área de funciones **carpetas públicas**.
+  - **Carpetas públicas** En Exchange 2010, debe administrar las carpetas públicas mediante el uso de la Consola de Administración de Carpetas Públicas, que está ubicada fuera de la EMC en el cuadro de herramientas. En Exchange 2013, las carpetas públicas se pueden administrar desde dentro del área de funciones **carpetas públicas**.
 
-  - **Mensajería unificada   **Es donde administrará los planes de marcado de mensajería unificada y las puertas de enlace IP de mensajería unificada.
+  - **Mensajería unificada** Es donde administrará los planes de marcado de mensajería unificada y las puertas de enlace IP de mensajería unificada.
 
-  - **Servidores   **Es donde administrará los servidores de buzón de correo y de acceso de cliente, las bases de datos, los grupos de disponibilidad de bases de datos (DAG), los directorios virtuales y los certificados.
+  - **Servidores** Es donde administrará los servidores de buzón de correo y de acceso de cliente, las bases de datos, los grupos de disponibilidad de bases de datos (DAG), los directorios virtuales y los certificados.
 
-  - **Híbrido   **Es donde establecerá y configurará una organización híbrida.
+  - **Híbrido** Es donde establecerá y configurará una organización híbrida.
 
 ## Fichas
 
@@ -173,14 +173,14 @@ El *Mosaico* le permite cerrar sesión en EAC e iniciar sesión como un usuario 
 
   - **Deshabilitar el globo de Ayuda**   El globo de Ayuda muestra la ayuda contextual de los campos cuando crea o edita un objeto. Puede desactivar la ayuda del globo de Ayuda o activarlo si estaba deshabilitado.
 
-  - **Copyright y privacidad   **Haga clic en el enlace de privacidad o copyright para leer la información del copyright y de privacidad de Exchange 2013.
+  - **Copyright y privacidad** Haga clic en el enlace de privacidad o copyright para leer la información del copyright y de privacidad de Exchange 2013.
 
 ## Exploradores compatibles
 
 Para tener la mejor experiencia con EAC, use una de las combinaciones de sistema operativo y navegación denominados "Premium".
 
 
-> [!NOTE]
+> [!NOTE]  
 > Las combinaciones de sistema operativo y navegador que no aparezcan en la tabla anterior no son compatibles, incluidas las táctiles.
 
 
