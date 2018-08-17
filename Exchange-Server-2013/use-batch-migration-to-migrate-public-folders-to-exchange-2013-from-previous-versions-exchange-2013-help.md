@@ -255,7 +255,7 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
     
 
     > [!NOTE]
-    > Si el nombre de una carpeta pública contiene una barra inversa <STRONG>\</STRONG>, las carpetas públicas se crearán en la carpeta pública principal. Se recomienda que revise el archivo .csv y edite todos los nombres que contienen una barra diagonal inversa.
+    > Si el nombre de una carpeta pública contiene una barra inversa <STRONG>\\</STRONG>, las carpetas públicas se crearán en la carpeta pública principal. Se recomienda que revise el archivo .csv y edite todos los nombres que contienen una barra diagonal inversa.
 
     
         .\PublicFolderToMailboxMapGenerator.ps1 <Maximum mailbox size in bytes> <Folder to size map path> <Folder to mailbox map path>

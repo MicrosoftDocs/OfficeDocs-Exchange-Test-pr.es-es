@@ -171,7 +171,7 @@ Los usuarios de buzones de correo pueden usar Outlook u Outlook Web App para ver
 
 Use la sección **Organización** para registrar información detallada acerca de la función del usuario en la organización. Esta información se muestra en la libreta de direcciones. Asimismo, puede crear un gráfico de organización virtual al que se pueda obtener acceso desde clientes de correo electrónico como Outlook.
 
-  - **Título   **Use este cuadro para ver o cambiar el título del destinatario.
+  - **Título**   Use este cuadro para ver o cambiar el título del destinatario.
 
   - **Departamento** Use este cuadro para ver o cambiar el departamento en el que trabaja el usuario. Puede usar este cuadro para crear condiciones de destinatario para grupos de distribución dinámicos, directivas de direcciones de correo electrónico o listas de direcciones.
 
@@ -185,7 +185,7 @@ Use la sección **Organización** para registrar información detallada acerca d
 
 Use la sección **Dirección de correo electrónico** para ver o cambiar las direcciones de correo electrónico asociadas al buzón del usuario. Esto incluye la dirección de SMTP principal del usuario y cualquier dirección de proxy asociada. La dirección SMTP principal (también denominada *dirección de respuesta predeterminada* se muestra en negrita en la lista de direcciones, con el valor **SMTP** en mayúsculas en la columna **Tipo**.
 
-  - **Agregar **  Haga clic en **Agregar**![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono") para agregar una dirección de correo electrónico nueva para este buzón. Seleccione uno de los siguientes tipos de dirección:
+  - **Agregar**  Haga clic en &#42;&#42; **Agregar**![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono") para agregar una dirección de correo electrónico nueva para este buzón. Seleccione uno de los siguientes tipos de dirección:
     
       - **Dirección SMTP**   Este es el tipo de dirección predeterminado. Haga clic en este botón y luego escriba la nueva dirección SMTP en la casilla **\* Dirección de correo electrónico**.
     
@@ -200,7 +200,7 @@ Use la sección **Dirección de correo electrónico** para ver o cambiar las dir
     
       - **Hacer que esta sea la dirección de respuesta**   En Exchange Online, puede activar esta casilla para que la nueva dirección de correo electrónico sea la dirección SMTP principal del buzón de correo. Esta casilla no está disponible en el EAC en Exchange 2013.
 
-  - **Actualizar automáticamente las direcciones de correo electrónico según la directiva de dirección de correo electrónico aplicada a este destinatario   **Seleccione esta casilla para que las direcciones de correo electrónico del destinatario se actualicen automáticamente según los cambios realizados en las directivas de direcciones de correo electrónico de su organización. Esta casilla está activada de forma predeterminada.
+  - **Actualizar automáticamente las direcciones de correo electrónico según la directiva de dirección de correo electrónico aplicada a este destinatario**   Seleccione esta casilla para que las direcciones de correo electrónico del destinatario se actualicen automáticamente según los cambios realizados en las directivas de direcciones de correo electrónico de su organización. Esta casilla está activada de forma predeterminada.
     
 
     > [!NOTE]

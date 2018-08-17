@@ -49,7 +49,7 @@ Para exportar el XML, necesitará usar Shell de administración de Exchange o . 
     
 
     > [!IMPORTANT]
-    > Asegúrese de que usa la ubicación del archivo donde realmente se almacena el paquete de reglas. <STRONG>C:\custompath\</STRONG> es un marcador de posición.
+    > Asegúrese de que usa la ubicación del archivo donde realmente se almacena el paquete de reglas. <STRONG>C:\\custompath\\</STRONG> es un marcador de posición.
 
 
 
@@ -198,7 +198,7 @@ Para cargar la regla, siga el procedimiento siguiente.
     
 
     > [!IMPORTANT]
-    > Asegúrese de que usa la ubicación del archivo donde realmente se almacena el paquete de reglas. <STRONG>C:\custompath\</STRONG> es un marcador de posición.
+    > Asegúrese de que usa la ubicación del archivo donde realmente se almacena el paquete de reglas. <STRONG>C:\\custompath\\</STRONG> es un marcador de posición.
 
 
 
