@@ -26,7 +26,7 @@ La figura siguiente ilustra la relación entre la cuenta de usuario vinculada us
 ![Organización de Exchange compleja con bosque de recursos](images/Aa998031.706725cf-e520-4b89-a275-acd8fb58943a(EXCHG.150).gif "Organización de Exchange compleja con bosque de recursos")
 
 
-> [!NOTE]
+> [!NOTE]  
 > Debe configurarse una confianza entre el bosques de Exchange y al menos un bosque de cuentas antes de crear buzones vinculados. Como mínimo, deberá configurar una confianza saliente unidireccional para que el busque de Exchange confíe en el bosque de cuentas. Para obtener más información, consulte <A href="https://technet.microsoft.com/es-es/library/jj156983(v=exchg.150)">Obtenga más información acerca de la configuración de una confianza de bosque para que sea compatible con los buzones vinculados</A>.
 
 
@@ -66,7 +66,7 @@ La figura siguiente ilustra la relación entre la cuenta de usuario vinculada us
 4.  Si su organización ha configurado una confianza saliente unidireccional en la que los bosques de Exchange confían en el bosque de cuentas, se le pedirán las credenciales de administrador del bosque de cuentas para que pueda acceder al controlador de dominios del bosque de confianza. Escriba el nombre de usuario y la contraseña de una cuenta de administrador en el bosque de cuentas y, a continuación, haga clic en **Siguiente**.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > No se le pedirán las credenciales de administrador en caso de que haya creado una confianza bidireccional u otra confianza saliente unidireccional en la que el bosque de cuentas confíe en el bosque de Exchange.
 
 
@@ -88,7 +88,7 @@ La figura siguiente ilustra la relación entre la cuenta de usuario vinculada us
       - **\* Nombre de inicio de sesión del usuario**   Utilice este cuadro para escribir el nombre de inicio de sesión del usuario, un paso obligatorio para crear un buzón vinculado. Escriba aquí el nombre de usuario. Este nombre se utilizará para la parte izquierda de la dirección de correo electrónico del buzón vinculado, en caso de que no especifique un alias.
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Dado que la cuenta de usuario creada en el bosque de Exchange está deshabilitada al crear un buzón vinculado, el usuario no utilizará el nombre de inicio de sesión para iniciar sesión en el buzón vinculado. Estos inician sesión mediante sus credenciales del bosque de cuentas.
 
 
@@ -98,7 +98,7 @@ La figura siguiente ilustra la relación entre la cuenta de usuario vinculada us
       - **Alias**   Escriba el alias, que especifica el alias de correo electrónico para el buzón vinculado. El alias del usuario es la porción de la dirección de correo electrónico ubicada a la izquierda del símbolo arroba (@). Debe ser exclusivo en el bosque.
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Si deja este cuadro vacío, se usa para el alias de correo electrónico el valor de la parte del nombre de usuario del <STRONG>Nombre de inicio de sesión del usuario</STRONG>.
 
     
@@ -201,7 +201,7 @@ Utilice la sección **Uso del buzón** para ver o cambiar la cuota de almacenami
   - **Uso de buzón de correo**   Esta área muestra el tamaño total del buzón y el porcentaje de la cuota total del buzón que se usó.
 
 
-> [!NOTE]
+> [!NOTE]  
 > Para obtener la información que se muestra los dos cuadros previos, EAC consulta la base de datos de buzón que hospeda el buzón. Si el EAC no consigue comunicarse con el almacén de Exchange que contiene la base de datos de buzones, estos campos estará vacíos. Se muestra un mensaje de advertencia si el usuario no ha iniciado sesión en el buzón por primera vez.
 
 
@@ -228,7 +228,7 @@ Haga clic en **Más opciones** para ver o cambiar la cuota de almacenamiento del
 
 Use la sección **Dirección de correo electrónico** para ver o cambiar las direcciones de correo electrónico asociadas al buzón vinculado. Esto incluye las direcciones de SMTP principales del usuario y cualquier dirección de proxy asociada. La dirección SMTP principal (también denominada *dirección de respuesta predeterminada* se muestra en negrita en la lista de direcciones, con el valor **SMTP** en mayúsculas en la columna **Tipo**.
 
-  - **Agregar **  Haga clic en **Agregar**![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono") para agregar una dirección de correo electrónico nueva para este buzón. Seleccione uno de los siguientes tipos de dirección:
+  - **Agregar**  Haga clic en **Agregar**![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono") para agregar una dirección de correo electrónico nueva para este buzón. Seleccione uno de los siguientes tipos de dirección:
     
       - **Dirección SMTP**   Este es el tipo de dirección predeterminado. Haga clic en este botón de opción y luego escriba la nueva dirección SMTP en la casilla **\* Dirección de correo electrónico**.
     
@@ -237,12 +237,12 @@ Use la sección **Dirección de correo electrónico** para ver o cambiar las dir
       - **Tipo de dirección personalizada**   Haga clic en este botón y escriba uno de los tipos de dirección de correo electrónico que no sean SMTP admitidos en la casilla **\* Dirección de correo electrónico**.
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Con excepción de las direcciones X.400, Exchange no valida las direcciones personalizadas para comprobar el formato adecuado. Debe asegurarse de que la dirección personalizada que especifica cumpla los requisitos de formato para el tipo de dirección.
 
 
 
-  - **Actualizar automáticamente las direcciones de correo electrónico según la directiva de dirección de correo electrónico aplicada a este destinatario   **Seleccione esta casilla si desea que las direcciones de correo electrónico del destinatario se actualicen automáticamente cuando se hayan realizado los cambios en las directivas de direcciones de correo electrónico de su organización. Esta casilla está activada de forma predeterminada.
+  - **Actualizar automáticamente las direcciones de correo electrónico según la directiva de dirección de correo electrónico aplicada a este destinatario** Seleccione esta casilla si desea que las direcciones de correo electrónico del destinatario se actualicen automáticamente cuando se hayan realizado los cambios en las directivas de direcciones de correo electrónico de su organización. Esta casilla está activada de forma predeterminada.
 
 ## Características de buzón
 
@@ -259,7 +259,7 @@ Use la sección **Características de buzón** para ver o cambiar la configuraci
   - **Mensajería unificada**   Esta función está deshabilitada de forma predeterminada. Al habilitar la mensajería unificada (MU), el usuario podrá usar las características de la MU de la organización y un conjunto predeterminado de propiedades de la misma se aplicarán al usuario. Haga clic en **Habilitar** para habilitar la mensajería unificada en el buzón. Para obtener información acerca de cómo habilitar la MU, consulte [Habilitar a un usuario para el correo de voz](enable-a-user-for-voice-mail-exchange-2013-help.md).
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Para habilitar la mensajería unificada, debe tener un plan de marcado de mensajería unificada y una directiva de buzones de mensajería unificada.
 
 
@@ -285,7 +285,7 @@ Use la sección **Características de buzón** para ver o cambiar la configuraci
       - **URL**   Use este campo para indicar una dirección URL a un sitio web que ofrezca información o instrucciones acerca de la retención por juicio que tiene aplicada el buzón de correo.
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > El texto de estos campos aparecen en el buzón de correo del usuario únicamente si usa Outlook 2010 o versiones posteriores. No aparece en Outlook Web App ni en otros clientes de correo electrónico. Para ver el texto de los cuadros Nota y URL en Outlook, haga clic en la ficha <STRONG>Archivo</STRONG> y, en la página <STRONG>Información</STRONG>, bajo <STRONG>Configuración de la cuenta</STRONG>, aparecerá el comentario de la retención por juicio.
 
 
@@ -311,7 +311,7 @@ Use la sección **Características de buzón** para ver o cambiar la configuraci
       - **Límite de destinatarios**   Esta configuración establece el número máximo de destinatarios a los que el usuario puede enviar un mensaje. Seleccione la casilla **Núm. máximo de destinatarios** para limitar el número de destinatarios permitidos en las líneas Para:, Cc: y Cco: de un correo electrónico y, a continuación, especifique el número máximo de destinatarios.
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Para las organizaciones locales de Exchange, el límite de destinatarios es ilimitado. Para las organizaciones de Exchange Online, el límite es de 500 destinatarios.
 
 
@@ -347,7 +347,7 @@ Utilice la sección **Miembro de** para ver una lista de los grupos de distribuc
 Utilice la sección **Sugerencia de correo** para agregar una sugerencia de correo y avisar a los usuarios de posibles problemas si envían un mensaje a este destinatario. La información sobre correo es texto que se muestra en la barra de información cuando un destinatario se agrega a los campos Para, CC o CCO de un nuevo mensaje de correo electrónico.
 
 
-> [!NOTE]
+> [!NOTE]  
 > La información sobre correo puede incluir etiquetas HTML, pero no se permiten los scripts. La longitud de la información de una sugerencia de correo electrónico personalizada no puede superar los 175 caracteres mostrados. Las etiquetas HTML no se cuentan en el límite.
 
 

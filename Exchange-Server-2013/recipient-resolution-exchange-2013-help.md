@@ -308,7 +308,7 @@ El proceso de expansión también aplica las restricciones de mensajes que está
 
 Algunos tipos de mensajes enviados por remitentes autenticados no están sujetos a estas restricciones. En la lista siguiente se describen los mensajes que no están sujetos a restricciones de destinatarios:
 
-  - **Todos los mensajes que envía el destinatario de Microsoft Exchange   **Estos mensajes son mensajes DSN, informes de diarios, mensajes de cuota y otros mensajes generados por el sistema que se envían a remitentes de mensajes internos. Para más información sobre el destinatario de Microsoft, vea [Destinatarios](recipients-exchange-2013-help.md).
+  - **Todos los mensajes que envía el destinatario de Microsoft Exchange** Estos mensajes son mensajes DSN, informes de diarios, mensajes de cuota y otros mensajes generados por el sistema que se envían a remitentes de mensajes internos. Para más información sobre el destinatario de Microsoft, vea [Destinatarios](recipients-exchange-2013-help.md).
 
   - **Todos los mensajes enviados desde la dirección del administrador de correo externo**   Estos mensajes son mensajes DSN y otros mensajes generados por el sistema que se envían a remitentes de mensajes externos. Para obtener más información acerca de la dirección del administrador de correo externo, vea [Configurar la dirección externa del postmaster](configure-the-external-postmaster-address-exchange-2013-help.md).
 

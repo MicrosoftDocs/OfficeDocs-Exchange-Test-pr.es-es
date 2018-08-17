@@ -33,9 +33,9 @@ Para tareas adicionales relacionadas con informes de mensajería unificada, cons
 
 2.  Elija la información que desee incluir en el informe. El informe se actualiza automáticamente al seleccionar cualquiera de las siguientes opciones:
     
-      - **Mostrar **  Elija el tipo de estadísticas de llamada que se mostrará:
+      - **Mostrar**  Elija el tipo de estadísticas de llamada que se mostrará:
         
-          - **Diariamente (90 días) **  Seleccione Diariamente para ver los detalles de todas las llamadas de los últimos 90 días.
+          - **Diariamente (90 días)**  Seleccione Diariamente para ver los detalles de todas las llamadas de los últimos 90 días.
         
           - **Mensualmente (12 meses)**   Seleccione Mensualmente para ver un resumen de las llamadas por mes de los últimos 12 meses.
         
@@ -71,7 +71,7 @@ Las estadísticas de llamadas de mensajería unificada incluyen la siguiente inf
 
   - **FECHA**   La fecha UTC de los datos de llamada. El formato de fecha depende del tipo de informe elegido y de su configuración regional. Se puede elegir entre las opciones siguientes:
     
-      - **--- **  Se muestran todas las llamadas.
+      - **---**  Se muestran todas las llamadas.
     
       - **MMM/AA**   El mes de las llamadas. Por ejemplo, Ene/13.
     
