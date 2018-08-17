@@ -27,7 +27,7 @@ Para tareas adicionales relacionadas con informes de mensajería unificada, cons
 
 ## ¿Cómo obtengo los registros de llamadas de un usuario habilitado para mensajería unificada?
 
-1.  En el Centro de Administración de Exchange, seleccione **Mensajería unificada **\> **Más opciones**![Icono Más opciones](images/JJ150550.5381819e-3b21-4873-8714-e9b956290b28(EXCHG.150).gif "Icono Más opciones") \> **Registros de llamadas de usuario**.
+1.  En el Centro de Administración de Exchange, seleccione **Mensajería unificada**\> **Más opciones**![Icono Más opciones](images/JJ150550.5381819e-3b21-4873-8714-e9b956290b28(EXCHG.150).gif "Icono Más opciones") \> **Registros de llamadas de usuario**.
 
 2.  Haga clic en **Seleccionar un usuario** y, a continuación, seleccione el usuario para el que desea los datos.
 
@@ -43,7 +43,7 @@ El registro de llamadas de usuario incluye la siguiente información por cada ll
 
   - **DURACIÓN** El tiempo que ha durado la llamada, en minutos (MM) y segundos (SS), con el siguiente formato: MM:SS.
 
-  - **TIPO DE LLAMADA   **El tipo de llamada:
+  - **TIPO DE LLAMADA**   El tipo de llamada:
     
       - **Contestador automático**   La llamada no ha sido atendida y se ha reenviado a los servidores de buzones de correo; el autor de la llamada ha dejado un mensaje de voz.
     

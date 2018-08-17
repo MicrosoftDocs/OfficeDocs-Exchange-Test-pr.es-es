@@ -21,7 +21,7 @@ Se puede usar el script RollAlternateServiceAccountPassword.ps1 en Exchange Serv
 
 
 > [!NOTE]
-> El shell de administración de Exchange no carga las secuencias de comandos automáticamente. Todos los scripts deben estar precedidos por "<STRONG>.\</STRONG>". Por ejemplo, para ejecutar el scripts RollAlternateServiceAccountPassword.ps1, escriba <CODE>.\RollAlternateServiceAccountPassword.ps1</CODE>.
+> El shell de administración de Exchange no carga las secuencias de comandos automáticamente. Todos los scripts deben estar precedidos por "<STRONG>.\\</STRONG>". Por ejemplo, para ejecutar el scripts RollAlternateServiceAccountPassword.ps1, escriba <CODE>.\RollAlternateServiceAccountPassword.ps1</CODE>.
 
 
 

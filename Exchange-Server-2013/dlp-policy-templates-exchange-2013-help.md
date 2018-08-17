@@ -61,7 +61,7 @@ Puede incorporar capacidades de detección de DLP con reglas de transporte tradi
 
   -  [Administrar reglas de flujo de correo](manage-mail-flow-rules-exchange-2013-help.md)
     
-    [Cmdlets de directiva y conformidad](https://technet.microsoft.com/es-es/library/dd298082\(v=exchg.150\))
+  -  [Cmdlets de directiva y conformidad](https://technet.microsoft.com/es-es/library/dd298082\(v=exchg.150\))
 
 ## Uso de directivas de DLP creadas por Microsoft
 

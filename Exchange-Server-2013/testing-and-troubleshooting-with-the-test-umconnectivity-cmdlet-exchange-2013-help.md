@@ -31,7 +31,7 @@ El cmdlet **Test-UMConnectivity** se puede usar para comprobar la conectividad c
     
       - *–PIN*   Este parámetro debe contener el PIN del buzón habilitado para MU.
     
-      - *–UMDialPlan   *Este parámetro debe contener el plan de marcado asociado al buzón de la prueba.
+      - *–UMDialPlan*   Este parámetro debe contener el plan de marcado asociado al buzón de la prueba.
 
   - **Remoto**   El cmdlet **Test-UMConnectivity** trata de conectarse a un servidor de acceso de cliente remoto realizando una llamada a través de una puerta de enlace VoIP. Después de conectarse, realiza comprobaciones de conectividad en el servidor de acceso de cliente remoto y en las rutas de medios.
     
