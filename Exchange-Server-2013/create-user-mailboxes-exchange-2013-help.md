@@ -110,7 +110,7 @@ También puede crear buzones para los usuarios existentes que tengan una cuenta 
         
         Para obtener más información, consulte [Archivado local en Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md).
     
-      - **Directiva de la libreta de direcciones**   Utilice esta opción para especificar una directiva de libreta de direcciones (ABP) para el buzón. Las ABP contienen una lista global de direcciones (GAL), una libreta de direcciones sin conexión (OAB), una lista de salas y un conjunto de listas de direcciones. Cuando se asigna una ABP a usuarios de buzones, les proporciona acceso a una GAL personalizada en Outlook y Outlook Web App. Para obtener más información, consulte [Directivas de la libreta de direcciones](address-book-policies-exchange-2013-help.md).
+      - **Directiva de la libreta de direcciones**   Utilice esta opción para especificar una directiva de libreta de direcciones (ABP) para el buzón. Las ABP contienen una lista global de direcciones (GAL), una libreta de direcciones sin conexión (OAB), una lista de salas y un conjunto de listas de direcciones. Cuando se asigna una ABP a usuarios de buzones, les proporciona acceso a una GAL personalizada en Outlook y Outlook Web App. Para obtener más información, consulte [Directivas de la libreta de direcciones](https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/address-book-policies).
         
         En la lista desplegable, seleccione la directiva que desea asociar con este buzón.
 
@@ -184,7 +184,7 @@ También puede crear buzones para los usuarios existentes que tengan una cuenta 
         
         Para obtener más información, consulte [Archivado local en Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md).
     
-      - **Directiva de la libreta de direcciones**   Utilice esta opción para especificar una directiva de libreta de direcciones (ABP) para el buzón. Las ABP contienen una lista global de direcciones (GAL), una libreta de direcciones sin conexión (OAB), una lista de salas y un conjunto de listas de direcciones. Cuando se asigna una ABP a usuarios de buzones, les proporciona acceso a una GAL personalizada en Outlook y Outlook Web App. Para obtener más información, consulte [Directivas de la libreta de direcciones](address-book-policies-exchange-2013-help.md).
+      - **Directiva de la libreta de direcciones**   Utilice esta opción para especificar una directiva de libreta de direcciones (ABP) para el buzón. Las ABP contienen una lista global de direcciones (GAL), una libreta de direcciones sin conexión (OAB), una lista de salas y un conjunto de listas de direcciones. Cuando se asigna una ABP a usuarios de buzones, les proporciona acceso a una GAL personalizada en Outlook y Outlook Web App. Para obtener más información, consulte [Directivas de la libreta de direcciones](https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/address-book-policies).
         
         En la lista desplegable, seleccione la directiva que desea asociar con este buzón.
 

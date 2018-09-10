@@ -25,15 +25,15 @@ Para obtener más información sobre asociados de fax, consulte [Microsoft PinPo
 
 La Mensajería unificada reenvía las llamadas de fax entrantes a una solución de asociado de fax dedicado que, luego, relaciona la llamada de fax con el remitente del fax y lo recibe en nombre del usuario habilitado para Mensajería unificada. Sin embargo, para que los usuarios habilitados para mensajería unificada puedan recibir mensajes de fax en sus buzones, debe habilitar primero los faxes entrantes y establecer el URI del asociado de fax en la directiva de buzones de correo de mensajería unificada que está vinculada a los usuarios habilitados para mensajería unificada. Puede autorizar o rechazar faxes entrantes en los planes de marcado de mensajería unificada, las directivas de buzones de mensajería unificada y en el buzón de correo de un usuario habilitado para mensajería unificada. Para obtener más información, consulte los siguientes temas:
 
-  - [Permitir a los usuarios en el mismo plan de marcado para recibir faxes](allow-users-in-the-same-dial-plan-to-receive-faxes-exchange-2013-help.md)
+  - [Permitir a los usuarios en el mismo plan de marcado para recibir faxes](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-in-the-same-dial-plan-to-receive-faxes)
 
-  - [Impedir que los usuarios en el mismo plan de marcado de recibir faxes](prevent-users-in-the-same-dial-plan-from-receiving-faxes-exchange-2013-help.md)
+  - [Impedir que los usuarios en el mismo plan de marcado de recibir faxes](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/prevent-users-in-the-same-dial-plan-from-receiving-faxes)
 
   - [Habilitar el envío de faxes para un grupo de usuarios](enable-faxing-for-a-group-of-users-exchange-2013-help.md)
 
-  - [Deshabilitar el envío de faxes para un grupo de usuarios](disable-faxing-for-a-group-of-users-exchange-2013-help.md)
+  - [Deshabilitar el envío de faxes para un grupo de usuarios](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-faxing-for-a-group-of-users)
 
-  - [Habilitar un usuario recibir faxes](enable-a-user-to-receive-faxes-exchange-2013-help.md)
+  - [Habilitar un usuario recibir faxes](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-a-user-to-receive-faxes)
 
   - [Evitar que un usuario reciba faxes](prevent-a-user-from-receiving-faxes-exchange-2013-help.md)
 
@@ -49,7 +49,7 @@ Antes de que pueda configurar el fax en su organización local o híbrida, debe 
 
 ## Paso 2: Configurar servidores de asociados de fax
 
-A continuación, debe habilitar los faxes entrantes y configurar el URI del asociado de fax en cada directiva de buzón de correo de mensajería unificada que necesite en su organización. Para implementar correctamente los faxes entrantes, debe integrar una solución certificada de asociado de fax con la Mensajería unificada de Exchange. Para obtener información detallada, consulte [Asesor de fax para la mensajería unificada de Exchange](fax-advisor-for-exchange-um-exchange-2013-help.md). Para obtener una lista de los asociados de fax, consulte [Microsoft PinPoint para asociados de fax](https://go.microsoft.com/fwlink/?linkid=190238)
+A continuación, debe habilitar los faxes entrantes y configurar el URI del asociado de fax en cada directiva de buzón de correo de mensajería unificada que necesite en su organización. Para implementar correctamente los faxes entrantes, debe integrar una solución certificada de asociado de fax con la Mensajería unificada de Exchange. Para obtener información detallada, consulte [Asesor de fax para la mensajería unificada de Exchange](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/fax-advisor-for-exchange-um). Para obtener una lista de los asociados de fax, consulte [Microsoft PinPoint para asociados de fax](https://go.microsoft.com/fwlink/?linkid=190238)
 
 
 > [!NOTE]
@@ -107,7 +107,7 @@ De forma predeterminada, aunque el plan de marcado de mensajería unificada y el
 
 Para permitir que los usuarios habilitados para MU reciban faxes, debe realizar lo siguiente:
 
-  - Compruebe que cada plan de marcado de MU permita que los usuarios asociados con dicho plan reciban faxes. De forma predeterminada, todos los usuarios que estén asociados con un plan de marcado pueden recibir faxes. Para que los usuarios con mensajería unificada habilitada reciban mensajes de fax en sus buzones, cada puerta de enlace VoIP o IP PBX debe estar configurada para aceptar llamadas de fax entrantes. También debe permitir que los usuarios vinculados con el plan de marcado reciban mensajes de fax. Para obtener más información sobre cómo habilitar usuarios vinculados al plan de marcado para que reciban faxes o para impedir que lo hagan, consulte [Habilitar un usuario recibir faxes](enable-a-user-to-receive-faxes-exchange-2013-help.md).
+  - Compruebe que cada plan de marcado de MU permita que los usuarios asociados con dicho plan reciban faxes. De forma predeterminada, todos los usuarios que estén asociados con un plan de marcado pueden recibir faxes. Para que los usuarios con mensajería unificada habilitada reciban mensajes de fax en sus buzones, cada puerta de enlace VoIP o IP PBX debe estar configurada para aceptar llamadas de fax entrantes. También debe permitir que los usuarios vinculados con el plan de marcado reciban mensajes de fax. Para obtener más información sobre cómo habilitar usuarios vinculados al plan de marcado para que reciban faxes o para impedir que lo hagan, consulte [Habilitar un usuario recibir faxes](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-a-user-to-receive-faxes).
     
 
     > [!NOTE]
@@ -119,7 +119,7 @@ Para permitir que los usuarios habilitados para MU reciban faxes, debe realizar 
     
         Set-UMMailboxPolicy MyUMMailboxPolicy -AllowFax $true -FaxServerURI "sip:faxserver.abc.com:5060;transport=tcp"
 
-  - Para obtener información detallada, consulte [El asociado del conjunto de servidor de fax URI para permitir el envío de faxes](set-the-partner-fax-server-uri-to-allow-faxing-exchange-2013-help.md).
+  - Para obtener información detallada, consulte [El asociado del conjunto de servidor de fax URI para permitir el envío de faxes](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-the-partner-fax-server-uri-to-allow-faxing).
     
 
     > [!WARNING]
@@ -127,7 +127,7 @@ Para permitir que los usuarios habilitados para MU reciban faxes, debe realizar 
 
 
 
-  - Compruebe que el buzón habilitado para mensajería unificada puede recibir mensajes de fax. De forma predeterminada, todos los usuarios que estén asociados con un plan de marcado pueden recibir faxes. No obstante, puede suceder que un usuario no pueda recibir faxes porque esta opción se ha deshabilitado en su buzón. Para obtener más información acerca de cómo permitir que un usuario habilitado para mensajería unificada reciba mensajes de fax, consulte [Habilitar un usuario recibir faxes](enable-a-user-to-receive-faxes-exchange-2013-help.md).
+  - Compruebe que el buzón habilitado para mensajería unificada puede recibir mensajes de fax. De forma predeterminada, todos los usuarios que estén asociados con un plan de marcado pueden recibir faxes. No obstante, puede suceder que un usuario no pueda recibir faxes porque esta opción se ha deshabilitado en su buzón. Para obtener más información acerca de cómo permitir que un usuario habilitado para mensajería unificada reciba mensajes de fax, consulte [Habilitar un usuario recibir faxes](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-a-user-to-receive-faxes).
     
     Puede impedir que un determinado usuario asociado con el plan de marcado reciba mensajes de fax. Para ello, configure las propiedades del usuario utilizando el cmdlet **Set-UMMailbox** en el Shell. También puede utilizar el cmdlet **Set-UMMailboxPolicy** para evitar que varios usuarios reciban mensajes de fax. Para obtener más información acerca de cómo evitar que uno o varios usuarios reciban mensajes de fax, consulte [Evitar que un usuario reciba faxes](prevent-a-user-from-receiving-faxes-exchange-2013-help.md).
 

@@ -168,7 +168,7 @@ En el EAC, en la sección **Propiedades de esta regla**, haga clic en **La direc
 <td><p><em>HasSenderOverride</em></p>
 <p><em>ExceptIfHasSenderOverride</em></p></td>
 <td><p>N/D</p></td>
-<td><p>Mensajes en los que el remitente ha elegido invalidar una directiva de prevención de pérdida de datos (DLP). Para obtener más información sobre las directivas DLP, consulte <a href="technical-overview-of-dlp-data-loss-prevention-in-exchange.md">Prevención de pérdida de datos</a>.</p></td>
+<td><p>Mensajes en los que el remitente ha elegido invalidar una directiva de prevención de pérdida de datos (DLP). Para obtener más información sobre las directivas DLP, consulte <a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention">Prevención de pérdida de datos</a>.</p></td>
 <td><p>Exchange 2013 o posterior</p></td>
 </tr>
 <tr class="odd">

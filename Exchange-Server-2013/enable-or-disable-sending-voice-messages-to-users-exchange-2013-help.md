@@ -19,7 +19,7 @@ _**Última modificación del tema:** 2012-12-13_
 
 Puede habilitar a las personas que llaman para que envíen mensajes de voz a usuarios desde un operador automático de mensajería unificada (UM), o bien impedir que lo hagan. De forma predeterminada, esta opción está habilitada y permite que las personas que llaman dejen mensajes de voz a usuarios del plan de marcado de UM asociado con el operador automático de UM. Si deshabilita esta opción, el operador automático no invitará a las personas que llaman a enviar un mensaje de voz durante el mensaje del sistema.
 
-Para conocer tareas de administración adicionales relacionadas con los operadores automáticos de mensajería unificada, consulte [Procedimientos operador automático de mensajería unificada](um-auto-attendant-procedures-exchange-2013-help.md).
+Para conocer tareas de administración adicionales relacionadas con los operadores automáticos de mensajería unificada, consulte [Procedimientos operador automático de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/um-auto-attendant-procedures).
 
 ## ¿Qué necesita saber antes de comenzar?
 
@@ -27,7 +27,7 @@ Para conocer tareas de administración adicionales relacionadas con los operador
 
   - Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento o procedimientos. Para ver qué permisos necesita, consulte el contenido "Operadores automáticos de MU" en el tema [Permisos de mensajería unificada](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un plan de marcado de MU. Para conocer los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](create-a-um-dial-plan-exchange-2013-help.md).
+  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un plan de marcado de MU. Para conocer los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
   - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un operador automático de MU. Para conocer los pasos detallados, consulte [Crear un operador automático de mensajería unificada](create-a-um-auto-attendant-exchange-2013-help.md).
 

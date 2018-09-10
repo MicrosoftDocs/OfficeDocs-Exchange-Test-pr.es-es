@@ -19,7 +19,7 @@ _**Última modificación del tema:** 2018-04-30_
 
 **Resumen:**  cómo mover las carpetas públicas de Exchange 2010 a Office 365 grupos.
 
-Mediante un proceso conocido como *migración de lote*, puede mover algunas o todas las carpetas públicas de Exchange 2010 a los grupos de Office 365. Grupos es una nueva oferta de Microsoft que ofrece ciertas ventajas sobre las carpetas públicas de colaboración. Consulte [Migrar las carpetas públicas a grupos de Office 365](migrate-your-public-folders-to-office-365-groups-exchange-2013-help.md) para obtener una introducción de las diferencias entre carpetas públicas y grupos y razones por la organización podrá o no podrá acogerse a los grupos de conmutación.
+Mediante un proceso conocido como *migración de lote*, puede mover algunas o todas las carpetas públicas de Exchange 2010 a los grupos de Office 365. Grupos es una nueva oferta de Microsoft que ofrece ciertas ventajas sobre las carpetas públicas de colaboración. Consulte [Migrar las carpetas públicas a grupos de Office 365](https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/migrate-your-public-folders-to-office-365-groups) para obtener una introducción de las diferencias entre carpetas públicas y grupos y razones por la organización podrá o no podrá acogerse a los grupos de conmutación.
 
 Este artículo contiene los procedimientos paso a paso para llevar a cabo la migración real del lote de las carpetas públicas de Exchange 2010.
 

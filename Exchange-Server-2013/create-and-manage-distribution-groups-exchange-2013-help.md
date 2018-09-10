@@ -25,7 +25,7 @@ Estos son dos tipos de grupos que pueden usarse para distribuir mensajes:
 
   - Los *grupos de distribución universal habilitados para correo* (también llamados *grupos de distribución*) solo se usan para distribuir mensajes.
 
-  - Los *grupos de seguridad universal habilitados para correo* (también llamados *grupos de seguridad*) pueden usarse tanto para distribuir mensajes, como para conceder permisos de acceso a los recursos en Active Directory. Para obtener más información, consulte [Administrar grupos de seguridad habilitados para correo](manage-mail-enabled-security-groups-exchange-2013-help.md).
+  - Los *grupos de seguridad universal habilitados para correo* (también llamados *grupos de seguridad*) pueden usarse tanto para distribuir mensajes, como para conceder permisos de acceso a los recursos en Active Directory. Para obtener más información, consulte [Administrar grupos de seguridad habilitados para correo](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups).
 
 Es importante tener en cuenta las diferencias terminológicas entre Active Directory y Exchange. En Active Directory, un grupo de distribución es cualquier grupo que no tiene ningún contexto de seguridad con independencia de que esté habilitado para correo. Sin embargo, en Exchange, todos los grupos habilitados para correo se denominan grupos de distribución con independencia de que tengan un contexto de seguridad.
 
@@ -37,9 +37,9 @@ Es importante tener en cuenta las diferencias terminológicas entre Active Direc
 
   - Si su organización ha configurado una directiva de nomenclatura de grupos, esta se aplica solo a los grupos creados por los usuarios. Si usted u otros administradores utilizan el Centro de Administración de Exchange para crear grupos de distribución, la directiva de nomenclatura de grupos se ignora y no se aplica al nombre del grupo. No obstante, si utiliza el Shell para crear o cambiar el nombre de un grupo de distribución, la directiva se aplica a menos que use el parámetro *IgnoreNamingPolicy* para invalidar la directiva de nomenclatura de grupos. Para obtener más información, vea:
     
-      - [Crear una directiva de nomenclatura de grupos de distribución](create-a-distribution-group-naming-policy-exchange-2013-help.md)
+      - [Crear una directiva de nomenclatura de grupos de distribución](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy)
     
-      - [Invalidar la directiva de nomenclatura de grupos de distribución](override-the-distribution-group-naming-policy-exchange-2013-help.md)
+      - [Invalidar la directiva de nomenclatura de grupos de distribución](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-distribution-groups/override-group-naming-policy)
 
 ## ¿Qué desea hacer?
 

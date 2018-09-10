@@ -243,7 +243,7 @@ Volver al principio
 
 ## directivas de buzón de mensajería unificada
 
-Puede crear una directiva de buzones de correo de mensajería unificada para aplicar un conjunto común de opciones de directiva de mensajería unificada, como opciones de directiva del PIN, restricciones de marcado y ajustes de correo de voz protegido para una serie de buzones de correo con mensajería unificada habilitada. Para obtener más información acerca de directivas de buzón de mensajería unificada, vea [Administrar una directiva de buzones de correo de mensajería unificada](manage-a-um-mailbox-policy-exchange-2013-help.md).
+Puede crear una directiva de buzones de correo de mensajería unificada para aplicar un conjunto común de opciones de directiva de mensajería unificada, como opciones de directiva del PIN, restricciones de marcado y ajustes de correo de voz protegido para una serie de buzones de correo con mensajería unificada habilitada. Para obtener más información acerca de directivas de buzón de mensajería unificada, vea [Administrar una directiva de buzones de correo de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy).
 
 Puede usar el EAC o el cmdlet **Set-UMMailboxPolicy** en el Shell para configurar las opciones de correo de voz protegido. En la siguiente tabla se muestra la configuración del correo de voz protegido que puede definirse.
 
@@ -293,7 +293,7 @@ Puede usar el EAC o el cmdlet **Set-UMMailboxPolicy** en el Shell para configura
 </table>
 
 
-Para obtener más información sobre cómo administrar la configuración del correo de voz protegido, consulte [Procedimientos de correo de voz protegidos](protected-voice-mail-procedures-exchange-2013-help.md) o [Set-UMMailboxPolicy](https://technet.microsoft.com/es-es/library/bb124903\(v=exchg.150\)).
+Para obtener más información sobre cómo administrar la configuración del correo de voz protegido, consulte [Procedimientos de correo de voz protegidos](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/protected-voice-mail-procedures) o [Set-UMMailboxPolicy](https://technet.microsoft.com/es-es/library/bb124903\(v=exchg.150\)).
 
 Volver al principio
 

@@ -23,7 +23,7 @@ Los registros de llamadas del usuario se usan para ver la siguiente información
 
   - Calidad de audio de cada llamada. Puede que no estén disponibles las métricas de calidad de audio para todas las llamadas, ya que dependen de varios factores, como el tipo y la duración de la llamada.
 
-Para tareas adicionales relacionadas con informes de mensajería unificada, consulte [Procedimientos de informes de mensajería unificada](um-reports-procedures-exchange-2013-help.md).
+Para tareas adicionales relacionadas con informes de mensajería unificada, consulte [Procedimientos de informes de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/um-reports-procedures).
 
 ## ¿Cómo obtengo los registros de llamadas de un usuario habilitado para mensajería unificada?
 
@@ -31,7 +31,7 @@ Para tareas adicionales relacionadas con informes de mensajería unificada, cons
 
 2.  Haga clic en **Seleccionar un usuario** y, a continuación, seleccione el usuario para el que desea los datos.
 
-3.  Para obtener más detalles acerca de la calidad de audio de una fila del informe, seleccione la fila y haga clic en **Detalles de la calidad de audio**. Para obtener más información acerca cómo interpretar la calidad de audio, vea [Investigación de la calidad de audio de llamadas de voz para un usuario](investigate-the-audio-quality-of-voice-calls-for-a-user-exchange-2013-help.md).
+3.  Para obtener más detalles acerca de la calidad de audio de una fila del informe, seleccione la fila y haga clic en **Detalles de la calidad de audio**. Para obtener más información acerca cómo interpretar la calidad de audio, vea [Investigación de la calidad de audio de llamadas de voz para un usuario](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/audio-quality-of-voice-calls-for-user).
 
 4.  Para copiar el informe en el Portapapeles, haga clic en **Copiar todas las filas en el Portapapeles.**
 

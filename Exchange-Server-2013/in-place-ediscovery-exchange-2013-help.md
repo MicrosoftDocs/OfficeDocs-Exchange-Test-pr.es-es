@@ -95,7 +95,7 @@ Para obtener más información acerca de los formatos de archivo indizados por l
 
 Para que los usuarios autorizados realicen búsquedas de exhibición de documentos electrónicos locales, debe agregarlos al grupo de roles de [Administración de la detección](discovery-management-exchange-2013-help.md). Este grupo de roles consta de dos roles de administración: [Rol Búsqueda entre buzones](mailbox-search-role-exchange-2013-help.md), que permite a los usuarios realizar búsquedas de exhibición de documentos electrónicos locales, y [Rol Retención legal](legal-hold-role-exchange-2013-help.md), que permite a los usuarios poner un buzón en retención local o en retención por juicio.
 
-De forma predeterminada, los permisos para realizar tareas relacionadas con la exhibición de documentos electrónicos local no se asignan a ningún usuario ni a ningún administrador de Exchange. Los administradores de Exchange que son miembros del grupo de roles de administración de la organización pueden agregar usuarios al grupo de roles de administración de detección y crear así grupos de roles personalizados para limitar el ámbito de los administradores de detección respecto a un subconjunto de usuarios. Para obtener más información sobre cómo agregar usuarios al grupo de roles de administración de detección, vea [Asignar permisos de exhibición de documentos electrónicos en Exchange](assign-ediscovery-permissions-in-exchange-exchange-2013-help.md).
+De forma predeterminada, los permisos para realizar tareas relacionadas con la exhibición de documentos electrónicos local no se asignan a ningún usuario ni a ningún administrador de Exchange. Los administradores de Exchange que son miembros del grupo de roles de administración de la organización pueden agregar usuarios al grupo de roles de administración de detección y crear así grupos de roles personalizados para limitar el ámbito de los administradores de detección respecto a un subconjunto de usuarios. Para obtener más información sobre cómo agregar usuarios al grupo de roles de administración de detección, vea [Asignar permisos de exhibición de documentos electrónicos en Exchange](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions).
 
 
 > [!IMPORTANT]
@@ -103,7 +103,7 @@ De forma predeterminada, los permisos para realizar tareas relacionadas con la e
 
 
 
-La auditoría de los cambios de roles de RBAC, que se habilita de forma predeterminada, garantiza que se conserven los registros adecuados para realizar un seguimiento del grupo de roles de administración de detección. Puede usar el informe de grupo de roles de administrador para buscar los cambios realizados en los grupos de roles de administrador. Para obtener más información, vea [Buscar los informes de cambios del grupo de roles o auditorías de administrador](search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md).
+La auditoría de los cambios de roles de RBAC, que se habilita de forma predeterminada, garantiza que se conserven los registros adecuados para realizar un seguimiento del grupo de roles de administración de detección. Puede usar el informe de grupo de roles de administrador para buscar los cambios realizados en los grupos de roles de administrador. Para obtener más información, vea [Buscar los informes de cambios del grupo de roles o auditorías de administrador](https://docs.microsoft.com/es-es/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes).
 
 Volver al principio
 
@@ -111,7 +111,7 @@ Volver al principio
 
 Puede usar un ámbito de administración personalizado para permitir que determinadas personas o grupos usen la exhibición de documentos electrónicos local para buscar un subconjunto de los buzones de la organización de Exchange 2013 o Exchange Online. Por ejemplo, quizás quiera permitir que un administrador de detección realice búsquedas solo en los buzones de los usuarios de un departamento o una ubicación en particular. Para ello, se crea un ámbito de administración personalizado que usa un filtro de destinatarios personalizado para controlar los buzones en los que se pueden realizar búsquedas. Los ámbitos de filtro de destinatario usan filtros para dirigirse a destinatarios específicos en función del tipo de destinatario o de otras propiedades del destinatario.
 
-Para la exhibición de documentos electrónicos local, la única propiedad de un buzón de usuario que puede usar para crear un filtro de destinatarios para un ámbito personalizado es la pertenencia al grupo de distribución. Si usa otras propiedades, como *CustomAttributeN*, *Department* o *PostalCode*, la búsqueda no se realiza correctamente si la ejecuta un miembro del grupo de roles que ha asignado el ámbito personalizado. Para más información, vea [Crear un ámbito de administración personalizado para las búsquedas de exhibición de documentos electrónicos local](create-a-custom-management-scope-for-in-place-ediscovery-searches-exchange-2013-help.md).
+Para la exhibición de documentos electrónicos local, la única propiedad de un buzón de usuario que puede usar para crear un filtro de destinatarios para un ámbito personalizado es la pertenencia al grupo de distribución. Si usa otras propiedades, como *CustomAttributeN*, *Department* o *PostalCode*, la búsqueda no se realiza correctamente si la ejecuta un miembro del grupo de roles que ha asignado el ámbito personalizado. Para más información, vea [Crear un ámbito de administración personalizado para las búsquedas de exhibición de documentos electrónicos local](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/create-custom-management-scope).
 
 ## Integración con SharePoint Server 2013 y SharePoint Online
 
@@ -163,7 +163,7 @@ Volver al principio
 
 ## Uso de la exhibición de documentos electrónicos local
 
-Los usuarios que se agregaron al grupo de roles de administración de detección pueden realizar búsquedas de exhibición de documentos electrónicos local. Puede realizar una búsqueda mediante la interfaz basada en web del EAC. Esto facilita el uso de la exhibición de documentos electrónicos local para los usuarios no técnicos, como los responsables de registros, el personal de cumplimiento o los profesionales legales y de RR. HH. También puede usar el Shell para realizar una búsqueda. Para obtener más información, vea [Crear una búsqueda de exhibición de documentos electrónicos local](create-an-in-place-ediscovery-search-exchange-2013-help.md)
+Los usuarios que se agregaron al grupo de roles de administración de detección pueden realizar búsquedas de exhibición de documentos electrónicos local. Puede realizar una búsqueda mediante la interfaz basada en web del EAC. Esto facilita el uso de la exhibición de documentos electrónicos local para los usuarios no técnicos, como los responsables de registros, el personal de cumplimiento o los profesionales legales y de RR. HH. También puede usar el Shell para realizar una búsqueda. Para obtener más información, vea [Crear una búsqueda de exhibición de documentos electrónicos local](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search)
 
 
 > [!NOTE]
@@ -266,7 +266,7 @@ Una vez copiados los resultados de la búsqueda a un buzón de detección, puede
 
 ![Exportar resultados de búsqueda de exhibición de documentos electrónicos a un archivo PST](images/Dd298021.4ddca8af-1af5-4cb2-852c-e3a292099a58(EXCHG.150).gif "Exportar resultados de búsqueda de exhibición de documentos electrónicos a un archivo PST")
 
-Después de exportar los resultados de la búsqueda a un archivo PST, usted u otros usuarios pueden abrirlos en Outlook para revisar o imprimir los mensajes devueltos en los resultados de búsqueda. Para obtener más información, vea [Exportar los resultados de la búsqueda de exhibición de documentos electrónicos a un archivo PST](export-ediscovery-search-results-to-a-pst-file-exchange-2013-help.md).
+Después de exportar los resultados de la búsqueda a un archivo PST, usted u otros usuarios pueden abrirlos en Outlook para revisar o imprimir los mensajes devueltos en los resultados de búsqueda. Para obtener más información, vea [Exportar los resultados de la búsqueda de exhibición de documentos electrónicos a un archivo PST](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/export-search-results).
 
 ## Diferentes resultados de búsqueda
 
@@ -300,7 +300,7 @@ Volver al principio
 
 ## Exhibición de documentos electrónicos local y retención local
 
-Como parte de las solicitudes de exhibición de documentos electrónicos, es posible que tenga que conservar el contenido de los buzones de correo hasta que finalice un proceso judicial o una investigación. También de se deben conservar los mensajes eliminados o modificados por el usuario o por otros procesos. En Exchange 2013, esto se realiza mediante la retención local. Para obtener información más detallada, vea [Conservación local y retención por juicio](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+Como parte de las solicitudes de exhibición de documentos electrónicos, es posible que tenga que conservar el contenido de los buzones de correo hasta que finalice un proceso judicial o una investigación. También de se deben conservar los mensajes eliminados o modificados por el usuario o por otros procesos. En Exchange 2013, esto se realiza mediante la retención local. Para obtener información más detallada, vea [Conservación local y retención por juicio](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 En Exchange 2013, puede usar el **Asistente de retención y exhibición de documentos electrónicos** para buscar elementos y conservarlos durante el tiempo que sea necesario para la exhibición de documentos electrónicos o para cumplir otros requisitos empresariales. Al usar la misma búsqueda para la exhibición de documentos electrónicos local y la retención local, tenga en cuenta lo siguiente:
 
@@ -330,7 +330,7 @@ En implementaciones locales, si su organización necesita que se apliquen valore
 
 2.  Establezca el límite de tamaño de los mensajes que el usuario del buzón puede enviar o recibir en un valor muy bajo; por ejemplo, 1 KB. Esto impide la entrega de correo electrónico en el buzón o el envío desde el mismo. Para obtener información detallada, vea [Configurar límites de tamaño de mensaje para un buzón de correo](configure-message-size-limits-for-a-mailbox-exchange-2013-help.md).
 
-3.  Configure las restricciones de entrega del buzón de correo, de modo que nadie pueda enviar mensajes desde el mismo. Para obtener información detallada, vea [Configurar restricciones de entrega de mensajes para un buzón de correo](configure-message-delivery-restrictions-for-a-mailbox-exchange-2013-help.md).
+3.  Configure las restricciones de entrega del buzón de correo, de modo que nadie pueda enviar mensajes desde el mismo. Para obtener información detallada, vea [Configurar restricciones de entrega de mensajes para un buzón de correo](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-message-delivery-restrictions).
 
 
 > [!IMPORTANT]
@@ -436,7 +436,7 @@ La tabla siguiente contiene vínculos a temas que le ayudarán a obtener informa
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="assign-ediscovery-permissions-in-exchange-exchange-2013-help.md">Asignar permisos de exhibición de documentos electrónicos en Exchange</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions">Asignar permisos de exhibición de documentos electrónicos en Exchange</a></p></td>
 <td><p>Obtenga información acerca de cómo dar a un usuario acceso para usar la exhibición de documentos electrónicos local en el EAC para buscar en los buzones de Exchange. Agregar un usuario al grupo de roles de administración de la detección también permite que la persona use el Centro de exhibición de documentos electrónicos en SharePoint 2013 y SharePoint Online para buscar en los buzones de Exchange.</p></td>
 </tr>
 <tr class="even">
@@ -444,7 +444,7 @@ La tabla siguiente contiene vínculos a temas que le ayudarán a obtener informa
 <td><p>Aprenda a usar el Shell para crear un buzón de detección y asignar permisos de acceso.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="create-an-in-place-ediscovery-search-exchange-2013-help.md">Crear una búsqueda de exhibición de documentos electrónicos local</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search">Crear una búsqueda de exhibición de documentos electrónicos local</a></p></td>
 <td><p>Aprenda cómo crear una búsqueda de exhibición de documentos electrónicos local, cómo calcular los resultados de la búsqueda de exhibición de documentos electrónicos, y cómo obtener una vista previa.</p></td>
 </tr>
 <tr class="even">
@@ -468,11 +468,11 @@ La tabla siguiente contiene vínculos a temas que le ayudarán a obtener informa
 <td><p>Obtenga información acerca de cómo copiar los resultados de una búsqueda de exhibición de documentos electrónicos en un buzón de detección.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="export-ediscovery-search-results-to-a-pst-file-exchange-2013-help.md">Exportar los resultados de la búsqueda de exhibición de documentos electrónicos a un archivo PST</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/export-search-results">Exportar los resultados de la búsqueda de exhibición de documentos electrónicos a un archivo PST</a></p></td>
 <td><p>Obtenga información acerca de cómo exportar los resultados de una búsqueda de exhibición de documentos electrónicos a un archivo PST.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="create-a-custom-management-scope-for-in-place-ediscovery-searches-exchange-2013-help.md">Crear un ámbito de administración personalizado para las búsquedas de exhibición de documentos electrónicos local</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/create-custom-management-scope">Crear un ámbito de administración personalizado para las búsquedas de exhibición de documentos electrónicos local</a></p></td>
 <td><p>Aprenda a usar ámbitos de administración personalizados para limitar los buzones en los que puede buscar un administrador de detección.</p></td>
 </tr>
 <tr class="odd">
@@ -488,7 +488,7 @@ La tabla siguiente contiene vínculos a temas que le ayudarán a obtener informa
 <td><p>Use este proceso para reducir el tamaño de un buzón de correo de detección que supere los 50 GB.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="delete-and-re-create-the-default-discovery-mailbox-in-exchange-exchange-2013-help.md">Eliminar y volver a crear el buzón de correo de detección predeterminado en Exchange</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/delete-and-re-create-default-discovery-mailbox">Eliminar y volver a crear el buzón de correo de detección predeterminado en Exchange</a></p></td>
 <td><p>Aprenda a eliminar el buzón de detección predeterminado, a volver a crearlo y, a continuación, a volver a asignarle permisos. Use este procedimiento si este buzón de correo ha superado el límite de 50 GB y no necesita los resultados de la búsqueda.</p></td>
 </tr>
 <tr class="odd">

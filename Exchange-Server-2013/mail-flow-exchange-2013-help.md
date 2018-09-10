@@ -173,7 +173,7 @@ La tabla siguiente contiene vínculos a temas que le ayudarán a aprender acerca
 <td><p>Los registros de transporte registran lo que pasa a los mensajes cuando fluyen a través de la canalización de transporte.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="manage-message-approval-exchange-2013-help.md">Administrar la aprobación de mensajes</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-message-approval">Administrar la aprobación de mensajes</a></p></td>
 <td><p>El transporte moderado requiere la aprobación de los mensajes enviados a destinatarios específicos.</p></td>
 </tr>
 <tr class="even">

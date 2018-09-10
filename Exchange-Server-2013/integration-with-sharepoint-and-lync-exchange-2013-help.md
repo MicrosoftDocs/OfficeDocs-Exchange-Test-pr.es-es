@@ -39,7 +39,7 @@ Para obtener información detallada, consulte los siguientes temas:
 
   - [Exhibición de documentos electrónicos en contexto](in-place-ediscovery-exchange-2013-help.md)
 
-  - [Conservación local y retención por juicio](in-place-hold-and-litigation-hold-exchange-2013-help.md)
+  - [Conservación local y retención por juicio](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-and-litigation-holds)
 
   - [Configurar eDiscovery en SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?linkid=257727)
 

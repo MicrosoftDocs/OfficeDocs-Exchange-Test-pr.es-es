@@ -353,7 +353,7 @@ La tabla siguiente contiene vínculos a temas que le ayudarán a aprender acerca
 <td><p>Más información acerca de cómo crear y administrar grupos de distribución y crear una directiva de nomenclatura de grupo para su organización.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="manage-mail-enabled-security-groups-exchange-2013-help.md">Administrar grupos de seguridad habilitados para correo</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups">Administrar grupos de seguridad habilitados para correo</a></p></td>
 <td><p>Más información acerca de cómo crear y administrar grupos de seguridad habilitados para correo.</p></td>
 </tr>
 <tr class="even">
@@ -361,11 +361,11 @@ La tabla siguiente contiene vínculos a temas que le ayudarán a aprender acerca
 <td><p>Más información acerca de cómo crear grupos de distribución dinámicos y administrar las propiedades del grupo de distribución dinámico, como el uso de los atributos personalizados y otras propiedades para determinar la pertenencia al grupo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="manage-mail-contacts-exchange-2013-help.md">Administrar contactos de correo</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-mail-contacts">Administrar contactos de correo</a></p></td>
 <td><p>Más información acerca de cómo crear y administrar contactos de correo.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-mail-users-exchange-2013-help.md">Administrar usuarios de correo</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-mail-users">Administrar usuarios de correo</a></p></td>
 <td><p>Más información acerca de cómo crear y administrar usuarios de correo.</p></td>
 </tr>
 <tr class="odd">

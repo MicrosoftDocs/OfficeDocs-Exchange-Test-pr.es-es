@@ -19,7 +19,7 @@ _**Última modificación del tema:** 2015-03-09_
 
 Los contadores de rendimiento de este tema supervisan el Asistente de carpetas administradas al implementar la administración de registros de mensajería (MRM) para Microsoft Exchange Server 2010. Dado que la ejecución del Asistente para carpeta administrada es un proceso que consume cuantiosos recursos, solamente deberá ejecutarlo cuando el servidor pueda tolerar una carga adicional. Cuando ejecute este asistente, también conviene supervisar el rendimiento del servidor. Además de los contadores de rendimiento mencionados en este tema, puede que desee supervisar también otros contadores de rendimiento que supervisan elementos como el rendimiento de disco y el uso de CPU.
 
-Para obtener más información acerca de la supervisión de equipos que ejecutan MRM, consulte [Administración de registros de seguimiento de mensajería](monitoring-messaging-records-management-exchange-2013-help.md).
+Para obtener más información acerca de la supervisión de equipos que ejecutan MRM, consulte [Administración de registros de seguimiento de mensajería](monitoring-https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/messaging-records-management).
 
 ## Contadores de rendimiento para MRM
 

@@ -17,11 +17,11 @@ _**Se aplica a:** Exchange Online, Exchange Server 2013_
 
 _**Última modificación del tema:** 2012-10-11_
 
-Después de crear una directiva de libreta de direcciones (ABP), debe asignarla a los usuarios de buzones. A los usuarios no se les asigna una ABP predeterminada cuando se crea su cuenta. Si no asigna ninguna ABP a un usuario, éste tendrá acceso a la lista global de direcciones (LGD) de toda la organización a través de Outlook y Outlook Web App. Para obtener más información, vea [Directivas de la libreta de direcciones](address-book-policies-exchange-2013-help.md).
+Después de crear una directiva de libreta de direcciones (ABP), debe asignarla a los usuarios de buzones. A los usuarios no se les asigna una ABP predeterminada cuando se crea su cuenta. Si no asigna ninguna ABP a un usuario, éste tendrá acceso a la lista global de direcciones (LGD) de toda la organización a través de Outlook y Outlook Web App. Para obtener más información, vea [Directivas de la libreta de direcciones](https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/address-book-policies).
 
 Para otras tareas de administración relacionadas con las directivas de libretas de direcciones (ABP), consulte [Procedimientos de directivas de la libreta de direcciones](address-book-policy-procedures-exchange-2013-help.md).
 
-¿Interesado en escenarios que utilizan este procedimiento? Consulte [Caso: implementación de directivas de libretas de direcciones](scenario-deploying-address-book-policies-exchange-2013-help.md).
+¿Interesado en escenarios que utilizan este procedimiento? Consulte [Caso: implementación de directivas de libretas de direcciones](scenario-deploying-https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/address-book-policies).
 
 ## ¿Qué necesita saber antes de comenzar?
 

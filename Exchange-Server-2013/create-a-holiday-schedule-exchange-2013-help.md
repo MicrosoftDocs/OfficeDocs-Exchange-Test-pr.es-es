@@ -21,7 +21,7 @@ Puede definir las fechas y las horas durante las que la organización estará ce
 
 También puede crear una programación de vacaciones dentro de otra que ya existe. Cuando crea varias programaciones de vacaciones, la mensajería unificada permite superponer los períodos de vacaciones programados. Por ejemplo, puede crear una programación de vacaciones desde el 15 de diciembre hasta el 31 de diciembre, mientras su organización permanezca cerrada por obras y puede definir otra programación de vacaciones desde el 24 al 26 de diciembre. Las personas que llamen al operador automático desde el 15 de diciembre al 23 de diciembre y desde el 27 de diciembre al 31 de diciembre, escucharán el saludo de vacaciones especificado para esas fechas determinadas. Por ejemplo, "En estos momentos, nuestra empresa permanece cerrada por obras." Cuando las personas llamen al operador automático entre el 24 de diciembre y el 26 de diciembre, escucharán otro saludo de vacaciones, como, por ejemplo, "Durante estas fiestas familiares, nuestra empresa se encuentra cerrada."
 
-Para conocer tareas de administración adicionales relacionadas con los operadores automáticos de mensajería unificada, vea [Procedimientos operador automático de mensajería unificada](um-auto-attendant-procedures-exchange-2013-help.md).
+Para conocer tareas de administración adicionales relacionadas con los operadores automáticos de mensajería unificada, vea [Procedimientos operador automático de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/um-auto-attendant-procedures).
 
 ## ¿Qué necesita saber antes de comenzar?
 
@@ -29,7 +29,7 @@ Para conocer tareas de administración adicionales relacionadas con los operador
 
   - Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento o procedimientos. Para ver qué permisos necesita, consulte el contenido "Operadores automáticos de MU" en el tema [Permisos de mensajería unificada](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un plan de marcado de MU. Para conocer los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](create-a-um-dial-plan-exchange-2013-help.md).
+  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un plan de marcado de MU. Para conocer los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
   - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un operador automático de mensajería unificada. Para conocer los pasos detallados, consulte [Crear un operador automático de mensajería unificada](create-a-um-auto-attendant-exchange-2013-help.md).
 

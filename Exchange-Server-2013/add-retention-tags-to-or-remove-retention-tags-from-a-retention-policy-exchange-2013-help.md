@@ -17,7 +17,7 @@ _**Se aplica a:** Exchange Online, Exchange Server 2013_
 
 _**Última modificación del tema:** 2015-03-02_
 
-Puede agregar etiquetas de retención a una directiva de retención al crear la directiva o en cualquier momento posterior a la creación. Para obtener información acerca de cómo crear una directiva de retención, incluido cómo agregar etiquetas de retención simultáneamente, vea [Crear directivas de retención](create-a-retention-policy-exchange-2013-help.md).
+Puede agregar etiquetas de retención a una directiva de retención al crear la directiva o en cualquier momento posterior a la creación. Para obtener información acerca de cómo crear una directiva de retención, incluido cómo agregar etiquetas de retención simultáneamente, vea [Crear directivas de retención](https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy).
 
 Una directiva de retención puede contener las siguientes etiquetas de retención:
 
@@ -31,7 +31,7 @@ Una directiva de retención puede contener las siguientes etiquetas de retenció
 
   - Cualquier número de etiquetas personales
 
-Para obtener más información acerca de las etiquetas de retención, vea [Etiquetas de retención y directivas de retención](retention-tags-and-retention-policies-exchange-2013-help.md).
+Para obtener más información acerca de las etiquetas de retención, vea [Etiquetas de retención y directivas de retención](https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies).
 
 ## ¿Qué necesita saber antes de comenzar?
 

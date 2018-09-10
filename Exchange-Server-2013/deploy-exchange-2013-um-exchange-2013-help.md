@@ -33,15 +33,15 @@ Antes de implementar la mensajería unificada, le recomendamos familiarizarse co
 
   - [Planes de marcado de mensajería unificada](um-dial-plans-exchange-2013-help.md)
 
-  - [Puertas de enlace IP de mensajería unificada](um-ip-gateways-exchange-2013-help.md)
+  - [Puertas de enlace IP de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-ip-gateways)
 
   - [Servicios de mensajería unificada](um-services-exchange-2013-help.md)
 
-  - [Grupos de búsqueda de mensajería unificada](um-hunt-groups-exchange-2013-help.md)
+  - [Grupos de búsqueda de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-groups)
 
-  - [Contestar y enrutar automáticamente las llamadas entrantes](automatically-answer-and-route-incoming-calls-exchange-2013-help.md)
+  - [Contestar y enrutar automáticamente las llamadas entrantes](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-  - [directivas de buzón de mensajería unificada](um-mailbox-policies-exchange-2013-help.md)
+  - [directivas de buzón de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policies)
 
   - [Correo de voz para usuarios](voice-mail-for-users-exchange-2013-help.md)
 
@@ -196,7 +196,7 @@ Realice el siguiente procedimiento para crear una nueva puerta de enlace IP de m
 
 Si creó una puerta de enlace IP de mensajería unificada y la asoció con un plan de marcado de mensajería unificada, se crea un grupo de extensiones de mensajería unificada predeterminado. Puede asociar otro grupo de extensiones de MU con la misma puerta de enlace IP de MU o con una diferente, de acuerdo con la cantidad de puertas de enlace IP de MU que haya creado.
 
-Al crear un grupo de extensiones de mensajería unificada, permite que todos los servidores de buzones de correo especificados en el plan de marcado de mensajería unificada se comuniquen con una puerta de enlace VoIP. Para obtener información detallada, consulte [Grupos de búsqueda de mensajería unificada](um-hunt-groups-exchange-2013-help.md).
+Al crear un grupo de extensiones de mensajería unificada, permite que todos los servidores de buzones de correo especificados en el plan de marcado de mensajería unificada se comuniquen con una puerta de enlace VoIP. Para obtener información detallada, consulte [Grupos de búsqueda de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-groups).
 
 ## Crear un grupo de extensiones de mensajería unificada
 
@@ -292,7 +292,7 @@ Después de completar una nueva instalación de los servidores de buzones de cor
 
 ## Habilitar a los usuarios de correo de voz
 
-Después de implementar las puertas de enlace VoIP o IP PBX, instalar los servidores de buzones de correo y de acceso de cliente, y crear los componentes necesarios para mensajería unificada, debe habilitar a los usuarios para la mensajería unificada. Para obtener información detallada, consulte [Habilitar a un usuario para el correo de voz](enable-a-user-for-voice-mail-exchange-2013-help.md).
+Después de implementar las puertas de enlace VoIP o IP PBX, instalar los servidores de buzones de correo y de acceso de cliente, y crear los componentes necesarios para mensajería unificada, debe habilitar a los usuarios para la mensajería unificada. Para obtener información detallada, consulte [Habilitar a un usuario para el correo de voz](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
 
 ## Protección del correo de voz
 
@@ -312,7 +312,7 @@ Para usar TLS mutua para cifrar el tráfico SIP y el Protocolo de transporte en 
 
   - Configure el modo de inicio en los servidores de buzones de correo y de acceso de cliente. Para obtener información detallada, consulte [Configurar el modo de inicio en un servidor de buzones](configure-the-startup-mode-on-a-mailbox-server-exchange-2013-help.md) y [Configurar el modo de inicio en un servidor de acceso de cliente](configure-the-startup-mode-on-a-client-access-server-exchange-2013-help.md).
 
-  - Configure las puertas de enlace IP de MU para que escuchen en el puerto 5061. Para obtener información detallada, consulte [Configurar el puerto de escucha](configure-the-listening-port-exchange-2013-help.md).
+  - Configure las puertas de enlace IP de MU para que escuchen en el puerto 5061. Para obtener información detallada, consulte [Configurar el puerto de escucha](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-listening-port).
 
 ## Establecer directivas de PIN para usuarios habilitados para mensajería unificada
 
@@ -324,7 +324,7 @@ Después de haber implementado los servidores y los componentes necesarios de me
 
   - [Configuración de Outlook Voice Access](setting-up-outlook-voice-access-exchange-2013-help.md)
 
-  - [Permitir usuarios de mail reenviar llamadas de voz](allow-voice-mail-users-to-forward-calls-exchange-2013-help.md)
+  - [Permitir usuarios de mail reenviar llamadas de voz](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-voice-mail-users-to-forward-calls)
 
   - [Permitir a los usuarios ver una transcripción de correo de voz](allow-users-to-see-a-voice-mail-transcript-exchange-2013-help.md)
 

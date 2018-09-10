@@ -49,7 +49,7 @@ Administrar plantillas personalizadas y sus correspondientes directivas resulta 
 
 2.  Importar la plantilla personalizada. Para más información, vea [Importar una plantilla de directiva DLP personalizada desde un archivo](import-a-custom-dlp-policy-template-from-a-file-exchange-2013-help.md).
 
-3.  Crear una directiva de DLP basada en la plantilla personalizada. Para más información, vea [Crear una directiva DLP a partir de una plantilla](how-to-new-dlp-data-loss-prevention-policy-template.md).
+3.  Crear una directiva de DLP basada en la plantilla personalizada. Para más información, vea [Crear una directiva DLP a partir de una plantilla](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template).
 
 4.  Repetir los pasos 1 y 2 para actualizar la plantilla personalizada.
 
@@ -83,7 +83,7 @@ Las reglas de *afinidad* se enfocan en un tipo determinado de documento, como un
 
 ## Más información
 
-[Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Importar una plantilla de directiva DLP personalizada desde un archivo](import-a-custom-dlp-policy-template-from-a-file-exchange-2013-help.md)
 

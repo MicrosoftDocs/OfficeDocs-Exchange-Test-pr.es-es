@@ -27,7 +27,7 @@ Para obtener más información, consulte los siguientes temas:
 
   - [Carpeta Elementos recuperables](recoverable-items-folder-exchange-2013-help.md)
 
-  - [Conservación local y retención por juicio](in-place-hold-and-litigation-hold-exchange-2013-help.md)
+  - [Conservación local y retención por juicio](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-and-litigation-holds)
 
 ## ¿Qué necesita saber antes de comenzar?
 

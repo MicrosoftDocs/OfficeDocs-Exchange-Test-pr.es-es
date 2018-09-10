@@ -19,7 +19,7 @@ _**Última modificación del tema:** 2012-11-05_
 
 De forma predeterminada, cuando se crea un operador automático de mensajería unificada (UM), su estado se establece en deshabilitado. Después de crear al operador automático de mensajería unificada, puede cambiar su estado a control si puede responder las llamadas entrantes. Por ejemplo, que desea deshabilitar al operador automático de mensajería unificada cuando está grabando o grabando mensajes personalizados y entradas.
 
-Para conocer tareas de administración adicionales relacionadas con los operadores automáticos de mensajería unificada, consulte [Procedimientos operador automático de mensajería unificada](um-auto-attendant-procedures-exchange-2013-help.md).
+Para conocer tareas de administración adicionales relacionadas con los operadores automáticos de mensajería unificada, consulte [Procedimientos operador automático de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/um-auto-attendant-procedures).
 
 ## ¿Qué necesita saber antes de comenzar?
 
@@ -27,7 +27,7 @@ Para conocer tareas de administración adicionales relacionadas con los operador
 
   - Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento o procedimientos. Para ver qué permisos necesita, consulte el contenido "Operadores automáticos de MU" en el tema [Permisos de mensajería unificada](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un plan de marcado de MU. Para conocer los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](create-a-um-dial-plan-exchange-2013-help.md).
+  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un plan de marcado de MU. Para conocer los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
   - Antes de realizar estos procedimientos, confirme que se ha creado un operador automático de mensajería unificada. Para ver pasos detallados, consulte [Crear un operador automático de mensajería unificada](create-a-um-auto-attendant-exchange-2013-help.md). Confirme también que el estado del operador automático de mensajería unificada se establece en habilitado.
 

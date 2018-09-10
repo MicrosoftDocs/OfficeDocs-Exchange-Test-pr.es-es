@@ -25,7 +25,7 @@ Las características de prevención de pérdida de datos (DLP) de Exchange 2013
 
 [Integración de las reglas de información confidencial con las reglas de transporte](integrating-sensitive-information-rules-with-transport-rules-exchange-2013-help.md)
 
-[Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 ## Acciones y predicados nuevos
 

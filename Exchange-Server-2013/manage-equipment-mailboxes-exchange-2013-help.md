@@ -138,7 +138,7 @@ Haga clic en **Más opciones** para ver o cambiar estas propiedades adicionales:
 
   - **Compañía**   Use esta casilla para especificar una compañía con la que se asocia al recurso. Como en el caso de la propiedad "Departamento", puede usar esta propiedad para crear condiciones de destinatarios para grupos de distribución dinámicos y listas de direcciones.
 
-  - **Directiva de la libreta de direcciones**   Use esta opción para especificar una directiva de libreta de direcciones (ABP) para el recurso. Las ABP contienen una lista global de direcciones (GAL), una libreta de direcciones sin conexión (OAB), una lista de salas y un conjunto de listas de direcciones. Para obtener más información, consulte [Directivas de la libreta de direcciones](address-book-policies-exchange-2013-help.md).
+  - **Directiva de la libreta de direcciones**   Use esta opción para especificar una directiva de libreta de direcciones (ABP) para el recurso. Las ABP contienen una lista global de direcciones (GAL), una libreta de direcciones sin conexión (OAB), una lista de salas y un conjunto de listas de direcciones. Para obtener más información, consulte [Directivas de la libreta de direcciones](https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/address-book-policies).
     
     En la lista desplegable, seleccione la directiva que desea asociar con este buzón.
 

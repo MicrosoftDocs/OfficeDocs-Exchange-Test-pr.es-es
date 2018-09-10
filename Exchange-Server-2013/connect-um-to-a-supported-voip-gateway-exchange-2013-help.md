@@ -45,7 +45,7 @@ Al implementar servidores Exchange en una organización, puede instalar los serv
 
 ## Paso 2: Cree y configure un plan de marcado de mensajería unificada
 
-Después de instalar los servidores necesarios, deberá crear un plan de marcado de mensajería unificada. Un plan de marcado de mensajería unificada contiene los valores de configuración que le permiten conectarse a su red de telefonía mediante la vinculación de una o varias puertas de enlace IP de mensajería unificada. Una puerta de enlace IP y un grupo de extensiones de mensajería unificada también se vinculan a un plan de marcado de mensajería unificada y son necesarios. Para obtener información más detallada, consulte [Crear un plan de marcado de mensajería unificada](create-a-um-dial-plan-exchange-2013-help.md).
+Después de instalar los servidores necesarios, deberá crear un plan de marcado de mensajería unificada. Un plan de marcado de mensajería unificada contiene los valores de configuración que le permiten conectarse a su red de telefonía mediante la vinculación de una o varias puertas de enlace IP de mensajería unificada. Una puerta de enlace IP y un grupo de extensiones de mensajería unificada también se vinculan a un plan de marcado de mensajería unificada y son necesarios. Para obtener información más detallada, consulte [Crear un plan de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
 El plan de marcado de mensajería unificada establece un vínculo desde el número de extensión telefónica de un usuario hasta un buzón con la mensajería unificada habilitada. Al crear un plan de marcado de mensajería unificada, puede configurar el número de dígitos de los números de extensión, el tipo de identificador uniforme de recursos (URI) y los ajustes de seguridad VoIP correspondientes al plan de marcado.
 
@@ -65,13 +65,13 @@ La mensajería unificada de Exchange admite varios proveedores de puertas de enl
 
 Para obtener más información sobre las puertas de enlace VoIP, consulte los siguientes temas:
 
-  - [Cree una puerta de enlace IP de mensajería unificada](create-a-um-ip-gateway-exchange-2013-help.md)
+  - [Cree una puerta de enlace IP de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway)
 
-  - [Notas para la configuración de puertas de enlace de VoIP, IP PBX y PBX compatibles](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+  - [Notas para la configuración de puertas de enlace de VoIP, IP PBX y PBX compatibles](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways)
 
   - [Conectar una puerta de enlace VoIP, IP PBX o un controlador de borde de sesión a mensajería unificada](connect-a-voip-gateway-ip-pbx-or-session-border-controller-to-um-exchange-2013-help.md)
 
-Para obtener información más detallada, consulte [Conecte su sistema de correo de voz a la red de teléfono](connect-your-voice-mail-system-to-your-telephone-network-exchange-2013-help.md).
+Para obtener información más detallada, consulte [Conecte su sistema de correo de voz a la red de teléfono](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/connect-voice-mail-system).
 
 ## Paso 4: crear un nuevo grupo de extensiones de mensajería unificada (si es necesario)
 
@@ -81,5 +81,5 @@ Los grupos de extensiones de mensajería unificada reflejan los grupos de extens
 
 En función de cómo cree la puerta de enlace IP de mensajería unificada, puede que necesite crear uno o más grupos de extensiones de mensajería unificada. Si no vincula una puerta de enlace IP de mensajería unificada con un plan de marcado al crear la puerta de enlace IP de mensajería unificada, se crea un solo grupo de extensiones de mensajería unificada de manera predeterminada. Si vincula una puerta de enlace IP de mensajería unificada a un plan de marcado de mensajería unificada al crear la puerta de enlace IP, todas las llamadas entrantes se enviarán a través de la puerta de enlace IP de mensajería unificada y los servidores de buzones y de acceso de clientes las aceptarán. Si no vincula una puerta de enlace IP de mensajería unificada a un plan de marcado de mensajería unificada al crear la puerta de enlace IP, deberá crear un grupo de extensiones de mensajería unificada con el identificador piloto correcto para que las llamadas entrantes se reenvíen desde una puerta de enlace IP de mensajería unificada a un plan de marcado.
 
-Si tiene varios números de operadores automáticos y de Outlook Voice Access y ha vinculado una puerta de enlace IP de mensajería unificada a un plan de marcado, deberá eliminar el grupo de extensiones de mensajería unificada que se creó de forma predeterminada y crear varios grupos de extensiones de mensajería unificada. Para obtener más detalles sobre cómo crear un grupo de extensiones de mensajería unificada, consulte [Crear un grupo de extensiones de mensajería unificada](create-a-um-hunt-group-exchange-2013-help.md).
+Si tiene varios números de operadores automáticos y de Outlook Voice Access y ha vinculado una puerta de enlace IP de mensajería unificada a un plan de marcado, deberá eliminar el grupo de extensiones de mensajería unificada que se creó de forma predeterminada y crear varios grupos de extensiones de mensajería unificada. Para obtener más detalles sobre cómo crear un grupo de extensiones de mensajería unificada, consulte [Crear un grupo de extensiones de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-hunt-group).
 

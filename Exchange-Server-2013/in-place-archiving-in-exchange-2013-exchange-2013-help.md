@@ -138,7 +138,7 @@ En Exchange 2013, puede aplicar directivas de archivo a un buzón de correo que
 
 Los mensajes se mueven a una carpeta en el buzón de archivo que tiene el mismo nombre que la carpeta de origen en el buzón de correo principal. Si no existe una carpeta con el mismo nombre en el buzón de archivo, se crea una cuando el Asistente para carpetas administradas mueve un mensaje. Recrear la misma jerarquía de carpetas en el buzón de archivo permite a los usuarios encontrar los mensajes con facilidad.
 
-Para obtener más información acerca de las directivas de retención, las etiquetas de retención y la acción de retención **Mover a archivo**, vea [Etiquetas de retención y directivas de retención](retention-tags-and-retention-policies-exchange-2013-help.md).
+Para obtener más información acerca de las directivas de retención, las etiquetas de retención y la acción de retención **Mover a archivo**, vea [Etiquetas de retención y directivas de retención](https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies).
 
 ## Directiva de MRM predeterminada
 
@@ -279,7 +279,7 @@ En esta sección se explica la funcionalidad entre archivos locales y varias car
 
 
 
-  - **Retención local y Retención por juicio**   Cuando coloca un buzón de correo en retención local o retención por juicio, la retención se coloca tanto en el buzón de correo principal como en el buzón de correo de archivo. Para obtener más información acerca de retención local y retención por litigio, vea [Conservación local y retención por juicio](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+  - **Retención local y Retención por juicio**   Cuando coloca un buzón de correo en retención local o retención por juicio, la retención se coloca tanto en el buzón de correo principal como en el buzón de correo de archivo. Para obtener más información acerca de retención local y retención por litigio, vea [Conservación local y retención por juicio](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-and-litigation-holds).
 
   - **Carpeta Elementos recuperables   **El buzón de archivo contiene su propia carpeta Elementos recuperables y está sujeto a las mismas cuotas de carpeta Elementos recuperables que el buzón de correo principal. Para obtener más información acerca de los elementos recuperables, vea [Carpeta Elementos recuperables](recoverable-items-folder-exchange-2013-help.md).
 

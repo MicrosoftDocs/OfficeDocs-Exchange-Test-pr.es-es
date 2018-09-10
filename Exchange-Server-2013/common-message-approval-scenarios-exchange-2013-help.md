@@ -117,7 +117,7 @@ Por ejemplo, una única regla no puede comprobar si un mensaje contiene "oferta 
 
 ## Ejemplo 5: Reenviar un mensaje que contenga información confidencial
 
-Si tiene la característica [Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md) (DLP), muchos tipos de información confidencial están predefinidos. Con DLP, ve que el mensaje contiene una condición de información confidencial. Tenga o no DLP, puede crear condiciones que identifiquen determinados patrones de información confidencial que sean únicos para su organización.
+Si tiene la característica [Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention) (DLP), muchos tipos de información confidencial están predefinidos. Con DLP, ve que el mensaje contiene una condición de información confidencial. Tenga o no DLP, puede crear condiciones que identifiquen determinados patrones de información confidencial que sean únicos para su organización.
 
 Este es un ejemplo en el que los mensajes con información confidencial requieren aprobación. En este ejemplo, los mensajes que contienen un número de tarjeta de crédito requieren aprobación.
 
@@ -126,5 +126,5 @@ Este es un ejemplo en el que los mensajes con información confidencial requiere
 ## Vea también
 
 
-[Administrar la aprobación de mensajes](manage-message-approval-exchange-2013-help.md)
+[Administrar la aprobación de mensajes](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-message-approval)
 

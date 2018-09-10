@@ -222,7 +222,7 @@ Use la sección **Características de buzón** para ver o cambiar la configuraci
 
   - **Directiva de libreta de direcciones**   En este cuadro se muestra la directiva de libreta de direcciones que se aplica al buzón. Una directiva de libreta de direcciones le permite segmentar a los usuarios en grupos específicos para proporcionar vistas personalizadas de la libreta de direcciones. Para aplicar o cambiar la directiva de libreta de direcciones aplicada al buzón, seleccione una de la lista desplegable.
 
-  - **Mensajería unificada**   Esta función está deshabilitada de forma predeterminada. Al habilitar la mensajería unificada (MU), el usuario podrá usar las características de la MU de la organización y un conjunto predeterminado de propiedades de la misma se aplicarán al usuario. Haga clic en **Habilitar** para habilitar la mensajería unificada en el buzón. Para obtener información acerca de cómo habilitar la MU, consulte [Habilitar a un usuario para el correo de voz](enable-a-user-for-voice-mail-exchange-2013-help.md).
+  - **Mensajería unificada**   Esta función está deshabilitada de forma predeterminada. Al habilitar la mensajería unificada (MU), el usuario podrá usar las características de la MU de la organización y un conjunto predeterminado de propiedades de la misma se aplicarán al usuario. Haga clic en **Habilitar** para habilitar la mensajería unificada en el buzón. Para obtener información acerca de cómo habilitar la MU, consulte [Habilitar a un usuario para el correo de voz](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
     
 
     > [!NOTE]

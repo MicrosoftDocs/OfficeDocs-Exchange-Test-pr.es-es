@@ -185,7 +185,7 @@ MWI se puede administrar al realizar las configuraciones en dos componentes de m
 
 ## Directivas de buzón de mensajería unificada y MWI
 
-Puede crear una directiva de buzón de mensajería unificada para aplicar un conjunto común de configuraciones de directivas de mensajería unificada a una serie de buzones de usuarios habilitados para mensajería unificada. Por ejemplo, puede usar una directiva de buzón de mensajería unificada para aplicar las configuraciones de la directiva PIN, limitaciones de marcado y configuraciones de notificaciones MWI. Si habilita o deshabilita MWI en una directiva de buzón de mensajería unificada, se habilitará o deshabilitará para todos los usuarios habilitados para mensajería unificada vinculados con esa directiva de buzón de mensajería unificada. La configuración de MWI también se puede aplicar a un subconjunto de usuarios vinculados con un plan de marcado de mensajería unificada. Para obtener más información sobre las directivas de buzón de mensajería unificada, incluyendo cómo habilitar o deshabilitar el MWI para un grupo de usuarios habilitados para mensajería unificada, vea [Procedimientos de políticas de buzón de mensajería unificada](um-mailbox-policy-procedures-exchange-2013-help.md).
+Puede crear una directiva de buzón de mensajería unificada para aplicar un conjunto común de configuraciones de directivas de mensajería unificada a una serie de buzones de usuarios habilitados para mensajería unificada. Por ejemplo, puede usar una directiva de buzón de mensajería unificada para aplicar las configuraciones de la directiva PIN, limitaciones de marcado y configuraciones de notificaciones MWI. Si habilita o deshabilita MWI en una directiva de buzón de mensajería unificada, se habilitará o deshabilitará para todos los usuarios habilitados para mensajería unificada vinculados con esa directiva de buzón de mensajería unificada. La configuración de MWI también se puede aplicar a un subconjunto de usuarios vinculados con un plan de marcado de mensajería unificada. Para obtener más información sobre las directivas de buzón de mensajería unificada, incluyendo cómo habilitar o deshabilitar el MWI para un grupo de usuarios habilitados para mensajería unificada, vea [Procedimientos de políticas de buzón de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policy-procedures).
 
 Puede usar el EAC o el cmdlet **Set-UMMailboxPolicy** en el Shell para configurar las opciones de MWI, como se muestra en la siguiente tabla.
 
@@ -218,7 +218,7 @@ Puede usar el EAC o el cmdlet **Set-UMMailboxPolicy** en el Shell para configura
 
 Para obtener más información acerca de cómo administrar las configuraciones de MWI en una directiva de buzón de mensajería unificada, consulte los siguientes temas:
 
-  - [Administrar una directiva de buzones de correo de mensajería unificada](manage-a-um-mailbox-policy-exchange-2013-help.md)
+  - [Administrar una directiva de buzones de correo de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy)
 
   - [Habilitar el indicador de espera de mensaje (MWI) para los usuarios](enable-message-waiting-indicator-mwi-for-users-exchange-2013-help.md)
 
@@ -228,7 +228,7 @@ Para obtener más información acerca de cómo administrar las configuraciones d
 
 ## Puertas de enlace IP de mensajería unificada y MWI
 
-Si deshabilita el MWI en una puerta de enlace IP de mensajería unificada, deshabilitará las notificaciones MWI para todos los usuarios que se conectan a la puerta de enlace VoIP o IP-PBX que está representada por la puerta de enlace IP de mensajería unificada. Al deshabilitar MWI en una sola puerta de enlace IP de mensajería unificada vinculada con un plan de marcado de mensajería unificada, se pueden deshabilitar las notificaciones MWI para todos los usuarios habilitados para mensajería unificada con uno o varios planes de marcado de mensajería unificada o con una o varias directivas de buzón de mensajería unificada. Para obtener más información sobre las directivas de buzón de mensajería unificada, incluyendo cómo habilitar o deshabilitar el MWI para un grupo de usuarios habilitados para mensajería unificada, vea [Administrar una directiva de buzones de correo de mensajería unificada](manage-a-um-mailbox-policy-exchange-2013-help.md).
+Si deshabilita el MWI en una puerta de enlace IP de mensajería unificada, deshabilitará las notificaciones MWI para todos los usuarios que se conectan a la puerta de enlace VoIP o IP-PBX que está representada por la puerta de enlace IP de mensajería unificada. Al deshabilitar MWI en una sola puerta de enlace IP de mensajería unificada vinculada con un plan de marcado de mensajería unificada, se pueden deshabilitar las notificaciones MWI para todos los usuarios habilitados para mensajería unificada con uno o varios planes de marcado de mensajería unificada o con una o varias directivas de buzón de mensajería unificada. Para obtener más información sobre las directivas de buzón de mensajería unificada, incluyendo cómo habilitar o deshabilitar el MWI para un grupo de usuarios habilitados para mensajería unificada, vea [Administrar una directiva de buzones de correo de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy).
 
 Puede usar el EAC o el cmdlet **Set-UMMailboxPolicy** en el Shell para configurar las opciones de MWI, como se muestra en la siguiente tabla.
 
@@ -260,11 +260,11 @@ Puede usar el EAC o el cmdlet **Set-UMMailboxPolicy** en el Shell para configura
 
 Para obtener más información acerca de cómo administrar las configuraciones de MWI, consulte los siguientes temas:
 
-  - [Administrar una puerta de enlace IP de mensajería unificada](manage-a-um-ip-gateway-exchange-2013-help.md)
+  - [Administrar una puerta de enlace IP de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/manage-um-ip-gateway)
 
-  - [Permitir el Indicador de mensajes en espera (MWI) en una puerta de enlace IP de mensajería unificada](allow-message-waiting-indicator-mwi-on-a-um-ip-gateway-exchange-2013-help.md)
+  - [Permitir el Indicador de mensajes en espera (MWI) en una puerta de enlace IP de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-mwi-on-um-ip-gateway)
 
-  - [Evitar que el indicador de espera de mensaje (MWI) en una puerta de enlace IP de mensajería unificada](prevent-message-waiting-indicator-mwi-on-a-um-ip-gateway-exchange-2013-help.md)
+  - [Evitar que el indicador de espera de mensaje (MWI) en una puerta de enlace IP de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/prevent-mwi-on-um-ip-gateway)
 
   - [Set-UMIPGateway](https://technet.microsoft.com/es-es/library/aa996577\(v=exchg.150\))
 
@@ -307,7 +307,7 @@ En la siguiente tabla, se muestra el parámetro en un buzón de mensajería unif
 
 Para obtener más información acerca de cómo administrar las configuraciones de notificación mediante mensajes de texto en el buzón de un usuario, consulte los siguientes temas:
 
-  - [Administrar la configuración de correo de voz para un usuario](manage-voice-mail-settings-for-a-user-exchange-2013-help.md)
+  - [Administrar la configuración de correo de voz para un usuario](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-voice-mail-settings)
 
   - [Set-UMMailbox](https://technet.microsoft.com/es-es/library/bb124893\(v=exchg.150\))
 
@@ -341,7 +341,7 @@ En la siguiente tabla, se muestra el parámetro en una directiva de buzón de me
 
 Para obtener más información acerca de cómo administrar las configuraciones de notificación de mensaje de texto, consulte los siguientes temas:
 
-  - [Administrar una directiva de buzones de correo de mensajería unificada](manage-a-um-mailbox-policy-exchange-2013-help.md)
+  - [Administrar una directiva de buzones de correo de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy)
 
   - [Set-UMMailboxPolicy](https://technet.microsoft.com/es-es/library/bb124903\(v=exchg.150\))
 

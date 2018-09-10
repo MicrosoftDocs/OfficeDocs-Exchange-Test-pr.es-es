@@ -81,7 +81,7 @@ Una conservación local conserva todo el contenido de un buzón de correo, inclu
     
       - **Retenido indefinidamente**   Pulse este botón para retener de manera indefinida los elementos que devuelva la búsqueda. Los elementos en espera se conservarán hasta que quite la búsqueda o quite el buzón de correo de la búsqueda.
     
-      - **Especifique el número de días que se retendrán elementos en relación a su fecha de recepción**   Use este botón para conservar elementos durante un período específico. Por ejemplo, puede usar esta opción si su organización necesita que todos los mensajes se conserven durante un mínimo de siete años. Puede usar una Conservación local *basada en tiempo* junto con una directiva de retención para asegurarse de que los elementos se eliminan en siete años. Para obtener más información sobre las directivas de retención, consulte [Etiquetas de retención y directivas de retención](retention-tags-and-retention-policies-exchange-2013-help.md).
+      - **Especifique el número de días que se retendrán elementos en relación a su fecha de recepción**   Use este botón para conservar elementos durante un período específico. Por ejemplo, puede usar esta opción si su organización necesita que todos los mensajes se conserven durante un mínimo de siete años. Puede usar una Conservación local *basada en tiempo* junto con una directiva de retención para asegurarse de que los elementos se eliminan en siete años. Para obtener más información sobre las directivas de retención, consulte [Etiquetas de retención y directivas de retención](https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies).
 
 **Usar el Shell para crear una Conservación local**
 

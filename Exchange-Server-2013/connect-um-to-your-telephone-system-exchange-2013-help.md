@@ -27,7 +27,7 @@ La siguiente información le ayudará a establecer e implementar la mensajería 
 
   - [Conectar una puerta de enlace VoIP, IP PBX o un controlador de borde de sesión a mensajería unificada](connect-a-voip-gateway-ip-pbx-or-session-border-controller-to-um-exchange-2013-help.md)   Más información acerca de cómo conectar puertas de enlace VoIP o IP PBX con la mensajería unificada.
 
-  - [Asesor de telefonía para Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)   Más información acerca de las puertas de enlace de VoIP compatibles, IP PBX y PBX.
+  - [Asesor de telefonía para Exchange 2013](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephony-advisor-for-exchange-2013)   Más información acerca de las puertas de enlace de VoIP compatibles, IP PBX y PBX.
 
-  - [Notas para la configuración de puertas de enlace de VoIP, IP PBX y PBX compatibles](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)  Más información acerca de cómo establecer sus puertas de enlace de VoIP, IP PBX y PBX.
+  - [Notas para la configuración de puertas de enlace de VoIP, IP PBX y PBX compatibles](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways)  Más información acerca de cómo establecer sus puertas de enlace de VoIP, IP PBX y PBX.
 

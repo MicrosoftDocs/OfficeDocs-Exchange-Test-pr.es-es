@@ -281,7 +281,7 @@ Introducción al servicio de fax
 
 ## Varios números de teléfono DID
 
-Cuando habilite un usuario para la mensajería unificada, tendrá que introducir al menos un número de extensión para ese usuario. Puede agregar varios números de extensión para un usuario habilitado para mensajería unificada a través del Centro de administración de Exchange (EAC). Para más información, consulte [Agregar un número de extensión](add-an-extension-number-exchange-2013-help.md).
+Cuando habilite un usuario para la mensajería unificada, tendrá que introducir al menos un número de extensión para ese usuario. Puede agregar varios números de extensión para un usuario habilitado para mensajería unificada a través del Centro de administración de Exchange (EAC). Para más información, consulte [Agregar un número de extensión](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-extension-number).
 
 Agregar varios números de extensión es útil cuando un usuario habilitado para mensajería unificada:
 
@@ -295,7 +295,7 @@ Agregar varias extensiones es más complejo que usar una única extensión y pue
 
 La ventaja de usar varios números de extensión DID consiste en que un usuario habilitado para mensajería unificada recibe llamadas de voz en un número de extensión DID y las llamadas de fax en otro número de extensión DID. Usar números DID individuales para llamadas de correo y de fax es más sencillo para el usuario.
 
-Si configura dos números de extensión DID para un determinado usuario, los números de extensión DID pueden proceder de distintos planes de marcado de mensajería unificada. Para usar dos números DID, puede crear un plan de marcado y usar un servidor de buzones como servidor dedicado que recibirá las llamadas de fax y reenviará los mensajes de fax a los usuarios. Para más información, consulte [Crear un plan de marcado de mensajería unificada](create-a-um-dial-plan-exchange-2013-help.md).
+Si configura dos números de extensión DID para un determinado usuario, los números de extensión DID pueden proceder de distintos planes de marcado de mensajería unificada. Para usar dos números DID, puede crear un plan de marcado y usar un servidor de buzones como servidor dedicado que recibirá las llamadas de fax y reenviará los mensajes de fax a los usuarios. Para más información, consulte [Crear un plan de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
 Tiene las siguientes opciones al configurar varios números de extensión DID para usuarios habilitados para mensajería unificada:
 

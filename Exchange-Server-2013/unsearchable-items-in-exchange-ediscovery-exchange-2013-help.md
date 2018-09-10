@@ -63,9 +63,9 @@ Tenga en cuenta lo siguiente cuando copie o exporte elementos no aptos para la b
 
 Para obtener más información sobre cómo incluir elementos no aptos para la búsqueda en los resultados de la búsqueda, consulte:
 
-  - [Crear una búsqueda de exhibición de documentos electrónicos local](create-an-in-place-ediscovery-search-exchange-2013-help.md)
+  - [Crear una búsqueda de exhibición de documentos electrónicos local](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search)
 
-  - [Exportar los resultados de la búsqueda de exhibición de documentos electrónicos a un archivo PST](export-ediscovery-search-results-to-a-pst-file-exchange-2013-help.md)
+  - [Exportar los resultados de la búsqueda de exhibición de documentos electrónicos a un archivo PST](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/export-search-results)
 
   - [SharePoint: Exportar contenido de exhibición de documentos electrónicos y crear informes](https://go.microsoft.com/fwlink/p/?linkid=324757)
 

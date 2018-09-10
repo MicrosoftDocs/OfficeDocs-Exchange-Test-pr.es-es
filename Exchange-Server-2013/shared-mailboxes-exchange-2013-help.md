@@ -51,5 +51,5 @@ Puede usar los siguientes permisos con un buzón compartido.
 
 ## Conversión de buzones de correo compartidos
 
-En versiones anteriores de Exchange, era posible usar un buzón de correo regular como buzón de correo delegado. Si tiene buzones delegados, puede usar el Shell para convertirlos en buzones compartidos. Para obtener información más detallada, consulte [Convertir un buzón](convert-a-mailbox-exchange-2013-help.md).
+En versiones anteriores de Exchange, era posible usar un buzón de correo regular como buzón de correo delegado. Si tiene buzones delegados, puede usar el Shell para convertirlos en buzones compartidos. Para obtener información más detallada, consulte [Convertir un buzón](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-user-mailboxes/convert-a-mailbox).
 

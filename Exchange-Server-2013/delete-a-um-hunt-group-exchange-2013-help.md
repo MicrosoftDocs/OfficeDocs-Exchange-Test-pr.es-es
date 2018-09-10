@@ -19,7 +19,7 @@ _**Última modificación del tema:** 2012-11-05_
 
 Cuando elimina un grupo de extensiones de mensajería unificada (MU), la puerta de enlace IP de MU asociada al grupo de extensiones de MU dejará de prestar servicio o responder a las llamadas entrantes. Si eliminar un grupo de extensiones de MU deja la puerta de enlace IP de MU sin ningún grupo de extensiones configurado, ésta no podrá manejar o procesar llamadas de MU.
 
-Para consultar otras tareas relacionadas con grupos de extensiones de MU, consulte [Procedimientos de grupo de captura de mensajería unificada](um-hunt-group-procedures-exchange-2013-help.md).
+Para consultar otras tareas relacionadas con grupos de extensiones de MU, consulte [Procedimientos de grupo de captura de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-group-procedures).
 
 
 > [!WARNING]
@@ -33,11 +33,11 @@ Para consultar otras tareas relacionadas con grupos de extensiones de MU, consul
 
   - Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento o procedimientos. Para ver qué permisos necesita, consulte el contenido "Grupos de extensiones de MU" en el tema [Permisos de mensajería unificada](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un plan de marcado de MU. Para conocer los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](create-a-um-dial-plan-exchange-2013-help.md).
+  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un plan de marcado de MU. Para conocer los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
-  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado una puerta de enlace IP de mensajería unificada. Para conocer los pasos detallados, consulte [Cree una puerta de enlace IP de mensajería unificada](create-a-um-ip-gateway-exchange-2013-help.md).
+  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado una puerta de enlace IP de mensajería unificada. Para conocer los pasos detallados, consulte [Cree una puerta de enlace IP de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway).
 
-  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un grupo de extensiones de MU. Para conocer los pasos detallados, consulte [Crear un grupo de extensiones de mensajería unificada](create-a-um-hunt-group-exchange-2013-help.md).
+  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un grupo de extensiones de MU. Para conocer los pasos detallados, consulte [Crear un grupo de extensiones de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-hunt-group).
 
   - Para obtener información acerca de los métodos abreviados de teclado aplicables a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

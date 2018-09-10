@@ -17,11 +17,11 @@ _**Se aplica a:** Exchange Server 2013_
 
 _**Última modificación del tema:** 2012-10-11_
 
-[Crear una directiva de libreta de direcciones](create-an-address-book-policy-exchange-2013-help.md)
+[Crear una directiva de libreta de direcciones](https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/create-an-address-book-policy)
 
 [Asignar una directiva de libreta de direcciones a usuarios de correo](assign-an-address-book-policy-to-mail-users-exchange-2013-help.md)
 
-[Cambiar la configuración de una directiva de libreta de direcciones](change-the-settings-of-an-address-book-policy-exchange-2013-help.md)
+[Cambiar la configuración de una directiva de libreta de direcciones](https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/change-the-settings-of-an-address-book-policy)
 
-[Quitar una política de libreta de direcciones](remove-an-address-book-policy-exchange-2013-help.md)
+[Quitar una política de libreta de direcciones](https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/remove-an-address-book-policy)
 

@@ -17,19 +17,19 @@ _**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Última modificación del tema:** 2013-02-15_
 
-[El asociado del conjunto de servidor de fax URI para permitir el envío de faxes](set-the-partner-fax-server-uri-to-allow-faxing-exchange-2013-help.md)
+[El asociado del conjunto de servidor de fax URI para permitir el envío de faxes](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-the-partner-fax-server-uri-to-allow-faxing)
 
 [Incluir el texto con el mensaje de correo electrónico que se envía cuando se recibe un mensaje de fax](include-text-with-the-email-message-sent-when-a-fax-message-is-received-exchange-2013-help.md)
 
-[Permitir a los usuarios en el mismo plan de marcado para recibir faxes](allow-users-in-the-same-dial-plan-to-receive-faxes-exchange-2013-help.md)
+[Permitir a los usuarios en el mismo plan de marcado para recibir faxes](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-in-the-same-dial-plan-to-receive-faxes)
 
-[Impedir que los usuarios en el mismo plan de marcado de recibir faxes](prevent-users-in-the-same-dial-plan-from-receiving-faxes-exchange-2013-help.md)
+[Impedir que los usuarios en el mismo plan de marcado de recibir faxes](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/prevent-users-in-the-same-dial-plan-from-receiving-faxes)
 
 [Habilitar el envío de faxes para un grupo de usuarios](enable-faxing-for-a-group-of-users-exchange-2013-help.md)
 
-[Deshabilitar el envío de faxes para un grupo de usuarios](disable-faxing-for-a-group-of-users-exchange-2013-help.md)
+[Deshabilitar el envío de faxes para un grupo de usuarios](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-faxing-for-a-group-of-users)
 
-[Habilitar un usuario recibir faxes](enable-a-user-to-receive-faxes-exchange-2013-help.md)
+[Habilitar un usuario recibir faxes](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-a-user-to-receive-faxes)
 
 [Evitar que un usuario reciba faxes](prevent-a-user-from-receiving-faxes-exchange-2013-help.md)
 

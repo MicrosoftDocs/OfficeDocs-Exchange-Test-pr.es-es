@@ -49,7 +49,7 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 
 ¿Qué ocurre si desea reenviar correo electrónico a una dirección de correo electrónico externa a la organización? ¿O reenviar correo a varios destinatarios? También puede hacerlo.
 
-  - **Direcciones externas**Cree un contacto de correo y, a continuación, en los pasos anteriores, seleccione el contacto de correo en la página **Seleccionar destinatario**. ¿Necesita saber cómo crear un contacto de correo? Consulte [Administrar contactos de correo](manage-mail-contacts-exchange-2013-help.md).
+  - **Direcciones externas**Cree un contacto de correo y, a continuación, en los pasos anteriores, seleccione el contacto de correo en la página **Seleccionar destinatario**. ¿Necesita saber cómo crear un contacto de correo? Consulte [Administrar contactos de correo](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-mail-contacts).
 
   - **Varios destinatarios**Cree un grupo de distribución, agregue destinatarios y, a continuación, en los pasos anteriores, seleccione el contacto de correo en la página **Seleccionar destinatario**. ¿Necesita saber cómo crear un contacto de correo? Consulte [Crear y administrar grupos de distribución](create-and-manage-distribution-groups-exchange-2013-help.md).
 

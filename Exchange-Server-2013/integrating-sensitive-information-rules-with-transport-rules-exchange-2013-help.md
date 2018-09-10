@@ -45,7 +45,7 @@ Las reglas también se pueden usar en la parte de excepción de una definición 
 
 ## Más información
 
-[Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Qué buscan los tipos de información confidencial de Exchange](what-the-sensitive-information-types-in-exchange-look-for-exchange-online-help.md)
 

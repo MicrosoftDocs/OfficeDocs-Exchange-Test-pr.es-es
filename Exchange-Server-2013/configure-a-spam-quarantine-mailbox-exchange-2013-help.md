@@ -59,7 +59,7 @@ Para crear un buzón dedicado de cuarentena de correo no deseado, siga estos pas
 
   - **Crear un buzón dedicado y una cuenta de usuario**   Se recomienda que cree un buzón dedicado y una cuenta de usuario de Active Directory para el buzón de cuarentena de correo no deseado. Para obtener más información, consulte [Crear buzones de usuario](create-user-mailboxes-exchange-2013-help.md).
     
-    Es posible aplicar distintas directivas de destinatarios, como la administración de los registros de mensajería, la cuotas de buzones y los derechos de delegación, en función de las necesidades y directivas de cumplimiento de la organización. Para obtener más información, consulte [Administración de registros de mensajes](messaging-records-management-exchange-2013-help.md).
+    Es posible aplicar distintas directivas de destinatarios, como la administración de los registros de mensajería, la cuotas de buzones y los derechos de delegación, en función de las necesidades y directivas de cumplimiento de la organización. Para obtener más información, consulte [Administración de registros de mensajes](https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/messaging-records-management).
     
 
     > [!NOTE]

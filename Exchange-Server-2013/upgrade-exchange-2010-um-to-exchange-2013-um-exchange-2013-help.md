@@ -296,7 +296,7 @@ En función de la implementación de Exchange 2010 actual, puede ser necesario c
 
 Una puerta de enlace IP de UM representa una puerta de enlace de voz sobre IP (VoIP), una IP PBX o una PBX con SIP habilitado físicas. Antes de usar una puerta de enlace VoIP, IP PBX, o PBX con SIP habilitado para responder a llamadas entrantes y enviar llamadas salientes a usuarios de correo de voz, debe crearse una puerta de enlace IP de UM en el servicio de directorio.
 
-La combinación de la puerta de enlace IP de mensajería unificada y un grupo de extensiones de mensajería unificada establece un vínculo entre una puerta de enlace VoIP, IP-PBX o PBX habilitada para SIP y un plan de marcado de mensajería unificada. Mediante la creación de varios grupos de extensiones de mensajería unificada, puede asociar una única puerta de enlace IP a varios planes de marcado de mensajería unificada. Para obtener más información, consulte [Puertas de enlace IP de mensajería unificada](um-ip-gateways-exchange-2013-help.md).
+La combinación de la puerta de enlace IP de mensajería unificada y un grupo de extensiones de mensajería unificada establece un vínculo entre una puerta de enlace VoIP, IP-PBX o PBX habilitada para SIP y un plan de marcado de mensajería unificada. Mediante la creación de varios grupos de extensiones de mensajería unificada, puede asociar una única puerta de enlace IP a varios planes de marcado de mensajería unificada. Para obtener más información, consulte [Puertas de enlace IP de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-ip-gateways).
 
 Si es necesario, puede crear una puerta de enlace IP de mensajería unificada con el EAC de la siguiente manera:
 
@@ -334,7 +334,7 @@ Para configurar una puerta de enlace IP de UM existente en el Shell, ejecute el 
 
 En función de la implementación actual de Exchange 2010, puede ser necesario crear un grupo de extensiones de mensajería unificada. Un grupo de extensiones de telefonía ofrece una forma de distribuir las llamadas telefónicas desde un solo número a varias extensiones o números de teléfono. En Mensajería unificada, un grupo de extensiones de UM es una representación lógica de un grupo de extensiones de telefonía que vincula una puerta de enlace IP de UM a un plan de marcado de UM.
 
-Debe tener, como mínimo, un grupo de extensiones de UM para cada grupo de extensiones de IP PBX o PBX. Cuando termine el proceso siguiente, se creará un grupo de extensiones de UM de manera predeterminada. Si tiene más de un grupo de extensiones de IP PBX o PBX, debe crear grupos de extensiones de UM adicionales. Para más información sobre los grupos de extensiones de UM, vea [Grupos de búsqueda de mensajería unificada](um-hunt-groups-exchange-2013-help.md).
+Debe tener, como mínimo, un grupo de extensiones de UM para cada grupo de extensiones de IP PBX o PBX. Cuando termine el proceso siguiente, se creará un grupo de extensiones de UM de manera predeterminada. Si tiene más de un grupo de extensiones de IP PBX o PBX, debe crear grupos de extensiones de UM adicionales. Para más información sobre los grupos de extensiones de UM, vea [Grupos de búsqueda de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-groups).
 
 Si es necesario, puede crear un grupo de extensiones de UM desde el EAC:
 
@@ -364,7 +364,7 @@ Si es necesario, puede crear un grupo de extensiones de mensajería unificada al
 
 ## Paso 10: Crear o configurar operadores automáticos de mensajería unificada
 
-En función de la implementación actual de Exchange 2010, puede ser necesario crear operadores automáticos de mensajería unificada. Puede usar operadores automáticos de mensajería unificada para crear un sistema de menú de voz que permita a llamadores internos y externos usar el sistema de menú de operadores automáticos de mensajería unificada para buscar personas y hacer o transferir llamadas a los usuarios de una compañía o los departamentos de una organización. Para más información, vea [Contestar y enrutar automáticamente las llamadas entrantes](automatically-answer-and-route-incoming-calls-exchange-2013-help.md).
+En función de la implementación actual de Exchange 2010, puede ser necesario crear operadores automáticos de mensajería unificada. Puede usar operadores automáticos de mensajería unificada para crear un sistema de menú de voz que permita a llamadores internos y externos usar el sistema de menú de operadores automáticos de mensajería unificada para buscar personas y hacer o transferir llamadas a los usuarios de una compañía o los departamentos de una organización. Para más información, vea [Contestar y enrutar automáticamente las llamadas entrantes](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls).
 
 En implementaciones pequeñas, puede que solo quiera implementar Mensajería unificada para que los llamadores puedan dejar correos de voz a los usuarios. En estas implementaciones, no es necesario crear un operador automático. Sin embargo, en la mayoría de los casos, el uso de operadores automáticos es muy útil para los llamadores externos que llaman a la organización.
 
@@ -406,7 +406,7 @@ Si es necesario, puede configurar un operador automático existente ejecutando e
 
 ## Paso 11: Crear o configurar directivas de buzón de mensajería unificada
 
-En función de la implementación actual de Exchange 2010, puede ser necesario crear directivas de buzón de mensajería unificada o configurar las existentes. Las directivas de buzón de mensajería unificada son necesarias cuando habilita usuarios para Mensajería unificada. El buzón de cada usuario habilitado para mensajería unificada debe estar vinculado a una única directiva de buzón de UM. Una vez creada una directiva de buzón de UM, debe vincular uno o más buzones habilitados para UM a la directiva de buzón de UM. Esto permite controlar las opciones de seguridad del PIN, como el número mínimo de dígitos del PIN o el número máximo de intentos de inicio de sesión de los usuarios habilitados para UM que están vinculados a la directiva de buzón de UM. Para más información, vea [directivas de buzón de mensajería unificada](um-mailbox-policies-exchange-2013-help.md).
+En función de la implementación actual de Exchange 2010, puede ser necesario crear directivas de buzón de mensajería unificada o configurar las existentes. Las directivas de buzón de mensajería unificada son necesarias cuando habilita usuarios para Mensajería unificada. El buzón de cada usuario habilitado para mensajería unificada debe estar vinculado a una única directiva de buzón de UM. Una vez creada una directiva de buzón de UM, debe vincular uno o más buzones habilitados para UM a la directiva de buzón de UM. Esto permite controlar las opciones de seguridad del PIN, como el número mínimo de dígitos del PIN o el número máximo de intentos de inicio de sesión de los usuarios habilitados para UM que están vinculados a la directiva de buzón de UM. Para más información, vea [directivas de buzón de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policies).
 
 Si es necesario, puede crear una directiva de buzón de mensajería unificada desde el EAC:
 
@@ -476,7 +476,7 @@ Para mover un buzón de Exchange 2010 a un servidor de buzones de Exchange 2013 
 
 Un usuario debe tener un buzón para que se le pueda habilitar para Mensajería unificada. De forma predeterminada, los usuarios que tienen buzón no están habilitados para Mensajería unificada. Después de habilitar a los usuarios para UM, podrá administrar, modificar y configurar sus propiedades de Mensajería unificada y características del correo de voz. Puede habilitar a un usuario para Mensajería unificada usando el EAC o el Shell. Para más información, vea [Correo de voz para usuarios](voice-mail-for-users-exchange-2013-help.md).
 
-Cuando habilita un usuario para mensajería unificada, debe definir al menos un número de extensión que la mensajería unificada usará cuando el correo de voz se envíe al buzón del usuario y para permitir al usuario utilizar Outlook Voice Access. Una vez habilitado el usuario para mensajería unificada, se pueden agregar números de extensión secundarios para el buzón del usuario, así como modificarlos o quitarlos al configurar la dirección proxy de mensajería unificada de Exchange (EUM) en el buzón del usuario o al agregar o quitar extensiones adicionales o secundarias para el usuario en el EAC. Para agregar, modificar o quitar números de extensión, números E.164 o direcciones SIP, consulte [Procedimientos de usuario habilitado para correo de voz](voice-mail-enabled-user-procedures-exchange-2013-help.md).
+Cuando habilita un usuario para mensajería unificada, debe definir al menos un número de extensión que la mensajería unificada usará cuando el correo de voz se envíe al buzón del usuario y para permitir al usuario utilizar Outlook Voice Access. Una vez habilitado el usuario para mensajería unificada, se pueden agregar números de extensión secundarios para el buzón del usuario, así como modificarlos o quitarlos al configurar la dirección proxy de mensajería unificada de Exchange (EUM) en el buzón del usuario o al agregar o quitar extensiones adicionales o secundarias para el usuario en el EAC. Para agregar, modificar o quitar números de extensión, números E.164 o direcciones SIP, consulte [Procedimientos de usuario habilitado para correo de voz](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-enabled-user-procedures).
 
 Para habilitar un usuario para mensajería unificada con el EAC:
 
@@ -552,9 +552,9 @@ El último paso en el proceso de actualizar a mensajería unificada de Exchange 
 
   -  [Servicios de mensajería unificada](um-services-exchange-2013-help.md)
 
-  -  [Notas para la configuración de puertas de enlace de VoIP, IP PBX y PBX compatibles](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+  -  [Notas para la configuración de puertas de enlace de VoIP, IP PBX y PBX compatibles](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways)
 
-  -  [Asesor de telefonía para Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
+  -  [Asesor de telefonía para Exchange 2013](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephony-advisor-for-exchange-2013)
 
 ## Paso 15: Deshabilitar el contestador automático en un servidor de Mensajería unificada de Exchange 2010
 

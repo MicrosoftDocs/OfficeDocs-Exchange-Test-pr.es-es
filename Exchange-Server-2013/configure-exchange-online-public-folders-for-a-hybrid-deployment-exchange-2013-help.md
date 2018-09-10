@@ -21,7 +21,7 @@ _**Última modificación del tema:** 2016-12-15_
 
 En una implementación híbrida, los usuarios pueden estar hospedados en Exchange Online, en una ubicación local o de ambas formas, y las carpetas públicas pueden estar tanto en Exchange Online como ubicadas localmente. En ocasiones, los usuarios conectados pueden necesitar acceder a las carpetas públicas del entorno local de Exchange Server 2013. Asimismo, los usuarios de Exchange 2013 pueden necesitar acceder a las carpetas públicas de Exchange Online o de Office 365.
 
-En este artículo se describe cómo permitir que los usuarios de su entorno local de Exchange 2013 tengan acceso a carpetas públicas de Exchange Online/Office 365. Para permitir que los usuarios de Exchange Online/Office 365 tengan acceso a carpetas públicas de un entorno local de Exchange 2013, vea [Configuración de las carpetas públicas de Exchange 2013 para una implementación híbrida](configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md).
+En este artículo se describe cómo permitir que los usuarios de su entorno local de Exchange 2013 tengan acceso a carpetas públicas de Exchange Online/Office 365. Para permitir que los usuarios de Exchange Online/Office 365 tengan acceso a carpetas públicas de un entorno local de Exchange 2013, vea [Configuración de las carpetas públicas de Exchange 2013 para una implementación híbrida](https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/set-up-modern-hybrid-public-folders).
 
 
 > [!NOTE]
@@ -47,7 +47,7 @@ En este artículo se describe cómo permitir que los usuarios de su entorno loca
     
 
     > [!NOTE]
-    > Outlook 2016 para Mac no admite carpetas públicas entre locales. Si los clientes de su organización usan Outlook 2016 para Mac, asegúrese de que tengan instalada la actualización de abril de 2016. En caso contrario, esos usuarios no podrán tener acceso a las carpetas públicas de una topología híbrida o de coexistencia. Para obtener más información, vea <A href="accessing-public-folders-with-outlook-2016-for-mac-exchange-2013-help.md">Acceso a las carpetas públicas con Outlook 2016 para Mac</A>.
+    > Outlook 2016 para Mac no admite carpetas públicas entre locales. Si los clientes de su organización usan Outlook 2016 para Mac, asegúrese de que tengan instalada la actualización de abril de 2016. En caso contrario, esos usuarios no podrán tener acceso a las carpetas públicas de una topología híbrida o de coexistencia. Para obtener más información, vea <A href="https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/access-public-folders-with-outlook-2016-for-mac">Acceso a las carpetas públicas con Outlook 2016 para Mac</A>.
 
 
 

@@ -23,9 +23,9 @@ En este artículo se explican los componentes de las reglas de flujo de correo y
 
 Para obtener información acerca de las reglas de flujo de correo en Exchange Online, consulte [Reglas de flujo de correo (reglas de transporte) en Exchange Online](https://technet.microsoft.com/es-es/library/jj919238\(v=exchg.150\)). Para obtener información acerca de las reglas de flujo de correo en Protección de Exchange Online, consulte [Reglas de flujo de correo (reglas de transporte) en Exchange Online Protection](https://technet.microsoft.com/es-es/library/dn271424\(v=exchg.150\))
 
-Puede usar el Centro de administración de Exchange (EAC) o el Shell de administración de Exchange para administrar las reglas de flujo de correo. Para obtener instrucciones sobre cómo administrar las reglas de transporte, consulte [Administrar reglas de flujo de correo](manage-mail-flow-rules-exchange-2013-help.md).
+Puede usar el Centro de administración de Exchange (EAC) o el Shell de administración de Exchange para administrar las reglas de flujo de correo. Para obtener instrucciones sobre cómo administrar las reglas de transporte, consulte [Administrar reglas de flujo de correo](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
-Para cada regla, tiene la posibilidad de aplicarla, probarla o probarla y notificar al remitente. Para obtener más información sobre las opciones de prueba, consulte [Probar una regla de flujo de correo](test-a-mail-flow-rule-exchange-2013-help.md) y [Sugerencias de directiva](technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md).
+Para cada regla, tiene la posibilidad de aplicarla, probarla o probarla y notificar al remitente. Para obtener más información sobre las opciones de prueba, consulte [Probar una regla de flujo de correo](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules) y [Sugerencias de directiva](technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md).
 
 Para implementar directivas de mensajería específicas mediante el uso de reglas de flujo de correo, vea estos temas:
 
@@ -35,9 +35,9 @@ Para implementar directivas de mensajería específicas mediante el uso de regla
 
   - [Avisos de declinación de responsabilidades, firmas, pies de página o encabezados en toda la organización](organization-wide-disclaimers-signatures-footers-or-headers-exchange-online-help.md)
 
-  - [Usar reglas de flujo de correo para que los mensajes puedan evitar Otros correos](use-mail-flow-rules-so-messages-can-bypass-clutter-exchange-2013-help.md)
+  - [Usar reglas de flujo de correo para que los mensajes puedan evitar Otros correos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/use-rules-to-bypass-clutter)
 
-  - [Usar reglas de flujo de correo para enrutar el correo electrónico en función de una lista de palabras, expresiones o patrones](use-mail-flow-rules-to-route-email-based-on-a-list-of-words-phrases-or-patterns-exchange-2013-help.md)
+  - [Usar reglas de flujo de correo para enrutar el correo electrónico en función de una lista de palabras, expresiones o patrones](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/use-rules-to-route-email)
 
   - [Escenarios comunes de aprobación de mensajes](common-message-approval-scenarios-exchange-2013-help.md)
 
@@ -131,14 +131,14 @@ En la tabla siguiente se describen las propiedades de regla que están disponibl
 <td><p>Indica el orden en el que se aplican las reglas a los mensajes. La prioridad predeterminada se establece en función del momento en el que se creó la regla (las reglas más antiguas tienen más prioridad que las más recientes y las reglas con una prioridad superior se procesan antes que las que tienen una prioridad inferior).</p>
 <p>La prioridad de la regla en el EAC se cambia moviendo la regla hacia arriba o hacia abajo en la lista de reglas. En el PowerShell, establezca el número de prioridad (0 es la prioridad más alta).</p>
 <p>Por ejemplo, si dispone de una regla para rechazar mensajes que incluyan un número de tarjeta de crédito y otra que exija su probación, deseará que se aplique primero la regla de rechazo y que dejen de aplicarse las demás.</p>
-<p>Para obtener más información, consulte <a href="manage-mail-flow-rules-exchange-2013-help.md">Set the priority of a mail flow rule</a>.</p></td>
+<p>Para obtener más información, consulte <a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules">Set the priority of a mail flow rule</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Modo</strong></p></td>
 <td><p><em>Mode</em></p></td>
 <td><p>Puede especificar si quiere que la regla inicie el procesamiento de mensajes inmediatamente o si quiere probar las reglas sin afectar a la entrega del mensaje (con o sin sugerencias de directiva de prevención de pérdida de datos o DLP).</p>
 <p>Mediante las sugerencias de directiva, se muestra una nota breve en Outlook o en Outlook en la web que ofrece información sobre posibles infracciones de la directiva al usuario que crea el mensaje. Para obtener más información, consulte <a href="technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md">Sugerencias de directiva</a>.</p>
-<p>Para obtener más información acerca de los modos, consulte <a href="test-a-mail-flow-rule-exchange-2013-help.md">Probar una regla de flujo de correo</a>.</p></td>
+<p>Para obtener más información acerca de los modos, consulte <a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules">Probar una regla de flujo de correo</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Activar esta regla en la siguiente fecha</strong></p>
@@ -259,7 +259,7 @@ Las reglas de flujo de correo que se crean y configuran en servidores de buzones
 
   - Cada servidor de buzones almacena en caché grupos de distribución expandidos para evitar consultas de Active Directory repetidas con el fin de determinar la pertenencia a un grupo. De forma predeterminada, las entradas en la memoria caché de grupos expandidos expiran cada cuatro horas. Por lo tanto, las reglas de flujo de correo no pueden detectar los cambios en la pertenencia al grupo hasta que se actualice la caché de grupos expandidos. Para forzar una actualización inmediata de la caché en un servidor de buzones, reinicie el servicio de transporte de Microsoft Exchange. Debe reiniciar el servicio en cada servidor de buzones en el que quiera actualizar de forma forzada la caché.
 
-Las reglas de flujo de correo que se crean y configuran en servidores de transporte perimetral se almacenan en la instancia local de AD LDS en el servidor. No se produce ninguna replicación automática de reglas de flujo de correo en los servidores de transporte perimetral. Las reglas creadas en el servidor de transporte perimetral solo se aplican a los mensajes que pasan por el servidor local. Si tiene que aplicar el mismo conjunto de reglas de flujo de correo en varios servidores de transporte perimetral, puede clonar la configuración del servidor de transporte perimetral o exportar e importar las reglas de flujo de correo. Para obtener más información, consulte [Configuración clonada del servidor de transporte perimetral](edge-transport-server-cloned-configuration-exchange-2013-help.md) e [Import or export a mail flow rule collection](manage-mail-flow-rules-exchange-2013-help.md).
+Las reglas de flujo de correo que se crean y configuran en servidores de transporte perimetral se almacenan en la instancia local de AD LDS en el servidor. No se produce ninguna replicación automática de reglas de flujo de correo en los servidores de transporte perimetral. Las reglas creadas en el servidor de transporte perimetral solo se aplican a los mensajes que pasan por el servidor local. Si tiene que aplicar el mismo conjunto de reglas de flujo de correo en varios servidores de transporte perimetral, puede clonar la configuración del servidor de transporte perimetral o exportar e importar las reglas de flujo de correo. Para obtener más información, consulte [Configuración clonada del servidor de transporte perimetral](edge-transport-server-cloned-configuration-exchange-2013-help.md) e [Import or export a mail flow rule collection](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
 Siempre que el servicio de transporte en un servidor de buzones o un servidor de transporte perimetral detecta una regla de flujo de correo modificada, se registra un evento en el registro de aplicación en el Visor de eventos (identificador de evento 4002 en servidores de buzones e identificador de evento 16028 en servidores de transporte perimetral).
 
@@ -285,7 +285,7 @@ Existen dos escenarios de entorno mixto que son comunes en Exchange 2013:
 
 ## Más información
 
-[Administrar reglas de flujo de correo](manage-mail-flow-rules-exchange-2013-help.md)
+[Administrar reglas de flujo de correo](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
 
 [Condiciones de las reglas de transporte (predicados)](mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md)
 

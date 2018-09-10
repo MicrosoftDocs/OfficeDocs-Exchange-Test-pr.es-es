@@ -17,9 +17,9 @@ _**Se aplica a:** Exchange Online, Exchange Server 2013_
 
 _**Última modificación del tema:** 2015-07-22_
 
-Para ayudar a evitar que los usuarios de correo electrónico de Microsoft Outlook Outlook Web App (OWA) y OWA para dispositivos de su organización envíen información confidencial de forma inapropiada, puede crear directivas de prevención de pérdida de datos (DLP) que incluyan mensajes de notificación *Sugerencias de directivas*. Al igual que las sugerencias de correo electrónico incluidas en Microsoft Exchange Server 2010, las sugerencias de directivas son mensajes de notificación que se muestran a los usuarios en Outlook mientras crean un mensaje de correo electrónico. Los mensajes de notificación de sugerencias de directivas sólo aparecen si el mensaje de correo electrónico del remitente parece infringir de alguna manera una directiva de DLP que implementó y dicha directiva incluye una regla para notificar al remitente cuando se cumplen las condiciones que usted estableció. Para obtener más información general acerca de la prevención de pérdida de datos, vea [Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md).
+Para ayudar a evitar que los usuarios de correo electrónico de Microsoft Outlook Outlook Web App (OWA) y OWA para dispositivos de su organización envíen información confidencial de forma inapropiada, puede crear directivas de prevención de pérdida de datos (DLP) que incluyan mensajes de notificación *Sugerencias de directivas*. Al igual que las sugerencias de correo electrónico incluidas en Microsoft Exchange Server 2010, las sugerencias de directivas son mensajes de notificación que se muestran a los usuarios en Outlook mientras crean un mensaje de correo electrónico. Los mensajes de notificación de sugerencias de directivas sólo aparecen si el mensaje de correo electrónico del remitente parece infringir de alguna manera una directiva de DLP que implementó y dicha directiva incluye una regla para notificar al remitente cuando se cumplen las condiciones que usted estableció. Para obtener más información general acerca de la prevención de pérdida de datos, vea [Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention).
 
-Para mostrar sugerencias de directivas a sus remitentes de correo electrónico, sus reglas deben incluir la acción **Notificar al remitente con una sugerencia de directiva** . Puede agregar este editor de reglas desde el Centro de administración de Exchange. Para obtener más información, vea [Administrar las sugerencias de las directivas](how-to-configure-and-manage-policy-tips-a-dlp-feature-exchange.md).
+Para mostrar sugerencias de directivas a sus remitentes de correo electrónico, sus reglas deben incluir la acción **Notificar al remitente con una sugerencia de directiva** . Puede agregar este editor de reglas desde el Centro de administración de Exchange. Para obtener más información, vea [Administrar las sugerencias de las directivas](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/manage-policy-tips).
 
 El agente de reglas de transporte que aplica las directivas de DLP no diferencia entre datos adjuntos del mensaje, cuerpo del texto o líneas de asunto al evaluar los mensajes y las condiciones dentro de las directivas. Por ejemplo, si un usuario crea un mensaje de correo electrónico que incluye un número de tarjeta de crédito en el cuerpo del mensaje y luego intenta enviar el mensaje a un destinatario fuera de su organización, se puede mostrar al usuario en Outlook o Outlook Web App un mensaje de notificación de sugerencias de directiva recordándole acerca de las expectativas de la empresa en relación con dicha información. Sin embargo, este tipo de notificación sólo se mostrará si ha configurado una directiva de DLP que restrinja las acciones del ejemplo como se describen; en este caso agregar un alias externo al encabezado de un mensaje con datos de una tarjeta de crédito. Existen una gran variedad de condiciones, acciones y excepciones que puede elegir mientras crea directivas de DLP. Esta variedad le permite personalizar sus esfuerzos de prevención de pérdida de datos de forma que se adapten a las necesidades específicas de su organización.
 
@@ -41,7 +41,7 @@ Si los remitentes de correo electrónico de su organización que están escribie
 
 ## Texto predeterminado para las sugerencias de directivas y opciones de reglas
 
-Tiene una variedad de opciones posibles al agregar las reglas de notificación del remitente a las directivas de DLP. Cuando agregue una regla para notificar al remitente mediante la acción **Notificar al remitente con una sugerencia de directiva** en una directiva de DLP, puede elegir su grado de restricción. Las opciones de notificación de la siguiente tabla están disponibles. Para obtener información general acerca de las directivas de edición, vea [Administrar directivas de DLP](manage-dlp-policies-exchange-2013-help.md). Para obtener información más concreta acerca de la creación de sugerencias de directivas, vea [Administrar las sugerencias de las directivas](how-to-configure-and-manage-policy-tips-a-dlp-feature-exchange.md).
+Tiene una variedad de opciones posibles al agregar las reglas de notificación del remitente a las directivas de DLP. Cuando agregue una regla para notificar al remitente mediante la acción **Notificar al remitente con una sugerencia de directiva** en una directiva de DLP, puede elegir su grado de restricción. Las opciones de notificación de la siguiente tabla están disponibles. Para obtener información general acerca de las directivas de edición, vea [Administrar directivas de DLP](manage-dlp-policies-exchange-2013-help.md). Para obtener información más concreta acerca de la creación de sugerencias de directivas, vea [Administrar las sugerencias de las directivas](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/manage-policy-tips).
 
 
 <table>
@@ -94,7 +94,7 @@ Tiene una variedad de opciones posibles al agregar las reglas de notificación d
 
 Para personalizar el texto de una notificación de sugerencia de directiva que ven los remitentes en su programa de correo electrónico, seleccione **Administrar sugerencias de directivas** en la página Prevención de pérdida de datos. Para que cualquier texto personalizado aparezca, una regla de directiva DLP debe incluir la acción **Notificar al remitente con una sugerencia de directiva**. Agregar la acción a una regla mediante el editor de reglas de DLP.
 
-Para procedimientos para explicar cómo crear sus propias sugerencias de directivas, vea [Administrar las sugerencias de las directivas](how-to-configure-and-manage-policy-tips-a-dlp-feature-exchange.md). El texto personalizado que cree puede sustituir el texto predeterminado que se muestra en la tabla anterior.
+Para procedimientos para explicar cómo crear sus propias sugerencias de directivas, vea [Administrar las sugerencias de las directivas](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/manage-policy-tips). El texto personalizado que cree puede sustituir el texto predeterminado que se muestra en la tabla anterior.
 
 
 <table>
@@ -131,9 +131,9 @@ Para procedimientos para explicar cómo crear sus propias sugerencias de directi
 
 ## Más información
 
-[Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Administrar directivas de DLP](manage-dlp-policies-exchange-2013-help.md)
 
-[Administrar las sugerencias de las directivas](how-to-configure-and-manage-policy-tips-a-dlp-feature-exchange.md)
+[Administrar las sugerencias de las directivas](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/manage-policy-tips)
 

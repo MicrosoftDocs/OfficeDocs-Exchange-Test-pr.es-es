@@ -179,5 +179,5 @@ Información general
 
 [Protocolos, puertos y servicios de mensajería unificada (UM)](um-protocols-ports-and-services-exchange-2013-help.md)
 
-[Asesor de telefonía para Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
+[Asesor de telefonía para Exchange 2013](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephony-advisor-for-exchange-2013)
 
