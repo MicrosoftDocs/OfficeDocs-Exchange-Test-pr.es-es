@@ -156,11 +156,11 @@ Exchange 2013 SP1 ahora es compatible con la seguridad de mensajes basada en S/
 
 Las [Sugerencias de directiva](technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md) de la prevención de pérdida de datos (DLP) son avisos informativos que se muestran a los remitentes en Outlook cuando intentan enviar información confidencial. En Exchange 2013 SP1, esta funcionalidad se ha extendido tanto a la versión de escritorio de Outlook Web App como a la versión móvil (llamada OWA para dispositivos). La verá en acción si tiene una directiva DLP existente con sugerencias de directivas activadas para Outlook. Si la directiva ya incluye sugerencias de directivas para Outlook, no es necesario configurar nada más. Continúe y pruébelo.
 
-¿No está usando sugerencias de directivas? Para empezar, [Crear una directiva DLP a partir de una plantilla](how-to-new-dlp-data-loss-prevention-policy-template.md). A continuación, agregue una sugerencia de directiva editando la directiva y agregando una acción **Notificar al remitente con una sugerencia de directiva**.
+¿No está usando sugerencias de directivas? Para empezar, [Crear una directiva DLP a partir de una plantilla](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template). A continuación, agregue una sugerencia de directiva editando la directiva y agregando una acción **Notificar al remitente con una sugerencia de directiva**.
 
 ## Clasificación DLP basada en huellas digitales de documentos
 
-Una piedra angular de DLP en Exchange es el análisis de contenido pormenorizado. La [Creación de huella digital de documento](overview-of-document-fingerprinting-in-exchange.md) expande esta función para permitir la identificación de los formularios estándar que se usan en la organización, los cuales pueden incluir información confidencial. Por ejemplo, puede crear una huella digital basada en un formulario de información sobre empleados en blanco y, después, detectar todos los formularios de información sobre empleados con contenido confidencial.
+Una piedra angular de DLP en Exchange es el análisis de contenido pormenorizado. La [Creación de huella digital de documento](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/document-fingerprinting) expande esta función para permitir la identificación de los formularios estándar que se usan en la organización, los cuales pueden incluir información confidencial. Por ejemplo, puede crear una huella digital basada en un formulario de información sobre empleados en blanco y, después, detectar todos los formularios de información sobre empleados con contenido confidencial.
 
 ## Tipos de información confidencial DLP para nuevas regiones
 

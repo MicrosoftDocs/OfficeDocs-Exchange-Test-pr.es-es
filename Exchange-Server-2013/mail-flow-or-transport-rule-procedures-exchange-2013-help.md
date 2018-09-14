@@ -23,11 +23,11 @@ Puede empezar a usar las reglas de transporte mediante los procedimientos siguie
 
 [Crear un remitente seguro en toda la organización o listas de remitentes bloqueados en Office 365](https://technet.microsoft.com/es-es/library/dn198251\(v=exchg.150\))   Información para ayudarlo a crear listas de remitentes bloqueados o remitentes seguros basados en el usuario o dominio mediante el uso de reglas de transporte.
 
-[Usar reglas de flujo de correo para enrutar el correo electrónico en función de una lista de palabras, expresiones o patrones](use-mail-flow-rules-to-route-email-based-on-a-list-of-words-phrases-or-patterns-exchange-2013-help.md) Información para ayudarle a cumplir con las directivas de correo electrónico de la organización.
+[Usar reglas de flujo de correo para enrutar el correo electrónico en función de una lista de palabras, expresiones o patrones](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/use-rules-to-route-email) Información para ayudarle a cumplir con las directivas de correo electrónico de la organización.
 
 [Registrar IFilters de Filter Pack con Exchange 2013](register-filter-pack-ifilters-with-exchange-2013-exchange-2013-help.md)   Información para ayudarlo a registrar tipos de archivo adicionales para los datos adjuntos de modo que las reglas de transporte que se aplican a los datos adjuntos puedan detectar estos tipos de archivo.
 
-[Administrar reglas de flujo de correo](manage-mail-flow-rules-exchange-2013-help.md)   Información para ayudarlo a crear, ver, modificar, habilitar, deshabilitar o quitar una regla de transporte, e información acerca de la importación y exportación de colecciones de reglas de transporte.
+[Administrar reglas de flujo de correo](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)   Información para ayudarlo a crear, ver, modificar, habilitar, deshabilitar o quitar una regla de transporte, e información acerca de la importación y exportación de colecciones de reglas de transporte.
 
-[Procedimientos recomendados para configurar las reglas de flujo de correo](best-practices-for-configuring-mail-flow-rules-exchange-2013-help.md)   Información de ayuda para evitar errores de configuración habituales.
+[Procedimientos recomendados para configurar las reglas de flujo de correo](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/configuration-best-practices)   Información de ayuda para evitar errores de configuración habituales.
 

@@ -56,11 +56,11 @@ For additional management tasks related to public folders in Exchange Online, se
 
 The primary public folder mailbox contains a writeable copy of the public folder hierarchy plus content and is the first public folder mailbox that you create for your organization. Subsequent public folder mailboxes will be secondary public folder mailboxes, which will contain a read-only copy of the hierarchy plus content.
 
-For detailed steps, see [Crear un buzón de carpetas públicas](create-a-public-folder-mailbox-exchange-2013-help.md).
+For detailed steps, see [Crear un buzón de carpetas públicas](https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
 ## Step 2: Create your first public folder
 
-For detailed steps, see [Crear una carpeta pública](create-a-public-folder-exchange-2013-help.md).
+For detailed steps, see [Crear una carpeta pública](https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/create-public-folder).
 
 ## Step 3: Assign permissions to the public folder
 

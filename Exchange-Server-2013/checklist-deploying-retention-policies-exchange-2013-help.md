@@ -19,9 +19,9 @@ _**Última modificación del tema:** 2016-12-09_
 
 Esta lista de comprobación se puede usar para implementar directivas de retención en su organización de Microsoft Exchange Server 2013. Antes de comenzar a trabajar con esta lista de comprobación, asegúrese de estar familiarizado con los conceptos en los temas siguientes:
 
-  - [Administración de registros de mensajes](messaging-records-management-exchange-2013-help.md)
+  - [Administración de registros de mensajes](https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/messaging-records-management)
 
-  - [Etiquetas de retención y directivas de retención](retention-tags-and-retention-policies-exchange-2013-help.md)
+  - [Etiquetas de retención y directivas de retención](https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
 
 ## Lista de comprobación para la implementación de directivas de retención
 
@@ -43,7 +43,7 @@ Esta lista de comprobación se puede usar para implementar directivas de retenci
 <tr class="odd">
 <td><p> </p></td>
 <td><p>Evaluar los requisitos de Administración de registros de mensajería (MRM) para distintos conjuntos de usuarios.</p></td>
-<td><p><a href="messaging-records-management-exchange-2013-help.md">Administración de registros de mensajes</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/messaging-records-management">Administración de registros de mensajes</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong> </strong></p></td>
@@ -53,12 +53,12 @@ Esta lista de comprobación se puede usar para implementar directivas de retenci
 <tr class="odd">
 <td><p> </p></td>
 <td><p>Crear etiquetas de retención.</p></td>
-<td><p><a href="create-a-retention-policy-exchange-2013-help.md">Crear directivas de retención</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy">Crear directivas de retención</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong> </strong></p></td>
 <td><p>Crear directivas de retención.</p></td>
-<td><p><a href="create-a-retention-policy-exchange-2013-help.md">Crear directivas de retención</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy">Crear directivas de retención</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>
@@ -68,12 +68,12 @@ Esta lista de comprobación se puede usar para implementar directivas de retenci
 <tr class="even">
 <td><p><strong> </strong></p></td>
 <td><p>Colocar buzones en la suspensión de la retención.</p></td>
-<td><p><a href="place-a-mailbox-on-retention-hold-exchange-2013-help.md">Poner un buzón en retención</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold">Poner un buzón en retención</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>
 <td><p>Aplicar una directiva de retención a un único buzón para realizar pruebas.</p></td>
-<td><p><a href="apply-a-retention-policy-to-mailboxes-exchange-2013-help.md">Aplicar una directiva de retención a los buzones</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/apply-retention-policy">Aplicar una directiva de retención a los buzones</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong> </strong></p></td>
@@ -88,7 +88,7 @@ Esta lista de comprobación se puede usar para implementar directivas de retenci
 <tr class="even">
 <td><p><strong> </strong></p></td>
 <td><p>Aplicar una directiva de retención a buzones adicionales.</p></td>
-<td><p><a href="apply-a-retention-policy-to-mailboxes-exchange-2013-help.md">Aplicar una directiva de retención a los buzones</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/apply-retention-policy">Aplicar una directiva de retención a los buzones</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>
@@ -98,7 +98,7 @@ Esta lista de comprobación se puede usar para implementar directivas de retenci
 <tr class="even">
 <td><p><strong> </strong></p></td>
 <td><p>En la fecha límite, quitar la suspensión de la retención de los buzones.</p></td>
-<td><p><a href="place-a-mailbox-on-retention-hold-exchange-2013-help.md">Poner un buzón en retención</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold">Poner un buzón en retención</a></p></td>
 </tr>
 </tbody>
 </table>

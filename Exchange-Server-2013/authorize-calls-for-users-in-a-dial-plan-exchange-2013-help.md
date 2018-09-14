@@ -19,7 +19,7 @@ _**Última modificación del tema:** 2013-02-21_
 
 Puede habilitar autorizaciones de marcado en un plan de marcado de mensajería unificada (UM). Las autorizaciones de marcado en un plan de marcado se utilizan para impedir que los usuarios no autenticados de Outlook Voice Access realicen llamadas nacionales/regionales o internacionales, o *llamadas externas*. Las llamadas externas se producen cuando la mensajería unificada realiza una llamada saliente para un usuario después de que hayan llamado a un número de teléfono de Outlook Voice Access que está configurado en un plan de marcado de MU. Cuando configura una opción en un plan de marcado de MU, dicha opción se aplica a todos los usuarios no autenticados que llaman a un número de Outlook Voice Access.
 
-Para otras tareas de administración relacionadas con las llamadas externas, consulte [Permitir a los usuarios realizar llamadas a procedimientos](allowing-users-to-make-calls-procedures-exchange-2013-help.md).
+Para otras tareas de administración relacionadas con las llamadas externas, consulte [Permitir a los usuarios realizar llamadas a procedimientos](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-to-make-calls-procedures).
 
 ## ¿Qué necesita saber antes de comenzar?
 
@@ -27,9 +27,9 @@ Para otras tareas de administración relacionadas con las llamadas externas, con
 
   - Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento o procedimientos. Para ver qué permisos necesita, consulte el la entrada "Planes de marcado de mensajería unificada" en el tema [Permisos de mensajería unificada](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un plan de marcado de MU. Para conocer los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](create-a-um-dial-plan-exchange-2013-help.md).
+  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un plan de marcado de MU. Para conocer los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
-  - Antes de realizar este procedimiento, confirme que se han creado las reglas de marcado nacionales/regionales e internacionales en un plan de marcado de MU. Para conocer los pasos detallados, consulte [Crear reglas de marcado para usuarios](create-dialing-rules-for-users-exchange-2013-help.md).
+  - Antes de realizar este procedimiento, confirme que se han creado las reglas de marcado nacionales/regionales e internacionales en un plan de marcado de MU. Para conocer los pasos detallados, consulte [Crear reglas de marcado para usuarios](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/create-dialing-rules).
 
   - Para obtener información acerca de los métodos abreviados de teclado aplicables a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

@@ -19,9 +19,9 @@ _**Última modificación del tema:** 2009-12-09_
 
 Puede usar el Monitor de confiabilidad y rendimiento (Perfmon.exe) de Windows para seleccionar y ver los contadores de rendimiento correspondientes a la administración de registros de mensajería (MRM). Al utilizar los contadores de rendimiento, podrá supervisar el Asistente para carpetas administradas mientras este ejecuta procesos de MRM que consumen muchos recursos.
 
-Para obtener una lista de los contadores de rendimiento para MRM, consulte [Contadores de rendimiento para la administración de registros de mensajes](performance-counters-for-messaging-records-management-exchange-2013-help.md).
+Para obtener una lista de los contadores de rendimiento para MRM, consulte [Contadores de rendimiento para la administración de registros de mensajes](performance-counters-for-https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/messaging-records-management).
 
-¿Está buscando otras tareas relacionadas con la supervisión de MRM? Consulte [Administración de registros de seguimiento de mensajería](monitoring-messaging-records-management-exchange-2013-help.md).
+¿Está buscando otras tareas relacionadas con la supervisión de MRM? Consulte [Administración de registros de seguimiento de mensajería](monitoring-https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/messaging-records-management).
 
 ## Usar el Monitor de confiabilidad y rendimiento de Windows para ver contadores de rendimiento de MRM
 

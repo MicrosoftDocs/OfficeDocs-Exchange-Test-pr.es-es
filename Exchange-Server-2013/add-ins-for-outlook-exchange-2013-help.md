@@ -47,9 +47,9 @@ Los clientes de Outlook es compatible con una gran variedad de complementos que 
 
 De forma predeterminada, todos los usuarios pueden instalar y quitar complementos los administradores de Exchange tienen un número de controles disponibles para la administración de complementos y el acceso de los usuarios a ellos. Los administradores pueden impedir que los usuarios instalar complementos no se descargan desde el almacén de Office (en lugar de ello son "lado cargado" de un archivo o dirección URL). Los administradores también pueden deshabilitar a los usuarios de instalar complementos de almacén de Office y de instalar complementos en nombre de otros usuarios. También es posible asignar a usuarios a una función que les permite instalar complementos para su organización o para un subconjunto de usuarios de la organización.
 
-Para impedir que los usuarios de instalar un complemento que no está en el almacén de Office, quitar la función de **Mis aplicaciones personalizadas** de ellos. Para impedir que los usuarios instalar complementos de almacén de Office, quitar la función de **Mis aplicaciones de mercado** de los mismos. Para obtener más detalles, consulte [Especifique los administradores y los usuarios que pueden instalar y administrar complementos para Outlook](specify-the-administrators-and-users-who-can-install-and-manage-add-ins-for-outlook-exchange-2013-help.md).
+Para impedir que los usuarios de instalar un complemento que no está en el almacén de Office, quitar la función de **Mis aplicaciones personalizadas** de ellos. Para impedir que los usuarios instalar complementos de almacén de Office, quitar la función de **Mis aplicaciones de mercado** de los mismos. Para obtener más detalles, consulte [Especifique los administradores y los usuarios que pueden instalar y administrar complementos para Outlook](https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins).
 
-Para instalar complementos para algunos o todos los usuarios de su organización, consulte [Instalación o eliminación de aplicaciones para Outlook en la organización](install-or-remove-add-ins-for-outlook-for-your-organization-exchange-2013-help.md).
+Para instalar complementos para algunos o todos los usuarios de su organización, consulte [Instalación o eliminación de aplicaciones para Outlook en la organización](https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/install-or-remove-outlook-add-ins).
 
 Si es necesario, puede limitar la disponibilidad de un complemento a usuarios específicos de su organización. Para obtener más información, consulte [Administrar el acceso del usuario a aplicaciones para Outlook](manage-user-access-to-add-ins-for-outlook-exchange-online-help.md).
 
@@ -65,7 +65,7 @@ Hay un par de escenarios comunes que los administradores de Exchange administren
 
   - Para impedir que los usuarios instalen todos los complementos, quite dos de las funciones anteriores de ellos.
 
-Consulte [Especifique los administradores y los usuarios que pueden instalar y administrar complementos para Outlook](specify-the-administrators-and-users-who-can-install-and-manage-add-ins-for-outlook-exchange-2013-help.md) para obtener más información.
+Consulte [Especifique los administradores y los usuarios que pueden instalar y administrar complementos para Outlook](https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins) para obtener más información.
 
 **Si los usuarios finales tienen actualmente acceso a complementos y desea quitar ese acceso, use el cmdlet `Get-App` para ver qué complementos cada usuario ha instalado.**
 
@@ -75,5 +75,5 @@ Para obtener más información, consulte [Get-App](https://technet.microsoft.com
 
 ## Permitir que los administradores y usuarios instalar complementos
 
-Puede especificar que los administradores de la organización tienen permiso para instalar y administrar complementos para Outlook. También puede especificar qué usuarios de la organización tienen permiso para instalar y administrar complementos para su propio uso. Para obtener más información, consulte [Especifique los administradores y los usuarios que pueden instalar y administrar complementos para Outlook](specify-the-administrators-and-users-who-can-install-and-manage-add-ins-for-outlook-exchange-2013-help.md).
+Puede especificar que los administradores de la organización tienen permiso para instalar y administrar complementos para Outlook. También puede especificar qué usuarios de la organización tienen permiso para instalar y administrar complementos para su propio uso. Para obtener más información, consulte [Especifique los administradores y los usuarios que pueden instalar y administrar complementos para Outlook](https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins).
 

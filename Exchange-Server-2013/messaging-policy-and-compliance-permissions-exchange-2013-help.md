@@ -114,7 +114,7 @@ Los usuarios a los que se les asigna el grupo de características de administrac
 <td><p><a href="discovery-management-exchange-2013-help.md">Administración de la detección</a></p>
 
 > [!NOTE]
-> De forma predeterminada, el rol Administración de detección no tiene ningún miembro. Ningún usuario, incluidos los administradores, tiene permisos necesarios para buscar en los buzones. Para obtener más información, vea <A href="assign-ediscovery-permissions-in-exchange-exchange-2013-help.md">Asignar permisos de exhibición de documentos electrónicos en Exchange</A>.
+> De forma predeterminada, el rol Administración de detección no tiene ningún miembro. Ningún usuario, incluidos los administradores, tiene permisos necesarios para buscar en los buzones. Para obtener más información, vea <A href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions">Asignar permisos de exhibición de documentos electrónicos en Exchange</A>.
 
 
 </td>

@@ -23,7 +23,7 @@ En este tema, se proporciona una lista de las preguntas más frecuentes referent
 
 ## Preguntas frecuentes acerca de la migración de las carpetas públicas
 
-Esta sección contiene las preguntas más frecuentes acerca de la migración de carpetas públicas. Para obtener más información, vea [Usar migración por lotes para migrar carpetas públicas a Exchange 2013 desde versiones anteriores](use-batch-migration-to-migrate-public-folders-to-exchange-2013-from-previous-versions-exchange-2013-help.md), [Usar la migración por lotes para migrar carpetas públicas heredadas a Office 365 y Exchange Online](use-batch-migration-to-migrate-legacy-public-folders-to-office-365-and-exchange-online-exchange-online-help.md)o [Usar la migración por lotes para migrar carpetas públicas de Exchange 2013 a Exchange Online](use-batch-migration-to-migrate-exchange-2013-public-folders-to-exchange-online-exchange-online-help.md).
+Esta sección contiene las preguntas más frecuentes acerca de la migración de carpetas públicas. Para obtener más información, vea [Usar migración por lotes para migrar carpetas públicas a Exchange 2013 desde versiones anteriores](use-batch-migration-to-migrate-public-folders-to-exchange-2013-from-previous-versions-exchange-2013-help.md), [Usar la migración por lotes para migrar carpetas públicas heredadas a Office 365 y Exchange Online](https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/batch-migration-of-legacy-public-folders)o [Usar la migración por lotes para migrar carpetas públicas de Exchange 2013 a Exchange Online](https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/batch-migration-of-exchange-2013-public-folders).
 
 ## ¿Cuáles son los escenarios admitidos de migración de carpetas públicas?
 
@@ -113,7 +113,7 @@ Ejecute el siguiente comando para crear el primer buzón de correo electrónico 
 
     New-Mailbox -PublicFolder -Name <name of public folder>
 
-Para obtener más información, consulte [Crear una carpeta pública](create-a-public-folder-exchange-2013-help.md).
+Para obtener más información, consulte [Crear una carpeta pública](https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/create-public-folder).
 
 ## En versiones anteriores de Exchange, cada base de datos de buzones de correo tenía una opción para especificar si base de datos de carpetas públicas. ¿Cómo funcionará en Exchange 2013?
 

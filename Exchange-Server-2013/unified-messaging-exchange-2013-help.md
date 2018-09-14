@@ -255,15 +255,15 @@ La tabla siguiente contiene vínculos a temas que le ayudarán a aprender acerca
 <td><p>Infórmese sobre los paquetes de idiomas y la configuración de idioma de la mensajería unificada.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="telephone-system-integration-with-um-exchange-2013-help.md">Integración del sistema telefónico con mensajería unificada</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephone-system-integration-with-um">Integración del sistema telefónico con mensajería unificada</a></p></td>
 <td><p>Infórmese sobre cómo integrar la red de telefonía con la mensajería unificada.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="connect-your-voice-mail-system-to-your-telephone-network-exchange-2013-help.md">Conecte su sistema de correo de voz a la red de teléfono</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/connect-voice-mail-system">Conecte su sistema de correo de voz a la red de teléfono</a></p></td>
 <td><p>Más información acerca de cómo usar y configurar componentes de mensajería unificada para conectar su red de telefonía a la mensajería unificada de Exchange.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="automatically-answer-and-route-incoming-calls-exchange-2013-help.md">Contestar y enrutar automáticamente las llamadas entrantes</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls">Contestar y enrutar automáticamente las llamadas entrantes</a></p></td>
 <td><p>Más información acerca de cómo crear los operadores automáticos de mensajería unificada y administrar la configuración de los menús de navegación, los saludos y el horario comercial y el horario no comercial.</p></td>
 </tr>
 <tr class="even">
@@ -283,7 +283,7 @@ La tabla siguiente contiene vínculos a temas que le ayudarán a aprender acerca
 <td><p>Infórmese sobre cómo usar la mensajería unificada para proteger mensajes de voz.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="run-reports-for-voice-mail-calls-exchange-2013-help.md">Ejecutar informes para llamadas de correo de voz</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/run-voice-mail-call-reports">Ejecutar informes para llamadas de correo de voz</a></p></td>
 <td><p>Conozca los informes de llamadas de mensajería unificada.</p></td>
 </tr>
 </tbody>

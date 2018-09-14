@@ -25,7 +25,7 @@ Los usuarios cuyos buzones se encuentran en 2013 de Exchange Server o Exchange S
 
 
 > [!NOTE]
-> 2016 de Outlook para usuarios de Mac puede tener acceso a carpetas públicas heredadas después de seguir los pasos de este artículo. Si los clientes de su organización utilizan Outlook 2016 para Mac, asegúrese de que han instalado la actualización de abril de 2016. De lo contrario, esos usuarios no podrá tener acceso a las carpetas públicas en una topología de híbridos o coexistencia. Para obtener más información, consulte <A href="accessing-public-folders-with-outlook-2016-for-mac-exchange-2013-help.md">Acceso a las carpetas públicas con Outlook 2016 para Mac</A>.
+> 2016 de Outlook para usuarios de Mac puede tener acceso a carpetas públicas heredadas después de seguir los pasos de este artículo. Si los clientes de su organización utilizan Outlook 2016 para Mac, asegúrese de que han instalado la actualización de abril de 2016. De lo contrario, esos usuarios no podrá tener acceso a las carpetas públicas en una topología de híbridos o coexistencia. Para obtener más información, consulte <A href="https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/access-public-folders-with-outlook-2016-for-mac">Acceso a las carpetas públicas con Outlook 2016 para Mac</A>.
 
 
 

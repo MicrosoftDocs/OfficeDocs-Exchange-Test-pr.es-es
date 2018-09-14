@@ -632,7 +632,7 @@ Volver al principio
 
 ## Más información
 
-[Administrar reglas de flujo de correo](manage-mail-flow-rules-exchange-2013-help.md)
+[Administrar reglas de flujo de correo](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
 
 [Reglas de transporte o de flujo de correo](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md)
 

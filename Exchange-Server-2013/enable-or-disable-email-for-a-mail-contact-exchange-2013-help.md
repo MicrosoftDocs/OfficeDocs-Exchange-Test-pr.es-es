@@ -21,7 +21,7 @@ Puede deshabilitar el correo electrónico para un contacto de correo existente e
 
 Después de deshabilitar el correo electrónico para un contacto de correo, puede volver a habilitar al contacto para correo mediante el uso del cmdlet **Enable-MailContact** en el Shell. También puede utilizar este cmdlet para habilitar para correo cualquier contacto de Active Directory.
 
-Para otras tareas de administración relacionadas con los contactos de correo, consulte [Administrar contactos de correo](manage-mail-contacts-exchange-2013-help.md).
+Para otras tareas de administración relacionadas con los contactos de correo, consulte [Administrar contactos de correo](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-mail-contacts).
 
 ## ¿Qué necesita saber antes de comenzar?
 

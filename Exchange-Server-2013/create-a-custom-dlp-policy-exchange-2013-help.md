@@ -23,7 +23,7 @@ Las condiciones de la regla que están disponibles en una única directiva inclu
 
 
 > [!WARNING]
-> Debe habilitar sus directivas de DLP en modo de prueba antes de ejecutarlo en su entorno de producción. Durante dichas pruebas, se recomienda que configure buzones de usuarios de ejemplo y envíe mensajes de prueba que invoquen las directivas de prueba para confirmar los resultados. Para obtener más información sobre las pruebas, consulte <A href="test-a-mail-flow-rule-exchange-2013-help.md">Probar una regla de flujo de correo</A>.
+> Debe habilitar sus directivas de DLP en modo de prueba antes de ejecutarlo en su entorno de producción. Durante dichas pruebas, se recomienda que configure buzones de usuarios de ejemplo y envíe mensajes de prueba que invoquen las directivas de prueba para confirmar los resultados. Para obtener más información sobre las pruebas, consulte <A href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules">Probar una regla de flujo de correo</A>.
 
 
 
@@ -59,7 +59,7 @@ Para otras tareas adicionales relacionadas con la creación de una directiva de 
     
 
     > [!IMPORTANT]
-    > Si hace clic en el icono <STRONG>Agregar</STRONG><IMG title="Agregar icono" alt="Agregar icono" src="images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif">en lugar de la flecha, creará una nueva directiva basada en una plantilla. Para obtener más información acerca de la utilización de plantillas, consulte <A href="how-to-new-dlp-data-loss-prevention-policy-template.md">Crear una directiva DLP a partir de una plantilla</A>.
+    > Si hace clic en el icono <STRONG>Agregar</STRONG><IMG title="Agregar icono" alt="Agregar icono" src="images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif">en lugar de la flecha, creará una nueva directiva basada en una plantilla. Para obtener más información acerca de la utilización de plantillas, consulte <A href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template">Crear una directiva DLP a partir de una plantilla</A>.
 
 
 
@@ -93,7 +93,7 @@ Las plantillas de directivas de DLP son un tipo de característica en Microsoft 
 
 ## Más información
 
-[Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Reglas de transporte o de flujo de correo](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md)Exchange 2013
 

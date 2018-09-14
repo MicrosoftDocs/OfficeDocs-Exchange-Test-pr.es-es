@@ -399,9 +399,9 @@ Volver al principio
 
 [Dominios remotos en Exchange Online](https://technet.microsoft.com/es-es/library/jj966211\(v=exchg.150\))
 
-[Administrar usuarios de correo](manage-mail-users-exchange-2013-help.md)
+[Administrar usuarios de correo](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-mail-users)
 
-[Administrar contactos de correo](manage-mail-contacts-exchange-2013-help.md)
+[Administrar contactos de correo](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-mail-contacts)
 
 [Cambiar el formato de mensaje en Outlook](https://go.microsoft.com/fwlink/p/?linkid=397890)
 

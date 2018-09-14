@@ -17,7 +17,7 @@ _**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Última modificación del tema:** 2015-03-09_
 
-De manera predeterminada, los usuarios no pueden realizar llamadas salientes. Para especificar los tipos de llamadas que los usuarios realizan, debe crear primero reglas de marcado y, a continuación, autorizar a los grupos de dichas reglas de marcado en planes de marcado de mensajería unificada, directivas de buzón de correo de mensajería unificada u operadores automáticos de mensajería unificada. Antes de autorizar los grupos de reglas de marcado, primero tiene que definir las reglas de marcado para el plan de marcado de mensajería unificada. Para obtener información detallada, consulte [Crear reglas de marcado para usuarios](create-dialing-rules-for-users-exchange-2013-help.md).
+De manera predeterminada, los usuarios no pueden realizar llamadas salientes. Para especificar los tipos de llamadas que los usuarios realizan, debe crear primero reglas de marcado y, a continuación, autorizar a los grupos de dichas reglas de marcado en planes de marcado de mensajería unificada, directivas de buzón de correo de mensajería unificada u operadores automáticos de mensajería unificada. Antes de autorizar los grupos de reglas de marcado, primero tiene que definir las reglas de marcado para el plan de marcado de mensajería unificada. Para obtener información detallada, consulte [Crear reglas de marcado para usuarios](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/create-dialing-rules).
 
 Cada regla de marcado que cree contendrá los tipos de llamadas o patrones de números a los que quiera proporcionar acceso a los usuarios. Puede autorizar a diferentes tipos de usuarios para que realicen diferentes tipos de llamadas. Las llamadas que autorice pueden ser dentro de un país o región, o pueden ser internacionales.
 
@@ -52,11 +52,11 @@ Se autorizan los grupos de reglas de marcado en función del tipo de autores de 
 </tr>
 <tr class="even">
 <td><p>Autores de llamada autenticados que llamen a un número de Outlook Voice Access y escriban un PIN</p></td>
-<td><p>Directiva de buzón de correo de mensajería unificada para el autor de llamada. Para obtener información detallada, consulte <a href="authorize-calls-for-a-group-of-users-exchange-2013-help.md">¿Autorizar llamadas para un grupo de usuarios</a>.</p></td>
+<td><p>Directiva de buzón de correo de mensajería unificada para el autor de llamada. Para obtener información detallada, consulte <a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-a-group-of-users">¿Autorizar llamadas para un grupo de usuarios</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Autores de llamada no autenticados que llamen a un número de teléfono que está configurado en un operador automático de mensajería unificada</p></td>
-<td><p>Operador automático de mensajería unificada. Para obtener información detallada, consulte <a href="authorize-calls-for-auto-attendant-callers-exchange-2013-help.md">¿Autorizar llamadas de llamadores de operador automático</a>.</p></td>
+<td><p>Operador automático de mensajería unificada. Para obtener información detallada, consulte <a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-auto-attendant-callers">¿Autorizar llamadas de llamadores de operador automático</a>.</p></td>
 </tr>
 </tbody>
 </table>

@@ -117,7 +117,7 @@ Al planificar la configuración de PIN de Outlook Voice Access, debe elegir los 
 
 
 
-Después de establecer los requisitos de PIN de Outlook Voice Access, debe crear y configurar una directiva de buzones de mensajería unificada para aplicar los requisitos de PIN organizativos. Para obtener más detalles acerca de cómo crear una directiva de buzones de mensajería unificada, consulte [Crear una directiva de buzón de mensajería unificada](create-a-um-mailbox-policy-exchange-2013-help.md). Para obtener más detalles acerca de cómo administrar las directivas de buzones de mensajería unificada, consulte [Administrar una directiva de buzones de correo de mensajería unificada](manage-a-um-mailbox-policy-exchange-2013-help.md).
+Después de establecer los requisitos de PIN de Outlook Voice Access, debe crear y configurar una directiva de buzones de mensajería unificada para aplicar los requisitos de PIN organizativos. Para obtener más detalles acerca de cómo crear una directiva de buzones de mensajería unificada, consulte [Crear una directiva de buzón de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy). Para obtener más detalles acerca de cómo administrar las directivas de buzones de mensajería unificada, consulte [Administrar una directiva de buzones de correo de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy).
 
 
 > [!NOTE]
@@ -125,7 +125,7 @@ Después de establecer los requisitos de PIN de Outlook Voice Access, debe crear
 
 
 
-Hay situaciones en las que los usuarios de Outlook Voice Access olvidan su PIN o se les bloquea el acceso al correo de voz de su buzón. En cualquier caso, puede ser necesario que se restablezca el PIN del usuario habilitado para mensajería unificada. Para obtener información más detallada, consulte [Restablecer el PIN del correo de voz.](reset-a-voice-mail-pin-exchange-2013-help.md).
+Hay situaciones en las que los usuarios de Outlook Voice Access olvidan su PIN o se les bloquea el acceso al correo de voz de su buzón. En cualquier caso, puede ser necesario que se restablezca el PIN del usuario habilitado para mensajería unificada. Para obtener información más detallada, consulte [Restablecer el PIN del correo de voz.](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/reset-a-voice-mail-pin).
 
 Puede recuperar la información del PIN de un usuario que está habilitado para mensajería unificada. La información devuelta se calcula mediante los datos cifrados del PIN almacenados en el correo del usuario. Esto permite ver información del PIN del usuario y también indica si se ha bloqueado su buzón. Para obtener información detallada, consulte [Recuperar información de PIN del correo de voz](retrieve-voice-mail-pin-information-exchange-2013-help.md).
 

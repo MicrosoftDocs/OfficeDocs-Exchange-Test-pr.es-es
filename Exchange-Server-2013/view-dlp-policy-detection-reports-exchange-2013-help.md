@@ -269,7 +269,7 @@ A continuación se muestra una lista completa de los campos de datos. Todos los 
 
 ## Más información
 
-[Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Crear informes de incidentes para detecciones de directivas de DLP](create-incident-reports-for-dlp-policy-detections-exchange-2013-help.md)
 

@@ -45,11 +45,11 @@ Se crea una directiva de buzones de correo de Outlook Web App predeterminada aut
 
 
 
-Para obtener información acerca de la creación o eliminación de directivas de buzones de correo, consulte [Crear una directiva de buzones de Outlook Web App](create-an-outlook-web-app-mailbox-policy-exchange-2013-help.md) y [Quitar una directiva de buzón de Outlook Web App de Exchange](remove-an-outlook-web-app-mailbox-policy-from-exchange-exchange-2013-help.md).
+Para obtener información acerca de la creación o eliminación de directivas de buzones de correo, consulte [Crear una directiva de buzones de Outlook Web App](https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/create-outlook-web-app-mailbox-policy) y [Quitar una directiva de buzón de Outlook Web App de Exchange](https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/remove-outlook-web-app-mailbox-policy).
 
 ## Configuración de las directivas de buzones de Outlook Web App
 
-El valor predeterminado de directiva de buzón de correo de Outlook Web App tiene todas las opciones habilitadas de forma predeterminada. Para obtener información acerca de la configuración de las directivas de buzones de correo de Outlook Web App, consulte [Ver o configurar las propiedades de directiva de buzón de Outlook Web App](view-or-configure-outlook-web-app-mailbox-policy-properties-exchange-2013-help.md).
+El valor predeterminado de directiva de buzón de correo de Outlook Web App tiene todas las opciones habilitadas de forma predeterminada. Para obtener información acerca de la configuración de las directivas de buzones de correo de Outlook Web App, consulte [Ver o configurar las propiedades de directiva de buzón de Outlook Web App](https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/configure-outlook-web-app-mailbox-policy-properties).
 
 ## Aplicación de las directivas de buzones de Outlook Web App
 

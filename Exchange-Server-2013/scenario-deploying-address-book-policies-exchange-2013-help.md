@@ -267,7 +267,7 @@ Tendrá que desarrollar un modo para dividir las organizaciones. Se recomienda u
 
   - Los atributos CustomAttributeX se reservan explícitamente para la personalización de una organización y están bajo el control total de los administradores de la organización.
 
-Otro procedimiento recomendado que puede implementar al segregar la organización es usar identificadores de compañía en los nombres de los grupos de distribución y los grupos de distribución dinámicos. Exchange incluye una característica de directiva de nomenclatura de grupo que agrega automáticamente un prefijo o un sufijo al nombre del grupo de distribución en función de varios atributos del usuario que crea el grupo de distribución, incluido el creador de los valores para Company, StateorProvince, Title y del CustomAttribute1 al CustomAttribute15 del grupo de distribución. Esta directiva de nomenclatura de grupo resulta especialmente importante si permite a los usuarios crear sus propios grupos de distribución. Para obtener más información, consulte [Crear una directiva de nomenclatura de grupos de distribución](create-a-distribution-group-naming-policy-exchange-2013-help.md).
+Otro procedimiento recomendado que puede implementar al segregar la organización es usar identificadores de compañía en los nombres de los grupos de distribución y los grupos de distribución dinámicos. Exchange incluye una característica de directiva de nomenclatura de grupo que agrega automáticamente un prefijo o un sufijo al nombre del grupo de distribución en función de varios atributos del usuario que crea el grupo de distribución, incluido el creador de los valores para Company, StateorProvince, Title y del CustomAttribute1 al CustomAttribute15 del grupo de distribución. Esta directiva de nomenclatura de grupo resulta especialmente importante si permite a los usuarios crear sus propios grupos de distribución. Para obtener más información, consulte [Crear una directiva de nomenclatura de grupos de distribución](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy).
 
 Las directivas de nomenclatura de grupo no se aplican a los grupos de distribución dinámicos, por lo que deberá segregarlos y aplicarles una directiva de nomenclatura manualmente.
 
@@ -289,7 +289,7 @@ Este ejemplo crea la lista de dirección LD\_TAIL\_Usuarios\_DG. La lista de dir
 
     New-AddressList -Name "AL_TAIL_Users_DGs" -RecipientFilter {((RecipientType -eq 'UserMailbox') -or (RecipientType -eq "MailUniversalDistributionGroup") -or (RecipientType -eq "DynamicDistributionGroup")) -and (CustomAttribute15 -eq "TAIL")}
 
-Para obtener más información sobre la creación de listas de direcciones con filtros de destinatarios, vea [Crear una lista de direcciones mediante filtros de destinatario](create-an-address-list-by-using-recipient-filters-exchange-2013-help.md).
+Para obtener más información sobre la creación de listas de direcciones con filtros de destinatarios, vea [Crear una lista de direcciones mediante filtros de destinatario](https://docs.microsoft.com/es-es/exchange/address-books/address-lists/use-recipient-filters-to-create-an-address-list).
 
 Para crear una ABP se necesita una lista de direcciones de salas. Si su organización no tiene buzones de recursos (tales como buzones de sala o de equipamiento), se recomienda crear una lista de direcciones de salas vacía. En el siguiente ejemplo se crea una lista de direcciones de salas vacía porque no hay buzones de sala en la organización.
 
@@ -303,7 +303,7 @@ La lista global de direcciones que se usa en una ABP debe ser un superconjunto d
 
     New-GlobalAddressList -Name "GAL_TAIL" -RecipientFilter {(CustomAttribute15 -eq "TAIL")}
 
-Para obtener más información, consulte [Crear una lista global de direcciones](create-a-global-address-list-exchange-2013-help.md).
+Para obtener más información, consulte [Crear una lista global de direcciones](https://docs.microsoft.com/es-es/exchange/address-books/address-lists/create-global-address-list).
 
 Cuando se crea una OAB, debe incluir la LGD adecuada al proporcionar el parámetro *AddressLists* de New- o Set-OfflineAddressBook para garantizar que no se pierda ninguna entrada de manera inesperada. En resumen, puede personalizar el conjunto de entradas que ve un usuario o reducir el tamaño de descarga de la OAB mediante la especificación de una lista de AddressLists en AddressLists de New/Set-OfflineAddressBook. No obstante, si desea que los usuarios vean todo el conjunto de registros de la LGD en la OAB, asegúrese de que incluye la LGD en AddressLists.
 
@@ -311,7 +311,7 @@ En este ejemplo se crea la OAB para Fabrikam llamada OAB\_FAB.
 
     New-OfflineAddressBook -Name "OAB_FAB" -AddressLists "GAL_FAB"
 
-Para obtener más información, consulte [Crear una libreta de direcciones sin conexión](create-an-offline-address-book-exchange-2013-help.md).
+Para obtener más información, consulte [Crear una libreta de direcciones sin conexión](https://docs.microsoft.com/es-es/exchange/address-books/offline-address-books/create-offline-address-book).
 
 ## Paso 4: Crear las ABP
 
@@ -319,7 +319,7 @@ Después de crear todos los objetos necesarios, entonces podrá crear la ABP. En
 
     New-AddressBookPolicy -Name "ABP_TAIL" -AddressLists "AL_TAIL_Users_DGs"," AL_TAIL_Contacts" -OfflineAddressBook "\OAB_TAIL" -GlobalAddressList "\GAL_TAIL" -RoomList "\AL_TAIL_Rooms"
 
-Para obtener más información, consulte [Crear una directiva de libreta de direcciones](create-an-address-book-policy-exchange-2013-help.md).
+Para obtener más información, consulte [Crear una directiva de libreta de direcciones](https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/create-an-address-book-policy).
 
 ## Paso 5: Asignar las ABP a los buzones de correo
 

@@ -112,11 +112,11 @@ En la tabla siguiente se describen los objetos de destinatario que se encuentran
 </tr>
 <tr class="even">
 <td><p>MailUser</p></td>
-<td><p>Un objeto de usuario que tiene una dirección de correo sin un parámetro <em>Database</em> definido. Para obtener más información, vea <a href="manage-mail-users-exchange-2013-help.md">Administrar usuarios de correo</a>.</p></td>
+<td><p>Un objeto de usuario que tiene una dirección de correo sin un parámetro <em>Database</em> definido. Para obtener más información, vea <a href="https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-mail-users">Administrar usuarios de correo</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MailContact</p></td>
-<td><p>Un objeto de contacto que tiene una dirección de correo. Por lo general, los contactos de correo se usan para destinatarios que no pertenecen a la organización de Exchange. Los contactos de correo también se usan en entornos entre bosques de Exchange. Para obtener más información, vea <a href="manage-mail-contacts-exchange-2013-help.md">Administrar contactos de correo</a>.</p></td>
+<td><p>Un objeto de contacto que tiene una dirección de correo. Por lo general, los contactos de correo se usan para destinatarios que no pertenecen a la organización de Exchange. Los contactos de correo también se usan en entornos entre bosques de Exchange. Para obtener más información, vea <a href="https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-mail-contacts">Administrar contactos de correo</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>MailPublicFolder</p></td>

@@ -84,7 +84,7 @@ Este ejemplo crea el buzón compartido del Departamento de ventas y otorga permi
 
 
 > [!NOTE]
-> En este ejemplo, se presupone que ya ha creado el grupo de seguridad MarketingSG y que ese grupo de seguridad está habilitado para correo. Vea <A href="manage-mail-enabled-security-groups-exchange-2013-help.md">Administrar grupos de seguridad habilitados para correo</A>.
+> En este ejemplo, se presupone que ya ha creado el grupo de seguridad MarketingSG y que ese grupo de seguridad está habilitado para correo. Vea <A href="https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups">Administrar grupos de seguridad habilitados para correo</A>.
 
 
 

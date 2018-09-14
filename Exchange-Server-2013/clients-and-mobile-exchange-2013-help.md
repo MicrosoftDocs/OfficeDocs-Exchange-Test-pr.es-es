@@ -63,7 +63,7 @@ La siguiente tabla contiene vínculos a temas que lo ayudarán a obtener informa
 <td><p>Obtenga información acerca de Outlook Web App, que les brinda a los usuarios acceso a sus buzones de correo de Exchange 2013 mediante un navegador web.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="mailtips-exchange-2013-help.md">MailTips</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips">MailTips</a></p></td>
 <td><p>Obtenga información acerca de las sugerencias de correo electrónico, los mensajes informativos que se muestran a los usuarios mientras escriben un mensaje.</p></td>
 </tr>
 </tbody>

@@ -45,9 +45,9 @@ A fin de cumplir con necesidades individuales, de TI o comerciales, es posible q
 
 Puede colocar buzones en suspensión de la retención a fin de desactivar la MRM de manera temporaria (por ejemplo, mientras los usuarios están de vacaciones). Esto suspenderá el procesamiento de directivas de retención para el buzón hasta que se deshabilite la suspensión de la retención. Esto es diferente a colocar buzones en conservación local o retención por juicio.
 
-Para obtener información detallada acerca de cómo colocar un buzón de correo en suspensión de retención, consulte [Poner un buzón en retención](place-a-mailbox-on-retention-hold-exchange-2013-help.md).
+Para obtener información detallada acerca de cómo colocar un buzón de correo en suspensión de retención, consulte [Poner un buzón en retención](https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold).
 
-Para obtener más información acerca de retención local y retención por litigio, consulte [Conservación local y retención por juicio](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+Para obtener más información acerca de retención local y retención por litigio, consulte [Conservación local y retención por juicio](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 ## Quitar etiquetas de retención de buzones de correo
 

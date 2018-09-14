@@ -17,7 +17,7 @@ _**Se aplica a:** Exchange Server 2013_
 
 _**Última modificación del tema:** 2015-04-07_
 
-En Microsoft Exchange Server 2013, la administración de registros de mensajes (MRM) se realiza mediante etiquetas de retención y directivas de retención. Una directiva de retención es un grupo de etiquetas de retención que se puede aplicar a un buzón. Para obtener más información, vea [Etiquetas de retención y directivas de retención](retention-tags-and-retention-policies-exchange-2013-help.md). Las carpetas administradas, la tecnología MRM que se introdujo en Exchange Server 2007, no son compatibles.
+En Microsoft Exchange Server 2013, la administración de registros de mensajes (MRM) se realiza mediante etiquetas de retención y directivas de retención. Una directiva de retención es un grupo de etiquetas de retención que se puede aplicar a un buzón. Para obtener más información, vea [Etiquetas de retención y directivas de retención](https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies). Las carpetas administradas, la tecnología MRM que se introdujo en Exchange Server 2007, no son compatibles.
 
 Un buzón al que se le aplica una directiva de buzones de correo de carpetas administradas se puede migrar para que use una directiva de retención. Para ello, debe crear etiquetas de retención que sean equivalentes a las carpetas administradas vinculadas a la directiva de buzones de correo de carpetas administradas del usuario.
 
@@ -29,7 +29,7 @@ Un buzón al que se le aplica una directiva de buzones de correo de carpetas adm
 
 
 > [!TIP]
-> Puede colocar buzones de correo en suspensión de retención para detener el procesamiento de las directivas de retención o las directivas de buzón de la carpeta administrada. Colocar buzones de correo en suspensión de retención puede resultar útil en una migración para evitar eliminar mensajes o tener que archivarlos hasta que la nueva configuración de la directiva se haya probado en los buzones de correo de prueba o en un grupo reducido de buzones en producción. Para obtener información, vea <A href="place-a-mailbox-on-retention-hold-exchange-2013-help.md">Poner un buzón en retención</A>.
+> Puede colocar buzones de correo en suspensión de retención para detener el procesamiento de las directivas de retención o las directivas de buzón de la carpeta administrada. Colocar buzones de correo en suspensión de retención puede resultar útil en una migración para evitar eliminar mensajes o tener que archivarlos hasta que la nueva configuración de la directiva se haya probado en los buzones de correo de prueba o en un grupo reducido de buzones en producción. Para obtener información, vea <A href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold">Poner un buzón en retención</A>.
 
 
 
@@ -276,7 +276,7 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, vea
 
 
 > [!NOTE]
-> También puede usar el EAC para crear etiquetas de retención manualmente (sin basarse en ajustes de las carpetas administradas). Para obtener información, vea <A href="create-a-retention-policy-exchange-2013-help.md">Crear directivas de retención</A>.
+> También puede usar el EAC para crear etiquetas de retención manualmente (sin basarse en ajustes de las carpetas administradas). Para obtener información, vea <A href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy">Crear directivas de retención</A>.
 
 
 
@@ -298,7 +298,7 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 
 
 > [!NOTE]
-> También puede usar el EAC para crear una directiva de retención y agregar etiquetas de retención a la directiva. Para obtener información, vea <A href="create-a-retention-policy-exchange-2013-help.md">Crear directivas de retención</A>.
+> También puede usar el EAC para crear una directiva de retención y agregar etiquetas de retención a la directiva. Para obtener información, vea <A href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy">Crear directivas de retención</A>.
 
 
 
@@ -322,7 +322,7 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 
 
 > [!NOTE]
-> También puede usar el EAC para aplicar directivas de retención a los usuarios. Para obtener información, vea <A href="apply-a-retention-policy-to-mailboxes-exchange-2013-help.md">Aplicar una directiva de retención a los buzones</A>.
+> También puede usar el EAC para aplicar directivas de retención a los usuarios. Para obtener información, vea <A href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/apply-retention-policy">Aplicar una directiva de retención a los buzones</A>.
 
 
 

@@ -69,7 +69,7 @@ Si desea configurar la mensajería unificada para que ofrezca vistas previas de 
 
 2.  Si tiene una implementación local o híbrida, descargue e instale el paquete de idioma de mensajería unificada adecuado. El idioma predefinido del plan de marcado no se configura al descargar e instalar el paquete de idioma.
 
-3.  Configure el plan de marcado con el idioma que se usará en la vista previa del correo de voz. Para obtener más información, consulte [Establecer el idioma predeterminado en un plan de marcado](set-the-default-language-on-a-dial-plan-exchange-2013-help.md).
+3.  Configure el plan de marcado con el idioma que se usará en la vista previa del correo de voz. Para obtener más información, consulte [Establecer el idioma predeterminado en un plan de marcado](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/set-dial-plan-default-language).
 
 El modo en que la vista previa del correo de voz muestra el texto en los idiomas admitidos depende del tipo de mensaje de voz. Existen dos tipos:
 

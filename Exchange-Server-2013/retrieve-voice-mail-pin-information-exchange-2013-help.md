@@ -21,7 +21,7 @@ Puede recuperar la información de PIN de un usuario que está habilitado para m
 
 Al recuperar información de PIN de un usuario habilitado para UM, la información que se devuelve se calcula usando los datos de PIN cifrados almacenados en el buzón del usuario. Esta tarea le permite ver información del buzón del usuario y también indica si se ha bloqueado el buzón y el usuario no puede acceder.
 
-Para consultar otras tareas relacionadas con la seguridad de PIN, vea [Procedimientos de seguridad PIN](pin-security-procedures-exchange-2013-help.md).
+Para consultar otras tareas relacionadas con la seguridad de PIN, vea [Procedimientos de seguridad PIN](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/pin-security-procedures).
 
 ## ¿Qué necesito saber antes de empezar?
 
@@ -31,11 +31,11 @@ Para consultar otras tareas relacionadas con la seguridad de PIN, vea [Procedimi
 
   - Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento o procedimientos. Para ver qué permisos necesita, consulte el Entrada "Buzones de mensajería unificada" en el tema [Permisos de mensajería unificada](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Antes de llevar a cabo estas tareas, confirme que se haya creado un plan de marcado de UM. Puede ver los pasos detallados en [Crear un plan de marcado de mensajería unificada](create-a-um-dial-plan-exchange-2013-help.md).
+  - Antes de llevar a cabo estas tareas, confirme que se haya creado un plan de marcado de UM. Puede ver los pasos detallados en [Crear un plan de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
-  - Antes de llevar a cabo estas tareas, confirme que se haya creado una directiva de buzón de mensajería unificada. Puede ver los pasos detallados en [Crear una directiva de buzón de mensajería unificada](create-a-um-mailbox-policy-exchange-2013-help.md).
+  - Antes de llevar a cabo estas tareas, confirme que se haya creado una directiva de buzón de mensajería unificada. Puede ver los pasos detallados en [Crear una directiva de buzón de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy).
 
-  - Antes de llevar a cabo estas tareas, confirme que el buzón del usuario esté habilitado para la UM. Puede ver los pasos detallados en [Habilitar a un usuario para el correo de voz](enable-a-user-for-voice-mail-exchange-2013-help.md).
+  - Antes de llevar a cabo estas tareas, confirme que el buzón del usuario esté habilitado para la UM. Puede ver los pasos detallados en [Habilitar a un usuario para el correo de voz](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
 
   - Para obtener información acerca de los métodos abreviados de teclado aplicables a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

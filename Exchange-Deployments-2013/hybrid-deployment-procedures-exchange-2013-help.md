@@ -27,7 +27,7 @@ Seleccione un tema a continuación para comenzar:
 
 [Configurar carpetas públicas locales heredadas para una implementación híbrida](configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
 
-[Configuración de las carpetas públicas de Exchange 2013 para una implementación híbrida](configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
+[Configuración de las carpetas públicas de Exchange 2013 para una implementación híbrida](https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/set-up-modern-hybrid-public-folders)
 
 [Configurar las carpetas públicas de Exchange Online para una implementación híbrida](configure-exchange-online-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
 

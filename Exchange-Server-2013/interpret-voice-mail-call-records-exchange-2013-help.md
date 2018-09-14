@@ -19,7 +19,7 @@ _**Última modificación del tema:** 2013-02-22_
 
 Para ver información detallada sobre las llamadas que administran los servidores de Exchange un día concreto, exporte los datos de llamadas correspondientes a ese día desde el informe Estadísticas de llamadas. Los datos de llamadas diarios, disponibles para los últimos 90 días, pueden servir para diagnosticar problemas relacionados con la calidad de audio o las llamadas rechazadas, y dan información para las auditorías o los informes en los servidores de Exchange de la organización.
 
-Para tareas adicionales relacionadas con informes de mensajería unificada, consulte [Procedimientos de informes de mensajería unificada](um-reports-procedures-exchange-2013-help.md).
+Para tareas adicionales relacionadas con informes de mensajería unificada, consulte [Procedimientos de informes de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/um-reports-procedures).
 
 ## Uso del EAC para exportar registros de llamadas diarias de MU
 

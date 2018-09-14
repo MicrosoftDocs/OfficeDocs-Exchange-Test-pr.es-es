@@ -64,11 +64,11 @@ La siguiente tabla contiene vínculos a los temas que lo ayudarán a aprender y 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="address-lists-exchange-2013-help.md">Listas de direcciones</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/address-books/address-lists/address-lists">Listas de direcciones</a></p></td>
 <td><p>Conozca más acerca de las listas de direcciones y GAL como métodos para organizar los destinatarios para obtener un acceso de usuario final más sencillo.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="address-book-policies-exchange-2013-help.md">Directivas de la libreta de direcciones</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/address-book-policies">Directivas de la libreta de direcciones</a></p></td>
 <td><p>Conozca más acerca de cómo separar las listas de direcciones y GAL en organizaciones virtuales separadas.</p></td>
 </tr>
 <tr class="odd">
