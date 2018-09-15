@@ -19,7 +19,7 @@ _**Última modificación del tema:** 2016-12-09_
 
 Los informes de entrega para administradores permiten realizar el seguimiento de la información de entrega de los mensajes que se hayan enviado desde un buzón de correo específico de la organización o se hayan recibido desde dicho buzón. De manera específica, los informes de entrega para administradores usan el Centro de administración de Exchange (EAC) para realizar una búsqueda destinada de los registros de seguimiento de mensajes. La búsqueda siempre se asigna a un buzón de correo específico. Puede buscar mensajes enviados por el buzón de correo o enviados al buzón de correo y puede filtrar los resultados de la búsqueda por asunto del mensaje.
 
-En un informe de entrega no se recupera el contenido del cuerpo del mensaje, pero la línea de asunto se muestra en los resultados. Si quiere buscar mensajes de correo electrónico específicos en los buzones de correo de la organización en función del contenido del mensaje, vea [Exhibición de documentos electrónicos en contexto](in-place-ediscovery-exchange-2013-help.md).
+En un informe de entrega no se recupera el contenido del cuerpo del mensaje, pero la línea de asunto se muestra en los resultados. Si quiere buscar mensajes de correo electrónico específicos en los buzones de correo de la organización en función del contenido del mensaje, vea [Exhibición de documentos electrónicos en contexto](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules).
 
 Los informes de entrega pueden resultar útiles en las situaciones siguientes:
 

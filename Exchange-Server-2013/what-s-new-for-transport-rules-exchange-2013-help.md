@@ -23,7 +23,7 @@ En Microsoft Exchange Server 2013, se han realizado varias mejoras en las reglas
 
 Las características de prevención de pérdida de datos (DLP) de Exchange 2013 pueden ayudar a las organizaciones a reducir la divulgación inintencionada de información confidencial. Se han actualizado las reglas de transporte para admitir la creación de reglas que acompañan y aplican directivas de DLP. Para obtener más información acerca de la compatibilidad con DLP, consulte los siguientes temas:
 
-[Integración de las reglas de información confidencial con las reglas de transporte](integrating-sensitive-information-rules-with-transport-rules-exchange-2013-help.md)
+[Integración de las reglas de información confidencial con las reglas de transporte](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-menu-navigation)
 
 [Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 

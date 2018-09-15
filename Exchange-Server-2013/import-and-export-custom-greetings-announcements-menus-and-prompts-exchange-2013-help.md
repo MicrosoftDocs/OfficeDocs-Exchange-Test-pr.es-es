@@ -45,7 +45,7 @@ Para conocer tareas de administración adicionales relacionadas con los operador
 
   - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un plan de marcado de mensajería unificada. Para conocer los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
-  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un operador automático de mensajería unificada. Para conocer los pasos detallados, consulte [Crear un operador automático de mensajería unificada](create-a-um-auto-attendant-exchange-2013-help.md).
+  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un operador automático de mensajería unificada. Para conocer los pasos detallados, consulte [Crear un operador automático de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/enable-common-pin-patterns).
 
   - Solo puede usar el Shell para realizar este procedimiento.
 

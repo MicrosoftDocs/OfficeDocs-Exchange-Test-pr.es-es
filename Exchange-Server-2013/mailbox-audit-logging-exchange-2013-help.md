@@ -336,7 +336,7 @@ En la siguiente tabla se describen los campos registrados en una entrada del reg
 
   - **Acceso de administrador a los buzones:**  se considera que un administrador accede a los buzones solo en los siguientes escenarios:
     
-      - [Exhibición de documentos electrónicos en contexto](in-place-ediscovery-exchange-2013-help.md) si se usa para realizar búsquedas en un buzón.
+      - [Exhibición de documentos electrónicos en contexto](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules) si se usa para realizar búsquedas en un buzón.
     
       - El cmdlet [New-MailboxExportRequest](https://technet.microsoft.com/es-es/library/ff607299\(v=exchg.150\)) se usa para exportar un buzón de correo.
     

@@ -19,7 +19,7 @@ _**Última modificación del tema:** 2012-10-14_
 
 [Crear directivas de retención](https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy)
 
-[Agregar etiquetas de retención o quitar etiquetas de retención de una directiva de retención](add-retention-tags-to-or-remove-retention-tags-from-a-retention-policy-exchange-2013-help.md)
+[Agregar etiquetas de retención o quitar etiquetas de retención de una directiva de retención](https://docs.microsoft.com/es-es/exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log)
 
 [Aplicar una directiva de retención a los buzones](https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/apply-retention-policy)
 

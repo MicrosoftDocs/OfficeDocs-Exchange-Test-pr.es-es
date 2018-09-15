@@ -90,7 +90,7 @@ Para obtener una guía paso a paso sobre cómo implementar la mensajería unific
 <tr class="even">
 <td><p></p></td>
 <td><p>Configure los parámetros de seguridad del plan de marcado.</p></td>
-<td><p><a href="configure-the-voip-security-setting-exchange-2013-help.md">Establecer la configuración de seguridad de VoIP</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes">Establecer la configuración de seguridad de VoIP</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>
@@ -106,19 +106,19 @@ Para obtener una guía paso a paso sobre cómo implementar la mensajería unific
 <tr class="odd">
 <td><p></p></td>
 <td><p>Configure los números y otros parámetros de Outlook Voice Access.</p></td>
-<td><p><a href="manage-a-um-dial-plan-exchange-2013-help.md">Administrar un plan de marcado de mensajería unificada</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding">Administrar un plan de marcado de mensajería unificada</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p>Configure el marcado saliente para la Mensajería unificada.</p></td>
-<td><p><a href="authorize-calls-using-dialing-rules-exchange-2013-help.md">Autorizar llamadas mediante reglas de marcado</a></p>
-<p><a href="authorize-calls-for-users-in-a-dial-plan-exchange-2013-help.md">Autorizar llamadas a los usuarios en un plan de marcado</a></p>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/apply-or-remove-outlook-web-app-mailbox-policy">Autorizar llamadas mediante reglas de marcado</a></p>
+<p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/policy-tips">Autorizar llamadas a los usuarios en un plan de marcado</a></p>
 <p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-a-group-of-users">¿Autorizar llamadas para un grupo de usuarios</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
 <td><p>Cree el número necesario de operadores automáticos.</p></td>
-<td><p><a href="create-a-um-auto-attendant-exchange-2013-help.md">Crear un operador automático de mensajería unificada</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/enable-common-pin-patterns">Crear un operador automático de mensajería unificada</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>

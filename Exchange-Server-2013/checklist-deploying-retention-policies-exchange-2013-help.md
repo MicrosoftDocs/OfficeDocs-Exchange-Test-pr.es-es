@@ -63,7 +63,7 @@ Esta lista de comprobación se puede usar para implementar directivas de retenci
 <tr class="odd">
 <td><p> </p></td>
 <td><p>Agregar etiquetas de retención a las directivas de retención.</p></td>
-<td><p><a href="add-retention-tags-to-or-remove-retention-tags-from-a-retention-policy-exchange-2013-help.md">Agregar etiquetas de retención o quitar etiquetas de retención de una directiva de retención</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log">Agregar etiquetas de retención o quitar etiquetas de retención de una directiva de retención</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong> </strong></p></td>

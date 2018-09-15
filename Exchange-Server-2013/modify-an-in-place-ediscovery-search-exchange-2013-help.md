@@ -51,7 +51,7 @@ Después de crear una búsqueda de Exhibición de documentos electrónicos en co
         
 
         > [!IMPORTANT]
-        > No se puede usar la opción <STRONG>Buscar en todos los buzones</STRONG> para retener todos los buzones de los servidores de buzones de Exchange&nbsp;2013. Para crear una Conservación local, seleccione <STRONG>Especificar buzones en los que buscar</STRONG>. Para obtener más información, consulte <A href="create-or-remove-an-in-place-hold-exchange-2013-help.md">Crear o quitar una conservación local</A>.
+        > No se puede usar la opción <STRONG>Buscar en todos los buzones</STRONG> para retener todos los buzones de los servidores de buzones de Exchange&nbsp;2013. Para crear una Conservación local, seleccione <STRONG>Especificar buzones en los que buscar</STRONG>. Para obtener más información, consulte <A href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/navigating-menus-with-outlook-voice-access">Crear o quitar una conservación local</A>.
 
     
       - En la página **Consulta de búsqueda**, modifique los campos siguientes:

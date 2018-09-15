@@ -27,7 +27,7 @@ Después de crear una búsqueda de exhibición de documentos electrónicos local
 
   - Para poder copiar los resultados de la búsqueda, debe crearse una búsqueda de exhibición de documentos electrónicos, mediante el EAC o el Shell. Para obtener información detallada, vea [Crear una búsqueda de exhibición de documentos electrónicos local](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search).
 
-  - La instalación de Exchange 2013 crea un buzón de correo de detección denominado **Buzón de búsqueda de detección** para copiar los resultados de la búsqueda. El buzón de búsqueda de detección se crea también de forma predeterminada en Exchange Online. Puede crear buzones de detección adicionales. Para obtener información detallada, vea [Crear un buzón de correo de detección](create-a-discovery-mailbox-exchange-2013-help.md).
+  - La instalación de Exchange 2013 crea un buzón de correo de detección denominado **Buzón de búsqueda de detección** para copiar los resultados de la búsqueda. El buzón de búsqueda de detección se crea también de forma predeterminada en Exchange Online. Puede crear buzones de detección adicionales. Para obtener información detallada, vea [Crear un buzón de correo de detección](https://docs.microsoft.com/es-es/exchange/about-exchange-documentation/accessibility).
 
   - Para obtener información acerca de los métodos abreviados de teclado aplicables a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

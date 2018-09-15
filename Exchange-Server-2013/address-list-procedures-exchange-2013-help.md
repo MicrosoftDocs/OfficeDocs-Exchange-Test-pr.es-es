@@ -29,7 +29,7 @@ _**Última modificación del tema:** 2012-10-12_
 
 [Crear una lista global de direcciones](https://docs.microsoft.com/es-es/exchange/address-books/address-lists/create-global-address-list)
 
-[Configurar las propiedades de la lista global de direcciones](configure-global-address-list-properties-exchange-2013-help.md)
+[Configurar las propiedades de la lista global de direcciones](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)
 
 [Quitar una lista global de direcciones](https://docs.microsoft.com/es-es/exchange/address-books/address-lists/remove-a-global-address-list)
 

@@ -220,7 +220,7 @@ En la siguiente tabla, se detallan los contenidos y las acciones que se pueden r
 
 Para obtener más información acerca de la exhibición de documentos electrónicos local, la conservación local y la retención por juicio, vea estos temas:
 
-  - [Exhibición de documentos electrónicos en contexto](in-place-ediscovery-exchange-2013-help.md)
+  - [Exhibición de documentos electrónicos en contexto](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules)
 
   - [Conservación local y retención por juicio](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-and-litigation-holds)
 

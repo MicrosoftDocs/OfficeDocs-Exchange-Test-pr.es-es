@@ -148,7 +148,7 @@ Este procedimiento copia los elementos de la carpeta Elementos recuperables de G
     
 
     > [!NOTE]
-    > No es necesario copiar los elementos en el buzón de búsqueda de detección. Puede copiar los mensajes en cualquier buzón. Sin embargo, para evitar el acceso a los datos buzón posiblemente confidenciales, recomendamos copiar los mensajes a un buzón que tiene el acceso restringido a los administradores de registros autorizados. De forma predeterminada, el acceso al Buzón de búsqueda de detección está restringido a los miembros del grupo de roles de administración de detección. Para obtener información más detallada, consulte <A href="in-place-ediscovery-exchange-2013-help.md">Exhibición de documentos electrónicos en contexto</A>.
+    > No es necesario copiar los elementos en el buzón de búsqueda de detección. Puede copiar los mensajes en cualquier buzón. Sin embargo, para evitar el acceso a los datos buzón posiblemente confidenciales, recomendamos copiar los mensajes a un buzón que tiene el acceso restringido a los administradores de registros autorizados. De forma predeterminada, el acceso al Buzón de búsqueda de detección está restringido a los miembros del grupo de roles de administración de detección. Para obtener información más detallada, consulte <A href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules">Exhibición de documentos electrónicos en contexto</A>.
 
 
 

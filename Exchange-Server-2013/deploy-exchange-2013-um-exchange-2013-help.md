@@ -31,7 +31,7 @@ Tareas posteriores a la implementación de la mensajería unificada
 
 Antes de implementar la mensajería unificada, le recomendamos familiarizarse con los conceptos de los temas siguientes:
 
-  - [Planes de marcado de mensajería unificada](um-dial-plans-exchange-2013-help.md)
+  - [Planes de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-the-voice-mail-preview-partner-address)
 
   - [Puertas de enlace IP de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-ip-gateways)
 
@@ -43,7 +43,7 @@ Antes de implementar la mensajería unificada, le recomendamos familiarizarse co
 
   - [directivas de buzón de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policies)
 
-  - [Correo de voz para usuarios](voice-mail-for-users-exchange-2013-help.md)
+  - [Correo de voz para usuarios](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/review-voice-mail-calls-for-user)
 
 ## Implementación de la mensajería unificada
 
@@ -308,7 +308,7 @@ Para usar TLS mutua para cifrar el tráfico SIP y el Protocolo de transporte en 
 
   - Importe los certificados necesarios a las puertas de enlace VoIP e IP PBX y a los servidores de buzones de correo y de acceso de cliente de la organización.
 
-  - Configure la seguridad de VoIP en los planes de marcado de MU. Para obtener información detallada, consulte [Establecer la configuración de seguridad de VoIP](configure-the-voip-security-setting-exchange-2013-help.md).
+  - Configure la seguridad de VoIP en los planes de marcado de MU. Para obtener información detallada, consulte [Establecer la configuración de seguridad de VoIP](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes).
 
   - Configure el modo de inicio en los servidores de buzones de correo y de acceso de cliente. Para obtener información detallada, consulte [Configurar el modo de inicio en un servidor de buzones](configure-the-startup-mode-on-a-mailbox-server-exchange-2013-help.md) y [Configurar el modo de inicio en un servidor de acceso de cliente](configure-the-startup-mode-on-a-client-access-server-exchange-2013-help.md).
 
@@ -316,17 +316,17 @@ Para usar TLS mutua para cifrar el tráfico SIP y el Protocolo de transporte en 
 
 ## Establecer directivas de PIN para usuarios habilitados para mensajería unificada
 
-En la mensajería unificada, las directivas de PIN se definen y se configuran en una directiva de buzón de mensajería unificada. Cuando se habilita a un usuario para la mensajería unificada, se lo asocia a una directiva de buzón de mensajería unificada existente. Las directivas de PIN de MU que se configuran en la directiva de buzón de MU deben basarse en los requisitos de seguridad de la organización. Para obtener más información acerca del modo de configurar el PIN para usuarios habilitados para mensajería unificada, consulte [Configurar la seguridad del PIN de Outlook Voice Access](set-outlook-voice-access-pin-security-exchange-2013-help.md).
+En la mensajería unificada, las directivas de PIN se definen y se configuran en una directiva de buzón de mensajería unificada. Cuando se habilita a un usuario para la mensajería unificada, se lo asocia a una directiva de buzón de mensajería unificada existente. Las directivas de PIN de MU que se configuran en la directiva de buzón de MU deben basarse en los requisitos de seguridad de la organización. Para obtener más información acerca del modo de configurar el PIN para usuarios habilitados para mensajería unificada, consulte [Configurar la seguridad del PIN de Outlook Voice Access](https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/set-up-public-folders).
 
 ## Configurar características de correo de voz de cliente
 
 Después de haber implementado los servidores y los componentes necesarios de mensajería unificada, hay varias características relacionadas con el correo de voz opcionales que puede configurar. Para obtener más información al respecto, vea lo siguiente:
 
-  - [Configuración de Outlook Voice Access](setting-up-outlook-voice-access-exchange-2013-help.md)
+  - [Configuración de Outlook Voice Access](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/delete-um-hunt-group)
 
   - [Permitir usuarios de mail reenviar llamadas de voz](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-voice-mail-users-to-forward-calls)
 
-  - [Permitir a los usuarios ver una transcripción de correo de voz](allow-users-to-see-a-voice-mail-transcript-exchange-2013-help.md)
+  - [Permitir a los usuarios ver una transcripción de correo de voz](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-missed-call-notifications)
 
   - [Permitir que los usuarios de correo de voz reciban faxes](enable-voice-mail-users-to-receive-faxes-exchange-2013-help.md)
 

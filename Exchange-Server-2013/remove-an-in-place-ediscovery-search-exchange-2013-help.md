@@ -29,7 +29,7 @@ En Microsoft Exchange Server 2013, puede usar el servicio de exhibición de docu
 
   - Tiempo estimado para finalizar: 2-5 minutos.
 
-  - Para eliminar una búsqueda de exhibición de documentos electrónicos local con retención local habilitada, primero debe eliminar dicha retención de la búsqueda. Para obtener información más detallada, consulte [Crear o quitar una conservación local](create-or-remove-an-in-place-hold-exchange-2013-help.md).
+  - Para eliminar una búsqueda de exhibición de documentos electrónicos local con retención local habilitada, primero debe eliminar dicha retención de la búsqueda. Para obtener información más detallada, consulte [Crear o quitar una conservación local](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/navigating-menus-with-outlook-voice-access).
 
   - Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento o procedimientos. Para ver qué permisos necesita, consulte el Entrada "Exhibición de documentos electrónicos en contexto" en el tema [Permisos de directivas de mensajería y conformidad](messaging-policy-and-compliance-permissions-exchange-2013-help.md).
 

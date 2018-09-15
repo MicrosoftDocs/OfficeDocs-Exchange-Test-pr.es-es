@@ -220,9 +220,9 @@ Para obtener más información acerca de cómo administrar las configuraciones d
 
   - [Administrar una directiva de buzones de correo de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy)
 
-  - [Habilitar el indicador de espera de mensaje (MWI) para los usuarios](enable-message-waiting-indicator-mwi-for-users-exchange-2013-help.md)
+  - [Habilitar el indicador de espera de mensaje (MWI) para los usuarios](https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/set-up-exo-hybrid-public-folders)
 
-  - [Deshabilitar el indicador de espera de mensaje (MWI) para los usuarios](disable-message-waiting-indicator-mwi-for-users-exchange-2013-help.md)
+  - [Deshabilitar el indicador de espera de mensaje (MWI) para los usuarios](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups)
 
   - [Set-UMMailboxPolicy](https://technet.microsoft.com/es-es/library/bb124903\(v=exchg.150\))
 

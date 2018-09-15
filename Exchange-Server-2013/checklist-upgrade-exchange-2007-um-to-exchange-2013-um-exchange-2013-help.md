@@ -100,7 +100,7 @@ Para obtener información paso a paso acerca de cómo actualizar la Mensajería 
 <td><p></p></td>
 <td><p>Crear o configurar planes de marcado de mensajería unificada existentes</p></td>
 <td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan">Crear un plan de marcado de mensajería unificada</a></p>
-<p><a href="manage-a-um-dial-plan-exchange-2013-help.md">Administrar un plan de marcado de mensajería unificada</a></p></td>
+<p><a href="https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding">Administrar un plan de marcado de mensajería unificada</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
@@ -116,7 +116,7 @@ Para obtener información paso a paso acerca de cómo actualizar la Mensajería 
 <tr class="even">
 <td><p></p></td>
 <td><p>Crear o configurar operadores automáticos de mensajería unificada</p></td>
-<td><p><a href="create-a-um-auto-attendant-exchange-2013-help.md">Crear un operador automático de mensajería unificada</a></p>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/enable-common-pin-patterns">Crear un operador automático de mensajería unificada</a></p>
 <p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/manage-um-auto-attendant">Administrar a un operador automático de mensajería unificada</a></p></td>
 </tr>
 <tr class="odd">

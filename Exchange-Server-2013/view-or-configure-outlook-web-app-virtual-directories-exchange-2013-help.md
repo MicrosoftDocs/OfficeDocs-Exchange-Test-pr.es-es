@@ -106,7 +106,7 @@ Si utiliza el EAC para ver las propiedades de un directorio virtual de Outlook W
     
 
     > [!NOTE]
-    > La configuración de las características para usuarios individuales sobrescribe la del directorio virtual. Es posible cambiar la configuración de la segmentación para usuarios individuales mediante el cmdlet <STRONG>Set-CASMailbox</STRONG> o mediante las directivas de buzón de Outlook Web App. Para obtener más información, consulte <A href="outlook-web-app-mailbox-policies-exchange-2013-help.md">Directivas de buzones de Outlook Web App</A>.
+    > La configuración de las características para usuarios individuales sobrescribe la del directorio virtual. Es posible cambiar la configuración de la segmentación para usuarios individuales mediante el cmdlet <STRONG>Set-CASMailbox</STRONG> o mediante las directivas de buzón de Outlook Web App. Para obtener más información, consulte <A href="https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-equipment-mailboxes">Directivas de buzones de Outlook Web App</A>.
 
     
     Utilice las casillas para habilitar o deshabilitar funciones. Las funciones más comunes se muestran de forma predeterminada. Para ver todas las características que se pueden habilitar o deshabilitar, haga clic en **Más opciones**.

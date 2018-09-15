@@ -97,7 +97,7 @@ Los buzones de sitio no permiten la retención a nivel de elementos. La retenci�
 
 ## Cumplimiento
 
-Con la Consola de exhibición de documentos electrónicos en SharePoint, los buzones del sitio pueden formar parte del ámbito de la búsqueda de Exhibición de documentos electrónicos en contexto ya que puede realizar búsquedas de palabras clave en buzones de usuarios o en buzones del sitio. Además, puede colocar un buzón del sitio en retención legal. Para obtener más información, consulte [Exhibición de documentos electrónicos en contexto](in-place-ediscovery-exchange-2013-help.md).
+Con la Consola de exhibición de documentos electrónicos en SharePoint, los buzones del sitio pueden formar parte del ámbito de la búsqueda de Exhibición de documentos electrónicos en contexto ya que puede realizar búsquedas de palabras clave en buzones de usuarios o en buzones del sitio. Además, puede colocar un buzón del sitio en retención legal. Para obtener más información, consulte [Exhibición de documentos electrónicos en contexto](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules).
 
 
 > [!NOTE]

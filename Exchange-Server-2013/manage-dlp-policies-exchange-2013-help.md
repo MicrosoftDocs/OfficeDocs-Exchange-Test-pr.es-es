@@ -129,5 +129,5 @@ Para obtener información acerca de la sintaxis y los parámetros, consulte [Rem
 
 [Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
-[Sugerencias de directiva](technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md)
+[Sugerencias de directiva](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-up-outlook-voice-access)
 

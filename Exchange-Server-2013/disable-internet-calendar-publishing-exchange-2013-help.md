@@ -19,7 +19,7 @@ _**Última modificación del tema:** 2014-02-15_
 
 How you disable Internet calendar publishing depends on how you enabled it. If you created a sharing policy dedicated to Internet calendar publishing, you can either disable the policy or delete it altogether. If you configured Internet calendar publishing as a sharing rule in the default sharing policy, you can just remove the sharing rule for the **Anonymous** domain.
 
-When you disable Internet calendar publishing, users who are provisioned to use the sharing policy won't be able to share calendar information with the **Anonymous** Internet domain specified in the policy. However, you can’t delete or disable a sharing policy that’s dedicated to Internet calendar publishing until all users who are provisioned to use that policy have the policy setting removed from their mailboxes. For details about changing the sharing policy setting for a user, see [Administrar los buzones de usuario](manage-user-mailboxes-exchange-2013-help.md).
+When you disable Internet calendar publishing, users who are provisioned to use the sharing policy won't be able to share calendar information with the **Anonymous** Internet domain specified in the policy. However, you can’t delete or disable a sharing policy that’s dedicated to Internet calendar publishing until all users who are provisioned to use that policy have the policy setting removed from their mailboxes. For details about changing the sharing policy setting for a user, see [Administrar los buzones de usuario](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/include-text-with-email-sent-when-voicemail-is-enabled).
 
 
 > [!NOTE]

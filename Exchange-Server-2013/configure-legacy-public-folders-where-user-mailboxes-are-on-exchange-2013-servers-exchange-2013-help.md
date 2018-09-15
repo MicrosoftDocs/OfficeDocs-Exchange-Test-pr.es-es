@@ -73,7 +73,7 @@ Los usuarios cuyos buzones se encuentran en 2013 de Exchange Server o Exchange S
 
 El último paso de este procedimiento consiste en configurar los buzones de usuario para permitir el acceso a las carpetas públicas heredadas locales.
 
-Permita que los usuarios locales de Exchange Server 2013 tengan acceso a las carpetas públicas heredadas. Para ello, apunte a todos los buzones proxy de carpetas públicas que creó en el [Step 2: Make remote public folders discoverable](configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md). Ejecute el siguiente comando desde un servidor Exchange 2013 con CU5 o una actualización posterior.
+Permita que los usuarios locales de Exchange Server 2013 tengan acceso a las carpetas públicas heredadas. Para ello, apunte a todos los buzones proxy de carpetas públicas que creó en el [Step 2: Make remote public folders discoverable](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/reduce-discovery-mailbox-size). Ejecute el siguiente comando desde un servidor Exchange 2013 con CU5 o una actualización posterior.
 
     Set-OrganizationConfig -PublicFoldersEnabled Remote -RemotePublicFolderMailboxes ProxyMailbox1,ProxyMailbox2,ProxyMailbox3
 

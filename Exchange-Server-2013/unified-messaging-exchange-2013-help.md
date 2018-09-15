@@ -267,7 +267,7 @@ La tabla siguiente contiene vínculos a temas que le ayudarán a aprender acerca
 <td><p>Más información acerca de cómo crear los operadores automáticos de mensajería unificada y administrar la configuración de los menús de navegación, los saludos y el horario comercial y el horario no comercial.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="set-up-voice-mail-for-users-exchange-2013-help.md">Configurar el correo de voz para los usuarios</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/disable-calls-from-users-who-aren-t-um-enabled">Configurar el correo de voz para los usuarios</a></p></td>
 <td><p>Infórmese sobre cómo crear y administrar directivas de buzones de mensajería unificada y cómo habilitar a usuarios para este servicio.</p></td>
 </tr>
 <tr class="odd">
@@ -275,7 +275,7 @@ La tabla siguiente contiene vínculos a temas que le ayudarán a aprender acerca
 <td><p>Infórmese sobre cómo configurar las características de cliente para permitir que los usuarios accedan y administren sus mensajes de correo de voz.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="set-outlook-voice-access-pin-security-exchange-2013-help.md">Configurar la seguridad del PIN de Outlook Voice Access</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/set-up-public-folders">Configurar la seguridad del PIN de Outlook Voice Access</a></p></td>
 <td><p>Infórmese sobre cómo establecer los requisitos de PIN para usuarios de Outlook Voice Access.</p></td>
 </tr>
 <tr class="odd">

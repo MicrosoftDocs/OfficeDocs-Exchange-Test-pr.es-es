@@ -247,7 +247,7 @@ Introducción al servicio de fax
 
 ## Configuración del servicio de fax
 
-Como opción predeterminada, cuando se instala el servidor de buzones, el servidor se configura de forma que permita que las llamadas de fax entrantes se procesen o se entreguen a un usuario habilitado para mensajería unificada. Para configurar la mensajería unificada con un servidor asociado de fax, se debe configurar la directiva de buzón de mensajería unificada y configurar la autenticación entre el servidor de buzones y el servidor asociado de fax. Para más información, consulte [Configuración de faxes entrantes](setting-up-incoming-faxing-exchange-2013-help.md).
+Como opción predeterminada, cuando se instala el servidor de buzones, el servidor se configura de forma que permita que las llamadas de fax entrantes se procesen o se entreguen a un usuario habilitado para mensajería unificada. Para configurar la mensajería unificada con un servidor asociado de fax, se debe configurar la directiva de buzón de mensajería unificada y configurar la autenticación entre el servidor de buzones y el servidor asociado de fax. Para más información, consulte [Configuración de faxes entrantes](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-the-maximum-message-duration-for-a-voice-mail-preview-partner).
 
 Introducción al servicio de fax
 

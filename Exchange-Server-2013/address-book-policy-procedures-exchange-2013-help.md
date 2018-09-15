@@ -19,7 +19,7 @@ _**Última modificación del tema:** 2012-10-11_
 
 [Crear una directiva de libreta de direcciones](https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/create-an-address-book-policy)
 
-[Asignar una directiva de libreta de direcciones a usuarios de correo](assign-an-address-book-policy-to-mail-users-exchange-2013-help.md)
+[Asignar una directiva de libreta de direcciones a usuarios de correo](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/delete-um-auto-attendant)
 
 [Cambiar la configuración de una directiva de libreta de direcciones](https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/change-the-settings-of-an-address-book-policy)
 

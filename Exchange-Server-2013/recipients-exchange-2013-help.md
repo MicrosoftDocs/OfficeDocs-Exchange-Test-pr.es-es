@@ -277,7 +277,7 @@ Para ayudarle a crear filtros de destinatario para grupos de distribución diná
 
   - Contenedor de destinatarios
 
-También puede especificar condiciones basadas en propiedades de destinatario distintas a las detalladas anteriormente. Para ello, debe usar el Shell a fin de crear una consulta personalizada para el grupo de distribución dinámico. Tenga en cuenta que los ajustes de filtro y condición para los grupos de distribución dinámicos que tienen filtros de destinatario personalizados solo se pueden administrar usando el Shell. Encontrará un ejemplo de cómo crear un grupo de distribución dinámico mediante una consulta personalizada en [Administrar grupos de distribución dinámica](manage-dynamic-distribution-groups-exchange-2013-help.md).
+También puede especificar condiciones basadas en propiedades de destinatario distintas a las detalladas anteriormente. Para ello, debe usar el Shell a fin de crear una consulta personalizada para el grupo de distribución dinámico. Tenga en cuenta que los ajustes de filtro y condición para los grupos de distribución dinámicos que tienen filtros de destinatario personalizados solo se pueden administrar usando el Shell. Encontrará un ejemplo de cómo crear un grupo de distribución dinámico mediante una consulta personalizada en [Administrar grupos de distribución dinámica](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/add-an-auto-attendant-extension-number).
 
 ## Contactos de correo
 
@@ -341,7 +341,7 @@ La tabla siguiente contiene vínculos a temas que le ayudarán a aprender acerca
 <td><p>Obtenga más información sobre cómo crear buzones de usuario con el Centro de administración de Exchange o el Shell de administración de Exchange.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-user-mailboxes-exchange-2013-help.md">Administrar los buzones de usuario</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/include-text-with-email-sent-when-voicemail-is-enabled">Administrar los buzones de usuario</a></p></td>
 <td><p>Más información acerca de cómo crear buzones de correo de usuarios, cambiar propiedades del buzón de correo y editar de forma masiva las propiedades seleccionadas de varios buzones de correo.</p></td>
 </tr>
 <tr class="odd">
@@ -349,7 +349,7 @@ La tabla siguiente contiene vínculos a temas que le ayudarán a aprender acerca
 <td><p>Más información acerca de los requisitos para los buzones de correo vinculados, cómo crear y vincularlos a una cuenta maestro, y cambiar las propiedades del buzón de correo vinculadas.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="create-and-manage-distribution-groups-exchange-2013-help.md">Crear y administrar grupos de distribución</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-users-in-a-dial-plan">Crear y administrar grupos de distribución</a></p></td>
 <td><p>Más información acerca de cómo crear y administrar grupos de distribución y crear una directiva de nomenclatura de grupo para su organización.</p></td>
 </tr>
 <tr class="odd">
@@ -357,7 +357,7 @@ La tabla siguiente contiene vínculos a temas que le ayudarán a aprender acerca
 <td><p>Más información acerca de cómo crear y administrar grupos de seguridad habilitados para correo.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-dynamic-distribution-groups-exchange-2013-help.md">Administrar grupos de distribución dinámica</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/add-an-auto-attendant-extension-number">Administrar grupos de distribución dinámica</a></p></td>
 <td><p>Más información acerca de cómo crear grupos de distribución dinámicos y administrar las propiedades del grupo de distribución dinámico, como el uso de los atributos personalizados y otras propiedades para determinar la pertenencia al grupo.</p></td>
 </tr>
 <tr class="odd">
@@ -369,11 +369,11 @@ La tabla siguiente contiene vínculos a temas que le ayudarán a aprender acerca
 <td><p>Más información acerca de cómo crear y administrar usuarios de correo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="create-and-manage-room-mailboxes-exchange-2013-help.md">Creación y administración de buzones de sala</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/forwarding-calls-procedures">Creación y administración de buzones de sala</a></p></td>
 <td><p>Más información acerca de cómo crear buzones de correo y administrar propiedades del buzón de correo de sala, como habilitar reuniones periódicas y configurar opciones de reservas y programación.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-equipment-mailboxes-exchange-2013-help.md">Administrar buzones de correo de equipamiento</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/allow-callers-without-caller-id-to-leave-voice-message">Administrar buzones de correo de equipamiento</a></p></td>
 <td><p>Más información acerca de cómo crear buzones de correo de equipos, configurar opciones de reservas y programación y administrar otras propiedades de buzones de correo.</p></td>
 </tr>
 <tr class="odd">
@@ -389,7 +389,7 @@ La tabla siguiente contiene vínculos a temas que le ayudarán a aprender acerca
 <td><p>Obtenga información sobre cómo usar filtros predefinidos o personalizados con comandos para filtrar un conjunto de destinatarios.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-permissions-for-recipients-exchange-online-help.md">Administrar permisos para los destinatarios</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/interpret-voice-mail-call-records">Administrar permisos para los destinatarios</a></p></td>
 <td><p>Obtenga información sobre cómo usar el EAC o el Shell para asignar permisos a usuarios y grupos.</p></td>
 </tr>
 <tr class="odd">

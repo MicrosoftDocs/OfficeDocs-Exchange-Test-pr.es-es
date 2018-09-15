@@ -66,7 +66,7 @@ En la siguiente tabla se ofrece una descripción general de la directiva de mens
 <tr class="even">
 <td><p>Exhibición de documentos electrónicos en contexto</p></td>
 <td><p>La exhibición de documentos electrónicos en contexto permite buscar datos en buzones en la organización de Exchange, obtener una vista previa de los resultados de la búsqueda y copiarlos en un buzón de detección.</p></td>
-<td><p><a href="in-place-ediscovery-exchange-2013-help.md">Exhibición de documentos electrónicos en contexto</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules">Exhibición de documentos electrónicos en contexto</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Registro en diario</p></td>
