@@ -29,7 +29,7 @@ Las cuotas de almacenamiento le permiten controlar el tamaño de los buzones de 
 
 Normalmente, las cuotas de almacenamiento se configuran por base de datos. Esto significa que las cuotas configuradas para una base de datos de buzones de correo se aplican a todos los buzones de correo en esa base de datos. Para obtener más información sobre cómo administrar la configuración de buzones por base de datos, consulte [Administrar bases de datos de buzones en Exchange 2013](manage-mailbox-databases-in-exchange-2013-exchange-2013-help.md).
 
-En este tema, se muestra cómo personalizar la configuración de almacenamiento para un buzón de correo específico en vez de usar la configuración de almacenamiento desde la base de datos de buzones de correo. Para otras tareas de administración relacionadas con los buzones de usuario, consulte [Administrar los buzones de usuario](manage-user-mailboxes-exchange-2013-help.md).
+En este tema, se muestra cómo personalizar la configuración de almacenamiento para un buzón de correo específico en vez de usar la configuración de almacenamiento desde la base de datos de buzones de correo. Para otras tareas de administración relacionadas con los buzones de usuario, consulte [Administrar los buzones de usuario](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/include-text-with-email-sent-when-voicemail-is-enabled).
 
 ## ¿Qué necesita saber antes de comenzar?
 

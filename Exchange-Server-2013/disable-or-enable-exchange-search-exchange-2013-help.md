@@ -21,7 +21,7 @@ De forma predeterminada, el servicio de búsqueda de Exchange está habilitado p
 
 
 > [!WARNING]
-> Deshabilitar la búsqueda de Exchange influye en las funciones y el rendimiento de las búsquedas de texto completo que hacen los usuarios con Outlook en el modo en línea o en dispositivos móviles de Windows.<BR><A href="in-place-ediscovery-exchange-2013-help.md">Exhibición de documentos electrónicos en contexto</A> también se basa en la búsqueda de Exchange. Si deshabilita la búsqueda de Exchange para una base de datos de buzones de correo o para un servidor de buzones, las búsquedas de la exhibición de documentos electrónicos en contexto no devolverán ningún mensaje de la base de datos ni del servidor.
+> Deshabilitar la búsqueda de Exchange influye en las funciones y el rendimiento de las búsquedas de texto completo que hacen los usuarios con Outlook en el modo en línea o en dispositivos móviles de Windows.<BR><A href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules">Exhibición de documentos electrónicos en contexto</A> también se basa en la búsqueda de Exchange. Si deshabilita la búsqueda de Exchange para una base de datos de buzones de correo o para un servidor de buzones, las búsquedas de la exhibición de documentos electrónicos en contexto no devolverán ningún mensaje de la base de datos ni del servidor.
 
 
 

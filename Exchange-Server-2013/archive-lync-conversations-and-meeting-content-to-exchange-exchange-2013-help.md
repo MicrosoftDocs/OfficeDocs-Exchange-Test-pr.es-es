@@ -31,7 +31,7 @@ Cuando coloca un buzón en retención por juicio, se conservan todos los tipos d
 
 Vea los temas siguientes para obtener instrucciones paso a paso para colocar un usuario en suspensión:
 
-  - [Crear o quitar una conservación local](create-or-remove-an-in-place-hold-exchange-2013-help.md)
+  - [Crear o quitar una conservación local](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/navigating-menus-with-outlook-voice-access)
 
   - [Poner un buzón en retención por juicio](place-a-mailbox-on-litigation-hold-exchange-2013-help.md)
 

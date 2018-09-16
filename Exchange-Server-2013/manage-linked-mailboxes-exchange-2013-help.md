@@ -134,7 +134,7 @@ Para comprobar si creó un buzón vinculado correctamente, siga uno de estos pro
 
 Tras crear un buzón vinculado, podrá realizar los cambios y establecer propiedades adicionales mediante el Centro de administración de Exchange (EAC) o el Shell de administración de Exchange.
 
-También puede cambiar las propiedades de varios buzones vinculados al mismo tiempo. Para obtener más información, consulte la sección, "Edición en masa de buzones de usuario" en el tema [Administrar los buzones de usuario](manage-user-mailboxes-exchange-2013-help.md).
+También puede cambiar las propiedades de varios buzones vinculados al mismo tiempo. Para obtener más información, consulte la sección, "Edición en masa de buzones de usuario" en el tema [Administrar los buzones de usuario](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/include-text-with-email-sent-when-voicemail-is-enabled).
 
 
 > [!IMPORTANT]

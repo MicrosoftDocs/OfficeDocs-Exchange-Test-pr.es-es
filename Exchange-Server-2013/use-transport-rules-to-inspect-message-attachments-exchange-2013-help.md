@@ -29,7 +29,7 @@ Puede configurar reglas de transporte para inspeccionar los datos adjuntos de co
 
   - Crear notificaciones que avisen a los usuarios si envían un mensaje que coincide con una regla de transporte.
 
-  - Bloquear todos los mensajes que contengan datos adjuntos. Para ver más ejemplos, consulte [Escenarios comunes de bloqueo de datos adjuntos](common-attachment-blocking-scenarios-for-mail-flow-rules-exchange-2013-help.md).
+  - Bloquear todos los mensajes que contengan datos adjuntos. Para ver más ejemplos, consulte [Escenarios comunes de bloqueo de datos adjuntos](https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
 Los administradores de Exchange pueden crear reglas de transporte desde el **Centro de administración de Exchange**\>**Flujo del correo**\>**Reglas**. Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento. Una vez que ha empezado a crear una nueva regla, puede consultar la lista completa de condiciones relacionadas con datos adjuntos haciendo clic en **Más opciones**\>**Cualquier adjunto** en **Aplicar esta regla si**. En el siguiente diagrama se muestran las opciones relacionadas con datos adjuntos.
 

@@ -61,7 +61,7 @@ En la siguiente tabla, se describen las acciones que están disponibles en las r
 <p><strong>Reenviar el mensaje para su aprobación</strong> &gt; <strong>a estas personas</strong></p></td>
 <td><p><em>ModerateMessageByUser</em></p></td>
 <td><p><code>Addresses</code></p></td>
-<td><p>Reenvía el mensaje a los moderadores especificados como datos adjuntos envuelto en una solicitud de aprobación. Para obtener más información, consulte <a href="common-message-approval-scenarios-exchange-2013-help.md">Escenarios comunes de aprobación de mensajes</a>. No puede utilizar un grupo de distribución como un moderador.</p></td>
+<td><p>Reenvía el mensaje a los moderadores especificados como datos adjuntos envuelto en una solicitud de aprobación. Para obtener más información, consulte <a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-for-users">Escenarios comunes de aprobación de mensajes</a>. No puede utilizar un grupo de distribución como un moderador.</p></td>
 <td><p>Exchange 2010 o posterior</p></td>
 </tr>
 <tr class="even">

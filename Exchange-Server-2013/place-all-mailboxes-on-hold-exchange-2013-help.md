@@ -111,7 +111,7 @@ En el ejemplo se usa el cmdlet [Get-Mailbox](https://technet.microsoft.com/es-es
 
 ## Poner todos los buzones en conservación local
 
-Puede usar el EAC para seleccionar hasta 500 buzones y ponerlos en retención. Para obtener información detallada, vea [Crear o quitar una conservación local](create-or-remove-an-in-place-hold-exchange-2013-help.md).
+Puede usar el EAC para seleccionar hasta 500 buzones y ponerlos en retención. Para obtener información detallada, vea [Crear o quitar una conservación local](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/navigating-menus-with-outlook-voice-access).
 
 
 > [!TIP]

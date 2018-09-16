@@ -104,7 +104,7 @@ En la tabla siguiente se describen los objetos de destinatario que se encuentran
 </tr>
 <tr class="even">
 <td><p>DynamicDistributionGroup</p></td>
-<td><p>Un objeto que tiene la clase <strong>msExchDynamicDistributionList</strong> de Active Directory. Para obtener más información, vea <a href="manage-dynamic-distribution-groups-exchange-2013-help.md">Administrar grupos de distribución dinámica</a>.</p></td>
+<td><p>Un objeto que tiene la clase <strong>msExchDynamicDistributionList</strong> de Active Directory. Para obtener más información, vea <a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/add-an-auto-attendant-extension-number">Administrar grupos de distribución dinámica</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Mailbox</p></td>

@@ -107,7 +107,7 @@ Para obtener más información acerca de cómo instalar Exchange 2013, consulte
     
     A partir de Exchange 2013 CU6, si desea que los remitentes externos envíen correo a carpetas públicas habilitadas para correo, se debe conceder al menos el permiso **Crear elementos** al usuario **Anónimo**. Si ha configurado las carpetas públicas habilitadas para correo y no ha hecho esto, los remitentes externos recibirán una notificación de error de entrega y no se entregarán los mensajes a la carpeta pública habilitada para correo.
     
-    Puede usar el Shell o Outlook para establecer los permisos para el usuario Anónimo. Para leer más sobre cómo establecer permisos en el usuario Anónimo, consulte [Habilitar o deshabilitar el correo para una carpeta pública](mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md).
+    Puede usar el Shell o Outlook para establecer los permisos para el usuario Anónimo. Para leer más sobre cómo establecer permisos en el usuario Anónimo, consulte [Habilitar o deshabilitar el correo para una carpeta pública](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/change-audio-codec).
 
   - El número máximo de carpetas públicas que se pueden migrar a Exchange 2013 desde los servidores de Exchange heredados es 500.000. Para obtener más información acerca de la migración de carpetas públicas, consulte [Usar migración por lotes para migrar carpetas públicas a Exchange 2013 desde versiones anteriores](use-batch-migration-to-migrate-public-folders-to-exchange-2013-from-previous-versions-exchange-2013-help.md).
 

@@ -41,7 +41,7 @@ Receiving faxes
 
 ## Outlook Voice Access
 
-En la mensajería unificada de Exchange, un usuario habilitado para la mensajería unificada puede llamar a un número de teléfono interno o externo configurado en un plan de marcado de MU para obtener acceso a su buzón de correo y usar el sistema de menús de Outlook Voice Access. Gracias a este menú, dichos usuarios pueden leer su correo electrónico, escuchar los mensajes de voz, interactuar con su calendario de Outlook, tener acceso a sus contactos personales y realizar tareas tales como configurar su PIN de Outlook Voice Access o grabar saludos de correo de voz. Para obtener información más detallada, consulte [Configuración de Outlook Voice Access](setting-up-outlook-voice-access-exchange-2013-help.md).
+En la mensajería unificada de Exchange, un usuario habilitado para la mensajería unificada puede llamar a un número de teléfono interno o externo configurado en un plan de marcado de MU para obtener acceso a su buzón de correo y usar el sistema de menús de Outlook Voice Access. Gracias a este menú, dichos usuarios pueden leer su correo electrónico, escuchar los mensajes de voz, interactuar con su calendario de Outlook, tener acceso a sus contactos personales y realizar tareas tales como configurar su PIN de Outlook Voice Access o grabar saludos de correo de voz. Para obtener información más detallada, consulte [Configuración de Outlook Voice Access](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/delete-um-hunt-group).
 
 ## Reenvío de llamadas
 
@@ -49,7 +49,7 @@ Un usuario habilitado para la mensajería unificada puede crear y configurar reg
 
 ## Vista previa del correo de voz
 
-La vista previa del correo de voz es una característica disponible para los usuarios que reciben mensajes de voz del sistema de correo de voz de la mensajería unificada. La vista previa del correo de voz mejora la experiencia de correo de voz, ya que proporciona una versión de texto de las grabaciones sonoras. Para obtener información detallada, consulte [Permitir a los usuarios ver una transcripción de correo de voz](allow-users-to-see-a-voice-mail-transcript-exchange-2013-help.md).
+La vista previa del correo de voz es una característica disponible para los usuarios que reciben mensajes de voz del sistema de correo de voz de la mensajería unificada. La vista previa del correo de voz mejora la experiencia de correo de voz, ya que proporciona una versión de texto de las grabaciones sonoras. Para obtener información detallada, consulte [Permitir a los usuarios ver una transcripción de correo de voz](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-missed-call-notifications).
 
 ## Recepción de faxes
 

@@ -205,7 +205,7 @@ Cuando utilice las ABP en su organización, considere lo siguiente:
 
   - No ejecute el rol de servidor de acceso de cliente de Exchange 2010 en el servidor de catálogo global. Si realiza esto, se usa Active Directory para la interfaz del proveedor de servicio de nombres (NSPI), en lugar del servicio de libreta de direcciones de Microsoft Exchange. Puede ejecutar los roles de servidor de Exchange 2013 en un servidor de catálogo global y lograr que las ABP funcionen correctamente; sin embargo, no se recomienda instalar Exchange en un controlador de dominio.
 
-  - No se puede usar la libreta jerárquica de direcciones (LJD) y las ABP de manera simultánea. Para obtener más información, consulte [Libretas de direcciones jerárquicas](hierarchical-address-books-exchange-2013-help.md).
+  - No se puede usar la libreta jerárquica de direcciones (LJD) y las ABP de manera simultánea. Para obtener más información, consulte [Libretas de direcciones jerárquicas](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-to-see-a-voice-mail-transcript).
 
   - Los usuarios con ABP asignadas deben existir en su propia LGD.
 
@@ -329,5 +329,5 @@ En este ejemplo se asigna ABP\_FAB a todos los buzones donde CustomAttribute15 e
 
     Get-Mailbox -resultsize unlimited | where {$_.CustomAttribute15 -eq "TAIL"} | Set-Mailbox -AddressBookPolicy "ABP_TAIL"
 
-Para obtener más información, consulte [Asignar una directiva de libreta de direcciones a usuarios de correo](assign-an-address-book-policy-to-mail-users-exchange-2013-help.md).
+Para obtener más información, consulte [Asignar una directiva de libreta de direcciones a usuarios de correo](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/delete-um-auto-attendant).
 

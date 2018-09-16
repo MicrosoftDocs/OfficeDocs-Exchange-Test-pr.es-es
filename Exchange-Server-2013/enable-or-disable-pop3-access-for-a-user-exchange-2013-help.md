@@ -25,7 +25,7 @@ Puede habilitar o deshabilitar POP3 para un usuario.
 
 
 
-Para obtener más información acerca de la administración de buzones de usuario, vea [Administrar los buzones de usuario](manage-user-mailboxes-exchange-2013-help.md).
+Para obtener más información acerca de la administración de buzones de usuario, vea [Administrar los buzones de usuario](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/include-text-with-email-sent-when-voicemail-is-enabled).
 
 Para obtener más información acerca de POP3 e IMAP4, vea [POP3 e IMAP4 en Exchange Server 2013](pop3-and-imap4-in-exchange-server-2013-exchange-2013-help.md).
 

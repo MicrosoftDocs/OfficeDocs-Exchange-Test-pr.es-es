@@ -25,13 +25,13 @@ Para obtener información acerca de las reglas de flujo de correo en Exchange On
 
 Puede usar el Centro de administración de Exchange (EAC) o el Shell de administración de Exchange para administrar las reglas de flujo de correo. Para obtener instrucciones sobre cómo administrar las reglas de transporte, consulte [Administrar reglas de flujo de correo](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
-Para cada regla, tiene la posibilidad de aplicarla, probarla o probarla y notificar al remitente. Para obtener más información sobre las opciones de prueba, consulte [Probar una regla de flujo de correo](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules) y [Sugerencias de directiva](technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md).
+Para cada regla, tiene la posibilidad de aplicarla, probarla o probarla y notificar al remitente. Para obtener más información sobre las opciones de prueba, consulte [Probar una regla de flujo de correo](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules) y [Sugerencias de directiva](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-up-outlook-voice-access).
 
 Para implementar directivas de mensajería específicas mediante el uso de reglas de flujo de correo, vea estos temas:
 
   - [Usar reglas de transporte para inspeccionar datos adjuntos de mensajes](use-transport-rules-to-inspect-message-attachments-exchange-2013-help.md)
 
-  - [Escenarios comunes de bloqueo de datos adjuntos](common-attachment-blocking-scenarios-for-mail-flow-rules-exchange-2013-help.md)
+  - [Escenarios comunes de bloqueo de datos adjuntos](https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder)
 
   - [Avisos de declinación de responsabilidades, firmas, pies de página o encabezados en toda la organización](organization-wide-disclaimers-signatures-footers-or-headers-exchange-online-help.md)
 
@@ -39,7 +39,7 @@ Para implementar directivas de mensajería específicas mediante el uso de regla
 
   - [Usar reglas de flujo de correo para enrutar el correo electrónico en función de una lista de palabras, expresiones o patrones](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/use-rules-to-route-email)
 
-  - [Escenarios comunes de aprobación de mensajes](common-message-approval-scenarios-exchange-2013-help.md)
+  - [Escenarios comunes de aprobación de mensajes](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-for-users)
 
 ## Componentes de las reglas de flujo de correo
 
@@ -137,7 +137,7 @@ En la tabla siguiente se describen las propiedades de regla que están disponibl
 <td><p><strong>Modo</strong></p></td>
 <td><p><em>Mode</em></p></td>
 <td><p>Puede especificar si quiere que la regla inicie el procesamiento de mensajes inmediatamente o si quiere probar las reglas sin afectar a la entrega del mensaje (con o sin sugerencias de directiva de prevención de pérdida de datos o DLP).</p>
-<p>Mediante las sugerencias de directiva, se muestra una nota breve en Outlook o en Outlook en la web que ofrece información sobre posibles infracciones de la directiva al usuario que crea el mensaje. Para obtener más información, consulte <a href="technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md">Sugerencias de directiva</a>.</p>
+<p>Mediante las sugerencias de directiva, se muestra una nota breve en Outlook o en Outlook en la web que ofrece información sobre posibles infracciones de la directiva al usuario que crea el mensaje. Para obtener más información, consulte <a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-up-outlook-voice-access">Sugerencias de directiva</a>.</p>
 <p>Para obtener más información acerca de los modos, consulte <a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules">Probar una regla de flujo de correo</a>.</p></td>
 </tr>
 <tr class="odd">
