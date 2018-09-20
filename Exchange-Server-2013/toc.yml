@@ -1469,7 +1469,7 @@
         - name: Actualizar la libreta de direcciones sin conexión
           href: https://docs.microsoft.com/es-es/exchange/address-books/offline-address-books/update-offline-address-book
         - name: Crear un directorio virtual de la libreta de direcciones sin conexión
-          href: create-an-offline-address-book-virtual-directory-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/address-books/offline-address-books/create-virtual-directory
         - name: Cambiar el programa de generación de libretas de direcciones sin conexión
           href: https://docs.microsoft.com/es-es/exchange/address-books/offline-address-books/change-address-book-generation-schedule
         - name: Configurar propiedades de distribución de libreta de direcciones sin conexión
@@ -2149,7 +2149,7 @@
             - name: Establecer el retardo máximo de entrega para un socio de la vista previa del correo de voz
               href: set-the-maximum-delivery-delay-for-a-voice-mail-preview-partner-exchange-2013-help.md
           - name: Habilitar vista previa de correo de voz para los usuarios
-            href: enable-voice-mail-preview-for-users-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/common-message-approval-scenarios
           - name: Deshabilitar la vista previa del correo de voz para usuarios
             href: disable-voice-mail-preview-for-users-exchange-2013-help.md
       - name: Permitir que los usuarios de correo de voz reciban faxes
