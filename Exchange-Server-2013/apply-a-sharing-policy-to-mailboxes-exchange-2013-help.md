@@ -63,11 +63,15 @@ To learn more about federated sharing, see [Uso compartido](sharing-exchange-201
 
 This example applies the sharing policy Contoso to a single mailbox for the user Barbara.
 
-    Set-Mailbox -Identity Barbara -SharingPolicy "Contoso"
+```powershell
+Set-Mailbox -Identity Barbara -SharingPolicy "Contoso"
+```
 
 This example specifies that all user mailboxes in the Marketing department use the sharing policy Contoso Marketing.
 
-    Get-Mailbox -Filter {Department -eq "Marketing"} | Set-Mailbox -SharingPolicy "Contoso Marketing"
+```powershell
+Get-Mailbox -Filter {Department -eq "Marketing"} | Set-Mailbox -SharingPolicy "Contoso Marketing"
+```
 
 This example returns all mailboxes that have the sharing policy Contoso applied, and it sorts the users into a table that displays only their aliases and email addresses.
 
@@ -83,7 +87,9 @@ To verify that you have successfully applied the sharing policy to a user mailbo
 
   - Run the following Shell command to verify the sharing policy was assigned to a user mailbox. Verify that the correct sharing policy is listed in the *SharingPolicy* parameter.
     
-        Get-Mailbox <user name> | format-list
+    ```powershell
+Get-Mailbox <user name> | format-list
+```
 
 
 > [!TIP]

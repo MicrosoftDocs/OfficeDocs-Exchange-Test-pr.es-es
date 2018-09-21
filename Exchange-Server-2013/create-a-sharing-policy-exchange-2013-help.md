@@ -109,7 +109,9 @@ Puede editar la directiva de uso compartido predeterminada para permitir que tod
 
   - En este ejemplo se crea la directiva de uso compartido Contoso para el dominio federado externo contoso.com. Esta directiva permite que los usuarios del dominio contoso.com vean la información detallada sobre la disponibilidad (disponible/no disponible) de su usuario. Esta directiva está habilitada de modo predeterminado.
     
-        New-SharingPolicy -Name "Contoso" -Domains contoso.com: CalendarSharingFreeBusyDetail
+    ```powershell
+New-SharingPolicy -Name "Contoso" -Domains contoso.com: CalendarSharingFreeBusyDetail
+```
 
   - En este ejemplo se crea la directiva de uso compartido ContosoWoodgrove para dos dominios federados distintos (contoso.com y woodgrovebank.com) con acciones de uso compartido diferentes configuradas para cada dominio. La directiva está deshabilitada.
     
@@ -119,7 +121,9 @@ Puede editar la directiva de uso compartido predeterminada para permitir que tod
     
     1.  Establezca la dirección URL del proxy web para MAIL01.
         
-            Set-ExchangeServer -Identity "Mail01" -InternetWebProxy "<Webproxy URL>"
+        ```powershell
+Set-ExchangeServer -Identity "Mail01" -InternetWebProxy "<Webproxy URL>"
+```
     
     2.  Habilite el directorio virtual de publicación en CAS01.
         
@@ -141,7 +145,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para comprobar que la directiva de uso compartido se creó correctamente, ejecute el siguiente comando del Shell para comprobar la información de directiva de uso compartido.
 
-    Get-SharingPolicy <policy name> | format-list
+```powershell
+Get-SharingPolicy <policy name> | format-list
+```
 
 
 > [!TIP]

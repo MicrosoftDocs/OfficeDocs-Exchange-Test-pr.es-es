@@ -39,7 +39,9 @@ Puede usar el Shell de administración de Exchange para configurar varios parám
 
 Use el cmdlet **Set-OrganizationConfig** para habilitar o deshabilitar sugerencias de correo electrónico en su organización. Las sugerencias de correo electrónico están habilitadas de forma predeterminada cuando instala una nueva organización de Exchange. En este ejemplo, se muestra cómo habilitar sugerencias de correo electrónico en su organización.
 
-    Set-OrganizationConfig -MailTipsAllTipsEnabled $true
+```powershell
+Set-OrganizationConfig -MailTipsAllTipsEnabled $true
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-OrganizationConfig](https://technet.microsoft.com/es-es/library/aa997443\(v=exchg.150\)).
 

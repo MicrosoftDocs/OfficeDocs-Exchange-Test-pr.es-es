@@ -87,7 +87,9 @@ Cuando esté listo, haga lo siguiente para ampliar el esquema de Active Director
 
 3.  Para extender el esquema, ejecute el comando siguiente.
     
-        Setup.exe /PrepareSchema /IAcceptExchangeServerLicenseTerms
+    ```powershell
+Setup.exe /PrepareSchema /IAcceptExchangeServerLicenseTerms
+```
 
 Cuando el programa de instalación termine de extender el esquema, deberá esperar mientras Active Directory replica los cambios a todos los controladores de dominio. Si quiere comprobar el estado de la replicación, puede usar la herramienta `repadmin`. `Repadmin` forma parte de la característica Herramientas de los Servicios de dominio de Active Directory en Windows Server 2012 R2, Windows Server 2012 y Windows Server 2008 R2. Para obtener más información sobre cómo usarla, vea [Repadmin](https://go.microsoft.com/fwlink/p/?linkid=257879).
 
@@ -149,7 +151,9 @@ Cuando esté listo, haga lo siguiente para preparar todos los dominios en el bos
 
 2.  Ejecute el comando siguiente:
     
-        Setup.exe /PrepareAllDomains /IAcceptExchangeServerLicenseTerms
+    ```powershell
+Setup.exe /PrepareAllDomains /IAcceptExchangeServerLicenseTerms
+```
 
 ## Elegir los dominios de Active Directory que deben prepararse
 

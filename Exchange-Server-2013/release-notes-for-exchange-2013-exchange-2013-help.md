@@ -131,7 +131,9 @@ Para obtener más información acerca de cómo instalar Exchange 2013, consulte
     
     2.  Ejecute el siguiente comando.
         
-            Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
+        ```powershell
+Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
+```
     
     3.  Realice las tareas de administración del agente de transporte de la forma habitual.
     

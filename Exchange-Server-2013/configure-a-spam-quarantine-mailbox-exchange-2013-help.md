@@ -43,11 +43,15 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 
 1.  Ejecute el comando siguiente para comprobar que el agente de filtro de contenido está instalado y habilitado en el servidor de Exchange:
     
-        Get-TransportAgent "Content Filter Agent"
+    ```powershell
+Get-TransportAgent "Content Filter Agent"
+```
 
 2.  Ejecute el comando siguiente para verificar que el filtrado de contenido está habilitado:
     
-        Get-ContentFilterConfig | Format-List Enabled
+    ```powershell
+Get-ContentFilterConfig | Format-List Enabled
+```
 
 Para obtener más información, consulte [Administrar el filtrado de contenido](manage-content-filtering-exchange-2013-help.md).
 
@@ -75,11 +79,15 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 
 Ejecute el siguiente comando:
 
-    Set-ContentFilterConfig -QuarantineMailbox <SmtpAddress>
+```powershell
+Set-ContentFilterConfig -QuarantineMailbox <SmtpAddress>
+```
 
 En este ejemplo, todos los mensajes que superen el umbral de cuarentena de correo no deseado se envían a spamQ@contoso.com.
 
-    Set-ContentFilterConfig -QuarantineMailbox spamQ@contoso.com
+```powershell
+Set-ContentFilterConfig -QuarantineMailbox spamQ@contoso.com
+```
 
 ## ¿Cómo sabe si este paso se ha completado correctamente?
 
@@ -87,7 +95,9 @@ Para comprobar que ha especificado correctamente el buzón de cuarentena de corr
 
 1.  Ejecute el siguiente comando:
     
-        Get-ContentFilterConfig | Format-List QuarantineMailbox
+    ```powershell
+Get-ContentFilterConfig | Format-List QuarantineMailbox
+```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 

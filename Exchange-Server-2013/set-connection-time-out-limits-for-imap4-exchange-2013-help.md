@@ -61,11 +61,15 @@ Una vez definidos los límites de tiempo de espera de conexión para IMAP4, debe
 
 En este ejemplo, se define el límite de tiempo de espera de conexión para conexiones inactivas autenticadas.
 
-    Set -ImapSettings -Identity CAS01 -AuthenticatedConnectionTimeout TimeValue
+```powershell
+Set -ImapSettings -Identity CAS01 -AuthenticatedConnectionTimeout TimeValue
+```
 
 En este ejemplo, se define el límite de tiempo de espera de conexión para conexiones inactivas no autenticadas.
 
-    Set -ImapSettings -Identity CAS01 -PreAuthenticatedConnectionTimeout TimeValue
+```powershell
+Set -ImapSettings -Identity CAS01 -PreAuthenticatedConnectionTimeout TimeValue
+```
 
 Una vez definidos los límites de tiempo de espera de conexión para IMAP4, debe reiniciar los servicios IMAP4 para que la configuración surta efecto. Para obtener más información acerca de cómo reiniciar los servicios IMAP4, consulte [Iniciar y detener los servicios IMAP4](start-and-stop-the-imap4-services-exchange-2013-help.md).
 
@@ -89,7 +93,9 @@ O bien
 
 1.  Ejecute el siguiente comando en el Shell.
     
-        Get-ImapSettings | format-list
+    ```powershell
+Get-ImapSettings | format-list
+```
 
 2.  Compruebe que la configuración de la conexión sea correcta.
 

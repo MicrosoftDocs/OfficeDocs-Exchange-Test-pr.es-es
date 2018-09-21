@@ -73,7 +73,9 @@ Para comprobar que la reconfiguración de direcciones se habilitó o deshabilit�
 
 1.  Ejecute el siguiente comando:
     
-        Get-TransportAgent
+    ```powershell
+Get-TransportAgent
+```
 
 2.  Compruebe que los valores de la propiedad **Enabled** del agente de reconfiguración de direcciones de entrada y del agente de reconfiguración de direcciones de salida son los valores que ha configurado.
 
@@ -81,15 +83,21 @@ Para comprobar que la reconfiguración de direcciones se habilitó o deshabilit�
 
 Para ver una lista de resumen de todas las entradas de reconfiguración de direcciones, ejecute el siguiente comando.
 
-    Get-AddressRewriteEntry
+```powershell
+Get-AddressRewriteEntry
+```
 
 To view details of an address rewrite entry, use the following syntax.
 
-    Get-AddressRewriteEntry <AddressRewriteEntryIdentity> | Format-List
+```powershell
+Get-AddressRewriteEntry <AddressRewriteEntryIdentity> | Format-List
+```
 
 El ejemplo siguiente muestra los detalles de la entrada de reconfiguración de direcciones llamada Rewrite Contoso.com to Northwindtraders.com:
 
-    Get-AddressRewriteEntry "Rewrite Contoso.com to Northwindtraders.com" | Format-List
+```powershell
+Get-AddressRewriteEntry "Rewrite Contoso.com to Northwindtraders.com" | Format-List
+```
 
 ## Usar el Shell para crear entradas de reconfiguración de direcciones
 
@@ -171,7 +179,9 @@ Para modificar una entrada de reconfiguración de direcciones que reconfigura la
 
 El ejemplo siguiente cambia el valor de la dirección interna de la entrada de reconfiguración de direcciones de dominio único llamada "Northwind Traders to Contoso".
 
-    Set-AddressRewriteEntry "Northwindtraders to Contoso" -InternalAddress northwindtraders.net
+```powershell
+Set-AddressRewriteEntry "Northwindtraders to Contoso" -InternalAddress northwindtraders.net
+```
 
 ## Modificar entradas de reconfiguración de direcciones para destinatarios en varios subdominios
 
@@ -209,11 +219,15 @@ Para comprobar que ha modificado correctamente una entrada de reconfiguración d
 
 Para quitar una única entrada de reconfiguración de direcciones, use la siguiente sintaxis:
 
-    Remove-AddressRewriteEntry <AddressRewriteEntryIdentity>
+```powershell
+Remove-AddressRewriteEntry <AddressRewriteEntryIdentity>
+```
 
 El ejemplo siguiente quita la entrada de reconfiguración de direcciones llamada "Contoso.com to Northwindtraders.com":
 
-    Remove-AddressRewriteEntry "Contoso.com to Northwindtraders.com"
+```powershell
+Remove-AddressRewriteEntry "Contoso.com to Northwindtraders.com"
+```
 
 Para quitar varias entradas de reconfiguración de direcciones, use la siguiente sintaxis:
 
@@ -221,7 +235,9 @@ Para quitar varias entradas de reconfiguración de direcciones, use la siguiente
 
 El ejemplo siguiente quita todas las entradas de reconfiguración de direcciones:
 
-    Get-AddressRewriteEntry | Remove-AddressRewriteEntry
+```powershell
+Get-AddressRewriteEntry | Remove-AddressRewriteEntry
+```
 
 El ejemplo siguiente simula la eliminación de las entradas de reconfiguración de direcciones que contienen el texto "to contoso.com" en el nombre. El modificador *WhatIf* permite ver previamente el resultado sin confirmar los cambios.
 

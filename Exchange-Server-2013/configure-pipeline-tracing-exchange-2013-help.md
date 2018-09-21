@@ -51,11 +51,15 @@ Use la siguiente sintaxis para configurar la dirección del remitente de seguimi
 
 En este ejemplo se configura el seguimiento de canalización para hacer capturas de pantalla de todos los mensajes enviados por el remitente chris@contoso.com en el servicio de transporte del servidor de buzones Mailbox01.
 
-    Set-TransportService Mailbox01 -PipelineTracingSenderAddress chris@contoso.com
+```powershell
+Set-TransportService Mailbox01 -PipelineTracingSenderAddress chris@contoso.com
+```
 
 En este ejemplo se configura el seguimiento de canalización para hacer capturas de pantalla de todos los mensajes generados por el sistema que ha recibido el servicio de transporte del servidor de buzones Mailbox02.
 
-    Set-TransportService Mailbox02 -PipelineTracingSenderAddress "<>"
+```powershell
+Set-TransportService Mailbox02 -PipelineTracingSenderAddress "<>"
+```
 
 
 > [!WARNING]
@@ -73,7 +77,9 @@ Use la siguiente sintaxis para configurar la carpeta de seguimiento de canalizac
 
 En este ejemplo se especifica la carpeta de seguimiento de canalización para el servicio de transporte del servidor de buzones Mailbox01 en D:\\Hub\\Pipeline Tracing.
 
-    Set-TransportService Mailbox01 -PipelineTracingPath "D:\Hub\Pipeline Tracing"
+```powershell
+Set-TransportService Mailbox01 -PipelineTracingPath "D:\Hub\Pipeline Tracing"
+```
 
 ## Paso 3: Utilice el Shell para habilitar el seguimiento de canalización
 
@@ -85,7 +91,9 @@ Utilice la siguiente sintaxis para habilitar el seguimiento de canalización.
 
 En este ejemplo se permite el seguimiento de canalización del servicio de transporte en el servidor de buzones Mailbox01.
 
-    Set-TransportService Mailbox01 -PipelineTracingEnabled $true
+```powershell
+Set-TransportService Mailbox01 -PipelineTracingEnabled $true
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -109,7 +117,9 @@ Use la siguiente sintaxis para deshabilitar el seguimiento de canalización.
 
 En este ejemplo se deshabilita el seguimiento de canalización del servicio de transporte en el servidor de buzones Mailbox01.
 
-    Set-TransportService Mailbox01 -PipelineTracingEnabled $false
+```powershell
+Set-TransportService Mailbox01 -PipelineTracingEnabled $false
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

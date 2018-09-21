@@ -112,11 +112,15 @@ Utilice el siguiente procedimiento para habilitar la compatibilidad de los agent
 
 1.  En la ventana del símbolo del sistema, en el servidor Exchange 2013 donde quiere configurar la compatibilidad del agente de transporte heredado, abra el archivo de configuración de la aplicación adecuada en el Bloc de notas ejecutando el siguiente comando:
     
-        Notepad %ExchangeInstallPath%Bin\<AppConfigFile>
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\<AppConfigFile>
+```
     
     Por ejemplo, para abrir el archivo EdgeTransport.exe.config en un servidor de buzones de correo, ejecute el siguiente comando:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 2.  Busque la clave *\</configuration\>* al final del archivo y copie las siguientes claves antes de la clave *\</configuration\>*:
     

@@ -83,11 +83,15 @@ Ahora ya puede realizar este paso de manera segura, ya que el registro TXT de pr
 
 1.  Encontrará los valores necesarios para el registro TXT necesario ejecutando el siguiente comando en el Shell de administración de Exchange:
     
-        Get-FederatedDomainProof -DomainName <Domain> | Format-List Thumbprint,Proof
+    ```powershell
+Get-FederatedDomainProof -DomainName <Domain> | Format-List Thumbprint,Proof
+```
     
     Por ejemplo, si su dominio federado es contoso.com, ejecute el comando siguiente:
     
-        Get-FederatedDomainProof -DomainName contoso.com | Format-List Thumbprint,Proof
+    ```powershell
+Get-FederatedDomainProof -DomainName contoso.com | Format-List Thumbprint,Proof
+```
     
     El resultado del comando tiene este aspecto:
     
@@ -117,7 +121,9 @@ Para utilizar el Shell de administración de Exchange para comprobar la distribu
 
 Para utilizar el Shell de administración de Exchange para activar el nuevo certificado de federación, ejecute el siguiente comando:
 
-    Set-FederationTrust -Identity "Microsoft Federation Gateway" -PublishFederationCertificate
+```powershell
+Set-FederationTrust -Identity "Microsoft Federation Gateway" -PublishFederationCertificate
+```
 
 Para obtener información detallada sobre la sintaxis y los parámetros, consulte [Set-FederationTrust](https://technet.microsoft.com/es-es/library/dd298034\(v=exchg.150\)).
 
@@ -137,7 +143,9 @@ Para comprobar que ha actualizado correctamente la confianza de federación exis
 
   - En el Shell de administración de Exchange, reemplace *\<user's email address\>* con la dirección de correo electrónico de un usuario de su organización y ejecute el siguiente comando para comprobar que funciona la confianza de federación:
     
-        Test-FederationTrust -UserIdentity <user's email address>
+    ```powershell
+Test-FederationTrust -UserIdentity <user's email address>
+```
 
 ## Reemplazar un certificado de federación expirado
 
@@ -145,21 +153,29 @@ Si el certificado de federación ya ha expirado, debe quitar todos los dominios 
 
 1.  Si tiene varios dominios federados, deberá identificar el dominio compartido del dominio principal para quitarlo en último lugar. Para utilizar el Shell de administración de Exchange para identificar el dominio compartido principal y todos los dominios federados, ejecute el siguiente comando:
     
-        Get-FederatedOrganizationIdentifier | Format-List AccountNamespace,Domains
+    ```powershell
+Get-FederatedOrganizationIdentifier | Format-List AccountNamespace,Domains
+```
     
     El valor de la propiedad **AccountNamespace** contiene el dominio compartido principal con el formato `FYDIBOHF25SPDLT<primary shared domain>`. Por ejemplo, en el valor `FYDIBOHF25SPDLT.contoso.com`, contoso.com es el dominio compartido principal.
 
 2.  Quite todos los dominios federados que no sean el dominio compartido principal ejecutando el siguiente comando en el Shell de administración de Exchange:
     
-        Remove-FederatedDomain -DomainName <domain> -Force
+    ```powershell
+Remove-FederatedDomain -DomainName <domain> -Force
+```
 
 3.  Una vez que haya quitado el resto de dominios federados, quite el dominio compartido principal ejecutando el siguiente comando en el Shell de administración de Exchange:
     
-        Remove-FederatedDomain -DomainName <domain> -Force
+    ```powershell
+Remove-FederatedDomain -DomainName <domain> -Force
+```
 
 4.  Quite la confianza de federación ejecutando el siguiente comando en el Shell de administración de Exchange:
     
-        Remove-FederationTrust "Microsoft Federation Gateway"
+    ```powershell
+Remove-FederationTrust "Microsoft Federation Gateway"
+```
 
 5.  Vuelva a crear la confianza de federación. Para obtener instrucciones, consulte [Crear una confianza de federación](https://technet.microsoft.com/es-es/library/dd335198\(v=exchg.150\)).
 

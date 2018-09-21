@@ -40,7 +40,9 @@ El siguiente ejemplo muestra el uso del parámetro *Identity* mediante el valor 
 
 Como todos los objetos en Exchange 2013, este conector de recepción también se puede referir a su único GUID. Por ejemplo, si el conector de recepción llamado `"From the Internet"` también se asigna al GUID `63d64005-42c5-4f8f-b310-14f6cb125bf3`, también puede recuperar el conector de recepción mediante el siguiente comando:
 
-    Get-ReceiveConnector 63d64005-42c5-4f8f-b310-14f6cb125bf3
+```powershell
+Get-ReceiveConnector 63d64005-42c5-4f8f-b310-14f6cb125bf3
+```
 
 Volver al principio
 
@@ -66,11 +68,15 @@ Los ejemplos descritos en este tema ilustran cómo el parámetro *Identity* pued
 
 Los ejemplos de esta sección se refieren a los mensajes de notificación de estado de entrega (DSN) que se pueden configurar en una organización de Exchange 2013. El primer ejemplo muestra cómo recuperar el DSN 5.4.1 mediante el cmdlet **Get-SystemMessage**. En el cmdlet **Get-SystemMessage**, el parámetro *Identity* consta de varios datos que se configuran en cada objeto de mensaje de DSN. Estos datos incluyen el idioma en el que está escrito el DSN, si su ámbito es interno o externo y su código de mensaje de DSN, como en el siguiente ejemplo:
 
-    Get-SystemMessage en\internal\5.4.1
+```powershell
+Get-SystemMessage en\internal\5.4.1
+```
 
 También se puede recuperar este mensaje de DSN mediante su GUID como en el siguiente ejemplo, porque todos los objetos en Exchange 2013 tienen un GUID:
 
-    Get-SystemMessage 82ca7bde-1c2d-4aa1-97e1-f298a6f10222
+```powershell
+Get-SystemMessage 82ca7bde-1c2d-4aa1-97e1-f298a6f10222
+```
 
 Para obtener más información sobre la composición del parámetro *Identity* cuando se utiliza con los cmdlets **SystemMessage**, consulte [Identidad de mensajes DSN](dsn-message-identity-exchange-2013-help.md).
 
@@ -78,7 +84,9 @@ Para obtener más información sobre la composición del parámetro *Identity* c
 
 Los ejemplos de esta sección hacen referencia a las entradas de función de administración que componen las funciones de administración de Exchange 2013. Las funciones de administración se usan para controlar los permisos que se conceden a los administradores y usuarios finales. Las entradas de funciones de administración se componen de dos partes: la función de administración a la que están asociadas y un cmdlet. Del mismo modo, el parámetro Identity se compone tanto del nombre de la función de administración como del nombre de cmdlet. Por ejemplo, a continuación se incluye la entrada de rol del cmdlet **Set-Mailbox** en el rol `Mail Recipients`:
 
-    Mail Recipients\Set-Mailbox
+```powershell
+Mail Recipients\Set-Mailbox
+```
 
 La entrada del rol `Mail Recipients\Set-Mailbox` es una de las varias entradas en el rol `Mail Recipients`. Para ver todas las entradas de rol en el rol `Mail Recipients`, puede utilizar el siguiente comando:
 

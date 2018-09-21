@@ -65,7 +65,9 @@ Se sabe que este paso se realizó correctamente si el script se ejecuta sin erro
 
 Ejecute el siguiente comando:
 
-    Restart-Service MSExchangeTransport
+```powershell
+Restart-Service MSExchangeTransport
+```
 
 ## ¿Cómo sabe si este paso se ha completado correctamente?
 
@@ -77,11 +79,15 @@ Debe especificar las direcciones IP de los servidores SMTP internos que el agent
 
 Para agregar las direcciones IP de los servidores SMTP internos sin que afecte a los valores existentes, ejecute el siguiente comando:
 
-    Set-TransportConfig -InternalSMTPServers @{Add="<ip address1>","<ip address2>"...}
+```powershell
+Set-TransportConfig -InternalSMTPServers @{Add="<ip address1>","<ip address2>"...}
+```
 
 En este ejemplo siguiente se agregan las direcciones del servidor SMTP interno 10.0.1.10 y 10.0.1.11 a la configuración de transporte de su organización.
 
-    Set-TransportConfig -InternalSMTPServers @{Add="10.0.1.10","10.0.1.11"}
+```powershell
+Set-TransportConfig -InternalSMTPServers @{Add="10.0.1.10","10.0.1.11"}
+```
 
 ## ¿Cómo sabe si este paso se ha completado correctamente?
 
@@ -89,7 +95,9 @@ Para comprobar que especificó la dirección IP de al menos un servidor SMTP int
 
 1.  Ejecute el siguiente comando:
     
-        Get-TransportConfig | Format-List InternalSMTPServers
+    ```powershell
+Get-TransportConfig | Format-List InternalSMTPServers
+```
 
 2.  Compruebe que aparece la dirección IP de al menos un servidor SMTP interno válido.
 

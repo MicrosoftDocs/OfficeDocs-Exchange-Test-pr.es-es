@@ -41,11 +41,15 @@ Asignaciones de funciones de administración asignan una función de administrac
 
 Si conoce el nombre del que desea quitar la asignación de funciones, utilice la sintaxis siguiente.
 
-    Remove-ManagementRoleAssignment <assignment name>
+```powershell
+Remove-ManagementRoleAssignment <assignment name>
+```
 
 Por ejemplo, para quitar la asignación de roles de "Nivel 2 ayuda escritorio asignación", utilice el siguiente comando.
 
-    Remove-ManagementRoleAssignment "Tier 2 Help Desk Assignment"
+```powershell
+Remove-ManagementRoleAssignment "Tier 2 Help Desk Assignment"
+```
 
 Si no conoce el nombre de la asignación de funciones, puede utilizar la siguiente sintaxis.
 

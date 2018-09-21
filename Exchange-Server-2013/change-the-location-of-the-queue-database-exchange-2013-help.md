@@ -93,7 +93,9 @@ La ubicación de la base de datos de colas y de los registros de transacciones d
 
 2.  En una ventana del símbolo del sistema, abra el archivo EdgeTransport.exe.config en el Bloc de notas mediante el comando siguiente:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 3.  Modifique las claves siguientes en la sección `<appSettings>`.
     
@@ -137,7 +139,9 @@ Use el siguiente procedimiento para mover la base de datos de colas y los regist
 
 2.  En una ventana del símbolo del sistema, abra el archivo EdgeTransport.exe.config en el Bloc de notas mediante el comando siguiente:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 3.  Modifique las claves siguientes en la sección `<appSettings>`:
     
@@ -153,7 +157,9 @@ Use el siguiente procedimiento para mover la base de datos de colas y los regist
 
 5.  Detenga el servicio de transporte de Microsoft Exchange ejecutando el siguiente comando:
     
-        net stop MSExchangeTransport
+    ```powershell
+net stop MSExchangeTransport
+```
 
 6.  Mueva los archivos de base de datos existentes Mail.que y Trn.chk desde la ubicación original a la nueva ubicación.
 
@@ -161,7 +167,9 @@ Use el siguiente procedimiento para mover la base de datos de colas y los regist
 
 8.  Inicie el servicio de transporte de Microsoft Exchange ejecutando el siguiente comando:
     
-        net start MSExchangeTransport
+    ```powershell
+net start MSExchangeTransport
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

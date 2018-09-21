@@ -87,7 +87,9 @@ Para obtener información acerca de cómo crear una directiva de uso compartido,
 
   - Este ejemplo modifica la directiva de uso compartido Contoso para contoso.com, que es un dominio fuera de su organización. Esta directiva permite a los usuarios en el dominio Contoso ver información de disponibilidad simple.
     
-        Set-SharingPolicy -Identity Contoso -Domains 'sales.contoso.com: CalendarSharingFreeBusySimple'
+    ```powershell
+Set-SharingPolicy -Identity Contoso -Domains 'sales.contoso.com: CalendarSharingFreeBusySimple'
+```
 
   - En este ejemplo se agrega un segundo dominio a la directiva de uso compartido Contoso. Cuando agrega un dominio a una directiva existente, debe incluir todos los dominios incluidos anteriormente.
     
@@ -95,18 +97,26 @@ Para obtener información acerca de cómo crear una directiva de uso compartido,
 
   - En este ejemplo se establece la directiva de uso compartido Contoso como directiva predeterminada.
     
-        Set-SharingPolicy -Identity Contoso -Default $True
+    ```powershell
+Set-SharingPolicy -Identity Contoso -Default $True
+```
 
   - En este ejemplo se deshabilita la directiva de uso compartido Contoso.
     
-        Set-SharingPolicy -Identity "Contoso" -Enabled $False
+    ```powershell
+Set-SharingPolicy -Identity "Contoso" -Enabled $False
+```
 
   - El primer ejemplo quita la directiva de uso compartido Contoso. El segundo ejemplo quita la directiva de uso compartido Contoso y suprime la confirmación de que desea eliminar la directiva.
       ```
-        Remove-SharingPolicy -Identity Contoso
+    ```powershell
+Remove-SharingPolicy -Identity Contoso
+```
       ```
       ```
-        Remove-SharingPolicy -Identity Contoso -Confirm
+    ```powershell
+Remove-SharingPolicy -Identity Contoso -Confirm
+```
       ```
       
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Set-SharingPolicy](https://technet.microsoft.com/es-es/library/dd297931\(v=exchg.150\)) y [Remove-SharingPolicy](https://technet.microsoft.com/es-es/library/dd351071\(v=exchg.150\)).

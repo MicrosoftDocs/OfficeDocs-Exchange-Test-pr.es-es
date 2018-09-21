@@ -39,7 +39,9 @@ Para obtener más información acerca de IMAP4, consulte [POP3 e IMAP4 en Exchan
 
 En este ejemplo, se habilitan usuarios de IMAP4 para usar el estándar de iCalendar, un estándar para intercambiar información de calendario.
 
-    Set-ImapSettings -Identity CAS01 -CalendarItemRetrievalOption iCalendar
+```powershell
+Set-ImapSettings -Identity CAS01 -CalendarItemRetrievalOption iCalendar
+```
 
 En este ejemplo, se permite que los usuarios de IMAP4 obtengan acceso a la información de calendario desde un servidor interno.
 
@@ -47,11 +49,15 @@ En este ejemplo, se permite que los usuarios de IMAP4 obtengan acceso a la infor
 
 En este ejemplo, se permite que los usuarios de IMAP4 obtengan acceso a la información de calendario desde Internet o un servidor externo.
 
-    Set-ImapSettings -CalendarItemRetrievalOption InternetUrl
+```powershell
+Set-ImapSettings -CalendarItemRetrievalOption InternetUrl
+```
 
 En este ejemplo, se habilita a los usuarios de IMAP4 a obtener acceso a la información de calendario mediante una URL de Outlook Web App directa. Si está usando `Custom`, debe especificar una URL de Outlook Web App con el parámetro *OWAServerUrl*.
 
-    Set-Imap4Settings -CalendarItemRetrievalOption Custom -OwaServerUrl "https://OwaServer01"
+```powershell
+Set-Imap4Settings -CalendarItemRetrievalOption Custom -OwaServerUrl "https://OwaServer01"
+```
 
 Después de especificar las opciones de calendario para IMAP4, debe reiniciar los servicios IMAP4. Para obtener más información acerca de cómo reiniciar los servicios IMAP4, consulte [Iniciar y detener los servicios IMAP4](start-and-stop-the-imap4-services-exchange-2013-help.md).
 
@@ -63,7 +69,9 @@ Para comprobar que las opciones de calendario se hayan creado correctamente, sig
 
 Ejecute el siguiente comando en el Shell.
 
-    Get-ImapSettings | format-list
+```powershell
+Get-ImapSettings | format-list
+```
 
 Compruebe que la configuración del calendario sea correcta.
 

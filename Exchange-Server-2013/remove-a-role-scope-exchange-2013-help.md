@@ -41,9 +41,13 @@ Los ámbitos de funciones de administración determinan los objetos a los que pu
 
 Para quitar un ámbito, utilice la sintaxis siguiente.
 
-    Remove-ManagementScope <scope name>
+```powershell
+Remove-ManagementScope <scope name>
+```
 
 Por ejemplo, para quitar el ámbito de "Servidores de Dublín", utilice el siguiente comando.
 
-    Remove-ManagementScope "Dublin Servers"
+```powershell
+Remove-ManagementScope "Dublin Servers"
+```
 

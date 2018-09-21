@@ -142,7 +142,9 @@ La sintaxis para exportar archivos en Exchange 2013 se utiliza siempre que se d
 
 El shell tiene que saber que se desea guardar en el equipo local los datos almacenados en la propiedad **FileData**. Para ello, utilice la siguiente sintaxis:
 
-    <cmdlet> | ForEach { $_.FileData | Add-Content <local path to file> -Encoding Byte }
+```command line
+<cmdlet> | ForEach {     <cmdlet> | ForEach { $_.FileData | Add-Content <local path to file> -Encoding Byte }.FileData | Add-Content <local path to file> -Encoding Byte }
+```
 
 Por ejemplo, el siguiente comando exporta los datos almacenados en la propiedad **FileData** en el objeto creado por el cmdlet ficticio **Export-SomeData**. Los datos exportados se almacenan en un archivo que se especifica en el equipo local, en este caso, MyData.dat.
 
@@ -152,7 +154,9 @@ Por ejemplo, el siguiente comando exporta los datos almacenados en la propiedad 
 
 
 
-    Export-SomeData | ForEach { $_.FileData | Add-Content C:\MyData.dat -Encoding Byte }
+```powershell
+Export-SomeData | ForEach {     Export-SomeData | ForEach { $_.FileData | Add-Content C:\MyData.dat -Encoding Byte }.FileData | Add-Content C:\MyData.dat -Encoding Byte }
+```
 
 Al ejecutar el comando se producirán las siguientes acciones:
 

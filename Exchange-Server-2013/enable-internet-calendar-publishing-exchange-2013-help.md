@@ -69,7 +69,9 @@ Para otras tareas de administración relacionadas con las directivas de uso comp
 
 En este ejemplo se configura una dirección URL de proxy web en el servidor de buzones MAIL01.
 
-    Set-ExchangeServer -Identity "MAIL01" -InternetWebProxy "<Webproxy URL>"
+```powershell
+Set-ExchangeServer -Identity "MAIL01" -InternetWebProxy "<Webproxy URL>"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-ExchangeServer](https://technet.microsoft.com/es-es/library/bb123716\(v=exchg.150\)).
 
@@ -77,7 +79,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para comprobar que configuró correctamente la dirección URL de proxy web, ejecute el siguiente comando del Shell y compruebe la información del parámetro *InternetWebProxy*.
 
-    Get-ExchangeServer | format-list
+```powershell
+Get-ExchangeServer | format-list
+```
 
 ## Paso 2: Uso del Shell para habilitar el directorio virtual de publicación
 
@@ -99,7 +103,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para comprobar que habilitó correctamente el directorio virtual de publicación, ejecute el siguiente comando del Shell y compruebe la información del parámetro *ExternalURL*.
 
-    Get-OwaVirtualDirectory | format-list
+```powershell
+Get-OwaVirtualDirectory | format-list
+```
 
 ## Paso 3: Crear o configurar una directiva de uso compartido específicamente para la publicación de calendarios de Internet
 
@@ -147,11 +153,15 @@ En este ejemplo se crea una directiva de uso compartido de publicación de calen
 
 En este ejemplo se agrega la directiva compartida a un buzón de usuario.
 
-    Set-Mailbox -Identity <user name> -SharingPolicy "Internet"
+```powershell
+Set-Mailbox -Identity <user name> -SharingPolicy "Internet"
+```
 
 En este ejemplo se agrega la directiva de uso compartido a una unidad organizativa (OU).
 
-    Set-Mailbox -OrganizationalUnit <OU name> -SharingPolicy "Internet"
+```powershell
+Set-Mailbox -OrganizationalUnit <OU name> -SharingPolicy "Internet"
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [New-SharingPolicy](https://technet.microsoft.com/es-es/library/dd298186\(v=exchg.150\)) y [Set-Mailbox](https://technet.microsoft.com/es-es/library/bb123981\(v=exchg.150\)).
 
@@ -159,7 +169,9 @@ Para obtener más información acerca de la sintaxis y los parámetros, consulte
 
 Para comprobar que la directiva de uso compartido se creó correctamente, ejecute el siguiente comando del Shell para comprobar la información de directiva de uso compartido.
 
-    Get-SharingPolicy <policy name> | format-list
+```powershell
+Get-SharingPolicy <policy name> | format-list
+```
 
 ## Opción 2: Configurar la directiva de uso compartido predeterminada para la publicación de calendarios de Internet
 
@@ -199,5 +211,7 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para comprobar que la directiva de uso compartido predeterminada se actualizó correctamente, ejecute el siguiente comando del Shell para comprobar la información de directiva de uso compartido.
 
-    Get-SharingPolicy <policy name> | format-list
+```powershell
+Get-SharingPolicy <policy name> | format-list
+```
 

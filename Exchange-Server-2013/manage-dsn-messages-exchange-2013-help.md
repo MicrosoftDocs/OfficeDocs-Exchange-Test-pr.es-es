@@ -46,15 +46,21 @@ Microsoft Exchange Server 2013 usa notificaciones del estado de entrega (DSN) pa
 
 Para ver una listas resumen de todos los mensajes DSN integrados con Exchange 2013, ejecute el siguiente comando:
 
-    Get-SystemMessage -Original
+```powershell
+Get-SystemMessage -Original
+```
 
 Para ver una listas resumen de todos los mensajes DSN personalizados en su organización, ejecute el siguiente comando:
 
-    Get-SystemMessage
+```powershell
+Get-SystemMessage
+```
 
 Para ver información detallada para la personalización de mensajes de DSN para el código de DSN 5.1.2 que se envía a los remitentes internos en inglés, ejecute el siguiente comando:
 
-    Get-SystemMessage En\Internal\5.1.2 | Format-List
+```powershell
+Get-SystemMessage En\Internal\5.1.2 | Format-List
+```
 
 ## Usar el Shell para crear un mensaje personalizado de DSN
 
@@ -80,7 +86,9 @@ Para verificar si ha creado correctamente un mensaje de DNS personalizado, haga 
 
 1.  Ejecute el siguiente comando:
     
-        Get-SystemMessge -DSNCode <x.y.z> | Format-List Name,Internal,Text,Language
+    ```powershell
+Get-SystemMessge -DSNCode <x.y.z> | Format-List Name,Internal,Text,Language
+```
 
 2.  Compruebe que los valores que ve son los valores que ha configurado.
 
@@ -102,7 +110,9 @@ Par comprobar si ha cambiado correctamente el texto de un mensaje de DNS persona
 
 1.  Ejecute el siguiente comando: `Get-SystemMessage`.
     
-        Set-SystemMessage <Locale>\<Internal | External>\<DSNcode> | Format-List -Text
+    ```powershell
+Set-SystemMessage <Locale>\<Internal | External>\<DSNcode> | Format-List -Text
+```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 
@@ -110,11 +120,15 @@ Par comprobar si ha cambiado correctamente el texto de un mensaje de DNS persona
 
 Ejecute el siguiente comando:
 
-    Remove-SystemMessage <Local>\<Internal | External>\<DSNcode>
+```powershell
+Remove-SystemMessage <Local>\<Internal | External>\<DSNcode>
+```
 
 Este ejemplo quita el mensaje DSN personalizado para el código de DNS 5.1.2 que se envía a los remitentes internos en inglés.
 
-    Remove-SystemMessage En\Internal\5.1.2
+```powershell
+Remove-SystemMessage En\Internal\5.1.2
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -136,11 +150,15 @@ Para asignar un buzón de correo a los destinatarios de Exchange, realice los pa
 
 2.  Ejecute el siguiente comando:
     
-        Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient <MailboxIdentity>
+    ```powershell
+Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient <MailboxIdentity>
+```
     
     Por ejemplo, para asignar el buzón existente denominado "Buzón de correo del sistema Contoso" al destinatario de Exchange, hay que ejecutar el siguiente comando:
     
-        Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient "Contoso System Mailbox"
+    ```powershell
+Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient "Contoso System Mailbox"
+```
 
 ## Paso 2: Especificar los códigos de DSN que desea supervisar
 
@@ -154,11 +172,15 @@ Para asignar un buzón de correo a los destinatarios de Exchange, realice los pa
 
 Para reemplazar los valores existentes, ejecute el siguiente comando:
 
-    Set-TransportConfig -GenerateCopyOfDSNFor <x.y.z>,<x.y.z>...
+```powershell
+Set-TransportConfig -GenerateCopyOfDSNFor <x.y.z>,<x.y.z>...
+```
 
 En este ejemplo se configura la organización de Exchange para reenviar todos los mensajes de DSN que tengan los códigos de DSN 5.7.1, 5.7.2 y 5.7.3 al destinatario de Exchange.
 
-    Set-TransportConfig -GenerateCopyOfDSNFor 5.7.1,5.7.2,5.7.3
+```powershell
+Set-TransportConfig -GenerateCopyOfDSNFor 5.7.1,5.7.2,5.7.3
+```
 
 Para agregar o quitar entradas sin modificar valores existentes, ejecute el siguiente comando:
 
@@ -166,7 +188,9 @@ Para agregar o quitar entradas sin modificar valores existentes, ejecute el sigu
 
 Este ejemplo agrega el código de DSN 5.7.5 y quita el código de DSN 5.7.1 de la lista existente de mensajes de DSN que se envían a cada destinatario de Exchange.
 
-    Set-TransportConfig -GenerateCopyOfDSNFor @{Add="5.7.5"; Remove="5.7.1"}
+```powershell
+Set-TransportConfig -GenerateCopyOfDSNFor @{Add="5.7.5"; Remove="5.7.1"}
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

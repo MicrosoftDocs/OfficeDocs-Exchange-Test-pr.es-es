@@ -45,11 +45,15 @@ Le recomendamos que no modifique el valor predeterminado en la mayoría de los c
 
 1.  En la ventana del símbolo del sistema, abra el archivo MSExchangeMailboxAssistants.exe.config en el Bloc de notas ejecutando el comando siguiente:
     
-        Notepad %ExchangeInstallPath%Bin\MSExchangeMailboxAssistants.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\MSExchangeMailboxAssistants.exe.config
+```
 
 2.  Busque la clave *\</appsettings\>* al final del archivo y copie la siguiente clave antes de la clave *\</appsettings\>*:
     
-        <add key="IncludeSafeDomains" value="true" />
+    ```command line
+<add key="IncludeSafeDomains" value="true" />
+```
 
 3.  Cuando haya terminado, guarde y cierre el archivo MSExchangeMailboxAssistants.exe.config.
 

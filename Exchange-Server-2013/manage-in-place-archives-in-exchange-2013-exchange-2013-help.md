@@ -124,7 +124,9 @@ También puede crear archivos para usuarios existentes que tengan un buzón pero
 
 En este ejemplo, se habilita el archivo para el buzón de Tony Smith.
 
-    Enable-Mailbox "Tony Smith" -Archive
+```powershell
+Enable-Mailbox "Tony Smith" -Archive
+```
 
 En este ejemplo se recuperan los buzones de la base de datos DB01 que no tienen ningún archivo local o basado en la nube habilitado y ningún nombre que empiece por DiscoverySearchMailbox. El resultado se canaliza al cmdlet **Enable-Mailbox** para habilitar el archivo de todos los buzones de la base de datos de buzones de correo DB01.
 
@@ -174,7 +176,9 @@ Si desea volver a conectar el archivado local a ese buzón de correo, puede usar
 
 En este ejemplo, se deshabilita el archivo para el buzón de María González. No deshabilita el buzón.
 
-    Disable-Mailbox -Identity "Chris Ashton" -Archive
+```powershell
+Disable-Mailbox -Identity "Chris Ashton" -Archive
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, vea [Disable-Mailbox](https://technet.microsoft.com/es-es/library/aa997210\(v=exchg.150\)).
 

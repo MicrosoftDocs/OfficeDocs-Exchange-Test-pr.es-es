@@ -44,7 +44,9 @@ También puede usar la portabilidad de base de datos para mover una base de dato
     
     Para confirmar todos los archivos de registro no confirmados en la base de datos, desde el símbolo del sistema ejecute el siguiente comando.
     
-        ESEUTIL /R <Enn>
+    ```powershell
+ESEUTIL /R <Enn>
+```
     
 
     > [!NOTE]
@@ -58,13 +60,17 @@ También puede usar la portabilidad de base de datos para mover una base de dato
 
 3.  Establezca el atributo *This database can be over written by restore* mediante el uso de la siguiente sintaxis:
     
-        Set-MailboxDatabase <DatabaseName> -AllowFileRestore $true
+    ```powershell
+Set-MailboxDatabase <DatabaseName> -AllowFileRestore $true
+```
 
 4.  Mueva los archivos originales de base de datos (archivo .edb, archivos de registro y el catálogo de Exchange Search) a la carpeta de base de datos especificada al crear la nueva base de datos indicada anteriormente.
 
 5.  Monte la base de datos mediante la siguiente sintaxis:
     
-        Mount-Database <DatabaseName>
+    ```powershell
+Mount-Database <DatabaseName>
+```
 
 6.  Después de montar la base de datos, modifique la configuración de la cuenta del usuario mediante el cmdlet [Set-Mailbox](https://technet.microsoft.com/es-es/library/bb123981\(v=exchg.150\)) para que la cuenta apunte al buzón que se encuentra en el nuevo servidor de buzones. Para mover todos los usuarios de la base de datos antigua y trasladarlos a la nueva, use la siguiente sintaxis.
     
@@ -72,7 +78,9 @@ También puede usar la portabilidad de base de datos para mover una base de dato
 
 7.  Desencadene la entrega de los mensajes que puedan quedar en las colas con la siguiente sintaxis.
     
-        Get-Queue <QueueName> | Retry-Queue -Resubmit $true
+    ```powershell
+Get-Queue <QueueName> | Retry-Queue -Resubmit $true
+```
 
 Una vez que se completó la replicación de Active Directory, todos los usuarios pueden obtener acceso a sus buzones en el nuevo servidor de Exchange. La mayoría de los clientes son redireccionados mediante la detección automática. Los usuarios de Outlook Web App de Microsoft Office también se redireccionan automáticamente.
 

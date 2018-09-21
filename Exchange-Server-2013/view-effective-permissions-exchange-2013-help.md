@@ -53,11 +53,15 @@ Para obtener más información acerca de funciones de administración, grupos de
 
 Para obtener una lista de todos los usuarios a los que una función de administración ha concedido permisos, use la sintaxis siguiente.
 
-    Get-ManagementRoleAssignment -Role <role name> -GetEffectiveUsers
+```powershell
+Get-ManagementRoleAssignment -Role <role name> -GetEffectiveUsers
+```
 
 En este ejemplo, aparecen todos los usuarios a los que la función Destinatarios de correo ha concedido permiso.
 
-    Get-ManagementRoleAssignment -Role "Mail Recipients" -GetEffectiveUsers
+```powershell
+Get-ManagementRoleAssignment -Role "Mail Recipients" -GetEffectiveUsers
+```
 
 Si desea modificar las propiedades que aparecen en la lista o exportar la lista a un archivo con valores separados por comas (CSV), consulte Uso del Shell para personalizar el resultado y mostrarlo más adelante en este tema.
 
@@ -85,7 +89,9 @@ Para saber todas las funciones de las que recibe permisos un usuario, use el cmd
 
 En este ejemplo, se buscan todas las asignaciones de funciones que conceden permisos al usuario Kim Akers.
 
-    Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "Kim Akers" }
+```powershell
+Get-ManagementRoleAssignment -GetEffectiveUsers | Where {     Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "Kim Akers" }.EffectiveUserName -Eq "Kim Akers" }
+```
 
 Si desea modificar las propiedades que se devuelven en la lista o exportar la lista a un archivo CSV, consulte Uso del Shell para personalizar el resultado y mostrarlo más adelante en este tema.
 

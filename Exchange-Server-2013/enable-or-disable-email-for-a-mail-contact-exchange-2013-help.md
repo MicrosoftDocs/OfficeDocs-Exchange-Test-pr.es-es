@@ -59,7 +59,9 @@ El contacto de correo se eliminará de la lista de contactos.
 
 En este ejemplo se deshabilita el correo electrónico del contacto de correo Neil Black.
 
-    Disable-MailContact -Identity "Neil Black"
+```powershell
+Disable-MailContact -Identity "Neil Black"
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Disable-MailContact](https://technet.microsoft.com/es-es/library/aa997465\(v=exchg.150\)).
 
@@ -73,13 +75,17 @@ Para comprobar si deshabilitó el correo electrónico para un contacto de correo
 
 3.  En el Shell, ejecute el siguiente comando.
     
-        Get-MailContact
+    ```powershell
+Get-MailContact
+```
     
     El contacto para el que deshabilitó el correo electrónico no se devuelve en los resultados porque este cmdlet solo devuelve los contactos habilitados para correo.
 
 4.  En el Shell, ejecute el siguiente comando.
     
-        Get-Contact
+    ```powershell
+Get-Contact
+```
     
     El contacto para el que deshabilitó el correo electrónico se devuelve en los resultados porque este cmdlet devuelve todos los objetos de contacto de Active Directory.
 
@@ -91,7 +97,9 @@ Utilice el cmdlet **Enable-MailContact** para habilitar para correo los contacto
 
 En este ejemplo se habilita para correo al contacto Rene Valdes. Debe proporcionar una dirección de correo electrónico externa.
 
-    Enable-MailContact -Identity "Rene Valdes" -ExternalEmailAddress renev@tailspintoys.com
+```powershell
+Enable-MailContact -Identity "Rene Valdes" -ExternalEmailAddress renev@tailspintoys.com
+```
 
 ## Uso del Shell y de un archivo CSV para habilitar varios contactos para correo
 
@@ -141,5 +149,7 @@ Para comprobar si habilitó para correo los contactos de Active Directory correc
 
   - En el Shell, ejecute el comando siguiente para mostrar información sobre los nuevos contactos de correo.
     
-        Get-MailContact | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+    ```powershell
+Get-MailContact | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+```
 

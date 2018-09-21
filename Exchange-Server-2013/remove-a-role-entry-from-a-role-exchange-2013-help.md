@@ -45,11 +45,15 @@ Al quitar una entrada de función de una función, los usuarios asignados a dich
 
 Para quitar toda una entrada de función de administración de una función, emplee la sintaxis siguiente.
 
-    Remove-ManagementRoleEntry <management role>\<management role entry>
+```powershell
+Remove-ManagementRoleEntry <management role>\<management role entry>
+```
 
 En este ejemplo, el cmdlet **Enable-MailUser** se quita de la función Administradores de servidores de Seattle.
 
-    Remove-ManagementRoleEntry "Seattle Server Administrators\Enable-MailUser"
+```powershell
+Remove-ManagementRoleEntry "Seattle Server Administrators\Enable-MailUser"
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Remove-ManagementRoleEntry](https://technet.microsoft.com/es-es/library/dd351187\(v=exchg.150\)).
 

@@ -141,7 +141,9 @@ Para cambiar de permisos divididos de Active Directory a permisos compartidos, r
 
 1.  Desde un shell de comandos de Windows, ejecute el siguiente comando desde los medios de instalación de Exchange 2013 para deshabilitar los permisos divididos de Active Directory.
     
-        setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+    ```powershell
+setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+```
 
 2.  Desde el Shell de administración de Exchange, ejecute los siguientes comandos para agregar asignaciones de funciones regulares entre la función Creación de destinatario de correo y la función Administración y creación de grupos de seguridad y los grupos de funciones Administración de la organización y Recipient Management.
     

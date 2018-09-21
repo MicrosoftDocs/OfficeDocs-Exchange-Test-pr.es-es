@@ -63,7 +63,9 @@ En este paso, decida qué bases de datos desea incluir en el ámbito de base de 
 
 Use una lista de base de datos si desea definir una lista estática de las bases de datos del buzón que se deben incluir en este ámbito. Use la sintaxis siguiente para crear un ámbito basado en listas de bases de datos.
 
-    New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```
 
 En este ejemplo se crea un ámbito que se aplica solo a las bases de datos Database 1, Database 2 y Database 3.
 
@@ -79,7 +81,9 @@ Para obtener una lista de propiedades de base de datos que se pueden filtrar, co
 
 Use la sintaxis siguiente para crear un ámbito del filtro de bases de datos.
 
-    New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```
 
 En este ejemplo se crea un ámbito que incluye todas las bases de datos que contienen la cadena "ACCT" en la propiedad **Name** de la base de datos.
 

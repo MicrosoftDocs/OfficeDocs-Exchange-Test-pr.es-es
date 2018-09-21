@@ -53,13 +53,17 @@ Para realizar cualquiera de los procedimientos del agente de transporte descrito
 
 1.  En el servidor de acceso de cliente, abra Windows PowerShell y ejecute el siguiente comando:
     
-        Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
+    ```powershell
+Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
+```
 
 2.  Ejecute el comando descrito, pero agregue el siguiente valor: `-TransportService FrontEnd`.
     
     Por ejemplo, para ver los agentes de transporte en el servicio de transporte front-end en un servidor de acceso de cliente, ejecute el siguiente comando:
     
-        Get-TransportAgent -TransportService FrontEnd
+    ```powershell
+Get-TransportAgent -TransportService FrontEnd
+```
 
 ## Uso del Shell para instalar un agente de transporte
 
@@ -85,11 +89,15 @@ Para comprobar que el agente de transporte se instaló correctamente, ejecute el
 
 Use la sintaxis siguiente para habilitar un agente de transporte.
 
-    Enable-TransportAgent <TransportAgentIdentity>
+```powershell
+Enable-TransportAgent <TransportAgentIdentity>
+```
 
 En este ejemplo, se habilita el agente de transporte denominado Contoso Transport Agent en el servicio de transporte de un servidor de buzones de correo.
 
-    Enable-TransportAgent "Contoso Transport Agent"
+```powershell
+Enable-TransportAgent "Contoso Transport Agent"
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -99,11 +107,15 @@ Para comprobar que el agente de transporte se habilitó correctamente, ejecute e
 
 Use la sintaxis siguiente para deshabilitar un agente de transporte:
 
-    Disable-TransportAgent <TransportAgentIdentity>
+```powershell
+Disable-TransportAgent <TransportAgentIdentity>
+```
 
 En este ejemplo, se deshabilita el agente de transporte denominado Fabirkam Transport Agent en el servicio de transporte de un servidor de buzones de correo.
 
-    Disable-TransportAgent "Fabrikam Transport Agent"
+```powershell
+Disable-TransportAgent "Fabrikam Transport Agent"
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -113,15 +125,21 @@ Para comprobar que el agente de transporte se deshabilitó correctamente, ejecut
 
 Para ver una lista de resumen de todos los agentes de transporte, ejecute el siguiente comando:
 
-    Get-TransportAgent
+```powershell
+Get-TransportAgent
+```
 
 Para ver la configuración detallada de un agente de transporte específico, ejecute el siguiente comando:
 
-    Get-TransportAgent <TransportAgentIdentity> | Format-List
+```powershell
+Get-TransportAgent <TransportAgentIdentity> | Format-List
+```
 
 En este ejemplo, se proporciona una configuración detallada del agente de transporte denominado Transport Rule Agent.
 
-    Get-TransportAgent "Transport Rule Agent" | Format-List
+```powershell
+Get-TransportAgent "Transport Rule Agent" | Format-List
+```
 
 ## Usar el Shell para configurar la prioridad de un agente de transporte
 
@@ -129,11 +147,15 @@ Cuanto más cercana a 0 sea la prioridad de un agente de transporte, antes proce
 
 Para modificar la prioridad de un agente de transporte existente, ejecute el siguiente comando:
 
-    Set-TransportAgent <TransportAgentIdentity> -Priority <Integer>
+```powershell
+Set-TransportAgent <TransportAgentIdentity> -Priority <Integer>
+```
 
 En este ejemplo, se establece en 3 el valor de prioridad para el agente de transporte existente denominado Contoso Transport Agent en el servicio de transporte de un servidor de buzones de correo.
 
-    Set-TransportAgent "Contoso Transport Agent" -Priority 3
+```powershell
+Set-TransportAgent "Contoso Transport Agent" -Priority 3
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -145,11 +167,15 @@ Cuando se desinstala el agente de transporte, Exchange elimina el registro de lo
 
 Para desinstalar un agente de transporte, ejecute el siguiente comando:
 
-    Uninstall-TransportAgent <TransportAgentIdentity>
+```powershell
+Uninstall-TransportAgent <TransportAgentIdentity>
+```
 
 En este ejemplo, se desinstala el agente de transporte denominado Fabirkam Transport Agent del servicio de transporte de un servidor de buzones de correo.
 
-    Uninstall-TransportAgent "Fabrikam Transport Agent"
+```powershell
+Uninstall-TransportAgent "Fabrikam Transport Agent"
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

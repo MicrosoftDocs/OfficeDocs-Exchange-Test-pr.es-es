@@ -33,7 +33,9 @@ Para resolver este problema, reinstale las funciones del servidor con errores o 
 
 2.  Ejecute el comando siguiente :
     
-        Setup /roles:<Failed Server Role>
+    ```powershell
+Setup /roles:<Failed Server Role>
+```
     
     Haga una selección entre una o más de las siguientes funciones en una lista separada por comas:
     

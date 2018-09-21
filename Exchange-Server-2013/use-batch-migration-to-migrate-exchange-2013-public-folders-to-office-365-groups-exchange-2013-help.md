@@ -93,7 +93,9 @@ Los pasos siguientes son necesarios para preparar su organización para la migra
 
 4.  Debe tener la función de migración **de la pata** habilitado para los clientes de Office 365. Para comprobar esto, ejecute el siguiente comando de PowerShell en línea de Exchange:
     
-        Get-MigrationConfig
+    ```powershell
+Get-MigrationConfig
+```
     
     Si la salida en **características de** listas **de la pata**, entonces la característica está habilitada y se puede seguir *paso 3: el archivo .csv de Creta*.
     
@@ -109,7 +111,9 @@ El archivo .csv debe contener las siguientes columnas:
 
   - **TargetGroupMailbox**. Dirección SMTP del grupo de destino en Office 365. Puede ejecutar el comando siguiente para ver la dirección SMTP principal.
     
-        Get-UnifiedGroup <alias of the group> | Format-Table PrimarySmtpAddress
+    ```powershell
+Get-UnifiedGroup <alias of the group> | Format-Table PrimarySmtpAddress
+```
 
 Un .csv de ejemplo:
 
@@ -136,7 +140,9 @@ En este paso, recopilar información del entorno de Exchange y, a continuación,
     
     2.  Utilice la información del servidor proxy Sra. de su entorno Exchange de 2013 que anotó en el paso 1 anterior y pasar ese valor a la variable `$Source_RemoteServer`.
         
-            $Source_RemoteServer = "<MRS proxy endpoint>"
+        ```powershell
+$Source_RemoteServer = "<MRS proxy endpoint>"
+```
 
 3.  En Exchange Online PowerShell, ejecute el comando siguiente para crear un extremo de la migración:
     
@@ -158,7 +164,9 @@ En este paso, recopilar información del entorno de Exchange y, a continuación,
 
 5.  Ejecutando el comando siguiente en Exchange Online PowerShell para iniciar la migración. Tenga en cuenta que este paso sólo es necesario si no se utilizó el parámetro `-AutoStart` al crear el lote anteriormente en el paso 4.
     
-        Start-MigrationBatch PublicFolderToGroupMigration
+    ```powershell
+Start-MigrationBatch PublicFolderToGroupMigration
+```
 
 Mientras que las migraciones de lote deben crearse mediante el cmdlet de `New-MigrationBatch` en Exchange Online PowerShell, puede verse el progreso de la migración y administran en Centro de administración de Exchange. También puede ver el progreso de la migración mediante la ejecución de los cmdlets [Get-MigrationBatch](https://technet.microsoft.com/es-es/library/jj219164\(v=exchg.150\)) y [Get-MigrationUser](https://technet.microsoft.com/es-es/library/jj218702\(v=exchg.150\)) . El cmdlet `New-MigrationBatch` inicia un usuario de migración para cada buzón de correo de grupo de Office 365, y puede ver el estado de estas solicitudes usando la página migración de buzones.
 
@@ -220,7 +228,9 @@ En el siguiente comando:
 
 Una vez tomadas las carpetas públicas de sólo lectura, debe realizar la migración de nuevo. Esto es necesario para una copia incremental final de los datos. Antes de ejecutar la migración de nuevo, tendrá que quitar el lote existente, lo que puede hacer ejecutando el siguiente comando:
 
-    Remove-MigrationBatch <name of migration batch>
+```powershell
+Remove-MigrationBatch <name of migration batch>
+```
 
 A continuación, cree un nuevo lote con el mismo archivo .csv ejecutando el siguiente comando. En este comando:
 
@@ -236,7 +246,9 @@ A continuación, cree un nuevo lote con el mismo archivo .csv ejecutando el sigu
 
 Una vez creado el nuevo lote, iniciar la migración ejecutando el siguiente comando en Exchange Online PowerShell. Tenga en cuenta que este paso sólo es necesario si no se utilizó el parámetro `-AutoStart` en el comando anterior.
 
-    Start-MigrationBatch PublicFolderToGroupMigration
+```powershell
+Start-MigrationBatch PublicFolderToGroupMigration
+```
 
 Cuando haya terminado este paso (el estado del lote es **completado** ), compruebe que se ha copiado todos los datos a los grupos de Office 365. En ese momento, siempre y cuando esté satisfecho con la experiencia de los grupos, puede empezar a eliminar las carpetas públicas migradas de su entorno Exchange de 2013.
 

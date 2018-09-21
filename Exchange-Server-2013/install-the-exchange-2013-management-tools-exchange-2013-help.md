@@ -139,7 +139,9 @@ Para obtener más información acerca de la administración de Exchange 2013, c
     > Si tiene control de acceso de usuarios (UAC) habilitado, debe ejecutar <CODE>Setup.exe</CODE> desde un símbolo del sistema elevado.
 
     
-        Setup.exe /Role:ManagementTools /IAcceptExchangeServerLicenseTerms
+    ```powershell
+Setup.exe /Role:ManagementTools /IAcceptExchangeServerLicenseTerms
+```
 
 Para obtener más información, consulte [Instalar Exchange 2013 usando el modo desatendido](install-exchange-2013-using-unattended-mode-exchange-2013-help.md).
 

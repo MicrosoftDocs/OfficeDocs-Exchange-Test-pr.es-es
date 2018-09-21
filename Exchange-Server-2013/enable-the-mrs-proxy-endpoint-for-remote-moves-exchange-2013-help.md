@@ -71,7 +71,9 @@ Con el siguiente comando se habilita el extremo de proxy MRS en un servidor de a
 
 Con el siguiente comando se habilita el extremo de proxy MRS en todos los servidores de acceso de cliente de su organización de Exchange.
 
-    Get-WebServicesVirtualDirectory | Set-WebServicesVirtualDirectory -MRSProxyEnabled $true
+```powershell
+Get-WebServicesVirtualDirectory | Set-WebServicesVirtualDirectory -MRSProxyEnabled $true
+```
 
 
 > [!IMPORTANT]
@@ -93,7 +95,9 @@ O bien
 
 Ejecute el siguiente comando en el Shell:
 
-    Get-WebServicesVirtualDirectory | FL Identity,MRSProxyEnabled
+```powershell
+Get-WebServicesVirtualDirectory | FL Identity,MRSProxyEnabled
+```
 
 Compruebe que el parámetro *MRSProxyEnabled* esté establecido en `True`.
 
@@ -101,7 +105,9 @@ Otra forma de comprobar que el extremo de proxy MRS está habilitado consiste en
 
 En el siguiente ejemplo se muestra la conexión a un servidor en el bosque corp.contoso.com.
 ```
-    $Credentials = Get-Credential
+```powershell
+$Credentials = Get-Credential
+```
 ```
 ```
     Test-MigrationServerAvailability -ExchangeRemoteMove -Autodiscover -EmailAddress administrator@corp.contoso.com -Credentials $Credentials

@@ -113,7 +113,9 @@ La finalización correcta del asistente para **nueva relación organizativa** re
 
 Para comprobar con más detalle si la relación de organización se creó correctamente, ejecute el siguiente comando del Shell y verifique la información de relación:
 
-    Get-OrganizationRelationship | format-list
+```powershell
+Get-OrganizationRelationship | format-list
+```
 
 
 > [!TIP]

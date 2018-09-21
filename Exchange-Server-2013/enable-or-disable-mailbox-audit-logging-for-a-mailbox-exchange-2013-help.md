@@ -51,11 +51,15 @@ Puede utilizar el Shell para habilitar o deshabilitar los registros de auditorí
 
 En este ejemplo se habilita el registro de auditoría del buzón de Ben Smith.
 
-    Set-Mailbox -Identity "Ben Smith" -AuditEnabled $true
+```powershell
+Set-Mailbox -Identity "Ben Smith" -AuditEnabled $true
+```
 
 En este ejemplo se deshabilita el registro de auditoría del buzón de Ben Smith.
 
-    Set-Mailbox -Identity "Ben Smith" -AuditEnabled $false
+```powershell
+Set-Mailbox -Identity "Ben Smith" -AuditEnabled $false
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Set-Mailbox](https://technet.microsoft.com/es-es/library/bb123981\(v=exchg.150\)).
 
@@ -65,15 +69,21 @@ Cuando el registro de auditoría del buzón está habilitado para un buzón de c
 
 En este ejemplo se especifica que las acciones `SendAs` o `SendOnBehalf` realizadas por usuarios delegados se registrarán en el buzón de Ben Smith.
 
-    Set-Mailbox -Identity "Ben Smith" -AuditDelegate SendAs,SendOnBehalf -AuditEnabled $true
+```powershell
+Set-Mailbox -Identity "Ben Smith" -AuditDelegate SendAs,SendOnBehalf -AuditEnabled $true
+```
 
 En este ejemplo se especifica que las acciones `MessageBind` o `FolderBind` realizadas por administradores se registrarán en el buzón de Ben Smith.
 
-    Set-Mailbox -Identity "Ben Smith" -AuditAdmin MessageBind,FolderBind -AuditEnabled $true
+```powershell
+Set-Mailbox -Identity "Ben Smith" -AuditAdmin MessageBind,FolderBind -AuditEnabled $true
+```
 
 En este ejemplo se especifica que la acción `HardDelete` realizada por el propietario del buzón se registrará en el buzón de Ben Smith.
 
-    Set-Mailbox -Identity "Ben Smith" -AuditOwner HardDelete -AuditEnabled $true
+```powershell
+Set-Mailbox -Identity "Ben Smith" -AuditOwner HardDelete -AuditEnabled $true
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-Mailbox](https://technet.microsoft.com/es-es/library/bb123981\(v=exchg.150\)).
 

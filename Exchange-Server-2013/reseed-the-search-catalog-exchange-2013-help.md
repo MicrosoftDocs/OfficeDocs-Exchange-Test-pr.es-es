@@ -70,7 +70,9 @@ Use uno de los procedimientos siguientes si la base de datos de buzones de corre
 
 Este ejemplo reinicializa el catálogo del índice de contenido para la DB1 de la copia de la base de datos en el servidor de buzones de correo MBX1 de cualquier servidor de origen del DAG que tenga una copia de la base de datos.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, vea [Update-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd335201\(v=exchg.150\)).
 
@@ -78,7 +80,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, vea
 
 En este ejemplo, se reinicializa el catálogo del índice de contenido para la copia de la base de datos DB1 en el servidor de buzones de correo MBX1 desde el servidor de buzones de correo MBX2, el cual también tiene una copia de la base de datos.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1 -SourceServer MBX2 -CatalogOnly
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1 -SourceServer MBX2 -CatalogOnly
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, vea [Update-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd335201\(v=exchg.150\)).
 
@@ -88,10 +92,14 @@ Si solo hay una copia de la base de datos de buzones de correo, debe reinicializ
 
 1.  Ejecute los siguientes comandos para detener los servicios de búsqueda de Microsoft Exchange y de controlador de host de búsqueda de Microsoft Exchange.
     ```
-        Stop-Service MSExchangeFastSearch
+    ```powershell
+Stop-Service MSExchangeFastSearch
+```
     ```
     ```
-        Stop-Service HostControllerService
+    ```powershell
+Stop-Service HostControllerService
+```
     ```
 
 2.  Elimine, mueva o cambie el nombre de la carpeta que contiene el catálogo del índice de contenido de Exchange. Esta carpeta se llama `%ExchangeInstallPath\Mailbox\<name of mailbox database>_Catalog\<GUID>12.1.Single`. Por ejemplo, podría cambiar el nombre de la carpeta `C:\Program Files\Microsoft\Exchange Server\V15\Mailbox\Mailbox Database 0657134726_Catalog\F0627A72-9F1D-494A-839A-D7C915C279DB12.1.Single_OLD`.
@@ -104,10 +112,14 @@ Si solo hay una copia de la base de datos de buzones de correo, debe reinicializ
 
 3.  Ejecute los siguientes comandos para reiniciar los servicios de búsqueda de Microsoft Exchange y de controlador de host de búsqueda de Microsoft Exchange.
     ```
-        Start-Service MSExchangeFastSearch
+    ```powershell
+Start-Service MSExchangeFastSearch
+```
     ```
     ```
-        Start-Service HostControllerService
+    ```powershell
+Start-Service HostControllerService
+```
     ```
     
     Después de reiniciar estos servicios, Exchange Search volverá a crear el catálogo del índice de contenido.

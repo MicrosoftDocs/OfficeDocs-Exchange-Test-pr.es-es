@@ -65,7 +65,9 @@ El usuario de correo se eliminará de la lista de contactos.
 
 En este ejemplo, se deshabilita el correo electrónico del usuario de correo, Juan.
 
-    Disable-MailUser -Identity "Yan Li"
+```powershell
+Disable-MailUser -Identity "Yan Li"
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Disable-MailUser](https://technet.microsoft.com/es-es/library/aa998578\(v=exchg.150\)).
 
@@ -79,13 +81,17 @@ Para comprobar que haya deshabilitado el correo electrónico de un usuario de co
 
 3.  En el Shell, ejecute el siguiente comando.
     
-        Get-MailUser
+    ```powershell
+Get-MailUser
+```
     
     El usuario de correo al que deshabilitó el correo electrónico no aparecerá en los resultados porque este cmdlet solo devuelve los usuarios con correo habilitado.
 
 4.  En el Shell, ejecute el siguiente comando.
     
-        Get-User
+    ```powershell
+Get-User
+```
     
     El usuario de correo al que deshabilitó el correo electrónico aparece en los resultados porque este cmdlet devuelve todos los objetos de usuario de Active Directory.
 
@@ -97,7 +103,9 @@ Es posible usar el cmdlet **Enable-MailUser** para habilitar el correo de los us
 
 En este ejemplo, se habilita el correo del usuario Sanjay Shah. Debe proporcionar una dirección de correo electrónico externa.
 
-    Enable-MailUser -Identity "Sanjay Shah" -ExternalEmailAddress renev@tailspintoys.com
+```powershell
+Enable-MailUser -Identity "Sanjay Shah" -ExternalEmailAddress renev@tailspintoys.com
+```
 
 ## Uso del Shell y un archivo CSV para habilitar el correo de varios usuarios
 
@@ -161,5 +169,7 @@ Para comprobar que haya habilitado el correo de usuarios de Active Directory cor
 
   - En el Shell, ejecute el siguiente comando para que se muestre información acerca de los nuevos usuarios de correo.
     
-        Get-MailUser | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+    ```powershell
+Get-MailUser | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+```
 

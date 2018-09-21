@@ -165,7 +165,9 @@ La aplicación de revisión de páginas está disponible para las copias retrasa
 
 El comportamiento de reproducción de copias retrasadas está deshabilitado de manera predeterminada, pero se puede habilitar mediante la ejecución del siguiente comando.
 
-    Set-DatabaseAvailabilityGroup <DAGName> -ReplayLagManagerEnabled $true
+```powershell
+Set-DatabaseAvailabilityGroup <DAGName> -ReplayLagManagerEnabled $true
+```
 
 Después de su habilitación, la reproducción ocurre cuando hay menos de tres copias. Puede cambiar el valor predeterminado de 3 modificando el siguiente valor DWORD del Registro.
 
@@ -614,11 +616,15 @@ La siguiente tabla muestra los parámetros disponibles para el script Redistribu
 
 En este ejemplo se muestra la distribución actual de las bases de datos de un DAG, incluida la lista de conteo de preferencia.
 
-    RedistributeActiveDatabases.ps1 -DagName DAG1 -ShowDatabaseDistributionByServer | Format-Table
+```powershell
+RedistributeActiveDatabases.ps1 -DagName DAG1 -ShowDatabaseDistributionByServer | Format-Table
+```
 
 En este ejemplo se redistribuyen y equilibran las copias activas de las bases de datos del buzón de correo de un DAG mediante el uso de la preferencia de activación sin solicitar entrada.
 
-    RedistributeActiveDatabases.ps1 -DagName DAG1 -BalanceDbsByActivationPreference -Confirm:$False
+```powershell
+RedistributeActiveDatabases.ps1 -DagName DAG1 -BalanceDbsByActivationPreference -Confirm:$False
+```
 
 En este ejemplo se redistribuyen y equilibran las copias de las bases de datos de buzones de correo activas de un DAG, mediante la preferencia de activación, y se genera un resumen de la distribución.
 

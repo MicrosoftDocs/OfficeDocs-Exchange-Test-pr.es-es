@@ -47,7 +47,9 @@ Los usuarios cuyos buzones se encuentran en 2013 de Exchange Server o Exchange S
     
     Para Exchange 2007, ejecute el siguiente comando:
     
-        New-MailboxDatabase -StorageGroup "<PFServerName>\StorageGroup>" -Name <NewMDBforPFs>
+    ```powershell
+New-MailboxDatabase -StorageGroup "<PFServerName>\StorageGroup>" -Name <NewMDBforPFs>
+```
     
 
     > [!NOTE]
@@ -60,12 +62,16 @@ Los usuarios cuyos buzones se encuentran en 2013 de Exchange Server o Exchange S
         New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
     ```
     ```
-        Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
+    ```powershell
+Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
+```
     ```
     
 4.  Para Exchange 2010, habilite la detección automática para devolver los buzones proxy de carpetas públicas. Este paso no es necesario para Exchange 2007.
     
-        Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>
+    ```powershell
+Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>
+```
 
 5.  Repita los pasos anteriores para cada servidor de carpetas públicas que haya en la organización.
 

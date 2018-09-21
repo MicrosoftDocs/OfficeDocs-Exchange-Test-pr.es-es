@@ -73,10 +73,14 @@ Deberá ejecutar los siguientes comandos para configurar los directorios virtual
     
     Ejecute los siguientes comandos en el símbolo del sistema después de establecer el directorio virtual de Outlook Web App.
       ```
-        Net stop IISAdmin /y
+    ```powershell
+Net stop IISAdmin /y
+```
       ```
       ```
-        Net start W3SVC
+    ```powershell
+Net start W3SVC
+```
       ```
       
 2.  Para configurar el acceso externo al EAC, ejecute el comando siguiente en el Shell de administración de Exchange.

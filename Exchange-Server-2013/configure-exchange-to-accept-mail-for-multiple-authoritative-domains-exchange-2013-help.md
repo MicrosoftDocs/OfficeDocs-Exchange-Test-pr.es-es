@@ -133,11 +133,15 @@ Por ejemplo, supongamos que la directiva de direcciones de correo de la organiza
 
 Para aplicar la directiva de direcciones de correo actualizada a los destinatarios, use la sintaxis siguiente.
 
-    Update-EmailAddressPolicy <EamilAddressPolicyIdentity>
+```powershell
+Update-EmailAddressPolicy <EamilAddressPolicyIdentity>
+```
 
 Por ejemplo, para aplicar la directiva de direcciones de correo actualizada denominada «Default Policy», hay que ejecutar el siguiente comando:
 
-    Update-EmailAddressPolicy "Default Policy"
+```powershell
+Update-EmailAddressPolicy "Default Policy"
+```
 
 ## Sustituir la dirección de correo principal existente por un conjunto filtrado de destinatarios
 
@@ -197,7 +201,9 @@ En este ejemplo se crea una directiva de direcciones de correo denominada «Four
 
 Para aplicar la nueva directiva de direcciones de correo a los destinatarios afectados, ejecute el siguiente comando:
 
-    Update-EmailAddressPolicy "Fourth Coffee Recipients"
+```powershell
+Update-EmailAddressPolicy "Fourth Coffee Recipients"
+```
 
 ## ¿Cómo sabe si este paso se ha completado correctamente?
 

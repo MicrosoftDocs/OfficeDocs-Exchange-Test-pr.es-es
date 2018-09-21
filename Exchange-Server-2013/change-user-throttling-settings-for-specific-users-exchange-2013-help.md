@@ -43,18 +43,26 @@ Para personalizar la configuración de limitación y que se aplique solo a usuar
 
 En este ejemplo se crea una directiva de limitación de usuarios no predeterminada llamada ITStaffPolicy que se puede asociar a usuarios específicos. Los parámetros que se omiten heredan los valores de la directiva de limitación predeterminada GlobalThrottlingPolicy. Después de crear esta directiva, se debe asociar a usuarios específicos.
 
-    New-ThrottlingPolicy -Name ITStaffPolicy -EwsMaxConcurrency 4 -ThrottlingPolicyScope Regular
+```powershell
+New-ThrottlingPolicy -Name ITStaffPolicy -EwsMaxConcurrency 4 -ThrottlingPolicyScope Regular
+```
 
 En este ejemplo, se asocia un usuario con el nombre de usuario tonysmith a la directiva de limitación ITStaffPolicy (que tiene límites más elevados).
 
-    Set-ThrottlingPolicyAssociation -Identity tonysmith -ThrottlingPolicy ITStaffPolicy
+```powershell
+Set-ThrottlingPolicyAssociation -Identity tonysmith -ThrottlingPolicy ITStaffPolicy
+```
 
 No necesita utilizar el cmdlet **Set-ThrottlingPolicyAssociation** para asociar al usuario con una directiva. Los comandos siguientes muestran otra manera de asociar tonysmith a la directiva de limitación ITStaffPolicy.
 ```
-    $b = Get-ThrottlingPolicy ITStaffPolicy
+```powershell
+$b = Get-ThrottlingPolicy ITStaffPolicy
 ```
 ```
-    Set-Mailbox -Identity tonysmith -ThrottlingPolicy $b
+```
+```powershell
+Set-Mailbox -Identity tonysmith -ThrottlingPolicy $b
+```
 ```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [New-ThrottlingPolicy](https://technet.microsoft.com/es-es/library/dd351045\(v=exchg.150\)) y [Set-ThrottlingPolicyAssociation](https://technet.microsoft.com/es-es/library/ff459231\(v=exchg.150\)).
@@ -65,19 +73,25 @@ Para comprobar que la directiva de limitación Regular se creó correctamente, s
 
 1.  Ejecute el siguiente comando.
     
-        Get-ThrottlingPolicy | Format-List
+    ```powershell
+Get-ThrottlingPolicy | Format-List
+```
 
 2.  Compruebe que la directiva de limitación Regular que acaba de crear aparece en la columna que muestra el objeto GlobalThrottlingPolicy.
 
 3.  Ejecute el siguiente comando.
     
-        Get-ThrottlingPolicy | Format-List
+    ```powershell
+Get-ThrottlingPolicy | Format-List
+```
 
 4.  Compruebe que las propiedades de la nueva directiva Regular coinciden con el valor o valores configurados.
 
 5.  Ejecute el siguiente comando.
     
-        Get-ThrottlingPolicyAssociation
+    ```powershell
+Get-ThrottlingPolicyAssociation
+```
 
 6.  Compruebe que la nueva directiva Regular está asociada al usuario o usuarios con los que la asoció.
 

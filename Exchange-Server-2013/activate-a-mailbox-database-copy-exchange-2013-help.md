@@ -51,31 +51,45 @@ La activación de una copia de base de datos de buzones consiste en designar una
 
 En este ejemplo se activa y se monta una copia de la base de datos DB4 hospedada en MBX3 como la nueva base de datos de buzones activa. Este comando activa la nueva base de datos de buzones DB4 sin anular la configuración de marcado de montaje de bases de datos en MBX3.
 
-    Move-ActiveMailboxDatabase DB4 -ActivateOnServer MBX3 -MountDialOverride:None
+```powershell
+Move-ActiveMailboxDatabase DB4 -ActivateOnServer MBX3 -MountDialOverride:None
+```
 
 En este ejemplo se efectúa un cambio de una base de datos denominada DB2 en el servidor de buzón MBX1. Cuando finalice el comando, MBX1 hospeda la copia activa de DB2. Como el parámetro *MountDialOverride* se establece en `None`, MBX1 monta la base de datos usando su propia configuración definida de marcado de montaje automático de base de datos.
 
-    Move-ActiveMailboxDatabase DB2 -ActivateOnServer MBX1 -MountDialOverride:None
+```powershell
+Move-ActiveMailboxDatabase DB2 -ActivateOnServer MBX1 -MountDialOverride:None
+```
 
 En este ejemplo se efectúa un cambio de una base de datos denominada DB1 en el servidor de buzón MBX3. Cuando finalice el comando, MBX3 hospeda la copia activa de DB1. Como el parámetro *MountDialOverride* se especifica con un valor de `Good Availability`, MBX3 monta la base de datos mediante la configuración de marcado de montaje automático de base de datos de *GoodAvailability*.
 
-    Move-ActiveMailboxDatabase DB1 -ActivateOnServer MBX3 -MountDialOverride:GoodAvailability
+```powershell
+Move-ActiveMailboxDatabase DB1 -ActivateOnServer MBX3 -MountDialOverride:GoodAvailability
+```
 
 En este ejemplo se efectúa un cambio de una base de datos denominada DB3 en el servidor de buzón MBX4. Cuando finalice el comando, MBX4 hospeda la copia activa de DB3. Dado que no se ha especificado el parámetro *MountDialOverride*, MBX4 monta la base de datos mediante una configuración de marcado de montaje de base de datos automático de *Lossless*.
 
-    Move-ActiveMailboxDatabase DB3 -ActivateOnServer MBX4
+```powershell
+Move-ActiveMailboxDatabase DB3 -ActivateOnServer MBX4
+```
 
 En este ejemplo se efectúa un cambio de servidor en el servidor de buzón MBX1. Todas las copias de base de datos de buzón activo en MBX1 se activarán en uno o más servidores de buzón con copias en buen estado de las bases de datos activas en MBX1.
 
-    Move-ActiveMailboxDatabase -Server MBX1
+```powershell
+Move-ActiveMailboxDatabase -Server MBX1
+```
 
 En este ejemplo se efectúa un cambio de una base de datos denominada DB4 en el servidor de buzón MBX5. En este ejemplo, la copia de base de datos de MBX5 tiene una cola de repetición mayor que 6. Como consecuencia, para activar la copia de base de datos de MBX5 se debe especificar el parámetro *SkipLagChecks*.
 
-    Move-ActiveMailboxDatabase DB4 MBX5 -SkipLagChecks
+```powershell
+Move-ActiveMailboxDatabase DB4 MBX5 -SkipLagChecks
+```
 
 En este ejemplo se efectúa un cambio de una base de datos denominada DB5 en el servidor de buzón MBX6. En este ejemplo, la copia de base de datos de MBX6 tiene un *ContentIndexState* de Error. Por lo tanto, para activar la copia de base de datos de MBX6 se debe especificar el parámetro *SkipClientExperienceChecks*.
 
-    Move-ActiveMailboxDatabase DB5 MBX6 -SkipClientExperienceChecks
+```powershell
+Move-ActiveMailboxDatabase DB5 MBX6 -SkipClientExperienceChecks
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -85,7 +99,9 @@ Para comprobar que la copia de la base de datos de buzones se activó correctame
 
   - En el Shell, ejecute el siguiente comando para mostrar la información de estado de una copia de base de datos.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+```
 
 ## Más información
 

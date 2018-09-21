@@ -49,11 +49,15 @@ Para establecer un costo específico de Exchange en un vínculo a sitios de Acti
 
 En este ejemplo, se establece un costo específico de Exchange de 10 para el vínculo al sitio IP denominado IPSiteLinkAB.
 
-    Set-AdSiteLink IPSiteLinkAB -ExchangeCost 10
+```powershell
+Set-AdSiteLink IPSiteLinkAB -ExchangeCost 10
+```
 
 En este ejemplo, se borra el costo específico de Exchange en el vínculo al sitio IP IPSiteLinkAB.
 
-    Set-AdSiteLink IPSiteLinkAB -ExchangeCost $null
+```powershell
+Set-AdSiteLink IPSiteLinkAB -ExchangeCost $null
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -61,7 +65,9 @@ Para comprobar que estableció correctamente un costo de Exchange en un vínculo
 
 1.  Ejecute el siguiente comando:
     
-        Get-AdSiteLink | Format-List Name,ExchangeCost
+    ```powershell
+Get-AdSiteLink | Format-List Name,ExchangeCost
+```
 
 2.  Compruebe que el costo de Exchange está configurado en el vínculo a sitios de Active Directory.
 
@@ -71,15 +77,21 @@ Cuando existe un sitio de concentrador junto con la ruta de acceso menos costosa
 
 Para configurar un sitio de Active Directory en un sitio del concentrador, ejecute el siguiente comando:
 
-    Set-AdSite <ADSiteIdentity> -HubSiteEnabled $true
+```powershell
+Set-AdSite <ADSiteIdentity> -HubSiteEnabled $true
+```
 
 En este ejemplo, el sitio de Active Directory denominado Sitio A se configura como un sitio del concentrador.
 
-    Set-AdSite "Site A" -HubSiteEnabled $true
+```powershell
+Set-AdSite "Site A" -HubSiteEnabled $true
+```
 
 En este ejemplo se elimina el atributo de sitio del concentrador del sitio de Active Directory denominado Sitio B.
 
-    Set-AdSite "Site B" -HubSiteEnabled $false
+```powershell
+Set-AdSite "Site B" -HubSiteEnabled $false
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -87,7 +99,9 @@ Para comprobar que configuró correctamente un sitio de Active Directory como un
 
 1.  Ejecute el siguiente comando:
     
-        Get-AdSite | Format-List Name,HubSiteEnabled
+    ```powershell
+Get-AdSite | Format-List Name,HubSiteEnabled
+```
 
 2.  Compruebe que el valor *HubSiteEnabled* es `True` para el sitio de Active Directory.
 

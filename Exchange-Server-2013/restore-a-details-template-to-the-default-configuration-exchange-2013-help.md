@@ -51,7 +51,9 @@ Para obtener más información acerca de las plantillas de detalles, consulte [P
 
 En este ejemplo se restaura la plantilla de detalles de contactos en inglés de EE.UU..
 
-    Restore-DetailsTemplate -Identity "en-US\Contact"
+```powershell
+Restore-DetailsTemplate -Identity "en-US\Contact"
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Restore-DetailsTemplate](https://technet.microsoft.com/es-es/library/bb125188\(v=exchg.150\)).
 

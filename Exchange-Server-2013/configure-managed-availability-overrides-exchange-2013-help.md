@@ -119,7 +119,9 @@ En este ejemplo se agrega un reemplazo global que deshabilita el respondedor `St
 
 Para comprobar que haya creado correctamente un reemplazo global, use el cmdlet **Get-GlobalMonitoringOverride** para ver la lista de reemplazos globales:
 
-    Get-GlobalMonitoringOverride
+```powershell
+Get-GlobalMonitoringOverride
+```
 
 El reemplazo debe aparecer en la lista.
 
@@ -137,7 +139,9 @@ Este ejemplo, se quita el reemplazo global existente de la propiedad `ExtensionA
 
 Para comprobar que haya quitado correctamente un reemplazo global, use el cmdlet **Get-GlobalMonitoringOverride** para ver la lista de reemplazos globales:
 
-    Get-GlobalMonitoringOverride
+```powershell
+Get-GlobalMonitoringOverride
+```
 
 El reemplazo eliminado no debe aparecer en la lista.
 

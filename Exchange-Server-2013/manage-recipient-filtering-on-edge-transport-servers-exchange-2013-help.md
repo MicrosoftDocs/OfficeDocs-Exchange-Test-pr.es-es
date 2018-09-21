@@ -37,7 +37,9 @@ El agente de filtrado de destinatarios proporciona la capacidad de filtrado de d
 
   - El parámetro *AddressBookEnabled* del cmdlet **Set-AcceptedDomain** habilita o deshabilita el filtrado de destinatarios en un dominio aceptado. De manera predeterminada, el filtrado de destinatarios está habilitado para dominios autorizados y deshabilitado para dominios de retransmisión internos y dominios de retransmisión externos. Para ver el estado del parámetro *AddressBookEnabled* para los dominios aceptados en su organización, ejecute el siguiente comando:
     
-        Get-AcceptedDomain | Format-List Name,AddressBookEnabled
+    ```powershell
+Get-AcceptedDomain | Format-List Name,AddressBookEnabled
+```
 
   - Si deshabilita el filtrado de destinatarios mediante el procedimiento descrito en este tema, se deshabilitará la funcionalidad de filtrado de destinatarios, pero el agente de filtrado de destinatarios subyacente permanecerá habilitado.
 
@@ -55,11 +57,15 @@ El agente de filtrado de destinatarios proporciona la capacidad de filtrado de d
 
 Para deshabilitar el filtrado de destinatarios, ejecute el comando siguiente:
 
-    Set-RecipientFilterConfig -Enabled $false
+```powershell
+Set-RecipientFilterConfig -Enabled $false
+```
 
 Para habilitar el filtrado de destinatarios, ejecute el comando siguiente:
 
-    Set-RecipientFilterConfig -Enabled $true
+```powershell
+Set-RecipientFilterConfig -Enabled $true
+```
 
 
 > [!NOTE]
@@ -73,7 +79,9 @@ Para comprobar que el filtrado de destinatarios se habilitó o deshabilitó corr
 
 1.  Ejecute el siguiente comando:
     
-        Get-RecipientFilterConfig | Format-List Enabled
+    ```powershell
+Get-RecipientFilterConfig | Format-List Enabled
+```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 
@@ -81,11 +89,15 @@ Para comprobar que el filtrado de destinatarios se habilitó o deshabilitó corr
 
 Ejecute el siguiente comando:
 
-    Set-RecipientFilterConfig -BlockListEnabled <$true | $false>
+```powershell
+Set-RecipientFilterConfig -BlockListEnabled <$true | $false>
+```
 
 En este ejemplo, se habilita la lista de destinatarios bloqueados:
 
-    Set-RecipientFilterConfig -BlockListEnabled $true
+```powershell
+Set-RecipientFilterConfig -BlockListEnabled $true
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -93,7 +105,9 @@ Para comprobar que la lista de destinatarios bloqueados se habilitó o deshabili
 
 1.  Ejecute el siguiente comando:
     
-        Get-RecipientFilterConfig | Format-List BlockListEnabled
+    ```powershell
+Get-RecipientFilterConfig | Format-List BlockListEnabled
+```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 
@@ -101,11 +115,15 @@ Para comprobar que la lista de destinatarios bloqueados se habilitó o deshabili
 
 Para reemplazar los valores existentes, ejecute el siguiente comando:
 
-    Set-RecipientFilterConfig -BlockedRecipients <recipient1,recipient2...>
+```powershell
+Set-RecipientFilterConfig -BlockedRecipients <recipient1,recipient2...>
+```
 
 En este ejemplo, se configura la lista de destinatarios bloqueados con los valores mark@contoso.com y kim@contoso.com:
 
-    Set-RecipientFilterConfig -BlockedRecipients mark@contoso.com,kim@contoso.com
+```powershell
+Set-RecipientFilterConfig -BlockedRecipients mark@contoso.com,kim@contoso.com
+```
 
 Para agregar o quitar entradas sin modificar valores existentes, ejecute el siguiente comando:
 
@@ -121,7 +139,9 @@ Para comprobar que la lista de destinatarios bloqueados se configuró correctame
 
 1.  Ejecute el siguiente comando:
     
-        Get-RecipientFilterConfig | Format-List BlockedRecipients
+    ```powershell
+Get-RecipientFilterConfig | Format-List BlockedRecipients
+```
 
 2.  Verifique que los valores mostrados son los valores que ha configurado.
 
@@ -129,11 +149,15 @@ Para comprobar que la lista de destinatarios bloqueados se configuró correctame
 
 Ejecute el siguiente comando:
 
-    Set-RecipientFilterConfig -RecipientValidationEnabled <$true | $false>
+```powershell
+Set-RecipientFilterConfig -RecipientValidationEnabled <$true | $false>
+```
 
 Para bloquear mensajes dirigidos a destinatarios que no existen en la organización, ejecute el comando siguiente:
 
-    Set-RecipientFilterConfig -RecipientValidationEnabled $true
+```powershell
+Set-RecipientFilterConfig -RecipientValidationEnabled $true
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -141,7 +165,9 @@ Para comprobar que la búsqueda de destinatarios se habilitó o deshabilitó cor
 
 1.  Ejecute el siguiente comando:
     
-        Get-RecipientFilterConfig | Format-List RecipientValidationEnabled
+    ```powershell
+Get-RecipientFilterConfig | Format-List RecipientValidationEnabled
+```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 

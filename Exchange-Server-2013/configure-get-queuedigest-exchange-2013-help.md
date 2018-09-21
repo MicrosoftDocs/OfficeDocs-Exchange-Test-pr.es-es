@@ -61,7 +61,9 @@ De manera predeterminada, las colas de entrega que tienen el estado Activo, Cone
 
 1.  En una ventana del símbolo del sistema, abra el archivo EdgeTransport.exe.config en el Bloc de notas ejecutando el comando siguiente:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 2.  Agregue una de las siguientes claves, o las dos, a la sección `<appSettings>`.
     
@@ -81,11 +83,15 @@ De manera predeterminada, las colas de entrega que tienen el estado Activo, Cone
 
 5.  Para cambiar el valor del parámetro *QueueDiagnosticsAggregationInterval* en el Shell de administración de Exchange, use la siguiente sintaxis:
     
-        Set-TransportConfig -QueueDiagnosticsAggregationInterval <hh:mm:ss>
+    ```powershell
+Set-TransportConfig -QueueDiagnosticsAggregationInterval <hh:mm:ss>
+```
     
     Por ejemplo, para cambiar el valor a 30 segundos, ejecute el siguiente comando:
     
-        Set-TransportConfig -QueueDiagnosticsAggregationInterval 00:00:30
+    ```powershell
+Set-TransportConfig -QueueDiagnosticsAggregationInterval 00:00:30
+```
 
 ## ¿Cómo puede saber si funcionó?
 

@@ -51,11 +51,15 @@ Para obtener más información sobre los ámbitos y las asignaciones de funcione
 
 Para cambiar el nombre de un ámbito, use la sintaxis siguiente.
 
-    Set-ManagementScope <current scope name> -Name <new scope name>
+```powershell
+Set-ManagementScope <current scope name> -Name <new scope name>
+```
 
 En este ejemplo, se cambia el ámbito Servidores de Seattle a los servidores Exchange de Seattle.
 
-    Set-ManagementScope "Seattle Servers" -Name "Seattle Exchange Servers"
+```powershell
+Set-ManagementScope "Seattle Servers" -Name "Seattle Exchange Servers"
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Set-ManagementScope](https://technet.microsoft.com/es-es/library/dd297996\(v=exchg.150\)).
 
@@ -63,11 +67,15 @@ Para obtener información más detallada acerca de la sintaxis y los parámetros
 
 Para cambiar el filtro de destinatarios en un ámbito, use la siguiente sintaxis.
 
-    Set-ManagementScope <scope name> -RecipientRestrictionFilter { <new recipient filter> }
+```powershell
+Set-ManagementScope <scope name> -RecipientRestrictionFilter { <new recipient filter> }
+```
 
 En este ejemplo, se cambia el filtro de destinatario de modo tal que coincida con todos los objetos de destinatario, donde la propiedad **Company** está establecida en contoso.
 
-    Set-ManagementScope "Company Scope" -RecipientRestrictionFilter { Company -eq 'contoso' }
+```powershell
+Set-ManagementScope "Company Scope" -RecipientRestrictionFilter { Company -eq 'contoso' }
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-ManagementScope](https://technet.microsoft.com/es-es/library/dd297996\(v=exchg.150\)).
 
@@ -77,11 +85,15 @@ Para obtener más información acerca de los filtros de destinatario y para ver 
 
 Para cambiar la raíz de una unidad organizativa en un ámbito, use la sintaxis siguiente.
 
-    Set-ManagementScope <scope name> -RecipientRoot <OU>
+```powershell
+Set-ManagementScope <scope name> -RecipientRoot <OU>
+```
 
 En este ejemplo, se cambia la raíz de una unidad organizativa de la unidad organizativa de usuarios de ventas del dominio contoso.com a Norteamérica/Ventas.
 
-    Set-ManagementScope "Sales Users" -RecipientRoot "contoso.com/North America/Sales"
+```powershell
+Set-ManagementScope "Sales Users" -RecipientRoot "contoso.com/North America/Sales"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-ManagementScope](https://technet.microsoft.com/es-es/library/dd297996\(v=exchg.150\)).
 
@@ -89,7 +101,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para cambiar el filtro de servidor en un ámbito, use la siguiente sintaxis.
 
-    Set-ManagementScope <scope name> -ServerRestrictionFilter { <new server filter> }
+```powershell
+Set-ManagementScope <scope name> -ServerRestrictionFilter { <new server filter> }
+```
 
 En este ejemplo se cambia el filtro del servidor para que coincida con todos los objetos el servidor en el que la propiedad **ServerSite** está establecida en 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com'.
 
@@ -115,7 +129,9 @@ No puede cambiar la lista de servidores en un ámbito. Si necesita cambiar la li
 
 Para cambiar el filtro de base de datos en un ámbito, use la siguiente sintaxis.
 
-    Set-ManagementScope <scope name> -DatabaseRestrictionFilter { <new database filter> }
+```powershell
+Set-ManagementScope <scope name> -DatabaseRestrictionFilter { <new database filter> }
+```
 
 En este ejemplo, se cambia el filtro de base de datos de modo tal que coincida con todos los objetos de base de datos, donde la propiedad **Name** contiene la cadena "Ejecutivo".
 

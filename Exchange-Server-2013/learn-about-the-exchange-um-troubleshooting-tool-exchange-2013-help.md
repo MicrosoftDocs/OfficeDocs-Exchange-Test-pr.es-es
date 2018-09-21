@@ -191,7 +191,9 @@ La herramienta para la solución de problemas de Mensajería unificada ayuda a s
 
 En el siguiente ejemplo, se usa el modo de puerta de enlace para probar el flujo de llamadas en un entorno que no incluye Office Communications Server 2007 R2 ni Lync Server. En este ejemplo, se prueban el equipo de telefonía, incluidas las puertas de enlace VoIP, PBX y PBX IP, y los componentes de Mensajería unificada. En este ejemplo, se configura el modo de seguridad de VoIP en No protegida, se usa la dirección IP 10.1.1.1 como el siguiente salto e incluye un número de extensión en la información de desvío.
 
-    Test-ExchangeUMCallFlow -Mode Gateway -VoIPSecurity Unsecured -NextHop 10.1.1.1 -Diversion 12345
+```powershell
+Test-ExchangeUMCallFlow -Mode Gateway -VoIPSecurity Unsecured -NextHop 10.1.1.1 -Diversion 12345
+```
 
 Introducción
 

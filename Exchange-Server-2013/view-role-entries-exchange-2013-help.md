@@ -95,11 +95,15 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para ver los detalles de un solo grupo de funciones, use la sintaxis siguiente.
 
-    Get-ManagementRoleEntry <role name>\<cmdlet name> | Format-List
+```powershell
+Get-ManagementRoleEntry <role name>\<cmdlet name> | Format-List
+```
 
 En este ejemplo se recuperan los detalles de la función de entrada **Set-Mailbox** en la función `Recipient Administrators`.
 
-    Get-ManagementRoleEntry "Recipient Administrators\Set-Mailbox" | Format-List
+```powershell
+Get-ManagementRoleEntry "Recipient Administrators\Set-Mailbox" | Format-List
+```
 
 Si la entrada de función que ve tiene demasiados parámetros para indicar usando el cmdlet **Format-List**, consulte la sección "Visualización de los parámetros de una sola entrada de función" más adelante en este mismo tema.
 

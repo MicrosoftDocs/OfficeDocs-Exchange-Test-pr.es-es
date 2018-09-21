@@ -63,7 +63,9 @@ Realizar un cambio del centro de datos para DAG que no están en el modo DAC imp
 
 El modo DAC solo se puede habilitar mediante el Shell de administración de Exchange. En especial, puede usar el cmdlet [Set-DatabaseAvailabilityGroup](https://technet.microsoft.com/es-es/library/dd297934\(v=exchg.150\)) para habilitar el modo DAC, tal como lo ilustra el ejemplo siguiente.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG2 -DatacenterActivationMode DagOnly
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG2 -DatacenterActivationMode DagOnly
+```
 
 En el ejemplo anterior, DAG2 se habilita en el modo DAC.
 

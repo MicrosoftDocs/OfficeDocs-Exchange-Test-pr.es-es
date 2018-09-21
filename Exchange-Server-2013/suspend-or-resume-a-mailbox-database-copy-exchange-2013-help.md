@@ -65,21 +65,29 @@ Es posible que deba suspender o reanudar una copia de base de datos por diversos
 
 Este ejemplo suspende la replicación continua de una copia de la base de datos de DB1 hospedada en el servidor MBX1. También se ha especificado un comentario opcional.
 
-    Suspend-MailboxDatabaseCopy -Identity DB1\MBX1 -SuspendComment "Maintenance on MBX1" -Confirm:$False
+```powershell
+Suspend-MailboxDatabaseCopy -Identity DB1\MBX1 -SuspendComment "Maintenance on MBX1" -Confirm:$False
+```
 
 Este ejemplo suspende la activación de una copia de la base de datos de DB2 hospedada en el servidor MBX2.
 
-    Suspend-MailboxDatabaseCopy -Identity DB2\MBX2 -ActivationOnly -Confirm:$False
+```powershell
+Suspend-MailboxDatabaseCopy -Identity DB2\MBX2 -ActivationOnly -Confirm:$False
+```
 
 ## Usar el Shell para reanudar una copia de base de datos de buzones
 
 En este ejemplo se reanuda una copia de la base de datos DB1 en el servidor MBX1.
 
-    Resume-MailboxDatabaseCopy -Identity DB1\MBX1
+```powershell
+Resume-MailboxDatabaseCopy -Identity DB1\MBX1
+```
 
 Este ejemplo reanuda la copia de la base de datos DB2 en el servidor MBX2 solo para la replicación.
 
-    Resume-MailboxDatabaseCopy -Identity DB2\MBX2 -ReplicationOnly
+```powershell
+Resume-MailboxDatabaseCopy -Identity DB2\MBX2 -ReplicationOnly
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -89,5 +97,7 @@ Para verificar que ha suspendido o reanudado correctamente una copia de base de 
 
   - En el Shell, ejecute el siguiente comando para mostrar la información de estado de una copia de base de datos.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+```
 

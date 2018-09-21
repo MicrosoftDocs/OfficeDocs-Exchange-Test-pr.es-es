@@ -55,11 +55,15 @@ Para ver colas, use la sintaxis siguiente.
 
 En este ejemplo aparece la información básica sobre todas las colas no vacías en el servidor de buzones de Exchange 2013 denominado Mailbox01.
 
-    Get-Queue -Server Mailbox01 -Exclude Empty
+```powershell
+Get-Queue -Server Mailbox01 -Exclude Empty
+```
 
 En este ejemplo se muestra información detallada de todas las colas que contienen más de 100 mensajes en el servidor de buzones en el que se ejecuta el comando.
 
-    Get-Queue -Filter {MessageCount -gt 100} | Format-List
+```powershell
+Get-Queue -Filter {MessageCount -gt 100} | Format-List
+```
 
 ## Usar el Shell para ver la información de resumen de cola en varios servidores de Exchange
 
@@ -77,11 +81,15 @@ Para ver la información de resumen de colas en varios servidores de Exchange, e
 
 En este ejemplo aparece la información de resumen sobre las colas de todos los servidores de buzones de Exchange 2013 del sitio de Active Directory denominado FirstSite en el que el recuento de mensajes es superior a 100.
 
-    Get-QueueDigest -Site FirstSite -Filter {MessageCount -gt 100}
+```powershell
+Get-QueueDigest -Site FirstSite -Filter {MessageCount -gt 100}
+```
 
 En este ejemplo aparece la información de resumen de las colas de todos los servidores de buzones de Exchange 2013 del grupo de disponibilidad de base de datos (DAG) denominado DAG01 en el que el estado de cola tiene el valor **Retry**.
 
-    Get-QueueDigest -Dag DAG01 -Filter {Status -eq "Retry"}
+```powershell
+Get-QueueDigest -Dag DAG01 -Filter {Status -eq "Retry"}
+```
 
 ## Reanudar colas
 
@@ -115,11 +123,15 @@ Para reanudar colas, utilice la sintaxis siguiente.
 
 En este ejemplo, se reanudan todas las colas del servidor local que tienen el estado Suspendido.
 
-    Resume-Queue -Filter {Status -eq "Suspended"}
+```powershell
+Resume-Queue -Filter {Status -eq "Suspended"}
+```
 
 En este ejemplo se reanuda la cola de entrega suspendida contoso.com en el servidor llamado Mailbox01.
 
-    Resume-Queue -Identity Mailbox01\contoso.com
+```powershell
+Resume-Queue -Identity Mailbox01\contoso.com
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -161,11 +173,15 @@ Para reintentar colas, utilice la sintaxis siguiente.
 
 En este ejemplo se reintentan todas las colas del servidor local con el estado Reintentar.
 
-    Retry-Queue -Filter {status -eq "retry"}
+```powershell
+Retry-Queue -Filter {status -eq "retry"}
+```
 
 En este ejemplo se reintenta la cola denominada contoso.com con estado `Retry` en el servidor denominado Mailbox01.
 
-    Retry-Queue -Identity Mailbox01\contoso.com
+```powershell
+Retry-Queue -Identity Mailbox01\contoso.com
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -193,11 +209,15 @@ Para reenviar mensajes, utilice la sintaxis siguiente.
 
 En este ejemplo, se vuelven a enviar todos los mensajes ubicados en las colas de entrega con el estado de Reintentar en el servidor denominado Mailbox01.
 
-    Retry-Queue -Filter {Status -eq "Retry"} -Server Mailbox01 -Resubmit $true
+```powershell
+Retry-Queue -Filter {Status -eq "Retry"} -Server Mailbox01 -Resubmit $true
+```
 
 En este ejemplo se reenvían todos los mensajes de la cola inalcanzable del servidor Mailbox01.
 
-    Retry-Queue -Identity Mailbox01\Unreachable -Resubmit $true
+```powershell
+Retry-Queue -Identity Mailbox01\Unreachable -Resubmit $true
+```
 
 ## Volver a enviar los mensajes en la cola de mensajes dudosos
 
@@ -227,15 +247,21 @@ Para reenviar un mensaje de la cola de mensajes dudosos, siga estos pasos.
 
 1.  Busque la identidad del mensaje ejecutando el comando siguiente.
     
-        Get-Message -Queue Poison | Format-Table Identity
+    ```powershell
+Get-Message -Queue Poison | Format-Table Identity
+```
 
 2.  Use la identidad del mensaje del paso anterior en el siguiente comando.
     
-        Resume-Message <PoisonMessageIdentity>
+    ```powershell
+Resume-Message <PoisonMessageIdentity>
+```
     
     En este ejemplo, se reanuda un mensaje de la cola de mensajes dudosos que tiene un valor de identidad de mensaje de 222.
     
-        Resume-Message 222
+    ```powershell
+Resume-Message 222
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -271,11 +297,15 @@ Para suspender una cola, utilice la sintaxis siguiente.
 
 En este ejemplo se suspenden todas las colas del servidor local que tienen un recuento de mensajes igual o superior a 1.000 y el estado Reintentar.
 
-    Suspend-Queue -Filter {MessageCount -ge 1000 -and Status -eq "Retry"}
+```powershell
+Suspend-Queue -Filter {MessageCount -ge 1000 -and Status -eq "Retry"}
+```
 
 En este ejemplo se suspende la cola denominada contoso.com en el servidor denominado Mailbox01.
 
-    Suspend-Queue -Identity Mailbox01\contoso.com
+```powershell
+Suspend-Queue -Identity Mailbox01\contoso.com
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

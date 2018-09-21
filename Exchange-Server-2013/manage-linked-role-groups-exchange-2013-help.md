@@ -63,7 +63,9 @@ Para crear un grupo de funciones vinculado y asignarle funciones de administraci
 
 1.  Almacene las credenciales del bosque externo Active Directory en una variable.
     
-        $ForeignCredential = Get-Credential
+    ```powershell
+$ForeignCredential = Get-Credential
+```
 
 2.  Cree el grupo de funciones vinculadas con la siguiente sintaxis.
     
@@ -83,7 +85,9 @@ En este ejemplo se realiza lo siguiente:
 
 <!-- end list -->
 
-    $ForeignCredential = Get-Credential
+```powershell
+$ForeignCredential = Get-Credential
+```
     New-RoleGroup "Compliance Role Group" -LinkedForeignGroup "Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles "Transport Rules", "Journaling"
 
 ## Usar Shell para crear un grupo de funciones vinculado con un ámbito de administración personalizado
@@ -92,7 +96,9 @@ Es posible crear grupos de funciones vinculados con ámbitos de administración 
 
 1.  Almacene las credenciales del bosque externo Active Directory en una variable.
     
-        $ForeignCredential = Get-Credential
+    ```powershell
+$ForeignCredential = Get-Credential
+```
 
 2.  Cree el grupo de funciones vinculadas con la siguiente sintaxis.
     
@@ -112,7 +118,9 @@ En este ejemplo se realiza lo siguiente:
 
 <!-- end list -->
 
-    $ForeignCredential = Get-Credential
+```powershell
+$ForeignCredential = Get-Credential
+```
     New-RoleGroup "Seattle Compliance Role Group" -LinkedForeignGroup "Seattle Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -CustomRecipientWriteScope "Seattle Recipients" -Roles "Transport Rules", "Journaling"
 
 Para obtener más información acerca de los ámbitos de administración, consulte [Descripción de los ámbitos de roles de administración](understanding-management-role-scopes-exchange-2013-help.md).
@@ -123,7 +131,9 @@ Puede crear grupos de funciones vinculados que utilizan un ámbito de destinatar
 
 1.  Almacene las credenciales del bosque externo Active Directory en una variable.
     
-        $ForeignCredential = Get-Credential
+    ```powershell
+$ForeignCredential = Get-Credential
+```
 
 2.  Cree el grupo de funciones vinculadas con la siguiente sintaxis.
     
@@ -143,7 +153,9 @@ En este ejemplo se realiza lo siguiente:
 
 <!-- end list -->
 
-    $ForeignCredential = Get-Credential
+```powershell
+$ForeignCredential = Get-Credential
+```
     New-RoleGroup "Executives Compliance Role Group" -LinkedForeignGroup "Executives Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -RecipientOrganizationalUnitScope "Executives OU" -Roles "Transport Rules", "Journaling"
 
 Para obtener más información acerca de los ámbitos de administración, consulte [Descripción de los ámbitos de roles de administración](understanding-management-role-scopes-exchange-2013-help.md).
@@ -156,7 +168,9 @@ Para cambiar el grupo de seguridad universal externo asociado con un grupo de fu
 
 1.  Almacene las credenciales del bosque externo Active Directory en una variable.
     
-        $ForeignCredential = Get-Credential
+    ```powershell
+$ForeignCredential = Get-Credential
+```
 
 2.  Use la siguiente sintaxis para cambiar el USG externo en el grupo de roles vinculado existente.
     
@@ -170,6 +184,8 @@ En este ejemplo se realiza lo siguiente:
 
 <!-- end list -->
 
-    $ForeignCredential = Get-Credential
+```powershell
+$ForeignCredential = Get-Credential
+```
     Set-RoleGroup "Compliance Role Group" -LinkedForeignGroup "Regulatory Compliance Officers" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential
 

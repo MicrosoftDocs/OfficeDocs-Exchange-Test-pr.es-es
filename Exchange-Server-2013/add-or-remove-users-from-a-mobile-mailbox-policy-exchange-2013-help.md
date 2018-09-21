@@ -120,5 +120,7 @@ Para verificar que cambió correctamente la directiva de buzón de dispositivo m
 
 2.  En el Shell, ejecute el siguiente comando.
     
-        Get-CASMailbox -Identity tony@contoso.com
+    ```powershell
+Get-CASMailbox -Identity tony@contoso.com
+```
 

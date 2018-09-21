@@ -43,7 +43,9 @@ Para personalizar la configuración de limitaciones que se aplican a todos los u
 
 En este ejemplo se crea una directiva de limitación que se aplica a todos los usuarios de la organización. Los parámetros que se omiten heredan los valores de la directiva de limitación predeterminada GlobalThrottlingPolicy.
 
-    New-ThrottlingPolicy -Name AllUsersEWSPolicy EwsMaxConcurrency 4 -ThrottlingPolicyScope Organization
+```powershell
+New-ThrottlingPolicy -Name AllUsersEWSPolicy EwsMaxConcurrency 4 -ThrottlingPolicyScope Organization
+```
 
 Para obtener más información sobre sintaxis y parámetros, consulte [New-ThrottlingPolicy](https://technet.microsoft.com/es-es/library/dd351045\(v=exchg.150\)).
 
@@ -53,13 +55,17 @@ Para comprobar que la directiva de limitación Organization se creó correctamen
 
 1.  Ejecute el siguiente comando.
     
-        Get-ThrottlingPolicy | Format-List
+    ```powershell
+Get-ThrottlingPolicy | Format-List
+```
 
 2.  Compruebe que la directiva de limitación Organization que acaba de crear aparece en la columna que muestra el objeto GlobalThrottlingPolicy.
 
 3.  Ejecute el siguiente comando.
     
-        Get-ThrottlingPolicy | Format-List
+    ```powershell
+Get-ThrottlingPolicy | Format-List
+```
 
 4.  Compruebe que las propiedades de la nueva directiva Organization coinciden con el valor o valores configurados.
 

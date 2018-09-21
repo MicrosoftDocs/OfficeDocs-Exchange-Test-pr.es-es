@@ -212,11 +212,15 @@ En este ejemplo, mediante el parámetro *Column*, el número de columnas no pued
 
 El cmdlet **Out-Host** es un cmdlet predeterminado no visto al final del canal. Después de aplicar todo el formato, el cmdlet **Out-Host** envía el resultado final a la ventana de consola para visualización. No tiene que llamar explícitamente al cmdlet **Out-Host**, dado que es el resultado predeterminado. Puede invalidar el envío del resultado a la ventana de consola llamando al cmdlet **Out-File** como último cmdlet del comando. El cmdlet **Out-File** escribe, a continuación, el resultado en el archivo que especifica en el comando, como se muestra en el ejemplo siguiente:
 
-    Get-ChildItem | Format-Wide -Column 4 | Out-File c:\OutputFile.txt
+```powershell
+Get-ChildItem | Format-Wide -Column 4 | Out-File c:\OutputFile.txt
+```
 
 En este ejemplo, el cmdlet **Out-File** escribe la información que se muestra en el comando **Get-ChildItem | Format-Wide -Column 4** en un archivo denominado `OutputFile.txt`. También puede redirigir el resultado del canal a un archivo mediante el operador de redirección, que es el corchete angular de cierre ( `>` ). Para anexar el resultado del canal de un comando a un archivo existente sin reemplazar el archivo original, use el corchete angular de cierre doble ( `>>` ), como en el ejemplo siguiente:
 
-    Get-ChildItem | Format-Wide -Column 4 >> C:\OutputFile.txt
+```powershell
+Get-ChildItem | Format-Wide -Column 4 >> C:\OutputFile.txt
+```
 
 En este ejemplo, el resultado del cmdlet **Get-Childitem** se canaliza al cmdlet **Format-Wide** para dar formato y, después, se escribe al final del archivo `OutputFile.txt`. Tenga en cuenta que si el archivo `OutputFile.txt` no existe, éste se crearía al usar los corchetes angulares de cierre dobles (`>>`).
 
@@ -249,7 +253,9 @@ Para usar este script, guárdelo en el directorio `C:\Program Files\Microsoft\Ex
 
 El script `Out-Ie` supone que los datos que recibe son código HTML válido. Para convertir los datos que desea ver en código HTML, debe canalizar los resultados del comando al cmdlet **ConvertTo-Html**. A continuación, puede canalizar los resultados de dicho comando al script `Out-Ie`. El siguiente ejemplo muestra cómo visualizar un listado de directorios en una ventana de Internet Explorer:
 
-    Get-ChildItem | Select Name,Length | ConvertTo-Html | Out-Ie
+```powershell
+Get-ChildItem | Select Name,Length | ConvertTo-Html | Out-Ie
+```
 
 ## Cómo filtrar datos
 

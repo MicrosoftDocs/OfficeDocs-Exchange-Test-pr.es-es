@@ -67,11 +67,15 @@ A continuación, figuran los pasos para crear una función de nivel superior sin
 
 Las funciones de nivel superior sin ámbito no tienen una función principal. Debe especificar el conmutador de *UnscopedTopLevel* para crear una función sin una principal. Use la siguiente sintaxis para crear una nueva función.
 
-    New-ManagementRole <name of new role> -UnscopedTopLevel
+```powershell
+New-ManagementRole <name of new role> -UnscopedTopLevel
+```
 
 En este ejemplo, se crea la función de nivel superior sin ámbito de scripts de TI.
 
-    New-ManagementRole "IT Scripts" -UnscopedTopLevel
+```powershell
+New-ManagementRole "IT Scripts" -UnscopedTopLevel
+```
 
 Después de crearla, la función permanece vacía hasta que le agregue los scripts o los cmdlets que no son Exchange.
 
@@ -159,7 +163,9 @@ Use la siguiente sintaxis para crear una nueva función.
 
 En este ejemplo, se copia la función Scripts de TI global y sus entradas de funciones de administración en la función Scripts de TI de diagnóstico.
 
-    New-ManagementRole -Parent "IT Global Scripts" -Name "Diagnostic IT Scripts"
+```powershell
+New-ManagementRole -Parent "IT Global Scripts" -Name "Diagnostic IT Scripts"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementRole](https://technet.microsoft.com/es-es/library/dd298073\(v=exchg.150\)).
 

@@ -47,11 +47,15 @@ Si quita una entrada de dominio remoto, la configuración de transferencia de me
 
 Para crear una nueva entrada de dominio remoto, utilice la siguiente sintaxis.
 
-    New-RemoteDomain -Name <Descriptive Name> -DomainName <SMTP address space>
+```powershell
+New-RemoteDomain -Name <Descriptive Name> -DomainName <SMTP address space>
+```
 
 En este ejemplo se crea una entrada de dominio remoto para mensajes enviados al dominio contoso.com.
 
-    New-RemoteDomain -Name Contoso -DomainName contoso.com
+```powershell
+New-RemoteDomain -Name Contoso -DomainName contoso.com
+```
 
 En este ejemplo se crea una entrada de dominio remoto para mensajes enviados al dominio fabrikam.com y todos sus subdominios.
 
@@ -81,11 +85,15 @@ Para configurar dominios remotos para casos concretos, consulte los siguientes t
 
 Para quitar una entrada de dominio remoto, utilice la siguiente sintaxis.
 
-    Remove-RemoteDomain <RemoteDomainName>
+```powershell
+Remove-RemoteDomain <RemoteDomainName>
+```
 
 En este ejemplo se quita la entrada de dominio remoto denominada Contoso
 
-    Remove-RemoteDomain Contoso
+```powershell
+Remove-RemoteDomain Contoso
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

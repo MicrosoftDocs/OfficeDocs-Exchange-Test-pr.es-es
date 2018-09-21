@@ -89,7 +89,9 @@ En este ejemplo se usa el script `Move-PublicFolderBranch.ps1` para mover una ra
 
 Para comprobar que la solicitud de movimiento de la carpeta pública se ha realizado correctamente, ejecute el siguiente comando:
 
-    Get-PublicFolderMoveRequest | Format-List Status
+```powershell
+Get-PublicFolderMoveRequest | Format-List Status
+```
 
 Un estado de `Completed` indica que la solicitud de movimiento se realizó correctamente.
 

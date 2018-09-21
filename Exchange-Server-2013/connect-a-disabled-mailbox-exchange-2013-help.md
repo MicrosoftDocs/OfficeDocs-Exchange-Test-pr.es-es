@@ -85,7 +85,9 @@ Use el cmdlet **Connect-Mailbox** en el Shell para conectar una cuenta de usuari
 
 En este ejemplo se conecta un buzón de correo de usuario. El parámetro *Identity* especifica el buzón de correo desconectado en una base de datos de Exchange. El parámetro *User* especifica la cuenta de usuario de Active Directory que desea volver a conectar al buzón de correo.
 
-    Connect-Mailbox -Identity "Jeffrey Zeng" -Database MBXDB01 -User "Jeffrey Zeng"
+```powershell
+Connect-Mailbox -Identity "Jeffrey Zeng" -Database MBXDB01 -User "Jeffrey Zeng"
+```
 
 En este ejemplo se conecta un buzón vinculado. El parámetro *Identity* especifica el buzón de correo desconectado en una base de datos de Exchange. El parámetro *LinkedMasterAccount* especifica la cuenta de usuario de Active Directory en el bosque de cuentas al cual desea volver a conectar el buzón de correo. El parámetro *Alias* especifica el alias, que es la porción de la dirección de correo electrónico ubicada a la izquierda del símbolo (@).
 
@@ -113,7 +115,9 @@ Para comprobar si creó un buzón de correo deshabilitado conectado a una cuenta
 
   - En el Shell, ejecute el siguiente comando.
     
-        Get-User <identity>
+    ```powershell
+Get-User <identity>
+```
     
     El valor **UserMailbox** de la propiedad *RecipientType* indica que la cuenta de usuario y el buzón de correo están conectados. También puede ejecutar el cmdlet **Get-Mailbox** para verificar que el buzón de correo exista.
 

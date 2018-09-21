@@ -33,7 +33,9 @@ Haga lo siguiente para instalar la característica de Windows en este equipo. Si
 
 2.  Ejecute el siguiente comando para instalar la característica necesaria de Windows.
     
-        Install-WindowsFeature RSAT-Clustering-CmdInterface
+    ```powershell
+Install-WindowsFeature RSAT-Clustering-CmdInterface
+```
 
 ¿Tiene algún problema? Solicite ayuda en los foros de Exchange. Visite los foros en [Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=267542), o [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=285351).
 

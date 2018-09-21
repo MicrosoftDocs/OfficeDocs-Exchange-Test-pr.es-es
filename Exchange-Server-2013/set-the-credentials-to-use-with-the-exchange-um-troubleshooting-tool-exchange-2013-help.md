@@ -59,7 +59,9 @@ De forma predeterminada, cuando se ejecuta la herramienta para la solución de p
 
 2.  En la ventana **Herramienta para la solución de problemas de Mensajería unificada de Microsoft Exchange 2010**, en el aviso, escriba lo siguiente y presione Entrar.
     
-        $cred=Get-Credential
+    ```powershell
+$cred=Get-Credential
+```
 
 3.  En la ventana **Solicitud de credenciales para Windows PowerShell**, escriba el dominio\\nombre de usuario y contraseña y, luego, haga clic en **Aceptar**.
 

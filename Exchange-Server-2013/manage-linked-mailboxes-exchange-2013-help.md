@@ -128,7 +128,9 @@ Para comprobar si creó un buzón vinculado correctamente, siga uno de estos pro
 
   - En el Shell, ejecute el comando siguiente para mostrar información sobre el nuevo buzón vinculado.
     
-        Get-Mailbox <Name> | FL Name,RecipientTypeDetails,IsLinked,LinkedMasterAccount
+    ```powershell
+Get-Mailbox <Name> | FL Name,RecipientTypeDetails,IsLinked,LinkedMasterAccount
+```
 
 ## Cambiar las propiedades de los buzones vinculados
 
@@ -398,5 +400,7 @@ Para comprobar si cambió las propiedades de un buzón vinculado correctamente, 
     
     En el ejemplo anterior en el que se cambió la cuenta maestra vinculada, ejecute el siguiente comando para comprar el valor nuevo.
     
-        Get-Mailbox "Ayla Kol" | fl LinkedMasterAccount
+    ```powershell
+Get-Mailbox "Ayla Kol" | fl LinkedMasterAccount
+```
 

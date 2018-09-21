@@ -47,15 +47,21 @@ Con el uso de la portabilidad del tono de marcado, los usuarios pueden tener un 
 
 2.  Use el cmdlet [New-MailboxDatabase](https://technet.microsoft.com/es-es/library/aa997976\(v=exchg.150\)) para crear una base de datos de tono de marcado, como se muestra en este ejemplo.
     
-        New-MailboxDatabase -Name DTDB1 -EdbFilePath D:\DialTone\DTDB1.EDB
+    ```powershell
+New-MailboxDatabase -Name DTDB1 -EdbFilePath D:\DialTone\DTDB1.EDB
+```
 
 3.  Use el cmdlet [Set-Mailbox](https://technet.microsoft.com/es-es/library/bb123981\(v=exchg.150\)) para volver a asignar los buzones de usuario alojados en la base de datos en la que se realiza la recuperación, como se muestra en este ejemplo.
     
-        Get-Mailbox -Database DB1 | Set-Mailbox -Database DTDB1
+    ```powershell
+Get-Mailbox -Database DB1 | Set-Mailbox -Database DTDB1
+```
 
 4.  Use el cmdlet [Mount-Database](https://technet.microsoft.com/es-es/library/aa998871\(v=exchg.150\)) para montar la base de datos para que los equipos cliente puedan tener acceso a la base de datos y enviar y recibir mensajes, como se muestra en este ejemplo.
     
-        Mount-Database -Identity DTDB1
+    ```powershell
+Mount-Database -Identity DTDB1
+```
 
 5.  Cree una base de datos de recuperación (RDB) y restaure o copie la base de datos y los archivos de registro que contienen los datos que desea recuperar en la RDB. Para obtener instrucciones detalladas, consulte [Creación de una base de datos de recuperación](create-a-recovery-database-exchange-2013-help.md).
 
@@ -63,30 +69,40 @@ Con el uso de la portabilidad del tono de marcado, los usuarios pueden tener un 
 
 7.  Monte la RDB y, a continuación, use el cmdlet [Dismount-Database](https://technet.microsoft.com/es-es/library/bb124936\(v=exchg.150\)) para desmontarla, como se muestra en este ejemplo.
     
-        Mount-Database -Identity RDB1
+    ```powershell
+Mount-Database -Identity RDB1
+```
         Dismount-Database -Identity RDB1
 
 8.  Después de desmontar la RDB, mueva la base de datos actual y los archivos de registro de la carpeta de la RDB a una ubicación segura. Esto se hace como preparación para intercambiar la base de datos recuperada con la base de datos de tono de marcado.
 
 9.  Desmonte la base de datos de tono de marcado, como se muestra en este ejemplo. Tenga en cuenta que los usuarios finales experimentarán una interrupción del servicio cuando desmonte esta base de datos.
     
-        Dismount-Database -Identity DTDB1
+    ```powershell
+Dismount-Database -Identity DTDB1
+```
 
 10. Mueva la base de datos y los archivos de registro a la carpeta de la base de datos de tono de marcado de la carpeta de la RDB.
 
 11. Mueva la base de datos y los archivos de registro de la ubicación segura que contienen la base de datos recuperada a la carpeta de la base de datos de tono de marcado y, a continuación, móntela como se muestra en este ejemplo.
     
-        Mount-Database -Identity DTDB1
+    ```powershell
+Mount-Database -Identity DTDB1
+```
     
     Esto finaliza la interrupción del servicio para los usuarios finales. Podrán obtener acceso a su base de datos de producción original y enviar y recibir mensajes.
 
 12. Monte la RDB, como se muestra en este ejemplo.
     
-        Mount-Database -Identity RDB1
+    ```powershell
+Mount-Database -Identity RDB1
+```
 
 13. Use los cmdlet [Get-Mailbox](https://technet.microsoft.com/es-es/library/bb123685\(v=exchg.150\)) y [New-MailboxRestoreRequest](https://technet.microsoft.com/es-es/library/ff829875\(v=exchg.150\)) para exportar los datos de la RDB e importarlos en la base de datos recuperada, como se muestra en este ejemplo. Esto importará todos los mensajes enviados y recibidos con la base de datos de tono de marcado a la base de datos de producción.
     ```
-        $mailboxes = Get-Mailbox -Database DTDB1
+    ```powershell
+$mailboxes = Get-Mailbox -Database DTDB1
+```
     ```
     ```
         $mailboxes | %{ New-MailboxRestoreRequest -SourceStoreMailbox $_.ExchangeGuid -SourceDatabase RDB1 -TargetMailbox $_ }

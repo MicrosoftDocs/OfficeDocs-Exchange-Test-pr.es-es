@@ -87,7 +87,9 @@ Para obtener más información acerca de los filtros de ámbito de administraci�
 
 Use la sintaxis siguiente para crear un ámbito de filtro de servidor.
 
-    New-ManagementScope -Name <scope name> -ServerRestrictionFilter <filter query>
+```powershell
+New-ManagementScope -Name <scope name> -ServerRestrictionFilter <filter query>
+```
 
 En este ejemplo se crea un ámbito que incluye todos los servidores dentro del sitio AD 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com' (Active Directory).
 
@@ -101,11 +103,15 @@ Los ámbitos de configuración basados en listas de servidores se crean usando e
 
 Use la sintaxis siguiente para crear un ámbito basado en listas de servidores.
 
-    New-ManagementScope -Name <scope name> -ServerList <server 1>, <server 2...>
+```powershell
+New-ManagementScope -Name <scope name> -ServerList <server 1>, <server 2...>
+```
 
 En este ejemplo se crea un ámbito que se aplica sólo a MBX1, MBX3 y MBX5.
 
-    New-ManagementScope -Name "Mailbox servers" -ServerList MBX1,MBX3,MBX5
+```powershell
+New-ManagementScope -Name "Mailbox servers" -ServerList MBX1,MBX3,MBX5
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementScope](https://technet.microsoft.com/es-es/library/dd335137\(v=exchg.150\)).
 
@@ -123,7 +129,9 @@ Para obtener más información acerca de los filtros de ámbito de administraci�
 
 Use la sintaxis siguiente para crear un filtro de restricción de base de datos.
 
-    New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```
 
 En este ejemplo se crea un ámbito que incluye todas las bases de datos que contienen la cadena "Ejecutivo" en la propiedad **Name** de la base de datos.
 
@@ -143,11 +151,15 @@ Los ámbitos de configuración basados en listas de bases de datos se crean usan
 
 Use la sintaxis siguiente para crear un ámbito basado en listas de bases de datos.
 
-    New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```
 
 En este ejemplo se crea un ámbito que se aplica solo a las bases de datos Database 1, Database 2 y Database 3.
 
-    New-ManagementScope -Name "Primary databases" -DatabaseList "Database 1", "Database 2", "Database 3"
+```powershell
+New-ManagementScope -Name "Primary databases" -DatabaseList "Database 1", "Database 2", "Database 3"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementScope](https://technet.microsoft.com/es-es/library/dd335137\(v=exchg.150\)).
 

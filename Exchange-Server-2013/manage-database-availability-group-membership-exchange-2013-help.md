@@ -63,15 +63,21 @@ Si se agrega un servidor a un grupo de disponibilidad de base de datos (DAG), fu
 
 En este ejemplo se agrega el servidor de buzones de correo MBX1 al DAG DAG1.
 
-    Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```powershell
+Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```
 
 En este ejemplo se quita el servidor de buzones de correo MBX1 del DAG DAG1. Antes de ejecutar este comando, compruebe que en el servidor Buzón de correo no haya bases de datos replicadas.
 
-    Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```powershell
+Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```
 
 En este ejemplo se quita la configuración del servidor de buzones de correo MBX4 del DAG DAG2. Se espera que MBX4 pueda permanecer sin conexión durante un período prolongado. Por este motivo, su configuración se quita del DAG mientras está sin conexión para establecer el quórum con los miembros restantes del DAG que están en línea.
 
-    Remove-DatabaseAvailabilityGroupServer -Identity DAG2 -MailboxServer MBX4 -ConfigurationOnly
+```powershell
+Remove-DatabaseAvailabilityGroupServer -Identity DAG2 -MailboxServer MBX4 -ConfigurationOnly
+```
 
 ## ¿Cómo saber si el proceso se completó correctamente?
 
@@ -81,7 +87,9 @@ Para comprobar que la pertenencia del DAG se administró correctamente, haga una
 
   - En el Shell, ejecute este comando para mostrar la información de pertenencia del DAG.
     
-        Get-DatabaseAvailabilityGroup <DAGName> | Format-List Servers
+    ```powershell
+Get-DatabaseAvailabilityGroup <DAGName> | Format-List Servers
+```
 
 ## Más información
 

@@ -39,7 +39,9 @@ Puede usar el Shell para crear una base de datos de recuperación, un tipo espec
 
 En este ejemplo, se crea la base de datos de recuperación RDB1 en el servidor de buzones MBX2.
 
-    New-MailboxDatabase -Recovery -Name RDB1 -Server MBX2
+```powershell
+New-MailboxDatabase -Recovery -Name RDB1 -Server MBX2
+```
 
 En este ejemplo, se crea la base de datos de recuperación RDB2 en el servidor de buzones MBX1 mediante una ruta de acceso personalizada para el archivo de base de datos y la carpeta de registro.
 
@@ -53,7 +55,9 @@ Para comprobar que la base de datos de recuperación se haya creado correctament
 
   - En el Shell, ejecute el siguiente comando para mostrar la información de configuración de una base de datos de recuperación.
     
-        Get-MailboxDatabase <RecoveryDatabaseName> | Format-List
+    ```powershell
+Get-MailboxDatabase <RecoveryDatabaseName> | Format-List
+```
 
 ## Otras tareas
 

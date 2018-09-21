@@ -63,7 +63,9 @@ Para otras tareas de administración relacionadas con la federación, consulte [
     
     Se recomienda que todas las organizaciones de Exchange usen la instancia de empresa del sistema de autenticación de Azure AD para las confianzas de federación. Antes de configurar el uso compartido federado entre las dos organizaciones de Exchange, debe comprobar qué instancia del sistema de autenticación de Azure AD está usando cada organización de Exchange para cualquier confianza de federación existente. Para determinar qué instancia del sistema de autenticación de Azure AD está usando una organización de Exchange para una confianza de federación existente, ejecute el siguiente comando de Shell.
     
-        Get-FederationInformation -DomainName <hosted Exchange domain namespace>
+    ```powershell
+Get-FederationInformation -DomainName <hosted Exchange domain namespace>
+```
     
     La instancia de empresa devuelve un valor de `<uri:federation:MicrosoftOnline>` para el parámetro *TokenIssuerURIs*.
     
@@ -137,11 +139,15 @@ Para otras tareas de administración relacionadas con la federación, consulte [
 
 4.  Utilice esta sintaxis para devolver la prueba de propiedad de dominio registro TXT que resulta necesario para cualquier dominio que se configurará para la confianza de federación.
     
-        Get-FederatedDomainProof -DomainName <domain>
+    ```powershell
+Get-FederatedDomainProof -DomainName <domain>
+```
     
     Este ejemplo devuelve la prueba de propiedad de dominio registro TXT que se requiere para el dominio compartido principal contoso.com.
     
-        Get-FederatedDomainProof -DomainName contoso.com
+    ```powershell
+Get-FederatedDomainProof -DomainName contoso.com
+```
     
     **Notas**:
     
@@ -153,7 +159,9 @@ Para otras tareas de administración relacionadas con la federación, consulte [
 
 6.  Ejecute este comando para recuperar los metadatos y el certificado de Azure AD:
     
-        Set-FederationTrust -RefreshMetadata -Identity "Azure AD authentication"
+    ```powershell
+Set-FederationTrust -RefreshMetadata -Identity "Azure AD authentication"
+```
 
 7.  Utilice esta sintaxis para configurar el dominio principal compartido para la confianza de federación que creó en el paso 3. El dominio que especifique se utilizará para configurar el identificador de la organización (OrgID) para la confianza de federación. Para obtener más información acerca de la OrgID, vea el [identificador de organización federada](federation-exchange-2013-help.md).
     
@@ -165,11 +173,15 @@ Para otras tareas de administración relacionadas con la federación, consulte [
 
 8.  Para agregar otros dominios a la confianza de federación, utilice esta sintaxis:
     
-        Add-FederatedDomain -DomainName <AdditionalDomain>
+    ```powershell
+Add-FederatedDomain -DomainName <AdditionalDomain>
+```
     
     Este ejemplo agrega el sales.contoso.com subdominio a la confianza federada, porque los usuarios con direcciones de correo electrónico en el dominio sales.contoso.com requieren características de uso compartidos federados.
     
-        Add-FederatedDomain -DomainName sales.contoso.com
+    ```powershell
+Add-FederatedDomain -DomainName sales.contoso.com
+```
     
     Recuerde que cualquier dominio o subdominio que agregue a la confianza de federación requiere una prueba de propiedad del dominio registro TXT,
 
@@ -183,11 +195,15 @@ Para verificar con más detalle que ha creado y configurado correctamente la con
 
 1.  Ejecute el siguiente comando de Shell para verificar la información de confianza de federación.
     
-        Get-FederationTrust | Format-List
+    ```powershell
+Get-FederationTrust | Format-List
+```
 
 2.  Reemplace *\<PrimarySharedDomain\>* con su dominio principal compartido y ejecute el siguiente comando de Shell para comprobar que se puede recuperar la información de federación de la organización.
     
-        Get-FederationInformation -DomainName <PrimarySharedDomain>
+    ```powershell
+Get-FederationInformation -DomainName <PrimarySharedDomain>
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Get-FederationTrust](https://technet.microsoft.com/es-es/library/dd351262\(v=exchg.150\)) y [Get-FederationInformation](https://technet.microsoft.com/es-es/library/dd351221\(v=exchg.150\)).
 

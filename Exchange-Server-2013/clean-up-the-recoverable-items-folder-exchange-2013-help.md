@@ -108,7 +108,9 @@ Este procedimiento copia los elementos de la carpeta Elementos recuperables de G
 
 4.  Recuperar la configuración del ciclo de trabajo del Asistente de las carpetas administradas. Asegúrese de tener en cuenta estas configuraciones más adelante.
     
-        Get-MailboxServer "My Mailbox Server" | Format-List Name,ManagedFolderWorkCycle
+    ```powershell
+Get-MailboxServer "My Mailbox Server" | Format-List Name,ManagedFolderWorkCycle
+```
 
 5.  Deshabilite el acceso del cliente al buzón para asegurarse de que no se hagan cambios en los datos del buzón durante la duración de este procedimiento.
     
@@ -120,7 +122,9 @@ Este procedimiento copia los elementos de la carpeta Elementos recuperables de G
 
 7.  Deshabilite el Asistente de carpetas administradas en el servidor del buzón.
     
-        Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle $null
+    ```powershell
+Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle $null
+```
     
 
     > [!IMPORTANT]
@@ -130,7 +134,9 @@ Este procedimiento copia los elementos de la carpeta Elementos recuperables de G
 
 8.  Deshabilite la recuperación de un único elemento y quite el buzón de la retención por juicio.
     
-        Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $false -LitigationHoldEnabled $false
+    ```powershell
+Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $false -LitigationHoldEnabled $false
+```
     
 
     > [!IMPORTANT]
@@ -154,7 +160,9 @@ Este procedimiento copia los elementos de la carpeta Elementos recuperables de G
 
 10. Si el buzón estaba en retención por juicio o tenía habilitada anteriormente una recuperación de un único elemento, habilite de nuevo estas características.
     
-        Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $true -LitigationHoldEnabled $true
+    ```powershell
+Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $true -LitigationHoldEnabled $true
+```
     
 
     > [!IMPORTANT]
@@ -184,7 +192,9 @@ Este procedimiento copia los elementos de la carpeta Elementos recuperables de G
 
 12. Habilite el Asistente de carpetas administradas estableciendo el ciclo de trabajo de nuevo con el valor del Paso 4. Este ejemplo establece el ciclo de trabajo en un día.
     
-        Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+    ```powershell
+Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+```
 
 13. Habilite el acceso del cliente.
     

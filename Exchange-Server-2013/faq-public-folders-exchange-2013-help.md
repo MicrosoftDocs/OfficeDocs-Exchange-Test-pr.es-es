@@ -53,7 +53,9 @@ El archivo .csv se usa para determinar la asignación entre la jerarquía de ori
 
 Puede forzar una sincronización delta para que se produzca antes de la finalización (antes de bloquear el origen) ejecutando el siguiente comando de Shell:
 
-    Resume-PublicFolderMigrationRequest \PublicFolderMigration
+```powershell
+Resume-PublicFolderMigrationRequest \PublicFolderMigration
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Resume-PublicFolderMigrationRequest](https://technet.microsoft.com/es-es/library/jj218689\(v=exchg.150\)).
 
@@ -103,7 +105,9 @@ Para obtener más información acerca de los límites de almacenamiento de carpe
 
 Ejecute el siguiente comando:
 
-    Get-OrganizationConfig | Format-List RootPublicFolderMailbox
+```powershell
+Get-OrganizationConfig | Format-List RootPublicFolderMailbox
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-OrganizationConfig](https://technet.microsoft.com/es-es/library/aa997571\(v=exchg.150\)).
 
@@ -111,7 +115,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Ejecute el siguiente comando para crear el primer buzón de correo electrónico de carpetas públicas de jerarquía maestro y los buzones de correo de jerarquías secundarios.
 
-    New-Mailbox -PublicFolder -Name <name of public folder>
+```powershell
+New-Mailbox -PublicFolder -Name <name of public folder>
+```
 
 Para obtener más información, consulte [Crear una carpeta pública](https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/create-public-folder).
 
@@ -147,7 +153,9 @@ Al igual que en versiones anteriores de Exchange, es posible configurar límites
 
 En Exchange 2007 y en Exchange 2010, era posible especificar qué usuarios tenían acceso a carpetas públicas específicas. En Exchange 2013, puede establecer el buzón de correo de las carpetas públicas por usuario. Para hacerlo, ejecute el cmdlet [Set-Mailbox](https://technet.microsoft.com/es-es/library/bb123981\(v=exchg.150\)) con el parámetro *DefaultPublicFolderMailbox*.
 
-    Set-Mailbox -Identity kweku@contoso.com -DefaultPublicFolderMailbox "PF_Administration"
+```powershell
+Set-Mailbox -Identity kweku@contoso.com -DefaultPublicFolderMailbox "PF_Administration"
+```
 
 ## Si la jerarquía principal falla, ¿cuál es el impacto en el usuario?
 

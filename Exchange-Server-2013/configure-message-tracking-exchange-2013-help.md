@@ -87,11 +87,15 @@ En este ejemplo, se establece la siguiente configuración de registro de seguimi
 
 En este ejemplo se deshabilita el registro del asunto del mensaje en el registro de seguimiento de mensajes del servidor de buzones de correo Mailbox01:
 
-    Set-TransportService Mailbox01 -MessageTrackingLogSubjectLoggingEnabled $false
+```powershell
+Set-TransportService Mailbox01 -MessageTrackingLogSubjectLoggingEnabled $false
+```
 
 En este ejemplo se deshabilita el seguimiento de mensajes en el servidor de buzones de correo Mailbox01:
 
-    Set-TransportService Mailbox01 -MessageTrackingLogEnabled $false
+```powershell
+Set-TransportService Mailbox01 -MessageTrackingLogEnabled $false
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

@@ -187,7 +187,9 @@ Este ejemplo es compatible con la canalización si se proporciona una lista de l
 
 1.  Ejecute el siguiente comando.
     
-        $UserCredentials = Get-Credential
+    ```powershell
+$UserCredentials = Get-Credential
+```
 
 2.  Ejecute el comando siguiente para pasar la información de credenciales al parámetro *RemoteForestCredential* del script Prepare-MoveRequest.ps1.
     
@@ -211,7 +213,9 @@ En este ejemplo, se le solicita a un archivo .csv crear de forma masiva los usua
 
 1.  Ejecute el siguiente comando para obtener las credenciales del bosque remoto.
     
-        $UserCredentials = Get-Credential
+    ```powershell
+$UserCredentials = Get-Credential
+```
 
 2.  Ejecute el comando siguiente para pasar la información de credenciales al parámetro *RemoteForestCredential* del script Prepare-MoveRequest.ps1.
     

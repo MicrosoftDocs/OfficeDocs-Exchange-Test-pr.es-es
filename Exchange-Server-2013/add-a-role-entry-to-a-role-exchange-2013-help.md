@@ -55,11 +55,15 @@ No puede agregar entradas de función a las funciones integradas. Si desea perso
 
 Puede agregar una entrada de función a una función exactamente como aparece en la función primaria al utilizar la siguiente sintaxis.
 
-    Add-ManagementRoleEntry <child role name>\<cmdlet>
+```powershell
+Add-ManagementRoleEntry <child role name>\<cmdlet>
+```
 
 En este ejemplo, se agrega el cmdlet de **Set-Mailbox** a la función de administradores de destinatarios.
 
-    Add-ManagementRoleEntry "Recipient Administrators\Set-Mailbox"
+```powershell
+Add-ManagementRoleEntry "Recipient Administrators\Set-Mailbox"
+```
 
 Este comando comprueba la función principal y, si la entrada de la función existe, la agrega a la función secundaria. Si la entrada de la función ya existe en la función secundaria, puede incluir el parámetro *Overwrite* para sobrescribir la entrada de función existente.
 
@@ -73,7 +77,9 @@ Si desea agregar una entrada de función de una función primaria, pero desea in
 
 En este ejemplo, se agrega el cmdlet **Set-Mailbox** a la función de Servicio de asistencia, pero incluye solamente los parámetros *DisplayName* y *EmailAddresses* en la entrada en la función secundaria.
 
-    Add-ManagementRoleEntry "Help Desk\Set-Mailbox" -Parameters DisplayName, EmailAddresses
+```powershell
+Add-ManagementRoleEntry "Help Desk\Set-Mailbox" -Parameters DisplayName, EmailAddresses
+```
 
 Este comando comprueba la función principal y, si la entrada de la función existe, la agrega a la función secundaria. Si la entrada de la función ya existe en la función secundaria, puede incluir el parámetro *Overwrite* para sobrescribir la entrada de función existente.
 

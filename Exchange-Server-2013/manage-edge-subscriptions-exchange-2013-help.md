@@ -73,19 +73,27 @@ After you remove the Edge Subscription, synchronization of information from AD 
 
 1.  To remove the Edge Subscription from the Edge Transport server, use the following syntax.
     
-        Remove-EdgeSubscription <EdgeTransportServerIdentity>
+    ```powershell
+Remove-EdgeSubscription <EdgeTransportServerIdentity>
+```
     
     For example, to remove the Edge Subscription on the Edge Transport server named Edge01, run the following command.
     
-        Remove-EdgeSubscription Edge01
+    ```powershell
+Remove-EdgeSubscription Edge01
+```
 
 2.  To remove the Edge Subscription from the Mailbox server, use the following syntax.
     
-        Remove-EdgeSubscription <MailboxServerIdentity>
+    ```powershell
+Remove-EdgeSubscription <MailboxServerIdentity>
+```
     
     For example, to remove the Edge Subscription on the Mailbox server named Mailbox01, run the following command.
     
-        Remove-EdgeSubscription Mailbox01
+    ```powershell
+Remove-EdgeSubscription Mailbox01
+```
 
 You will need to remove the Edge Subscription if:
 
@@ -155,7 +163,9 @@ The following example starts EdgeSync with the following options:
 
 <!-- end list -->
 
-    Start-EdgeSynchronization -Server Mailbox01
+```powershell
+Start-EdgeSynchronization -Server Mailbox01
+```
 
 This example starts EdgeSync with the following options:
 
@@ -167,7 +177,9 @@ This example starts EdgeSync with the following options:
 
 <!-- end list -->
 
-    Start-EdgeSynchronization -TargetServer Edge03 -ForceFullSync
+```powershell
+Start-EdgeSynchronization -TargetServer Edge03 -ForceFullSync
+```
 
 ## Verify EdgeSync results
 
@@ -181,11 +193,15 @@ You can use the *ExcludeRecipientTest* parameter on the **Test-EdgeSynchronizati
 
 To verify EdgeSync results for a single recipient, use the following syntax on a Mailbox server in the subscribed Active Directory site.
 
-    Test-EdgeSynchronization -VerifyRecipient <emailaddress>
+```powershell
+Test-EdgeSynchronization -VerifyRecipient <emailaddress>
+```
 
 This example verifies EdgeSync results for the user kate@contoso.com.
 
-    Test-EdgeSynchronization -VerifyRecipient kate@contoso.com
+```powershell
+Test-EdgeSynchronization -VerifyRecipient kate@contoso.com
+```
 
 Volver al principio
 

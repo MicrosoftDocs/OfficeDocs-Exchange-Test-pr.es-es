@@ -265,5 +265,7 @@ En este ejemplo, se muestra cómo se puede usar la secuencia de comandos para di
 
 Debe actualizar la credencial ASA antes de que el servidor de acceso de cliente reciba tráfico. Copie la credencial ASA compartida desde cualquier servidor de acceso de cliente que ya esté configurado correctamente. Por ejemplo, si el Servidor A actualmente tiene una credencial ASA en funcionamiento y se acaba de agregar el Servidor B a la matriz, la secuencia de comandos se puede usar para copiar la credencial (incluso la contraseña) desde el Servidor A al Servidor B. Esto resulta útil si el Servidor B se encontraba fuera de servicio o aún no era miembro de la matriz la última vez que se implementó la contraseña.
 
-    .\RollAlternateServiceAccountPassword.ps1 -CopyFrom ServerA -ToSpecificServers ServerB -Verbose
+```powershell
+.\RollAlternateServiceAccountPassword.ps1 -CopyFrom ServerA -ToSpecificServers ServerB -Verbose
+```
 

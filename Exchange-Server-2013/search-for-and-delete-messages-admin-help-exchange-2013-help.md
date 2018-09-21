@@ -69,7 +69,9 @@ En este ejemplo, se buscan mensajes que contengan la frase "Su extracto bancario
 
 
 
-    Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statement"' -DeleteContent
+```powershell
+Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statement"' -DeleteContent
+```
 
 En este ejemplo, se buscan mensajes que contengan la frase "Su extracto bancario" en el campo Asunto en el buzón de correo de April Stewart, se copian los resultados de la búsqueda en la carpeta AprilStewart-DeletedMessages en el buzón BackupMailbox y se eliminan los mensajes del buzón de April.
 

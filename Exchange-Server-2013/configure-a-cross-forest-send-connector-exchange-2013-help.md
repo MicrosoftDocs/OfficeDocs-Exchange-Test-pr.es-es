@@ -77,7 +77,9 @@ Después de crear el conector de envío, cree un conector de envío en el bosque
 
 En este ejemplo se usa la secuencia de comandos Enable-CrossForestConnector.ps1 en el Shell para establecer permisos en el conector de envío que se utilizará en una topología entre bosques.
 
-    .\Enable-CrossForestConnector.ps1 -Connector "Cross-Forest" -user "ANONYMOUS LOGON"
+```powershell
+.\Enable-CrossForestConnector.ps1 -Connector "Cross-Forest" -user "ANONYMOUS LOGON"
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

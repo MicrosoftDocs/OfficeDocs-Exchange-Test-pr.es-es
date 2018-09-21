@@ -65,7 +65,9 @@ Para otras tareas de administración relacionadas con los buzones de usuario, co
 
 En este ejemplo se establece el tamaño máximo de los mensajes enviados en 25 MB y el tamaño máximo de los mensajes recibidos en 35 MB para el buzón de Debra García.
 
-    Set-Mailbox "Debra Garcia" -MaxSendSize 25mb -MaxReceiveSize 35mb
+```powershell
+Set-Mailbox "Debra Garcia" -MaxSendSize 25mb -MaxReceiveSize 35mb
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-Mailbox](https://technet.microsoft.com/es-es/library/bb123981\(v=exchg.150\)).
 
@@ -85,5 +87,7 @@ O bien
 
 Ejecute el siguiente comando en el Shell.
 
-    Get-Mailbox <identity> | fl MaxSendSize,MaxReceiveSize
+```powershell
+Get-Mailbox <identity> | fl MaxSendSize,MaxReceiveSize
+```
 

@@ -65,11 +65,15 @@ Para quitar mensajes de las colas, utilice la sintaxis siguiente.
 
 En este ejemplo, los mensajes se quitan de las colas que tienen un asunto "Win Big" sin enviar un NDR.
 
-    Remove-Message -Filter {Subject -eq "Win Big"} -WithNDR $false
+```powershell
+Remove-Message -Filter {Subject -eq "Win Big"} -WithNDR $false
+```
 
 En este ejemplo se quita el mensaje con el identificador de mensaje 3 de la cola inaccesible del servidor denominado Mailbox01 y se envía un NDR.
 
-    Remove-Message -Identity Mailbox01\Unreachable\3 -WithNDR $true
+```powershell
+Remove-Message -Identity Mailbox01\Unreachable\3 -WithNDR $true
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -107,7 +111,9 @@ Es posible reanudar cualquier mensaje que esté en estado Suspendido. Al reanuda
 
 Para reanudar mensajes, use la sintaxis siguiente:
 
-    Resume-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
+```powershell
+Resume-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
+```
 
 En este ejemplo, se reanudan todos los mensajes enviados por cualquier remitente en el dominio Contoso.com.
 
@@ -115,7 +121,9 @@ En este ejemplo, se reanudan todos los mensajes enviados por cualquier remitente
 
 En este ejemplo, se reanuda el mensaje con el identificador de mensaje 3 en la cola inalcanzable en el servidor Hub01.
 
-    Resume-Message -Identity Hub01\Unreachable\3
+```powershell
+Resume-Message -Identity Hub01\Unreachable\3
+```
 
 Para reenviar mensajes de la cola de mensajes dudosos, siga los pasos siguientes:
 
@@ -149,7 +157,9 @@ Un mensaje que se envía a varios destinatarios puede estar ubicado en diferente
 
 Para suspender mensajes, use la sintaxis siguiente:
 
-    Suspend-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
+```powershell
+Suspend-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
+```
 
 En este ejemplo se suspenden todos los mensajes en las colas de cualquier remitente del dominio contoso.com.
 
@@ -157,7 +167,9 @@ En este ejemplo se suspenden todos los mensajes en las colas de cualquier remite
 
 En este ejemplo se suspende el mensaje con el identificador de mensaje 3 en la cola inaccesible del servidor denominado Mailbox01:
 
-    Suspend-Message -Identity Mailbox01\Unreachable\3
+```powershell
+Suspend-Message -Identity Mailbox01\Unreachable\3
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

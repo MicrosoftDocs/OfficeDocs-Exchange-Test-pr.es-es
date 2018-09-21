@@ -67,7 +67,9 @@ Para volver a crear el grupo de funciones Administración de la organización co
 
 2.  Almacene las credenciales del bosque externo Active Directory en una variable.
     
-        $ForeignCredential = Get-Credential
+    ```powershell
+$ForeignCredential = Get-Credential
+```
 
 3.  Almacene todas las funciones asignadas al grupo de funciones Administración de la organización en una variable.
     
@@ -93,7 +95,9 @@ En este ejemplo, se supone que para cada parámetro se usan los siguientes valor
 
 Mediante los valores anteriores, en este ejemplo se vuelve a crear el grupo de funciones Administración de la organización como un grupo de funciones vinculado.
 
-    $ForeignCredential = Get-Credential
+```powershell
+$ForeignCredential = Get-Credential
+```
     $OrgMgmt  = Get-RoleGroup "Organization Management"
     New-RoleGroup "Organization Management - Linked" -LinkedForeignGroup "Organization Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $OrgMgmt.Roles
     Get-ManagementRoleAssignment -RoleAssignee "Organization Management - Linked" -Role My* | Remove-ManagementRoleAssignment
@@ -107,11 +111,15 @@ Para volver a crear los grupos de funciones integrados (que no sea el grupo de f
 
 2.  Almacene las credenciales del bosque externo Active Directory en una variable. Deberá realizar este procedimiento una sola vez.
     
-        $ForeignCredential = Get-Credential
+    ```powershell
+$ForeignCredential = Get-Credential
+```
 
 3.  Recupere una lista de los grupos de funciones mediante el siguiente cmdlet.
     
-        Get-RoleGroup
+    ```powershell
+Get-RoleGroup
+```
 
 4.  Para cada grupo de funciones, que no sea el grupo de funciones Administración de la organización, realice las siguientes acciones.
     
@@ -132,8 +140,12 @@ En este ejemplo, se supone que para cada parámetro se usan los siguientes valor
 
 Mediante los valores anteriores, en este ejemplo se vuelve a crear Recipient Management y los grupos de funciones Administración de servidores como grupos de funciones vinculados.
 
-    $ForeignCredential = Get-Credential
-    Get-RoleGroup
+```powershell
+$ForeignCredential = Get-Credential
+```
+```powershell
+Get-RoleGroup
+```
     $RoleGroup = Get-RoleGroup "Recipient Management"
     New-RoleGroup "Recipient Management - Linked" -LinkedForeignGroup "Recipient Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $RoleGroup.Roles
     $RoleGroup = Get-RoleGroup "Server Management"

@@ -55,5 +55,7 @@ Para conocer tareas de administración adicionales relacionadas con servidores d
 
 2.  En el cuadro **Abrir**, escriba el siguiente comando y, a continuación, presione Entrar.
     
-        net stop MSExchangeUMCR
+    ```powershell
+net stop MSExchangeUMCR
+```
 

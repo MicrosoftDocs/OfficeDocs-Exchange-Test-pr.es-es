@@ -93,7 +93,9 @@ Los pasos siguientes son necesarios para preparar su organización para la migra
 
 4.  Debe tener la función de migración **de la pata** habilitado para los clientes de Office 365. Para comprobar esto, ejecute el siguiente comando de PowerShell en línea de Exchange:
     
-        Get-MigrationConfig
+    ```powershell
+Get-MigrationConfig
+```
     
     Si la salida en **características de** listas **de la pata**, entonces la característica está habilitada y se puede seguir *paso 3: crear el archivo .csv*.
     
@@ -109,7 +111,9 @@ El archivo .csv debe contener las siguientes columnas:
 
   - **TargetGroupMailbox**. Dirección SMTP del grupo de destino en Office 365. Puede ejecutar el comando siguiente para ver la dirección SMTP principal.
     
-        Get-UnifiedGroup <alias of the group> | Format-Table PrimarySmtpAddress
+    ```powershell
+Get-UnifiedGroup <alias of the group> | Format-Table PrimarySmtpAddress
+```
 
 Un .csv de ejemplo:
 
@@ -129,15 +133,21 @@ En este paso, recopilar información del entorno de Exchange y, a continuación,
     
     1.  Buscar el **atributo LegacyExchangeDN** de la cuenta de un usuario que es miembro de la función de administrador de carpeta pública, escriba el comando siguiente. Tenga en cuenta que esto es el mismo usuario cuyas credenciales tendrá más adelante, en el paso 3 de este procedimiento.
         
-            Get-Mailbox <PublicFolder_Administrator_Account> | Select-Object LegacyExchangeDN
+        ```powershell
+Get-Mailbox <PublicFolder_Administrator_Account> | Select-Object LegacyExchangeDN
+```
     
     2.  Buscar el valor LegacyExchangeDN de cualquier servidor de buzones con una base de datos de carpetas públicas escribiendo el comando siguiente:
         
-            Get-ExchangeServer <public folder server> | Select-Object -Expand ExchangeLegacyDN
+        ```powershell
+Get-ExchangeServer <public folder server> | Select-Object -Expand ExchangeLegacyDN
+```
     
     3.  Buscar el nombre de dominio completo (FQDN) del host de Outlook en cualquier lugar. Este es el nombre de Host externo. Si tiene varias instancias de Outlook en cualquier lugar, recomendamos que seleccione la instancia que es uno más cercana al extremo de la migración o el más cercano a las réplicas de carpetas públicas en la organización de Exchange Server 2010. El comando siguiente encontrará todas las instancias de Outlook en cualquier lugar:
         
-            Get-OutlookAnywhere | Format-Table Identity, ExternalHostName
+        ```powershell
+Get-OutlookAnywhere | Format-Table Identity, ExternalHostName
+```
 
 2.  En Exchange Online PowerShell, utilice la información que devolvió anteriormente en el paso 1 para ejecutar los siguientes comandos. Las variables de estos comandos serán los valores del paso 1.
     
@@ -148,15 +158,21 @@ En este paso, recopilar información del entorno de Exchange y, a continuación,
     
     2.  Utilice la ExchangeLegacyDN del usuario de migración en el servidor de Exchange heredado que encontró anteriormente en el paso 1a y pasar ese valor a la variable `$Source_RemoteMailboxLegacyDN`.
         
-            $Source_RemoteMailboxLegacyDN = "<LegacyExchangeDN from step 1a>"
+        ```powershell
+$Source_RemoteMailboxLegacyDN = "<LegacyExchangeDN from step 1a>"
+```
     
     3.  Utilice la ExchangeLegacyDN del servidor de carpetas públicas, que se encuentra anteriormente en el paso 1b anterior y pasar ese valor a la variable `$Source_RemotePublicFolderServerLegacyDN`.
         
-            $Source_RemotePublicFolderServerLegacyDN = "<LegacyExchangeDN from step 1b>"
+        ```powershell
+$Source_RemotePublicFolderServerLegacyDN = "<LegacyExchangeDN from step 1b>"
+```
     
     4.  Utilice el externo Host nombre de Outlook en cualquier lugar que se ha devuelto en el paso 1c anterior y pasar ese valor a la variable `$Source_OutlookAnywhereExternalHostName`.
         
-            $Source_OutlookAnywhereExternalHostName = "<ExternalHostName from step 1c>"
+        ```powershell
+$Source_OutlookAnywhereExternalHostName = "<ExternalHostName from step 1c>"
+```
 
 3.  En Exchange Online PowerShell, ejecute el comando siguiente para crear un extremo de la migración:
     
@@ -178,7 +194,9 @@ En este paso, recopilar información del entorno de Exchange y, a continuación,
 
 5.  Ejecutando el comando siguiente en Exchange Online PowerShell para iniciar la migración. Tenga en cuenta que este paso sólo es necesario si no se utilizó el parámetro `-AutoStart` al crear el lote anteriormente en el paso 4.
     
-        Start-MigrationBatch PublicFolderToGroupMigration
+    ```powershell
+Start-MigrationBatch PublicFolderToGroupMigration
+```
 
 Mientras que las migraciones de lote deben crearse mediante el cmdlet de `New-MigrationBatch` en Exchange Online PowerShell, puede verse el progreso de la migración y administran en Centro de administración de Exchange. También puede ver el progreso de la migración mediante la ejecución de los cmdlets [Get-MigrationBatch](https://technet.microsoft.com/es-es/library/jj219164\(v=exchg.150\)) y [Get-MigrationUser](https://technet.microsoft.com/es-es/library/jj218702\(v=exchg.150\)) . El cmdlet `New-MigrationBatch` inicia un usuario de migración para cada buzón de correo de grupo de Office 365, y puede ver el estado de estas solicitudes usando la página migración de buzones.
 
@@ -240,7 +258,9 @@ En el siguiente comando:
 
 Una vez tomadas las carpetas públicas de sólo lectura, debe realizar la migración de nuevo. Esto es necesario para una copia incremental final de los datos. Antes de ejecutar la migración de nuevo, tendrá que quitar el lote existente, lo que puede hacer ejecutando el siguiente comando:
 
-    Remove-MigrationBatch <name of migration batch>
+```powershell
+Remove-MigrationBatch <name of migration batch>
+```
 
 A continuación, cree un nuevo lote con el mismo archivo .csv ejecutando el siguiente comando. En este comando:
 
@@ -256,7 +276,9 @@ A continuación, cree un nuevo lote con el mismo archivo .csv ejecutando el sigu
 
 Una vez creado el nuevo lote, iniciar la migración ejecutando el siguiente comando en Exchange Online PowerShell. Tenga en cuenta que este paso sólo es necesario si no se utilizó el parámetro `-AutoStart` en el comando anterior.
 
-    Start-MigrationBatch PublicFolderToGroupMigration
+```powershell
+Start-MigrationBatch PublicFolderToGroupMigration
+```
 
 Cuando haya terminado este paso (el estado del lote es **completado** ), compruebe que se ha copiado todos los datos a los grupos de Office 365. En ese momento, siempre y cuando esté satisfecho con la experiencia de los grupos, puede empezar a eliminar las carpetas públicas migradas desde su entorno de Exchange 2010.
 

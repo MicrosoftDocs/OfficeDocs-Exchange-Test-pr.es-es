@@ -57,11 +57,15 @@ _**Última modificación del tema:** 2012-11-02_
 
 En este ejemplo, se bloquea la copia de la base de datos DB1 en el servidor MBX2 para activación.
 
-    Suspend-MailboxDatabaseCopy -Identity DB1\MBX2 -ActivationOnly
+```powershell
+Suspend-MailboxDatabaseCopy -Identity DB1\MBX2 -ActivationOnly
+```
 
 En este ejemplo, se reanuda la copia de la base de datos DB1 en el servidor MBX2 para activación.
 
-    Resume-MailboxDatabaseCopy -Identity DB1\MBX2
+```powershell
+Resume-MailboxDatabaseCopy -Identity DB1\MBX2
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd351074\(v=exchg.150\)) o [Resume-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd335220\(v=exchg.150\)).
 
@@ -69,15 +73,21 @@ Para obtener más información acerca de la sintaxis y los parámetros, consulte
 
 En este ejemplo se configuran las copias de base de datos en el servidor MBX2 como bloqueadas para la activación.
 
-    Set-MailboxServer -Identity MBX2 -DatabaseCopyAutoActivationPolicy Blocked
+```powershell
+Set-MailboxServer -Identity MBX2 -DatabaseCopyAutoActivationPolicy Blocked
+```
 
 En este ejemplo se configuran las copias de base de datos en el servidor MBX3 como bloqueadas para la activación fuera del sitio.
 
-    Set-MailboxServer -Identity MBX3 -DatabaseCopyAutoActivationPolicy IntrasiteOnly
+```powershell
+Set-MailboxServer -Identity MBX3 -DatabaseCopyAutoActivationPolicy IntrasiteOnly
+```
 
 En este ejemplo se configuran las copias de base de datos en el servidor MBX4 como desbloqueadas para la activación.
 
-    Set-MailboxServer -Identity MBX4 -DatabaseCopyAutoActivationPolicy Unrestricted
+```powershell
+Set-MailboxServer -Identity MBX4 -DatabaseCopyAutoActivationPolicy Unrestricted
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd351074\(v=exchg.150\)), [Resume-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd335220\(v=exchg.150\)) o [Set-MailboxServer](https://technet.microsoft.com/es-es/library/aa998651\(v=exchg.150\)).
 
@@ -87,9 +97,13 @@ Para comprobar que haya configurado correctamente la directiva de activación, s
 
   - En el Shell, ejecute el siguiente comando para comprobar la configuración de activación de una copia de base de datos.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List ActivationSuspended
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List ActivationSuspended
+```
 
   - En el Shell, ejecute el siguiente comando para comprobar la configuración de activación de un miembro de DAG.
     
-        Get-MailboxServer <ServerName> | Format-List DatabaseCopyAutoActivationPolicy
+    ```powershell
+Get-MailboxServer <ServerName> | Format-List DatabaseCopyAutoActivationPolicy
+```
 

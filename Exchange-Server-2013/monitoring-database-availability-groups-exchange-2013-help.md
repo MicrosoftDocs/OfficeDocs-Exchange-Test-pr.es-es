@@ -113,15 +113,21 @@ Los ejemplos siguientes usan el cmdlet **Get-MailboxDatabaseCopyStatus**. Cada e
 
 En este ejemplo se devuelve información de estado para todas las copias de la base de datos DB2.
 
-    Get-MailboxDatabaseCopyStatus -Identity DB2 | Format-List
+```powershell
+Get-MailboxDatabaseCopyStatus -Identity DB2 | Format-List
+```
 
 En este ejemplo se devuelve el estado de todas las copias de base de datos del servidor de buzones de correo MBX2.
 
-    Get-MailboxDatabaseCopyStatus -Server MBX2 | Format-List
+```powershell
+Get-MailboxDatabaseCopyStatus -Server MBX2 | Format-List
+```
 
 En este ejemplo se devuelve el estado de todas las copias de base de datos del servidor de buzones de correo local.
 
-    Get-MailboxDatabaseCopyStatus -Local | Format-List
+```powershell
+Get-MailboxDatabaseCopyStatus -Local | Format-List
+```
 
 Para obtener más información acerca del cmdlet **Get-MailboxDatabaseCopyStatus**, vea [Get-MailboxDatabaseCopyStatus](https://technet.microsoft.com/es-es/library/dd298044\(v=exchg.150\)).
 
@@ -225,7 +231,9 @@ El cmdlet **Test-ReplicationHealth** está diseñado para realizar una supervisi
 
 En este ejemplo se usa el cmdlet **Test-ReplicationHealth** para comprobar el mantenimiento de replicación del servidor de buzones de correo MBX1.
 
-    Test-ReplicationHealth -Identity MBX1
+```powershell
+Test-ReplicationHealth -Identity MBX1
+```
 
 ## Registro de eventos de canal Crimson
 
@@ -448,7 +456,9 @@ El script CollectReplicationMetrics.ps1 admite parámetros que permiten personal
 
 En el ejemplo siguiente se reúnen los datos equivalentes a una hora de trabajo de todos los servidores que se encuentran en el DAG DAG1, con un muestreo basado en intervalos de un minuto y, a continuación, se genera un informe de resumen. Asimismo, se usa el parámetro *ReportPath*, que hace que el script coloque todos los archivos en el directorio actual.
 
-    CollectReplicationMetrics.ps1 -DagName DAG1 -Duration "01:00:00" -Frequency "00:01:00" -ReportPath
+```powershell
+CollectReplicationMetrics.ps1 -DagName DAG1 -Duration "01:00:00" -Frequency "00:01:00" -ReportPath
+```
 
 En el ejemplo siguiente se leen los datos de todos los archivos que coincidan con CounterData\* y se genera un informe de resumen.
 

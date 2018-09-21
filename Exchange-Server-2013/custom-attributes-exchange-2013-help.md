@@ -73,7 +73,9 @@ En muchas implementaciones de Exchange, la creación de una directiva de direcci
 
 Si los destinatarios de esa OU no comparten propiedades comunes por las que pueda aplicar el filtro, como departamento o ubicación, puede completar uno de los atributos personalizados con un valor común, tal como se muestra en este ejemplo.
 
-    Get-Mailbox -OrganizationalUnit Sales | Set-Mailbox CustomAttribute1 "SalesOU"
+```powershell
+Get-Mailbox -OrganizationalUnit Sales | Set-Mailbox CustomAttribute1 "SalesOU"
+```
 
 Ahora, puede crear una directiva de direcciones de correo electrónico para todos los destinatarios que tengan la propiedad *CustomAttribute1* que sea igual a SalesOU, como se muestra en este ejemplo.
 
@@ -97,7 +99,9 @@ Este parámetro crea un grupo de distribución dinámico basado en los destinata
 
 En este ejemplo, el buzón de correo de Kweku tendrá *ExtensionCustomAttribute1* actualizado para reflejar que se ha inscrito en las siguientes clases educativas: MATH307, ECON202 y ENGL300.
 
-    Set-Mailbox -Identity Kweku -ExtensionCustomAttribute1 MATH307,ECON202,ENGL300
+```powershell
+Set-Mailbox -Identity Kweku -ExtensionCustomAttribute1 MATH307,ECON202,ENGL300
+```
 
 A continuación, se crea un grupo de distribución dinámico para todos los estudiantes inscritos en MATH307 con el parámetro*RecipientFilter* donde *ExtensionCustomAttribute1* es igual a MATH307. Cuando use los parámetros *ExtentionCustomAttributes*, puede usar el operador `-eq` en lugar del operador `-like`.
 
@@ -105,5 +109,7 @@ A continuación, se crea un grupo de distribución dinámico para todos los estu
 
 En este ejemplo, los valores de Kweku *ExtensionCustomAttribute1* se actualizan para reflejar que ha agregado la clase ENGL210 y eliminado la clase ECON202.
 
-    Set-Mailbox -Identity Kweku -ExtensionCustomAttribute1 @{Add="ENGL210"; Remove="ECON202"}
+```powershell
+Set-Mailbox -Identity Kweku -ExtensionCustomAttribute1 @{Add="ENGL210"; Remove="ECON202"}
+```
 

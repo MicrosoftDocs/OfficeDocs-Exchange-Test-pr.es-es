@@ -61,19 +61,27 @@ En el equipo que ejecuta el rol de servidor Buzón de correo:
 
 1.  Establezca el servicio de Microsoft Exchange IMAP4 para que se inicie automáticamente.
     
-        Set-service msExchangeIMAP4 -startuptype automatic
+    ```powershell
+Set-service msExchangeIMAP4 -startuptype automatic
+```
 
 2.  Inicie el servicio de Microsoft Exchange IMAP4.
     
-        Start-service msExchangeIMAP4
+    ```powershell
+Start-service msExchangeIMAP4
+```
 
 3.  Establezca el servicio de Microsoft Exchange IMAP4 Backend para que se inicie automáticamente.
     
-        Set-service msExchangeIMAP4BE -startuptype automatic
+    ```powershell
+Set-service msExchangeIMAP4BE -startuptype automatic
+```
 
 4.  Inicie el servicio de Microsoft Exchange IMAP4 Backend.
     
-        Start-service msExchangeIMAP4BE
+    ```powershell
+Start-service msExchangeIMAP4BE
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

@@ -71,7 +71,9 @@ Volver al principio
 
 En este ejemplo, se coloca el buzón bsuneja@contoso.com en retención por juicio. Los elementos del buzón se conservan indefinidamente o hasta que se elimine la retención.
 
-    Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true
+```powershell
+Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true
+```
 
 
 > [!NOTE]
@@ -83,7 +85,9 @@ En este ejemplo, se coloca el buzón bsuneja@contoso.com en retención por juici
 
 Este ejemplo coloca el buzón bsuneja@contoso.com en retención por juicio y conserva los elementos durante 2555 días (aproximadamente 7 años).
 
-    Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true -LitigationHoldDuration 2555
+```powershell
+Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true -LitigationHoldDuration 2555
+```
 
 ## Usar el Shell para colocar todos los buzones en retención por juicio durante un tiempo especificado
 
@@ -103,7 +107,9 @@ Consulte la sección Más información para ver ejemplos de cómo usar otras pro
 
 En este ejemplo, se quita el buzón de correo bsuneja@contoso.com de la retención por juicio.
 
-    Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $false
+```powershell
+Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $false
+```
 
 Volver al principio
 
@@ -152,7 +158,9 @@ Para comprobar que un buzón se ha colocado correctamente en retención por juic
         Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "OneYearLitigationHold"'
     ```
     ```
-        Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
+    ```powershell
+Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
+```
     ```
     ```
         Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
@@ -161,7 +169,9 @@ Para comprobar que un buzón se ha colocado correctamente en retención por juic
         Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
     ```
     ```
-        Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
+    ```powershell
+Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
+```
     ```
     
     Puede usar otras propiedades de buzón de usuario en un filtro para incluir o excluir buzones de correo. Para obtener información detallada, consulte [Propiedades a las que se puede aplicar un filtro para el parámetro -Filter](https://technet.microsoft.com/es-es/library/bb738155\(v=exchg.150\)).

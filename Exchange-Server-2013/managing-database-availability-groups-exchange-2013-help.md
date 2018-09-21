@@ -423,7 +423,9 @@ En un adaptador de red dual, una red se dedica generalmente al tráfico de repli
 
 En Exchange 2010, la configuración manual de las redes del DAG era necesaria en muchos escenario. De forma predeterminada, en Exchange 2013, es el sistema el que configura automáticamente las redes del DAG. Antes de crear o modificar las redes del DAG, primero deberá habilitar el control manual de la red del DAG ejecutando el siguiente comando:
 
-    Set-DatabaseAvailabilityGroup <DAGName> -ManualDagNetworkConfiguration $true
+```powershell
+Set-DatabaseAvailabilityGroup <DAGName> -ManualDagNetworkConfiguration $true
+```
 
 Una vez haya habilitado la configuración de red del DAG manual, podrá usar el cmdlet **New-DatabaseAvailabilityGroupNetwork** en el Shell para crear una red del DAG. Para obtener instrucciones detalladas acerca de cómo crear una red de grupo de disponibilidad de base de datos, vea [Creación de una red de grupos de disponibilidad de base de datos](create-a-database-availability-group-network-exchange-2013-help.md).
 
@@ -531,7 +533,9 @@ En la siguiente configuración, hay dos subredes configuradas en el DAG: 192.168
 
 Para completar la configuración de ReplicationDagNetwork01 como la red de replicación dedicada, deshabilite la replicación para MapiDagNetwork ejecutando el siguiente comando.
 
-    Set-DatabaseAvailabilityGroupNetwork -Identity DAG1\MapiDagNetwork -ReplicationEnabled:$false
+```powershell
+Set-DatabaseAvailabilityGroupNetwork -Identity DAG1\MapiDagNetwork -ReplicationEnabled:$false
+```
 
 Después de deshabilitar la replicación para MapiDagNetwork, el servicio de replicación de Microsoft Exchange usa ReplicationDagNetwork01 para la replicación continua. Si se produce un error en ReplicationDagNetwork01, el servicio de replicación de Microsoft Exchange vuelve a usar MapiDagNetwork para la replicación continua. Esto lo hace intencionalmente el sistema para mantener la disponibilidad alta.
 
@@ -661,7 +665,9 @@ El valor predeterminado es `GoodAvailability`. Si especifica entre `BestAvailabi
 
 El siguiente ejemplo configura un servidor de buzones de correo con una configuración *AutoDatabaseMountDial* de `GoodAvailability`.
 
-    Set-MailboxServer -Identity EX1 -AutoDatabaseMountDial GoodAvailability
+```powershell
+Set-MailboxServer -Identity EX1 -AutoDatabaseMountDial GoodAvailability
+```
 
 ## Directiva de activación automática de la copia de la base de datos
 
@@ -677,7 +683,9 @@ El parámetro *DatabaseCopyAutoActivationPolicy* especifica el tipo de activaci�
 
 El siguiente ejemplo configura un servidor de buzones de correo con una configuración *DatabaseCopyAutoActivationPolicy* de `Blocked`.
 
-    Set-MailboxServer -Identity EX1 -DatabaseCopyAutoActivationPolicy Blocked
+```powershell
+Set-MailboxServer -Identity EX1 -DatabaseCopyAutoActivationPolicy Blocked
+```
 
 ## Bases de datos activas máximas
 
@@ -689,7 +697,9 @@ El parámetro *MaximumActiveDatabases* está configurado con un valor numérico 
 
 El siguiente ejemplo configura un servidor de buzones de correo para que admita un máximo de 20 bases de datos activas.
 
-    Set-MailboxServer -Identity EX1 -MaximumActiveDatabases 20
+```powershell
+Set-MailboxServer -Identity EX1 -MaximumActiveDatabases 20
+```
 
 Volver al principio
 

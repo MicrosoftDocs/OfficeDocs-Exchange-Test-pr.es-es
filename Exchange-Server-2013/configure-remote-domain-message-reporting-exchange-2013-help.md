@@ -41,9 +41,13 @@ Utilice el cmdlet **Set-RemoteDomain** para configurar las propiedades de un dom
 
 En este ejemplo se deshabilitan los informes de entrega al dominio remoto Contoso. Esta opción está habilitada de manera predeterminada.
 
-    Set-RemoteDomain Contoso -DeliveryReportEnabled $false
+```powershell
+Set-RemoteDomain Contoso -DeliveryReportEnabled $false
+```
 
 En este ejemplo se deshabilita la no entrega de informes al dominio remoto. Esta opción está habilitada de manera predeterminada.
 
-    Set-RemoteDomain Contoso -NDREnabled $false
+```powershell
+Set-RemoteDomain Contoso -NDREnabled $false
+```
 

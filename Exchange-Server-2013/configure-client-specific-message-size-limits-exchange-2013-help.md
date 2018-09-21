@@ -252,7 +252,9 @@ Para todos los límites de tamaño de los mensajes, debe establecer valores mayo
 
 4.  Reinicie IIS ejecutando el siguiente comando:
     
-        IISReset /noforce
+    ```powershell
+IISReset /noforce
+```
 
 ## Configurar límites de tamaño de mensaje específicos del cliente desde la línea de comandos
 

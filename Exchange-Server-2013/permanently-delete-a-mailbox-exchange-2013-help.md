@@ -59,7 +59,9 @@ Para obtener más información acerca de los buzones desconectados o realizar ot
 
 Ejecute el siguiente comando para eliminar de forma permanente un buzón activo y la cuenta de usuario de Active Directory asociada.
 
-    Remove-Mailbox -Identity <identity> -Permanent $true
+```powershell
+Remove-Mailbox -Identity <identity> -Permanent $true
+```
 
 
 > [!NOTE]
@@ -79,7 +81,9 @@ Para comprobar que se eliminó permanentemente un buzón activo, haga lo siguien
 
 3.  Ejecute el siguiente comando para comprobar que el buzón se purgó correctamente de la base de datos de buzones de Exchange.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }
+    ```powershell
+Get-MailboxDatabase | Get-MailboxStatistics | Where {         Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }.DisplayName -eq "<display name>" }
+```
     
     Si purgó el buzón correctamente, el comando no devolverá ningún resultado. Si el buzón no se ha purgado, el comando devolverá información acerca del buzón.
 
@@ -111,7 +115,9 @@ En este ejemplo, se elimina permanentemente el buzón desconectado con GUID 2ab3
 
 En este ejemplo se elimina permanentemente el buzón eliminado temporalmente de Dan Jump de la base de datos de buzones MBD01.
 
-    Remove-StoreMailbox -Database MBD01 -Identity "Dan Jump" -MailboxState SoftDeleted
+```powershell
+Remove-StoreMailbox -Database MBD01 -Identity "Dan Jump" -MailboxState SoftDeleted
+```
 
 En este ejemplo, se eliminan permanentemente todos los buzones eliminados temporalmente de la base de datos del buzón MBD01.
 
@@ -123,7 +129,9 @@ Para obtener más información acerca de la sintaxis y los parámetros, consulte
 
 Para comprobar que eliminó permanentemente un buzón desconectado y que se purgó de forma correcta de la base de datos de buzones de Exchange, ejecute el siguiente comando.
 
-    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }
+```powershell
+Get-MailboxDatabase | Get-MailboxStatistics | Where {     Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }.DisplayName -eq "<display name>" }
+```
 
 Si purgó el buzón correctamente, el comando no devolverá ningún resultado. Si el buzón no se ha purgado, el comando devolverá información acerca del buzón.
 

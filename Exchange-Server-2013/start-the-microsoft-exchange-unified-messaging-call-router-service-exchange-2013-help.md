@@ -57,5 +57,7 @@ Para otras tareas de administración relacionadas con servidores de acceso de cl
 
 2.  En el cuadro **Abrir**, escriba el siguiente comando y, a continuación, presione Entrar.
     
-        net start MSExchangeUMCR
+    ```powershell
+net start MSExchangeUMCR
+```
 

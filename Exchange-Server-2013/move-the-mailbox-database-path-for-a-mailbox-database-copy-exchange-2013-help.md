@@ -55,7 +55,9 @@ Si la base de datos de buzones de correo que se está moviendo está replicada e
 
 2.  Si la base de datos tiene el registro circular habilitado, se lo debe deshabilitar antes de proceder. El registro circular de una base de datos de buzones de correo puede deshabilitarse mediante el cmdlet [Set-MailboxDatabase](https://technet.microsoft.com/es-es/library/bb123971\(v=exchg.150\)), como se muestra en este ejemplo.
     
-        Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
+    ```powershell
+Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
+```
 
 3.  Quite todas las copias de base de datos de buzones de correo para la base de datos que se desea mover. Para obtener instrucciones detalladas, consulte [Eliminación de una copia de base de datos de buzones](remove-a-mailbox-database-copy-exchange-2013-help.md). Después de quitar todas las copias, guarde los archivos de registro de base de datos y de transacción que genera cada servidor de los cuales se quitará una copia de la base de datos. Para ello, muévalos a otra ubicación. Estos archivos se guardan para que las copias de la base de datos no soliciten reinicialización después de volverlas a agregar.
 
@@ -80,11 +82,15 @@ Si la base de datos de buzones de correo que se está moviendo está replicada e
 
 9.  De manera opcional, es posible habilitar el registro circular mediante el cmdlet [Set-MailboxDatabase](https://technet.microsoft.com/es-es/library/bb123971\(v=exchg.150\)), como se muestra en este ejemplo.
     
-        Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
+    ```powershell
+Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
+```
 
 10. Vuelva a configurar todo valor previamente fijado para los tiempos de retardo de reproducción y retardo de truncamiento, mediante el cmdlet [Set-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd298104\(v=exchg.150\)), como se muestra en este ejemplo.
     
-        Set-MailboxDatabaseCopy DB1\MBX2 -ReplayLagTime 00:15:00
+    ```powershell
+Set-MailboxDatabaseCopy DB1\MBX2 -ReplayLagTime 00:15:00
+```
 
 11. A medida que se agrega cada copia, se recomienda comprobar las condiciones y el estado de la copia antes de agregar la siguiente. Puede comprobar las condiciones y el estado de las siguientes maneras:
     
@@ -114,7 +120,9 @@ Para comprobar que haya movido correctamente la ruta de una copia de base de dat
 
   - En el Shell, ejecute el siguiente comando para comprobar que la copia de la base de datos de buzones de correo se haya creado y sea correcta.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+```
     
     Los valores de estado y de estado del índice de contenido deben ser correctos.
 

@@ -160,7 +160,9 @@ Los encabezados X descritos en la siguiente lista son necesarios para los mensaj
 
   - **Remitente X**   Este encabezado X sustituye al requisito de campo de encabezado `From` de un mensaje SMTP típico. Debe existir un campo `X-Sender` que contenga una dirección de correo electrónico. El directorio de reproducción ignora el campo de encabezado `From` si está presente, aunque el cliente de correo electrónico del destinatario muestra el valor del campo de encabezado de mensaje `From` como remitente del mensaje. Suelen existir otros parámetros en el campo `X-Sender`, como figura en el siguiente ejemplo.
     
-        X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
+    ```powershell
+X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
+```
     
 
     > [!NOTE]
@@ -170,7 +172,9 @@ Los encabezados X descritos en la siguiente lista son necesarios para los mensaj
 
   - **Destinatario X**   Este encabezado X sustituye al requisito de campo de encabezado `To` de un mensaje SMTP típico. Debe existir como mínimo un campo `X-Receiver` que contenga una dirección de correo electrónico. Se permiten múltiples campos `X-Receiver` para múltiples destinatarios. El directorio de reproducción ignora los campos de encabezado de mensaje `To` si están presentes, aunque el cliente de correo electrónico del destinatario muestra los valores de los campos de encabezado de mensaje `To` como destinatarios del mensaje. Pueden existir otros parámetros opcionales en los campos `X-Receiver`, como figura en el siguiente ejemplo.
     
-        X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+    ```powershell
+X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```
     
 
     > [!NOTE]
@@ -194,7 +198,9 @@ Los encabezados X descritos en la siguiente lista son opcionales para los archiv
 
 En este ejemplo, se muestra un mensaje de texto que utiliza un formato aceptable para el directorio de reproducción.
 
-    X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```powershell
+X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```
     X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345AB auth=<someAuth>
     Subject: Optional message subject
     
@@ -202,7 +208,9 @@ En este ejemplo, se muestra un mensaje de texto que utiliza un formato aceptable
 
 El contenido MIME también es compatible en los archivos de mensajes del directorio de reproducción. MIME define una amplia gama de contenido de mensajes, que incluye lenguajes que no pueden representarse en texto ASCII de 7 bits, HTML y otros contenidos multimedia. La descripción de MIME y sus requisitos están fuera del alcance de este tema. En este ejemplo, se muestra un mensaje de MIME simple que usa un formato aceptable para el directorio de reproducción.
 
-    X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```powershell
+X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```
     X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345ABCD auth=<someAuth>
     To: mary@contoso.com
     From: bob@fabrikam.com

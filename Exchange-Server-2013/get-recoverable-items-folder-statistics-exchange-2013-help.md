@@ -47,7 +47,9 @@ Para obtener más información, consulte los siguientes temas:
 
 En este ejemplo se obtienen las estadísticas de la carpeta Elementos recuperables de Soumya Singhi y se muestra una lista con los resultados.
 
-    Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-List
+```powershell
+Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-List
+```
 
 En este ejemplo se obtienen las estadísticas de la carpeta Elementos recuperables de Soumya Singhi y se muestra una tabla con el nombre, la ruta, el número de elementos que contiene y el tamaño de la carpeta.
 

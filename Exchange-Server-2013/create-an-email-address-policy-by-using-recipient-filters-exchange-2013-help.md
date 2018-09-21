@@ -49,7 +49,9 @@ Para otras tareas de administraci처n relacionadas con las directivas de direcci�
 
 Para crear una directiva de direcci처n de correo electr처nico mediante filtros de destinatario, use la siguiente sintaxis.
 
-    New-EmailAddressPolicy -Name <String> -RecipientFilter <String>
+```powershell
+New-EmailAddressPolicy -Name <String> -RecipientFilter <String>
+```
 
 En este ejemplo, se crea una directiva de direcci처n de correo electr처nico que se aplica a todos los ejecutivos, para los cuales la parte local de la direcci처n de correo electr처nico consta de las dos primeras letras del nombre y el apellido completo.
 

@@ -43,7 +43,9 @@ _**Última modificación del tema:** 2014-12-16_
 
 1.  En una ventana del Símbolo del sistema, abra el archivo de configuración de aplicación EdgeTransport.exe.config en el Bloc de notas mediante el comando siguiente:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 2.  Busque las claves siguientes en la sección `<appSettings>`.
     
@@ -61,7 +63,9 @@ _**Última modificación del tema:** 2014-12-16_
     
     Para habilitar la prioridad en cola del servicio de transporte del servidor de buzones, use el siguiente valor:
     
-        <add key="PriorityQueuingEnabled" value="true" />
+    ```command line
+<add key="PriorityQueuingEnabled" value="true" />
+```
     
     Configure los valores de prioridad en cola restantes o déjelos con los valores predeterminados.
 

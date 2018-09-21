@@ -146,7 +146,9 @@ Para comprobar si creó un buzón de usuario correctamente, siga uno de estos pr
 
   - En el Shell, ejecute el comando siguiente para mostrar información sobre el nuevo buzón del nuevo usuario.
     
-        Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+    ```powershell
+Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+```
 
 ## Crear un buzón para un usuario existente
 
@@ -194,13 +196,17 @@ También puede crear buzones para los usuarios existentes que tengan una cuenta 
 
 En este ejemplo se crea un buzón para el usuario existente estherv@contoso.com en la base de datos de Exchange denominada UsersMailboxDatabase.
 
-    Enable-Mailbox estherv@contoso.com -Database UsersMailboxDatabase
+```powershell
+Enable-Mailbox estherv@contoso.com -Database UsersMailboxDatabase
+```
 
 Además, puede usar el cmdlet **Enable-Mailbox** para habilitar para correo a varios usuarios. Para ello, se deben canalizar los resultados del cmdlet **Get-User** en el cmdlet **Enable-Mailbox**. Cuando ejecute el cmdlet **Get-User**, deberá devolver solo los usuarios que ya no estén habilitados para correo. Para ello, es necesario especificar el valor Usuario con el parámetro *RecipientTypeDetails*. Además, podrá limitar los resultados devueltos mediante el parámetro *Filter* para solicitar solamente los usuarios que cumplan con los criterios que especifique. A continuación, canalice los resultados al cmdlet **Enable-Mailbox**.
 
 Por ejemplo, el comando siguiente habilita el buzón para usuarios que todavía no tienen correo habilitado y que tienen un valor en la propiedad **UserPrincipalName**, lo que le ayuda a no convertir de forma inadvertida una cuenta de sistema en un buzón.
 
-    Get-User -RecipientTypeDetails User -Filter { UserPrincipalName -ne $Null } | Enable-Mailbox
+```powershell
+Get-User -RecipientTypeDetails User -Filter { UserPrincipalName -ne $Null } | Enable-Mailbox
+```
 
 Para obtener información acerca de la sintaxis y los parámetros, consulte [Enable-Mailbox](https://technet.microsoft.com/es-es/library/aa998251\(v=exchg.150\)) y [Get-User](https://technet.microsoft.com/es-es/library/aa996896\(v=exchg.150\)).
 
@@ -214,7 +220,9 @@ Para comprobar si creó correctamente un buzón para un usuario existente, siga 
 
   - En el Shell, ejecute el comando siguiente para mostrar información sobre el nuevo usuario con buzón habilitado.
     
-        Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+    ```powershell
+Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+```
     
     Tenga en cuenta que el valor de la propiedad *RecipientTypeDetails* es `UserMailbox`.
 

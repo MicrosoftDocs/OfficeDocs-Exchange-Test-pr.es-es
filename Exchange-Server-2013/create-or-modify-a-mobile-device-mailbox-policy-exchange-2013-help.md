@@ -135,5 +135,7 @@ Para comprobar si editó una directiva de buzón de correo para dispositivos mó
 
 2.  En el Shell, ejecute el siguiente comando.
     
-        Get-MobileDeviceMailboxPolicy -Identity <PolicyName>
+    ```powershell
+Get-MobileDeviceMailboxPolicy -Identity <PolicyName>
+```
 

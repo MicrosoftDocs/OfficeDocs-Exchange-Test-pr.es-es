@@ -59,17 +59,23 @@ En este ejemplo se crea la directiva de aprovisionamiento predeterminada SM\_Pro
 
 En este ejemplo se devuelve la información detallada sobre todas las directivas de aprovisionamiento de buzón de la organización.
 
-    Get-SiteMailboxProvisioningPolicy | Format-List
+```powershell
+Get-SiteMailboxProvisioningPolicy | Format-List
+```
 
 En este ejemplo se devuelven todas las directivas de la organización, pero solamente se muestra la información `IsDefault` para identificar la directiva predeterminada.
 
-    Get-SiteMailboxProvisioningPolicy | Format-List IsDefault
+```powershell
+Get-SiteMailboxProvisioningPolicy | Format-List IsDefault
+```
 
 ## Realizar cambios en una directiva de aprovisionamiento de buzón del sitio existente
 
 Este ejemplo cambia la directiva de aprovisionamiento de buzón de sitio denominada Default a fin de permitir que el tamaño máximo de mensajes de correo electrónico que el buzón de sitio puede recibir sea de 25 MB. (Cuando instala Exchange, se crea una directiva de aprovisionamiento con el nombre **Predeterminado**.)
 
-    Set-SiteMailboxProvisioningPolicy -Identity Default -MaxReceiveSize 25MB
+```powershell
+Set-SiteMailboxProvisioningPolicy -Identity Default -MaxReceiveSize 25MB
+```
 
 Este ejemplo cambia la cuota de advertencia a 9,5 GB y la cuota de prohibir envío y de prohibir recepción a 10 GB.
 
@@ -103,7 +109,9 @@ En este otro ejemplo se modifica la directiva de aprovisionamiento predeterminad
 
 Este ejemplo elimina la directiva del buzón del sitio predeterminada que se creó durante la instalación de Exchange.
 
-    Remove-SiteMailboxProvisioningPolicy -Identity Default
+```powershell
+Remove-SiteMailboxProvisioningPolicy -Identity Default
+```
 
 
 > [!IMPORTANT]

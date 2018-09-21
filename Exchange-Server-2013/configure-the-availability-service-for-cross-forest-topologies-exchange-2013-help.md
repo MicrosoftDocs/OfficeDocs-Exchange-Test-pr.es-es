@@ -94,7 +94,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 En este ejemplo se crea una cuenta para toda la organización sobre el objeto de configuración de disponibilidad para configurar el nivel de acceso a datos de disponibilidad en el bosque de destino.
 
-    Set-AvailabilityConfig -OrgWideAccount "Contoso.com\User"
+```powershell
+Set-AvailabilityConfig -OrgWideAccount "Contoso.com\User"
+```
 
 En este ejemplo se agrega el objeto de configuración del espacio de direcciones de disponibilidad para el bosque de origen.
 

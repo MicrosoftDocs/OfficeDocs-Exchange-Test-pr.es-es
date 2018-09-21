@@ -71,7 +71,9 @@ Una vez establecida la configuración de formato de recuperación de mensajes pa
 
 En este ejemplo, se configuran la opción de formato de recuperación de mensajes para sólo texto para todos los usuarios de POP3 en el servidor CAS01.
 
-    Set-PopSettings -Identity CAS01 -MessageRetrievalMimeFormat TextOnly
+```powershell
+Set-PopSettings -Identity CAS01 -MessageRetrievalMimeFormat TextOnly
+```
 
 Se puede elegir entre la siguiente configuración. Puede especificar el valor del parámetro *MessageRetrievalMimeFormat* usando un valor numérico o una cadena de texto.
 
@@ -128,7 +130,9 @@ Realice lo siguiente para comprobar que haya configurado correctamente los ajust
 
 1.  Ejecute el siguiente comando en el Shell.
     
-        Get-PopSettings | format-list
+    ```powershell
+Get-PopSettings | format-list
+```
 
 2.  Compruebe que la configuración de *MessageRetrievalMimeFormat* sea correcta.
 
@@ -166,7 +170,9 @@ Una vez establecida la configuración de formato de recuperación de mensajes pa
 
 En este ejemplo, se configuran la opción de formato de recuperación de mensajes para sólo texto para todos los usuarios de IMAP4 en el servidor CAS01.
 
-    Set-ImapSettings -Identity CAS01 -MessageRetrievalMimeFormat TextOnly
+```powershell
+Set-ImapSettings -Identity CAS01 -MessageRetrievalMimeFormat TextOnly
+```
 
 Se puede elegir entre la siguiente configuración. Puede especificar el valor del parámetro *MessageRetrievalMimeFormat* usando un valor numérico o una cadena de texto.
 
@@ -223,7 +229,9 @@ Realice lo siguiente para comprobar que haya configurado correctamente los ajust
 
 1.  Ejecute el siguiente comando en el Shell.
     
-        Get-ImapSettings | format-list
+    ```powershell
+Get-ImapSettings | format-list
+```
 
 2.  Compruebe que la configuración de *MessageRetrievalMimeFormat* sea correcta.
 
@@ -233,7 +241,9 @@ Realice lo siguiente para comprobar que haya configurado correctamente los ajust
 
 En este ejemplo, se define el formato de recuperación de mensajes de sólo texto para el acceso de POP3 para `USER01`.
 
-    Set-CASMailbox -Identity USER01 -PopMessagesRetrievalMimeFormat TextOnly
+```powershell
+Set-CASMailbox -Identity USER01 -PopMessagesRetrievalMimeFormat TextOnly
+```
 
 Se puede elegir entre la siguiente configuración. Puede especificar el valor del parámetro *PopMessagesRetrievalMimeFormat* usando un valor numérico o una cadena de texto.
 
@@ -290,7 +300,9 @@ Realice lo siguiente para comprobar que haya configurado correctamente los ajust
 
 1.  Ejecute el siguiente comando en el Shell.
     
-        Get-CAS Mailbox <identity> | format-list
+    ```powershell
+Get-CAS Mailbox <identity> | format-list
+```
 
 2.  Compruebe que el valor de *PopMessagesRetrievalMimeFormat* sea correcto.
 
@@ -300,7 +312,9 @@ Realice lo siguiente para comprobar que haya configurado correctamente los ajust
 
 En este ejemplo, se define el formato de recuperación de mensajes de sólo texto para el acceso de IMAP4 para `USER01`.
 
-    Set-CASMailbox -Identity USER01 -ImapMessagesRetrievalMimeFormat TextOnly
+```powershell
+Set-CASMailbox -Identity USER01 -ImapMessagesRetrievalMimeFormat TextOnly
+```
 
 Puede especificar el valor del parámetro *ImapMessagesRetrievalMimeFormat* usando un valor numérico o una cadena de texto.
 
@@ -357,7 +371,9 @@ Realice lo siguiente para comprobar que haya configurado correctamente los ajust
 
 1.  Ejecute el siguiente comando en el Shell.
     
-        Get-CAS Mailbox <identity> | format-list
+    ```powershell
+Get-CAS Mailbox <identity> | format-list
+```
 
 2.  Compruebe que el valor de *ImapMessagesRetrievalMimeFormat* sea correcto.
 

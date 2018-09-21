@@ -41,7 +41,9 @@ Para otras tareas de administración relacionadas con las listas de direcciones,
 
 En este ejemplo se utiliza la lista de direcciones del GUID (identificador único global) para mover la lista de direcciones al contenedor "Building 4", que está ubicado en Todos los usuarios/Ventas.
 
-    Move-AddressList -Identity c3fffd8e-026b-41b9-88c4-8c21697ac8ac -Target "\All Users\Sales\Building4"
+```powershell
+Move-AddressList -Identity c3fffd8e-026b-41b9-88c4-8c21697ac8ac -Target "\All Users\Sales\Building4"
+```
 
 Escriba **Y** para confirmar que desea mover esta lista de direcciones y, a continuación, pulse ENTRAR.
 

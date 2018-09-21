@@ -73,7 +73,9 @@ Cada copia de base de datos de buzones tiene sus propiedades, configurables por 
 
 En este ejemplo se configura una copia de base de datos de buzones con un número de la preferencia de activación de 3.
 
-    Set-MailboxDatabaseCopy -Identity DB3\EX3 -ActivationPreference 3
+```powershell
+Set-MailboxDatabaseCopy -Identity DB3\EX3 -ActivationPreference 3
+```
 
 En este ejemplo se configura una copia de la base de datos DB1 que se hospeda en Server1 con tiempos de retardo de reproducción y de retardo de truncamiento de 1 día y un número de preferencia de activación de 2.
 
@@ -87,7 +89,9 @@ Para comprobar que la copia de la base de datos de buzones se configuró correct
 
   - En el Shell, ejecute el siguiente comando para mostrar la información de configuración de una copia de base de datos.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+```
 
 ## Más información
 

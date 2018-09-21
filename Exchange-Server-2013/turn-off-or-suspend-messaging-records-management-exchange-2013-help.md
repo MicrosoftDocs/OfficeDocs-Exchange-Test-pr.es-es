@@ -71,7 +71,9 @@ Es posible detener la aplicación de una directiva de retención en un buzón de
 
 En este ejemplo del Shell, se quita la directiva de retención del buzón de correo jescolar.
 
-    Set-Mailbox jpeoples -RetentionPolicy $null.
+```powershell
+Set-Mailbox jpeoples -RetentionPolicy $null.
+```
 
 En este ejemplo del Shell, se quita la directiva de retención de todos los buzones de la organización de Exchange.
 
@@ -111,7 +113,9 @@ Este ejemplo quita todas las etiquetas de retención, excepto la etiqueta Nunca 
 
 Este comando quita la directiva de retención Corp-Users de una organización de Exchange.
 
-    Remove-RetentionPolicy Corp-Users
+```powershell
+Remove-RetentionPolicy Corp-Users
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte los siguientes temas:
 

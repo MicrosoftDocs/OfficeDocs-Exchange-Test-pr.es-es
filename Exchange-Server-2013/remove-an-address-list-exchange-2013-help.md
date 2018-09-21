@@ -51,7 +51,9 @@ Para otras tareas de administración relacionadas con las listas de direcciones,
 
 En este ejemplo, se quita la lista de direcciones Departamento de ventas que no contiene ninguna lista de direcciones secundaria.
 
-    Remove-AddressList -Identity "Sales Department"
+```powershell
+Remove-AddressList -Identity "Sales Department"
+```
 
 Introduzca **S** para confirmar que desea eliminar esta lista de direcciones y, a continuación, presione INTRO.
 
@@ -61,7 +63,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Este ejemplo quita los departamentos de la lista de direcciones primarias y todas sus listas de direcciones secundarias.
 
-    Remove-AddressList -Identity Departments -Recursive
+```powershell
+Remove-AddressList -Identity Departments -Recursive
+```
 
 Introduzca **S** para confirmar que desea quitar la lista de direcciones principales y sus listas de direcciones secundarias y, a continuación, presione INTRO.
 

@@ -73,7 +73,9 @@ Una copia de la base de datos de buzones de correo atrasada es una copia de la b
 
 5.  En este ejemplo, se usa Eseutil para realizar la operación de recuperación.
     
-        Eseutil.exe /r eXX /a
+    ```powershell
+Eseutil.exe /r eXX /a
+```
     
 
     > [!NOTE]
@@ -90,7 +92,9 @@ Una copia de la base de datos de buzones de correo atrasada es una copia de la b
 
 7.  Una vez finalizado el proceso de recuperación, en este ejemplo, se reanuda la replicación de la base de datos que se usó como parte del proceso de recuperación.
     
-        Resume-MailboxDatabaseCopy DB1\EX3
+    ```powershell
+Resume-MailboxDatabaseCopy DB1\EX3
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd351074\(v=exchg.150\)) o [Resume-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd335220\(v=exchg.150\)).
 
@@ -112,7 +116,9 @@ Para obtener más información acerca de la sintaxis y los parámetros, consulte
 
 2.  En este ejemplo, se activa la copia de base de datos de buzones de correo atrasada usando el cmdlet [Move-ActiveMailboxDatabase](https://technet.microsoft.com/es-es/library/dd298068\(v=exchg.150\)) con el parámetro *SkipLagChecks*.
     
-        Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -SkipLagChecks
+    ```powershell
+Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -SkipLagChecks
+```
 
 ## Uso del Shell para activar una copia de base de datos de buzones de correo atrasada usando la recuperación de SafetyNet
 
@@ -132,7 +138,9 @@ Para obtener más información acerca de la sintaxis y los parámetros, consulte
 
 2.  Determine los registros necesarios para la copia de base de datos atrasada. Para ello, busque el valor «Registro necesario:» en el resultado del encabezado de base de datos ESEUTIL.
     
-        Eseutil /mh <DBPath> | findstr /c:"Log Required"
+    ```powershell
+Eseutil /mh <DBPath> | findstr /c:"Log Required"
+```
     
     Tome nota de los números hexadecimales entre paréntesis. El primer número es la generación más baja necesaria (denominada LowGeneration) y el segundo número es la generación más alta necesaria (denominada HighGeneration). Mueva todos los archivos de generación de registros que tienen una generación de secuencia más alta que HighGeneration a una ubicación diferente de modo que no se reproduzcan nuevamente en la base de datos.
 
@@ -152,5 +160,7 @@ Para comprobar que haya activado una copia de base de datos de buzones de correo
 
   - En el Shell, ejecute el siguiente comando para mostrar la información de estado de una copia de base de datos.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+```
 

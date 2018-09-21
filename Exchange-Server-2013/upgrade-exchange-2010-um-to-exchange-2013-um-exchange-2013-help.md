@@ -61,7 +61,9 @@ Puede agregar paquetes de idioma de mensajería unificada (UM) usando el comando
 
 En este ejemplo se usa setup.exe para instalar el paquete de idioma de mensajería unificada del japonés (ja-JP).
 
-    setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```powershell
+setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```
 
 ## Paso 2: Mover el buzón del sistema de Exchange 2010 que se usa para saludos personalizados, anuncios, menús y avisos a Exchange 2013
 
@@ -71,11 +73,15 @@ De manera predeterminada, los buzones del sistema no están visibles en el Centr
 
 Este comando devuelve una lista de todos los buzones de correo del sistema.
 
-    Get-Mailbox -Arbitration
+```powershell
+Get-Mailbox -Arbitration
+```
 
 Este comando devuelve la lista de los buzones del sistema y sus propiedades o configuraciones individuales.
 
-    Get-Mailbox -Arbitration |fl
+```powershell
+Get-Mailbox -Arbitration |fl
+```
 
 Al usar este buzón del sistema, se puede hacer una copia de seguridad de saludos personalizados, anuncios, menús y avisos con otros buzones de una base de datos; estos elementos también se pueden restaurar. De este modo, la cantidad de recursos necesarios se reduce. Almacenar saludos personalizados, anuncios, menús y avisos en un buzón del sistema elimina las posibles incoherencias que puedan haber surgido. Para más información sobre los movimientos de buzones, vea [Movimientos de buzones de Exchange 2013](mailbox-moves-in-exchange-2013-exchange-2013-help.md).
 
@@ -214,7 +220,9 @@ Para configurar el modo de inicio de Mensajería unificada en un servidor de acc
 
 Configure el modo de inicio de Mensajería unificada en un servidor de acceso de cliente de Exchange 2013 ejecutando el siguiente comando en el Shell.
 
-    Set-UMCallRouterSettings -Server MyUMCallRouter.northwindtraders.com -UMStartupMode Dual
+```powershell
+Set-UMCallRouterSettings -Server MyUMCallRouter.northwindtraders.com -UMStartupMode Dual
+```
 
 ## Paso 6: Configurar el modo de inicio de Mensajería unificada en todos los servidores de buzones de Exchange 2013
 
@@ -274,7 +282,9 @@ Si es necesario, puede crear un plan de marcado de Mensajería unificada desde e
 
 Si es necesario, puede crear un plan de marcado de Mensajería unificada ejecutando el comando siguiente en el Shell.
 
-    New-UMDialplan -Name MyUMDialPlan -URIType E164 -NumberOfDigitsInExtension 5 -VoIPSecurity Secured
+```powershell
+New-UMDialplan -Name MyUMDialPlan -URIType E164 -NumberOfDigitsInExtension 5 -VoIPSecurity Secured
+```
 
 Si es necesario, puede configurar un plan de marcado existente de Mensajería unificada desde el EAC del modo siguiente:
 
@@ -318,7 +328,9 @@ Si es necesario, puede crear una puerta de enlace IP de mensajería unificada co
 
 Si es necesario, puede crear una puerta de enlace IP de UM ejecutando el comando siguiente.
 
-    New-UMIPGateway -Identity MyUMIPGateway -Address "MyUMIPGateway.contoso.com"
+```powershell
+New-UMIPGateway -Identity MyUMIPGateway -Address "MyUMIPGateway.contoso.com"
+```
 
 Para configurar una puerta de enlace IP de UM existente desde el EAC:
 
@@ -432,7 +444,9 @@ Si es necesario, puede crear una directiva de buzón de mensajería unificada de
 
 Si es necesario, puede crear una directiva de buzón de mensajería unificada ejecutando el comando siguiente en el Shell.
 
-    New-UMMailboxPolicy -Name MyUMMailboxPolicy -UMDialPlan MyUMDialPlan
+```powershell
+New-UMMailboxPolicy -Name MyUMMailboxPolicy -UMDialPlan MyUMDialPlan
+```
 
 Si es necesario, puede configurar una directiva de buzón existente de mensajería unificada desde el EAC:
 
@@ -470,7 +484,9 @@ Para mover un buzón de Exchange 2010 a un servidor de buzones de Exchange 2013 
 
 Para mover un buzón de Exchange 2010 a un servidor de buzones de Exchange 2013 usando el Shell, ejecute el comando siguiente.
 
-    New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase "DB01"
+```powershell
+New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase "DB01"
+```
 
 ## Paso 13: Habilitar a usuarios nuevos para Mensajería unificada o definir la configuración de un usuario ya habilitado para UM
 
@@ -576,7 +592,9 @@ Para deshabilitar Mensajería unificada en un servidor de Mensajería unificada 
 
 Para deshabilitar Mensajería unificada en un servidor de Mensajería unificada de Exchange 2010 usando el Shell, ejecute el comando siguiente:
 
-    Disable-UMServer -Identity MyUMServer -Immediate $true
+```powershell
+Disable-UMServer -Identity MyUMServer -Immediate $true
+```
 
 
 > [!TIP]
@@ -611,11 +629,15 @@ Para quitar de un plan de marcado un servidor de Mensajería unificada de Exchan
 
 En este ejemplo, hay tres planes de marcado URI de SIP: SipDP1, SipDP2 y SipDP3. En este ejemplo se quita el servidor de mensajería unificada denominado `MyUMServer` del plan de marcado SipDP3.
 
-    Set-UMServer -id MyUMServer -DialPlans SipDP1,SipDP2
+```powershell
+Set-UMServer -id MyUMServer -DialPlans SipDP1,SipDP2
+```
 
 En este ejemplo, hay dos planes de marcado URI de SIP: SipDP1 y SipDP2. En este ejemplo se quita el servidor de mensajería unificada denominado `MyUMServer` del plan de marcado SipDP2.
 
-    Set-UMServer -id MyUMServer -DialPlans SipDP1
+```powershell
+Set-UMServer -id MyUMServer -DialPlans SipDP1
+```
 
 
 > [!TIP]

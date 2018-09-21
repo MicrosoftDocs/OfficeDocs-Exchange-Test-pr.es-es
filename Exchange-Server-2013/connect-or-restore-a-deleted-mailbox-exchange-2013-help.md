@@ -101,7 +101,9 @@ Use el cmdlet **Connect-Mailbox** en el Shell para conectar un buzón de correo 
 
 En este ejemplo se conecta un buzón de correo de usuario. El parámetro *Identity* especifica el nombre para mostrar del buzón de correo eliminado retenido en la base de datos de buzones de correo denominada MBXDB01. El parámetro *User* especifica la cuenta de usuario de Active Directory que desea conectar al buzón de correo.
 
-    Connect-Mailbox -Identity "Paul Cannon" -Database MBXDB01 -User "Robin Wood" -Alias robinw
+```powershell
+Connect-Mailbox -Identity "Paul Cannon" -Database MBXDB01 -User "Robin Wood" -Alias robinw
+```
 
 
 > [!NOTE]
@@ -143,7 +145,9 @@ Para comprobar si creó un buzón de correo eliminado conectado a una cuenta de 
 
   - En el Shell, ejecute el siguiente comando.
     
-        Get-User <identity>
+    ```powershell
+Get-User <identity>
+```
     
     El valor **UserMailbox** de la propiedad *RecipientType* indica que la cuenta de usuario y el buzón de correo están conectados. También puede ejecutar el comando **Get-Mailbox \<identity\>** para verificar que el buzón de correo estaba conectado.
 
@@ -183,7 +187,9 @@ Necesitará el GUID del buzón de carpeta pública eliminado, así como el GUID 
 
 1.  Para obtener el nombre de dominio completo (FQDN) del controlador de dominio y bosque de Active Directory, ejecute el siguiente cmdlet:
     
-        Get-OrganizationConfig | fl OriginatingServer
+    ```powershell
+Get-OrganizationConfig | fl OriginatingServer
+```
 
 2.  Con la información devuelta por el paso 1, busque el contenedor de objetos eliminados en Active Directory para el GUID del buzón de carpeta pública y el GUID o nombre de la base de datos de buzones de correo en la que se encontraba el buzón de carpeta pública eliminado.
     

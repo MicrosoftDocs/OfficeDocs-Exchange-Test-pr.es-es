@@ -76,7 +76,9 @@ Para ver tareas de administración adicionales relacionadas con la Configuració
 
   - Para crear una regla de protección de transporte, debe tener plantillas RMS existentes en su implementación AD RMS. En este ejemplo, se recuperan las plantillas disponibles desde el clúster de AD RMS.
     
-        Get-RMSTemplate | format-list
+    ```powershell
+Get-RMSTemplate | format-list
+```
     
     Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-RMSTemplate](https://technet.microsoft.com/es-es/library/dd297960\(v=exchg.150\)).
 

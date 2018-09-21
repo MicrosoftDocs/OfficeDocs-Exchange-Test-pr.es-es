@@ -111,11 +111,15 @@ Siga estos pasos de requisitos previos antes de iniciar la migración.
     
       - Ejecute el siguiente comando para tomar una instantánea de la estructura de la carpeta de origen original:
         
-            Get-PublicFolder -Recurse | Export-CliXML C:\PFMigration\Legacy_PFStructure.xml
+        ```powershell
+Get-PublicFolder -Recurse | Export-CliXML C:\PFMigration\Legacy_PFStructure.xml
+```
     
       - Ejecute el siguiente comando para tomar una instantánea de las estadísticas de carpetas públicas, como recuento de elementos, tamaño y propietario:
         
-            Get-PublicFolderStatistics | Export-CliXML C:\PFMigration\Legacy_PFStatistics.xml
+        ```powershell
+Get-PublicFolderStatistics | Export-CliXML C:\PFMigration\Legacy_PFStatistics.xml
+```
     
       - Ejecute el siguiente comando para tomar una instantánea de los permisos:
         
@@ -135,19 +139,25 @@ Siga estos pasos de requisitos previos antes de iniciar la migración.
     
     3.  Si el resultado devuelve alguna carpeta pública, puede cambiarle el nombre con este comando:
         
-            Set-PublicFolder -Identity <public folder identity> -Name <new public folder name>
+        ```powershell
+Set-PublicFolder -Identity <public folder identity> -Name <new public folder name>
+```
 
 3.  Asegúrese de que no exista ningún registro anterior de migración correcta.
     
     1.  El ejemplo siguiente comprueba el estado de la migración de carpetas públicas.
         
-            Get-OrganizationConfig | Format-List PublicFoldersLockedforMigration, PublicFolderMigrationComplete
+        ```powershell
+Get-OrganizationConfig | Format-List PublicFoldersLockedforMigration, PublicFolderMigrationComplete
+```
         
         Si anteriormente se efectuó una migración correcta, el valor de las propiedades *PublicFoldersLockedforMigration* o *PublicFolderMigrationComplete* es `$true`. Use el comando del paso 3b para establecer el valor en `$false`. Si el valor se establece en `$true`, se producirá un error en la solicitud de migración.
     
     2.  Si el estado de las propiedades *PublicFoldersLockedforMigration* o *PublicFolderMigrationComplete* es `$true`, ejecute el siguiente comando para establecer el valor como `$false`.
         
-            Set-OrganizationConfig -PublicFoldersLockedforMigration:$false -PublicFolderMigrationComplete:$false
+        ```powershell
+Set-OrganizationConfig -PublicFoldersLockedforMigration:$false -PublicFolderMigrationComplete:$false
+```
     
 
     > [!WARNING]
@@ -188,7 +198,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
     
     El ejemplo siguiente quita cualquier solicitud de migración serie de carpetas públicas existente.
     
-        Get-PublicFolderMigrationRequest | Remove-PublicFolderMigrationRequest
+    ```powershell
+Get-PublicFolderMigrationRequest | Remove-PublicFolderMigrationRequest
+```
     
     En el ejemplo siguiente se detectará cualquier solicitud de migración de lote existente.
     
@@ -196,7 +208,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
     
     El ejemplo siguiente quita cualquier solicitud de migración de lote de carpetas públicas existente.
     
-        $batch | Remove-MigrationBatch -Confirm:$false
+    ```powershell
+$batch | Remove-MigrationBatch -Confirm:$false
+```
 
 2.  Asegúrese de que no haya ninguna carpeta pública ni ningún buzón de carpetas públicas en los servidores de Exchange 2013.
     
@@ -206,7 +220,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
     
     2.  Si el comando no devuelve ningún buzón de carpetas públicas, continúe con el Step 3: Generate the CSV files. Si el comando devuelve alguna carpeta pública, ejecute el siguiente comando para comprobar si hay alguna carpeta pública:
         
-            Get-PublicFolder
+        ```powershell
+Get-PublicFolder
+```
     
     3.  Si tiene alguna carpeta pública, ejecute los siguientes comandos de PowerShell para quitarlas. Asegúrese de haber guardado toda la información que estaba en las carpetas públicas.
         
@@ -218,7 +234,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
             Get-Mailbox -PublicFolder | Where{$_.IsRootPublicFolderMailbox -eq $false} | Remove-Mailbox -PublicFolder -Force -Confirm:$false
         ```
         ```
-            Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+        ```powershell
+Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+```
         ```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte los siguientes temas:
@@ -300,7 +318,9 @@ Los pasos para migrar carpetas públicas de Exchange 2007 son distintos de los p
 
 3.  Inicie la migración con el siguiente comando:
     
-        Start-MigrationBatch PFMigration
+    ```powershell
+Start-MigrationBatch PFMigration
+```
 
 **Migrar carpetas públicas de Exchange 2010**
 
@@ -312,7 +332,9 @@ Los pasos para migrar carpetas públicas de Exchange 2007 son distintos de los p
 
 2.  Inicie la migración con el siguiente comando:
     
-        Start-MigrationBatch PFMigration
+    ```powershell
+Start-MigrationBatch PFMigration
+```
     
     O:
     
@@ -352,7 +374,9 @@ Antes de ejecutar el comando `PublicFoldersLockedForMigration` como se describe 
 
 En el servidor de Exchange heredado, ejecute el comando siguiente para bloquear las carpetas públicas heredadas para poder finalizar la migración.
 
-    Set-OrganizationConfig -PublicFoldersLockedForMigration:$true
+```powershell
+Set-OrganizationConfig -PublicFoldersLockedForMigration:$true
+```
 
 
 > [!NOTE]
@@ -368,11 +392,15 @@ Si su organización dispone de varias bases de datos de carpetas públicas, debe
 
 Primero, ejecute el siguiente cmdlet para cambiar el tipo de implementación de Exchange 2013 a **Remoto**:
 
-    Set-OrganizationConfig -PublicFoldersEnabled Remote
+```powershell
+Set-OrganizationConfig -PublicFoldersEnabled Remote
+```
 
 A continuación, puede efectuar la migración de carpetas públicas ejecutando el comando siguiente:
 
-    Complete-MigrationBatch PublicFolderMigration
+```powershell
+Complete-MigrationBatch PublicFolderMigration
+```
 
 También puede completar la migración en el EAC haciendo clic en **Completar este lote de migración**.
 
@@ -398,7 +426,9 @@ Después de completar la migración de carpetas públicas, debe ejecutar la prue
 
 3.  Si tiene algún problema, vea Roll back the migration más adelante en este mismo tema. Si el contenido y la jerarquía de las carpetas públicas es aceptable y funcionan correctamente, ejecute el comando siguiente para desbloquear las carpetas para otros usuarios.
     
-        Get-Mailbox -PublicFolder | Set-Mailbox -PublicFolder -IsExcludedFromServingHierarchy $false
+    ```powershell
+Get-Mailbox -PublicFolder | Set-Mailbox -PublicFolder -IsExcludedFromServingHierarchy $false
+```
     
 
     > [!IMPORTANT]
@@ -408,11 +438,15 @@ Después de completar la migración de carpetas públicas, debe ejecutar la prue
 
 4.  En el servidor de Exchange heredado, ejecute el siguiente comando para indicar que ya se ha completado la migración de carpetas públicas:
     
-        Set-OrganizationConfig -PublicFolderMigrationComplete:$true
+    ```powershell
+Set-OrganizationConfig -PublicFolderMigrationComplete:$true
+```
 
 5.  Después de comprobar que la migración se ha completado, ejecute el siguiente comando:
     
-        Set-OrganizationConfig -PublicFoldersEnabled Local
+    ```powershell
+Set-OrganizationConfig -PublicFoldersEnabled Local
+```
 
 6.  Finalmente, si desea que los remitentes externos envíen correo a las carpetas públicas migradas habilitadas para correo, se debe conceder al menos el permiso **Crear elementos** al usuario **Anónimo**. Si no realiza esta acción, los remitentes externos recibirán una notificación de error de entrega y no se entregarán los mensajes a la carpeta pública migrada habilitada para correo.
     
@@ -424,7 +458,9 @@ En Step 2: Prepare for the migration se le pidió que tomara instantáneas de la
 
 1.  Ejecute el siguiente comando para tomar una instantánea de la nueva estructura de carpetas.
     
-        Get-PublicFolder -Recurse | Export-CliXML C:\PFMigration\Cloud_PFStructure.xml
+    ```powershell
+Get-PublicFolder -Recurse | Export-CliXML C:\PFMigration\Cloud_PFStructure.xml
+```
 
 2.  Ejecute el siguiente comando para tomar una instantánea de la estadística de carpetas públicas, como recuento de elementos, tamaño y propietario.
     
@@ -454,15 +490,21 @@ Si tiene problemas con la migración y necesita reactivar sus carpetas públicas
 
 1.  En el servidor de Exchange heredado, ejecute el comando siguiente para desbloquear las carpetas públicas heredadas de Exchange. Este proceso puede tardar varias horas.
     
-        Set-OrganizationConfig -PublicFoldersLockedForMigration:$False
+    ```powershell
+Set-OrganizationConfig -PublicFoldersLockedForMigration:$False
+```
 
 2.  En el servidor de Exchange 2013, ejecute los siguientes comandos para quitar los buzones de carpetas públicas.
     
         Get-Mailbox -PublicFolder | Where{$_.IsRootPublicFolderMailbox -eq $false} | Remove-Mailbox -PublicFolder -Force -Confirm:$false
         
-        Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+    ```powershell
+Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+```
 
 3.  En el servidor de Exchange heredado, ejecute el comando siguiente para establecer la marca `PublicFolderMigrationComplete` como `$false`.
     
-        Set-OrganizationConfig -PublicFolderMigrationComplete:$False
+    ```powershell
+Set-OrganizationConfig -PublicFolderMigrationComplete:$False
+```
 

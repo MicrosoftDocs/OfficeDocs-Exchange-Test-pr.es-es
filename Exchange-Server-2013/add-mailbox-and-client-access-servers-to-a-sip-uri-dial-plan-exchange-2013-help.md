@@ -87,7 +87,9 @@ En este ejemplo se agrega el servidor de buzones `MyMailboxServer` a dos planes 
 
 En este ejemplo se agrega el servidor de acceso de cliente llamado `MyClientAccessServer` a un plan de marcado URI de SIP denominado `MySIPDialPlan`. También se establece el modo de inicio en Dual, que permite que el servidor de acceso de cliente acepte solicitudes TCP y TLS.
 
-    Set-UMCallRouterSettings -DialPlans MySIPDialPlan -Server MyClientAccessServer -UMStartupMode Dual
+```powershell
+Set-UMCallRouterSettings -DialPlans MySIPDialPlan -Server MyClientAccessServer -UMStartupMode Dual
+```
 
 En este ejemplo se agrega el servidor de acceso de cliente llamado `MyClientAccessServer` a dos planes de marcado SIP (`MySIPDialPlan` y `MySIPDialPlan2`) y se permite al servidor usar las direcciones IPv4 e IPv6.
 

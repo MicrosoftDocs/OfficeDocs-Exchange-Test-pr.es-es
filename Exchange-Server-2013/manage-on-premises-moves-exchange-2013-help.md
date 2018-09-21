@@ -51,7 +51,9 @@ Para obtener más información acerca de los movimiento de buzones de correo, co
 
 En este ejemplo se usa el modificador *WhatIf* para comprobar si el buzón de Tony Smith está listo para moverse a la nueva base de datos DB01 y si el comando presenta errores. Si usa el modificador *WhatIf*, el sistema realiza comprobaciones en el buzón. Si el buzón no está listo para el movimiento, recibirá un error.
 
-    New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase DB01 -WhatIf
+```powershell
+New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase DB01 -WhatIf
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [New-MigrationBatch](https://technet.microsoft.com/es-es/library/jj219166\(v=exchg.150\)) y [New-MoveRequest](https://technet.microsoft.com/es-es/library/dd351123\(v=exchg.150\)).
 
@@ -81,7 +83,9 @@ Para comprobar que la migración se completó correctamente, realice lo siguient
 
   - Ejecute el siguiente comando en el Shell para recuperar la información de movimiento de buzones.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Para obtener más información, consulte [Get-MigrationUserStatistics](https://technet.microsoft.com/es-es/library/jj218695\(v=exchg.150\)).
 
@@ -110,7 +114,9 @@ Este ejemplo crea un lote de migración para un movimiento local, donde los buzo
     New-MigrationBatch -Local -Name LocalMove1 -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\LocalMove1.csv")) -TargetDatabases MBXDB2 -TimeZone "Pacific Standard Time"
 ```
 ```
-    Start-MigrationBatch -Identity LocalMove1
+```powershell
+Start-MigrationBatch -Identity LocalMove1
+```
 ```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [New-MigrationBatch](https://technet.microsoft.com/es-es/library/jj219166\(v=exchg.150\)) y [Start-MigrationBatch](https://technet.microsoft.com/es-es/library/jj219165\(v=exchg.150\)).
@@ -123,7 +129,9 @@ Para comprobar que la migración se completó correctamente, realice lo siguient
 
   - Ejecute el siguiente comando en el Shell para recuperar la información de movimiento de buzones.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Para obtener más información, consulte [Get-MigrationUserStatistics](https://technet.microsoft.com/es-es/library/jj218695\(v=exchg.150\)).
 
@@ -145,7 +153,9 @@ Para un ejemplo de cómo usar el Shell para mostrar un lote de migración, consu
 
 En este ejemplo se mueve sólo el buzón principal de Tony Smith a DB01. No se mueve el archivo de almacenamiento.
 
-    New-MoveRequest -Identity 'tony@alpineskihouse.com' -PrimaryOnly -TargetDatabase "DB01"
+```powershell
+New-MoveRequest -Identity 'tony@alpineskihouse.com' -PrimaryOnly -TargetDatabase "DB01"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-MoveRequest](https://technet.microsoft.com/es-es/library/dd351123\(v=exchg.150\)).
 
@@ -157,7 +167,9 @@ Para comprobar que la migración se completó correctamente, realice lo siguient
 
   - Ejecute el siguiente comando en el Shell para recuperar la información de movimiento de buzones.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Para obtener más información, consulte [Get-MigrationUserStatistics](https://technet.microsoft.com/es-es/library/jj218695\(v=exchg.150\)).
 
@@ -186,7 +198,9 @@ Para comprobar que la migración se completó correctamente, realice lo siguient
 
   - Ejecute el siguiente comando en el Shell para recuperar la información de movimiento de buzones.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Para obtener más información, consulte [Get-MigrationUserStatistics](https://technet.microsoft.com/es-es/library/jj218695\(v=exchg.150\)).
 
@@ -204,7 +218,9 @@ Para obtener más información, consulte [Get-MigrationUserStatistics](https://t
 
 En este ejemplo se mueve sólo buzón del archivo de Tony Smith a DB03. No se mueve el buzón principal.
 
-    New-MoveRequest -Identity 'tony@alpineskihouse.com' -ArchiveOnly -ArchiveTargetDatabase "DB03"
+```powershell
+New-MoveRequest -Identity 'tony@alpineskihouse.com' -ArchiveOnly -ArchiveTargetDatabase "DB03"
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [New-MigrationBatch](https://technet.microsoft.com/es-es/library/jj219166\(v=exchg.150\)) y [New-MoveRequest](https://technet.microsoft.com/es-es/library/dd351123\(v=exchg.150\)).
 
@@ -214,7 +230,9 @@ Para comprobar que la migración se completó correctamente, realice lo siguient
 
   - Ejecute el siguiente comando en el Shell para recuperar la información de movimiento de buzones.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Para obtener más información, consulte [Get-MigrationUserStatistics](https://technet.microsoft.com/es-es/library/jj218695\(v=exchg.150\)).
 
@@ -232,7 +250,9 @@ Para comprobar que la migración se completó correctamente, realice lo siguient
 
   - Ejecute el siguiente comando en el Shell para recuperar la información de movimiento de buzones.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Para obtener más información, consulte [Get-MigrationUserStatistics](https://technet.microsoft.com/es-es/library/jj218695\(v=exchg.150\)).
 
@@ -262,7 +282,9 @@ Para comprobar que la migración se completó correctamente, realice lo siguient
 
   - Ejecute el siguiente comando en el Shell para recuperar la información de movimiento de buzones.
     
-        Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```powershell
+Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+```
 
 Para obtener más información, consulte [Get-MigrationUserStatistics](https://technet.microsoft.com/es-es/library/jj218695\(v=exchg.150\)).
 

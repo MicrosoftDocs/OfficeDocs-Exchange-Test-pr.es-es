@@ -79,15 +79,21 @@ Par verificar que ha configurado correctamente el registro de la tabla de enruta
 
 1.  En una ventana del Símbolo del sistema, abra el archivo de configuración de aplicación EdgeTransport.exe.config en el Bloc de notas mediante el comando siguiente:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 2.  Modifique la clave siguiente en la sección `<appSettings>`.
     
-        <add key="RoutingConfigReloadInterval" value="<hh:mm:ss>" />
+    ```command line
+<add key="RoutingConfigReloadInterval" value="<hh:mm:ss>" />
+```
     
     Por ejemplo, para cambiar el intervalo de recálculo automático de la tabla de enrutamiento a 10 horas, use el valor siguiente:
     
-        <add key="RoutingConfigReloadInterval" value="10:00:00" />
+    ```command line
+<add key="RoutingConfigReloadInterval" value="10:00:00" />
+```
 
 3.  Cuando haya terminado, guarde y cierre el archivo EdgeTransport.exe.config.
 

@@ -314,7 +314,9 @@ Los parámetros de filtrado y ordenación disponibles con el cmdlet **Get-QueueD
 
 En este ejemplo se devuelven todas las colas externas que no estén vacías en los servidores de buzones de correo Exchange 2013 denominados Mailbox01, Mailbox02 y Mailbox03.
 
-    Get-QueueDigest -Server Mailbox01,Mailbox02,Mailbox03 -Include External -Exclude Empty
+```powershell
+Get-QueueDigest -Server Mailbox01,Mailbox02,Mailbox03 -Include External -Exclude Empty
+```
 
 Volver al principio
 

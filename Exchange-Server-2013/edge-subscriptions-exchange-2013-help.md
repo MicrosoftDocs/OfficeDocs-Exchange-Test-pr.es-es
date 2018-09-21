@@ -127,7 +127,9 @@ En este ejemplo se suscribe un servidor Transporte perimetral al sitio especific
 
 En este ejemplo, se exporta un archivo de suscripción perimetral.
 
-    New-EdgeSubscription -FileName "C:\EdgeSubscriptionInfo.xml"
+```powershell
+New-EdgeSubscription -FileName "C:\EdgeSubscriptionInfo.xml"
+```
 
 
 > [!NOTE]  

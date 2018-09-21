@@ -33,19 +33,27 @@ Para obtener más información acerca de los objetos, vea [Datos estructurados](
 
 El modo en que se modifica una propiedad con varios valores es ligeramente diferente al que se usa para modificar una propiedad que acepta un único valor. Cuando se modifica una propiedad que acepta un sólo valor, se le puede asignar un valor directamente, tal y como se muestra en el comando siguiente.
 
-    Set-TransportConfig -MaxSendSize 12MB
+```powershell
+Set-TransportConfig -MaxSendSize 12MB
+```
 
 Cuando usa este comando para proporcionar un nuevo valor a la propiedad **MaxSendSize**, el valor almacenado se sobrescribe. Esto no constituye un problema en el caso de las propiedades que aceptan un único valor. Sin embargo, sí lo es en el caso de las propiedades con varios valores. Por ejemplo, supongamos que la propiedad **BlockedRecipients** del objeto **RecipientFilterConfig** está configurada para tener los tres valores que se indicaban en la sección anterior. Al ejecutar el comando `Get-RecipientFilterConfig | Format-List BlockedRecipients`, se muestra lo siguiente.
 
-    BlockedRecipients : {david@adatum.com, kim@northwindtraders.com, john@contoso.com}
+```powershell
+BlockedRecipients : {david@adatum.com, kim@northwindtraders.com, john@contoso.com}
+```
 
 Supongamos ahora que ha recibido la solicitud para agregar una nueva dirección SMTP a la lista de destinatarios bloqueados. Ejecuta el comando siguiente para agregar la nueva dirección SMTP.
 
-    Set-RecipientFilterConfig -BlockedRecipients chris@contoso.com
+```powershell
+Set-RecipientFilterConfig -BlockedRecipients chris@contoso.com
+```
 
 Cuando vuelva a ejecutar el comando `Get-RecipientFilterConfig | Format-List BlockedRecipients`, verá lo siguiente.
 
-    BlockedRecipients : {chris@contoso.com}
+```powershell
+BlockedRecipients : {chris@contoso.com}
+```
 
 Esto no es lo que usted esperaba. Lo que quería era agregar la dirección SMTP nueva a la lista de destinatarios bloqueados existente. Pero en lugar de ello se ha sobrescrito la lista de destinatarios bloqueados existente con la nueva dirección SMTP. Este resultado no esperado es un ejemplo de cómo la modificación de una propiedad con varios valores es diferente de la modificación de una propiedad que acepta un solo valor. Al modificar una propiedad con varios valores se debe estar seguro de que se anexan o quitan valores en lugar de sobrescribir la totalidad de la lista de los mismos. Las siguientes secciones muestran exactamente cómo hacerlo.
 
@@ -81,15 +89,21 @@ La modificación de propiedades con varios valores es similar a la modificación
 
 La sintaxis que elija en la tabla de sintaxis de las propiedades con varios valores se especifica como valor de parámetro en un cmdlet. Por ejemplo, el comando siguiente agrega varios valores en una propiedad con varios valores:
 
-    Set-ExampleCmdlet -Parameter @{Add="Red", "Blue", "Green"}
+```powershell
+Set-ExampleCmdlet -Parameter @{Add="Red", "Blue", "Green"}
+```
 
 Cuando use esta sintaxis, los valores que especifique se agregarán o eliminarán de la lista de valores que la propiedad ya tiene. Si retomamos el ejemplo anterior de **BlockedRecipients** expuesto en este tema, ahora podemos agregar chris@contoso.com sin sobrescribir el resto de valores de esta propiedad, ejecutando el comando siguiente:
 
-    Set-RecipientFilterConfig -BlockedRecipients @{Add="chris@contoso.com"}
+```powershell
+Set-RecipientFilterConfig -BlockedRecipients @{Add="chris@contoso.com"}
+```
 
 Si quiere quitar david@adatum.com de la lista de valores, debería ejecutar el comando siguiente:
 
-    Set-RecipientFilterConfig -BlockedRecipients @{Remove="david@adatum.com"}
+```powershell
+Set-RecipientFilterConfig -BlockedRecipients @{Remove="david@adatum.com"}
+```
 
 Se pueden usar combinaciones más complejas como, por ejemplo, agregar o quitar valores de una propiedad al mismo tiempo. Para ello, debe insertar un punto y coma (`;`) entre las acciones `Add` y `Remove`. Por ejemplo:
 

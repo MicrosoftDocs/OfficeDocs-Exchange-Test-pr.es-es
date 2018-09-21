@@ -86,7 +86,9 @@ En este ejemplo se usa el cmdlet **set-ExchangeServer** para especificar la clav
 
 
 
-    Set-ExchangeServer ExServer01 -ProductKey aaaaa-aaaaa-aaaaa-aaaaa-aaaaa
+```powershell
+Set-ExchangeServer ExServer01 -ProductKey aaaaa-aaaaa-aaaaa-aaaaa-aaaaa
+```
 
 Para obtener información detallada acerca de las sintaxis y los parámetros, consulte [Set-ExchangeServer](https://technet.microsoft.com/es-es/library/bb123716\(v=exchg.150\)).
 

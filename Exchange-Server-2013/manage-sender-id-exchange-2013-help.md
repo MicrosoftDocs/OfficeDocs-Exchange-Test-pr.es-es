@@ -43,11 +43,15 @@ El agente del Id. de remitente proporciona la funcionalidad del Id. del remitent
 
 Para deshabilitar el Id. del remitente, ejecute el siguiente comando:
 
-    Set-SenderIDConfig -Enabled $false
+```powershell
+Set-SenderIDConfig -Enabled $false
+```
 
 Para habilitar el Id. del remitente, ejecute el siguiente comando:
 
-    Set-SenderIDConfig -Enabled $true
+```powershell
+Set-SenderIDConfig -Enabled $true
+```
 
 
 > [!NOTE]
@@ -61,7 +65,9 @@ Para verificar que haya habilitado o deshabilitado el filtrado del Id. de remite
 
 1.  Ejecute el siguiente comando:
     
-        Get-SenderIDConfig | Format-List Enabled
+    ```powershell
+Get-SenderIDConfig | Format-List Enabled
+```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 
@@ -69,11 +75,15 @@ Para verificar que haya habilitado o deshabilitado el filtrado del Id. de remite
 
 Para configurar la acción del Id. del remitente para mensajes falsificados, ejecute el siguiente comando:
 
-    Set-SenderIDConfig -SpoofedDomainAction <StampStatus | Reject | Delete>
+```powershell
+Set-SenderIDConfig -SpoofedDomainAction <StampStatus | Reject | Delete>
+```
 
 Este ejemplo configura el agente del Id. de remitente para rechazar mensajes en los que la dirección IP del servidor de envío no consta como servidor de envío SMTP con autoridad en el registro de la estructura de directivas de remitente (SPF) de DNS para el dominio de envío.
 
-    Set-SenderIDConfig -SpoofedDomainAction Reject
+```powershell
+Set-SenderIDConfig -SpoofedDomainAction Reject
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -81,7 +91,9 @@ Para comprobar que ha configurado correctamente las acciones del Id. de remitent
 
 1.  Ejecute el siguiente comando:
     
-        Get-SenderIDConfig | Format-List SpoofedDomainAction
+    ```powershell
+Get-SenderIDConfig | Format-List SpoofedDomainAction
+```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 
@@ -89,11 +101,15 @@ Para comprobar que ha configurado correctamente las acciones del Id. de remitent
 
 Para configurar la acción del Id. del remitente para errores transitorios, ejecute el siguiente comando:
 
-    Set-SenderIDConfig -TempErrorAction <StampStatus | Reject | Delete>
+```powershell
+Set-SenderIDConfig -TempErrorAction <StampStatus | Reject | Delete>
+```
 
 Este ejemplo configura el agente del Id. del remitente para marcar los mensajes cuyo estado de identificador del remitente no se puede establecer debido a un error temporal. Otros agentes de correo no deseado procesarán el mensaje y el agente de filtro de contenido usará la marca al determinar el valor de SCL para el mensaje.
 
-    Set-SenderIDConfig -TempErrorAction StampStatus
+```powershell
+Set-SenderIDConfig -TempErrorAction StampStatus
+```
 
 Tenga en cuenta que `StampStatus` es el valor predeterminado del parámetro *TempErrorAction*.
 
@@ -103,7 +119,9 @@ Para comprobar que ha configurado correctamente las acciones del Id. de remitent
 
 1.  Ejecute el siguiente comando:
     
-        Get-SenderIDConfig | Format-List TempErrorAction
+    ```powershell
+Get-SenderIDConfig | Format-List TempErrorAction
+```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 
@@ -137,7 +155,9 @@ Para comprobar que ha configurado correctamente las excepciones de remitente o d
 
 1.  Ejecute el siguiente comando:
     
-        Get-SenderIDConfig | Format-List BypassedRecipients,BypassedSenderDomains
+    ```powershell
+Get-SenderIDConfig | Format-List BypassedRecipients,BypassedSenderDomains
+```
 
 2.  Verifique que los valores mostrados son los valores que ha configurado.
 

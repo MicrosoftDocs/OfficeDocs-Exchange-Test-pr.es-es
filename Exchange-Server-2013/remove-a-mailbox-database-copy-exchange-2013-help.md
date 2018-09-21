@@ -61,7 +61,9 @@ Estos procedimientos le muestran cómo quitar una copia de una base de datos de 
 
 En este ejemplo se quita una copia de base de datos de buzones de correo DB1 del servidor de buzones de correo MBX1.
 
-    Remove-MailboxDatabaseCopy -Identity DB1\MBX1 -Confirm:$False
+```powershell
+Remove-MailboxDatabaseCopy -Identity DB1\MBX1 -Confirm:$False
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -71,7 +73,9 @@ Para comprobar si ha eliminado una Retención local correctamente, siga uno de e
 
   - En el Shell, ejecute el siguiente comando para comprobar que ha quitado la copia.
     
-        Get-MailboxDatabase <DatabaseName> | Format-List DatabaseCopies
+    ```powershell
+Get-MailboxDatabase <DatabaseName> | Format-List DatabaseCopies
+```
     
     La copia pasiva eliminada ya no aparece.
 

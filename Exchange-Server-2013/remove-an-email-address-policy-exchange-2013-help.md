@@ -55,7 +55,9 @@ Para conocer tareas de administración adicionales relacionadas las directivas d
 
 En este ejemplo se quita la directiva de direcciones de correo electrónico denominada South East Offices (Oficinas del Sudeste).
 
-    Remove-EmailAddressPolicy -Identity "South East Offices"
+```powershell
+Remove-EmailAddressPolicy -Identity "South East Offices"
+```
 
 Escriba **Y** para confirmar que desea quitar la directiva y, a continuación, presione INTRO.
 

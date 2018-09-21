@@ -314,7 +314,9 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 
 En este ejemplo se quita la directiva de buzones de correo de carpetas administradas y cualquier carpeta administrada del buzón de correo de Ken Kwok. Las carpetas administradas que tienen mensajes no se eliminan.
 
-    Set-Mailbox -Identity Kwok -RemoveManagedFolderAndPolicy RP-Corp
+```powershell
+Set-Mailbox -Identity Kwok -RemoveManagedFolderAndPolicy RP-Corp
+```
 
 ## Paso 4: Aplicar la directiva de retención a los buzones de usuario
 
@@ -328,7 +330,9 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 
 En este ejemplo, se aplica la directiva de retención RP-Corp recientemente creada al buzón del usuario Arturo López.
 
-    Set-Mailbox -Identity Kwok -RetentionPolicy RP-Corp
+```powershell
+Set-Mailbox -Identity Kwok -RetentionPolicy RP-Corp
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, vea [Set-Mailbox](https://technet.microsoft.com/es-es/library/bb123981\(v=exchg.150\)).
 
@@ -346,5 +350,7 @@ Para verificar que ha realizado la migración de las carpetas administradas a la
     
     Este comando recupera las etiquetas de retención aplicadas efectivamente al buzón de correo de April Stewart.
     
-        Get-RetentionPolicyTag -Mailbox astewart
+    ```powershell
+Get-RetentionPolicyTag -Mailbox astewart
+```
 

@@ -97,11 +97,15 @@ Volver a crear el buzón de arbitraje FederatedEmail.4c1f4d8b-8179-4148-93bf-00a
 
 1.  Si faltan los buzones de arbitraje, ejecute el siguiente comando:
     
-        .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```powershell
+.\Setup /preparead /IAcceptExchangeServerLicenseTerms
+```
 
 2.  En Shell de administración de Exchange, ejecute lo siguiente:
     
-        Enable-Mailbox -Arbitration -Identity "FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042"
+    ```powershell
+Enable-Mailbox -Arbitration -Identity "FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042"
+```
 
 ## Volver a crear el buzón de Microsoft Exchange Approval Assistant
 
@@ -109,7 +113,9 @@ Volver a crear el buzón SystemMailbox {1f05a927-9350-4efe-a823-5529c2d64109} de
 
 1.  Si faltan los buzones de arbitraje, ejecute el siguiente comando:
     
-        .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```powershell
+.\Setup /preparead /IAcceptExchangeServerLicenseTerms
+```
 
 2.  En Shell de administración de Exchange, ejecute lo siguiente:
     
@@ -121,15 +127,21 @@ Volver a crear el buzón de arbitraje Migration.8f3e7716-2011-43e4-96b1-aba62d22
 
 1.  Si faltan los buzones de arbitraje, ejecute el siguiente comando:
     
-        .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```powershell
+.\Setup /preparead /IAcceptExchangeServerLicenseTerms
+```
 
 2.  En Shell de administración de Exchange, ejecute lo siguiente:
     
-        Enable-Mailbox -Arbitration -Identity "Migration.8f3e7716-2011-43e4-96b1-aba62d229136"
+    ```powershell
+Enable-Mailbox -Arbitration -Identity "Migration.8f3e7716-2011-43e4-96b1-aba62d229136"
+```
 
 3.  En Shell de administración de Exchange, defina las funciones conservan (msExchCapabilityIdentifiers) ejecutando el siguiente comando:
     
-        Set-Mailbox "Migration.8f3e7716-2011-43e4-96b1-aba62d229136" -Arbitration -Management:$True -Force
+    ```powershell
+Set-Mailbox "Migration.8f3e7716-2011-43e4-96b1-aba62d229136" -Arbitration -Management:$True -Force
+```
 
 ## Volver a crear el buzón del sistema de detección de Microsoft Exchange
 
@@ -137,7 +149,9 @@ Volver a crear el buzón SystemMailbox {e0dc1c29-89c3-4034-b678-e6c29d823ed9} de
 
 1.  Ejecute el siguiente comando:
     
-        .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```powershell
+.\Setup /preparead /IAcceptExchangeServerLicenseTerms
+```
 
 ## Volver a crear el buzón de la organización de Microsoft Exchange para OAB
 
@@ -145,11 +159,15 @@ Volver a crear el buzón SystemMailbox {bb558c35-97f1-4cb9-8ff7-d53741dc928c} de
 
 1.  Si faltan los buzones de arbitraje, ejecute el siguiente comando:
     
-        .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```powershell
+.\Setup /preparead /IAcceptExchangeServerLicenseTerms
+```
 
 2.  En Shell de administración de Exchange, ejecute lo siguiente:
     
-        Enable-Mailbox -Arbitration -Identity "SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}"
+    ```powershell
+Enable-Mailbox -Arbitration -Identity "SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}"
+```
 
 3.  En Shell de administración de Exchange, defina las funciones conservan (msExchCapabilityIdentifiers) ejecutando el siguiente comando:
     
@@ -163,7 +181,9 @@ Cuando haya terminado, si ejecuta el comando `$OABMBX = Get-Mailbox "SystemMailb
 
 Para comprobar que vuelve a creó correctamente el buzón de arbitraje, utilice el cmdlet **Get-Mailbox** con el modificador *Arbitration* para recuperar los buzones del sistema.
 
-    Get-Mailbox -Arbitration | Format-Table Name, DisplayName
+```powershell
+Get-Mailbox -Arbitration | Format-Table Name, DisplayName
+```
 
 Ver los resultados del comando para comprobar que ese buzón de sistema adecuados, ya sea por nombre o nombre para mostrar de la tabla anterior, vuelve a crear.
 

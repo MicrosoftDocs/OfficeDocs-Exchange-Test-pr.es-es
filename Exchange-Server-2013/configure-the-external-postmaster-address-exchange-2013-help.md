@@ -51,15 +51,21 @@ De forma predeterminada, el valor de la configuración de la dirección del admi
 
 Para configurar la dirección del administrador de correo externo, utilice la siguiente sintaxis.
 
-    Set-TransportConfig -ExternalPostmasterAddress <postmaster address>
+```powershell
+Set-TransportConfig -ExternalPostmasterAddress <postmaster address>
+```
 
 Por ejemplo, para establecer la dirección del administrador de correo externo en el valor `postmaster@contoso.com`, ejecute el siguiente comando:
 
-    Set-TransportConfig -ExternalPostmasterAddress postmaster@contoso.com
+```powershell
+Set-TransportConfig -ExternalPostmasterAddress postmaster@contoso.com
+```
 
 Para restablecer la dirección del administrador de correo externo al valor predeterminado, ejecute el siguiente comando:
 
-    Set-TransportConfig -ExternalPostmasterAddress $null
+```powershell
+Set-TransportConfig -ExternalPostmasterAddress $null
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -67,7 +73,9 @@ Para comprobar que la dirección del administrador de correo externo se configur
 
 1.  Ejecute el comando siguiente en el servidor de buzones para comprobar el valor de la dirección externa del administrador de correo:
     
-        Get-TransportConfig | Format-List ExternalPostmasterAddress
+    ```powershell
+Get-TransportConfig | Format-List ExternalPostmasterAddress
+```
 
 2.  Desde una cuenta de correo electrónico externa, envíe un mensaje a su organización de Exchange que generará una notificación de estado de entrega (DSN). Por ejemplo, puede configurar una regla de transporte para enviar un informe de no entrega (NDR) para un mensaje de ese remitente que contenga determinadas palabas clave. Compruebe que la dirección de correo del remitente en el DSN coincide con el valor que ha especificado.
 

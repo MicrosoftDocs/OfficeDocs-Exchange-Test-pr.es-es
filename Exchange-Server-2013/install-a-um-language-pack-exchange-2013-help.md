@@ -67,7 +67,9 @@ Para consultar otras tareas relacionadas con los idiomas de mensajería unificad
 
 En este ejemplo, se instala el paquete de idioma de mensajería unificada del japonés (ja-JP), el cual se ha descargado a la carpeta D:\\Exchange\\UMLanguagePacks de un servidor de buzones de correo.
 
-    setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```powershell
+setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```
 
 En este ejemplo, se instalan los paquetes de idiomas de UM del español de México (es-MX) y del alemán (de-DE), los cuales se han descargado a la carpeta D:\\Exchange\\UMLanguagePacks de un servidor de buzones de correo.
 

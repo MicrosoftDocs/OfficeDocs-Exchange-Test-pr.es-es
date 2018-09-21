@@ -51,7 +51,9 @@ If you don't want to subscribe the Edge Transport server to an Active Directory 
     
     The following example creates an Edge Subscription file named EdgeSubscriptionInfo.xml in the folder C:\\My Documents. The *Force* parameter suppresses prompts confirming commands that will be disabled and warnings that configuration data will be overwritten on the Edge Transport server.
     
-        New-EdgeSubscription -FileName "C:\My Documents\EdgeSubscriptionInfo.xml" -Force
+    ```powershell
+New-EdgeSubscription -FileName "C:\My Documents\EdgeSubscriptionInfo.xml" -Force
+```
 
 2.  Copy the resulting Edge Subscription file to a Mailbox server in the Active Directory site you're subscribing the Edge Transport server to.
 
@@ -71,7 +73,9 @@ If you don't want to subscribe the Edge Transport server to an Active Directory 
 
 4.  On the Mailbox server, run the following command to start the first EdgeSync synchronization.
     
-        Start-EdgeSynchronization
+    ```powershell
+Start-EdgeSynchronization
+```
 
 5.  When you're finished, we strongly recommend you delete the Edge Subscription file from both the Edge Transport server and from the Mailbox server. The Edge Subscription file contains information about credentials used during the LDAP communication process.
 

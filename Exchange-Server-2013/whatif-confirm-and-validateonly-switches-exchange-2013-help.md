@@ -43,7 +43,9 @@ Cuando ejecuta un comando junto al modificador *WhatIf*, el modificador *WhatIf*
 
 Cuando ejecuta este comando de ejemplo, el Shell devuelve el siguiente texto:
 
-    What if: Creating Accepted Domain "Contoso Domain" with domain name "contoso.com".
+```powershell
+What if: Creating Accepted Domain "Contoso Domain" with domain name "contoso.com".
+```
 
 ## Modificador Confirm
 
@@ -71,7 +73,9 @@ Cuando se ejecuta un cmdlet que contiene cualquiera de estos verbos, el Shell de
 
 Cuando aplique manualmente el modificador *Confirm* a un comando, incluya el modificador *Confirm* al final del comando, como se observa en el siguiente ejemplo:
 
-    Get-JournalRule | Enable-JournalRule -Confirm
+```powershell
+Get-JournalRule | Enable-JournalRule -Confirm
+```
 
 Cuando ejecuta este comando de ejemplo, el Shell devuelve la siguiente solicitud de confirmación:
 
@@ -97,7 +101,9 @@ La solicitud de confirmación ofrece las siguientes opciones:
 
 Si desea reemplazar el comportamiento predeterminado del Shell y suprimir la solicitud de confirmación para los cmdlets a los que se aplica automáticamente, puede incluir el modificador *Confirm* con el valor `$False`, como se observa en el siguiente ejemplo:
 
-    Get-JournalRule | Disable-JournalRule -Confirm:$False
+```powershell
+Get-JournalRule | Disable-JournalRule -Confirm:$False
+```
 
 En este caso no se muestra ninguna solicitud de confirmación.
 

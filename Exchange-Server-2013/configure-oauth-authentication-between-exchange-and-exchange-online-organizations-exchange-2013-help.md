@@ -89,7 +89,9 @@ En este paso, hay que ejecutar un script de PowerShell para exportar el certific
 
 2.  En Exchange PowerShell en la organización de Exchange local, ejecute el script de PowerShell que creó en el paso anterior. Por ejemplo:
     
-        .\ExportAuthCert.ps1
+    ```powershell
+.\ExportAuthCert.ps1
+```
 
 ## Paso 4: Cargar el certificado de autorización local en ACS de Azure Active Directory
 
@@ -119,7 +121,9 @@ A continuación, tiene que usar Windows PowerShell para cargar el certificado de
 
 3.  Ejecute el script de PowerShell que creó en el paso anterior. Por ejemplo:
     
-        .\UploadAuthCert.ps1
+    ```powershell
+.\UploadAuthCert.ps1
+```
 
 4.  Después de iniciar el script, se abre un cuadro de diálogo de credenciales. Escriba las credenciales de la cuenta de administrador de inquilinos de la organización de Microsoft Online Azure AD. Tras ejecutar el script, deje abierta la sesión de Windows PowerShell para Azure AD. La usará para ejecutar un script de PowerShell en el paso siguiente.
 
@@ -129,7 +133,9 @@ Deberá ejecutar el script en este paso por cada extremo de la organización de 
 
 Si no está seguro de los extremos de Exchange externos en la organización de Exchange local, puede obtener una lista de los extremos de servicios web configurados externos ejecutando el siguiente comando en Exchange PowerShell en la organización de Exchange local:
 
-    Get-WebServicesVirtualDirectory | FL ExternalUrl
+```powershell
+Get-WebServicesVirtualDirectory | FL ExternalUrl
+```
 
 
 > [!NOTE]
@@ -152,7 +158,9 @@ Si no está seguro de los extremos de Exchange externos en la organización de E
 
 2.  En Windows PowerShell para Azure Active Directory, ejecute el script de Windows PowerShell que creó en el paso anterior. Por ejemplo:
     
-        .\RegisterEndpoints.ps1
+    ```powershell
+.\RegisterEndpoints.ps1
+```
 
 ## Paso 6: Crear un IntraOrganizationConnector entre la organización local y Office 365
 
@@ -212,7 +220,9 @@ Antes de realizar el paso siguiente, compruebe que:
 
 En los servidores de Acceso de clientes anteriores a Exchange 2013, debe configurarse *AvailabilityAddressSpace* para apuntar al extremo de los servicios Web Exchange de los servidores locales de Acceso de clientes de Exchange 2013 SP1. Este extremo es el que se ha descrito anteriormente en el paso 5, aunque también puede determinarse ejecutando el cmdlet siguiente en el servidor local de Acceso de clientes de Exchange 2013 SP1:
 
-    Get-WebServicesVirtualDirectory | FL AdminDisplayVersion,ExternalUrl
+```powershell
+Get-WebServicesVirtualDirectory | FL AdminDisplayVersion,ExternalUrl
+```
 
 
 > [!NOTE]

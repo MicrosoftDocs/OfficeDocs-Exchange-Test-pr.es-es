@@ -49,11 +49,15 @@ Puede cambiar la directiva de asignación de funciones de administración asigna
 
 Para cambiar la directiva de asignación asignada a un buzón, utilice la sintaxis siguiente.
 
-    Set-Mailbox <mailbox alias or name> -RoleAssignmentPolicy <assignment policy>
+```powershell
+Set-Mailbox <mailbox alias or name> -RoleAssignmentPolicy <assignment policy>
+```
 
 En este ejemplo, se establece la directiva de asignación a usuarios de mensajería unificada en el buzón Brian.
 
-    Set-Mailbox Brian -RoleAssignmentPolicy "Unified Messaging Users"
+```powershell
+Set-Mailbox Brian -RoleAssignmentPolicy "Unified Messaging Users"
+```
 
 ## Usar el Shell para cambiar la directiva de asignación en un grupo de buzones a los que se asignó una directiva de asignación específica
 

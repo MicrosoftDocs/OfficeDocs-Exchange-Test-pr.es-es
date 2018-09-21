@@ -51,7 +51,9 @@ Para tareas de administración adicionales relacionadas con servidores de buzone
 
 En este ejemplo, se elimina un servidor de buzones denominado `MyMailboxServer` de todos los planes de marcado del Protocolo de inicio de sesión (SIP).
 
-    Set-UMService -Identity MyMailboxServer -DialPlans $null
+```powershell
+Set-UMService -Identity MyMailboxServer -DialPlans $null
+```
 
 En este ejemplo, se agrega el servidor de buzones denominado `MyMailboxServer` a un plan de marcado de SIP de mensajería unificada denominado `MySIPDialPlanName` y también SE establece el número máximo de llamadas de voz entrantes.
 
@@ -65,9 +67,13 @@ En este ejemplo, se establece el modo de inicio para un servidor de buzones en m
 
 En este ejemplo, se muestra una lista de todos los servidores de buzones.
 
-    Get-UMService
+```powershell
+Get-UMService
+```
 
 En este ejemplo, se muestra una lista con formato de las propiedades del servidor de buzones `MyMailboxServer`.
 
-    Get-UMService -Identity MyMailboxServer | Format-List
+```powershell
+Get-UMService -Identity MyMailboxServer | Format-List
+```
 

@@ -309,7 +309,9 @@ Cuando se crea una OAB, debe incluir la LGD adecuada al proporcionar el parámet
 
 En este ejemplo se crea la OAB para Fabrikam llamada OAB\_FAB.
 
-    New-OfflineAddressBook -Name "OAB_FAB" -AddressLists "GAL_FAB"
+```powershell
+New-OfflineAddressBook -Name "OAB_FAB" -AddressLists "GAL_FAB"
+```
 
 Para obtener más información, consulte [Crear una libreta de direcciones sin conexión](https://docs.microsoft.com/es-es/exchange/address-books/offline-address-books/create-offline-address-book).
 

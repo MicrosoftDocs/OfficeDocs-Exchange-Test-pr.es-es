@@ -53,21 +53,29 @@ Para habilitar o deshabilitar por completo el filtrado de conexiones, habilite o
 
 Para deshabilitar el filtrado de conexiones, ejecute el comando siguiente:
 
-    Disable-TransportAgent "Connection Filtering Agent"
+```powershell
+Disable-TransportAgent "Connection Filtering Agent"
+```
 
 Para habilitar el filtrado de conexiones, ejecute el siguiente comando:
 
-    Enable-TransportAgent "Connection Filtering Agent"
+```powershell
+Enable-TransportAgent "Connection Filtering Agent"
+```
 
 Para que el cambio surta efecto, reinicie el servicio de transporte de Microsoft Exchange ejecutando el siguiente comando:
 
-    Restart-Service MSExchangeTransport
+```powershell
+Restart-Service MSExchangeTransport
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que se haya habilitado o deshabilitado correctamente el filtrado de conexiones, ejecute el siguiente comando y compruebe que el valor mostrado sea el valor que haya configurado.
 
-    Get-TransportAgent "Connection Filtering Agent" | Format-List Enabled
+```powershell
+Get-TransportAgent "Connection Filtering Agent" | Format-List Enabled
+```
 
 ## Procedimientos de listas de direcciones IP bloqueadas
 
@@ -85,17 +93,23 @@ Para ver la configuración de la lista de direcciones IP bloqueadas, ejecute el 
 
 Para deshabilitar la lista de direcciones IP bloqueadas, ejecute el siguiente comando:
 
-    Set-IPBlockListConfig -Enabled $false
+```powershell
+Set-IPBlockListConfig -Enabled $false
+```
 
 Para habilitar la lista de direcciones IP bloqueadas, ejecute el siguiente comando:
 
-    Set-IPBlockListConfig -Enabled $true
+```powershell
+Set-IPBlockListConfig -Enabled $true
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que se haya habilitado o deshabilitado correctamente la lista de direcciones IP bloqueadas, ejecute el siguiente comando y compruebe que el valor mostrado sea el valor que haya configurado.
 
-    Get-IPBlockListConfig | Format-List Enabled
+```powershell
+Get-IPBlockListConfig | Format-List Enabled
+```
 
 ## Uso del Shell para configurar la lista de direcciones IP bloqueadas
 
@@ -125,17 +139,23 @@ Para comprobar que se haya configurado correctamente la lista de direcciones IP 
 
 Para ver todas las entradas de la lista de direcciones IP bloqueadas, ejecute el siguiente comando:
 
-    Get-IPBlockListEntry
+```powershell
+Get-IPBlockListEntry
+```
 
 Tenga en cuenta que cada entrada de la lista de direcciones IP bloqueadas se identifica mediante un valor entero. El entero de identidad se asigna en orden ascendente cuando se agregan entradas a la lista de direcciones IP bloqueadas y la lista de direcciones IP permitidas.
 
 Para ver una entrada de la lista de direcciones IP bloqueadas, use la siguiente sintaxis:
 
-    Get-IPBlockListEntry <-Identity IdentityInteger | -IPAddress IPAddress>
+```powershell
+Get-IPBlockListEntry <-Identity IdentityInteger | -IPAddress IPAddress>
+```
 
 Por ejemplo, para ver la entrada de la lista de direcciones IP bloqueadas que contiene la dirección IP 192.168.1.13, ejecute el siguiente comando:
 
-    Get-IPBlockListEntry -IPAddress 192.168.1.13
+```powershell
+Get-IPBlockListEntry -IPAddress 192.168.1.13
+```
 
 
 > [!NOTE]
@@ -151,33 +171,45 @@ Para agregar entradas de la lista de direcciones IP bloqueadas, use la siguiente
 
 En el siguiente ejemplo se agrega la entrada de la lista de direcciones IP bloqueadas para el intervalo de direcciones IP de 192.168.1.10 a 192.168.1.15, y se configura la entrada de la lista de direcciones IP bloqueadas para que expire el 14 de julio de 2014 a las 15:00.
 
-    Add-IPBlockListEntry -IPRange 192.168.1.10-192.168.1.15 -ExpirationTime "7/4/2014 15:00"
+```powershell
+Add-IPBlockListEntry -IPRange 192.168.1.10-192.168.1.15 -ExpirationTime "7/4/2014 15:00"
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que se haya agregado correctamente una entrada de la lista de direcciones IP bloqueadas, ejecute el siguiente comando y compruebe que aparezca la nueva entrada de la lista de direcciones IP bloqueadas.
 
-    Get-IPBlockListEntry
+```powershell
+Get-IPBlockListEntry
+```
 
 ## Uso del Shell para quitar entradas de la lista de direcciones IP bloqueadas
 
 Para quitar entradas de la lista de direcciones IP bloqueadas, use la siguiente sintaxis:
 
-    Remove-IPBlockListEntry <IdentityInteger>
+```powershell
+Remove-IPBlockListEntry <IdentityInteger>
+```
 
 En el siguiente ejemplo se quita la entrada de la lista de direcciones IP bloqueadas que tiene el valor 3 *Identity*.
 
-    Remove-IPBlockListEntry 3
+```powershell
+Remove-IPBlockListEntry 3
+```
 
 En el siguiente ejemplo se quita la entrada de la lista de direcciones IP bloqueadas que contiene la dirección IP 192.168.1.12 sin usar el valor entero *Identity*. Tenga en cuenta que la entrada de la lista de direcciones IP bloqueadas puede ser una dirección IP individual o un intervalo de direcciones IP.
 
-    Get-IPBlockListEntry -IPAddress 192.168.1.12 | Remove-IPBlockListEntry
+```powershell
+Get-IPBlockListEntry -IPAddress 192.168.1.12 | Remove-IPBlockListEntry
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que se haya quitado correctamente una entrada de la lista de direcciones IP bloqueadas, ejecute el siguiente comando y compruebe que haya desaparecido la entrada de la lista de direcciones IP bloqueadas que quitó.
 
-    Get-IPBlockListEntry
+```powershell
+Get-IPBlockListEntry
+```
 
 ## Procedimientos de proveedores de listas de direcciones IP bloqueadas
 
@@ -195,17 +227,23 @@ Para ver cómo el filtrado de conexiones usa todos los proveedores de listas de 
 
 Para deshabilitar todos los proveedores de listas de direcciones IP bloqueadas, ejecute el siguiente comando:
 
-    Set-IPBlockListProvidersConfig -Enabled $false
+```powershell
+Set-IPBlockListProvidersConfig -Enabled $false
+```
 
 Para habilitar todos los proveedores de listas de direcciones IP bloqueadas, ejecute el siguiente comando:
 
-    Set-IPBlockListProvidersConfig -Enabled $true
+```powershell
+Set-IPBlockListProvidersConfig -Enabled $true
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que se hayan habilitado o deshabilitado correctamente todos los proveedores de listas de direcciones IP bloqueadas, ejecute el siguiente comando y compruebe que el valor mostrado sea el valor que haya configurado.
 
-    Get-IPBlockListProvidersConfig | Format-List Enabled
+```powershell
+Get-IPBlockListProvidersConfig | Format-List Enabled
+```
 
 ## Uso del Shell para configurar todos los proveedores de listas de direcciones IP bloqueadas
 
@@ -235,11 +273,15 @@ Para comprobar que se hayan configurado correctamente todos los proveedores de l
 
 Para ver la lista de resumen de todos los proveedores de listas de direcciones IP bloqueadas, ejecute el siguiente comando:
 
-    Get-IPBlockListProvider
+```powershell
+Get-IPBlockListProvider
+```
 
 Para ver los detalles de un proveedor específico, use la siguiente sintaxis:
 
-    Get-IPBlockListProvider <IPBlockListProviderIdentity>
+```powershell
+Get-IPBlockListProvider <IPBlockListProviderIdentity>
+```
 
 En el siguiente ejemplo se muestran los detalles del proveedor llamado Proveedor de listas de direcciones IP bloqueadas de Contoso.
 
@@ -273,27 +315,37 @@ Para más información, vea [Add-IPBlockListProvider](https://technet.microsoft.
 
 Para comprobar que se haya agregado correctamente un proveedor de listas de direcciones IP bloqueadas, ejecute el siguiente comando y compruebe que aparezca el nuevo proveedor de listas de direcciones IP bloqueadas.
 
-    Get-IPBlockListProvider
+```powershell
+Get-IPBlockListProvider
+```
 
 ## Uso del Shell para habilitar o deshabilitar un proveedor de listas de direcciones IP bloqueadas
 
 Para habilitar o deshabilitar un proveedor específico de listas de direcciones IP bloqueadas, use la siguiente sintaxis:
 
-    Set-IPBlockListProvider <IPBlockListProviderIdentity> -Enabled <$true | $false>
+```powershell
+Set-IPBlockListProvider <IPBlockListProviderIdentity> -Enabled <$true | $false>
+```
 
 En el siguiente ejemplo se deshabilita el proveedor llamado Proveedor de listas de direcciones IP bloqueadas de Contoso.
 
-    Set-IPBlockListProvider "Contoso IP Block List Provider" -Enabled $false
+```powershell
+Set-IPBlockListProvider "Contoso IP Block List Provider" -Enabled $false
+```
 
 En el siguiente ejemplo se habilita el proveedor llamado Proveedor de listas de direcciones IP bloqueadas de Contoso.
 
-    Set-IPBlockListProvider "Contoso IP Block List Provider" -Enabled $true
+```powershell
+Set-IPBlockListProvider "Contoso IP Block List Provider" -Enabled $true
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que se haya habilitado o deshabilitado correctamente un proveedor de listas de direcciones IP bloqueadas, ejecute el siguiente comando y compruebe que el valor mostrado sea el valor que haya configurado.
 
-    Get-IPBlockListProvider <IPBlockListProviderIdentity> | Format-List Enabled
+```powershell
+Get-IPBlockListProvider <IPBlockListProviderIdentity> | Format-List Enabled
+```
 
 ## Uso del Shell para configurar un proveedor de listas de direcciones IP bloqueadas
 
@@ -305,7 +357,9 @@ Para configurar un proveedor existente de listas de direcciones IP bloqueadas, u
 
 Por ejemplo, para agregar el código de estado de dirección IP 127.0.0.1 a la lista de códigos de estado existentes para el proveedor llamado Proveedor de listas de direcciones IP bloqueadas de Contoso, ejecute el siguiente comando:
 
-    Set-IPBlockListProvider "Contoso IP Block List Provider" -IPAddressesMatch @{Add="127.0.0.1"}
+```powershell
+Set-IPBlockListProvider "Contoso IP Block List Provider" -IPAddressesMatch @{Add="127.0.0.1"}
+```
 
 Para más información, vea [Set-IPBlockListProvider](https://technet.microsoft.com/es-es/library/bb124979\(v=exchg.150\)).
 
@@ -313,33 +367,45 @@ Para más información, vea [Set-IPBlockListProvider](https://technet.microsoft.
 
 Para comprobar que se haya configurado correctamente un proveedor de listas de direcciones IP bloqueadas, ejecute el siguiente comando y compruebe que los valores mostrados sean los valores que haya configurado.
 
-    Get-IPBlockListProvider <IPBlockListProviderIdentity> | Format-List
+```powershell
+Get-IPBlockListProvider <IPBlockListProviderIdentity> | Format-List
+```
 
 ## Uso del Shell para probar un proveedor de listas de direcciones IP bloqueadas
 
 Para probar un proveedor de listas de direcciones IP bloqueadas, use la siguiente sintaxis.
 
-    Test-IPBlockListProvider <IPBlockListProviderIdentity> -IPAddress <IPAddressToTest>
+```powershell
+Test-IPBlockListProvider <IPBlockListProviderIdentity> -IPAddress <IPAddressToTest>
+```
 
 En el siguiente ejemplo se prueba el proveedor llamado Proveedor de listas de direcciones IP bloqueadas de Contoso buscando la dirección IP 192.168.1.1.
 
-    Test-IPBlockListProvider "Contoso IP Block List Provider" -IPAddress 192.168.1.1
+```powershell
+Test-IPBlockListProvider "Contoso IP Block List Provider" -IPAddress 192.168.1.1
+```
 
 ## Uso del Shell para quitar un proveedor de listas de direcciones IP bloqueadas
 
 Para quitar un proveedor de listas de direcciones IP bloqueadas, use la siguiente sintaxis:
 
-    Remove-IPBlockListProvider <IPBlockListProviderIdentity>
+```powershell
+Remove-IPBlockListProvider <IPBlockListProviderIdentity>
+```
 
 En el siguiente ejemplo se quita un proveedor de listas de direcciones IP bloqueadas llamado Proveedor de listas de direcciones IP bloqueadas de Contoso.
 
-    Remove-IPBlockListProvider "Contoso IP Block list Provider"
+```powershell
+Remove-IPBlockListProvider "Contoso IP Block list Provider"
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que se haya quitado correctamente un proveedor de listas de direcciones IP bloqueadas, ejecute el siguiente comando y compruebe que haya desaparecido el proveedor de listas de direcciones IP bloqueadas que quitó.
 
-    Get-IPBlockListProvider
+```powershell
+Get-IPBlockListProvider
+```
 
 ## Procedimientos de listas de direcciones IP permitidas
 
@@ -357,17 +423,23 @@ Para ver la configuración de la lista de direcciones IP permitidas, ejecute el 
 
 Para deshabilitar la lista de direcciones IP permitidas, ejecute el siguiente comando:
 
-    Set-IPAllowListConfig -Enabled $false
+```powershell
+Set-IPAllowListConfig -Enabled $false
+```
 
 Para habilitar la lista de direcciones IP permitidas, ejecute el siguiente comando:
 
-    Set-IPAllowListConfig -Enabled $true
+```powershell
+Set-IPAllowListConfig -Enabled $true
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que se haya habilitado o deshabilitado correctamente la lista de direcciones IP permitidas, ejecute el siguiente comando y compruebe que el valor mostrado sea el valor que haya configurado.
 
-    Get-IPAllowListConfig | Format-List Enabled
+```powershell
+Get-IPAllowListConfig | Format-List Enabled
+```
 
 ## Uso del Shell para configurar la lista de direcciones IP permitidas
 
@@ -377,7 +449,9 @@ Para configurar la lista de direcciones IP permitidas, use la siguiente sintaxis
 
 En este ejemplo se configura la lista de direcciones IP permitidas para filtrar las conexiones entrantes de los servidores de correo internos y externos. De manera predeterminada, las conexiones se filtran desde servidores de correo externos únicamente (*ExternalMailEnabled* se establece en `$true` y *InternalMailEnabled* se establece en `$false`). Las conexiones no autenticadas y las conexiones autenticadas de socios externos se consideran externas.
 
-    Set-IPAllowListConfig -InternalMailEnabled $true
+```powershell
+Set-IPAllowListConfig -InternalMailEnabled $true
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -389,17 +463,23 @@ Para comprobar que se haya configurado correctamente la lista de direcciones IP 
 
 Para ver todas las entradas de la lista de direcciones IP permitidas, ejecute el siguiente comando:
 
-    Get-IPAllowListEntry
+```powershell
+Get-IPAllowListEntry
+```
 
 Tenga en cuenta que cada entrada de la lista de direcciones IP permitidas se identifica mediante un valor entero. El entero de identidad se asigna en orden ascendente cuando se agregan entradas a la lista de direcciones IP bloqueadas y la lista de direcciones IP permitidas.
 
 Para ver una entrada de la lista de direcciones IP permitidas, use la siguiente sintaxis:
 
-    Get-IPAllowListEntry <-Identity IdentityInteger | -IPAddress IPAddress>
+```powershell
+Get-IPAllowListEntry <-Identity IdentityInteger | -IPAddress IPAddress>
+```
 
 Por ejemplo, para ver la entrada de la lista de direcciones IP permitidas que contiene la dirección IP 192.168.1.13, ejecute el siguiente comando:
 
-    Get-IPAllowListEntry -IPAddress 192.168.1.13
+```powershell
+Get-IPAllowListEntry -IPAddress 192.168.1.13
+```
 
 
 > [!NOTE]
@@ -415,33 +495,45 @@ Para agregar entradas de la lista de direcciones IP permitidas, use la siguiente
 
 En este ejemplo se agrega la entrada de la lista de direcciones IP permitidas para el intervalo de direcciones IP de 192.168.1.10 a 192.168.1.15, y se configura la entrada de la lista de direcciones IP permitidas para que expire el 14 de julio de 2014 a las 15:00.
 
-    Add-IPAllowListEntry -IPRange 192.168.1.10-192.168.1.15 -ExpirationTime "7/4/2014 15:00"
+```powershell
+Add-IPAllowListEntry -IPRange 192.168.1.10-192.168.1.15 -ExpirationTime "7/4/2014 15:00"
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que se haya agregado correctamente una entrada de la lista de direcciones IP permitidas, ejecute el siguiente comando y compruebe que aparezca la nueva entrada de la lista de direcciones IP permitidas.
 
-    Get-IPAllowListEntry
+```powershell
+Get-IPAllowListEntry
+```
 
 ## Uso del Shell para quitar entradas de la lista de direcciones IP permitidas
 
 Para quitar entradas de la lista de direcciones IP permitidas, use la siguiente sintaxis:
 
-    Remove-IPAllowListEntry <IdentityInteger>
+```powershell
+Remove-IPAllowListEntry <IdentityInteger>
+```
 
 En el siguiente ejemplo se quita la entrada de la lista de direcciones IP permitidas que tiene el valor 3 *Identity*.
 
-    Remove-IPAllowListEntry 3
+```powershell
+Remove-IPAllowListEntry 3
+```
 
 En el siguiente ejemplo se quita la entrada de la lista de direcciones IP permitidas que contiene la dirección IP 192.168.1.12 sin usar el valor entero *Identity*. Tenga en cuenta que la entrada de la lista de direcciones IP permitidas puede ser una dirección IP individual o un intervalo de direcciones IP.
 
-    Get-IPAllowListEntry -IPAddress 192.168.1.12 | Remove-IPAllowListEntry
+```powershell
+Get-IPAllowListEntry -IPAddress 192.168.1.12 | Remove-IPAllowListEntry
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que se haya quitado correctamente una entrada de la lista de direcciones IP permitidas, ejecute el siguiente comando y compruebe que haya desaparecido la entrada de la lista de direcciones IP permitidas que quitó.
 
-    Get-IPAllowListEntry
+```powershell
+Get-IPAllowListEntry
+```
 
 ## Procedimientos de proveedores de listas de direcciones IP permitidas
 
@@ -459,17 +551,23 @@ Para ver cómo el filtrado de conexiones usa todos los proveedores de listas de 
 
 Para deshabilitar todos los proveedores de listas de direcciones IP permitidas, ejecute el siguiente comando:
 
-    Set-IPAllowListProvidersConfig -Enabled $false
+```powershell
+Set-IPAllowListProvidersConfig -Enabled $false
+```
 
 Para habilitar todos los proveedores de listas de direcciones IP permitidas, ejecute el siguiente comando:
 
-    Set-IPAllowListProvidersConfig -Enabled $true
+```powershell
+Set-IPAllowListProvidersConfig -Enabled $true
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que se hayan habilitado o deshabilitado correctamente todos los proveedores de listas de direcciones IP permitidas, ejecute el siguiente comando y compruebe que el valor mostrado sea el valor que haya configurado.
 
-    Get-IPAllowListProvidersConfig | Format-List Enabled
+```powershell
+Get-IPAllowListProvidersConfig | Format-List Enabled
+```
 
 ## Uso del Shell para configurar todos los proveedores de listas de direcciones IP permitidas
 
@@ -479,7 +577,9 @@ Para configurar la forma en que el filtrado de conexiones usa todos los proveedo
 
 En este ejemplo se configuran todos los proveedores de listas de direcciones IP permitidas para filtrar las conexiones entrantes de los servidores de correo internos y externos. De manera predeterminada, las conexiones se filtran desde servidores de correo externos únicamente (*ExternalMailEnabled* se establece en `$true` y *InternalMailEnabled* se establece en `$false`). Las conexiones no autenticadas y las conexiones autenticadas de socios externos se consideran externas.
 
-    Set-IPAllowListProvidersConfig -InternalMailEnabled $true
+```powershell
+Set-IPAllowListProvidersConfig -InternalMailEnabled $true
+```
 
 Para más información, vea [Set-IPBlockListProvidersConfig](https://technet.microsoft.com/es-es/library/aa998543\(v=exchg.150\)).
 
@@ -493,11 +593,15 @@ Para comprobar que se hayan configurado correctamente todos los proveedores de l
 
 Para ver la lista de resumen de todos los proveedores de listas de direcciones IP permitidas, ejecute el siguiente comando.
 
-    Get-IPAllowListProvider
+```powershell
+Get-IPAllowListProvider
+```
 
 Para ver los detalles de un proveedor específico, use la siguiente sintaxis.
 
-    Get-IPAllowListProvider <IPAllowListProviderIdentity>
+```powershell
+Get-IPAllowListProvider <IPAllowListProviderIdentity>
+```
 
 En este ejemplo se muestran los detalles del proveedor llamado Proveedor de listas de direcciones IP permitidas de Contoso.
 
@@ -531,27 +635,37 @@ Para más información, vea [Add-IPBlockListProvider](https://technet.microsoft.
 
 Para comprobar que se haya agregado correctamente un proveedor de listas de direcciones IP permitidas, ejecute el siguiente comando y compruebe que aparezca el nuevo proveedor de listas de direcciones IP permitidas.
 
-    Get-IPAllowListProvider
+```powershell
+Get-IPAllowListProvider
+```
 
 ## Uso del Shell para habilitar o deshabilitar un proveedor de listas de direcciones IP permitidas
 
 Para habilitar o deshabilitar un proveedor específico de listas de direcciones IP permitidas, use la siguiente sintaxis.
 
-    Set-IPAllowListProvider <IPAllowListProviderIdentity> -Enabled <$true | $false>
+```powershell
+Set-IPAllowListProvider <IPAllowListProviderIdentity> -Enabled <$true | $false>
+```
 
 En este ejemplo se deshabilita el proveedor llamado Proveedor de listas de direcciones IP permitidas de Contoso.
 
-    Set-IPAllowListProvider "Contoso IP Allow List Provider" -Enabled $false
+```powershell
+Set-IPAllowListProvider "Contoso IP Allow List Provider" -Enabled $false
+```
 
 En este ejemplo se habilita el proveedor llamado Proveedor de listas de direcciones IP permitidas de Contoso.
 
-    Set-IPAllowListProvider "Contoso IP Allow List Provider" -Enabled $true
+```powershell
+Set-IPAllowListProvider "Contoso IP Allow List Provider" -Enabled $true
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que se haya habilitado o deshabilitado correctamente un proveedor de listas de direcciones IP permitidas, ejecute el siguiente comando y compruebe que el valor mostrado sea el valor que haya configurado.
 
-    Get-IPAllowListProvider <IPAllowListProviderIdentity> | Format-List Enabled
+```powershell
+Get-IPAllowListProvider <IPAllowListProviderIdentity> | Format-List Enabled
+```
 
 ## Uso del Shell para configurar un proveedor de listas de direcciones IP permitidas
 
@@ -563,7 +677,9 @@ Para configurar un proveedor existente de listas de direcciones IP permitidas, u
 
 Por ejemplo, para agregar el código de estado de dirección IP 127.0.0.1 a la lista de códigos de estado existentes para el proveedor llamado Proveedor de listas de direcciones IP permitidas de Contoso, ejecute el siguiente comando:
 
-    Set-IPAllowListProvider "Contoso IP Allow List Provider" -IPAddressesMatch @{Add="127.0.0.1"}
+```powershell
+Set-IPAllowListProvider "Contoso IP Allow List Provider" -IPAddressesMatch @{Add="127.0.0.1"}
+```
 
 Para más información, vea [Set-IPBlockListProvider](https://technet.microsoft.com/es-es/library/bb124979\(v=exchg.150\)).
 
@@ -571,31 +687,43 @@ Para más información, vea [Set-IPBlockListProvider](https://technet.microsoft.
 
 Para comprobar que se haya configurado correctamente un proveedor de listas de direcciones IP permitidas, ejecute el siguiente comando y compruebe que los valores mostrados sean los valores que haya configurado.
 
-    Get-IPAllowListProvider <IPAllowListProviderIdentity> | Format-List
+```powershell
+Get-IPAllowListProvider <IPAllowListProviderIdentity> | Format-List
+```
 
 ## Uso del Shell para probar un proveedor de listas de direcciones IP permitidas
 
 Para probar un proveedor de listas de direcciones IP permitidas, use la siguiente sintaxis:
 
-    Test-IPAllowListProvider <IPAllowListProviderIdentity> -IPAddress <IPAddressToTest>
+```powershell
+Test-IPAllowListProvider <IPAllowListProviderIdentity> -IPAddress <IPAddressToTest>
+```
 
 En el siguiente ejemplo se prueba el proveedor llamado Proveedor de listas de direcciones IP permitidas de Contoso buscando la dirección IP 192.168.1.1.
 
-    Test-IPAllowListProvider "Contoso IP Allow List Provider" -IPAddress 192.168.1.1
+```powershell
+Test-IPAllowListProvider "Contoso IP Allow List Provider" -IPAddress 192.168.1.1
+```
 
 ## Uso del Shell para quitar un proveedor de listas de direcciones IP permitidas
 
 Para quitar un proveedor de listas de direcciones IP permitidas, use la siguiente sintaxis:
 
-    Remove-IPAllowListProvider <IPAllowListProviderIdentity>
+```powershell
+Remove-IPAllowListProvider <IPAllowListProviderIdentity>
+```
 
 En este ejemplo se quita el proveedor de listas de direcciones IP permitidas llamado Proveedor de listas de direcciones IP permitidas de Contoso.
 
-    Remove-IPAllowListProvider "Contoso IP Allow List Provider"
+```powershell
+Remove-IPAllowListProvider "Contoso IP Allow List Provider"
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que se haya quitado correctamente un proveedor de listas de direcciones IP permitidas, ejecute el siguiente comando y compruebe que haya desaparecido el proveedor de listas de direcciones IP permitidas que quitó.
 
-    Get-IPAllowListProvider
+```powershell
+Get-IPAllowListProvider
+```
 

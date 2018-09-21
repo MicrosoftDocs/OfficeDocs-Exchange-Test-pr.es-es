@@ -57,7 +57,9 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 
 2.  **Comprobar la configuración de la base de datos de buzones de correo**   ¿El parámetro *IndexEnabled* está configurado como verdadero para la base de datos de buzones de correo del usuario? En caso afirmativo, vaya al paso 3. En caso contrario, ejecute el siguiente comando en el Shell para comprobar que la marca *IndexEnabled* esté configurada como verdadera.
     
-        Get-MailboxDatabase | Format-Table Name,IndexEnabled
+    ```powershell
+Get-MailboxDatabase | Format-Table Name,IndexEnabled
+```
     
     Para obtener información detallada acerca de la sintaxis y los parámetros, vea [Get-MailboxDatabase](https://technet.microsoft.com/es-es/library/bb124924\(v=exchg.150\)).
 
@@ -91,7 +93,9 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 
 5.  **Ejecutar el cmdlet Test-ExchangeSearch**   Si ya se ha rastreado la base de datos de buzones de correo, puede ejecutar el cmdlet **Test-ExchangeSearch** para la base de datos de buzones de correo o para un buzón específico.
     
-        Test-ExchangeSearch -Identity AlanBrewer@contoso.com
+    ```powershell
+Test-ExchangeSearch -Identity AlanBrewer@contoso.com
+```
     
     Para obtener información detallada acerca de la sintaxis y los parámetros, vea [Test-ExchangeSearch](https://technet.microsoft.com/es-es/library/bb124733\(v=exchg.150\)).
 

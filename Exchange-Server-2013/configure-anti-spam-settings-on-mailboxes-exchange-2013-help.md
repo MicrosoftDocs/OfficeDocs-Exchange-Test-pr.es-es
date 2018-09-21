@@ -55,7 +55,9 @@ Para configurar la configuración de los filtros de correo no deseado en un úni
 
 En este ejemplo se configura el buzón de un usuario llamado Jeff Phillips para que omita todos los filtros de correo no deseado y tener mensajes que cumplan o superen un umbral de SCL de la carpeta de correo no deseado de 5 entregados a esta carpeta en Microsoft Outlook.
 
-    Set-Mailbox "Jeff Phillips" -AntispamBypassEnabled $true -SCLJunkEnabled $true -SCLJunkThreshold 4
+```powershell
+Set-Mailbox "Jeff Phillips" -AntispamBypassEnabled $true -SCLJunkEnabled $true -SCLJunkThreshold 4
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -91,11 +93,15 @@ Para verificar que ha configurado las características de los filtros de correo 
 
 Ejecute el siguiente comando:
 
-    Set-OrganizationConfig -SCLJunkThreshold <Integer>
+```powershell
+Set-OrganizationConfig -SCLJunkThreshold <Integer>
+```
 
 En este ejemplo se establece un umbral de 5 para el correo no deseado de la organización.
 
-    Set-OrganizationConfig -SCLJunkThreshold 5
+```powershell
+Set-OrganizationConfig -SCLJunkThreshold 5
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -103,7 +109,9 @@ Para verificar que ha configurado el umbral de correo no deseado correctamente e
 
 1.  Ejecute el siguiente comando:
     
-        Get-OrganizationConfig | Format-List SCLJunkThreshold
+    ```powershell
+Get-OrganizationConfig | Format-List SCLJunkThreshold
+```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 

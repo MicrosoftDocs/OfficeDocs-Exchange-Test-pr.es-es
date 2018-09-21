@@ -138,11 +138,15 @@ Como se muestra en la tabla anterior, los adaptadores utilizados para las redes 
 
 Para configurar el enrutamiento de los adaptadores de red de replicación en MBX1 y MBX2 se ejecutó el siguiente comando en cada servidor.
 
-    netsh interface ipv4 add route 10.0.2.0/24 <NetworkName> 10.0.1.254
+```powershell
+netsh interface ipv4 add route 10.0.2.0/24 <NetworkName> 10.0.1.254
+```
 
 Para configurar el enrutamiento de los adaptadores de red de replicación en MBX3 y MBX4 se ejecutó el siguiente comando en cada servidor.
 
-    netsh interface ipv4 add route 10.0.1.0/24 <NetworkName> 10.0.2.254
+```powershell
+netsh interface ipv4 add route 10.0.1.0/24 <NetworkName> 10.0.2.254
+```
 
 También se han configurado los siguientes parámetros de red adicionales:
 
@@ -189,7 +193,9 @@ El comando anterior configura el grupo DAG1 para que use CAS4 como servidor test
 
 Los comandos anteriores agregan cada uno de los servidores de buzones de correo, uno por vez, al DAG. Los comandos también instalan el componente de clúster de conmutación por error de Windows en cada servidor de buzones de correo (si no está ya instalado), crean una agrupación en clústeres de conmutación por error de Windows y vinculan cada servidor de buzones de correo al clúster recién creado.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatacenterActivationMode DagOnly
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatacenterActivationMode DagOnly
+```
 
 El comando anterior habilita el modo DAC para el DAG.
 

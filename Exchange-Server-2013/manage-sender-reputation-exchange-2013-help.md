@@ -45,11 +45,15 @@ La reputación del remitente es proporcionada por el agente de análisis del pro
 
 En este ejemplo, se deshabilita la reputación del remitente.
 
-    Set-SenderReputationConfig -Enabled $false
+```powershell
+Set-SenderReputationConfig -Enabled $false
+```
 
 En este ejemplo, se habilita la reputación del remitente.
 
-    Set-SenderReputationConfig -Enabled $true
+```powershell
+Set-SenderReputationConfig -Enabled $true
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -57,7 +61,9 @@ Para comprobar que la reputación del remitente se habilitó o deshabilitó corr
 
 1.  Ejecute el siguiente comando para comprobar que el agente de análisis del protocolo esté instalado y habilitado:
     
-        Get-TransportAgent
+    ```powershell
+Get-TransportAgent
+```
 
 2.  Ejecute el siguiente comando para comprobar los valores de reputación del remitente configurados:
     
@@ -69,19 +75,27 @@ De manera predeterminada, la reputación del remitente está habilitada para men
 
 Para deshabilitar la reputación del remitente en los mensajes externos, ejecute el siguiente comando:
 
-    Set-SenderReputationConfig -ExternalMailEnabled $false
+```powershell
+Set-SenderReputationConfig -ExternalMailEnabled $false
+```
 
 Para habilitar la reputación del remitente en los mensajes externos, ejecute el siguiente comando:
 
-    Set-SenderReputationConfig -ExternalMailEnabled $true
+```powershell
+Set-SenderReputationConfig -ExternalMailEnabled $true
+```
 
 Para deshabilitar la reputación del remitente en los mensajes internos, ejecute el siguiente comando:
 
-    Set-SenderReputationConfig -InternalMailEnabled $false
+```powershell
+Set-SenderReputationConfig -InternalMailEnabled $false
+```
 
 Para habilitar la reputación del remitente en los mensajes internos, ejecute el siguiente comando:
 
-    Set-SenderReputationConfig -InternalMailEnabled $true
+```powershell
+Set-SenderReputationConfig -InternalMailEnabled $true
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -97,11 +111,15 @@ Para comprobar que la reputación del remitente se habilitó o deshabilitó corr
 
 Para configurar las propiedades de reputación del remitente, ejecute el siguiente comando:
 
-    Set-SenderReputationConfig -SrlBlockThreshold <Value> -SenderBlockingPeriod <Hours>
+```powershell
+Set-SenderReputationConfig -SrlBlockThreshold <Value> -SenderBlockingPeriod <Hours>
+```
 
 En este ejemplo, se establece en 6 el umbral de bloqueo del nivel de reputación del remitente (SRL) y se configura la reputación del remitente para agregar remitentes ofensivos a la lista de direcciones IP bloqueadas durante 36 horas:
 
-    Set-SenderReputationConfig -SrlBlockThreshold 6 -SenderBlockingPeriod 36
+```powershell
+Set-SenderReputationConfig -SrlBlockThreshold 6 -SenderBlockingPeriod 36
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -109,7 +127,9 @@ Para comprobar que las propiedades de reputación del remitente se configuraron 
 
 1.  Ejecute el siguiente comando:
     
-        Get-SenderReputationConfig
+    ```powershell
+Get-SenderReputationConfig
+```
 
 2.  Verifique que los valores mostrados coincidan con los valores que ha configurado.
 
