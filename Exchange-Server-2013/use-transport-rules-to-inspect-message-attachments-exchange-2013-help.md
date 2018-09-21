@@ -29,17 +29,17 @@ Puede configurar reglas de transporte para inspeccionar los datos adjuntos de co
 
   - Crear notificaciones que avisen a los usuarios si envían un mensaje que coincide con una regla de transporte.
 
-  - Bloquear todos los mensajes que contengan datos adjuntos. Para ver más ejemplos, consulte [Escenarios comunes de bloqueo de datos adjuntos](common-attachment-blocking-scenarios-for-mail-flow-rules-exchange-2013-help.md).
+  - Bloquear todos los mensajes que contengan datos adjuntos. Para ver más ejemplos, consulte [Escenarios comunes de bloqueo de datos adjuntos](https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
 Los administradores de Exchange pueden crear reglas de transporte desde el **Centro de administración de Exchange**\>**Flujo del correo**\>**Reglas**. Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento. Una vez que ha empezado a crear una nueva regla, puede consultar la lista completa de condiciones relacionadas con datos adjuntos haciendo clic en **Más opciones**\>**Cualquier adjunto** en **Aplicar esta regla si**. En el siguiente diagrama se muestran las opciones relacionadas con datos adjuntos.
 
 ![Cuadro de diálogo para seleccionar reglas relacionadas con datos adjuntos](images/JJ674307.2ae4a179-bfd2-4a0e-abe1-53ed4e9e3368(EXCHG.150).jpg "Cuadro de diálogo para seleccionar reglas relacionadas con datos adjuntos")
 
-Para obtener más información acerca de las reglas de transporte, incluida toda la gama de condiciones y acciones que puede elegir, vea [Reglas de transporte o de flujo de correo](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md). Exchange Online Protection (EOP) y los clientes híbridos pueden beneficiarse de los procedimientos recomendados de las reglas de transporte proporcionados en [Procedimientos recomendados para configurar EOP](https://technet.microsoft.com/es-es/library/jj723164\(v=exchg.150\)). Si está listo para comenzar a crear reglas, vea [Administrar reglas de flujo de correo](manage-mail-flow-rules-exchange-2013-help.md).
+Para obtener más información acerca de las reglas de transporte, incluida toda la gama de condiciones y acciones que puede elegir, vea [Reglas de transporte o de flujo de correo](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md). Exchange Online Protection (EOP) y los clientes híbridos pueden beneficiarse de los procedimientos recomendados de las reglas de transporte proporcionados en [Procedimientos recomendados para configurar EOP](https://technet.microsoft.com/es-es/library/jj723164\(v=exchg.150\)). Si está listo para comenzar a crear reglas, vea [Administrar reglas de flujo de correo](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
 ## Inspeccionar el contenido de los datos adjuntos
 
-Puede usar las condiciones de reglas de transporte de la siguiente tabla para examinar el contenido de los datos adjuntos de los mensajes. Con estas condiciones solo se inspeccionan los primeros 150 KB de los datos adjuntos. Para empezar a usar estas condiciones al inspeccionar los mensajes, debe agregarlas a una regla de transporte. Para obtener más información acerca de cómo crear y cambiar reglas, vea [Administrar reglas de flujo de correo](manage-mail-flow-rules-exchange-2013-help.md).
+Puede usar las condiciones de reglas de transporte de la siguiente tabla para examinar el contenido de los datos adjuntos de los mensajes. Con estas condiciones solo se inspeccionan los primeros 150 KB de los datos adjuntos. Para empezar a usar estas condiciones al inspeccionar los mensajes, debe agregarlas a una regla de transporte. Para obtener más información acerca de cómo crear y cambiar reglas, vea [Administrar reglas de flujo de correo](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
 
 <table>
@@ -158,7 +158,7 @@ La siguiente tabla enumera los tipos de archivo admitidos por las reglas de tran
 
 ## Inspeccionar las propiedades de archivo de los datos adjuntos
 
-Las siguientes condiciones de regla de transporte inspeccionan las propiedades de un archivo adjunto a un mensaje. Para empezar a usar estas condiciones al inspeccionar los mensajes, debe agregarlas a una regla de transporte. A continuación se enumeran los tipos de archivo con código ejecutable que pueden comprobarse en el contexto de las reglas de transporte. Para obtener más información sobre cómo crear o cambiar las reglas, vea [Administrar reglas de flujo de correo](manage-mail-flow-rules-exchange-2013-help.md).
+Las siguientes condiciones de regla de transporte inspeccionan las propiedades de un archivo adjunto a un mensaje. Para empezar a usar estas condiciones al inspeccionar los mensajes, debe agregarlas a una regla de transporte. A continuación se enumeran los tipos de archivo con código ejecutable que pueden comprobarse en el contexto de las reglas de transporte. Para obtener más información sobre cómo crear o cambiar las reglas, vea [Administrar reglas de flujo de correo](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
 
 <table>
@@ -312,11 +312,11 @@ Para ayudarle a gestionar la información de correo electrónico relevante para 
 
   - Defina la acción que debe llevarse a cabo si un mensaje de correo electrónico contiene números de pasaporte que no están incluidos en el archivo protegido.
 
-Las directivas de DLP y las condiciones relacionadas con los datos adjuntos contribuyen a satisfacer las necesidades de su negocio mediante la definición de dichas necesidades como condiciones de reglas de transporte, excepciones y acciones. Al incluir la inspección de información confidencial en una directiva de DLP, se analizan todos los datos adjuntos de los mensajes buscando exclusivamente esa información. Sin embargo, no se incluirán condiciones relacionadas con datos adjuntos como el tamaño o el tipo de archivo hasta que se agreguen las condiciones enumeradas en este tema. DLP no está disponible en todas las versiones de Exchange. Puede obtener más información en [Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md).
+Las directivas de DLP y las condiciones relacionadas con los datos adjuntos contribuyen a satisfacer las necesidades de su negocio mediante la definición de dichas necesidades como condiciones de reglas de transporte, excepciones y acciones. Al incluir la inspección de información confidencial en una directiva de DLP, se analizan todos los datos adjuntos de los mensajes buscando exclusivamente esa información. Sin embargo, no se incluirán condiciones relacionadas con datos adjuntos como el tamaño o el tipo de archivo hasta que se agreguen las condiciones enumeradas en este tema. DLP no está disponible en todas las versiones de Exchange. Puede obtener más información en [Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention).
 
 ## Más información
 
-[Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Reglas de transporte o de flujo de correo](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md)
 

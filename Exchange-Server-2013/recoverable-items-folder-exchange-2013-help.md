@@ -168,7 +168,7 @@ En la siguiente tabla, se detallan los contenidos y las acciones que se pueden r
 </table>
 
 
-En Exchange 2013, la recuperación de elementos individuales no está habilitada de forma predeterminada o los buzones se movieron de una versión anterior de Exchange. Se debe usar el Shell de administración de Exchange para habilitar la recuperación de elementos individuales en un buzón y, a continuación, configurar o modificar el período de retención del elemento eliminado. Para obtener información detallada acerca de cómo realizar una recuperación de un único elemento, vea [Recuperar mensajes eliminados en el buzón de un usuario](recover-deleted-messages-in-a-user-s-mailbox-exchange-2013-help.md).
+En Exchange 2013, la recuperación de elementos individuales no está habilitada de forma predeterminada o los buzones se movieron de una versión anterior de Exchange. Se debe usar el Shell de administración de Exchange para habilitar la recuperación de elementos individuales en un buzón y, a continuación, configurar o modificar el período de retención del elemento eliminado. Para obtener información detallada acerca de cómo realizar una recuperación de un único elemento, vea [Recuperar mensajes eliminados en el buzón de un usuario](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-user-mailboxes/recover-deleted-messages).
 
 Volver al principio
 
@@ -220,9 +220,9 @@ En la siguiente tabla, se detallan los contenidos y las acciones que se pueden r
 
 Para obtener más información acerca de la exhibición de documentos electrónicos local, la conservación local y la retención por juicio, vea estos temas:
 
-  - [Exhibición de documentos electrónicos en contexto](in-place-ediscovery-exchange-2013-help.md)
+  - [Exhibición de documentos electrónicos en contexto](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules)
 
-  - [Conservación local y retención por juicio](in-place-hold-and-litigation-hold-exchange-2013-help.md)
+  - [Conservación local y retención por juicio](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-and-litigation-holds)
 
 Volver al principio
 

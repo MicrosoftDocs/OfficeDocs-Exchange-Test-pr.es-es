@@ -19,7 +19,7 @@ _**Última modificación del tema:** 2015-03-09_
 
 Discovery Management Un grupo de administración de roles es uno de varios grupos de roles integrados que constituye el modelo de permisos de control de acceso basado en roles (RBAC) de Microsoft Exchange Server 2013. Los grupos de roles se asignan a uno o más roles de administración que contienen los permisos requeridos para realizar un determinado conjunto de tareas. Los miembros de un grupo de roles obtienen acceso a los roles de administración asignados a un grupo de roles. Para obtener más información acerca de los grupos de roles, consulte [Descripción de los grupos de roles de administración](understanding-management-role-groups-exchange-2013-help.md).
 
-Los administradores o usuarios que son miembros del grupo de funciones Discovery Management pueden realizar búsquedas en buzones de correo de la organización de Exchange para obtener datos que cumplan determinados criterios y pueden configurar retenciones por juicio de buzones de correo. Para obtener más información, consulte [Exhibición de documentos electrónicos en contexto](in-place-ediscovery-exchange-2013-help.md).
+Los administradores o usuarios que son miembros del grupo de funciones Discovery Management pueden realizar búsquedas en buzones de correo de la organización de Exchange para obtener datos que cumplan determinados criterios y pueden configurar retenciones por juicio de buzones de correo. Para obtener más información, consulte [Exhibición de documentos electrónicos en contexto](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules).
 
 
 > [!IMPORTANT]

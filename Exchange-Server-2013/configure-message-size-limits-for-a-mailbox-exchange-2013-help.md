@@ -21,7 +21,7 @@ Puede usar la EAC o el Shell para configurar los límites de tamaño de mensaje 
 
 Tenga en cuenta que hay otra configuración en una organización de Exchange que determina el tamaño máximo de los mensajes que un buzón puede enviar o recibir (por ejemplo, el tamaño máximo de mensaje configurado en un servidor de buzones). Para obtener más información acerca de las restricciones en el tamaño de los mensajes de Exchange, incluidos los tipos de límites de tamaño de mensaje, su ámbito y el orden de precedencia, consulte [Límites de tamaño de mensaje](message-size-limits-exchange-2013-help.md).
 
-Para otras tareas de administración relacionadas con los buzones de usuario, consulte [Administrar los buzones de usuario](manage-user-mailboxes-exchange-2013-help.md).
+Para otras tareas de administración relacionadas con los buzones de usuario, consulte [Administrar los buzones de usuario](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/include-text-with-email-sent-when-voicemail-is-enabled).
 
 
 > [!NOTE]

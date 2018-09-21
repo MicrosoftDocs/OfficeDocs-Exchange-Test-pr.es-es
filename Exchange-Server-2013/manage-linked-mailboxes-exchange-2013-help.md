@@ -106,7 +106,7 @@ La figura siguiente ilustra la relación entre la cuenta de usuario vinculada us
     
       - **Base de datos de buzones**   Use esta opción para especificar una base de datos de buzones en vez de permitir que Exchange seleccione la base de datos. Haga clic en **Examinar** para abrir el cuadro de diálogo **Seleccionar base de datos de buzones**. En este cuadro de diálogo se enumeran todas las bases de datos de buzones de la organización de Exchange. De manera predeterminada, las bases de datos de buzones se ordenan por el nombre. También puede hacer clic en el título de la columna correspondiente para ordenar las bases de datos por versión o nombre del servidor. Seleccione la base de datos de buzones que desee usar y haga clic en **Aceptar**.
     
-      - **Directiva de la libreta de direcciones**   Utilice esta opción para especificar una directiva de libreta de direcciones (ABP) para el buzón vinculado. Las ABP contienen una lista global de direcciones (GAL), una libreta de direcciones sin conexión (OAB), una lista de salas y un conjunto de listas de direcciones. Cuando se asigna una ABP a usuarios, esta les proporciona acceso a una LGD personalizada en Outlook y Outlook Web App. Para obtener más información, consulte [Directivas de la libreta de direcciones](address-book-policies-exchange-2013-help.md).
+      - **Directiva de la libreta de direcciones**   Utilice esta opción para especificar una directiva de libreta de direcciones (ABP) para el buzón vinculado. Las ABP contienen una lista global de direcciones (GAL), una libreta de direcciones sin conexión (OAB), una lista de salas y un conjunto de listas de direcciones. Cuando se asigna una ABP a usuarios, esta les proporciona acceso a una LGD personalizada en Outlook y Outlook Web App. Para obtener más información, consulte [Directivas de la libreta de direcciones](https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/address-book-policies).
         
         En la lista desplegable, seleccione la directiva que desea asociar con este buzón.
 
@@ -134,7 +134,7 @@ Para comprobar si creó un buzón vinculado correctamente, siga uno de estos pro
 
 Tras crear un buzón vinculado, podrá realizar los cambios y establecer propiedades adicionales mediante el Centro de administración de Exchange (EAC) o el Shell de administración de Exchange.
 
-También puede cambiar las propiedades de varios buzones vinculados al mismo tiempo. Para obtener más información, consulte la sección, "Edición en masa de buzones de usuario" en el tema [Administrar los buzones de usuario](manage-user-mailboxes-exchange-2013-help.md).
+También puede cambiar las propiedades de varios buzones vinculados al mismo tiempo. Para obtener más información, consulte la sección, "Edición en masa de buzones de usuario" en el tema [Administrar los buzones de usuario](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/include-text-with-email-sent-when-voicemail-is-enabled).
 
 
 > [!IMPORTANT]
@@ -256,7 +256,7 @@ Use la sección **Características de buzón** para ver o cambiar la configuraci
 
   - **Directiva de libreta de direcciones**   En este cuadro se muestra la directiva de libreta de direcciones que se aplica al buzón. Una directiva de libreta de direcciones le permite segmentar a los usuarios en grupos específicos para proporcionar vistas personalizadas de la libreta de direcciones. Para aplicar o cambiar la directiva de libreta de direcciones aplicada al buzón, seleccione una de la lista desplegable.
 
-  - **Mensajería unificada**   Esta función está deshabilitada de forma predeterminada. Al habilitar la mensajería unificada (MU), el usuario podrá usar las características de la MU de la organización y un conjunto predeterminado de propiedades de la misma se aplicarán al usuario. Haga clic en **Habilitar** para habilitar la mensajería unificada en el buzón. Para obtener información acerca de cómo habilitar la MU, consulte [Habilitar a un usuario para el correo de voz](enable-a-user-for-voice-mail-exchange-2013-help.md).
+  - **Mensajería unificada**   Esta función está deshabilitada de forma predeterminada. Al habilitar la mensajería unificada (MU), el usuario podrá usar las características de la MU de la organización y un conjunto predeterminado de propiedades de la misma se aplicarán al usuario. Haga clic en **Habilitar** para habilitar la mensajería unificada en el buzón. Para obtener información acerca de cómo habilitar la MU, consulte [Habilitar a un usuario para el correo de voz](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
     
 
     > [!NOTE]  

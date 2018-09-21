@@ -175,7 +175,7 @@ El conector Microsoft Rights Management (conector RMS) es una aplicación opcion
 
 Para más información sobre estas características, consulte:
 
-[Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Conector Rights Management](https://go.microsoft.com/fwlink/p/?linkid=330432)
 
@@ -239,9 +239,9 @@ Information Rights Management (IRM) es compatible con Cryptographic Mode 2, un m
 
 Exchange 2013 incluye las siguientes mejoras en la auditoría:
 
-  - **Informes de auditoría**   El EAC incluye funciones de auditoría para que pueda ejecutar informes o exportar entradas desde el registro de auditoría de buzón de correo y el registro de auditoría del administrador. El registro de auditoría de buzón de correo se indica cada vez que otro usuario que no es el propietario obtiene acceso al buzón. Esto puede ayudar a determinar quién ha tenido acceso a un buzón y lo que ha hecho. El registro de auditoría del administrador guarda cualquier acción, según un cmdlet del Shell de administración de Exchange, que ha realizado un administrador. Esto puede ayudar a solucionar problemas de configuración o a identificar la causa de problemas relacionados con la seguridad o el cumplimiento normativo. Para obtener más información, vea [Informes de auditoría de Exchange](exchange-auditing-reports-exchange-2013-help.md).
+  - **Informes de auditoría**   El EAC incluye funciones de auditoría para que pueda ejecutar informes o exportar entradas desde el registro de auditoría de buzón de correo y el registro de auditoría del administrador. El registro de auditoría de buzón de correo se indica cada vez que otro usuario que no es el propietario obtiene acceso al buzón. Esto puede ayudar a determinar quién ha tenido acceso a un buzón y lo que ha hecho. El registro de auditoría del administrador guarda cualquier acción, según un cmdlet del Shell de administración de Exchange, que ha realizado un administrador. Esto puede ayudar a solucionar problemas de configuración o a identificar la causa de problemas relacionados con la seguridad o el cumplimiento normativo. Para obtener más información, vea [Informes de auditoría de Exchange](https://docs.microsoft.com/es-es/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports).
 
-  - **Consulta del registro de auditoría de administrador:**  en lugar de exportar el registro de auditoría de administrador, para lo cual pueden transcurrir hasta 24 para recibirlo en un mensaje de correo electrónico, puede ver las entradas del registro de auditoría del administrador en el EAC. Para ello, vaya a **Administración de cumplimiento** \> **Auditoría** y haga clic en **Ver el registro de auditoría del administrador**. Se mostrarán hasta 1.000 entradas en varias páginas. Para restringir la búsqueda, puede especificar un intervalo de fechas. Para obtener más información, consulte [Ver el registro de auditoría del administrador](view-the-administrator-audit-log-exchange-2013-help.md).
+  - **Consulta del registro de auditoría de administrador:**  en lugar de exportar el registro de auditoría de administrador, para lo cual pueden transcurrir hasta 24 para recibirlo en un mensaje de correo electrónico, puede ver las entradas del registro de auditoría del administrador en el EAC. Para ello, vaya a **Administración de cumplimiento** \> **Auditoría** y haga clic en **Ver el registro de auditoría del administrador**. Se mostrarán hasta 1.000 entradas en varias páginas. Para restringir la búsqueda, puede especificar un intervalo de fechas. Para obtener más información, consulte [Ver el registro de auditoría del administrador](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-to-make-calls).
 
 ## Protección contra malware
 
@@ -269,7 +269,7 @@ Esta sección describe las mejoras de administración de destinatarios en Exchan
 
   - **Directiva de nomenclatura de grupo**   Los administradores ahora pueden utilizar el EAC para crear una *directiva de nomenclatura de grupo*, que le permitirá normalizar y administrar los nombres de grupos de distribución que creen los usuarios de su organización. Puede requerir que se añada un prefijo o sufijo concreto al nombre de un grupo de distribución cuando se crea y puede bloquear el uso de determinadas palabras. Esta funcionalidad le ayuda a minimizar el uso de palabras inadecuadas en los nombres de grupo.
     
-    Para obtener más información, consulte [Crear una directiva de nomenclatura de grupos de distribución](create-a-distribution-group-naming-policy-exchange-2013-help.md).
+    Para obtener más información, consulte [Crear una directiva de nomenclatura de grupos de distribución](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy).
 
   - **Seguimiento de mensajes** Los administradores también pueden usar el Centro de administración de Exchange para realizar un seguimiento de la información de entrega de mensajes de correo electrónico enviado o recibido por cualquier usuario de su organización. Basta con seleccionar un buzón de correo y, a continuación, buscar los mensajes enviados o recibidos por un usuario concreto. Puede limitar la búsqueda si busca determinadas palabras en la línea de asunto. El informe de entrega resultante hace un seguimiento de un mensaje a través del proceso de entrega y especifica si el mensaje se entregó correctamente, tiene pendiente la entrega o no se entregó.
     

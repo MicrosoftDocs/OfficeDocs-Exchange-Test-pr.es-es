@@ -33,7 +33,7 @@ La forma de limpiar la carpeta Elementos recuperables del buzón depende de si e
 
   - Si el buzón está ubicado en una conservación local o retención por juicio o tiene habilitada una recuperación de un único elemento, es importante guardar los datos del buzón hasta que se elimine la espera o se deshabilite la recuperación de un único elemento. En este caso, debe realizar más pasos detallados para limpiar la carpeta Elementos recuperables.
 
-Para obtener más información sobre conservación local y retención por juicio, consulte [Conservación local y retención por juicio](in-place-hold-and-litigation-hold-exchange-2013-help.md). Para más información sobre recuperación de elementos individuales, consulte la "Recuperación de un único elemento" en [Carpeta Elementos recuperables](recoverable-items-folder-exchange-2013-help.md).
+Para obtener más información sobre conservación local y retención por juicio, consulte [Conservación local y retención por juicio](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-and-litigation-holds). Para más información sobre recuperación de elementos individuales, consulte la "Recuperación de un único elemento" en [Carpeta Elementos recuperables](recoverable-items-folder-exchange-2013-help.md).
 
 Para obtener más información acerca de la carpeta Elementos recuperables, consulte [Carpeta Elementos recuperables](recoverable-items-folder-exchange-2013-help.md).
 
@@ -148,7 +148,7 @@ Este procedimiento copia los elementos de la carpeta Elementos recuperables de G
     
 
     > [!NOTE]
-    > No es necesario copiar los elementos en el buzón de búsqueda de detección. Puede copiar los mensajes en cualquier buzón. Sin embargo, para evitar el acceso a los datos buzón posiblemente confidenciales, recomendamos copiar los mensajes a un buzón que tiene el acceso restringido a los administradores de registros autorizados. De forma predeterminada, el acceso al Buzón de búsqueda de detección está restringido a los miembros del grupo de roles de administración de detección. Para obtener información más detallada, consulte <A href="in-place-ediscovery-exchange-2013-help.md">Exhibición de documentos electrónicos en contexto</A>.
+    > No es necesario copiar los elementos en el buzón de búsqueda de detección. Puede copiar los mensajes en cualquier buzón. Sin embargo, para evitar el acceso a los datos buzón posiblemente confidenciales, recomendamos copiar los mensajes a un buzón que tiene el acceso restringido a los administradores de registros autorizados. De forma predeterminada, el acceso al Buzón de búsqueda de detección está restringido a los miembros del grupo de roles de administración de detección. Para obtener información más detallada, consulte <A href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules">Exhibición de documentos electrónicos en contexto</A>.
 
 
 

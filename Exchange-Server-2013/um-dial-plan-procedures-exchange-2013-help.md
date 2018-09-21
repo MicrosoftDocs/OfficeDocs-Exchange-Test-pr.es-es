@@ -17,25 +17,25 @@ _**Se aplica a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Última modificación del tema:** 2013-04-16_
 
-[Crear un plan de marcado de mensajería unificada](create-a-um-dial-plan-exchange-2013-help.md)
+[Crear un plan de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan)
 
-[Administrar un plan de marcado de mensajería unificada](manage-a-um-dial-plan-exchange-2013-help.md)
+[Administrar un plan de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding)
 
 [Agregar servidores de acceso de cliente y buzón a un plan de marcado de URI de SIP](add-mailbox-and-client-access-servers-to-a-sip-uri-dial-plan-exchange-2013-help.md)
 
 [Quitar servidores de buzón y acceso de cliente de un plan de marcado de URI de SIP](remove-mailbox-and-client-access-servers-from-a-sip-uri-dial-plan-exchange-2013-help.md)
 
-[Cambio del códec de audio](change-the-audio-codec-exchange-2013-help.md)
+[Cambio del códec de audio](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/set-outlook-voice-access-pin-security)
 
-[Configuración de la duración máxima de la llamada](configure-the-maximum-call-duration-exchange-2013-help.md)
+[Configuración de la duración máxima de la llamada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-maximum-call-duration)
 
-[Configurar la duración máxima de grabación](configure-the-maximum-recording-duration-exchange-2013-help.md)
+[Configurar la duración máxima de grabación](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-maximum-recording-duration)
 
-[Configurar el valor de tiempo de espera de grabación](configure-the-recording-idle-time-out-value-exchange-2013-help.md)
+[Configurar el valor de tiempo de espera de grabación](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-recording-idle-time-out)
 
-[Establecer la configuración de seguridad de VoIP](configure-the-voip-security-setting-exchange-2013-help.md)
+[Establecer la configuración de seguridad de VoIP](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes)
 
-[Configurar un plan de marcado para los usuarios con nombres parecidos](configure-a-dial-plan-for-users-who-have-similar-names-exchange-2013-help.md)
+[Configurar un plan de marcado para los usuarios con nombres parecidos](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/include-text-with-the-email-sent-when-a-fax-message-is-received)
 
-[Eliminar un plan de marcado de mensajería unificada](delete-a-um-dial-plan-exchange-2013-help.md)
+[Eliminar un plan de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-dial-plans)
 

@@ -139,5 +139,5 @@ La siguiente es una lista completa de los nombres de línea en una plantilla de 
 
 [Ver informes de detección de directivas de DLP](view-dlp-policy-detection-reports-exchange-2013-help.md)
 
-[Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 

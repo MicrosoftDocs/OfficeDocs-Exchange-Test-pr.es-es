@@ -64,11 +64,11 @@ La siguiente tabla contiene vínculos a los temas que lo ayudarán a aprender y 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="address-lists-exchange-2013-help.md">Listas de direcciones</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/address-books/address-lists/address-lists">Listas de direcciones</a></p></td>
 <td><p>Conozca más acerca de las listas de direcciones y GAL como métodos para organizar los destinatarios para obtener un acceso de usuario final más sencillo.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="address-book-policies-exchange-2013-help.md">Directivas de la libreta de direcciones</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/address-book-policies">Directivas de la libreta de direcciones</a></p></td>
 <td><p>Conozca más acerca de cómo separar las listas de direcciones y GAL en organizaciones virtuales separadas.</p></td>
 </tr>
 <tr class="odd">
@@ -80,7 +80,7 @@ La siguiente tabla contiene vínculos a los temas que lo ayudarán a aprender y 
 <td><p>Conozca más acerca de las direcciones de correo electrónico de proxy para que los destinatarios sean más fáciles de detectar.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="hierarchical-address-books-exchange-2013-help.md">Libretas de direcciones jerárquicas</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-to-see-a-voice-mail-transcript">Libretas de direcciones jerárquicas</a></p></td>
 <td><p>Conozca más acerca de cómo personalizar las LGD y las listas de direcciones para que cumplan con la estructura comercial única de su organización.</p></td>
 </tr>
 <tr class="even">

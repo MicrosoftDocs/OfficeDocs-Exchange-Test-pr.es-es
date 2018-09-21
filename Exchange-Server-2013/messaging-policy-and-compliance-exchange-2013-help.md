@@ -51,7 +51,7 @@ En la siguiente tabla se ofrece una descripción general de la directiva de mens
 <li><p>¿Deben conservarse todos los mensajes durante el mismo período?</p></li>
 </ul>
 <p>Exchange 2013 incluye características de administración de registros de mensajes (MRM) que permiten implementar directivas de ciclo de vida de correo electrónico en las organizaciones. Puede usar MRM para aplicar una configuración de retención uniforme a todos los mensajes, usar directivas de retención personalizadas para aplicar una configuración de retención de línea base al buzón y, de manera opcional, permitir a los usuarios que clasifiquen los mensajes de modo que los puedan conservar durante un tiempo determinado.</p></td>
-<td><p><a href="messaging-records-management-exchange-2013-help.md">Administración de registros de mensajes</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/messaging-records-management">Administración de registros de mensajes</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Archivo en contexto</p></td>
@@ -61,12 +61,12 @@ En la siguiente tabla se ofrece una descripción general de la directiva de mens
 <tr class="odd">
 <td><p>Retención en contexto</p></td>
 <td><p>Cuando existen sospechas fundadas de posibles litigios, se solicita a las organizaciones que conserven toda la información almacenada electrónicamente (ESI), incluso el correo electrónico que sea relevante para el caso. La retención en contexto permite buscar y conservar los mensajes que coinciden con los parámetros de consulta. Los mensajes se protegen de la eliminación, modificación o alteración y se pueden conservar de manera indefinida o durante un período de tiempo específico.</p></td>
-<td><p><a href="in-place-hold-and-litigation-hold-exchange-2013-help.md">Conservación local y retención por juicio</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-and-litigation-holds">Conservación local y retención por juicio</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Exhibición de documentos electrónicos en contexto</p></td>
 <td><p>La exhibición de documentos electrónicos en contexto permite buscar datos en buzones en la organización de Exchange, obtener una vista previa de los resultados de la búsqueda y copiarlos en un buzón de detección.</p></td>
-<td><p><a href="in-place-ediscovery-exchange-2013-help.md">Exhibición de documentos electrónicos en contexto</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules">Exhibición de documentos electrónicos en contexto</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Registro en diario</p></td>
@@ -81,7 +81,7 @@ En la siguiente tabla se ofrece una descripción general de la directiva de mens
 <tr class="odd">
 <td><p>Prevención de pérdida de datos (DLP)</p></td>
 <td><p>Las funcionalidades de DLP ayudan a proteger los datos confidenciales e informa a los usuarios en cuanto a las directivas y regulaciones. DLP también permite evitar que los usuarios envíen información confidencial por error a usuarios no autorizados. Al configurar directivas DLP, puede identificar y proteger los datos confidenciales mediante el análisis del contenido del sistema de mensajería, que incluye varios tipos de archivo asociados. Las plantillas de la directiva DLP suministradas en Exchange 2013 se basan en normas de regulación, como las normas de identificación de información personal (PII) o las normas de seguridad de datos del sector de tarjetas de pago (PCI-DSS). Las DLP se pueden ampliar, lo que permite incluir otras directivas importantes en su organización. Además, la nueva característica de sugerencias de directiva permite informar a los usuarios sobre infracciones de las directivas antes de que se envíen datos confidenciales.</p></td>
-<td><p><a href="technical-overview-of-dlp-data-loss-prevention-in-exchange.md">Prevención de pérdida de datos</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention">Prevención de pérdida de datos</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Information Rights Management (IRM)</p></td>
@@ -97,7 +97,7 @@ En la siguiente tabla se ofrece una descripción general de la directiva de mens
 <td><p>Registro de auditoría de buzones de correo</p></td>
 <td><p>Dado que los buzones de correo pueden contener información confidencial, información de alto impacto comercial (HBI) e información de identificación personal (PPI), es importante que realice un seguimiento de quién inicia sesión en los buzones de correo de su organización y las acciones que se llevan a cabo. Resulta especialmente importante que realice un seguimiento del acceso a los buzones por parte de usuarios que no sean los propietarios del buzón en cuestión (conocidos como usuarios delegados). Mediante el registro de auditoría de buzones de correo, podrá registrar el acceso a los buzones de correo por parte de sus propietarios, delegados (incluidos los administradores con permisos de acceso total al buzón) y administradores.</p></td>
 <td><p><a href="mailbox-audit-logging-exchange-2013-help.md">Registro de auditoría de buzones de correo</a></p>
-<p><a href="exchange-auditing-reports-exchange-2013-help.md">Informes de auditoría de Exchange</a></p></td>
+<p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports">Informes de auditoría de Exchange</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Registro de auditoría de administrador</p></td>

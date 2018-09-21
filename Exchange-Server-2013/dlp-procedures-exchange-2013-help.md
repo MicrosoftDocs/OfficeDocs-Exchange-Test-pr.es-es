@@ -17,11 +17,11 @@ _**Se aplica a:** Exchange Server 2013_
 
 _**Última modificación del tema:** 2015-01-07_
 
-Puede comenzar por usar una solución de prevención contra la pérdida de datos (DLP) en su entorno de mensajería mediante los siguientes procedimientos. Para obtener información acerca de conceptos y objetivos de DLP, consulte [Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md).
+Puede comenzar por usar una solución de prevención contra la pérdida de datos (DLP) en su entorno de mensajería mediante los siguientes procedimientos. Para obtener información acerca de conceptos y objetivos de DLP, consulte [Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention).
 
-[Crear una directiva DLP a partir de una plantilla](how-to-new-dlp-data-loss-prevention-policy-template.md)   Información que lo ayuda a configurar un conjunto de reglas de directivas preintegrado y proporcionado por Microsoft. Las plantillas de directivas son una manera sencilla de comenzar a administrar datos de mensajes asociados con diversos requerimientos normativos y legales habituales.
+[Crear una directiva DLP a partir de una plantilla](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template)   Información que lo ayuda a configurar un conjunto de reglas de directivas preintegrado y proporcionado por Microsoft. Las plantillas de directivas son una manera sencilla de comenzar a administrar datos de mensajes asociados con diversos requerimientos normativos y legales habituales.
 
-[Crear una nueva directiva de DLP personalizada](create-a-custom-dlp-policy-exchange-2013-help.md)   Información que lo ayuda a configurar reglas de directivas para satisfacer las necesidades específicas de su organización, que tal vez no se aborden en una de las plantillas de DPL preexistentes. Las condiciones de la regla que están disponibles en una única directiva incluyen todas las reglas de transporte tradicionales, además de los nuevos tipos de información confidencial.
+[Crear una nueva directiva de DLP personalizada](https://docs.microsoft.com/es-es/exchange/address-books/hierarchical-address-books/hierarchical-address-books)   Información que lo ayuda a configurar reglas de directivas para satisfacer las necesidades específicas de su organización, que tal vez no se aborden en una de las plantillas de DPL preexistentes. Las condiciones de la regla que están disponibles en una única directiva incluyen todas las reglas de transporte tradicionales, además de los nuevos tipos de información confidencial.
 
 [Importar una plantilla de directiva DLP personalizada desde un archivo](import-a-custom-dlp-policy-template-from-a-file-exchange-2013-help.md)   Información que lo ayuda a importar un archivo que contiene información de configuración de directivas. Las directivas que se crean independientemente de Exchange como archivos XML deben cumplir requisitos de formato específicos a fin de que funcionen de manera correcta.
 
@@ -37,7 +37,7 @@ Puede comenzar por usar una solución de prevención contra la pérdida de datos
 
 ## Más información
 
-[Administrar las sugerencias de las directivas](how-to-configure-and-manage-policy-tips-a-dlp-feature-exchange.md)
+[Administrar las sugerencias de las directivas](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/manage-policy-tips)
 
 [Crear informes de incidentes para detecciones de directivas de DLP](create-incident-reports-for-dlp-policy-detections-exchange-2013-help.md)
 

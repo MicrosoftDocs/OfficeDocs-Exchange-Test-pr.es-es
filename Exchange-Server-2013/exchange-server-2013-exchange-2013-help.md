@@ -92,7 +92,7 @@ El contenido de la Ayuda de Exchange 2013 consta de las siguientes categorías 
 
   - [Rendimiento y mantenimiento del servidor](server-health-and-performance-exchange-2013-help.md)
 
-  - [Acerca de la documentación de Exchange](about-exchange-documentation-exchange-2013-help.md)
+  - [Acerca de la documentación de Exchange](https://docs.microsoft.com/es-es/exchange/about-exchange-documentation)
 
 
 > [!NOTE]

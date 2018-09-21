@@ -47,7 +47,7 @@ La tabla siguiente enumera los límites de las carpetas públicas en Exchange Se
 <tr class="odd">
 <td><p>Número total de buzones de carpeta pública</p></td>
 <td><p>100</p></td>
-<td><p>Aunque puede crear más de 100 buzones de carpeta pública, no se admiten. <a href="create-a-public-folder-mailbox-exchange-2013-help.md">Crear un buzón de carpetas públicas</a></p></td>
+<td><p>Aunque puede crear más de 100 buzones de carpeta pública, no se admiten. <a href="https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/create-public-folder-mailbox">Crear un buzón de carpetas públicas</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Carpetas públicas totales en la jerarquía</p></td>

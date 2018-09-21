@@ -25,7 +25,7 @@ Los usuarios cuyos buzones se encuentran en 2013 de Exchange Server o Exchange S
 
 
 > [!NOTE]
-> 2016 de Outlook para usuarios de Mac puede tener acceso a carpetas públicas heredadas después de seguir los pasos de este artículo. Si los clientes de su organización utilizan Outlook 2016 para Mac, asegúrese de que han instalado la actualización de abril de 2016. De lo contrario, esos usuarios no podrá tener acceso a las carpetas públicas en una topología de híbridos o coexistencia. Para obtener más información, consulte <A href="accessing-public-folders-with-outlook-2016-for-mac-exchange-2013-help.md">Acceso a las carpetas públicas con Outlook 2016 para Mac</A>.
+> 2016 de Outlook para usuarios de Mac puede tener acceso a carpetas públicas heredadas después de seguir los pasos de este artículo. Si los clientes de su organización utilizan Outlook 2016 para Mac, asegúrese de que han instalado la actualización de abril de 2016. De lo contrario, esos usuarios no podrá tener acceso a las carpetas públicas en una topología de híbridos o coexistencia. Para obtener más información, consulte <A href="https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/access-public-folders-with-outlook-2016-for-mac">Acceso a las carpetas públicas con Outlook 2016 para Mac</A>.
 
 
 
@@ -73,7 +73,7 @@ Los usuarios cuyos buzones se encuentran en 2013 de Exchange Server o Exchange S
 
 El último paso de este procedimiento consiste en configurar los buzones de usuario para permitir el acceso a las carpetas públicas heredadas locales.
 
-Permita que los usuarios locales de Exchange Server 2013 tengan acceso a las carpetas públicas heredadas. Para ello, apunte a todos los buzones proxy de carpetas públicas que creó en el [Step 2: Make remote public folders discoverable](configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md). Ejecute el siguiente comando desde un servidor Exchange 2013 con CU5 o una actualización posterior.
+Permita que los usuarios locales de Exchange Server 2013 tengan acceso a las carpetas públicas heredadas. Para ello, apunte a todos los buzones proxy de carpetas públicas que creó en el [Step 2: Make remote public folders discoverable](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/reduce-discovery-mailbox-size). Ejecute el siguiente comando desde un servidor Exchange 2013 con CU5 o una actualización posterior.
 
     Set-OrganizationConfig -PublicFoldersEnabled Remote -RemotePublicFolderMailboxes ProxyMailbox1,ProxyMailbox2,ProxyMailbox3
 

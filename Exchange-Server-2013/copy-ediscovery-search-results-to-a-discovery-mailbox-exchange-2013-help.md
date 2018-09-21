@@ -25,9 +25,9 @@ Después de crear una búsqueda de exhibición de documentos electrónicos local
 
   - Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento o procedimientos. Para ver qué permisos necesita, consulte el sección "Exhibición de documentos electrónicos local" en el tema [Permisos de directivas de mensajería y conformidad](messaging-policy-and-compliance-permissions-exchange-2013-help.md).
 
-  - Para poder copiar los resultados de la búsqueda, debe crearse una búsqueda de exhibición de documentos electrónicos, mediante el EAC o el Shell. Para obtener información detallada, vea [Crear una búsqueda de exhibición de documentos electrónicos local](create-an-in-place-ediscovery-search-exchange-2013-help.md).
+  - Para poder copiar los resultados de la búsqueda, debe crearse una búsqueda de exhibición de documentos electrónicos, mediante el EAC o el Shell. Para obtener información detallada, vea [Crear una búsqueda de exhibición de documentos electrónicos local](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search).
 
-  - La instalación de Exchange 2013 crea un buzón de correo de detección denominado **Buzón de búsqueda de detección** para copiar los resultados de la búsqueda. El buzón de búsqueda de detección se crea también de forma predeterminada en Exchange Online. Puede crear buzones de detección adicionales. Para obtener información detallada, vea [Crear un buzón de correo de detección](create-a-discovery-mailbox-exchange-2013-help.md).
+  - La instalación de Exchange 2013 crea un buzón de correo de detección denominado **Buzón de búsqueda de detección** para copiar los resultados de la búsqueda. El buzón de búsqueda de detección se crea también de forma predeterminada en Exchange Online. Puede crear buzones de detección adicionales. Para obtener información detallada, vea [Crear un buzón de correo de detección](https://docs.microsoft.com/es-es/exchange/about-exchange-documentation/accessibility).
 
   - Para obtener información acerca de los métodos abreviados de teclado aplicables a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -71,7 +71,7 @@ Después de crear una búsqueda de exhibición de documentos electrónicos local
 
 Después de usar el cmdlet **New-MailboxSearch** para crear una búsqueda de exhibición de documentos electrónicos local, debe iniciar la búsqueda para copiar mensajes al buzón de correo de detección especificado en el parámetro *TargetMailbox*. Para obtener más información sobre cómo crear búsquedas de exhibición de documentos electrónicos mediante el Shell, vea:
 
-  - [Use the Shell to create an In-Place eDiscovery search](create-an-in-place-ediscovery-search-exchange-2013-help.md)
+  - [Use the Shell to create an In-Place eDiscovery search](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search)
 
   - [New-MailboxSearch](https://technet.microsoft.com/es-es/library/dd298064\(v=exchg.150\))
 
@@ -93,7 +93,7 @@ Para copiar los resultados de esta búsqueda en un buzón de correo de detecció
   
 ## Más información sobre cómo copiar los resultados de la búsqueda
 
-  - Después de copiar los resultados de la búsqueda en el buzón de correo de detección, puede exportar esos resultados de la búsqueda en un archivo PST. Para más información, vea [Exportar los resultados de la búsqueda de exhibición de documentos electrónicos a un archivo PST](export-ediscovery-search-results-to-a-pst-file-exchange-2013-help.md).
+  - Después de copiar los resultados de la búsqueda en el buzón de correo de detección, puede exportar esos resultados de la búsqueda en un archivo PST. Para más información, vea [Exportar los resultados de la búsqueda de exhibición de documentos electrónicos a un archivo PST](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/export-search-results).
 
   - Para obtener más información acerca de los elementos que no se pueden buscar, vea [Elementos no aptos para la búsqueda en la exhibición de documentos electrónicos de Exchange](unsearchable-items-in-exchange-ediscovery-exchange-2013-help.md).
 
@@ -105,5 +105,5 @@ Para copiar los resultados de esta búsqueda en un buzón de correo de detecció
     
       - **Vista previa de los resultados de búsqueda**   Esta opción permite obtener una vista previa de los resultados que proporciona la búsqueda en vez de tener que copiarlos en un buzón de correo de detección para verlos. Esto le permite determinar, rápidamente, si los resultados de la búsqueda son relevantes. Después de obtener una vista previa de los resultados, puede revisar su consulta de búsqueda para restringir los resultados y volver a ejecutar la búsqueda. Los elementos en la vista previa de la página son versiones de solo lectura de los resultados de búsqueda actuales, por lo tanto, no puede realizar movimientos, ediciones, eliminaciones ni reenviar datos en la vista previa de la página.
     
-    Para más información, vea [Estimate or preview search results](create-an-in-place-ediscovery-search-exchange-2013-help.md).
+    Para más información, vea [Estimate or preview search results](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search).
 

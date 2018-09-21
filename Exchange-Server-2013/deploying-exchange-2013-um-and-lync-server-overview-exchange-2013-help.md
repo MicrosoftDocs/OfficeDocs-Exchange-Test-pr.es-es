@@ -59,7 +59,7 @@ La siguiente lista muestra los pasos simplificados de implementación para mensa
     
 
     > [!IMPORTANT]
-    > El script ExchUcUtil.ps1 crea una o más puertas de enlace IP de Mensajería unificada para la integración de Lync. Debe deshabilitar las llamadas salientes en todas las puertas de enlace IP de Mensajería unificada excepto una puerta de enlace que creó la secuencia de comandos. Esto incluye deshabilitar las llamadas salientes de las puertas de enlace IP de Mensajería unificada que se crearon antes de ejecutar el script. Para deshabilitar las llamadas salientes en una puerta de enlace IP de Mensajería unificada, vea <A href="disable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md">Deshabilitar las llamadas salientes de puertas de enlace IP de mensajería unificada</A>.
+    > El script ExchUcUtil.ps1 crea una o más puertas de enlace IP de Mensajería unificada para la integración de Lync. Debe deshabilitar las llamadas salientes en todas las puertas de enlace IP de Mensajería unificada excepto una puerta de enlace que creó la secuencia de comandos. Esto incluye deshabilitar las llamadas salientes de las puertas de enlace IP de Mensajería unificada que se crearon antes de ejecutar el script. Para deshabilitar las llamadas salientes en una puerta de enlace IP de Mensajería unificada, vea <A href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-outgoing-calls-on-um-ip-gateways">Deshabilitar las llamadas salientes de puertas de enlace IP de mensajería unificada</A>.
 
 
 
@@ -134,7 +134,7 @@ Para obtener más información acerca de Microsoft Lync Server, vea [Microsoft L
 
 Deberá realizar los siguientes pasos para configurar la mensajería unificada de manera que funcione con las características de Enterprise Voice de Lync Server:
 
-1.  Cree uno o más planes de marcado URI de SIP de la mensajería unificada, de manera que cada uno de ellos lleve a un perfil de ubicación de Lync Server correspondiente. Debe crear un perfil de ubicación de Enterprise Voice para cada plan de marcado de mensajería unificada de Exchange. Puede usar el cmdlet **Get-UMDialPlan** para obtener el FQDN de un plan de marcado URI de SIP. Para obtener más información acerca de cómo crear un plan de marcado URI de SIP, vea [Crear un plan de marcado de mensajería unificada](create-a-um-dial-plan-exchange-2013-help.md).
+1.  Cree uno o más planes de marcado URI de SIP de la mensajería unificada, de manera que cada uno de ellos lleve a un perfil de ubicación de Lync Server correspondiente. Debe crear un perfil de ubicación de Enterprise Voice para cada plan de marcado de mensajería unificada de Exchange. Puede usar el cmdlet **Get-UMDialPlan** para obtener el FQDN de un plan de marcado URI de SIP. Para obtener más información acerca de cómo crear un plan de marcado URI de SIP, vea [Crear un plan de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
     
 
     > [!IMPORTANT]
@@ -188,9 +188,9 @@ Deberá realizar los siguientes pasos para configurar la mensajería unificada d
 
 5.  Configure el modo de inicio y el puerto de escucha de TLS en los servidores de acceso de cliente y buzón de correo que se añadan al plan de marcado URI de SIP y, a continuación, reinicie el servicio de MicrosoftExchange mensajería unificada en cada servidor de buzones de correo y el servicio de MicrosoftExchange Enrutador de llamada de mensajería unificada de cada servidor de acceso de cliente.
 
-6.  Cree y configure un nuevo operador automático de mensajería unificada. Para obtener información más detallada, vea [Configuración de un operador automático de mensajería unificada](set-up-a-um-auto-attendant-exchange-2013-help.md).
+6.  Cree y configure un nuevo operador automático de mensajería unificada. Para obtener información más detallada, vea [Configuración de un operador automático de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-up-um-auto-attendant).
 
-7.  Cuando habilite los usuarios para el correo de voz, cree una dirección SIP para los usuarios que utilizarán Enterprise Voice. En la mayoría de casos, la dirección SIP coincidirá con la misma dirección SIP que se empleará cuando un usuario está habilitado para Enterprise Voice. Para obtener información más detallada, vea [Habilitar a un usuario para el correo de voz](enable-a-user-for-voice-mail-exchange-2013-help.md).
+7.  Cuando habilite los usuarios para el correo de voz, cree una dirección SIP para los usuarios que utilizarán Enterprise Voice. En la mayoría de casos, la dirección SIP coincidirá con la misma dirección SIP que se empleará cuando un usuario está habilitado para Enterprise Voice. Para obtener información más detallada, vea [Habilitar a un usuario para el correo de voz](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
     
 
     > [!IMPORTANT]
@@ -202,11 +202,11 @@ Deberá realizar los siguientes pasos para configurar la mensajería unificada d
     
       - Concede permiso a Lync Server para leer componentes Exchange MU Active Directory, concretamente el plan de marcado URI de SIP que se ha creado en la tarea anterior. Para obtener más información acerca de cómo utilizar permisos en Active Directory, vea [Cómo utilizar la edición de ADSI para aplicar permisos](https://go.microsoft.com/fwlink/p/?linkid=82751).
     
-      - Crea una puerta de enlace IP de MU para todos los grupos de Lync Server o para todos los servidores que ejecuten Lync Server Standard Edition y que alojen usuarios habilitados para Enterprise Voice. Para obtener información más detallada, vea [Cree una puerta de enlace IP de mensajería unificada](create-a-um-ip-gateway-exchange-2013-help.md).
+      - Crea una puerta de enlace IP de MU para todos los grupos de Lync Server o para todos los servidores que ejecuten Lync Server Standard Edition y que alojen usuarios habilitados para Enterprise Voice. Para obtener información más detallada, vea [Cree una puerta de enlace IP de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway).
     
       - Cree un grupo de extensiones de MU de Exchange para cada puerta de enlace IP de MU. El identificador piloto del grupo de extensiones será el nombre del plan de marcado asociado con la puerta de enlace IP de la mensajería unificada correspondiente. El grupo de extensiones deberá especificar el plan de marcado SIP de mensajería unificada que se usará con la puerta de enlace IP de mensajería unificada.
 
-9.  Habilite a los usuarios de correo de voz. Cuando los habilite, asegúrese de indicar una dirección SIP válida para el usuario y enlácelo con un plan de marcado SIP. Para obtener información más detallada, vea [Habilitar a un usuario para el correo de voz](enable-a-user-for-voice-mail-exchange-2013-help.md).
+9.  Habilite a los usuarios de correo de voz. Cuando los habilite, asegúrese de indicar una dirección SIP válida para el usuario y enlácelo con un plan de marcado SIP. Para obtener información más detallada, vea [Habilitar a un usuario para el correo de voz](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
 
 También debe completar las siguientes tareas para configurar Lync Server y que funcione con la mensajería unificada:
 

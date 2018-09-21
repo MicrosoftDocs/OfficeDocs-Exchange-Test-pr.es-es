@@ -107,7 +107,7 @@ La siguiente tabla enumera la capa de directiva de asignación de funciones y lo
 <tbody>
 <tr class="odd">
 <td><p>Buzón</p></td>
-<td><p><a href="manage-user-mailboxes-exchange-2013-help.md">Administrar los buzones de usuario</a></p>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/include-text-with-email-sent-when-voicemail-is-enabled">Administrar los buzones de usuario</a></p>
 <p><a href="change-the-assignment-policy-on-a-mailbox-exchange-2013-help.md">Cambiar la directiva de asignación en un buzón</a></p></td>
 </tr>
 <tr class="even">

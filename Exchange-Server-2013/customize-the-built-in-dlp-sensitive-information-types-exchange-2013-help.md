@@ -263,9 +263,9 @@ Estas son las definiciones de los términos que encontró en este procedimiento.
 
 ## Más información
 
-  - [Cómo se aplican las reglas de DLP para la evaluación de mensajes](how-dlp-rules-are-applied-to-evaluate-messages-exchange-2013-help.md)
+  - [Cómo se aplican las reglas de DLP para la evaluación de mensajes](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/dlp-rule-application)
 
-  - [Crear una nueva directiva de DLP personalizada](create-a-custom-dlp-policy-exchange-2013-help.md)
+  - [Crear una nueva directiva de DLP personalizada](https://docs.microsoft.com/es-es/exchange/address-books/hierarchical-address-books/hierarchical-address-books)
 
   - [Qué buscan los tipos de información confidencial de Exchange](what-the-sensitive-information-types-in-exchange-look-for-exchange-online-help.md)
 

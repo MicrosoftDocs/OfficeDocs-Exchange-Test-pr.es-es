@@ -29,7 +29,7 @@ Los registros de auditoría de buzón se generan para cada buzón que tenga habi
 
 De forma predeterminada, las entradas de un registro de auditoría de buzón se conservan en el buzón de correo durante 90 días y luego se eliminan. Puede modificar este período de retención con el parámetro *AuditLogAgeLimit* del cmdlet [Set-Mailbox](https://technet.microsoft.com/es-es/library/bb123981\(v=exchg.150\)). Si un buzón está en retención en contexto o en retención por juicio, las entradas del registro de auditoría solo se conservarán hasta que se haya alcanzado el período de retención del registro de auditoría de buzón. Para conservar entradas de auditoría durante más tiempo, tiene que aumentar el período de retención cambiando el valor para el parámetro *AuditLogAgeLimit*. También puede exportar entradas del registro de auditoría antes de que se alcance el período de retención. Para obtener más información, vea:
 
-  - [Exportar registros de auditoría de buzones](export-mailbox-audit-logs-exchange-2013-help.md)
+  - [Exportar registros de auditoría de buzones](https://docs.microsoft.com/es-es/exchange/security-and-compliance/exchange-auditing-reports/export-mailbox-audit-logs)
 
   - [Crear una búsqueda en los registros de auditoría de buzones](create-a-mailbox-audit-log-search-exchange-2013-help.md)
 
@@ -159,9 +159,9 @@ Puede usar los métodos indicados a continuación para buscar entradas del regis
 
   - **Usar informes de auditoría en el Centro de administración de Exchange (EAC):**  puede usar la pestaña **Auditoría** en el EAC para ejecutar un informe de acceso al buzón de correo del que no se es propietario o para exportar entradas del registro de auditoría de buzón. Para más información detallada, vea:
     
-      - [Ejecución de un informe de acceso al buzón de correo del que no se es propietario](run-a-non-owner-mailbox-access-report-exchange-online-help.md)
+      - [Ejecución de un informe de acceso al buzón de correo del que no se es propietario](https://docs.microsoft.com/es-es/exchange/security-and-compliance/exchange-auditing-reports/non-owner-mailbox-access-report)
     
-      - [Exportar registros de auditoría de buzones](export-mailbox-audit-logs-exchange-2013-help.md)
+      - [Exportar registros de auditoría de buzones](https://docs.microsoft.com/es-es/exchange/security-and-compliance/exchange-auditing-reports/export-mailbox-audit-logs)
 
 ## Entradas de registro de auditoría de buzón
 
@@ -336,7 +336,7 @@ En la siguiente tabla se describen los campos registrados en una entrada del reg
 
   - **Acceso de administrador a los buzones:**  se considera que un administrador accede a los buzones solo en los siguientes escenarios:
     
-      - [Exhibición de documentos electrónicos en contexto](in-place-ediscovery-exchange-2013-help.md) si se usa para realizar búsquedas en un buzón.
+      - [Exhibición de documentos electrónicos en contexto](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules) si se usa para realizar búsquedas en un buzón.
     
       - El cmdlet [New-MailboxExportRequest](https://technet.microsoft.com/es-es/library/ff607299\(v=exchg.150\)) se usa para exportar un buzón de correo.
     

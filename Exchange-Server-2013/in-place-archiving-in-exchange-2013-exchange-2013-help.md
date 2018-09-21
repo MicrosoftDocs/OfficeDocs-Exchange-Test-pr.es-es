@@ -138,7 +138,7 @@ En Exchange 2013, puede aplicar directivas de archivo a un buzón de correo que
 
 Los mensajes se mueven a una carpeta en el buzón de archivo que tiene el mismo nombre que la carpeta de origen en el buzón de correo principal. Si no existe una carpeta con el mismo nombre en el buzón de archivo, se crea una cuando el Asistente para carpetas administradas mueve un mensaje. Recrear la misma jerarquía de carpetas en el buzón de archivo permite a los usuarios encontrar los mensajes con facilidad.
 
-Para obtener más información acerca de las directivas de retención, las etiquetas de retención y la acción de retención **Mover a archivo**, vea [Etiquetas de retención y directivas de retención](retention-tags-and-retention-policies-exchange-2013-help.md).
+Para obtener más información acerca de las directivas de retención, las etiquetas de retención y la acción de retención **Mover a archivo**, vea [Etiquetas de retención y directivas de retención](https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies).
 
 ## Directiva de MRM predeterminada
 
@@ -271,7 +271,7 @@ En esta sección se explica la funcionalidad entre archivos locales y varias car
 
   - **Exchange Search   **La posibilidad de buscar mensajes con rapidez es si cabe incluso más fundamental con los buzones de archivo. Para Exchange Search, no hay ninguna diferencia entre el buzón de correo de archivo y el buzón de correo principal. El contenido de ambos buzones se indiza. Puesto que el buzón de archivo no se almacena en la caché del equipo de ningún usuario (aunque se use Outlook en el modo caché de Exchange), los resultados de búsqueda del archivo siempre se proporcionan mediante Exchange Search. Si se realiza una búsqueda en todo el buzón de Outlook 2010 y superior y Outlook Web App, los resultados de búsqueda incluyen el buzón de correo principal y el buzón de correo de archivo de los usuarios.
 
-  - **Exhibición de documentos electrónicos local**   Cuando un administrador de descubrimiento realiza una búsqueda de exhibición de documentos electrónicos locales, también se busca en los buzones de archivo de los usuarios. No existe ninguna opción para excluir los buzones de archivo al crear una búsqueda de detección desde el Centro de Administración de Exchange (EAC). Si usa el Shell de administración de Exchange para crear una búsqueda de detección, puede excluir el archivo con el modificador *DoNotIncludeArchive*. Para obtener información más detallada, vea [New-MailboxSearch](https://technet.microsoft.com/es-es/library/dd298064\(v=exchg.150\)). Para obtener más información, vea [Exhibición de documentos electrónicos en contexto](in-place-ediscovery-exchange-2013-help.md).
+  - **Exhibición de documentos electrónicos local**   Cuando un administrador de descubrimiento realiza una búsqueda de exhibición de documentos electrónicos locales, también se busca en los buzones de archivo de los usuarios. No existe ninguna opción para excluir los buzones de archivo al crear una búsqueda de detección desde el Centro de Administración de Exchange (EAC). Si usa el Shell de administración de Exchange para crear una búsqueda de detección, puede excluir el archivo con el modificador *DoNotIncludeArchive*. Para obtener información más detallada, vea [New-MailboxSearch](https://technet.microsoft.com/es-es/library/dd298064\(v=exchg.150\)). Para obtener más información, vea [Exhibición de documentos electrónicos en contexto](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules).
     
 
     > [!IMPORTANT]
@@ -279,7 +279,7 @@ En esta sección se explica la funcionalidad entre archivos locales y varias car
 
 
 
-  - **Retención local y Retención por juicio**   Cuando coloca un buzón de correo en retención local o retención por juicio, la retención se coloca tanto en el buzón de correo principal como en el buzón de correo de archivo. Para obtener más información acerca de retención local y retención por litigio, vea [Conservación local y retención por juicio](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+  - **Retención local y Retención por juicio**   Cuando coloca un buzón de correo en retención local o retención por juicio, la retención se coloca tanto en el buzón de correo principal como en el buzón de correo de archivo. Para obtener más información acerca de retención local y retención por litigio, vea [Conservación local y retención por juicio](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-and-litigation-holds).
 
   - **Carpeta Elementos recuperables   **El buzón de archivo contiene su propia carpeta Elementos recuperables y está sujeto a las mismas cuotas de carpeta Elementos recuperables que el buzón de correo principal. Para obtener más información acerca de los elementos recuperables, vea [Carpeta Elementos recuperables](recoverable-items-folder-exchange-2013-help.md).
 

@@ -25,9 +25,9 @@ Al configurar una puerta de enlace VolP, debe tener en cuenta si el dispositivo 
 
 Los siguientes sumergimientos de recursos en Exchange TechCenter proporcionan información que puede ayudarle a configurar correctamente sus puertas de enlace VoIP y PBXs:
 
-  - **Documentación de puertas de enlace VoIP, IP PBX y PBX compatibles**   [Asesor de telefonía para Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md) incluye archivos de configuración e información de configuración que puede usar para configurar puertas de enlace VoIP y PBXs.
+  - **Documentación de puertas de enlace VoIP, IP PBX y PBX compatibles**   [Asesor de telefonía para Exchange 2013](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephony-advisor-for-exchange-2013) incluye archivos de configuración e información de configuración que puede usar para configurar puertas de enlace VoIP y PBXs.
 
-  - **Configuración y notas técnicas**   [Notas para la configuración de puertas de enlace de VoIP, IP PBX y PBX compatibles](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md) incluye archivos de configuración e información de configuración que puede usar para configurar puertas de enlace VoIP y PBXs.
+  - **Configuración y notas técnicas**   [Notas para la configuración de puertas de enlace de VoIP, IP PBX y PBX compatibles](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways) incluye archivos de configuración e información de configuración que puede usar para configurar puertas de enlace VoIP y PBXs.
 
   - **Configuración de una puerta de enlace VolP basada en AudioCodes**  En la [página de recursos del servidor Microsoft Exchange](https://www.audiocodes.com/solutions/microsoft/exchange-server) encontrará la información de configuración y de soporte más reciente que le ayudará a configurar puertas de enlace VolP basadas en AudioCodes para usar con mensajería unificada.
 
@@ -37,7 +37,7 @@ Recomendamos a todos los clientes que planean implementar la mensajería unifica
 
 ## Más información
 
-[Notas para la configuración de puertas de enlace de VoIP, IP PBX y PBX compatibles](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+[Notas para la configuración de puertas de enlace de VoIP, IP PBX y PBX compatibles](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways)
 
 [Conectar la mensajería unificada a una puerta de enlace VoIP compatible](connect-um-to-a-supported-voip-gateway-exchange-2013-help.md)
 

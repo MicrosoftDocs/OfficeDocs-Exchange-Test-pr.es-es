@@ -17,7 +17,7 @@ _**Se aplica a:** Exchange Online, Exchange Server 2013_
 
 _**Última modificación del tema:** 2015-03-09_
 
-En esta introducción se explican los componentes de una definición de esquema XML para los archivos de plantilla de directiva de prevención de pérdida de datos (DLP). También se proporciona un archivo de plantilla en formato XML a modo de ejemplo, que le será útil para comprender la arquitectura general de DLP y el proceso de desarrollo de reglas antes de comenzar. Para obtener más información, vea [Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md) y [Definir sus propios tipos de información y plantillas de DLP](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
+En esta introducción se explican los componentes de una definición de esquema XML para los archivos de plantilla de directiva de prevención de pérdida de datos (DLP). También se proporciona un archivo de plantilla en formato XML a modo de ejemplo, que le será útil para comprender la arquitectura general de DLP y el proceso de desarrollo de reglas antes de comenzar. Para obtener más información, vea [Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention) y [Definir sus propios tipos de información y plantillas de DLP](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
 
 Para facilitar el uso y la administración de las soluciones de prevención de pérdida de datos, Microsoft Exchange Server 2013 incluye un modelo conceptual conocido como directivas DLP y plantillas de directiva. Las plantillas de directiva DLP proporcionan un diseño preliminar para la directiva DLP que se pretende crear. Para que resulten útiles, las plantillas de directiva DLP deben encapsular todas las directivas y objetos de datos necesarios para cumplir un objetivo de directiva específico, como una regulación o una necesidad empresarial. La plantilla no está destinada a ningún entorno en concreto. Sencillamente, se trata de una definición o modelo de directiva que se puede proporcionar como parte de la configuración del producto o que los proveedores de software independientes o socios pueden suministrar. Por otro lado, las directivas DLP son creaciones de instancias en tiempo de ejecución de las plantillas que son específicas de un entorno de implementación. Un marco de directivas de mensajería existente puede incorporar directivas DLP mediante el uso de reglas de transporte. Las reglas de transporte ofrecen una gran flexibilidad para adaptar y expresar la variedad de soluciones de DLP.
 
@@ -315,7 +315,7 @@ Los elementos secundarios incluyen la siguiente secuencia ordenada de elementos.
 
 ## Más información
 
-[Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Definir sus propios tipos de información y plantillas de DLP](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md)
 

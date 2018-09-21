@@ -23,7 +23,7 @@ Métricas de grupo es la recopilación de los siguientes datos sobre grupos de d
 
   - Número de miembros que no pertenecen a su organización
 
-Los datos de métricas de grupo se usan para admitir información sobre correo en Microsoft Exchange Server 2013. Las sugerencias de correo electrónico son mensajes informativos que se muestran a los remitentes cuando redactan mensajes. Para obtener más información acerca de las sugerencias de correo electrónico, incluida una lista completa de sugerencias disponibles en Exchange 2013, consulte [MailTips](mailtips-exchange-2013-help.md).
+Los datos de métricas de grupo se usan para admitir información sobre correo en Microsoft Exchange Server 2013. Las sugerencias de correo electrónico son mensajes informativos que se muestran a los remitentes cuando redactan mensajes. Para obtener más información acerca de las sugerencias de correo electrónico, incluida una lista completa de sugerencias disponibles en Exchange 2013, consulte [MailTips](https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips).
 
 Las siguientes sugerencias de correo electrónico utilizan datos de métricas de grupo:
 

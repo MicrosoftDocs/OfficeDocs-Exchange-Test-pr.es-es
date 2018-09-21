@@ -29,7 +29,7 @@ _**Última modificación del tema:** 2013-11-01_
 
 [Habilitar o deshabilitar el descifrado de transporte](enable-or-disable-transport-decryption-exchange-2013-help.md)
 
-[Configurar IRM para la búsqueda y la exhibición de documentos electrónicos local de Exchange](configure-irm-for-exchange-search-and-in-place-ediscovery-exchange-2013-help.md)
+[Configurar IRM para la búsqueda y la exhibición de documentos electrónicos local de Exchange](configure-irm-for-exchange-search-and-https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules)
 
 [Habilitar o deshabilitar el descifrado de informes de diario](enable-or-disable-journal-report-decryption-exchange-2013-help.md)
 

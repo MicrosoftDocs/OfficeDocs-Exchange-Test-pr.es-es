@@ -21,17 +21,17 @@ _**Última modificación del tema:** 2012-10-12_
 
 [Actualizar una lista de direcciones](update-an-address-list-exchange-2013-help.md)
 
-[Crear una lista de direcciones mediante filtros de destinatario](create-an-address-list-by-using-recipient-filters-exchange-2013-help.md)
+[Crear una lista de direcciones mediante filtros de destinatario](https://docs.microsoft.com/es-es/exchange/address-books/address-lists/use-recipient-filters-to-create-an-address-list)
 
 [Mover una lista de direcciones](move-an-address-list-exchange-2013-help.md)
 
 [Quitar una lista de direcciones](remove-an-address-list-exchange-2013-help.md)
 
-[Crear una lista global de direcciones](create-a-global-address-list-exchange-2013-help.md)
+[Crear una lista global de direcciones](https://docs.microsoft.com/es-es/exchange/address-books/address-lists/create-global-address-list)
 
-[Configurar las propiedades de la lista global de direcciones](configure-global-address-list-properties-exchange-2013-help.md)
+[Configurar las propiedades de la lista global de direcciones](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)
 
-[Quitar una lista global de direcciones](remove-a-global-address-list-exchange-2013-help.md)
+[Quitar una lista global de direcciones](https://docs.microsoft.com/es-es/exchange/address-books/address-lists/remove-a-global-address-list)
 
 [Actualizar una lista global de direcciones](update-a-global-address-list-exchange-2013-help.md)
 

@@ -75,7 +75,7 @@ El archivado local permite recuperar el control de los datos de mensajería de l
         
         Para obtener más información, vea [Archivado local en Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md).
     
-      - **Directiva de libreta de direcciones** Utilice esta lista para seleccionar una directiva de libreta de direcciones (ABP) para el buzón. Las ABP contienen una lista global de direcciones (GAL), una libreta de direcciones sin conexión (OAB), una lista de salas y un conjunto de listas de direcciones. Cuando se asigna una ABP a usuarios de buzones de correo, les proporciona acceso a una GAL personalizada en Outlook y Outlook Web App. Para obtener más información, vea [Directivas de la libreta de direcciones](address-book-policies-exchange-2013-help.md).
+      - **Directiva de libreta de direcciones** Utilice esta lista para seleccionar una directiva de libreta de direcciones (ABP) para el buzón. Las ABP contienen una lista global de direcciones (GAL), una libreta de direcciones sin conexión (OAB), una lista de salas y un conjunto de listas de direcciones. Cuando se asigna una ABP a usuarios de buzones de correo, les proporciona acceso a una GAL personalizada en Outlook y Outlook Web App. Para obtener más información, vea [Directivas de la libreta de direcciones](https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/address-book-policies).
 
 6.  Cuando haya finalizado, haga clic en **Guardar** para crear el buzón.
 

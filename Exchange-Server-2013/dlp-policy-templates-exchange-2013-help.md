@@ -59,7 +59,7 @@ Puede incorporar capacidades de detección de DLP con reglas de transporte tradi
 
   -  [Reglas de flujo de correo (reglas de transporte) en Exchange Online](https://technet.microsoft.com/es-es/library/jj919238\(v=exchg.150\)) (Exchange Online)
 
-  -  [Administrar reglas de flujo de correo](manage-mail-flow-rules-exchange-2013-help.md)
+  -  [Administrar reglas de flujo de correo](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
     
   -  [Cmdlets de directiva y conformidad](https://technet.microsoft.com/es-es/library/dd298082\(v=exchg.150\))
 
@@ -67,11 +67,11 @@ Puede incorporar capacidades de detección de DLP con reglas de transporte tradi
 
 Microsoft proporciona numerosas directivas de DLP. Esta es la forma más sencilla de comenzar con una solución de DLP flexible y simple de implementar. Puede utilizar las directivas proporcionadas en cualquier momento como punto de partida y personalizarlas para que cumplan sus requisitos. Para empezar, consulte la siguiente información:
 
-  - [Plantillas de directivas de DLP suministradas en Exchange](dlp-policy-templates-supplied-in-exchange-exchange-2013-help.md)
+  - [Plantillas de directivas de DLP suministradas en Exchange](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/dlp-policy-templates)
 
-  - [Crear una directiva DLP a partir de una plantilla](how-to-new-dlp-data-loss-prevention-policy-template.md)
+  - [Crear una directiva DLP a partir de una plantilla](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template)
 
 ## Más información
 
-[Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 

@@ -23,7 +23,7 @@ Al integrar Microsoft Lync Server con la mensajería unificada de Exchange (MU),
     
 
     > [!IMPORTANT]
-    > El script ExchUcUtil.ps1 crea una o más puertas de enlace IP de Mensajería unificada. Debe deshabilitar las llamadas salientes en todas las puertas de enlace IP de Mensajería unificada excepto una puerta de enlace que creó la secuencia de comandos. Esto incluye deshabilitar las llamadas salientes de las puertas de enlace IP de Mensajería unificada que se crearon antes de ejecutar el script. Para deshabilitar las llamadas salientes en una puerta de enlace IP de Mensajería unificada, consulte <A href="disable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md">Deshabilitar las llamadas salientes de puertas de enlace IP de mensajería unificada</A>.
+    > El script ExchUcUtil.ps1 crea una o más puertas de enlace IP de Mensajería unificada. Debe deshabilitar las llamadas salientes en todas las puertas de enlace IP de Mensajería unificada excepto una puerta de enlace que creó la secuencia de comandos. Esto incluye deshabilitar las llamadas salientes de las puertas de enlace IP de Mensajería unificada que se crearon antes de ejecutar el script. Para deshabilitar las llamadas salientes en una puerta de enlace IP de Mensajería unificada, consulte <A href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-outgoing-calls-on-um-ip-gateways">Deshabilitar las llamadas salientes de puertas de enlace IP de mensajería unificada</A>.
 
 
 
@@ -59,7 +59,7 @@ Ejecute el script ExchUcUtil.ps1 en todos los servidores Exchange de la organiza
 
 
 > [!IMPORTANT]
-> El script ExchUcUtil.ps1 crea una o más puertas de enlace IP de Mensajería unificada. Debe deshabilitar las llamadas salientes en todas las puertas de enlace IP de Mensajería unificada excepto una puerta de enlace que creó la secuencia de comandos. Esto incluye deshabilitar las llamadas salientes de las puertas de enlace IP de Mensajería unificada que se crearon antes de ejecutar el script. Para deshabilitar las llamadas salientes en una puerta de enlace IP de Mensajería unificada, consulte <A href="disable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md">Deshabilitar las llamadas salientes de puertas de enlace IP de mensajería unificada</A>.
+> El script ExchUcUtil.ps1 crea una o más puertas de enlace IP de Mensajería unificada. Debe deshabilitar las llamadas salientes en todas las puertas de enlace IP de Mensajería unificada excepto una puerta de enlace que creó la secuencia de comandos. Esto incluye deshabilitar las llamadas salientes de las puertas de enlace IP de Mensajería unificada que se crearon antes de ejecutar el script. Para deshabilitar las llamadas salientes en una puerta de enlace IP de Mensajería unificada, consulte <A href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-outgoing-calls-on-um-ip-gateways">Deshabilitar las llamadas salientes de puertas de enlace IP de mensajería unificada</A>.
 
 
 

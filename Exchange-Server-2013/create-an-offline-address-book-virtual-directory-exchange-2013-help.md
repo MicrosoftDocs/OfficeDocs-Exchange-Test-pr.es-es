@@ -21,7 +21,7 @@ El directorio virtual OAB es la distribución de OAB. De forma predeterminada, c
 
 La creación de un directorio virtual de OAB no es una tarea habitual. Exchange permite un directorio virtual de OAB denominado OAB, y sólo debería crear un directorio virtual de OAB si hay algún problema con el directorio virtual de OAB existente, y se eliminó el directorio virtual de OAB anterior.
 
-Para otras tareas de administración relacionadas con las OAB, consulte [Procedimientos de libretas de direcciones sin conexión](offline-address-book-procedures-exchange-2013-help.md).
+Para otras tareas de administración relacionadas con las OAB, consulte [Procedimientos de libretas de direcciones sin conexión](https://docs.microsoft.com/es-es/exchange/address-books/offline-address-books/offline-address-book-procedures).
 
 
 > [!IMPORTANT]
@@ -67,7 +67,7 @@ En este ejemplo, se crea un directorio virtual OAB en el servidor de acceso de c
 
     New-OABVirtualDirectory -Server CASServer01 -RequireSSL $true -ExternalURL "https://www.contoso.com/OAB"
 
-Una vez creado un nuevo directorio virtual OAB, deberá editar la configuración en cada OAB que use la distribución basada en Web para volver a conectarse al directorio virtual OAB. Para obtener más información, consulte [Cambiar el programa de generación de libretas de direcciones sin conexión](change-the-offline-address-book-generation-schedule-exchange-2013-help.md).
+Una vez creado un nuevo directorio virtual OAB, deberá editar la configuración en cada OAB que use la distribución basada en Web para volver a conectarse al directorio virtual OAB. Para obtener más información, consulte [Cambiar el programa de generación de libretas de direcciones sin conexión](https://docs.microsoft.com/es-es/exchange/address-books/offline-address-books/change-address-book-generation-schedule).
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [New-OabVirtualDirectory](https://technet.microsoft.com/es-es/library/bb123735\(v=exchg.150\)).
 

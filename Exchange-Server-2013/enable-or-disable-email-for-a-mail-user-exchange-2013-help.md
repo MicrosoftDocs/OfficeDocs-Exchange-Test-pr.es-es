@@ -27,7 +27,7 @@ Después de deshabilitar el correo electrónico de un usuario de correo, puede v
 
 
 
-Para otras tareas de administración relacionadas con usuarios de correo, consulte [Administrar usuarios de correo](manage-mail-users-exchange-2013-help.md).
+Para otras tareas de administración relacionadas con usuarios de correo, consulte [Administrar usuarios de correo](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-mail-users).
 
 ## ¿Qué necesita saber antes de comenzar?
 

@@ -25,13 +25,13 @@ Cuando coloca un buzón en retención por juicio, se conservan todos los tipos d
 
 
 > [!NOTE]
-> También puede configurar una conservación local para excluir elementos de Lync. Por ejemplo, las organizaciones pueden preferir conservar elementos de correo de voz y mensajes instantáneos durante un período de tiempo más corto que otros tipos de contenido. Para implementar este tipo de directiva de suspensión, creará una conservación local para conservar el contenido durante un período de tiempo largo (por ejemplo, 7 años) y excluir elementos de Lync de esta suspensión. Después, creará otra conservación local con una duración de la suspensión inferior que conserve solo elementos de Lync. También puede especificar cuánto tiempo debe conservarse el contenido. Para obtener más información sobre la creación de una suspensión con una duración específica, vea <A href="in-place-hold-and-litigation-hold-exchange-2013-help.md">Conservación local y retención por juicio</A>.
+> También puede configurar una conservación local para excluir elementos de Lync. Por ejemplo, las organizaciones pueden preferir conservar elementos de correo de voz y mensajes instantáneos durante un período de tiempo más corto que otros tipos de contenido. Para implementar este tipo de directiva de suspensión, creará una conservación local para conservar el contenido durante un período de tiempo largo (por ejemplo, 7 años) y excluir elementos de Lync de esta suspensión. Después, creará otra conservación local con una duración de la suspensión inferior que conserve solo elementos de Lync. También puede especificar cuánto tiempo debe conservarse el contenido. Para obtener más información sobre la creación de una suspensión con una duración específica, vea <A href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-and-litigation-holds">Conservación local y retención por juicio</A>.
 
 
 
 Vea los temas siguientes para obtener instrucciones paso a paso para colocar un usuario en suspensión:
 
-  - [Crear o quitar una conservación local](create-or-remove-an-in-place-hold-exchange-2013-help.md)
+  - [Crear o quitar una conservación local](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/navigating-menus-with-outlook-voice-access)
 
   - [Poner un buzón en retención por juicio](place-a-mailbox-on-litigation-hold-exchange-2013-help.md)
 

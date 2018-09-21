@@ -19,7 +19,7 @@ _**Última modificación del tema:** 2012-11-16_
 
 En Microsoft Exchange Server 2013, pueden configurar Information Rights Management (IRM) de manera que Exchange Search pueda indizar los mensajes protegidos de IRM.
 
-Cuando los miembros del grupo de roles de administración de detección usa una búsqueda de [Exhibición de documentos electrónicos en contexto](in-place-ediscovery-exchange-2013-help.md), los mensajes protegidos por IRM aparecen en los resultados de búsqueda y se copian en el buzón de correo de detección especificado en la búsqueda. Además, los miembros del grupo de roles de administración de detección pueden usar Outlook Web App para obtener acceso a los mensajes protegidos por IRM que se copiaron en el buzón de detección como resultado de la búsqueda de detección.
+Cuando los miembros del grupo de roles de administración de detección usa una búsqueda de [Exhibición de documentos electrónicos en contexto](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules), los mensajes protegidos por IRM aparecen en los resultados de búsqueda y se copian en el buzón de correo de detección especificado en la búsqueda. Además, los miembros del grupo de roles de administración de detección pueden usar Outlook Web App para obtener acceso a los mensajes protegidos por IRM que se copiaron en el buzón de detección como resultado de la búsqueda de detección.
 
 
 > [!NOTE]

@@ -37,9 +37,9 @@ Exchange 2013 permite a SharePoint 2013 buscar contenido de buzón de correo de
 
 Para obtener información detallada, consulte los siguientes temas:
 
-  - [Exhibición de documentos electrónicos en contexto](in-place-ediscovery-exchange-2013-help.md)
+  - [Exhibición de documentos electrónicos en contexto](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules)
 
-  - [Conservación local y retención por juicio](in-place-hold-and-litigation-hold-exchange-2013-help.md)
+  - [Conservación local y retención por juicio](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-and-litigation-holds)
 
   - [Configurar eDiscovery en SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?linkid=257727)
 

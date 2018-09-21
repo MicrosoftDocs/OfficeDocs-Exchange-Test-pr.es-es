@@ -1,4 +1,4 @@
-- name: Vista previa de Exchange Server 2013
+﻿- name: Vista previa de Exchange Server 2013
   href: exchange-server-2013-exchange-2013-help.md
   items:
   - name: Novedades en Exchange 2013
@@ -665,7 +665,7 @@
       - name: Administrar archivos locales en Exchange 2013
         href: manage-in-place-archives-in-exchange-2013-exchange-2013-help.md
       - name: Modificar las directivas de archivo
-        href: modify-archive-policies-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/modify-archive-policies
       - name: Configurar cuotas de archivo para un archivo en contexto (local)
         href: configure-archive-quotas-for-an-in-place-archive-in-exchange-2013-exchange-2013-help.md
       - name: Archivar conversaciones de Lync y contenido de reuniones en Exchange
@@ -673,7 +673,7 @@
       - name: Uso de la autenticación de OAuth para admitir el archivado en una implementación híbrida de Exchange
         href: using-oauth-authentication-to-support-archiving-in-an-exchange-hybrid-deployment-exchange-2013-help.md
     - name: Conservación local y retención por juicio
-      href: in-place-hold-and-litigation-hold-exchange-2013-help.md
+      href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-and-litigation-holds
       items:
       - name: Crear o quitar una conservación local
         href: create-or-remove-an-in-place-hold-exchange-2013-help.md
@@ -687,15 +687,15 @@
       href: in-place-ediscovery-exchange-2013-help.md
       items:
       - name: Asignar permisos de exhibición de documentos electrónicos en Exchange
-        href: assign-ediscovery-permissions-in-exchange-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions
       - name: Crear una búsqueda de exhibición de documentos electrónicos local
-        href: create-an-in-place-ediscovery-search-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search
       - name: Copiar los resultados de la búsqueda de exhibición de documentos electrónicos en un buzón de correo de detección
         href: copy-ediscovery-search-results-to-a-discovery-mailbox-exchange-2013-help.md
       - name: Exportar los resultados de la búsqueda de exhibición de documentos electrónicos a un archivo PST
-        href: export-ediscovery-search-results-to-a-pst-file-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/export-search-results
       - name: Propiedades de mensajes y operadores de búsqueda para la exhibición de documentos electrónicos local
-        href: message-properties-and-search-operators-for-in-place-ediscovery-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/message-properties-and-search-operators
       - name: Crear un buzón de correo de detección
         href: create-a-discovery-mailbox-exchange-2013-help.md
       - name: Iniciar o detener una búsqueda de exhibición de documentos electrónicos local
@@ -703,7 +703,7 @@
       - name: Modificar una búsqueda de exhibición de documentos electrónicos local
         href: modify-an-in-place-ediscovery-search-exchange-2013-help.md
       - name: Crear un ámbito de administración personalizado para las búsquedas de exhibición de documentos electrónicos local
-        href: create-a-custom-management-scope-for-in-place-ediscovery-searches-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/create-custom-management-scope
       - name: Quitar una búsqueda de exhibición de documentos electrónicos local
         href: remove-an-in-place-ediscovery-search-exchange-2013-help.md
       - name: 'Buscar y eliminar mensajes: Ayuda para administradores'
@@ -711,7 +711,7 @@
       - name: Reducir el tamaño de un buzón de correo de detección en Exchange
         href: reduce-the-size-of-a-discovery-mailbox-in-exchange-exchange-2013-help.md
       - name: Eliminar y volver a crear el buzón de correo de detección predeterminado en Exchange
-        href: delete-and-re-create-the-default-discovery-mailbox-in-exchange-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/delete-and-re-create-default-discovery-mailbox
       - name: Re-create the Discovery system mailbox
         href: re-create-the-discovery-system-mailbox-exchange-2013-help.md
       - name: Uso de la autenticación de OAuth para admitir la exhibición de documentos electrónicos en una implementación híbrida de Exchange
@@ -721,34 +721,34 @@
       - name: Elementos no aptos para la búsqueda en la exhibición de documentos electrónicos de Exchange
         href: unsearchable-items-in-exchange-ediscovery-exchange-2013-help.md
     - name: Administración de registros de mensajes
-      href: messaging-records-management-exchange-2013-help.md
+      href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/messaging-records-management
       items:
       - name: Mensajería de registros terminología de administración de Exchange de 2013
         href: messaging-records-management-terminology-in-exchange-2013-exchange-2013-help.md
       - name: Etiquetas de retención y directivas de retención
-        href: retention-tags-and-retention-policies-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies
         items:
         - name: Directiva de retención predeterminada
-          href: default-retention-policy-in-exchange-online-and-exchange-server-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/default-retention-policy
         - name: Carpetas predeterminadas que admiten etiquetas de la directiva de retención
-          href: default-folders-that-support-retention-policy-tags-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/default-folders
         - name: Cómo calcular la antigüedad de retención
-          href: how-retention-age-is-calculated-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/retention-age
         - name: 'Lista de comprobación: implementación de directivas de retención'
           href: checklist-deploying-retention-policies-exchange-2013-help.md
         - name: Procedimientos de administración de registros de mensajería
           href: messaging-records-management-procedures-exchange-2013-help.md
           items:
           - name: Crear directivas de retención
-            href: create-a-retention-policy-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy
           - name: Agregar etiquetas de retención o quitar etiquetas de retención de una directiva de retención
             href: add-retention-tags-to-or-remove-retention-tags-from-a-retention-policy-exchange-2013-help.md
           - name: Aplicar una directiva de retención a los buzones
-            href: apply-a-retention-policy-to-mailboxes-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/apply-retention-policy
           - name: Configuración del asistente para carpetas administradas
             href: configure-the-managed-folder-assistant-exchange-2013-help.md
           - name: Poner un buzón en retención
-            href: place-a-mailbox-on-retention-hold-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold
           - name: Exportar e importar etiquetas de retención
             href: export-and-import-retention-tags-exchange-2013-help.md
           - name: Configurar el bloqueo del cliente de Outlook
@@ -756,21 +756,21 @@
           - name: Migrar desde carpetas administradas
             href: migrate-from-managed-folders-exchange-2013-help.md
           - name: Desactivar o suspender la administración de registros de mensajería
-            href: turn-off-or-suspend-messaging-records-management-exchange-2013-help.md
+            href: turn-off-or-suspend-https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/messaging-records-management
       - name: Administración de registros de seguimiento de mensajería
-        href: monitoring-messaging-records-management-exchange-2013-help.md
+        href: monitoring-https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/messaging-records-management
         items:
         - name: Ver los contadores de rendimiento para la administración de registros de mensajes
-          href: view-performance-counters-for-messaging-records-management-exchange-2013-help.md
+          href: view-performance-counters-for-https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/messaging-records-management
         - name: Contadores de rendimiento para la administración de registros de mensajes
-          href: performance-counters-for-messaging-records-management-exchange-2013-help.md
+          href: performance-counters-for-https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/messaging-records-management
         - name: Errores y eventos de administración de registros de mensajes
           href: messaging-records-management-errors-and-events-exchange-2013-help.md
     - name: Registro en diario
       href: journaling-exchange-2013-help.md
       items:
       - name: Administrar registro en diario
-        href: manage-journaling-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/journaling/manage-journaling
       - name: Deshabilitar o habilitar el registro en diario de correo de voz y notificaciones de llamadas perdidas
         href: disable-or-enable-journaling-of-voice-mail-and-missed-call-notifications-exchange-2013-help.md
     - name: Reglas de flujo de correo (reglas de transporte)
@@ -781,7 +781,7 @@
       - name: Acciones de las reglas de flujo de correo
         href: mail-flow-rule-actions-in-exchange-2013-exchange-2013-help.md
       - name: Procedimientos recomendados para configurar las reglas de flujo de correo
-        href: best-practices-for-configuring-mail-flow-rules-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/configuration-best-practices
       - name: Usar reglas de transporte para inspeccionar datos adjuntos de mensajes
         href: use-transport-rules-to-inspect-message-attachments-exchange-2013-help.md
       - name: Escenarios comunes de bloqueo de datos adjuntos
@@ -792,27 +792,27 @@
         href: mail-flow-or-transport-rule-procedures-exchange-2013-help.md
         items:
         - name: Administrar reglas de flujo de correo
-          href: manage-mail-flow-rules-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules
         - name: Probar una regla de flujo de correo
-          href: test-a-mail-flow-rule-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules
         - name: Usar reglas de flujo de correo para que los mensajes puedan evitar Otros correos
-          href: use-mail-flow-rules-so-messages-can-bypass-clutter-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/use-rules-to-bypass-clutter
         - name: Usar reglas de flujo de correo para enrutar el correo electrónico en función de una lista de palabras, expresiones o patrones
-          href: use-mail-flow-rules-to-route-email-based-on-a-list-of-words-phrases-or-patterns-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/use-rules-to-route-email
         - name: Registrar IFilters de Filter Pack con Exchange 2013
           href: register-filter-pack-ifilters-with-exchange-2013-exchange-2013-help.md
       - name: Administrar la aprobación de mensajes
-        href: manage-message-approval-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-message-approval
         items:
         - name: Escenarios comunes de aprobación de mensajes
           href: common-message-approval-scenarios-exchange-2013-help.md
         - name: Administrar y solucionar problemas de aprobación de mensajes
-          href: manage-and-troubleshoot-message-approval-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/ttroubleshoot-message-approval
     - name: Prevención de pérdida de datos
-      href: technical-overview-of-dlp-data-loss-prevention-in-exchange.md
+      href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention
       items:
       - name: Cómo se aplican las reglas de DLP para la evaluación de mensajes
-        href: how-dlp-rules-are-applied-to-evaluate-messages-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/dlp-rule-application
       - name: Integración de las reglas de información confidencial con las reglas de transporte
         href: integrating-sensitive-information-rules-with-transport-rules-exchange-2013-help.md
       - name: Qué buscan los tipos de información confidencial
@@ -821,7 +821,7 @@
         href: dlp-policy-templates-exchange-2013-help.md
         items:
         - name: Plantillas de directivas de DLP suministradas en Exchange
-          href: dlp-policy-templates-supplied-in-exchange-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/dlp-policy-templates
         - name: Plantillas de directiva de partners de Microsoft
           href: policy-templates-from-microsoft-partners-exchange-2013-help.md
       - name: Procedimientos de DLP
@@ -830,7 +830,7 @@
         - name: Administrar directivas de DLP
           href: manage-dlp-policies-exchange-2013-help.md
         - name: Crear una directiva DLP a partir de una plantilla
-          href: how-to-new-dlp-data-loss-prevention-policy-template.md
+          href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template
         - name: Crear una nueva directiva de DLP personalizada
           href: create-a-custom-dlp-policy-exchange-2013-help.md
         - name: Importar una plantilla de directiva DLP personalizada desde un archivo
@@ -856,12 +856,12 @@
         href: technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md
         items:
         - name: Administrar las sugerencias de las directivas
-          href: how-to-configure-and-manage-policy-tips-a-dlp-feature-exchange.md
+          href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/manage-policy-tips
       - name: Creación de huella digital de documento
-        href: overview-of-document-fingerprinting-in-exchange.md
+        href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/document-fingerprinting
         items:
         - name: Proteger los datos de formulario con huellas digitales de documentos
-          href: protect-form-data-with-document-fingerprinting-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/protect-data-with-fingerprinting
     - name: Information Rights Management
       href: information-rights-management-exchange-2013-help.md
       items:
@@ -933,16 +933,16 @@
       - name: Administrar el registro de auditoría de administrador
         href: manage-administrator-audit-logging-exchange-2013-help.md
     - name: Informes de auditoría de Exchange
-      href: exchange-auditing-reports-exchange-2013-help.md
+      href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports
       items:
       - name: Exportar registros de auditoría de buzones
-        href: export-mailbox-audit-logs-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/exchange-auditing-reports/export-mailbox-audit-logs
       - name: Ejecución de un informe de acceso al buzón de correo del que no se es propietario
-        href: run-a-non-owner-mailbox-access-report-exchange-online-help.md
+        href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/exchange-auditing-reports/non-owner-mailbox-access-report
       - name: Ejecutar un informe de retención por litigio por buzón
-        href: run-a-per-mailbox-litigation-hold-report-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/exchange-auditing-reports/per-mailbox-litigation-hold-report
       - name: Buscar los informes de cambios del grupo de roles o auditorías de administrador
-        href: search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes
       - name: Ver el registro de auditoría del administrador
         href: view-the-administrator-audit-log-exchange-2013-help.md
   - name: Protección antimalware y contra correo no deseado
@@ -1119,7 +1119,7 @@
         - name: Configurar informes de mensajes de dominio remoto
           href: configure-remote-domain-message-reporting-exchange-2013-help.md
         - name: Juegos de caracteres compatibles para dominios remotos
-          href: supported-character-sets-for-remote-domains-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/mail-flow-best-practices/remote-domains/supported-character-sets
     - name: Agentes de transporte
       href: transport-agents-exchange-2013-help.md
       items:
@@ -1268,44 +1268,44 @@
       - name: Configurar el reenvío de correo electrónico para un buzón de correo
         href: configure-email-forwarding-for-a-mailbox-exchange-2013-help.md
       - name: Configurar restricciones de entrega de mensajes para un buzón de correo
-        href: configure-message-delivery-restrictions-for-a-mailbox-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-message-delivery-restrictions
       - name: Configurar límites de tamaño de mensaje para un buzón de correo
         href: configure-message-size-limits-for-a-mailbox-exchange-2013-help.md
       - name: Configurar cuotas de almacenamiento para un buzón
         href: configure-storage-quotas-for-a-mailbox-exchange-2013-help.md
       - name: Convertir un buzón
-        href: convert-a-mailbox-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-user-mailboxes/convert-a-mailbox
       - name: Habilitar o deshabilitar Exchange ActiveSync para un buzón de correo
         href: enable-or-disable-exchange-activesync-for-a-mailbox-exchange-2013-help.md
       - name: Habilitar o deshabilitar MAPI para un buzón de correo
-        href: enable-or-disable-mapi-for-a-mailbox-exchange-online-help.md
+        href: https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-mapi
       - name: Habilitar o deshabilitar Outlook Web App para un buzón de correo
-        href: enable-or-disable-outlook-web-app-for-a-mailbox-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app
       - name: Habilitar o deshabilitar la recuperación de elementos individuales de un buzón de correo
-        href: enable-or-disable-single-item-recovery-for-a-mailbox-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-single-item-recovery
     - name: Administrar buzones vinculados
       href: manage-linked-mailboxes-exchange-2013-help.md
     - name: Crear y administrar grupos de distribución
       href: create-and-manage-distribution-groups-exchange-2013-help.md
       items:
       - name: Crear una directiva de nomenclatura de grupos de distribución
-        href: create-a-distribution-group-naming-policy-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy
       - name: Invalidar la directiva de nomenclatura de grupos de distribución
-        href: override-the-distribution-group-naming-policy-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-distribution-groups/override-group-naming-policy
     - name: Administrar grupos de seguridad habilitados para correo
-      href: manage-mail-enabled-security-groups-exchange-2013-help.md
+      href: https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups
     - name: Administrar grupos de distribución dinámica
       href: manage-dynamic-distribution-groups-exchange-2013-help.md
       items:
       - name: Ver los miembros de un grupo de distribución dinámico
         href: view-members-of-a-dynamic-distribution-group-exchange-online-help.md
     - name: Administrar contactos de correo
-      href: manage-mail-contacts-exchange-2013-help.md
+      href: https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-mail-contacts
       items:
       - name: Habilitar o deshabilitar el correo electrónico de un contacto de correo
         href: enable-or-disable-email-for-a-mail-contact-exchange-2013-help.md
     - name: Administrar usuarios de correo
-      href: manage-mail-users-exchange-2013-help.md
+      href: https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-mail-users
       items:
       - name: Habilitar o deshabilitar el correo electrónico de un usuario de correo
         href: enable-or-disable-email-for-a-mail-user-exchange-2013-help.md
@@ -1354,9 +1354,9 @@
       - name: Consideraciones a la hora de implementar carpetas públicas
         href: considerations-when-deploying-public-folders-exchange-2013-help.md
       - name: Acceso a las carpetas públicas con Outlook 2016 para Mac
-        href: accessing-public-folders-with-outlook-2016-for-mac-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/access-public-folders-with-outlook-2016-for-mac
       - name: Migrar las carpetas públicas a grupos de Office 365
-        href: migrate-your-public-folders-to-office-365-groups-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/migrate-your-public-folders-to-office-365-groups
       - name: Procedimientos de carpetas públicas
         href: public-folder-procedures-exchange-2013-help.md
         items:
@@ -1365,7 +1365,7 @@
         - name: Configurar carpetas públicas locales heredadas para una implementación híbrida
           href: configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md
         - name: Configuración de las carpetas públicas de Exchange 2013 para una implementación híbrida
-          href: configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/set-up-modern-hybrid-public-folders
         - name: Configurar las carpetas públicas de Exchange Online para una implementación híbrida
           href: configure-exchange-online-public-folders-for-a-hybrid-deployment-exchange-2013-help.md
         - name: Configurar las carpetas públicas heredadas en las que se encuentran los buzones de usuario en los servidores de Exchange 2013
@@ -1373,26 +1373,26 @@
         - name: Usar migración por lotes para migrar carpetas públicas a Exchange 2013 desde versiones anteriores
           href: use-batch-migration-to-migrate-public-folders-to-exchange-2013-from-previous-versions-exchange-2013-help.md
         - name: Usar la migración por lotes para migrar carpetas públicas heredadas a Office 365 y Exchange Online
-          href: use-batch-migration-to-migrate-legacy-public-folders-to-office-365-and-exchange-online-exchange-online-help.md
+          href: https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/batch-migration-of-legacy-public-folders
         - name: Usar la migración por lotes para migrar carpetas públicas de Exchange 2013 a Exchange Online
-          href: use-batch-migration-to-migrate-exchange-2013-public-folders-to-exchange-online-exchange-online-help.md
+          href: https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/batch-migration-of-exchange-2013-public-folders
           items:
           - name: Revertir una migración de carpetas públicas de Exchange 2013 a Exchange Online
-            href: roll-back-a-public-folder-migration-from-exchange-2013-to-exchange-online-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/roll-back-exchange-2013-public-folder-migration
         - name: Utilizar lotes de migración para migrar carpetas públicas de Exchange 2010 a Office 365 grupos
           href: use-batch-migration-to-migrate-exchange-2010-public-folders-to-office-365-groups-exchange-2013-help.md
         - name: Utilizar lotes de migración para migrar carpetas públicas de Exchange de 2013 a Office 365 grupos
           href: use-batch-migration-to-migrate-exchange-2013-public-folders-to-office-365-groups-exchange-2013-help.md
         - name: Crear un buzón de carpetas públicas
-          href: create-a-public-folder-mailbox-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/create-public-folder-mailbox
         - name: Crear una carpeta pública
-          href: create-a-public-folder-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/create-public-folder
         - name: Habilitar o deshabilitar el correo para una carpeta pública
           href: mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md
         - name: Actualizar la jerarquía de carpetas públicas
-          href: update-the-public-folder-hierarchy-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/update-public-folder-hierarchy
         - name: Quitar una carpeta pública
-          href: remove-a-public-folder-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/remove-public-folder
         - name: Usar carpetas públicas favoritas en Outlook en la web
           href: use-favorite-public-folders-in-outlook-on-the-web-exchange-2013-help.md
         - name: Mover un buzón de carpetas públicas a una base de datos de buzones diferente
@@ -1402,7 +1402,7 @@
         - name: Restaurar carpetas públicas y buzones de carpetas públicas de movimientos fallidos
           href: restore-public-folders-and-public-folder-mailboxes-from-failed-moves-exchange-2013-help.md
         - name: Ver estadísticas de carpetas públicas y elementos de carpetas públicas
-          href: view-statistics-for-public-folders-and-public-folder-items-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/view-public-folder-statistics
     - name: Buzones compartidos
       href: shared-mailboxes-exchange-2013-help.md
       items:
@@ -1412,23 +1412,23 @@
     href: email-addresses-and-address-books-exchange-2013-help.md
     items:
     - name: Directivas de la libreta de direcciones
-      href: address-book-policies-exchange-2013-help.md
+      href: https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/address-book-policies
       items:
       - name: 'Caso: implementación de directivas de libretas de direcciones'
-        href: scenario-deploying-address-book-policies-exchange-2013-help.md
+        href: scenario-deploying-https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/address-book-policies
       - name: Procedimientos de directivas de la libreta de direcciones
         href: address-book-policy-procedures-exchange-2013-help.md
         items:
         - name: Instalar y configurar al agente de enrutamiento de directivas de libretas de direcciones
           href: install-and-configure-the-address-book-policy-routing-agent-exchange-2013-help.md
         - name: Crear una directiva de libreta de direcciones
-          href: create-an-address-book-policy-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/create-an-address-book-policy
         - name: Asignar una directiva de libreta de direcciones a usuarios de correo
           href: assign-an-address-book-policy-to-mail-users-exchange-2013-help.md
         - name: Cambiar la configuración de una directiva de libreta de direcciones
-          href: change-the-settings-of-an-address-book-policy-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/change-the-settings-of-an-address-book-policy
         - name: Quitar una política de libreta de direcciones
-          href: remove-an-address-book-policy-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/remove-an-address-book-policy
     - name: Plantillas de detalles
       href: details-templates-exchange-2013-help.md
       items:
@@ -1454,28 +1454,28 @@
       href: offline-address-books-exchange-2013-help.md
       items:
       - name: Procedimientos de libretas de direcciones sin conexión
-        href: offline-address-book-procedures-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/address-books/offline-address-books/offline-address-book-procedures
         items:
         - name: Crear una libreta de direcciones sin conexión
-          href: create-an-offline-address-book-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/address-books/offline-address-books/create-offline-address-book
         - name: Agregar una lista de direcciones o quitar una lista de direcciones de la libretas de direcciones sin conexión
-          href: add-an-address-list-to-or-remove-an-address-list-from-an-offline-address-book-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/address-books/offline-address-books/add-or-remove-an-address-list
         - name: Cambiar la libreta de direcciones sin conexión predeterminada
-          href: change-the-default-offline-address-book-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/address-books/offline-address-books/change-default-offline-address-book
         - name: Establecer destinatarios para descargas de la libreta de direcciones sin conexión
-          href: provision-recipients-for-offline-address-book-downloads-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/address-books/offline-address-books/provision-recipients
         - name: Quitar una libreta de direcciones sin conexión
-          href: remove-an-offline-address-book-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/address-books/offline-address-books/remove-offline-address-book
         - name: Actualizar la libreta de direcciones sin conexión
-          href: update-an-offline-address-book-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/address-books/offline-address-books/update-offline-address-book
         - name: Crear un directorio virtual de la libreta de direcciones sin conexión
-          href: create-an-offline-address-book-virtual-directory-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/address-books/offline-address-books/create-virtual-directory
         - name: Cambiar el programa de generación de libretas de direcciones sin conexión
-          href: change-the-offline-address-book-generation-schedule-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/address-books/offline-address-books/change-address-book-generation-schedule
         - name: Configurar propiedades de distribución de libreta de direcciones sin conexión
-          href: configure-offline-address-book-distribution-properties-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/address-books/offline-address-books/configure-distribution-properties
     - name: Listas de direcciones
-      href: address-lists-exchange-2013-help.md
+      href: https://docs.microsoft.com/es-es/exchange/address-books/address-lists/address-lists
       items:
       - name: Procedimientos de la lista de direcciones
         href: address-list-procedures-exchange-2013-help.md
@@ -1485,17 +1485,17 @@
         - name: Actualizar una lista de direcciones
           href: update-an-address-list-exchange-2013-help.md
         - name: Crear una lista de direcciones mediante filtros de destinatario
-          href: create-an-address-list-by-using-recipient-filters-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/address-books/address-lists/use-recipient-filters-to-create-an-address-list
         - name: Mover una lista de direcciones
           href: move-an-address-list-exchange-2013-help.md
         - name: Quitar una lista de direcciones
           href: remove-an-address-list-exchange-2013-help.md
         - name: Crear una lista global de direcciones
-          href: create-a-global-address-list-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/address-books/address-lists/create-global-address-list
         - name: Configurar las propiedades de la lista global de direcciones
           href: configure-global-address-list-properties-exchange-2013-help.md
         - name: Quitar una lista global de direcciones
-          href: remove-a-global-address-list-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/address-books/address-lists/remove-a-global-address-list
         - name: Actualizar una lista global de direcciones
           href: update-a-global-address-list-exchange-2013-help.md
     - name: Libretas de direcciones jerárquicas
@@ -1586,9 +1586,9 @@
         - name: Características de teléfonos móviles y tabletas
           href: mobile-phone-and-tablet-features-exchange-2013-help.md
         - name: Realizar una limpieza remota en un teléfono móvil
-          href: perform-a-remote-wipe-on-a-mobile-phone-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/mobile-access/remote-wipe-on-mobile-phone
         - name: Configurar teléfonos móviles para tener acceso al correo electrónico
-          href: configure-mobile-phones-to-access-email-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/mobile-access/configure-email-on-mobile-phone
     - name: POP3 e IMAP4
       href: pop3-and-imap4-in-exchange-server-2013-exchange-2013-help.md
       items:
@@ -1658,16 +1658,16 @@
         href: outlook-web-app-mailbox-policies-exchange-2013-help.md
         items:
         - name: Procedimientos de políticas de buzón de Outlook Web App
-          href: outlook-web-app-mailbox-policy-procedures-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-web-app-mailbox-policy-procedures
           items:
           - name: Crear una directiva de buzones de Outlook Web App
-            href: create-an-outlook-web-app-mailbox-policy-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/create-outlook-web-app-mailbox-policy
           - name: Aplicar o quitar una directiva de buzón de Outlook Web App en un buzón
             href: apply-or-remove-an-outlook-web-app-mailbox-policy-on-a-mailbox-exchange-2013-help.md
           - name: Quitar una directiva de buzón de Outlook Web App de Exchange
-            href: remove-an-outlook-web-app-mailbox-policy-from-exchange-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/remove-outlook-web-app-mailbox-policy
           - name: Ver o configurar las propiedades de directiva de buzón de Outlook Web App
-            href: view-or-configure-outlook-web-app-mailbox-policy-properties-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/configure-outlook-web-app-mailbox-policy-properties
       - name: Integrar Outlook Web App con Lync Server
         href: integrate-outlook-web-app-with-lync-server-exchange-2013-help.md
       - name: Ver o configurar los directorios virtuales de aplicación web de Outlook
@@ -1685,21 +1685,21 @@
       - name: Uso de elementos web de Outlook Web App
         href: using-outlook-web-app-web-parts-exchange-2013-help.md
     - name: MailTips
-      href: mailtips-exchange-2013-help.md
+      href: https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips
       items:
       - name: Habilitar o deshabilitar sugerencias de correo electrónico
-        href: enable-or-disable-mailtips-exchange-2013-help.md
+        href: enable-or-disable-https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips
       - name: Configurar el tamaño de gran audiencia para su organización
-        href: configure-the-large-audience-size-for-your-organization-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/mailtips/configure-large-audience-size
       - name: Configurar las sugerencias de correo electrónico personalizadas para los destinatarios
-        href: configure-custom-mailtips-for-recipients-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/mailtips/configure-custom-mailtips
       - name: Sugerencias de correo electrónico sobre las relaciones de la organización
-        href: mailtips-over-organization-relationships-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips-over-organization-relationships
         items:
         - name: Administrar sugerencias de correo electrónico para las relaciones de la organización
-          href: manage-mailtips-for-organization-relationships-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/mailtips/manage-mailtips-for-organization-relationships
       - name: Grupo métricas y sugerencias de correo electrónico
-        href: group-metrics-and-mailtips-exchange-2013-help.md
+        href: group-metrics-and-https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips
         items:
         - name: Configurar métricas de grupo
           href: configure-group-metrics-exchange-2013-help.md
@@ -1707,11 +1707,11 @@
       href: add-ins-for-outlook-exchange-2013-help.md
       items:
       - name: Instalación o eliminación de aplicaciones para Outlook en la organización
-        href: install-or-remove-add-ins-for-outlook-for-your-organization-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/install-or-remove-outlook-add-ins
       - name: Administrar el acceso del usuario a aplicaciones para Outlook
         href: manage-user-access-to-add-ins-for-outlook-exchange-online-help.md
       - name: Especifique los administradores y los usuarios que pueden instalar y administrar complementos para Outlook
-        href: specify-the-administrators-and-users-who-can-install-and-manage-add-ins-for-outlook-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins
     - name: Configuración de la descarga de SSL en Exchange 2013
       href: configuring-ssl-offloading-in-exchange-2013-exchange-2013-help.md
   - name: Mensajería unificada
@@ -1777,9 +1777,9 @@
         - name: Instalar un paquete de idioma de mensajería unificada
           href: install-a-um-language-pack-exchange-2013-help.md
         - name: Establecer el idioma predeterminado en un plan de marcado
-          href: set-the-default-language-on-a-dial-plan-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/set-dial-plan-default-language
         - name: Seleccione el idioma para el operador automático
-          href: select-the-language-for-an-auto-attendant-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/select-auto-attendant-language
         - name: Quitar un paquete de idioma de mensajería unificada
           href: remove-a-um-language-pack-exchange-2013-help.md
         - name: Importar y exportar saludos personalizados, anuncios, menús y avisos
@@ -1787,9 +1787,9 @@
         - name: Importar mensajes personalizados de Exchange 2007 a Exchange 2013
           href: import-custom-prompts-from-exchange-2007-to-exchange-2013-exchange-2013-help.md
         - name: Habilitar la grabación de mensajes personalizados con la interfaz de usuario de teléfono
-          href: enable-custom-prompt-recording-using-the-telephone-user-interface-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording
     - name: Integración del sistema telefónico con mensajería unificada
-      href: telephone-system-integration-with-um-exchange-2013-help.md
+      href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephone-system-integration-with-um
       items:
       - name: Conceptos y componentes de telefonía
         href: telephony-concepts-and-components-exchange-2013-help.md
@@ -1799,9 +1799,9 @@
         href: connect-um-to-your-telephone-system-exchange-2013-help.md
         items:
         - name: Asesor de telefonía para Exchange 2013
-          href: telephony-advisor-for-exchange-2013-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephony-advisor-for-exchange-2013
         - name: Notas para la configuración de puertas de enlace de VoIP, IP PBX y PBX compatibles
-          href: configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways
         - name: Conectar una puerta de enlace VoIP, IP PBX o un controlador de borde de sesión a mensajería unificada
           href: connect-a-voip-gateway-ip-pbx-or-session-border-controller-to-um-exchange-2013-help.md
         - name: Conectar la mensajería unificada a una puerta de enlace VoIP compatible
@@ -1809,9 +1809,9 @@
         - name: Conectar una puerta de enlace VoIP para comunicarse con una PBX
           href: connect-a-voip-gateway-to-communicate-with-a-pbx-exchange-2013-help.md
         - name: Notas de configuración de los controladores de borde de sesión admitidos
-          href: configuration-notes-for-supported-session-border-controllers-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-session-border-controllers
     - name: Conecte su sistema de correo de voz a la red de teléfono
-      href: connect-your-voice-mail-system-to-your-telephone-network-exchange-2013-help.md
+      href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/connect-voice-mail-system
       items:
       - name: Planes de marcado de mensajería unificada
         href: um-dial-plans-exchange-2013-help.md
@@ -1824,7 +1824,7 @@
           href: um-dial-plan-procedures-exchange-2013-help.md
           items:
           - name: Crear un plan de marcado de mensajería unificada
-            href: create-a-um-dial-plan-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan
           - name: Administrar un plan de marcado de mensajería unificada
             href: manage-a-um-dial-plan-exchange-2013-help.md
           - name: Agregar servidores de acceso de cliente y buzón a un plan de marcado de URI de SIP
@@ -1834,11 +1834,11 @@
           - name: Cambio del códec de audio
             href: change-the-audio-codec-exchange-2013-help.md
           - name: Configuración de la duración máxima de la llamada
-            href: configure-the-maximum-call-duration-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-maximum-call-duration
           - name: Configurar la duración máxima de grabación
-            href: configure-the-maximum-recording-duration-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-maximum-recording-duration
           - name: Configurar el valor de tiempo de espera de grabación
-            href: configure-the-recording-idle-time-out-value-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-recording-idle-time-out
           - name: Establecer la configuración de seguridad de VoIP
             href: configure-the-voip-security-setting-exchange-2013-help.md
           - name: Configurar un plan de marcado para los usuarios con nombres parecidos
@@ -1846,37 +1846,37 @@
           - name: Eliminar un plan de marcado de mensajería unificada
             href: delete-a-um-dial-plan-exchange-2013-help.md
       - name: Puertas de enlace IP de mensajería unificada
-        href: um-ip-gateways-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-ip-gateways
         items:
         - name: Procedimientos de puerta de enlace IP de mensajería unificada
-          href: um-ip-gateway-procedures-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-ip-gateway-procedures
           items:
           - name: Cree una puerta de enlace IP de mensajería unificada
-            href: create-a-um-ip-gateway-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway
           - name: Administrar una puerta de enlace IP de mensajería unificada
-            href: manage-a-um-ip-gateway-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/manage-um-ip-gateway
           - name: Habilitar una puerta de enlace IP de mensajería unificada
-            href: enable-a-um-ip-gateway-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/enable-um-ip-gateway
           - name: Deshabilitar una puerta de enlace IP de MU
-            href: disable-a-um-ip-gateway-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/disable-um-ip-gateway
           - name: Configurar un nombre de dominio completo
             href: configure-a-fully-qualified-domain-name-exchange-2013-help.md
           - name: Configuración de la dirección IP
-            href: configure-the-ip-address-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-ip-address
           - name: Configurar el puerto de escucha
-            href: configure-the-listening-port-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-listening-port
           - name: Eliminar una puerta de enlace IP de mensajería unificada
-            href: delete-a-um-ip-gateway-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/delete-um-ip-gateway
       - name: Grupos de búsqueda de mensajería unificada
-        href: um-hunt-groups-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-groups
         items:
         - name: Procedimientos de grupo de captura de mensajería unificada
-          href: um-hunt-group-procedures-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-group-procedures
           items:
           - name: Crear un grupo de extensiones de mensajería unificada
-            href: create-a-um-hunt-group-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-hunt-group
           - name: Ver un grupo de captura de mensajería unificada
-            href: view-a-um-hunt-group-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/view-um-hunt-group
           - name: Eliminar un grupo de extensiones de MU.
             href: delete-a-um-hunt-group-exchange-2013-help.md
       - name: Servicios de mensajería unificada
@@ -1914,129 +1914,129 @@
           - name: Configurar el puerto de escucha TLS en un servidor de acceso de cliente
             href: set-the-tls-listening-port-on-a-client-access-server-exchange-2013-help.md
     - name: Contestar y enrutar automáticamente las llamadas entrantes
-      href: automatically-answer-and-route-incoming-calls-exchange-2013-help.md
+      href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls
       items:
       - name: Interfaz DTMF
-        href: dtmf-interface-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/dtmf-interface
       - name: Procedimientos operador automático de mensajería unificada
-        href: um-auto-attendant-procedures-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/um-auto-attendant-procedures
         items:
         - name: Configuración de un operador automático de mensajería unificada
-          href: set-up-a-um-auto-attendant-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-up-um-auto-attendant
           items:
           - name: Crear un operador automático de mensajería unificada
             href: create-a-um-auto-attendant-exchange-2013-help.md
           - name: Agregar un número de extensión de operador automático
             href: add-an-auto-attendant-extension-number-exchange-2013-help.md
           - name: Configurar el horario de oficina
-            href: configure-business-hours-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/configure-business-hours
           - name: Crear una programación de vacaciones
             href: create-a-holiday-schedule-exchange-2013-help.md
           - name: Escriba un nombre de empresa
-            href: enter-a-business-name-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enter-a-business-name
           - name: Establecer la ubicación de un negocio
             href: set-a-business-location-exchange-2013-help.md
           - name: Configurar la zona horaria
-            href: configure-the-time-zone-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/configure-the-time-zone
           - name: Habilitar un saludo de horario comercial personalizada
-            href: enable-a-customized-business-hours-greeting-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-a-customized-business-hours-greeting
           - name: Habilitar un mensaje del menú de horario comercial personalizada
-            href: enable-a-customized-business-hours-menu-prompt-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-a-customized-business-hours-menu-prompt
           - name: Habilitar un personalizada no - saludo de horario comercial
-            href: enable-a-customized-non-business-hours-greeting-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-a-customized-non-business-hours-greeting
           - name: Habilitar un aviso de menú personalizado para el horario no comercial
-            href: enable-a-customized-non-business-hours-menu-prompt-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-a-customized-non-business-hours-menu-prompt
           - name: Habilitar un anuncio informativo
-            href: enable-an-informational-announcement-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-an-informational-announcement
           - name: Crear la navegación del menú
             href: create-menu-navigation-exchange-2013-help.md
           - name: Crear menús de navegación de horario comercial
-            href: create-business-hours-navigation-menus-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-business-hours-navigation-menus
           - name: Crear menús de navegación de horas no hábiles
-            href: create-non-business-hours-navigation-menus-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-non-business-hours-navigation-menus
         - name: Administrar a un operador automático de mensajería unificada
-          href: manage-a-um-auto-attendant-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/manage-um-auto-attendant
         - name: Configurar a un operador automático de reserva de DTMF
-          href: configure-a-dtmf-fallback-auto-attendant-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/configure-dtmf-fallback-auto-attendant
         - name: Habilitar un operador automático de MU
-          href: enable-a-um-auto-attendant-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-um-auto-attendant
         - name: Deshabilitar a un operador automático de mensajería unificada
           href: disable-a-um-auto-attendant-exchange-2013-help.md
         - name: Eliminar a un operador automático de mensajería unificada
           href: delete-a-um-auto-attendant-exchange-2013-help.md
         - name: Habilitar o deshabilitar el reconocimiento de voz automático
-          href: enable-or-disable-automatic-speech-recognition-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-or-disable-speech-recognition
         - name: Permitir o impedir la transferencia de llamadas de un operador automático
-          href: enable-or-prevent-transferring-calls-from-an-auto-attendant-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-or-prevent-transferring-calls
         - name: Habilitar o deshabilitar el envío de mensajes de voz a usuarios
           href: enable-or-disable-sending-voice-messages-to-users-exchange-2013-help.md
         - name: Habilitar o deshabilitar las búsquedas de directorio
-          href: enable-or-disable-directory-lookups-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enable-or-disable-directory-lookups
         - name: Configurar el grupo de usuarios a los que se puede contactar
-          href: configure-the-group-of-users-that-can-be-contacted-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/configure-users-that-can-be-contacted
         - name: Configurar a un operador automático para los usuarios que tienen nombres similares
-          href: configure-an-auto-attendant-for-users-who-have-similar-names-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/configure-auto-attendant-for-users-with-similar-names
     - name: Configurar el correo de voz para los usuarios
       href: set-up-voice-mail-for-users-exchange-2013-help.md
       items:
       - name: directivas de buzón de mensajería unificada
-        href: um-mailbox-policies-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policies
         items:
         - name: Procedimientos de políticas de buzón de mensajería unificada
-          href: um-mailbox-policy-procedures-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policy-procedures
           items:
           - name: Crear una directiva de buzón de mensajería unificada
-            href: create-a-um-mailbox-policy-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy
           - name: Administrar una directiva de buzones de correo de mensajería unificada
-            href: manage-a-um-mailbox-policy-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy
           - name: Eliminar una directiva de buzón de mensajería unificada
-            href: delete-a-um-mailbox-policy-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/delete-um-mailbox-policy
       - name: Correo de voz para usuarios
         href: voice-mail-for-users-exchange-2013-help.md
         items:
         - name: Procedimientos de usuario habilitado para correo de voz
-          href: voice-mail-enabled-user-procedures-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-enabled-user-procedures
           items:
           - name: Habilitar a un usuario para el correo de voz
-            href: enable-a-user-for-voice-mail-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail
           - name: Incluir el texto con el mensaje de correo electrónico que se envía cuando un usuario está habilitado para correo de voz
             href: include-text-with-the-email-message-sent-when-a-user-is-enabled-for-voice-mail-exchange-2013-help.md
           - name: Administrar la configuración de correo de voz para un usuario
-            href: manage-voice-mail-settings-for-a-user-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-voice-mail-settings
           - name: Asignar una directiva de buzón de mensajería unificada
-            href: assign-a-um-mailbox-policy-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/assign-um-mailbox-policy
           - name: Cambiar el plan de marcado de mensajería unificada
-            href: change-the-um-dial-plan-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/change-um-dial-plan
           - name: Habilitar las llamadas de los usuarios que no están habilitados para mensajería unificada
-            href: enable-calls-from-users-who-aren-t-um-enabled-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-calls-from-users-who-aren-t-um-enabled
           - name: Deshabilitar las llamadas de los usuarios que no están habilitados para mensajería unificada
             href: disable-calls-from-users-who-aren-t-um-enabled-exchange-2013-help.md
           - name: Permitir a quienes llaman sin un identificador para dejar un mensaje de voz
             href: allow-callers-without-a-caller-id-to-leave-a-voice-message-exchange-2013-help.md
           - name: Incluir el texto con el mensaje de correo electrónico que se envía cuando se recibe un mensaje de voz
-            href: include-text-with-the-email-message-sent-when-a-voice-message-is-received-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/include-text-with-email-sent-when-voice-message-is-received
           - name: Impedir que los llamadores sin un ID dejando un mensaje de voz
-            href: prevent-callers-without-a-caller-id-from-leaving-a-voice-message-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/prevent-callers-without-caller-id-from-leaving-voice-message
           - name: Deshabilitar el correo de voz para un usuario
-            href: disable-voice-mail-for-a-user-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/disable-voice-mail
           - name: Cambiar una dirección SIP
-            href: change-a-sip-address-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/change-sip-address
           - name: Cambiar un número de extensión
-            href: change-an-extension-number-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/change-extension-number
           - name: Agregar una dirección SIP
-            href: add-a-sip-address-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-sip-address
           - name: Quitar una dirección SIP
-            href: remove-a-sip-address-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/remove-sip-address
           - name: Agregar un número de extensión
-            href: add-an-extension-number-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-extension-number
           - name: Quitar un número de extensión
-            href: remove-an-extension-number-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/remove-extension-number
           - name: Cambiar un número E.164
-            href: change-an-e-164-number-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/change-e-164-number
           - name: Agregar un número E.164
-            href: add-an-e-164-number-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-e-164-number
           - name: Quitar un número E.164
-            href: remove-an-e-164-number-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/remove-e-164-number
     - name: Configurar características de correo de voz de cliente
       href: set-up-client-voice-mail-features-exchange-2013-help.md
       items:
@@ -2048,115 +2048,115 @@
         - name: Navegar por los menús con Outlook Voice Access
           href: navigating-menus-with-outlook-voice-access-exchange-2013-help.md
         - name: Reproducir en teléfono
-          href: play-on-phone-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/play-on-phone
         - name: Procedimientos de Outlook Voice Access
-          href: outlook-voice-access-procedures-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/outlook-voice-access-procedures
           items:
           - name: Habilitar o deshabilitar Outlook Voice Access para los usuarios
-            href: enable-or-disable-outlook-voice-access-for-users-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-or-disable-outlook-voice-access
           - name: Configurar un número de Outlook Voice Access
-            href: configure-an-outlook-voice-access-number-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-outlook-voice-access-number
           - name: Deshabilitar las características seleccionadas para los usuarios de Outlook Voice Access
             href: disable-selected-features-for-outlook-voice-access-users-exchange-2013-help.md
           - name: Establecer características de buzón de correo para los usuarios de Outlook Voice Access
-            href: set-mailbox-features-for-outlook-voice-access-users-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-mailbox-features-for-users
           - name: Conjunto de características de buzón para un usuario de Outlook Voice Access
-            href: set-mailbox-features-for-an-outlook-voice-access-user-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-mailbox-features-for-a-user
           - name: Habilitar o deshabilitar el reconocimiento automático de voz para un usuario de Outlook Voice Access User
-            href: enable-or-disable-automatic-speech-recognition-for-an-outlook-voice-access-user-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-or-disable-automatic-speech-recognition
           - name: Habilitar un anuncio informativo para los usuarios de Outlook Voice Access
-            href: enable-an-informational-announcement-for-outlook-voice-access-users-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-an-informational-announcement
           - name: Habilitar un saludo personalizado para los usuarios de Outlook Voice Access
-            href: enable-a-customized-greeting-for-outlook-voice-access-users-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-a-customized-greeting
           - name: Habilitar o deshabilitar reproducir en el teléfono para los usuarios de Outlook Voice Access
-            href: enable-or-disable-play-on-phone-for-outlook-voice-access-users-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-or-disable-play-on-phone
           - name: Habilitar o deshabilitar el envío de mensajes de voz de Outlook Voice Access
-            href: enable-or-disable-sending-voice-messages-from-outlook-voice-access-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-or-disable-sending-voice-messages
           - name: Permitir o impedir la transferencia de llamadas desde Outlook Voice Access
-            href: enable-or-prevent-transferring-calls-from-outlook-voice-access-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-or-prevent-transferring-calls
           - name: Configurar el grupo de usuarios que pueden ponerse en contacto con los usuarios de Outlook Voice Access
-            href: configure-the-group-of-users-that-outlook-voice-access-users-can-contact-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-the-group-of-users-that-outlook-voice-access-users-can-contact
           - name: Configurar el modo principal para los usuarios de Outlook Voice Access buscar
             href: configure-the-primary-way-for-outlook-voice-access-users-to-search-exchange-2013-help.md
           - name: Configurar la forma secundaria para los usuarios de Outlook Voice Access buscar
             href: configure-the-secondary-way-for-outlook-voice-access-users-to-search-exchange-2013-help.md
           - name: Configurar el número de errores de inicio de sesión antes de que se desconecten los usuarios de Outlook Voice Access
-            href: configure-the-number-of-sign-in-failures-before-outlook-voice-access-users-are-disconnected-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-number-of-sign-in-failures
           - name: Configurar el número de fallos de entrada antes de desconectan los usuarios de Outlook Voice Access
-            href: configure-the-number-of-input-failures-before-outlook-voice-access-users-are-disconnected-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-number-of-input-failures
           - name: Configurar el límite de saludos personales para los usuarios de Outlook Voice Access
-            href: configure-the-limit-on-personal-greetings-for-outlook-voice-access-users-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-personal-greetings-limit
       - name: Permitir usuarios de mail reenviar llamadas de voz
-        href: allow-voice-mail-users-to-forward-calls-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-voice-mail-users-to-forward-calls
         items:
         - name: Reenvío de llamadas a procedimientos
           href: forwarding-calls-procedures-exchange-2013-help.md
           items:
           - name: Permitir o impedir la creación de reglas de respuesta de llamada de un usuario
-            href: allow-or-prevent-a-user-from-creating-call-answering-rules-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/call-answering-rules
           - name: Permitir o impedir que los usuarios de la misma directiva de buzón de mensajería unificada desde la creación de reglas de respuesta de llamada
-            href: allow-or-prevent-users-in-the-same-um-mailbox-policy-from-creating-call-answering-rules-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/call-answering-rules-in-the-same-mailbox-policy
           - name: Crear una regla de respuesta a llamadas
-            href: create-a-call-answering-rule-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/create-a-call-answering-rule
           - name: Ver y administrar una regla de respuesta a llamada
-            href: view-and-manage-a-call-answering-rule-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/view-and-manage-a-call-answering-rule
           - name: Habilitar o deshabilitar una regla de contestador automático para un usuario
-            href: enable-or-disable-a-call-answering-rule-for-a-user-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-or-disable-a-call-answering-rule-for-a-user
           - name: Quitar una regla de respuesta a llamadas para un usuario
-            href: remove-a-call-answering-rule-for-a-user-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/remove-a-call-answering-rule-for-a-user
       - name: Permitir que los usuarios realicen llamadas
         href: allow-users-to-make-calls-exchange-2013-help.md
         items:
         - name: Códigos de marcado, prefijos numéricos y formatos de número
           href: dial-codes-number-prefixes-and-number-formats-exchange-2013-help.md
         - name: Permitir a los usuarios realizar llamadas a procedimientos
-          href: allowing-users-to-make-calls-procedures-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-to-make-calls-procedures
           items:
           - name: Habilitar las llamadas salientes de puertas de enlace IP de mensajería unificada
-            href: enable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-outgoing-calls-on-um-ip-gateways
           - name: Deshabilitar las llamadas salientes de puertas de enlace IP de mensajería unificada
-            href: disable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-outgoing-calls-on-um-ip-gateways
           - name: Configurar códigos de marcado
-            href: configure-dial-codes-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-dial-codes
           - name: Crear reglas de marcado para usuarios
-            href: create-dialing-rules-for-users-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/create-dialing-rules
           - name: Autorizar llamadas mediante reglas de marcado
             href: authorize-calls-using-dialing-rules-exchange-2013-help.md
             items:
             - name: ¿Autorizar llamadas de llamadores de operador automático
-              href: authorize-calls-for-auto-attendant-callers-exchange-2013-help.md
+              href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-auto-attendant-callers
             - name: Autorizar llamadas a los usuarios en un plan de marcado
               href: authorize-calls-for-users-in-a-dial-plan-exchange-2013-help.md
             - name: ¿Autorizar llamadas para un grupo de usuarios
-              href: authorize-calls-for-a-group-of-users-exchange-2013-help.md
+              href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-a-group-of-users
       - name: Permitir a los usuarios ver una transcripción de correo de voz
         href: allow-users-to-see-a-voice-mail-transcript-exchange-2013-help.md
         items:
         - name: Asesor de vista previa de correo de voz
-          href: voice-mail-preview-advisor-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/voice-mail-preview-advisor
         - name: Procedimientos de vista previa del correo de voz
-          href: voice-mail-preview-procedures-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/voice-mail-preview-procedures
           items:
           - name: Configurar servicios de socios de vista previa del correo de voz para los usuarios
-            href: configure-voice-mail-preview-partner-services-for-users-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-voice-mail-preview-partner-services
             items:
             - name: Establecer la dirección del socio de vista previa del correo de voz
               href: set-the-voice-mail-preview-partner-address-exchange-2013-help.md
             - name: Establezca el identificador del socio de vista previa del correo de voz
-              href: set-the-voice-mail-preview-partner-id-exchange-2013-help.md
+              href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-the-voice-mail-preview-partner-id
             - name: Establecer la duración máxima del mensaje para un socio de la vista previa del correo de voz
               href: set-the-maximum-message-duration-for-a-voice-mail-preview-partner-exchange-2013-help.md
             - name: Establecer el retardo máximo de entrega para un socio de la vista previa del correo de voz
               href: set-the-maximum-delivery-delay-for-a-voice-mail-preview-partner-exchange-2013-help.md
           - name: Habilitar vista previa de correo de voz para los usuarios
-            href: enable-voice-mail-preview-for-users-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/common-message-approval-scenarios
           - name: Deshabilitar la vista previa del correo de voz para usuarios
             href: disable-voice-mail-preview-for-users-exchange-2013-help.md
       - name: Permitir que los usuarios de correo de voz reciban faxes
         href: enable-voice-mail-users-to-receive-faxes-exchange-2013-help.md
         items:
         - name: Asesor de fax para la mensajería unificada de Exchange
-          href: fax-advisor-for-exchange-um-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/fax-advisor-for-exchange-um
         - name: Configuración de faxes entrantes
           href: setting-up-incoming-faxing-exchange-2013-help.md
           items:
@@ -2164,97 +2164,97 @@
             href: faxing-procedures-exchange-2013-help.md
             items:
             - name: El asociado del conjunto de servidor de fax URI para permitir el envío de faxes
-              href: set-the-partner-fax-server-uri-to-allow-faxing-exchange-2013-help.md
+              href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-the-partner-fax-server-uri-to-allow-faxing
             - name: Incluir el texto con el mensaje de correo electrónico que se envía cuando se recibe un mensaje de fax
               href: include-text-with-the-email-message-sent-when-a-fax-message-is-received-exchange-2013-help.md
             - name: Permitir a los usuarios en el mismo plan de marcado para recibir faxes
-              href: allow-users-in-the-same-dial-plan-to-receive-faxes-exchange-2013-help.md
+              href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-in-the-same-dial-plan-to-receive-faxes
             - name: Impedir que los usuarios en el mismo plan de marcado de recibir faxes
-              href: prevent-users-in-the-same-dial-plan-from-receiving-faxes-exchange-2013-help.md
+              href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/prevent-users-in-the-same-dial-plan-from-receiving-faxes
             - name: Habilitar el envío de faxes para un grupo de usuarios
               href: enable-faxing-for-a-group-of-users-exchange-2013-help.md
             - name: Deshabilitar el envío de faxes para un grupo de usuarios
-              href: disable-faxing-for-a-group-of-users-exchange-2013-help.md
+              href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-faxing-for-a-group-of-users
             - name: Habilitar un usuario recibir faxes
-              href: enable-a-user-to-receive-faxes-exchange-2013-help.md
+              href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-a-user-to-receive-faxes
             - name: Evitar que un usuario reciba faxes
               href: prevent-a-user-from-receiving-faxes-exchange-2013-help.md
       - name: Protección del correo de voz
         href: protect-voice-mail-exchange-2013-help.md
         items:
         - name: Procedimientos de correo de voz protegidos
-          href: protected-voice-mail-procedures-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/protected-voice-mail-procedures
           items:
           - name: Configurar correo de voz protegido de llamadores autenticados
-            href: configure-protected-voice-mail-from-authenticated-callers-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-protected-voice-mail-from-authenticated-callers
           - name: Configurar el correo de voz protegido de los llamadores no autenticados
-            href: configure-protected-voice-mail-from-unauthenticated-callers-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/configure-protected-voice-mail-from-unauthenticated-callers
           - name: Habilitar o deshabilitar la reproducción multimedia de los mensajes de voz protegido
-            href: enable-or-disable-multimedia-playback-of-protected-voice-messages-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-or-disable-multimedia-playback
           - name: Especificar el texto que se muestra para los clientes de correo electrónico que no son compatibles con Windows Rights Management
-            href: specify-the-text-to-display-for-email-clients-that-don-t-support-windows-rights-management-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/specify-text-to-display-for-clients-that-don-t-support-windows-rights-management
       - name: Permitir el Indicador de mensaje en espera
         href: allow-message-waiting-indicator-exchange-2013-help.md
         items:
         - name: Permite a los procedimientos de indicador de mensaje en espera
-          href: allow-message-waiting-indicator-procedures-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-mwi-procedures
           items:
           - name: Permitir el Indicador de mensajes en espera (MWI) en una puerta de enlace IP de mensajería unificada
-            href: allow-message-waiting-indicator-mwi-on-a-um-ip-gateway-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-mwi-on-um-ip-gateway
           - name: Evitar que el indicador de espera de mensaje (MWI) en una puerta de enlace IP de mensajería unificada
-            href: prevent-message-waiting-indicator-mwi-on-a-um-ip-gateway-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/prevent-mwi-on-um-ip-gateway
           - name: Habilitar el indicador de espera de mensaje (MWI) para los usuarios
             href: enable-message-waiting-indicator-mwi-for-users-exchange-2013-help.md
           - name: Deshabilitar el indicador de espera de mensaje (MWI) para los usuarios
             href: disable-message-waiting-indicator-mwi-for-users-exchange-2013-help.md
           - name: Habilitar notificaciones de llamadas perdidas para un usuario
-            href: enable-missed-call-notifications-for-a-user-exchange-2013-help.md
+            href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-missed-call-notifications
           - name: Deshabilitar notificaciones de llamadas perdidas para un usuario
             href: disable-missed-call-notifications-for-a-user-exchange-2013-help.md
     - name: Configurar la seguridad del PIN de Outlook Voice Access
       href: set-outlook-voice-access-pin-security-exchange-2013-help.md
       items:
       - name: Procedimientos de seguridad PIN
-        href: pin-security-procedures-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/pin-security-procedures
         items:
         - name: Establecer directivas de NIP de Outlook Voice Access
-          href: set-outlook-voice-access-pin-policies-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/set-pin-policies
         - name: Restablecer el PIN del correo de voz.
-          href: reset-a-voice-mail-pin-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/reset-a-voice-mail-pin
         - name: Recuperar información de PIN del correo de voz
           href: retrieve-voice-mail-pin-information-exchange-2013-help.md
         - name: Incluir el texto con el mensaje de correo electrónico que se envía cuando un restablecimiento de PIN es
-          href: include-text-with-the-email-message-sent-when-a-pin-is-reset-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/include-text-in-email-sent-when-pin-is-reset
         - name: Establecer la longitud mínima del NIP de correo de voz
-          href: set-the-minimum-pin-length-for-voice-mail-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/set-minimum-pin-length
         - name: Establecer la duración PIN de correo de voz
-          href: set-the-pin-lifetime-for-voice-mail-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/set-pin-lifetime
         - name: Establecer el número de correo de voz anterior pines para reciclaje
           href: set-the-number-of-previous-voice-mail-pins-to-recycle-exchange-2013-help.md
         - name: Deshabilitar los modelos comunes de PIN de correo de voz
-          href: disable-common-pin-patterns-for-voice-mail-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/disable-common-pin-patterns
         - name: Permitir patrones comunes de PIN de correo de voz
           href: enable-common-pin-patterns-for-voice-mail-exchange-2013-help.md
         - name: Establecer el número de errores de inicio de sesión antes de un restablecimiento del NIP de correo de voz
-          href: set-the-number-of-sign-in-failures-before-a-voice-mail-pin-is-reset-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/set-number-of-sign-in-failures-before-pin-reset
         - name: Establecer el número de errores de inicio de sesión antes de bloquea un usuario de correo de voz
-          href: set-the-number-of-sign-in-failures-before-a-voice-mail-user-is-locked-out-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/set-number-of-sign-in-failures-before-lock-out
         - name: Habilitar inicios de sesión sin PIN para correo de voz
           href: enable-pin-less-sign-ins-for-voice-mail-exchange-2013-help.md
     - name: Ejecutar informes para llamadas de correo de voz
-      href: run-reports-for-voice-mail-calls-exchange-2013-help.md
+      href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/run-voice-mail-call-reports
       items:
       - name: Procedimientos de informes de mensajería unificada
-        href: um-reports-procedures-exchange-2013-help.md
+        href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/um-reports-procedures
         items:
         - name: Revisar las llamadas de correo de voz en su organización
-          href: review-the-voice-mail-calls-in-your-organization-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/review-voice-mail-calls-for-organization
         - name: Revisar las llamadas de correo de voz para un usuario
           href: review-the-voice-mail-calls-for-a-user-exchange-2013-help.md
         - name: Investigar la calidad de audio de las llamadas de voz en su organización
-          href: investigate-the-audio-quality-of-voice-calls-in-your-organization-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/audio-quality-of-voice-calls-in-organization
         - name: Investigación de la calidad de audio de llamadas de voz para un usuario
-          href: investigate-the-audio-quality-of-voice-calls-for-a-user-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/audio-quality-of-voice-calls-for-user
         - name: Interpretar los registros de llamadas de correo de voz
           href: interpret-voice-mail-call-records-exchange-2013-help.md
     - name: Probar y solucionar problemas de correo de voz
@@ -2279,7 +2279,7 @@
         - name: Probar la conectividad de Mensajería unificada con puertas de enlace VoIP y PBX
           href: test-um-connectivity-to-voip-gateways-and-pbxs-exchange-2013-help.md
     - name: Terminología de Mensajería unificada (UM) y correo de voz
-      href: um-and-voice-mail-terminology-exchange-2013-help.md
+      href: https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/um-and-voice-mail-terminology
   - name: Servidores de buzones de correo y de acceso de clientes
     href: mailbox-and-client-access-servers-exchange-2013-help.md
     items:
@@ -2344,7 +2344,7 @@
         - name: Configurar la retención de elementos eliminados y las cuotas de elementos recuperables
           href: configure-deleted-item-retention-and-recoverable-items-quotas-exchange-2013-help.md
         - name: Recuperar mensajes eliminados en el buzón de un usuario
-          href: recover-deleted-messages-in-a-user-s-mailbox-exchange-2013-help.md
+          href: https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-user-mailboxes/recover-deleted-messages
         - name: Obtener estadísticas de la carpeta Elementos recuperables
           href: get-recoverable-items-folder-statistics-exchange-2013-help.md
     - name: Servidor de acceso de cliente
@@ -2581,7 +2581,7 @@
       - name: Cambiar la configuración de limitación para todos los usuarios de la organización
         href: change-user-throttling-settings-for-all-users-in-your-organization-exchange-2013-help.md
   - name: Acerca de la documentación de Exchange
-    href: about-exchange-documentation-exchange-2013-help.md
+    href: https://docs.microsoft.com/es-es/exchange/about-exchange-documentation
     items:
     - name: Accesibilidad para personas con discapacidad
       href: accessibility-for-people-with-disabilities-exchange-2013-help.md

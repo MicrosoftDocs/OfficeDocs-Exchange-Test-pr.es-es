@@ -27,11 +27,11 @@ La herramienta de solución de problemas de mensajería unificada de Microsoft E
 
   - Compruebe que la organización de Exchange 2010 o Exchange 2013 cumple los siguientes requisitos:
     
-      - Se ha creado un plan de marcado de mensajería unificada. Para obtener información acerca de los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](create-a-um-dial-plan-exchange-2013-help.md).
+      - Se ha creado un plan de marcado de mensajería unificada. Para obtener información acerca de los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
     
-      - Se ha creado una directiva de buzón de mensajería unificada. Para conocer los pasos detallados, consulte [Crear una directiva de buzón de mensajería unificada](create-a-um-mailbox-policy-exchange-2013-help.md).
+      - Se ha creado una directiva de buzón de mensajería unificada. Para conocer los pasos detallados, consulte [Crear una directiva de buzón de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy).
     
-      - Se ha creado una puerta de enlace IP de mensajería unificada. Para conocer los pasos detallados, consulte [Cree una puerta de enlace IP de mensajería unificada](create-a-um-ip-gateway-exchange-2013-help.md).
+      - Se ha creado una puerta de enlace IP de mensajería unificada. Para conocer los pasos detallados, consulte [Cree una puerta de enlace IP de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway).
     
       - Un servidor de mensajería UNIFICADA de Exchange 2010 se agregó al plan de marcado de mensajería UNIFICADA. Si está utilizando Exchange 2013 con Lync Server, agregue todos los servidores de buzón y acceso de cliente a los planes de marcado de URI de SIP. Para ver pasos detallados, consulte [Agregar un servidor de mensajería UNIFICADA a un Plan de marcado](https://go.microsoft.com/fwlink/p/?linkid=313051) o [Agregar servidores de acceso de cliente y buzón a un plan de marcado de URI de SIP](add-mailbox-and-client-access-servers-to-a-sip-uri-dial-plan-exchange-2013-help.md).
 

@@ -85,12 +85,12 @@ Para obtener una guía paso a paso sobre cómo implementar la mensajería unific
 <tr class="odd">
 <td><p><strong> </strong></p></td>
 <td><p>Cree el número necesario de planes de marcado para la organización.</p></td>
-<td><p><a href="create-a-um-dial-plan-exchange-2013-help.md">Crear un plan de marcado de mensajería unificada</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan">Crear un plan de marcado de mensajería unificada</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p>Configure los parámetros de seguridad del plan de marcado.</p></td>
-<td><p><a href="configure-the-voip-security-setting-exchange-2013-help.md">Establecer la configuración de seguridad de VoIP</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes">Establecer la configuración de seguridad de VoIP</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>
@@ -106,24 +106,24 @@ Para obtener una guía paso a paso sobre cómo implementar la mensajería unific
 <tr class="odd">
 <td><p></p></td>
 <td><p>Configure los números y otros parámetros de Outlook Voice Access.</p></td>
-<td><p><a href="manage-a-um-dial-plan-exchange-2013-help.md">Administrar un plan de marcado de mensajería unificada</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding">Administrar un plan de marcado de mensajería unificada</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p>Configure el marcado saliente para la Mensajería unificada.</p></td>
-<td><p><a href="authorize-calls-using-dialing-rules-exchange-2013-help.md">Autorizar llamadas mediante reglas de marcado</a></p>
-<p><a href="authorize-calls-for-users-in-a-dial-plan-exchange-2013-help.md">Autorizar llamadas a los usuarios en un plan de marcado</a></p>
-<p><a href="authorize-calls-for-a-group-of-users-exchange-2013-help.md">¿Autorizar llamadas para un grupo de usuarios</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/apply-or-remove-outlook-web-app-mailbox-policy">Autorizar llamadas mediante reglas de marcado</a></p>
+<p><a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/policy-tips">Autorizar llamadas a los usuarios en un plan de marcado</a></p>
+<p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-a-group-of-users">¿Autorizar llamadas para un grupo de usuarios</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
 <td><p>Cree el número necesario de operadores automáticos.</p></td>
-<td><p><a href="create-a-um-auto-attendant-exchange-2013-help.md">Crear un operador automático de mensajería unificada</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/enable-common-pin-patterns">Crear un operador automático de mensajería unificada</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p>Instale y configure cada uno de los operadores automáticos de la mensajería unificada.</p></td>
-<td><p><a href="set-up-a-um-auto-attendant-exchange-2013-help.md">Configuración de un operador automático de mensajería unificada</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-up-um-auto-attendant">Configuración de un operador automático de mensajería unificada</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong> </strong></p></td>
@@ -141,13 +141,13 @@ Para obtener una guía paso a paso sobre cómo implementar la mensajería unific
 <tr class="odd">
 <td><p><strong> </strong></p></td>
 <td><p>Cree una directiva de buzón de mensajería unificada o configure una directiva de buzón de mensajería unificada predeterminada.</p></td>
-<td><p><a href="create-a-um-mailbox-policy-exchange-2013-help.md">Crear una directiva de buzón de mensajería unificada</a></p>
-<p><a href="manage-a-um-mailbox-policy-exchange-2013-help.md">Administrar una directiva de buzones de correo de mensajería unificada</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy">Crear una directiva de buzón de mensajería unificada</a></p>
+<p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy">Administrar una directiva de buzones de correo de mensajería unificada</a></p></td>
 </tr>
 <tr class="even">
 <td><p> </p></td>
 <td><p>Habilite a los usuarios para la mensajería unificada con un número de extensión y un número E.164, si corresponde.</p></td>
-<td><p><a href="enable-a-user-for-voice-mail-exchange-2013-help.md">Habilitar a un usuario para el correo de voz</a></p></td>
+<td><p><a href="https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail">Habilitar a un usuario para el correo de voz</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
