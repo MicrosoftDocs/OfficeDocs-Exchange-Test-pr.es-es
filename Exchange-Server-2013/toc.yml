@@ -1688,7 +1688,7 @@
       href: https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips
       items:
       - name: Habilitar o deshabilitar sugerencias de correo electrónico
-        href: enable-or-disable-https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips
+        href: enable-or-disable-mailtips-exchange-2013-help.md
       - name: Configurar el tamaño de gran audiencia para su organización
         href: https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/mailtips/configure-large-audience-size
       - name: Configurar las sugerencias de correo electrónico personalizadas para los destinatarios
@@ -1699,7 +1699,7 @@
         - name: Administrar sugerencias de correo electrónico para las relaciones de la organización
           href: https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/mailtips/manage-mailtips-for-organization-relationships
       - name: Grupo métricas y sugerencias de correo electrónico
-        href: group-metrics-and-https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips
+        href: group-metrics-and-mailtips-exchange-2013-help.md
         items:
         - name: Configurar métricas de grupo
           href: configure-group-metrics-exchange-2013-help.md
