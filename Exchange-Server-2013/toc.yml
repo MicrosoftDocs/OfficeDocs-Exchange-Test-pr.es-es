@@ -756,14 +756,14 @@
           - name: Migrar desde carpetas administradas
             href: migrate-from-managed-folders-exchange-2013-help.md
           - name: Desactivar o suspender la administración de registros de mensajería
-            href: turn-off-or-suspend-https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/messaging-records-management
+            href: turn-off-or-suspend-messaging-records-management-exchange-2013-help.md
       - name: Administración de registros de seguimiento de mensajería
-        href: monitoring-https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/messaging-records-management
+        href: monitoring-messaging-records-management-exchange-2013-help.md
         items:
         - name: Ver los contadores de rendimiento para la administración de registros de mensajes
-          href: view-performance-counters-for-https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/messaging-records-management
+          href: view-performance-counters-for-messaging-records-management-exchange-2013-help.md
         - name: Contadores de rendimiento para la administración de registros de mensajes
-          href: performance-counters-for-https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/messaging-records-management
+          href: performance-counters-for-messaging-records-management-exchange-2013-help.md
         - name: Errores y eventos de administración de registros de mensajes
           href: messaging-records-management-errors-and-events-exchange-2013-help.md
     - name: Registro en diario
@@ -1415,7 +1415,7 @@
       href: https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/address-book-policies
       items:
       - name: 'Caso: implementación de directivas de libretas de direcciones'
-        href: scenario-deploying-https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/address-book-policies
+        href: scenario-deploying-address-book-policies-exchange-2013-help.md
       - name: Procedimientos de directivas de la libreta de direcciones
         href: address-book-policy-procedures-exchange-2013-help.md
         items:
