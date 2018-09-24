@@ -1,5 +1,5 @@
 ﻿---
-title: 'Restaurar carpetas públicas y buzones de carpetas públicas de movimientos fallidos: Exchange 2013 Help'
+title: 'Restaurar carpetas públicas y buzones carpetas públicas movimientos fallidos'
 TOCTitle: Restaurar carpetas públicas y buzones de carpetas públicas de movimientos fallidos
 ms:assetid: 2ade83c9-5f9b-4945-bf32-48fa8185b515
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ983802(v=EXCHG.150)
@@ -54,16 +54,18 @@ Para otras tareas de administración relacionadas con las carpetas públicas, co
 ## Restaurar una carpeta pública eliminada temporalmente
 
 En este ejemplo se restaura la carpeta pública \\Dev\\CustomerEnagagements en el buzón de carpetas públicas de destino Development01.
-
+```powershell
     New-MailboxRestoreRequest -SourceStoreMailbox Development -SourceDatabase MBX_DB01 -TargetMailbox Development01 -AllowLegacyDNMismatch -IncludeFolders \Dev\CustomerEngagements
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-MailboxRestoreRequest](https://technet.microsoft.com/es-es/library/ff829875\(v=exchg.150\)).
 
 ## Restaurar un buzón de carpetas públicas eliminado temporalmente
 
 En este ejemplo se restaura el buzón de carpetas públicas PF\_Singapore en el nuevo buzón de carpetas públicas PF\_Singapore\_Restore.
-
-    New-MailboxRestoreRequest -SourceStoreMailbox PF_Singapore -SourceDatabase MBX_DB01 -TargetMailbox PF_Singapore_Restore -AllowLegacyDNMismatch
+  ```powershell
+      New-MailboxRestoreRequest -SourceStoreMailbox PF_Singapore -SourceDatabase MBX_DB01 -TargetMailbox PF_Singapore_Restore -AllowLegacyDNMismatch
+  ```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-MailboxRestoreRequest](https://technet.microsoft.com/es-es/library/ff829875\(v=exchg.150\)).
 

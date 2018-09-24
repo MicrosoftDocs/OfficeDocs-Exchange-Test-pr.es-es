@@ -45,7 +45,9 @@ Si está buscando otras tareas de administración relacionadas con la administra
 
 Este ejemplo configura el Asistente de carpetas administradas para procesar todos los buzones en un día.
 
-    Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+```powershell
+Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-MailboxServer](https://technet.microsoft.com/es-es/library/aa998651\(v=exchg.150\)).
 
@@ -55,13 +57,17 @@ Para comprobar si ha logrado configurar el Asistente de carpetas administradas, 
 
 Este comando recupera todos los servidores de buzón de correo de la organización y presenta las propiedades del ciclo de trabajo del Asistente de carpetas administradas de cada servidor en formato de tabla. El modificador *Auto* se utiliza para ajustar automáticamente el ancho de columna.
 
+```powershell
     Get-MailboxServer | Format-Table Name,ManagedFolderWorkCycle* -Auto
+```
 
 ## Usar el Shell para iniciar el Asistente para carpetas administradas
 
 Este ejemplo desencadena el Asistente de carpetas administradas para procesar inmediatamente el buzón de Morris Cornejo.
 
-    Start-ManagedFolderAssistant -Identity morris.cornejo@contoso.com
+```powershell
+Start-ManagedFolderAssistant -Identity morris.cornejo@contoso.com
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Start-ManagedFolderAssistant](https://technet.microsoft.com/es-es/library/aa998864\(v=exchg.150\)).
 

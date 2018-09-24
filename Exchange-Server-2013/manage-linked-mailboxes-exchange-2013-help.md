@@ -26,7 +26,7 @@ La figura siguiente ilustra la relación entre la cuenta de usuario vinculada us
 ![Organización de Exchange compleja con bosque de recursos](images/Aa998031.706725cf-e520-4b89-a275-acd8fb58943a(EXCHG.150).gif "Organización de Exchange compleja con bosque de recursos")
 
 
-> [!NOTE]
+> [!NOTE]  
 > Debe configurarse una confianza entre el bosques de Exchange y al menos un bosque de cuentas antes de crear buzones vinculados. Como mínimo, deberá configurar una confianza saliente unidireccional para que el busque de Exchange confíe en el bosque de cuentas. Para obtener más información, consulte <A href="https://technet.microsoft.com/es-es/library/jj156983(v=exchg.150)">Obtenga más información acerca de la configuración de una confianza de bosque para que sea compatible con los buzones vinculados</A>.
 
 
@@ -66,7 +66,7 @@ La figura siguiente ilustra la relación entre la cuenta de usuario vinculada us
 4.  Si su organización ha configurado una confianza saliente unidireccional en la que los bosques de Exchange confían en el bosque de cuentas, se le pedirán las credenciales de administrador del bosque de cuentas para que pueda acceder al controlador de dominios del bosque de confianza. Escriba el nombre de usuario y la contraseña de una cuenta de administrador en el bosque de cuentas y, a continuación, haga clic en **Siguiente**.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > No se le pedirán las credenciales de administrador en caso de que haya creado una confianza bidireccional u otra confianza saliente unidireccional en la que el bosque de cuentas confíe en el bosque de Exchange.
 
 
@@ -88,7 +88,7 @@ La figura siguiente ilustra la relación entre la cuenta de usuario vinculada us
       - **\* Nombre de inicio de sesión del usuario**   Utilice este cuadro para escribir el nombre de inicio de sesión del usuario, un paso obligatorio para crear un buzón vinculado. Escriba aquí el nombre de usuario. Este nombre se utilizará para la parte izquierda de la dirección de correo electrónico del buzón vinculado, en caso de que no especifique un alias.
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Dado que la cuenta de usuario creada en el bosque de Exchange está deshabilitada al crear un buzón vinculado, el usuario no utilizará el nombre de inicio de sesión para iniciar sesión en el buzón vinculado. Estos inician sesión mediante sus credenciales del bosque de cuentas.
 
 
@@ -98,7 +98,7 @@ La figura siguiente ilustra la relación entre la cuenta de usuario vinculada us
       - **Alias**   Escriba el alias, que especifica el alias de correo electrónico para el buzón vinculado. El alias del usuario es la porción de la dirección de correo electrónico ubicada a la izquierda del símbolo arroba (@). Debe ser exclusivo en el bosque.
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Si deja este cuadro vacío, se usa para el alias de correo electrónico el valor de la parte del nombre de usuario del <STRONG>Nombre de inicio de sesión del usuario</STRONG>.
 
     
@@ -106,7 +106,7 @@ La figura siguiente ilustra la relación entre la cuenta de usuario vinculada us
     
       - **Base de datos de buzones**   Use esta opción para especificar una base de datos de buzones en vez de permitir que Exchange seleccione la base de datos. Haga clic en **Examinar** para abrir el cuadro de diálogo **Seleccionar base de datos de buzones**. En este cuadro de diálogo se enumeran todas las bases de datos de buzones de la organización de Exchange. De manera predeterminada, las bases de datos de buzones se ordenan por el nombre. También puede hacer clic en el título de la columna correspondiente para ordenar las bases de datos por versión o nombre del servidor. Seleccione la base de datos de buzones que desee usar y haga clic en **Aceptar**.
     
-      - **Directiva de la libreta de direcciones**   Utilice esta opción para especificar una directiva de libreta de direcciones (ABP) para el buzón vinculado. Las ABP contienen una lista global de direcciones (GAL), una libreta de direcciones sin conexión (OAB), una lista de salas y un conjunto de listas de direcciones. Cuando se asigna una ABP a usuarios, esta les proporciona acceso a una LGD personalizada en Outlook y Outlook Web App. Para obtener más información, consulte [Directivas de la libreta de direcciones](address-book-policies-exchange-2013-help.md).
+      - **Directiva de la libreta de direcciones**   Utilice esta opción para especificar una directiva de libreta de direcciones (ABP) para el buzón vinculado. Las ABP contienen una lista global de direcciones (GAL), una libreta de direcciones sin conexión (OAB), una lista de salas y un conjunto de listas de direcciones. Cuando se asigna una ABP a usuarios, esta les proporciona acceso a una LGD personalizada en Outlook y Outlook Web App. Para obtener más información, consulte [Directivas de la libreta de direcciones](https://docs.microsoft.com/es-es/exchange/address-books/address-book-policies/address-book-policies).
         
         En la lista desplegable, seleccione la directiva que desea asociar con este buzón.
 
@@ -116,7 +116,9 @@ La figura siguiente ilustra la relación entre la cuenta de usuario vinculada us
 
 En este ejemplo se crea un buzón vinculado para Ayla Kol en el bosque de recursos de Exchange CONTOSO. El dominio FABRIKAM está el bosque de cuentas. La cuenta de administrador FABRIKAM\\administrador se utiliza para acceder al controlador de dominio vinculado.
 
+```powershell
     New-Mailbox -Name "Ayla Kol" -LinkedDomainController "DC1_FABRIKAM" -LinkedMasterAccount " FABRIKAM\aylak" -OrganizationalUnit Users -UserPrincipalName aylak@contoso.com -LinkedCredential:(Get-Credential FABRIKAM\administrator)
+```
 
 Para obtener información acerca de la sintaxis y los parámetros, consulte [New-Mailbox](https://technet.microsoft.com/es-es/library/aa997663\(v=exchg.150\)).
 
@@ -128,13 +130,15 @@ Para comprobar si creó un buzón vinculado correctamente, siga uno de estos pro
 
   - En el Shell, ejecute el comando siguiente para mostrar información sobre el nuevo buzón vinculado.
     
-        Get-Mailbox <Name> | FL Name,RecipientTypeDetails,IsLinked,LinkedMasterAccount
+    ```powershell
+    Get-Mailbox <Name> | FL Name,RecipientTypeDetails,IsLinked,LinkedMasterAccount
+    ```
 
 ## Cambiar las propiedades de los buzones vinculados
 
 Tras crear un buzón vinculado, podrá realizar los cambios y establecer propiedades adicionales mediante el Centro de administración de Exchange (EAC) o el Shell de administración de Exchange.
 
-También puede cambiar las propiedades de varios buzones vinculados al mismo tiempo. Para obtener más información, consulte la sección, "Edición en masa de buzones de usuario" en el tema [Administrar los buzones de usuario](manage-user-mailboxes-exchange-2013-help.md).
+También puede cambiar las propiedades de varios buzones vinculados al mismo tiempo. Para obtener más información, consulte la sección, "Edición en masa de buzones de usuario" en el tema [Administrar los buzones de usuario](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/include-text-with-email-sent-when-voicemail-is-enabled).
 
 
 > [!IMPORTANT]
@@ -201,7 +205,7 @@ Utilice la sección **Uso del buzón** para ver o cambiar la cuota de almacenami
   - **Uso de buzón de correo**   Esta área muestra el tamaño total del buzón y el porcentaje de la cuota total del buzón que se usó.
 
 
-> [!NOTE]
+> [!NOTE]  
 > Para obtener la información que se muestra los dos cuadros previos, EAC consulta la base de datos de buzón que hospeda el buzón. Si el EAC no consigue comunicarse con el almacén de Exchange que contiene la base de datos de buzones, estos campos estará vacíos. Se muestra un mensaje de advertencia si el usuario no ha iniciado sesión en el buzón por primera vez.
 
 
@@ -228,7 +232,7 @@ Haga clic en **Más opciones** para ver o cambiar la cuota de almacenamiento del
 
 Use la sección **Dirección de correo electrónico** para ver o cambiar las direcciones de correo electrónico asociadas al buzón vinculado. Esto incluye las direcciones de SMTP principales del usuario y cualquier dirección de proxy asociada. La dirección SMTP principal (también denominada *dirección de respuesta predeterminada* se muestra en negrita en la lista de direcciones, con el valor **SMTP** en mayúsculas en la columna **Tipo**.
 
-  - **Agregar **  Haga clic en **Agregar**![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono") para agregar una dirección de correo electrónico nueva para este buzón. Seleccione uno de los siguientes tipos de dirección:
+  - **Agregar**  Haga clic en **Agregar**![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono") para agregar una dirección de correo electrónico nueva para este buzón. Seleccione uno de los siguientes tipos de dirección:
     
       - **Dirección SMTP**   Este es el tipo de dirección predeterminado. Haga clic en este botón de opción y luego escriba la nueva dirección SMTP en la casilla **\* Dirección de correo electrónico**.
     
@@ -237,12 +241,12 @@ Use la sección **Dirección de correo electrónico** para ver o cambiar las dir
       - **Tipo de dirección personalizada**   Haga clic en este botón y escriba uno de los tipos de dirección de correo electrónico que no sean SMTP admitidos en la casilla **\* Dirección de correo electrónico**.
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Con excepción de las direcciones X.400, Exchange no valida las direcciones personalizadas para comprobar el formato adecuado. Debe asegurarse de que la dirección personalizada que especifica cumpla los requisitos de formato para el tipo de dirección.
 
 
 
-  - **Actualizar automáticamente las direcciones de correo electrónico según la directiva de dirección de correo electrónico aplicada a este destinatario   **Seleccione esta casilla si desea que las direcciones de correo electrónico del destinatario se actualicen automáticamente cuando se hayan realizado los cambios en las directivas de direcciones de correo electrónico de su organización. Esta casilla está activada de forma predeterminada.
+  - **Actualizar automáticamente las direcciones de correo electrónico según la directiva de dirección de correo electrónico aplicada a este destinatario** Seleccione esta casilla si desea que las direcciones de correo electrónico del destinatario se actualicen automáticamente cuando se hayan realizado los cambios en las directivas de direcciones de correo electrónico de su organización. Esta casilla está activada de forma predeterminada.
 
 ## Características de buzón
 
@@ -256,10 +260,10 @@ Use la sección **Características de buzón** para ver o cambiar la configuraci
 
   - **Directiva de libreta de direcciones**   En este cuadro se muestra la directiva de libreta de direcciones que se aplica al buzón. Una directiva de libreta de direcciones le permite segmentar a los usuarios en grupos específicos para proporcionar vistas personalizadas de la libreta de direcciones. Para aplicar o cambiar la directiva de libreta de direcciones aplicada al buzón, seleccione una de la lista desplegable.
 
-  - **Mensajería unificada**   Esta función está deshabilitada de forma predeterminada. Al habilitar la mensajería unificada (MU), el usuario podrá usar las características de la MU de la organización y un conjunto predeterminado de propiedades de la misma se aplicarán al usuario. Haga clic en **Habilitar** para habilitar la mensajería unificada en el buzón. Para obtener información acerca de cómo habilitar la MU, consulte [Habilitar a un usuario para el correo de voz](enable-a-user-for-voice-mail-exchange-2013-help.md).
+  - **Mensajería unificada**   Esta función está deshabilitada de forma predeterminada. Al habilitar la mensajería unificada (MU), el usuario podrá usar las características de la MU de la organización y un conjunto predeterminado de propiedades de la misma se aplicarán al usuario. Haga clic en **Habilitar** para habilitar la mensajería unificada en el buzón. Para obtener información acerca de cómo habilitar la MU, consulte [Habilitar a un usuario para el correo de voz](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Para habilitar la mensajería unificada, debe tener un plan de marcado de mensajería unificada y una directiva de buzones de mensajería unificada.
 
 
@@ -285,7 +289,7 @@ Use la sección **Características de buzón** para ver o cambiar la configuraci
       - **URL**   Use este campo para indicar una dirección URL a un sitio web que ofrezca información o instrucciones acerca de la retención por juicio que tiene aplicada el buzón de correo.
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > El texto de estos campos aparecen en el buzón de correo del usuario únicamente si usa Outlook 2010 o versiones posteriores. No aparece en Outlook Web App ni en otros clientes de correo electrónico. Para ver el texto de los cuadros Nota y URL en Outlook, haga clic en la ficha <STRONG>Archivo</STRONG> y, en la página <STRONG>Información</STRONG>, bajo <STRONG>Configuración de la cuenta</STRONG>, aparecerá el comentario de la retención por juicio.
 
 
@@ -311,7 +315,7 @@ Use la sección **Características de buzón** para ver o cambiar la configuraci
       - **Límite de destinatarios**   Esta configuración establece el número máximo de destinatarios a los que el usuario puede enviar un mensaje. Seleccione la casilla **Núm. máximo de destinatarios** para limitar el número de destinatarios permitidos en las líneas Para:, Cc: y Cco: de un correo electrónico y, a continuación, especifique el número máximo de destinatarios.
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > Para las organizaciones locales de Exchange, el límite de destinatarios es ilimitado. Para las organizaciones de Exchange Online, el límite es de 500 destinatarios.
 
 
@@ -347,7 +351,7 @@ Utilice la sección **Miembro de** para ver una lista de los grupos de distribuc
 Utilice la sección **Sugerencia de correo** para agregar una sugerencia de correo y avisar a los usuarios de posibles problemas si envían un mensaje a este destinatario. La información sobre correo es texto que se muestra en la barra de información cuando un destinatario se agrega a los campos Para, CC o CCO de un nuevo mensaje de correo electrónico.
 
 
-> [!NOTE]
+> [!NOTE]  
 > La información sobre correo puede incluir etiquetas HTML, pero no se permiten los scripts. La longitud de la información de una sugerencia de correo electrónico personalizada no puede superar los 175 caracteres mostrados. Las etiquetas HTML no se cuentan en el límite.
 
 
@@ -375,16 +379,20 @@ Use los cmdlets **Get-Mailbox** y **Set-Mailbox** para ver y cambiar las propied
 A continuación aparecen algunos ejemplos de cómo usar el Shell para cambiar las propiedades del buzón.
 
 En este ejemplo se utiliza el comando **Get-Mailbox** para buscar todos los buzones vinculados de la organización.
-
+```powershell
     Get-Mailbox -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'LinkedMailbox')}
+```
 
 En este ejemplo se utiliza el comando **Set-Mailbox** para limitar el número de destinatarios permitidos en las líneas Para:, Cc: y Cco: de un mensaje de correo electrónico a 500. Este límite se aplica a todos los buzones vinculados de la organización.
 
+```powershell
     Get-Mailbox -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'LinkedMailbox')} | Set-Mailbox -RecipientLimits 500
+```
 
 En este ejemplo se cambia la cuenta maestra vinculada del bosque de cuentas fabrikam.com que está asociada al buzón vinculado de un bosque de Exchange.
-
+```powershell
     Set-Mailbox -Identity "Ayla Kol" -LinkedDomainController DC1.fabrikam.com -LinkedMasterAccount "fabrikam\robinw" -LinkedCredential:(Get-Credential fabrikam\administrator)
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -393,10 +401,14 @@ Para comprobar si cambió las propiedades de un buzón vinculado correctamente, 
   - En el EAC, seleccione el buzón vinculado y haga clic en **Editar** para visualizar la propiedad o característica que ha modificado. Según la propiedad que cambie, puede aparecer en el panel Detalles del buzón seleccionado.
 
   - En el Shell, use el cmdlet **Get-Mailbox** para verificar los cambios. Una de las ventajas de usar el Shell es que puede ver diferentes propiedades para varios buzones vinculados. En el ejemplo anterior en el que se cambió el límite de destinatarios, ejecute el siguiente comando para comprar el valor nuevo.
-    
+
+    ```powershell
         Get-Mailbox -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'LinkedMailbox')} | fl Name,RecipientLimits
+    ```
     
     En el ejemplo anterior en el que se cambió la cuenta maestra vinculada, ejecute el siguiente comando para comprar el valor nuevo.
     
-        Get-Mailbox "Ayla Kol" | fl LinkedMasterAccount
+    ```powershell
+    Get-Mailbox "Ayla Kol" | fl LinkedMasterAccount
+    ```
 

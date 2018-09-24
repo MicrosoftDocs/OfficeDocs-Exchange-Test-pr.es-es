@@ -49,7 +49,9 @@ Las asignaciones de funciones de administración asignan una función de adminis
 
 Para ver una lista de todas las asignaciones de funciones configuradas en la organización, ejecute el cmdlet **Get-ManagementRoleAssignment**. Si desea recuperar una lista de las asignaciones de funciones que coinciden con una cadena parcial que haya especificado, utilice caracteres comodín (\*). En este ejemplo, se recupera una lista de todas las asignaciones de funciones que comienzan con la cadena "Tier 1".
 
+```powershell
     Get-ManagementRoleAssignment "Tier 1*"
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd351024\(v=exchg.150\)).
 
@@ -57,11 +59,15 @@ Para obtener información más detallada acerca de la sintaxis y los parámetros
 
 También puede ver los detalles de una función específica canalizando los resultados del cmdlet **Get-ManagementRoleAssignment** al cmdlet **Format-List**. Use la siguiente sintaxis.
 
-    Get-ManagementRoleAssignment <assignment name> | Format-List
+```powershell
+Get-ManagementRoleAssignment <assignment name> | Format-List
+```
 
 En este ejemplo, se recuperan los detalles de la asignación de funciones Asignación del Servicio de asistencia.
 
-    Get-ManagementRoleAssignment "Help Desk Assignment" | Format-List
+```powershell
+Get-ManagementRoleAssignment "Help Desk Assignment" | Format-List
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd351024\(v=exchg.150\)).
 
@@ -69,11 +75,15 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para ver una lista de asignaciones de funciones asociadas con un grupo de funciones de administración, una función o una directiva de asignación de funciones, o asociadas con un usuario o un grupo de seguridad universal (USG), utilice la sintaxis siguiente.
 
-    Get-ManagementRoleAssignment -RoleAssignee <role assignee name>
+```powershell
+Get-ManagementRoleAssignment -RoleAssignee <role assignee name>
+```
 
 En este ejemplo, se recuperan todas las asignaciones de funciones asociadas con el grupo de funciones Administración de servidor.
 
-    Get-ManagementRoleAssignment -RoleAssignee "Server Management"
+```powershell
+Get-ManagementRoleAssignment -RoleAssignee "Server Management"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd351024\(v=exchg.150\)).
 
@@ -83,11 +93,15 @@ Cada función puede tener varias asignaciones de funciones. Puede utilizar el cm
 
 Para ver una lista de asignaciones de funciones asociadas con una función específica, utilice la sintaxis siguiente.
 
-    Get-ManagementRoleAssignment -Role <role name>
+```powershell
+Get-ManagementRoleAssignment -Role <role name>
+```
 
 En este ejemplo, se recuperan todas las asignaciones de funciones asociadas con la función Destinatarios de correo.
 
-    Get-ManagementRoleAssignment -Role "Mail Recipients"
+```powershell
+Get-ManagementRoleAssignment -Role "Mail Recipients"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd351024\(v=exchg.150\)).
 
@@ -99,7 +113,9 @@ Para ver una lista de asignaciones de funciones que utilizan un ámbito predefin
 
 En este ejemplo, se recuperan todas las asignaciones de funciones que utilizan el ámbito predefinido Organización.
 
-    Get-ManagementRoleAssignment -RecipientWriteScope Organization
+```powershell
+Get-ManagementRoleAssignment -RecipientWriteScope Organization
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd351024\(v=exchg.150\)).
 
@@ -107,11 +123,14 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para ver una lista de asignaciones de funciones para las que se ha definido un ámbito en una unidad organizativa (OU) específica, utilice la sintaxis siguiente.
 
-    Get-ManagementRoleAssignment -RecipientOrganizationalUnitScope <OU>
+```powershell
+Get-ManagementRoleAssignment -RecipientOrganizationalUnitScope <OU>
+```
 
 En este ejemplo, se recuperan todas las asignaciones de funciones para las que se ha definido un ámbito en la unidad organizativa Norteamérica\\Ingeniería\\Usuarios en el dominio contoso.com.
-
+```powershell
     Get-ManagementRoleAssignment -RecipientOrganizationalUnitScope "contoso.com/North America/Engineering/Users"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd351024\(v=exchg.150\)).
 
@@ -131,11 +150,15 @@ La sintaxis para cada parámetro es la misma. Especifique el nombre del ámbito 
 
 En este ejemplo, se recuperan todas las asignaciones de funciones que utilizan el ámbito de destinatarios Destinatarios de Vancouver.
 
-    Get-ManagementRoleAssignment -CustomRecipientWriteScope "Vancouver Recipients"
+```powershell
+Get-ManagementRoleAssignment -CustomRecipientWriteScope "Vancouver Recipients"
+```
 
 En este ejemplo, se recuperan todas las asignaciones de funciones que utilizan el ámbito exclusivo de configuración Sitio de AD en Seattle.
 
-    Get-ManagementRoleAssignment -ExclusiveConfigWriteScope "Seattle AD Site"
+```powershell
+Get-ManagementRoleAssignment -ExclusiveConfigWriteScope "Seattle AD Site"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd351024\(v=exchg.150\)).
 
@@ -143,15 +166,21 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para ver una lista de asignaciones de funciones normales o exclusivas, utilice la sintaxis siguiente.
 
-    Get-ManagementRoleAssignment -Exclusive < $True | $False >
+```powershell
+Get-ManagementRoleAssignment -Exclusive < $True | $False >
+```
 
 Por ejemplo, para ver una lista de ámbitos exclusivos, ejecute el siguiente comando:
 
-    Get-ManagementRoleAssignment -Exclusive $True
+```powershell
+Get-ManagementRoleAssignment -Exclusive $True
+```
 
 En este ejemplo, se recupera una lista de ámbitos normales sin ámbitos exclusivos.
 
-    Get-ManagementRoleAssignment -Exclusive $False
+```powershell
+Get-ManagementRoleAssignment -Exclusive $False
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd351024\(v=exchg.150\)).
 
@@ -161,11 +190,15 @@ Para ver una lista de asignaciones de funciones que pueden modificar un destinat
 
 En este ejemplo, se recupera una lista de las asignaciones de funciones que pueden modificar el destinatario Brian.
 
-    Get-ManagementRoleAssignment -WritableRecipient "Brian"
+```powershell
+Get-ManagementRoleAssignment -WritableRecipient "Brian"
+```
 
 Puede combinar los parámetros *WritableRecipient* y *WritableServer* con otros parámetros, como el parámetro *RoleAssignee* y el modificador *GetEffectiveUsers*, para precisar su consulta y ampliar cualquier grupo de funciones o USG. En este ejemplo, se recuperan todos los usuarios que pueden modificar el servidor EX02 y que tienen asignado el grupo de funciones Administración de servidor.
 
+```powershell
     Get-ManagementRoleAssignment -WritableServer EX02 -RoleAssignee "Server Management" -GetEffectiveUsers
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd351024\(v=exchg.150\)).
 
@@ -173,11 +206,15 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para ver una lista de usuarios que reciben permisos de una asignación de funciones, utilice la sintaxis siguiente.
 
-    Get-ManagementRoleAssignment <assignment name> -GetEffectiveUsers
+```powershell
+Get-ManagementRoleAssignment <assignment name> -GetEffectiveUsers
+```
 
 En este ejemplo, se recupera una lista de usuarios en la asignación de roles Asignación del Servicio de asistencia.
 
-    Get-ManagementRoleAssignment "Help Desk Assignment" -GetEffectiveUsers
+```powershell
+Get-ManagementRoleAssignment "Help Desk Assignment" -GetEffectiveUsers
+```
 
 Asimismo, puede combinar el modificador *GetEffectiveUsers* con otros parámetros en el cmdlet **Get-ManagementRoleAssignment** para ampliar los grupos de funciones y USG a los que se asignan las asignaciones de funciones. Para obtener un ejemplo de cómo utilizar el modificador *GetEffectiveUsers* con otros parámetros, consulte la sección "Ver los usuarios que pueden modificar un destinatario o servidor específico", mencionada anteriormente en este tema.
 
@@ -187,11 +224,15 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para ver una lista de asignaciones de funciones que están habilitadas o deshabilitadas, utilice la sintaxis siguiente.
 
-    Get-ManagementRoleAssignment -Enabled < $True | $False >
+```powershell
+Get-ManagementRoleAssignment -Enabled < $True | $False >
+```
 
 En este ejemplo, se recupera una lista de asignaciones de funciones que están deshabilitadas.
 
-    Get-ManagementRoleAssignment -Enabled $False
+```powershell
+Get-ManagementRoleAssignment -Enabled $False
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd351024\(v=exchg.150\)).
 

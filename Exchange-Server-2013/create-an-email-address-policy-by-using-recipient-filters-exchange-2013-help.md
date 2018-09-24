@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear una directiva de la dirección de correo electrónico mediante filtros de destinatario: Exchange 2013 Help'
+title: 'Crear directiva dirección correo con filtros destinatario: Exchange 2013 Help'
 TOCTitle: Crear una directiva de la dirección de correo electrónico mediante filtros de destinatario
 ms:assetid: e3f446bd-1511-479c-8d87-2dfce5547c90
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb232194(v=EXCHG.150)
@@ -49,11 +49,14 @@ Para otras tareas de administración relacionadas con las directivas de direcci�
 
 Para crear una directiva de dirección de correo electrónico mediante filtros de destinatario, use la siguiente sintaxis.
 
+```powershell
     New-EmailAddressPolicy -Name <String> -RecipientFilter <String>
+```
 
 En este ejemplo, se crea una directiva de dirección de correo electrónico que se aplica a todos los ejecutivos, para los cuales la parte local de la dirección de correo electrónico consta de las dos primeras letras del nombre y el apellido completo.
-
+```powershell
     New-EmailAddressPolicy -Name 'Execs' -EnabledEmailAddressTemplates 'SMTP:%2g%s@contoso.com' -RecipientFilter {((RecipientType -eq 'UserMailbox') -and (Title -like 'executive'))}
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [New-EmailAddressPolicy](https://technet.microsoft.com/es-es/library/aa996800\(v=exchg.150\)).
 

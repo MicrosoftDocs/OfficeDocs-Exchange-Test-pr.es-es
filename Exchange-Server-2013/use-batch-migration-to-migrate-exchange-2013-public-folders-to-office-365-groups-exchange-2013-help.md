@@ -1,5 +1,5 @@
 ﻿---
-title: 'Utilizar lotes de migración para migrar carpetas públicas de Exchange de 2013 a Office 365 grupos: Exchange 2013 Help'
+title: 'Usar migración lote migrar carpetas públicas Exchange 2013 a Grupos Office 365'
 TOCTitle: Utilizar lotes de migración para migrar carpetas públicas de Exchange de 2013 a Office 365 grupos
 ms:assetid: 1d800576-957d-4916-ae2a-55c08ca75be1
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Mt843873(v=EXCHG.150)
@@ -19,7 +19,7 @@ _**Última modificación del tema:** 2018-03-26_
 
 **Resumen:**  cómo mover las carpetas públicas de Exchange de 2013 a Office 365 grupos.
 
-Mediante un proceso conocido como *migración de lote*, puede mover algunas o todas las carpetas públicas de Exchange de 2013 a los grupos de Office 365. Grupos es una nueva oferta de Microsoft que ofrece ciertas ventajas sobre las carpetas públicas de colaboración. Consulte [Migrar las carpetas públicas a grupos de Office 365](migrate-your-public-folders-to-office-365-groups-exchange-2013-help.md) para obtener una introducción de las diferencias entre carpetas públicas y grupos y razones por la organización podrá o no podrá acogerse a los grupos de conmutación.
+Mediante un proceso conocido como *migración de lote*, puede mover algunas o todas las carpetas públicas de Exchange de 2013 a los grupos de Office 365. Grupos es una nueva oferta de Microsoft que ofrece ciertas ventajas sobre las carpetas públicas de colaboración. Consulte [Migrar las carpetas públicas a grupos de Office 365](https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/migrate-your-public-folders-to-office-365-groups) para obtener una introducción de las diferencias entre carpetas públicas y grupos y razones por la organización podrá o no podrá acogerse a los grupos de conmutación.
 
 Este artículo contiene los procedimientos paso a paso para llevar a cabo la migración real del lote de las carpetas públicas de Exchange de 2013.
 
@@ -93,7 +93,9 @@ Los pasos siguientes son necesarios para preparar su organización para la migra
 
 4.  Debe tener la función de migración **de la pata** habilitado para los clientes de Office 365. Para comprobar esto, ejecute el siguiente comando de PowerShell en línea de Exchange:
     
-        Get-MigrationConfig
+    ```powershell
+    Get-MigrationConfig
+    ```
     
     Si la salida en **características de** listas **de la pata**, entonces la característica está habilitada y se puede seguir *paso 3: el archivo .csv de Creta*.
     
@@ -109,13 +111,16 @@ El archivo .csv debe contener las siguientes columnas:
 
   - **TargetGroupMailbox**. Dirección SMTP del grupo de destino en Office 365. Puede ejecutar el comando siguiente para ver la dirección SMTP principal.
     
-        Get-UnifiedGroup <alias of the group> | Format-Table PrimarySmtpAddress
+    ```powershell
+    Get-UnifiedGroup <alias of the group> | Format-Table PrimarySmtpAddress
+    ```
 
 Un .csv de ejemplo:
-
+```powershell
     "FolderPath","TargetGroupMailbox"
     "\Sales","sales@contoso.onmicrosoft.com"
     "\Sales\EMEA","emeasales@contoso.onmicrosoft.com"
+```
 
 Tenga en cuenta que una carpeta mail y una carpeta de calendario se pueden combinar en un solo grupo en Office 365. Sin embargo, no se admite cualquier otro escenario de varias carpetas públicas al combinar en un grupo dentro de un lote de migración. Si necesita asignar varias carpetas públicas para el mismo grupo de Office 365, puede hacerlo mediante la ejecución de lotes diferentes de migración, que se deben ejecutar consecutivamente, uno tras otro. Puede tener hasta 500 entradas en cada lote de migración.
 
@@ -130,17 +135,22 @@ En este paso, recopilar información del entorno de Exchange y, a continuación,
 2.  En Exchange Online PowerShell, utilice la información que devolvió anteriormente en el paso 1 para ejecutar los siguientes comandos. Las variables de estos comandos serán los valores del paso 1.
     
     1.  Pasar las credenciales de un usuario con permisos de administrador en el entorno de Exchange de 2013 en la variable `$Source_Credential`. Cuando finalmente ejecuta la solicitud de migración en Exchange Online, utilizará esta credencial para obtener acceso a los servidores de Exchange de 2013 para copiar el contenido en Exchange Online.
-        
+    ```powershell    
             $Source_Credential = Get-Credential
             <source_domain>\<PublicFolder_Administrator_Account>
+    ```
     
     2.  Utilice la información del servidor proxy Sra. de su entorno Exchange de 2013 que anotó en el paso 1 anterior y pasar ese valor a la variable `$Source_RemoteServer`.
         
-            $Source_RemoteServer = "<MRS proxy endpoint>"
+        ```powershell
+        $Source_RemoteServer = "<MRS proxy endpoint>"
+        ```
 
 3.  En Exchange Online PowerShell, ejecute el comando siguiente para crear un extremo de la migración:
-    
+
+    ```powershell
         $PfEndpoint = New-MigrationEndpoint -PublicFolderToUnifiedGroup -Name PFToGroupEndpoint -RemoteServer $Source_RemoteServer -Credentials $Source_Credential
+    ```
 
 4.  Ejecute el comando siguiente para crear un nuevo lote de migración de 365 grupo de carpeta a la oficina pública. En este comando:
     
@@ -154,11 +164,15 @@ En este paso, recopilar información del entorno de Exchange y, a continuación,
     
     <!-- end list -->
     
+    ```powershell
         New-MigrationBatch -Name PublicFolderToGroupMigration -CSVData (Get-Content <path to .csv file> -Encoding Byte) -PublicFolderToUnifiedGroup -SourceEndpoint $PfEndpoint.Identity [-NotificationEmails <email addresses for migration notifications>] [-AutoStart]
+    ```
 
 5.  Ejecutando el comando siguiente en Exchange Online PowerShell para iniciar la migración. Tenga en cuenta que este paso sólo es necesario si no se utilizó el parámetro `-AutoStart` al crear el lote anteriormente en el paso 4.
     
-        Start-MigrationBatch PublicFolderToGroupMigration
+    ```powershell
+    Start-MigrationBatch PublicFolderToGroupMigration
+    ```
 
 Mientras que las migraciones de lote deben crearse mediante el cmdlet de `New-MigrationBatch` en Exchange Online PowerShell, puede verse el progreso de la migración y administran en Centro de administración de Exchange. También puede ver el progreso de la migración mediante la ejecución de los cmdlets [Get-MigrationBatch](https://technet.microsoft.com/es-es/library/jj219164\(v=exchg.150\)) y [Get-MigrationUser](https://technet.microsoft.com/es-es/library/jj218702\(v=exchg.150\)) . El cmdlet `New-MigrationBatch` inicia un usuario de migración para cada buzón de correo de grupo de Office 365, y puede ver el estado de estas solicitudes usando la página migración de buzones.
 
@@ -188,7 +202,9 @@ En el siguiente comando:
 
 <!-- end list -->
 
+```powershell
     .\AddMembersToGroups.ps1 -MappingCsv <path to .csv file> -BackupDir <path to backup directory> -ArePublicFoldersOnPremises $true -Credential (Get-Credential)
+```
 
 Una vez que los usuarios se han agregado a un grupo de Office 365, puedan comenzar a usar de él.
 
@@ -214,13 +230,17 @@ En el siguiente comando:
 
 <!-- end list -->
 
+```powershell
     .\LockAndSavePublicFolderProperties.ps1 -MappingCsv <path to .csv file> -BackupDir <path to backup directory> -ArePublicFoldersOnPremises $true -Credential (Get-Credential)
+```
 
 ## Paso 7: Finalizar la carpeta pública a la migración de grupos de Office 365
 
 Una vez tomadas las carpetas públicas de sólo lectura, debe realizar la migración de nuevo. Esto es necesario para una copia incremental final de los datos. Antes de ejecutar la migración de nuevo, tendrá que quitar el lote existente, lo que puede hacer ejecutando el siguiente comando:
 
-    Remove-MigrationBatch <name of migration batch>
+```powershell
+Remove-MigrationBatch <name of migration batch>
+```
 
 A continuación, cree un nuevo lote con el mismo archivo .csv ejecutando el siguiente comando. En este comando:
 
@@ -232,11 +252,15 @@ A continuación, cree un nuevo lote con el mismo archivo .csv ejecutando el sigu
 
 <!-- end list -->
 
+```powershell
     New-MigrationBatch -Name PublicFolderToGroupMigration -CSVData (Get-Content <path to .csv file> -Encoding Byte) -PublicFolderToUnifiedGroup -SourceEndpoint $PfEndpoint.Identity [-NotificationEmails <email addresses for migration notifications>] [-AutoStart]
+```
 
 Una vez creado el nuevo lote, iniciar la migración ejecutando el siguiente comando en Exchange Online PowerShell. Tenga en cuenta que este paso sólo es necesario si no se utilizó el parámetro `-AutoStart` en el comando anterior.
 
-    Start-MigrationBatch PublicFolderToGroupMigration
+```powershell
+Start-MigrationBatch PublicFolderToGroupMigration
+```
 
 Cuando haya terminado este paso (el estado del lote es **completado** ), compruebe que se ha copiado todos los datos a los grupos de Office 365. En ese momento, siempre y cuando esté satisfecho con la experiencia de los grupos, puede empezar a eliminar las carpetas públicas migradas de su entorno Exchange de 2013.
 
@@ -416,7 +440,9 @@ En el servidor de Exchange de 2013, ejecute el siguiente comando. En este comand
 
 <!-- end list -->
 
+```powershell
     .\UnlockAndRestorePublicFolderProperties.ps1 -BackupDir <path to backup directory> -ArePublicFoldersOnPremises $true -Credential (Get-Credential)
+```
 
 Tenga en cuenta que todos los elementos agregados al grupo de Office 365, o las operaciones de edición realizadas en los grupos, no se copian a las carpetas públicas. Suponiendo que los nuevos datos se agregó, por tanto, habrá pérdida de datos, mientras que la carpeta pública era un grupo.
 

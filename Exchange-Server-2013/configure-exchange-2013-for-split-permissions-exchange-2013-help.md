@@ -97,7 +97,9 @@ Para configurar los permisos divididos de RBAC, realice lo siguiente:
     
     1.  Deshabilite los permisos divididos de Active Directory mediante la ejecución del siguiente comando desde los medios de instalación de Exchange 2013.
         
-            setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+        ```powershell
+        setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+        ```
     
     2.  Reinicie los servidores de Exchange 2013 en su organización o espere a que el token de acceso de Active Directory se replique en todos los servidores de Exchange 2013.
         
@@ -110,8 +112,9 @@ Para configurar los permisos divididos de RBAC, realice lo siguiente:
 2.  Realice lo siguiente desde el Shell de administración de Exchange:
     
     1.  Cree un grupo de funciones para los administradores de Active Directory. Además de crear el grupo de funciones, el comando crea asignaciones de funciones normales entre el nuevo grupo de funciones y las funciones Creación de destinatarios de correo y Pertenencia y creación de grupos de seguridad.
-        
+        ```powershell   
             New-RoleGroup "Active Directory Administrators" -Roles "Mail Recipient Creation", "Security Group Creation and Membership"
+        ```
         
 
         > [!NOTE]
@@ -119,17 +122,22 @@ Para configurar los permisos divididos de RBAC, realice lo siguiente:
 
     
     2.  Use los siguientes comandos para crear asignaciones de funciones de delegación entre el grupo de funciones nuevo y la funciones Creación de destinatario de correo y Pertenencia y creación de grupos de seguridad.
-        
+        ```powershell
             New-ManagementRoleAssignment -Role "Mail Recipient Creation" -SecurityGroup "Active Directory Administrators" -Delegating
             New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Active Directory Administrators" -Delegating
+        ```
     
     3.  Agregue miembros al grupo de funciones nuevo utilizando el siguiente comando.
         
-            Add-RoleGroupMember "Active Directory Administrators" -Member <user to add>
+        ```powershell
+        Add-RoleGroupMember "Active Directory Administrators" -Member <user to add>
+        ```
     
     4.  Reemplace la lista de delegaciones en el nuevo grupo de funciones para que solamente los miembros del grupo de funciones puedan agregar o quitar miembros.
         
-            Set-RoleGroup "Active Directory Administrators" -ManagedBy "Active Directory Administrators"
+        ```powershell
+        Set-RoleGroup "Active Directory Administrators" -ManagedBy "Active Directory Administrators"
+        ```
         
 
         > [!IMPORTANT]
@@ -137,34 +145,40 @@ Para configurar los permisos divididos de RBAC, realice lo siguiente:
 
     
     5.  Utilice el siguiente comando para buscar todas las asignaciones de funciones normales y de delegación que correspondan a la función Creación de destinatarios de correo. El comando solo muestra las propiedades **Name**, **Role** y **RoleAssigneeName**.
-        
+        ```powershell
             Get-ManagementRoleAssignment -Role "Mail Recipient Creation" | Format-Table Name, Role, RoleAssigneeName -Auto
-    
+        ```
     6.  Utilice el siguiente comando para trasladar a la función Creación de destinatarios de correo todas las asignaciones de funciones normales y de delegación que no estén asociadas con el nuevo grupo de funciones u otro grupo de funciones, USG o asignaciones directas que desea mantener.
         
-            Remove-ManagementRoleAssignment <Mail Recipient Creation role assignment to remove>
+        ```powershell
+        Remove-ManagementRoleAssignment <Mail Recipient Creation role assignment to remove>
+        ```
         
 
         > [!NOTE]
         > Use el siguiente comando si desea quitar todas las asignaciones de funciones normales y de delegación de la función Creación de destinatario de correo o de cualquier usuario al que se le asignan funciones que no sea el grupo de funciones Administradores de Active Directory. El conmutador <EM>WhatIf</EM> permite ver cuáles asignaciones de roles se quitarán. Quite el conmutador <EM>WhatIf</EM> y ejecute nuevamente el comando para quitar las asignaciones de roles.
 
-        
+        ```powershell
             Get-ManagementRoleAssignment -Role "Mail Recipient Creation" | Where { $_.RoleAssigneeName -NE "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
+        ```
     
     7.  Use el siguiente comando para buscar todas las asignaciones de roles normales y de delegación que correspondan a la función Pertenencia y creación de grupos de seguridad. El comando solo muestra las propiedades **Name**, **Role** y **RoleAssigneeName**.
-        
+        ```powershell
             Get-ManagementRoleAssignment -Role "Security Group Creation and Membership" | Format-Table Name, Role, RoleAssigneeName -Auto
+        ```
     
     8.  Use el siguiente comando para quitar la función Pertenencia y creación de grupos de seguridad de todas las asignaciones de funciones normales y de delegación que no estén asociadas con el nuevo grupo de funciones u otro grupo de funciones, USG o asignaciones directas que desea mantener.
-        
+        ```powershell
             Remove-ManagementRoleAssignment <Security Group Creation and Membership role assignment to remove>
+        ```
         
 
         > [!NOTE]
         > Puede usar el mismo comando en la Nota anterior para quitar todas las asignaciones de funciones normales y de delegación correspondientes a la función Pertenencia y creación de grupos de seguridad o cualquier usuario al que se le asignan funciones que no sea el grupo de funciones Administradores de Active Directory, tal como se muestra en este ejemplo.
 
-        
+        ```powershell
             Get-ManagementRoleAssignment -Role "Security Group Creation and Membership" | Where { $_.RoleAssigneeName -NE "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
+        ```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte los siguientes temas:
 
@@ -222,7 +236,9 @@ Para cambiar de permisos divididos de RBAC o de uso compartido a permisos dividi
 
 1.  Desde un shell de comandos de Windows, ejecute el siguiente comando desde los medios de instalación de Exchange 2013 para habilitar los permisos divididos de Active Directory.
     
-        setup.exe /PrepareAD /ActiveDirectorySplitPermissions:true
+    ```powershell
+    setup.exe /PrepareAD /ActiveDirectorySplitPermissions:true
+    ```
 
 2.  Si dispone de varios dominios de Active Directory en la organización, deberá ejecutar `setup.exe /PrepareDomain` en cada dominio secundario que incluya servidores u objetos de Exchange, o bien ejecutar `setup.exe /PrepareAllDomains` desde un sitio que incluya un servidor Active Directory de cada dominio.
 

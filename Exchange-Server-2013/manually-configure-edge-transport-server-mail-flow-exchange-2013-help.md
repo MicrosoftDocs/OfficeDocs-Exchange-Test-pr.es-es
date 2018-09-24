@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar manualmente el flujo de correo del servidor de transporte perimetral: Exchange 2013 Help'
+title: 'Gestión manual flujo correo servidor transporte perimetral: Exchange 2013 Help'
 TOCTitle: Configurar manualmente el flujo de correo del servidor de transporte perimetral
 ms:assetid: cb4cc165-6c09-44ab-a95f-167ae8ed2485
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn606261(v=EXCHG.150)
@@ -64,27 +64,29 @@ Según la topología de su organización de Exchange, puede decidir suprimir la 
 Si decide realizar una partición del procesamiento de correo entrante y saliente entre dos servidores de transporte perimetral, uno de ellos se encargará de procesar el flujo de correo saliente y el otro se encargará de procesar el flujo de correo entrante. Para hacerlo, configure las suscripciones perimetrales de este modo:
 
   - Para el servidor de transporte perimetral saliente, ejecute este comando en el servidor de buzones de correo.
-    
+```powershell    
         New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeServerSubscription.xml" -Encoding Byte -ReadCount 0)) -Site "Site-A" -CreateInboundSendConnector $false -CreateInternetSendConnector $true
+```
 
   - Para el servidor de transporte perimetral entrante, ejecute este comando en el servidor de buzones de correo.
-    
+```powershell    
         New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeServerSubscription.xml" -Encoding Byte -ReadCount 0)) -Site "Site-A" -CreateInboundSendConnector $true -CreateInternetSendConnector $false
+```
 
 ## Enrutar correo saliente a un host inteligente
 
 Si la organización de Exchange enruta todo el correo saliente a través de un host inteligente, el conector de envío creado automáticamente no tendrá la configuración adecuada.
 
 Ejecute este comando en el servidor de buzones de correo para suprimir la creación automática del conector de envío a Internet.
-
+```powershell
     New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeServerSubscription.xml" -Encoding Byte -ReadCount 0)) -Site "Site-A" -CreateInternetSendConnector $false
-
+```
 Una vez completado el proceso de suscripción perimetral, cree manualmente un conector de envío a Internet. Cree el conector de envío dentro de la organización de Exchange y seleccione la suscripción perimetral como el servidor de origen para el conector. Seleccione el tipo de uso `Custom` y configure uno o varios hosts inteligentes. El nuevo conector de envío se replicará en la sesión de AD LDS del servidor de transporte perimetral la próxima vez que EdgeSync sincronice los datos de configuración. Puede forzar la sincronización de EdgeSync inmediata. Para ello, ejecute el cmdlet **Start-EdgeSynchronization** en un servidor de buzones de correo.
 
 Ejemplo: usar el Shell para configurar un conector de envío para que un servidor de transporte perimetral suscrito enrute mensajes para todos los espacios de direcciones de Internet a través de un host inteligente. Ejecute esta tarea en un servidor de buzones de correo dentro de la organización de Exchange, en lugar de en un servidor de transporte perimetral.
-
+```powershell
     New-SendConnector -Name "EdgeSync - Site-A to Internet" -Usage Custom -AddressSpaces SMTP:*;100 -DNSRoutingEnabled $false -SmartHosts 192.168.10.1 -SmartHostAuthMechanism None -SourceTransportServers EdgeSubscriptionName
-
+```
 
 > [!IMPORTANT]
 > Este mecanismo no especifica ningún mecanismo de autenticación de host inteligente. Asegúrese de configurar el mecanismo de autenticación correcto y facilitar todas las credenciales necesarias al crear un conector de host inteligente en su propia organización de Exchange.

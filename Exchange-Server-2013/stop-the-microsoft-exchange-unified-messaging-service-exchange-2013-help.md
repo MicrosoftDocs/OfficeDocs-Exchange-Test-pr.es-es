@@ -1,5 +1,5 @@
 ﻿---
-title: 'Interrumpir el servicio de mensajería unificada de Microsoft Exchange: Exchange 2013 Help'
+title: 'Interrumpir el servicio de UM Microsoft Exchange: Exchange 2013 Help'
 TOCTitle: Interrumpir el servicio de mensajería unificada de Microsoft Exchange
 ms:assetid: 64fa5535-8150-45c6-82e6-d2346892a031
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa998595(v=EXCHG.150)
@@ -55,5 +55,7 @@ Para otras tareas de administración relacionadas con los servidores de buzones,
 
 2.  En el cuadro **Abrir**, escriba el siguiente comando y, a continuación, presione Entrar.
     
-        net stop MSExchangeUM
+    ```powershell
+    net stop MSExchangeUM
+    ```
 

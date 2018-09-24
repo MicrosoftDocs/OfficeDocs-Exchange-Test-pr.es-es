@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ejecución de la herramienta para la solución de problemas de Mensajería unificada de Exchange en Windows 7 o Windows 8: Exchange 2013 Help'
+title: 'Ejecutar herramienta solucionar problemas UM de Exchange Windows 7 Windows 8'
 TOCTitle: Ejecución de la herramienta para la solución de problemas de Mensajería unificada de Exchange en Windows 7 o Windows 8
 ms:assetid: 98d6869d-ee4a-4088-849d-ef75b0f5d932
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff851872(v=EXCHG.150)
@@ -27,11 +27,11 @@ La herramienta de solución de problemas de mensajería unificada de Microsoft E
 
   - Compruebe que la organización de Exchange 2010 o Exchange 2013 cumple los siguientes requisitos:
     
-      - Se ha creado un plan de marcado de mensajería unificada. Para obtener información acerca de los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](create-a-um-dial-plan-exchange-2013-help.md).
+      - Se ha creado un plan de marcado de mensajería unificada. Para obtener información acerca de los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
     
-      - Se ha creado una directiva de buzón de mensajería unificada. Para conocer los pasos detallados, consulte [Crear una directiva de buzón de mensajería unificada](create-a-um-mailbox-policy-exchange-2013-help.md).
+      - Se ha creado una directiva de buzón de mensajería unificada. Para conocer los pasos detallados, consulte [Crear una directiva de buzón de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy).
     
-      - Se ha creado una puerta de enlace IP de mensajería unificada. Para conocer los pasos detallados, consulte [Cree una puerta de enlace IP de mensajería unificada](create-a-um-ip-gateway-exchange-2013-help.md).
+      - Se ha creado una puerta de enlace IP de mensajería unificada. Para conocer los pasos detallados, consulte [Cree una puerta de enlace IP de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway).
     
       - Un servidor de mensajería UNIFICADA de Exchange 2010 se agregó al plan de marcado de mensajería UNIFICADA. Si está utilizando Exchange 2013 con Lync Server, agregue todos los servidores de buzón y acceso de cliente a los planes de marcado de URI de SIP. Para ver pasos detallados, consulte [Agregar un servidor de mensajería UNIFICADA a un Plan de marcado](https://go.microsoft.com/fwlink/p/?linkid=313051) o [Agregar servidores de acceso de cliente y buzón a un plan de marcado de URI de SIP](add-mailbox-and-client-access-servers-to-a-sip-uri-dial-plan-exchange-2013-help.md).
 
@@ -72,22 +72,28 @@ La herramienta de solución de problemas de mensajería unificada de Microsoft E
 2.  Haga clic con el botón secundario del mouse en **Windows PowerShell** y, en el menú emergente, seleccione **Ejecutar como administrador**.
 
 3.  En el símbolo del sistema de Windows PowerShell, vaya a la carpeta en la que se instaló la herramienta para la solución de problemas de Mensajería unificada y ejecute lo siguiente.
-    
+    ```powershell
         C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -psconsolefile .\Microsoft.Exchange.UM.TroubleshootingToolsnapin.psc1 -noexit -command ". '.\Microsoft.Exchange.UM.TroubleshootingTool.ps1' "
+    ```
 
 4.  Si ejecuta la herramienta para la solución de problemas de Mensajería unificada en Windows Vista, Windows 7 o Windows 8, en el símbolo del sistema de Windows PowerShell, ejecute lo siguiente.
     
-        Set-ExecutionPolicy RemoteSigned
+    ```powershell
+    Set-ExecutionPolicy RemoteSigned
+    ```
 
 5.  Desde el menú **Inicio**, abra la **herramienta para la solución de problemas de Mensajería unificada de Microsoft Exchange 2010**.
 
 6.  En la ventana **Herramienta de solución de problemas de mensajería unificada de Microsoft Exchange 2010**, en el mensaje, escriba lo siguiente y presione Entrar.
     
-        $cred=Get-Credential
+    ```powershell
+    $cred=Get-Credential
+    ```
 
 7.  En la ventana **Solicitud de credenciales para Windows PowerShell**, escriba el dominio\\nombre de usuario y contraseña y, luego, haga clic en **Aceptar**.
 
 8.  En la ventana **Herramienta de solución de problemas de mensajería unificada de Microsoft Exchange 2010**, especifique los parámetros necesarios del cmdlet para comprobar el flujo de llamadas. Por ejemplo:
-    
+    ```powershell
         Test-ExchangeUMCallFlow -Mode SIPClient -CallingParty tonysmith@contoso.com - CalledParty jamiestark@contoso.com NextHop ocsfe.contoso.com -Credential $cred
+    ```
 

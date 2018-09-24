@@ -1,5 +1,5 @@
 ﻿---
-title: 'Importar y exportar saludos personalizados, anuncios, menús y avisos: Exchange 2013 Help'
+title: 'Importar y exportar saludos personalizados, anuncios, menús y avisos'
 TOCTitle: Importar y exportar saludos personalizados, anuncios, menús y avisos
 ms:assetid: e82da5d5-625f-4d8b-8d31-ac45513aacfd
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee681667(v=EXCHG.150)
@@ -35,7 +35,7 @@ Los archivos de audio que los planes de marcado y los operadores automáticos de
 
 Para otras tareas de administración relacionadas con los planes de marcado de mensajería unificada, consulte [Procedimientos de plan de marcado de mensajería unificada](um-dial-plan-procedures-exchange-2013-help.md).
 
-Para conocer tareas de administración adicionales relacionadas con los operadores automáticos de mensajería unificada, consulte [Procedimientos operador automático de mensajería unificada](um-auto-attendant-procedures-exchange-2013-help.md).
+Para conocer tareas de administración adicionales relacionadas con los operadores automáticos de mensajería unificada, consulte [Procedimientos operador automático de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/um-auto-attendant-procedures).
 
 ## ¿Qué necesita saber antes de comenzar?
 
@@ -43,9 +43,9 @@ Para conocer tareas de administración adicionales relacionadas con los operador
 
   - Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento o procedimientos. Para ver qué permisos necesita, consulte el entradas “Planes de marcado de mensajería unificada” y “Operadores automáticos de mensajería unificada” del tema [Permisos de mensajería unificada](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un plan de marcado de mensajería unificada. Para conocer los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](create-a-um-dial-plan-exchange-2013-help.md).
+  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un plan de marcado de mensajería unificada. Para conocer los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
-  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un operador automático de mensajería unificada. Para conocer los pasos detallados, consulte [Crear un operador automático de mensajería unificada](create-a-um-auto-attendant-exchange-2013-help.md).
+  - Antes de llevar a cabo estos procedimientos, confirme que se haya creado un operador automático de mensajería unificada. Para conocer los pasos detallados, consulte [Crear un operador automático de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/enable-common-pin-patterns).
 
   - Solo puede usar el Shell para realizar este procedimiento.
 
@@ -63,23 +63,26 @@ Para conocer tareas de administración adicionales relacionadas con los operador
 
 En este ejemplo se importa el archivo con el saludo de bienvenida llamado welcomegreeting.wav desde d:\\UMPrompts al plan de marcado de mensajería unificada `MyUMDialPlan`.
 
+```powershell
     [byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
     Import-UMPrompt -UMDialPlan MyUMDialPlan -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```
 
 En este ejemplo se importa el archivo con el saludo de bienvenida llamado welcomegreeting.wav desde d:\\UMPrompts al operador automático de mensajería unificada `MyUMAutoAttendant`.
-
+```powershell
     [byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
     Import-UMPrompt -UMAutoAttendant MyUMAutoAttendant -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+ ```
 
 ## Usar el Shell para exportar saludos, anuncios, menús y mensajes personalizados para los planes de marcado y los operadores automáticos de mensajería unificada
 
 En este ejemplo se exporta el saludo de bienvenida para el plan de marcado de mensajería unificada `MyUMDialPlan` y se guarda como un archivo llamado welcomegreeting.wav.
-
+```powershell
     $prompt = Export-UMPrompt -PromptFileName "customgreeting.wav�? -UMDialPlan MyUMDialPlan
     set-content -Path "d:\DialPlanPrompts\welcomegreeting.wav" -Value $prompt.AudioData -Encoding Byte
-
+```
 En este ejemplo se exporta el saludo de bienvenida en horario comercial para el operador automático de mensajería unificada `MYUMAutoAttendant` y se guarda como un archivo llamado BusinessHoursWelcomeGreeting.wav.
-
+```powershell
     $prompt = Export-UMPrompt -BusinessHoursWelcomeGreeting -UMAutoAttendant MyUMAutoAttendant
     set-content -Path "d:\UMPrompts\BusinessHoursWelcomeGreeting.wav" -Value $prompt.AudioData -Encoding Byte
-
+```

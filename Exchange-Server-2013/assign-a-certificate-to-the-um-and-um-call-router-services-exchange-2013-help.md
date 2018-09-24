@@ -1,5 +1,5 @@
 ﻿---
-title: 'Asignar un certificado a los servicios de mensajería unificada y llamar al enrutador de mensajería unificada: Exchange 2013 Help'
+title: 'Asignar certificado a servicios UM y llamar enrutador UM: Exchange 2013 Help'
 TOCTitle: Asignar un certificado a los servicios de mensajería unificada y llamar al enrutador de mensajería unificada
 ms:assetid: 8a900e5f-9779-4213-92d7-ec157b15fbc5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn205140(v=EXCHG.150)
@@ -58,6 +58,7 @@ Para otras tareas de administración relacionadas con la administración de cert
 ## Usar el Shell para asignar un certificado a los servicios de mensajería unificada y de enrutador de llamadas de mensajería unificada
 
 En este ejemplo se asigna un certificado a los servicios de mensajería unificada y de enrutador de llamadas de mensajería unificada.
-
+```powershell
     Enable-ExchangeCertificate -Thumbprint 5113ae0233a72fccb75b1d0198628675333d010e -Services 'UM, UMCallRouter'
+```
 

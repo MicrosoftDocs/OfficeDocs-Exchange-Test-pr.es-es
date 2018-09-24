@@ -22,7 +22,7 @@ Este tema describe técnicas para hacer coincidir patrones y elementos de eviden
 ## El elemento de la coincidencia
 
 El elemento de `Match` se utiliza dentro de los elementos `Pattern` y `Evidence` para representar la palabra clave subyacente, regex o función que debe coincidir. La definición de la misma coincidencia se almacena fuera del elemento `Rule` y se le hace referencia a través del atributo de `idRef` necesario. Se pueden incluir varios elementos de `Match` en una definición de patrón que se puede incluir directamente en el elemento de `Pattern` o combinado usando el elemento de `Any` para definir la semántica de la coincidencia.
-
+```powershell
     <?xml version="1.0" encoding="utf-8"?>
     <Rules packageId="...">
             ...
@@ -40,6 +40,7 @@ El elemento de `Match` se utiliza dentro de los elementos `Pattern` y `Evidence`
             ...
     
     </Rules>
+```    
 
 ## Definición de coincidencias basadas en palabras clave
 
@@ -51,7 +52,7 @@ La coincidencia se puede realizar con una coincidencia exacta o algoritmos basad
 > [!TIP]
 > Use el estilo de coincidencia basado en constante, en lugar de la coincidencia de regex, para una mejor eficiencia y rendimiento. Use la coincidencia de regex solo en los casos donde las coincidencias basadas en constante no son suficientes y se requiere la flexibilidad de las expresiones regulares.
 
-
+```powershell
 
     <Keyword id="Word_Example">
         <Group matchStyle="word">
@@ -72,6 +73,7 @@ La coincidencia se puede realizar con una coincidencia exacta o algoritmos basad
            <Term>security</Term>
         </Group>
     </Keyword>
+```
 
 ## Definición de expresiones regulares basadas en coincidencias
 
@@ -197,7 +199,7 @@ Otro método común de hacer coincidir se basa en las expresiones regulares. La 
 
 
 El elemento "Regex" tiene un atributo de “id” que se usa como referencia en las reglas de entidad o afinidad correspondientes. Un único elemento "Regex" se puede referenciar en varias reglas de entidad y afinidad. La expresión "Regex" se define como el valor del elemento "Regex".
-
+```powershell
     <Regex id="CCRegex">
          \bcc\#\s|\bcc\#\:\s
     </Regex>
@@ -209,6 +211,7 @@ El elemento "Regex" tiene un atributo de “id” que se usa como referencia en 
     <Regex id="NorthCarolinaDriversLicenseNumber">
         (^|\s|\:)(\d{1,8})($|\s|\.\s)
     </Regex>
+```
 
 ## Combinar elementos de coincidencia múltiple
 
@@ -223,21 +226,21 @@ El atributo "minMatches" opcional se puede usar (valor predeterminado = 1) para 
     Hacer coincidir un subconjunto exacto de cualquier elemento "Coincidir" secundario
 
 <!-- end list -->
-```
+```powershell
     <Any minMatches="3" maxMatches="3">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
         <Match idRef="Name" />
     </Any>
 ```
-```
+```powershell
     <Any maxMatches="0">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
         <Match idRef="Name" />
     </Any>
 ```
-```
+```powershell
     <Any minMatches="1" maxMatches="1">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
@@ -256,7 +259,7 @@ Para las reglas de base de la entidad otra opción para incrementar la confianza
   - si se encuentran tres piezas: el nivel de confianza es del 85%
 
 <!-- end list -->
-
+```powershell
     <Entity id="..." patternsProximity="300" >
         <Pattern confidenceLevel="65">
             <IdMatch idRef="UnformattedSSN" />
@@ -283,6 +286,7 @@ Para las reglas de base de la entidad otra opción para incrementar la confianza
             </Any>
         </Pattern>
     </Entity>
+```
 
 ## Ejemplo: Regla de la Seguridad Social de EE. UU.
 
@@ -301,7 +305,7 @@ Esta sección incluye una descripción introductoria para la creación de una re
     4.  Texto que representa un nombre
 
 A continuación, traduzca la descripción en la representación del esquema de Regla:
-
+```powershell
     <Entity id="a44669fe-0d48-453d-a9b1-2cc83f2cba77"
              patternsProximity="300" RecommendedConfidence="85">
         <Pattern confidenceLevel="85">
@@ -314,10 +318,11 @@ A continuación, traduzca la descripción en la representación del esquema de R
           </Any>
         </Pattern>
     </Entity>
+```
 
 ## Más información
 
-[Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Definir sus propios tipos de información y plantillas de DLP](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md)
 

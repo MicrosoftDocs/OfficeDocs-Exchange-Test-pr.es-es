@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar Copias de seguridad de Windows Server para realizar copias de seguridad de Exchange: Exchange 2013 Help'
+title: 'Uso Copias seguridad Windows Server hacer copias Exchange: Exchange 2013 Help'
 TOCTitle: Usar Copias de seguridad de Windows Server para realizar copias de seguridad de Exchange
 ms:assetid: 188a8291-0a41-4ca2-b6d2-94242e2b1ffc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd876854(v=EXCHG.150)
@@ -86,8 +86,8 @@ Para comprobar que ha realizado una copia de seguridad correcta de los datos, si
   - Abra el Visor de eventos y compruebe que se registró un evento de finalización de copia de seguridad en el registro de eventos de aplicaciones.
 
   - Ejecute el siguiente comando en el Shell de administración de Exchange para comprobar que se realizaron correctamente las copias de seguridad de todas las bases de datos de los volúmenes seleccionados:
-    
+    ```powershell    
         Get-MailboxDatabase -Server <ServerName> -Status | fl Name,*FullBackup
-    
+    ```   
     Las propiedades *SnapshotLastFullBackup* y *LastFullBackup* de la base de datos indican cuándo se realizó la última copia de seguridad correcta y si era una copia de seguridad completa de VSS.
 
