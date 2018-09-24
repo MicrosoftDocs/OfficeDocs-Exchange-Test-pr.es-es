@@ -1,5 +1,5 @@
 ﻿---
-title: 'Administración pertenencia grupos disponibilidad base datos Exchange 2013 Help'
+title: 'Administración de la pertenencia a grupos de disponibilidad de base de datos: Exchange 2013 Help'
 TOCTitle: Administración de la pertenencia a grupos de disponibilidad de base de datos
 ms:assetid: fb2ea15e-96d5-4045-b75b-b0aa5fc60479
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd351278(v=EXCHG.150)
@@ -88,8 +88,8 @@ Para comprobar que la pertenencia del DAG se administró correctamente, haga una
   - En el Shell, ejecute este comando para mostrar la información de pertenencia del DAG.
     
     ```powershell
-Get-DatabaseAvailabilityGroup <DAGName> | Format-List Servers
-```
+    Get-DatabaseAvailabilityGroup <DAGName> | Format-List Servers
+    ```
 
 ## Más información
 

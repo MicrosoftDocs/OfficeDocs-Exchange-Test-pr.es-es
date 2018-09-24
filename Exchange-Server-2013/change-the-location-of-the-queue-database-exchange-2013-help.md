@@ -93,25 +93,31 @@ La ubicación de la base de datos de colas y de los registros de transacciones d
 
 2.  En una ventana del símbolo del sistema, abra el archivo EdgeTransport.exe.config en el Bloc de notas mediante el comando siguiente:
     
-    ```powershell
+```powershell
 Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
 ```
 
 3.  Modifique las claves siguientes en la sección `<appSettings>`.
     
-        <add key="QueueDatabasePath" value="<LocalPath>" />
-        <add key="QueueDatabaseLoggingPath" value="<LocalPath>" />
+```powershell
+<add key="QueueDatabasePath" value="<LocalPath>" />
+<add key="QueueDatabaseLoggingPath" value="<LocalPath>" />
+```
     
-    Por ejemplo, para crear una base de datos de colas nueva en D:\\Queue\\QueueDB y nuevos registros de transacciones en D:\\Queue\\QueueLogs, use los siguientes valores:
+Por ejemplo, para crear una base de datos de colas nueva en D:\\Queue\\QueueDB y nuevos registros de transacciones en D:\\Queue\\QueueLogs, use los siguientes valores:
     
-        <add key="QueueDatabasePath" value="D:\Queue\QueueDB" />
-        <add key="QueueDatabaseLoggingPath" value="D:\Queue\QueueLogs" />
+```powershell
+<add key="QueueDatabasePath" value="D:\Queue\QueueDB" />
+<add key="QueueDatabaseLoggingPath" value="D:\Queue\QueueLogs" />
+```
 
 4.  Cuando haya terminado, guarde y cierre el archivo EdgeTransport.exe.config.
 
 5.  Reinicie el servicio de transporte de Microsoft Exchange ejecutando el siguiente comando:
     
-        net stop MSExchangeTransport && net start MSExchangeTransport
+```powershell
+net stop MSExchangeTransport && net start MSExchangeTransport
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -139,25 +145,29 @@ Use el siguiente procedimiento para mover la base de datos de colas y los regist
 
 2.  En una ventana del símbolo del sistema, abra el archivo EdgeTransport.exe.config en el Bloc de notas mediante el comando siguiente:
     
-    ```powershell
+```powershell
 Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
 ```
 
 3.  Modifique las claves siguientes en la sección `<appSettings>`:
     
-        <add key="QueueDatabasePath" value="<LocalPath>" />
-        <add key="QueueDatabaseLoggingPath" value="<LocalPath>" />
+```powershell
+<add key="QueueDatabasePath" value="<LocalPath>" />
+<add key="QueueDatabaseLoggingPath" value="<LocalPath>" />
+```
     
-    Por ejemplo, para cambiar la ubicación de la base de datos de colas a D:\\Queue\\QueueDB y los registros de transacciones a D:\\Queue\\QueueLogs, use los siguientes valores:
+Por ejemplo, para cambiar la ubicación de la base de datos de colas a D:\\Queue\\QueueDB y los registros de transacciones a D:\\Queue\\QueueLogs, use los siguientes valores:
     
-        <add key="QueueDatabasePath" value="D:\Queue\QueueDB" />
-        <add key="QueueDatabaseLoggingPath" value="D:\Queue\QueueLogs" />
+```powershell
+<add key="QueueDatabasePath" value="D:\Queue\QueueDB" />
+<add key="QueueDatabaseLoggingPath" value="D:\Queue\QueueLogs" />
+```
 
 4.  Cuando haya terminado, guarde y cierre el archivo EdgeTransport.exe.config.
 
 5.  Detenga el servicio de transporte de Microsoft Exchange ejecutando el siguiente comando:
     
-    ```powershell
+```powershell
 net stop MSExchangeTransport
 ```
 
@@ -167,7 +177,7 @@ net stop MSExchangeTransport
 
 8.  Inicie el servicio de transporte de Microsoft Exchange ejecutando el siguiente comando:
     
-    ```powershell
+```powershell
 net start MSExchangeTransport
 ```
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear una red de grupos de disponibilidad de base de datos: Exchange 2013 Help'
+title: 'Creación de una red de grupos de disponibilidad de base de datos: Exchange 2013 Help'
 TOCTitle: Creación de una red de grupos de disponibilidad de base de datos
 ms:assetid: 6caec7be-788a-4058-87a7-f31c575b870c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd298051(v=EXCHG.150)
@@ -61,7 +61,9 @@ Si es necesario, puede crear redes adicionales para su uso en un grupo de dispon
 
 En este ejemplo, se crea la red ReplicationDagNetwork02 con una subred de 10.0.0.0 y una máscara de bits de 8 en DAG DAG1. La replicación está habilitada para la red y también se agrega una descripción opcional de la red.
 
-    New-DatabaseAvailabilityGroupNetwork -DatabaseAvailabilityGroup DAG1 -Name ReplicationDagNetwork02 -Description "Replication network 2" -Subnets 10.0.0.0/8 -ReplicationEnabled:$True
+  ```powershell
+  New-DatabaseAvailabilityGroupNetwork -DatabaseAvailabilityGroup DAG1 -Name ReplicationDagNetwork02 -Description "Replication network 2" -Subnets 10.0.0.0/8 -ReplicationEnabled:$True
+  ```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -71,9 +73,9 @@ Para comprobar si creó una red de DAG correctamente, siga uno de estos procedim
 
   - En el Shell, ejecute el siguiente comando para comprobar que la red de DAG se haya creado correctamente y para mostrar la información de configuración de la red de DAG.
     
-    ```powershell
-Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
-```
+  ```powershell
+  Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
+  ```
 
 ## Más información
 

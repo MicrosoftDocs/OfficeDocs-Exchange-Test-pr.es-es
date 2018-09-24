@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar deshabilitar registro auditoría buzón para buzón: Exchange 2013 Help'
+title: 'Habilitar o deshabilitar el registro de auditoría de buzones para un buzón: Exchange 2013 Help'
 TOCTitle: Habilitar o deshabilitar el registro de auditoría de buzones para un buzón
 ms:assetid: c4bbfd52-6196-49c7-8c31-777fbbee11f2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff461937(v=EXCHG.150)
@@ -93,5 +93,7 @@ Para verificar que haya habilitado correctamente los registros de auditoría del
 
 Este ejemplo recupera los ajustes del buzón de correo de Ben Smith y canaliza los ajustes de auditoría especificados, que incluyen el límite de antigüedad del registro de auditoría, hacia el cmdlet **Format-List**.
 
-    Get-Mailbox "Ben Smith" | Format-List *audit*
+```powershell
+Get-Mailbox "Ben Smith" | Format-List *audit*
+```
 

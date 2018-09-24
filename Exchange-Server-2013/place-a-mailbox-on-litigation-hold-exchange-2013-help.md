@@ -17,7 +17,7 @@ _**Se aplica a:** Exchange Online, Exchange Server 2013_
 
 _**Última modificación del tema:** 2016-10-18_
 
-Coloque un buzón en retención por juicio para conservar todo el contenido del buzón, incluidos los elementos eliminados y las versiones originales de los elementos modificados. Al colocar el buzón de correo de un usuario en retención por juicio, el contenido del buzón de archivo del usuario (si está habilitado) también se coloca en retención. Los elementos eliminados y modificados se conservan durante un período especificado o hasta que se elimina la retención por juicio del buzón. Todos los elementos del buzón de correo se devuelven en una búsqueda de [Exhibición de documentos electrónicos en contexto](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules).
+Coloque un buzón en retención por juicio para conservar todo el contenido del buzón, incluidos los elementos eliminados y las versiones originales de los elementos modificados. Al colocar el buzón de correo de un usuario en retención por juicio, el contenido del buzón de archivo del usuario (si está habilitado) también se coloca en retención. Los elementos eliminados y modificados se conservan durante un período especificado o hasta que se elimina la retención por juicio del buzón. Todos los elementos del buzón de correo se devuelven en una búsqueda de [Exhibición de documentos electrónicos en contexto](in-place-ediscovery-exchange-2013-help.md).
 
 
 > [!IMPORTANT]
@@ -39,7 +39,7 @@ Coloque un buzón en retención por juicio para conservar todo el contenido del 
 
   - En Exchange Online, la cuota para la carpeta Elementos recuperables aumenta automáticamente a 100 GB al colocar un buzón de correo en retención por juicio. El tamaño predeterminado de esta carpeta es de 30 GB.
 
-  - La retención por juicio conserva los elementos eliminados y también conserva las versiones originales de los elementos modificados hasta que se elimine la retención. También puede especificar la duración de una retención para conservar un elemento del buzón durante el período de tiempo especificado. Si especifica el período de duración de una retención, se calcula desde la fecha en que se recibe un mensaje o se crea un elemento del buzón. Para conservar los elementos que cumplen los criterios especificados, use una conservación local para crear una retención *basada en consultas*. Para obtener información detallada, consulte [Crear o quitar una conservación local](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/navigating-menus-with-outlook-voice-access).
+  - La retención por juicio conserva los elementos eliminados y también conserva las versiones originales de los elementos modificados hasta que se elimine la retención. También puede especificar la duración de una retención para conservar un elemento del buzón durante el período de tiempo especificado. Si especifica el período de duración de una retención, se calcula desde la fecha en que se recibe un mensaje o se crea un elemento del buzón. Para conservar los elementos que cumplen los criterios especificados, use una conservación local para crear una retención *basada en consultas*. Para obtener información detallada, consulte [Crear o quitar una conservación local](create-or-remove-an-in-place-hold-exchange-2013-help.md).
 
   - Para colocar un buzón de Exchange Online en retención con el Shell, tiene que utilizar Exchange Online PowerShell. Para más información, vea [Conectarse a Exchange Online mediante PowerShell remoto](https://technet.microsoft.com/es-es/library/jj984289\(v=exchg.150\)).
 
@@ -95,7 +95,9 @@ Su organización puede necesitar que los datos de todos los buzones se conserven
 
 En este ejemplo todos los buzones de usuario de la organización se colocan en retención por juicio durante un año (365 días).
 
-    Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Set-Mailbox -LitigationHoldEnabled $true -LitigationHoldDuration 365
+```powershell
+Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Set-Mailbox -LitigationHoldEnabled $true -LitigationHoldDuration 365
+```
 
 El ejemplo usa el cmdlet [Get-Mailbox](https://technet.microsoft.com/es-es/library/bb123685\(v=exchg.150\)) para recuperar todos los buzones de la organización, especifica un filtro de destinatarios para incluir todos los buzones de usuario y, después, canaliza la lista de buzones al cmdlet [Set-Mailbox](https://technet.microsoft.com/es-es/library/bb123981\(v=exchg.150\)) para habilitar la retención por juicio y la duración de la retención.
 
@@ -131,11 +133,13 @@ Para comprobar que un buzón se ha colocado correctamente en retención por juic
 
   - En el Shell, ejecute uno de los siguientes comandos:
     
-        Get-Mailbox <name of mailbox> | FL LitigationHold*
+    ```powershell
+    Get-Mailbox <name of mailbox> | FL LitigationHold*
+    ```
     
-    o
-    
-        Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | FL Name,LitigationHold*
+    ```powershell
+    Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | FL Name,LitigationHold*
+    ```
     
     Si un buzón se coloca en retención por juicio indefinidamente, el valor de la propiedad del buzón *LitigationHoldDuration* se establece en `Unlimited`.
 
@@ -154,24 +158,25 @@ Para comprobar que un buzón se ha colocado correctamente en retención por juic
   - El comando anterior para colocar una retención en todos los buzones utiliza un filtro de destinatarios que devuelve todos los buzones de usuario. Puede usar otras propiedades de destinatarios para devolver una lista de buzones específicos que puede canalizar después al cmdlet **Set-Mailbox** para poner esos buzones en retención por juicio.
     
     Estos son algunos ejemplos de cómo usar los cmdlets **Get-Mailbox** y **Get-Recipient** para obtener un subconjunto de buzones en función de propiedades de usuarios o buzones. En estos ejemplos se da por hecho que las propiedades de buzón relevantes (como *CustomAttributeN* o *Department*) se han rellenado.
-    ```
+
+    ```powershell
         Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "OneYearLitigationHold"'
     ```
-    ```
+
     ```powershell
-Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
-```
+        Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
     ```
-    ```
+
+    ```powershell
         Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
     ```
-    ```
+
+    ```powershell
         Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
     ```
-    ```
+
     ```powershell
-Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
-```
+        Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
     ```
     
     Puede usar otras propiedades de buzón de usuario en un filtro para incluir o excluir buzones de correo. Para obtener información detallada, consulte [Propiedades a las que se puede aplicar un filtro para el parámetro -Filter](https://technet.microsoft.com/es-es/library/bb738155\(v=exchg.150\)).

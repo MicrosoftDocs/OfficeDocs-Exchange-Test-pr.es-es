@@ -1,5 +1,5 @@
 ﻿---
-title: 'Modificar, deshabilitar o quitar directiva uso compartido: Exchange 2013 Help'
+title: 'Modificar, deshabilitar o quitar una directiva de uso compartido: Exchange 2013 Help'
 TOCTitle: Modificar, deshabilitar o quitar una directiva de uso compartido
 ms:assetid: 714af42d-ca29-4bb4-ac48-f0b3d4fd1c15
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ657460(v=EXCHG.150)
@@ -87,36 +87,36 @@ Para obtener información acerca de cómo crear una directiva de uso compartido,
 
   - Este ejemplo modifica la directiva de uso compartido Contoso para contoso.com, que es un dominio fuera de su organización. Esta directiva permite a los usuarios en el dominio Contoso ver información de disponibilidad simple.
     
-    ```powershell
-Set-SharingPolicy -Identity Contoso -Domains 'sales.contoso.com: CalendarSharingFreeBusySimple'
-```
+      ```powershell
+      Set-SharingPolicy -Identity Contoso -Domains 'sales.contoso.com: CalendarSharingFreeBusySimple'
+      ```
 
   - En este ejemplo se agrega un segundo dominio a la directiva de uso compartido Contoso. Cuando agrega un dominio a una directiva existente, debe incluir todos los dominios incluidos anteriormente.
     
-        Set-SharingPolicy -Identity Contoso -Domains 'contoso.com: CalendarSharingFreeBusySimple', 'atlanta.contoso.com: CalendarSharingFreeBusyReviewer', 'beijing.contoso.com: CalendarSharingFreeBusyReviewer'
+      ```powershell
+      Set-SharingPolicy -Identity Contoso -Domains 'contoso.com: CalendarSharingFreeBusySimple', 'atlanta.contoso.com: CalendarSharingFreeBusyReviewer', 'beijing.contoso.com: CalendarSharingFreeBusyReviewer'
+      ```
 
   - En este ejemplo se establece la directiva de uso compartido Contoso como directiva predeterminada.
     
-    ```powershell
-Set-SharingPolicy -Identity Contoso -Default $True
-```
+      ```powershell
+      Set-SharingPolicy -Identity Contoso -Default $True
+      ```
 
   - En este ejemplo se deshabilita la directiva de uso compartido Contoso.
     
-    ```powershell
-Set-SharingPolicy -Identity "Contoso" -Enabled $False
-```
+      ```powershell
+      Set-SharingPolicy -Identity "Contoso" -Enabled $False
+      ```
 
   - El primer ejemplo quita la directiva de uso compartido Contoso. El segundo ejemplo quita la directiva de uso compartido Contoso y suprime la confirmación de que desea eliminar la directiva.
+
+      ```powershell
+            Remove-SharingPolicy -Identity Contoso
       ```
-    ```powershell
-Remove-SharingPolicy -Identity Contoso
-```
-      ```
-      ```
-    ```powershell
-Remove-SharingPolicy -Identity Contoso -Confirm
-```
+
+      ```powershell
+            Remove-SharingPolicy -Identity Contoso -Confirm
       ```
       
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Set-SharingPolicy](https://technet.microsoft.com/es-es/library/dd297931\(v=exchg.150\)) y [Remove-SharingPolicy](https://technet.microsoft.com/es-es/library/dd351071\(v=exchg.150\)).

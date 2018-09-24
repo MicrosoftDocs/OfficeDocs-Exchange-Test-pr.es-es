@@ -107,7 +107,9 @@ Set-ManagementScope <scope name> -ServerRestrictionFilter { <new server filter> 
 
 En este ejemplo se cambia el filtro del servidor para que coincida con todos los objetos el servidor en el que la propiedad **ServerSite** está establecida en 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com'.
 
-    Set-ManagementScope "Company Scope" -ServerRestrictionFilter { ServerSite -eq 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com' }
+```powershell
+Set-ManagementScope "Company Scope" -ServerRestrictionFilter { ServerSite -eq 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com' }
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-ManagementScope](https://technet.microsoft.com/es-es/library/dd297996\(v=exchg.150\)).
 
@@ -135,7 +137,9 @@ Set-ManagementScope <scope name> -DatabaseRestrictionFilter { <new database filt
 
 En este ejemplo, se cambia el filtro de base de datos de modo tal que coincida con todos los objetos de base de datos, donde la propiedad **Name** contiene la cadena "Ejecutivo".
 
-    Set-ManagementScope "Database Executive Scope" -DatabaseRestrictionFilter { Name -Like "*Executive*" }
+```powershell
+Set-ManagementScope "Database Executive Scope" -DatabaseRestrictionFilter { Name -Like "*Executive*" }
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-ManagementScope](https://technet.microsoft.com/es-es/library/dd297996\(v=exchg.150\)).
 

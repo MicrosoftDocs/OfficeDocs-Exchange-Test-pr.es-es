@@ -66,8 +66,8 @@ Para verificar que haya habilitado o deshabilitado el filtrado de contenido, hag
 1.  Ejecute el siguiente comando:
     
     ```powershell
-Get-ContentFilterConfig | Format-List Enabled
-```
+    Get-ContentFilterConfig | Format-List Enabled
+    ```
 
 2.  Compruebe el valor de la propiedad *Enabled* que se muestra.
 
@@ -94,8 +94,8 @@ Para verificar que haya habilitado o deshabilitado el filtrado de contenido de l
 1.  Ejecute el siguiente comando:
     
     ```powershell
-Get-ContentFilterConfig | Format-List ExternalMailEnabled
-```
+    Get-ContentFilterConfig | Format-List ExternalMailEnabled
+    ```
 
 2.  Compruebe el valor de la propiedad *ExternalMailEnabled* que se muestra.
 
@@ -122,8 +122,8 @@ Para verificar que haya habilitado o deshabilitado el filtrado de contenido de l
 1.  Ejecute el siguiente comando:
     
     ```powershell
-Get-ContentFilterConfig | Format-List InternalMailEnabled
-```
+    Get-ContentFilterConfig | Format-List InternalMailEnabled
+    ```
 
 2.  Compruebe el valor de la propiedad *InternalMailEnabled* que se muestra.
 
@@ -131,7 +131,9 @@ Get-ContentFilterConfig | Format-List InternalMailEnabled
 
 Para reemplazar los valores existentes, ejecute el siguiente comando:
 
-    Set-ContentFilterConfig -BypassedRecipients <recipient1,recipient2...> -BypassedSenders <sender1,sender2...> -BypassedSenderDomains <domain1,domain2...>
+```powershell
+Set-ContentFilterConfig -BypassedRecipients <recipient1,recipient2...> -BypassedSenders <sender1,sender2...> -BypassedSenderDomains <domain1,domain2...>
+```
 
 Este ejemplo configura las siguientes excepciones en filtrado de contenido:
 
@@ -143,11 +145,15 @@ Este ejemplo configura las siguientes excepciones en filtrado de contenido:
 
 <!-- end list -->
 
-    Set-ContentFilterConfig -BypassedRecipients laura@contoso.com,julia@contoso.com -BypassedSenders steve@fabrikam.com,cindy@fabrikam.com -BypassedSenderDomains *.nwtraders.com
+```powershell
+Set-ContentFilterConfig -BypassedRecipients laura@contoso.com,julia@contoso.com -BypassedSenders steve@fabrikam.com,cindy@fabrikam.com -BypassedSenderDomains *.nwtraders.com
+```
 
 Para agregar o quitar entradas sin modificar valores existentes, ejecute el siguiente comando:
 
-    Set-ContentFilterConfig -BypassedRecipients @{Add="<recipient1>","<recipient2>"...; Remove="<recipient1>","<recipient2>"...} -BypassedSenders @{Add="<sender1>","<sender2>"...; Remove="<sender1>","<sender2>"...} -BypassedSenderDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
+```powershell
+Set-ContentFilterConfig -BypassedRecipients @{Add="<recipient1>","<recipient2>"...; Remove="<recipient1>","<recipient2>"...} -BypassedSenders @{Add="<sender1>","<sender2>"...; Remove="<sender1>","<sender2>"...} -BypassedSenderDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
+```
 
 Este ejemplo configura las siguientes excepciones en el filtrado de contenido:
 
@@ -161,7 +167,9 @@ Este ejemplo configura las siguientes excepciones en el filtrado de contenido:
 
 <!-- end list -->
 
-    Set-ContentFilterConfig -BypassedRecipients @{Add="tiffany@contoso.com","chris@contoso.com"} -BypassedSenders @{Add="joe@fabrikam.com","michelle@fabrikam.com"} -BypassedSenderDomains @{Add="blueyonderairlines.com"; Remove="*.woodgrovebank.com"}
+```powershell
+Set-ContentFilterConfig -BypassedRecipients @{Add="tiffany@contoso.com","chris@contoso.com"} -BypassedSenders @{Add="joe@fabrikam.com","michelle@fabrikam.com"} -BypassedSenderDomains @{Add="blueyonderairlines.com"; Remove="*.woodgrovebank.com"}
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -169,7 +177,9 @@ Para comprobar que ha configurado las excepciones de remitente o destinatario, h
 
 1.  Ejecute el siguiente comando:
     
-        Get-ContentFilterConfig | Format-List Bypassed*
+    ```powershell
+    Get-ContentFilterConfig | Format-List Bypassed*
+    ```
 
 2.  Compruebe que los valores mostrados coinciden con los ajustes que especificó.
 
@@ -177,7 +187,9 @@ Para comprobar que ha configurado las excepciones de remitente o destinatario, h
 
 Para agregar frases y palabras permitidas y bloqueadas, ejecute el siguiente comando:
 
-    Add-ContentFilterPhrase -Influence GoodWord -Phrase <Phrase> -Influence BadWord -Phrase <Phrase>
+```powershell
+Add-ContentFilterPhrase -Influence GoodWord -Phrase <Phrase> -Influence BadWord -Phrase <Phrase>
+```
 
 Este ejemplo permite todos los mensajes que contengan la frase "comentarios del cliente".
 
@@ -210,8 +222,8 @@ Para comprobar que ha configurado correctamente las frases permitidas y las bloq
 1.  Ejecute el siguiente comando:
     
     ```powershell
-Get-ContentFilterPhrase | Format-List Influence,Phrase
-```
+    Get-ContentFilterPhrase | Format-List Influence,Phrase
+    ```
 
 2.  Compruebe que los valores mostrados coinciden con los ajustes que especificó.
 
@@ -219,7 +231,9 @@ Get-ContentFilterPhrase | Format-List Influence,Phrase
 
 Para configurar los umbrales y las acciones del nivel de confianza contra correo no deseado (SCL), ejecute el siguiente comando:
 
-    Set-ContentFilterConfig -SCLDeleteEnabled <$true | $false> -SCLDeleteThreshold <Value> -SCLRejectEnabled <$true | $false> -SCLRejectThreshold <Value> -SCLQuarantineEnabled <$true | $false> -SCLQuarantineThreshold <Value>
+```powershell
+Set-ContentFilterConfig -SCLDeleteEnabled <$true | $false> -SCLDeleteThreshold <Value> -SCLRejectEnabled <$true | $false> -SCLRejectThreshold <Value> -SCLQuarantineEnabled <$true | $false> -SCLQuarantineThreshold <Value>
+```
 
 
 > [!NOTE]
@@ -237,7 +251,9 @@ Este ejemplo configura los siguientes valores para los umbrales SCL:
 
 <!-- end list -->
 
-    Set-ContentFilterConfig -SCLDeleteEnabled $true -SCLDeleteThreshold 9 -SCLRejectEnabled $true -SCLRejectThreshold 8 -SCLQuarantineEnabled $true -SCLQuarantineThreshold 7
+```powershell
+Set-ContentFilterConfig -SCLDeleteEnabled $true -SCLDeleteThreshold 9 -SCLRejectEnabled $true -SCLRejectThreshold 8 -SCLQuarantineEnabled $true -SCLQuarantineThreshold 7
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -245,7 +261,9 @@ Para comprobar que haya configurado correctamente los umbrales SCL, siga estos p
 
 1.  Ejecute el siguiente comando:
     
-        Get-ContentFilterConfig | Format-List SCL*
+    ```powershell
+    Get-ContentFilterConfig | Format-List SCL*
+    ```
 
 2.  Compruebe que los valores mostrados coinciden con los ajustes que especificó.
 
@@ -261,7 +279,9 @@ Set-ContentFilterConfig -RejectionResponse "<Custom Text>"
 
 Este ejemplo configura el agente de filtrado de contenido para enviar una respuesta de rechazo personalizada.
 
-    Set-ContentFilterConfig -RejectionResponse "Your message was rejected because it appears to be SPAM."
+```powershell
+Set-ContentFilterConfig -RejectionResponse "Your message was rejected because it appears to be SPAM."
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -269,7 +289,9 @@ Para comprobar que haya configurado correctamente la respuesta de rechazo, siga 
 
 1.  Ejecute el siguiente comando:
     
-        Get-ContentFilterConfig | Format-List *Reject*
+    ```powershell
+    Get-ContentFilterConfig | Format-List *Reject*
+    ```
 
 2.  Compruebe que los valores mostrados coinciden con los ajustes que especificó.
 
@@ -296,8 +318,8 @@ Para comprobar que haya configurado correctamente certificación electrónica de
 1.  Ejecute el siguiente comando:
     
     ```powershell
-Get-ContentFilterConfig | Format-List OutlookEmailPostmarkValidationEnabled
-```
+    Get-ContentFilterConfig | Format-List OutlookEmailPostmarkValidationEnabled
+    ```
 
 2.  Compruebe que el valor mostrado coincida con el ajuste que especificó.
 

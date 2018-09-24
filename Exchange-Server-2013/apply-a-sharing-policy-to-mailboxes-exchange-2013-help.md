@@ -75,7 +75,9 @@ Get-Mailbox -Filter {Department -eq "Marketing"} | Set-Mailbox -SharingPolicy "C
 
 This example returns all mailboxes that have the sharing policy Contoso applied, and it sorts the users into a table that displays only their aliases and email addresses.
 
-    Get-Mailbox -ResultSize unlimited | Where {$_.SharingPolicy -eq "Contoso" } | format-table Alias, EmailAddresses
+```powershell
+Get-Mailbox -ResultSize unlimited | Where {$_.SharingPolicy -eq "Contoso" } | format-table Alias, EmailAddresses
+```
 
 For detailed syntax and parameter information, see [Set-Mailbox](https://technet.microsoft.com/es-es/library/bb123981\(v=exchg.150\)) and [Get-Mailbox](https://technet.microsoft.com/es-es/library/bb123685\(v=exchg.150\)).
 
@@ -88,8 +90,8 @@ To verify that you have successfully applied the sharing policy to a user mailbo
   - Run the following Shell command to verify the sharing policy was assigned to a user mailbox. Verify that the correct sharing policy is listed in the *SharingPolicy* parameter.
     
     ```powershell
-Get-Mailbox <user name> | format-list
-```
+    Get-Mailbox <user name> | format-list
+    ```
 
 
 > [!TIP]

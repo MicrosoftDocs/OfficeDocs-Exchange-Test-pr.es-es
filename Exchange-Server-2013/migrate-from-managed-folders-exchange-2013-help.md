@@ -17,7 +17,7 @@ _**Se aplica a:** Exchange Server 2013_
 
 _**Última modificación del tema:** 2015-04-07_
 
-En Microsoft Exchange Server 2013, la administración de registros de mensajes (MRM) se realiza mediante etiquetas de retención y directivas de retención. Una directiva de retención es un grupo de etiquetas de retención que se puede aplicar a un buzón. Para obtener más información, vea [Etiquetas de retención y directivas de retención](https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies). Las carpetas administradas, la tecnología MRM que se introdujo en Exchange Server 2007, no son compatibles.
+En Microsoft Exchange Server 2013, la administración de registros de mensajes (MRM) se realiza mediante etiquetas de retención y directivas de retención. Una directiva de retención es un grupo de etiquetas de retención que se puede aplicar a un buzón. Para obtener más información, vea [Etiquetas de retención y directivas de retención](retention-tags-and-retention-policies-exchange-2013-help.md). Las carpetas administradas, la tecnología MRM que se introdujo en Exchange Server 2007, no son compatibles.
 
 Un buzón al que se le aplica una directiva de buzones de correo de carpetas administradas se puede migrar para que use una directiva de retención. Para ello, debe crear etiquetas de retención que sean equivalentes a las carpetas administradas vinculadas a la directiva de buzones de correo de carpetas administradas del usuario.
 
@@ -29,7 +29,7 @@ Un buzón al que se le aplica una directiva de buzones de correo de carpetas adm
 
 
 > [!TIP]
-> Puede colocar buzones de correo en suspensión de retención para detener el procesamiento de las directivas de retención o las directivas de buzón de la carpeta administrada. Colocar buzones de correo en suspensión de retención puede resultar útil en una migración para evitar eliminar mensajes o tener que archivarlos hasta que la nueva configuración de la directiva se haya probado en los buzones de correo de prueba o en un grupo reducido de buzones en producción. Para obtener información, vea <A href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold">Poner un buzón en retención</A>.
+> Puede colocar buzones de correo en suspensión de retención para detener el procesamiento de las directivas de retención o las directivas de buzón de la carpeta administrada. Colocar buzones de correo en suspensión de retención puede resultar útil en una migración para evitar eliminar mensajes o tener que archivarlos hasta que la nueva configuración de la directiva se haya probado en los buzones de correo de prueba o en un grupo reducido de buzones en producción. Para obtener información, vea <A href="place-a-mailbox-on-retention-hold-exchange-2013-help.md">Poner un buzón en retención</A>.
 
 
 
@@ -262,13 +262,15 @@ Hay dos métodos que puede usar para este paso:
 
 En este ejemplo, se crean etiquetas de retención según la configuración de contenido administrado correspondiente que se muestra en la directiva de buzones de correo de carpetas administradas de Contoso.
 
-    New-RetentionPolicyTag Corp-DeletedItems -ManagedFolderToUpgrade Corp-DeletedItems
-    New-RetentionPolicyTag Corp-SentItems -ManagedFolderToUpgrade Corp-SentItems
-    New-RetentionPolicyTag Corp-JunkMail -ManagedFolderToUpgrade Corp-JunkMail
-    New-RetentionPolicyTag Corp-EntireMailbox -ManagedFolderToUpgrade Corp-EntireMailbox
-    New-RetentionPolicyTag 30Days -ManagedFolderToUpgrade 30Days
-    New-RetentionPolicyTag 5Years -ManagedFolderToUpgrade 5Years
-    New-RetentionPolicyTag NeverExpire -ManagedFolderToUpgrade NeverExpire
+```powershell
+New-RetentionPolicyTag Corp-DeletedItems -ManagedFolderToUpgrade Corp-DeletedItems
+New-RetentionPolicyTag Corp-SentItems -ManagedFolderToUpgrade Corp-SentItems
+New-RetentionPolicyTag Corp-JunkMail -ManagedFolderToUpgrade Corp-JunkMail
+New-RetentionPolicyTag Corp-EntireMailbox -ManagedFolderToUpgrade Corp-EntireMailbox
+New-RetentionPolicyTag 30Days -ManagedFolderToUpgrade 30Days
+New-RetentionPolicyTag 5Years -ManagedFolderToUpgrade 5Years
+New-RetentionPolicyTag NeverExpire -ManagedFolderToUpgrade NeverExpire
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, vea [New-RetentionPolicyTag](https://technet.microsoft.com/es-es/library/dd335226\(v=exchg.150\)).
 
@@ -276,19 +278,21 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, vea
 
 
 > [!NOTE]
-> También puede usar el EAC para crear etiquetas de retención manualmente (sin basarse en ajustes de las carpetas administradas). Para obtener información, vea <A href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy">Crear directivas de retención</A>.
+> También puede usar el EAC para crear etiquetas de retención manualmente (sin basarse en ajustes de las carpetas administradas). Para obtener información, vea <A href="create-a-retention-policy-exchange-2013-help.md">Crear directivas de retención</A>.
 
 
 
 En este ejemplo, se crean etiquetas de retención según las carpetas administradas y la configuración de contenido administrado correspondiente que se muestra en la directiva de buzones de correo de carpetas administradas de Contoso. La configuración de retención se especifica manualmente sin usar el parámetro *ManagedFolderToUpgrade*.
 
-    New-RetentionPolicyTag Corp-DeletedItems -Type DeletedItems -RetentionEnabled $true -AgeLimitForRetention 30 -RetentionAction DeleteAndAllowRecovery
-    New-RetentionPolicyTag Corp-SentItems -Type SentItems -RetentionEnabled $true -AgeLimitforRetention 1825 -RetentionAction MoveToDeletedItems
-    New-RetentionPolicyTag Corp-JunkMail -Type JunkMail -RetentionEnabled $true -AgeLimitforRetention 30 -RetentionAction PermanentlyDelete
-    New-RetentionPolicyTag Corp-EntireMailbox -Type All -RetentionEnabled $true -AgeLimitForRetention 365 -RetentionAction MoveToDeletedItems
-    New-RetentionPolicyTag 30Days -Type Personal -RetentionEnabled $true -AgeLimitForRetention 30 -RetentionAction MoveToDeletedItems
-    New-RetentionPolicyTag 5Years -Type Personal -RetentionEnabled $true -AgeLimitForRetention 1825 -RetentionAction MoveToDeletedItems
-    New-RetentionPolicyTag NeverExpire -Type Personal -RetentionEnabled $false
+```powershell
+New-RetentionPolicyTag Corp-DeletedItems -Type DeletedItems -RetentionEnabled $true -AgeLimitForRetention 30 -RetentionAction DeleteAndAllowRecovery
+New-RetentionPolicyTag Corp-SentItems -Type SentItems -RetentionEnabled $true -AgeLimitforRetention 1825 -RetentionAction MoveToDeletedItems
+New-RetentionPolicyTag Corp-JunkMail -Type JunkMail -RetentionEnabled $true -AgeLimitforRetention 30 -RetentionAction PermanentlyDelete
+New-RetentionPolicyTag Corp-EntireMailbox -Type All -RetentionEnabled $true -AgeLimitForRetention 365 -RetentionAction MoveToDeletedItems
+New-RetentionPolicyTag 30Days -Type Personal -RetentionEnabled $true -AgeLimitForRetention 30 -RetentionAction MoveToDeletedItems
+New-RetentionPolicyTag 5Years -Type Personal -RetentionEnabled $true -AgeLimitForRetention 1825 -RetentionAction MoveToDeletedItems
+New-RetentionPolicyTag NeverExpire -Type Personal -RetentionEnabled $false
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, vea [New-RetentionPolicyTag](https://technet.microsoft.com/es-es/library/dd335226\(v=exchg.150\)).
 
@@ -298,13 +302,15 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 
 
 > [!NOTE]
-> También puede usar el EAC para crear una directiva de retención y agregar etiquetas de retención a la directiva. Para obtener información, vea <A href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy">Crear directivas de retención</A>.
+> También puede usar el EAC para crear una directiva de retención y agregar etiquetas de retención a la directiva. Para obtener información, vea <A href="create-a-retention-policy-exchange-2013-help.md">Crear directivas de retención</A>.
 
 
 
 En este ejemplo, se crea la directiva de retención RP-Corp y se vinculan a dicha directiva las etiquetas de retención recientemente creadas.
 
-    New-RetentionPolicy RP-Corp -RetentionPolicyTagLinks Corp-DeletedItems,Corp-SentItems,Corp-JunkMail,Corp-EntireMailbox,30Days,NeverExpire
+```powershell
+New-RetentionPolicy RP-Corp -RetentionPolicyTagLinks Corp-DeletedItems,Corp-SentItems,Corp-JunkMail,Corp-EntireMailbox,30Days,NeverExpire
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, vea [New-RetentionPolicy](https://technet.microsoft.com/es-es/library/dd297970\(v=exchg.150\)).
 
@@ -324,7 +330,7 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 
 
 > [!NOTE]
-> También puede usar el EAC para aplicar directivas de retención a los usuarios. Para obtener información, vea <A href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/apply-retention-policy">Aplicar una directiva de retención a los buzones</A>.
+> También puede usar el EAC para aplicar directivas de retención a los usuarios. Para obtener información, vea <A href="apply-a-retention-policy-to-mailboxes-exchange-2013-help.md">Aplicar una directiva de retención a los buzones</A>.
 
 
 
@@ -344,13 +350,15 @@ Para verificar que ha realizado la migración de las carpetas administradas a la
     
     Este comando recupera la directiva de retención aplicada a todos los buzones de correo de una organización, así como su estado de suspensión de retención.
     
-        Get-Mailbox -ResultSize unlimited -Filter {Name -NotLike "DiscoverySearch*�?} | Format-Table Name,RetentionPolicy,RetentionHoldEnabled -Auto
+    ```powershell
+    Get-Mailbox -ResultSize unlimited -Filter {Name -NotLike "DiscoverySearch*�?} | Format-Table Name,RetentionPolicy,RetentionHoldEnabled -Auto
+    ```
 
   - Una vez que el Asistente para carpeta administrada haya procesado un buzón de correo con una directiva de retención, use el cmdlet [Get-RetentionPolicyTag](https://technet.microsoft.com/es-es/library/dd298009\(v=exchg.150\)) para recuperar las etiquetas de retención suministradas en el buzón del usuario.
     
     Este comando recupera las etiquetas de retención aplicadas efectivamente al buzón de correo de April Stewart.
     
     ```powershell
-Get-RetentionPolicyTag -Mailbox astewart
-```
+    Get-RetentionPolicyTag -Mailbox astewart
+    ```
 

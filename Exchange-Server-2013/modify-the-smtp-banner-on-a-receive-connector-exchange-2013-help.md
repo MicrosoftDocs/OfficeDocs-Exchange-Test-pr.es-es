@@ -21,7 +21,9 @@ The *SMTP banner* is the SMTP connection response that a remote SMTP messaging s
 
 This is the default response received by a remote SMTP messaging server after it connects to the Receive connector:
 
-    220 <Servername> Microsoft ESMTP MAIL service ready at <RegionalDay-Date-24HourTimeFormat> <RegionalTimeZoneOffset>
+```powershell
+220 <Servername> Microsoft ESMTP MAIL service ready at <RegionalDay-Date-24HourTimeFormat> <RegionalTimeZoneOffset>
+```
 
 When you specify a custom value for SMTP banner on a Receive connector, a remote SMTP messaging server that connects to that SMTP Receive connector receives the following response.
 
@@ -76,8 +78,8 @@ To verify that you have successfully modified the SMTP banner on a Receive conne
 1.  Open a telnet client on a computer that can access the Receive connector, and run the following command:
     
     ```powershell
-open <Connector FQDN or IP address> <Port>
-```
+    open <Connector FQDN or IP address> <Port>
+    ```
 
 2.  Verify the response from the Receive connector contains the SMTP banner you configured.
 

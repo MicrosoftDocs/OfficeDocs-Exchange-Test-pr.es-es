@@ -1,5 +1,5 @@
 ﻿---
-title: 'Esquema de regla XML y guía estructura de regla para archivos directivas DLP'
+title: Esquema de la regla XML y guía de la estructura de la regla para archivos de directivas de DLP
 TOCTitle: Desarrollo de archivos de plantilla de directivas de DLP
 ms:assetid: 4b263547-aef4-4ee8-aa4f-fa64a5863189
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ674703(v=EXCHG.150)
@@ -17,7 +17,7 @@ _**Se aplica a:** Exchange Online, Exchange Server 2013_
 
 _**Última modificación del tema:** 2015-03-09_
 
-En esta introducción se explican los componentes de una definición de esquema XML para los archivos de plantilla de directiva de prevención de pérdida de datos (DLP). También se proporciona un archivo de plantilla en formato XML a modo de ejemplo, que le será útil para comprender la arquitectura general de DLP y el proceso de desarrollo de reglas antes de comenzar. Para obtener más información, vea [Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention) y [Definir sus propios tipos de información y plantillas de DLP](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
+En esta introducción se explican los componentes de una definición de esquema XML para los archivos de plantilla de directiva de prevención de pérdida de datos (DLP). También se proporciona un archivo de plantilla en formato XML a modo de ejemplo, que le será útil para comprender la arquitectura general de DLP y el proceso de desarrollo de reglas antes de comenzar. Para obtener más información, vea [Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md) y [Definir sus propios tipos de información y plantillas de DLP](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
 
 Para facilitar el uso y la administración de las soluciones de prevención de pérdida de datos, Microsoft Exchange Server 2013 incluye un modelo conceptual conocido como directivas DLP y plantillas de directiva. Las plantillas de directiva DLP proporcionan un diseño preliminar para la directiva DLP que se pretende crear. Para que resulten útiles, las plantillas de directiva DLP deben encapsular todas las directivas y objetos de datos necesarios para cumplir un objetivo de directiva específico, como una regulación o una necesidad empresarial. La plantilla no está destinada a ningún entorno en concreto. Sencillamente, se trata de una definición o modelo de directiva que se puede proporcionar como parte de la configuración del producto o que los proveedores de software independientes o socios pueden suministrar. Por otro lado, las directivas DLP son creaciones de instancias en tiempo de ejecución de las plantillas que son específicas de un entorno de implementación. Un marco de directivas de mensajería existente puede incorporar directivas DLP mediante el uso de reglas de transporte. Las reglas de transporte ofrecen una gran flexibilidad para adaptar y expresar la variedad de soluciones de DLP.
 
@@ -88,36 +88,40 @@ Las plantillas de directiva DLP se representan como documentos XML. Se utiliza u
 
 Las plantillas de directiva DLP se expresan como documentos XML que se adhieren al siguiente esquema. Tenga en cuenta que el XML no distingue entre mayúsculas y minúsculas. Por ejemplo, `dlpPolicyTemplates` funcionará, pero `DlpPolicyTemplates` no funcionará.
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <dlpPolicyTemplates>
-      <dlpPolicyTemplate id="F7C29AEC-A52D-4502-9670-141424A83FAB" mode="Audit" state="Enabled" version="15.0.2.0">
-        <contentVersion>4</contentVersion>
-        <publisherName>Microsoft</publisherName>
-        <name>
-          <localizedString lang="en">PCI-DSS</localizedString>
-        </name>
-        <description>
-          <localizedString lang="en">Detects the presence of information subject to Payment Card Industry Data Security Standard (PCI-DSS) compliance requirements.</localizedString>
-        </description>
-        <keywords></keywords>
-        <ruleParameters></ruleParameters>
-        <ruleParameters/>
-        <policyCommands>
-          <!-- The contents below are applied/executed as rules directly in PS - -->
-          <commandBlock>
-            <![CDATA[ new-transportRule "PCI-DSS: Monitor Payment Card Information Sent To Outside" -DlpPolicy "%%DlpPolicyName%%" -SentToScope NotInOrganization -SetAuditSeverity High -MessageContainsDataClassifications @{Name="Credit Card Number"; MinCount="1" } -Comments "Monitors payment card information sent to outside the organization as part of the PCI-DSS DLP Policy."]]>
-          </commandBlock>
-          <commandBlock>
-            <![CDATA[ new-transportRule "PCI-DSS: Monitor Payment Card Information Sent To Within" -DlpPolicy "%%DlpPolicyName%%" -Comments "Monitors payment card information sent inside the organization as part of the PCI-DSS DLP Policy." -SentToScope InOrganization -SetAuditSeverity Low -MessageContainsDataClassifications @{Name="Credit Card Number"; MinCount="1" } ]]>
-          </commandBlock>
-        </policyCommands>
-        <policyCommandsResources></policyCommandsResources>
-      </dlpPolicyTemplate>
-    </dlpPolicyTemplates>
+  ```xml
+  <?xml version="1.0" encoding="UTF-8"?>
+  <dlpPolicyTemplates>
+    <dlpPolicyTemplate id="F7C29AEC-A52D-4502-9670-141424A83FAB" mode="Audit" state="Enabled" version="15.0.2.0">
+      <contentVersion>4</contentVersion>
+      <publisherName>Microsoft</publisherName>
+      <name>
+        <localizedString lang="en">PCI-DSS</localizedString>
+      </name>
+      <description>
+        <localizedString lang="en">Detects the presence of information subject to Payment Card Industry Data Security Standard (PCI-DSS) compliance requirements.</localizedString>
+      </description>
+      <keywords></keywords>
+      <ruleParameters></ruleParameters>
+      <ruleParameters/>
+      <policyCommands>
+        <!-- The contents below are applied/executed as rules directly in PS - -->
+        <commandBlock>
+          <![CDATA[ new-transportRule "PCI-DSS: Monitor Payment Card Information Sent To Outside" -DlpPolicy "%%DlpPolicyName%%" -SentToScope NotInOrganization -SetAuditSeverity High -MessageContainsDataClassifications @{Name="Credit Card Number"; MinCount="1" } -Comments "Monitors payment card information sent to outside the organization as part of the PCI-DSS DLP Policy."]]>
+        </commandBlock>
+        <commandBlock>
+          <![CDATA[ new-transportRule "PCI-DSS: Monitor Payment Card Information Sent To Within" -DlpPolicy "%%DlpPolicyName%%" -Comments "Monitors payment card information sent inside the organization as part of the PCI-DSS DLP Policy." -SentToScope InOrganization -SetAuditSeverity Low -MessageContainsDataClassifications @{Name="Credit Card Number"; MinCount="1" } ]]>
+        </commandBlock>
+      </policyCommands>
+      <policyCommandsResources></policyCommandsResources>
+    </dlpPolicyTemplate>
+  </dlpPolicyTemplates>
+  ```
 
 Si incluye un parámetro para cualquier elemento en el archivo XML que contenga un espacio, deberá entrecomillar el parámetro con comillas dobles o no funcionará correctamente. En el siguiente ejemplo, el parámetro a continuación de `-SentToScope` es válido y no lleva comillas dobles porque es una cadena continua de caracteres sin espacio. Sin embargo, el parámetro provisto para –`Comments` no aparecerá en el Centro de administración de Exchange porque no lleva comillas dobles y contiene espacios.
 
-    <CommandBlock><![CDATA[ new-transportRule "PCI-DSS: Monitor Payment Card Information Sent To Within" -DlpPolicy "PCI-DSS" -Comments Monitors payment card information sent inside the organization -SentToScope InOrganization -SetAuditSeverity Low -MessageContainsDataClassifications @{Name="Credit Card Number"; MinCount="1" } ]]> </CommandBlock>
+  ```powershell
+  <CommandBlock><![CDATA[ new-transportRule "PCI-DSS: Monitor Payment Card Information Sent To Within" -DlpPolicy "PCI-DSS" -Comments Monitors payment card information sent inside the organization -SentToScope InOrganization -SetAuditSeverity Low -MessageContainsDataClassifications @{Name="Credit Card Number"; MinCount="1" } ]]> </CommandBlock>
+  ```
 
 ## Elemento localizedString
 
@@ -225,15 +229,17 @@ Los elementos secundarios incluyen la siguiente secuencia de elementos.
 
 Esta parte de la plantilla de directiva contiene la lista de comandos del Shell de administración de Exchange que se usan para crear instancias de la definición de la directiva. En el proceso de importación se ejecutan los comandos como parte del proceso de creación de instancias. Los comandos de directiva de muestra se proporcionan aquí.
 
-    <PolicyCommands>
-        <!-- The contents below are applied/executed as rules directly in PS - -->
-          <CommandBlock> <![CDATA[ new-transportRule "PCI-DSS: Monitor Payment Card Information Sent To Outside" -DlpPolicy "PCI-DSS" -SentToScope NotInOrganization -SetAuditSeverity High -MessageContainsDataClassifications @{Name="Credit Card Number"; MinCount="1" } -Comments "Monitors payment card information sent to outside the organization as part of the PCI-DSS DLP policy."]]></CommandBlock>
-          <CommandBlock><![CDATA[ new-transportRule "PCI-DSS: Monitor Payment Card Information Sent To Within" -DlpPolicy "PCI-DSS" -Comments "Monitors payment card information sent inside the organization as part of the PCI-DSS DLP policy." -SentToScope InOrganization -SetAuditSeverity Low -MessageContainsDataClassifications @{Name="Credit Card Number"; MinCount="1" } ]]> </CommandBlock>
-      </PolicyCommands> 
+  ```powershell
+  <PolicyCommands>
+      <!-- The contents below are applied/executed as rules directly in PS - -->
+        <CommandBlock> <![CDATA[ new-transportRule "PCI-DSS: Monitor Payment Card Information Sent To Outside" -DlpPolicy "PCI-DSS" -SentToScope NotInOrganization -SetAuditSeverity High -MessageContainsDataClassifications @{Name="Credit Card Number"; MinCount="1" } -Comments "Monitors payment card information sent to outside the organization as part of the PCI-DSS DLP policy."]]></CommandBlock>
+        <CommandBlock><![CDATA[ new-transportRule "PCI-DSS: Monitor Payment Card Information Sent To Within" -DlpPolicy "PCI-DSS" -Comments "Monitors payment card information sent inside the organization as part of the PCI-DSS DLP policy." -SentToScope InOrganization -SetAuditSeverity Low -MessageContainsDataClassifications @{Name="Credit Card Number"; MinCount="1" } ]]> </CommandBlock>
+    </PolicyCommands>
+  ```
 
 Los cmdlets tienen el formato de la sintaxis estándar de cmdlets del Shell de administración de Exchange. Los comandos se ejecutan en secuencia. Los nodos de comando pueden contener un bloque de script que está compuesto por varios comandos. En el siguiente ejemplo se muestra cómo incrustar un paquete de reglas de clasificación dentro de una plantilla de directiva DLP y cómo instalar el paquete de reglas como parte del proceso de creación de la directiva. El paquete de reglas de clasificación se incrusta en la plantilla de directiva y, a continuación, se pasa como un parámetro al cmdlet en la plantilla:
 
-``` 
+```powershell
 <CommandBlock>
   <![CDATA[
 $rulePack = [system.Text.Encoding]::Unicode.GetBytes('<?xml version="1.0" encoding="utf-16"?>
@@ -315,7 +321,7 @@ Los elementos secundarios incluyen la siguiente secuencia ordenada de elementos.
 
 ## Más información
 
-[Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
+[Prevención de pérdida de datos](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
 
 [Definir sus propios tipos de información y plantillas de DLP](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md)
 

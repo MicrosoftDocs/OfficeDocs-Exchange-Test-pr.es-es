@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar Exchange para Centro de eDiscovery SharePoint: Exchange 2013 Help'
+title: 'Configurar Exchange para el Centro de exhibición de documentos electrónicos de SharePoint: Exchange 2013 Help'
 TOCTitle: Configurar Exchange para el Centro de exhibición de documentos electrónicos de SharePoint
 ms:assetid: 795c1a3b-295c-4ee5-ade9-52cf3fda3f19
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ218665(v=EXCHG.150)
@@ -47,7 +47,9 @@ En este tema se detalla cómo configurar la autenticación de servidor a servido
 
 Ejecute el comando siguiente para crear Exchange 2013 como emisor de token de seguridad de confianza en SharePoint 2013.
 
-    New-SPTrustedSecurityTokenIssuer -Name Exchange -MetadataEndPoint https://<Exchange Server Name or FQDN>/autodiscover/metadata/json/1
+```powershell
+New-SPTrustedSecurityTokenIssuer -Name Exchange -MetadataEndPoint https://<Exchange Server Name or FQDN>/autodiscover/metadata/json/1
+```
 
 ## Paso 2: Configurar la autenticación de servidor a servidor para SharePoint 2013 un servidor que ejecuta Exchange 2013
 
@@ -55,12 +57,14 @@ Realice este paso en un servidor de Exchange 2013. Deberá tener asignados perm
 
 Ejecute este comando para configurar la aplicación de socio de SharePoint.
 
-    cd c:\'Program Files'\Microsoft\'Exchange Server'\V15\Scripts
-    .\Configure-EnterprisePartnerApplication.ps1 -AuthMetadataUrl <path to SharePoint AuthMetadataUrl> -ApplicationType SharePoint
+```powershell
+cd c:\'Program Files'\Microsoft\'Exchange Server'\V15\Scripts
+.\Configure-EnterprisePartnerApplication.ps1 -AuthMetadataUrl <path to SharePoint AuthMetadataUrl> -ApplicationType SharePoint
+```
 
 ## Paso 3: Agregar usuarios autorizados al grupo de roles de administración de detección
 
-Añada usuarios que necesiten realizar una búsqueda de exhibición de documentos electrónicos mediante SharePoint 2013 al grupo de roles de administración de detección en Exchange 2013. Para obtener información más detallada, consulte [Asignar permisos de exhibición de documentos electrónicos en Exchange](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions).
+Añada usuarios que necesiten realizar una búsqueda de exhibición de documentos electrónicos mediante SharePoint 2013 al grupo de roles de administración de detección en Exchange 2013. Para obtener información más detallada, consulte [Asignar permisos de exhibición de documentos electrónicos en Exchange](assign-ediscovery-permissions-in-exchange-exchange-2013-help.md).
 
 
 > [!WARNING]

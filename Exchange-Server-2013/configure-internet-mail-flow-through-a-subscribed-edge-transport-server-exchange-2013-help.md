@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar flujo correo Internet por servidor Transporte perimetral suscrito'
+title: 'Configure Internet mail flow through a subscribed Edge Transport server: Exchange 2013 Help'
 TOCTitle: Configurar el flujo de correo de Internet por medio de un servidor de transporte perimetral suscrito
 ms:assetid: d12ea770-99ce-4ab4-a373-96f2554641fa
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb738158(v=EXCHG.150)
@@ -47,23 +47,29 @@ If you don't want to subscribe the Edge Transport server to an Active Directory 
 
 1.  On the Edge Transport server, create the Edge Subscription file using the following syntax.
     
-        New-EdgeSubscription -FileName <FileName>.xml [-Force]
+    ```powershell
+    New-EdgeSubscription -FileName <FileName>.xml [-Force]
+    ```
     
     The following example creates an Edge Subscription file named EdgeSubscriptionInfo.xml in the folder C:\\My Documents. The *Force* parameter suppresses prompts confirming commands that will be disabled and warnings that configuration data will be overwritten on the Edge Transport server.
     
     ```powershell
-New-EdgeSubscription -FileName "C:\My Documents\EdgeSubscriptionInfo.xml" -Force
-```
+    New-EdgeSubscription -FileName "C:\My Documents\EdgeSubscriptionInfo.xml" -Force
+    ```
 
 2.  Copy the resulting Edge Subscription file to a Mailbox server in the Active Directory site you're subscribing the Edge Transport server to.
 
 3.  On the Mailbox server, to import the Edge Subscription file, use the following syntax.
     
-        New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "<FileName>.xml" -Encoding Byte -ReadCount 0)) -Site <SiteName>
+    ```powershell
+    New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "<FileName>.xml" -Encoding Byte -ReadCount 0)) -Site <SiteName>
+    ```
     
     This example imports the Edge Subscription file named EdgeSubscriptionInfo.xml from the folder D:\\Data, and subscribes the Edge Transport server to the Active Directory site named "Default-First-Site-Name".
     
-        New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "D:\Data\EdgeSubscriptionInfo.xml" -Encoding Byte -ReadCount 0)) -Site "Default-First-Site-Name"
+    ```powershell
+    New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "D:\Data\EdgeSubscriptionInfo.xml" -Encoding Byte -ReadCount 0)) -Site "Default-First-Site-Name"
+    ```
     
 
     > [!NOTE]
@@ -74,8 +80,8 @@ New-EdgeSubscription -FileName "C:\My Documents\EdgeSubscriptionInfo.xml" -Force
 4.  On the Mailbox server, run the following command to start the first EdgeSync synchronization.
     
     ```powershell
-Start-EdgeSynchronization
-```
+    Start-EdgeSynchronization
+    ```
 
 5.  When you're finished, we strongly recommend you delete the Edge Subscription file from both the Edge Transport server and from the Mailbox server. The Edge Subscription file contains information about credentials used during the LDAP communication process.
 

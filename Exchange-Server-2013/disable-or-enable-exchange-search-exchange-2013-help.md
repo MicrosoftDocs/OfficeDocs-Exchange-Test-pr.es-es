@@ -1,5 +1,5 @@
 ﻿---
-title: 'Deshabilitar o habilitar servicio de búsqueda de Exchange: Exchange 2013 Help'
+title: 'Deshabilitar o habilitar el servicio de búsqueda de Exchange: Exchange 2013 Help'
 TOCTitle: Deshabilitar o habilitar el servicio de búsqueda de Exchange
 ms:assetid: 195b25be-53fb-4215-90a5-04340d640bcc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa996416(v=EXCHG.150)
@@ -21,7 +21,7 @@ De forma predeterminada, el servicio de búsqueda de Exchange está habilitado p
 
 
 > [!WARNING]
-> Deshabilitar la búsqueda de Exchange influye en las funciones y el rendimiento de las búsquedas de texto completo que hacen los usuarios con Outlook en el modo en línea o en dispositivos móviles de Windows.<BR><A href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules">Exhibición de documentos electrónicos en contexto</A> también se basa en la búsqueda de Exchange. Si deshabilita la búsqueda de Exchange para una base de datos de buzones de correo o para un servidor de buzones, las búsquedas de la exhibición de documentos electrónicos en contexto no devolverán ningún mensaje de la base de datos ni del servidor.
+> Deshabilitar la búsqueda de Exchange influye en las funciones y el rendimiento de las búsquedas de texto completo que hacen los usuarios con Outlook en el modo en línea o en dispositivos móviles de Windows.<BR><A href="in-place-ediscovery-exchange-2013-help.md">Exhibición de documentos electrónicos en contexto</A> también se basa en la búsqueda de Exchange. Si deshabilita la búsqueda de Exchange para una base de datos de buzones de correo o para un servidor de buzones, las búsquedas de la exhibición de documentos electrónicos en contexto no devolverán ningún mensaje de la base de datos ni del servidor.
 
 
 
@@ -53,11 +53,15 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 
 Este comando deshabilita el servicio de búsqueda de Exchange para la base de datos de buzones llamada EXCH01.
 
-    Set-MailboxDatabase "Mailbox Database (EXCH01)" -IndexEnabled $false
+```powershell
+Set-MailboxDatabase "Mailbox Database (EXCH01)" -IndexEnabled $false
+```
 
 Este comando habilita el servicio de búsqueda de Exchange para la base de datos de buzones llamada EXCH01.
 
-    Set-MailboxDatabase "Mailbox Database (EXCH01)" -IndexEnabled $true
+```powershell
+Set-MailboxDatabase "Mailbox Database (EXCH01)" -IndexEnabled $true
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-MailboxDatabase](https://technet.microsoft.com/es-es/library/bb123971\(v=exchg.150\)).
 
@@ -88,25 +92,17 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 **Uso del Shell**
 
 Ejecute los siguientes comandos para detener y deshabilitar el servicio de búsqueda de Microsoft Exchange.
-```
+
 ```powershell
-Stop-Service MSExchangeFastSearch
-```
-```
-```
-```powershell
-Set-Service MSExchangeFastSearch -StartupType Disabled
-```
+    Stop-Service MSExchangeFastSearch
+
+    Set-Service MSExchangeFastSearch -StartupType Disabled
 ```
 
 Ejecute los siguientes comandos para configurar el servicio de búsqueda de Exchange para que se inicie automáticamente y luego inicie el servicio.
-```
+
 ```powershell
-Set-Service MSExchangeFastSearch -StartupType Automatic
-```
-```
-```
-```powershell
-Start-Service MSExchangeFastSearch
-```
+    Set-Service MSExchangeFastSearch -StartupType Automatic
+
+    Start-Service MSExchangeFastSearch
 ```

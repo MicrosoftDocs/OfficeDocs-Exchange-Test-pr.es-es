@@ -77,7 +77,7 @@ La convención de nomenclatura de los archivos de registro en el directorio de r
 
   - **MSGTRK**   Estos registros están asociados con el servicio de transporte.
 
-  - **MSGTRKMA**   Estos registros están asociados con las aprobaciones y los rechazos usados por el transporte moderado. Para obtener más información, consulte [Administrar la aprobación de mensajes](https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-message-approval).
+  - **MSGTRKMA**   Estos registros están asociados con las aprobaciones y los rechazos usados por el transporte moderado. Para obtener más información, consulte [Administrar la aprobación de mensajes](manage-message-approval-exchange-2013-help.md).
 
   - **MSGTRKMD**   Estos registros están asociados con los mensajes que el servicio de entrega de transporte de buzones de correo entrega en los buzones de correo.
 
@@ -343,7 +343,7 @@ Varios tipos de eventos en el campo **event-id** se usan para clasificar los eve
 </tr>
 <tr class="even">
 <td><p><strong>INITMESSAGECREATED</strong></p></td>
-<td><p>Se envió un mensaje a un destinatario moderado, así que el mensaje se envió al buzón de correo de arbitraje para su aprobación. Para obtener más información, consulte <a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-message-approval">Administrar la aprobación de mensajes</a>.</p></td>
+<td><p>Se envió un mensaje a un destinatario moderado, así que el mensaje se envió al buzón de correo de arbitraje para su aprobación. Para obtener más información, consulte <a href="manage-message-approval-exchange-2013-help.md">Administrar la aprobación de mensajes</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LOAD</strong></p></td>
@@ -351,7 +351,7 @@ Varios tipos de eventos en el campo **event-id** se usan para clasificar los eve
 </tr>
 <tr class="even">
 <td><p><strong>MODERATIONEXPIRE</strong></p></td>
-<td><p>Un moderador de un destinatario moderado nunca aprobó ni rechazó el mensaje, así que expiró. Para obtener más información sobre los destinatarios moderados, consulte <a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-message-approval">Administrar la aprobación de mensajes</a>.</p></td>
+<td><p>Un moderador de un destinatario moderado nunca aprobó ni rechazó el mensaje, así que expiró. Para obtener más información sobre los destinatarios moderados, consulte <a href="manage-message-approval-exchange-2013-help.md">Administrar la aprobación de mensajes</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MODERATORAPPROVE</strong></p></td>
@@ -478,7 +478,7 @@ Los valores en el campo **source** en el registro de seguimiento de mensajes ind
 </tr>
 <tr class="odd">
 <td><p><strong>APPROVAL</strong></p></td>
-<td><p>El origen del evento fue el marco de la aprobación que se usa con los destinatarios moderados. Para obtener más información, consulte <a href="https://docs.microsoft.com/es-es/exchange/security-and-compliance/mail-flow-rules/manage-message-approval">Administrar la aprobación de mensajes</a>.</p></td>
+<td><p>El origen del evento fue el marco de la aprobación que se usa con los destinatarios moderados. Para obtener más información, consulte <a href="manage-message-approval-exchange-2013-help.md">Administrar la aprobación de mensajes</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BOOTLOADER</strong></p></td>
@@ -556,16 +556,18 @@ Un mensaje sin eventos enviado entre dos usuarios genera varias entradas en el r
 
 Este es un ejemplo condensado de entradas del registro de seguimiento de mensajes creadas cuando el usuario chris@contoso.com envía correctamente un mensaje de prueba al usuario michelle@contoso.com. Ambos usuarios tienen buzones de correo en el mismo servidor.
 
-    EventId    Source      Sender            Recipients             MessageSubject
-    -------    ------      ------            ----------             --------------
-    NOTIFYMAPI STOREDRIVER                   {}
-    RECEIVE    STOREDRIVER chris@contoso.com {michelle@contoso.com} test
-    SUBMIT     STOREDRIVER chris@contoso.com {michelle@contoso.com} test
-    HAREDIRECT SMTP        chris@contoso.com {michelle@contoso.com} test
-    RECEIVE    SMTP        chris@contoso.com {michelle@contoso.com} test
-    AGENTINFO  AGENT       chris@contoso.com {michelle@contoso.com} test
-    SEND       SMTP        chris@contoso.com {michelle@contoso.com} test
-    DELIVER    STOREDRIVER chris@contoso.com {michelle@contoso.com} test
+```powershell
+EventId    Source      Sender            Recipients             MessageSubject
+-------    ------      ------            ----------             --------------
+NOTIFYMAPI STOREDRIVER                   {}
+RECEIVE    STOREDRIVER chris@contoso.com {michelle@contoso.com} test
+SUBMIT     STOREDRIVER chris@contoso.com {michelle@contoso.com} test
+HAREDIRECT SMTP        chris@contoso.com {michelle@contoso.com} test
+RECEIVE    SMTP        chris@contoso.com {michelle@contoso.com} test
+AGENTINFO  AGENT       chris@contoso.com {michelle@contoso.com} test
+SEND       SMTP        chris@contoso.com {michelle@contoso.com} test
+DELIVER    STOREDRIVER chris@contoso.com {michelle@contoso.com} test
+```
 
 Volver al principio
 

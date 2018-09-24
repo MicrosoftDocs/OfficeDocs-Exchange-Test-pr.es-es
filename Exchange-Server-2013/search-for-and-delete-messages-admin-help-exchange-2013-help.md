@@ -31,11 +31,11 @@ Como una protección adicional, primero puede copiar los mensajes en otro buzón
 
   - Tiene que tener asignados los siguientes roles de administración para buscar y eliminar los mensajes en los buzones de correo de los usuarios:
     
-      - **Búsqueda en el buzón**   Este rol le permite buscar mensajes en varios buzones de correo de una organización. Los administradores no tienen asignado este rol de forma predeterminada. Para asignarse a sí mismo este rol para poder buscar en buzones, agréguese como miembro del grupo de rol de administración de la detección. Vea [Asignar permisos de exhibición de documentos electrónicos en Exchange](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions).
+      - **Búsqueda en el buzón**   Este rol le permite buscar mensajes en varios buzones de correo de una organización. Los administradores no tienen asignado este rol de forma predeterminada. Para asignarse a sí mismo este rol para poder buscar en buzones, agréguese como miembro del grupo de rol de administración de la detección. Vea [Asignar permisos de exhibición de documentos electrónicos en Exchange](assign-ediscovery-permissions-in-exchange-exchange-2013-help.md).
     
       - **Importación o exportación de buzones:**  este rol le permite eliminar los mensajes del buzón de correo de un usuario. De forma predeterminada, este rol no está asignado a ningún grupo de roles. Para eliminar mensajes de los buzones de los usuarios, puede agregar el rol de importación o exportación de buzones al grupo de roles de administración de la organización. Para obtener más información, consulte la sección \&quot;Agregar una función a un grupo de funciones\&quot; en [Administrar grupos de roles](manage-role-groups-exchange-2013-help.md).
 
-  - Si el buzón desde el cual desea eliminar los mensajes tiene la recuperación de un solo elemento habilitada, primero debe deshabilitar la función. Para obtener más información, consulte [Habilitar o deshabilitar la recuperación de elementos individuales de un buzón de correo](https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-single-item-recovery).
+  - Si el buzón desde el cual desea eliminar los mensajes tiene la recuperación de un solo elemento habilitada, primero debe deshabilitar la función. Para obtener más información, consulte [Habilitar o deshabilitar la recuperación de elementos individuales de un buzón de correo](enable-or-disable-single-item-recovery-for-a-mailbox-exchange-2013-help.md).
 
   - Si el buzón del que desea eliminar los mensajes está en espera, le recomendamos que se ponga en contacto con su departamento jurídico o de administración de registros antes de eliminar la espera y eliminar el contenido del buzón. Después de obtener la aprobación, siga los pasos mencionados en el tema [Limpiar la carpeta Elementos recuperables](clean-up-the-recoverable-items-folder-exchange-2013-help.md).
 
@@ -49,11 +49,15 @@ Como una protección adicional, primero puede copiar los mensajes en otro buzón
 
 En este ejemplo, se buscan mensajes que contengan la frase "Su extracto bancario" en el campo Asunto en el buzón de correo de April Stewart y se registra el resultado en la carpeta SearchAndDeleteLog en el buzón de correo del administrador. Los mensajes no se copian ni eliminar en el buzón de correo de destino.
 
-    Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statement"' -TargetMailbox administrator -TargetFolder "SearchAndDeleteLog" -LogOnly -LogLevel Full
+```powershell
+Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statement"' -TargetMailbox administrator -TargetFolder "SearchAndDeleteLog" -LogOnly -LogLevel Full
+```
 
 Este ejemplo busca en todos los buzones de la organización los mensajes que tienen cualquier tipo de archivo adjunto que contiene la palabra \&quot;Troyano\&quot; en el nombre de archivo y envía un mensaje de registro al buzón del administrador.
 
-    Get-Mailbox -ResultSize unlimited | Search-Mailbox -SearchQuery attachment:trojan* -TargetMailbox administrator -TargetFolder "SearchAndDeleteLog" -LogOnly -LogLevel Full
+```powershell
+Get-Mailbox -ResultSize unlimited | Search-Mailbox -SearchQuery attachment:trojan* -TargetMailbox administrator -TargetFolder "SearchAndDeleteLog" -LogOnly -LogLevel Full
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Search-Mailbox](https://technet.microsoft.com/es-es/library/dd298173\(v=exchg.150\)).
 
@@ -67,19 +71,21 @@ En este ejemplo, se buscan mensajes que contengan la frase "Su extracto bancario
 > [!IMPORTANT]
 > Cuando usa el cmdlet <STRONG>Search-Mailbox</STRONG> con el modificador <EM>DeleteContent</EM>, los mensajes se eliminan permanentemente del buzón origen. Antes de eliminar permanentemente los mensajes, le recomendamos que use el modificador <EM>LogOnly</EM> para generar un registro de los mensajes encontrados en la búsqueda antes de que se eliminen o que copie los mensajes en otro buzón antes de eliminarlo desde el buzón origen.
 
-
-
 ```powershell
 Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statement"' -DeleteContent
 ```
 
 En este ejemplo, se buscan mensajes que contengan la frase "Su extracto bancario" en el campo Asunto en el buzón de correo de April Stewart, se copian los resultados de la búsqueda en la carpeta AprilStewart-DeletedMessages en el buzón BackupMailbox y se eliminan los mensajes del buzón de April.
 
-    Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statement"' -TargetMailbox "BackupMailbox" -TargetFolder "AprilStewart-DeletedMessages" -LogLevel Full -DeleteContent
+```powershell
+Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statement"' -TargetMailbox "BackupMailbox" -TargetFolder "AprilStewart-DeletedMessages" -LogLevel Full -DeleteContent
+```
 
 Este ejemplo busca en todos los buzones de la organización los mensajes con el asunto \&quot;Descargar este archivo\&quot; y, a continuación, los elimina de forma definitiva.
 
-    Get-Mailbox -ResultSize unlimited | Search-Mailbox -SearchQuery 'Subject:"Download this file"' -DeleteContent
+```powershell
+Get-Mailbox -ResultSize unlimited | Search-Mailbox -SearchQuery 'Subject:"Download this file"' -DeleteContent
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Search-Mailbox](https://technet.microsoft.com/es-es/library/dd298173\(v=exchg.150\)).
 
