@@ -64,7 +64,7 @@ cd c:\'Program Files'\Microsoft\'Exchange Server'\V15\Scripts
 
 ## Paso 3: Agregar usuarios autorizados al grupo de roles de administración de detección
 
-Añada usuarios que necesiten realizar una búsqueda de exhibición de documentos electrónicos mediante SharePoint 2013 al grupo de roles de administración de detección en Exchange 2013. Para obtener información más detallada, consulte [Asignar permisos de exhibición de documentos electrónicos en Exchange](exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions).
+Añada usuarios que necesiten realizar una búsqueda de exhibición de documentos electrónicos mediante SharePoint 2013 al grupo de roles de administración de detección en Exchange 2013. Para obtener información más detallada, consulte [Asignar permisos de exhibición de documentos electrónicos en Exchange](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions).
 
 
 > [!WARNING]
