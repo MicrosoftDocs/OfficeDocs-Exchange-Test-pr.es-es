@@ -167,7 +167,9 @@ Para que todos los usuarios usen de forma obligatoria el tema predeterminado, de
 
 En este ejemplo se define el tema predeterminado para Outlook Web App, donde el nombre del servidor es `fourthcoffee`, el nombre del directorio virtual es `owa`, el nombre del sitio web es `default web site` y el tema está en la carpeta llamada `Custom`.
 
+```powershell
     set-owavirtualdirectory -identity "fourthcoffee\owa (default web site)" -defaulttheme Custom 
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Set-OwaVirtualDirectory](https://technet.microsoft.com/es-es/library/bb123515\(v=exchg.150\)).
 
@@ -175,11 +177,15 @@ Para obtener información más detallada acerca de la sintaxis y los parámetros
 
 En este ejemplo se deshabilita la selección de tema en Outlook Web App, donde el nombre del servidor es `fourthcoffee`, el nombre del directorio virtual es `owa` y el nombre del sitio web es `default web site`.
 
+```powershell
     set-owavirtualdirectory -identity "fourthcoffee\owa (default web site)" -themeselectionenabled $false 
+```
 
 También puede completar ambos comandos simultáneamente, como se muestra en el siguiente ejemplo:
 
+```powershell
     set-owavirtualdirectory -identity "fourthcoffee\owa (default web site)" -defaulttheme Custom -themeselectionenabled $false
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Set-OwaVirtualDirectory](https://technet.microsoft.com/es-es/library/bb123515\(v=exchg.150\)).
 

@@ -92,8 +92,9 @@ Get-ExchangeServer | format-list
 
 
 En este ejemplo se habilita el directorio virtual de publicación en el servidor de acceso de cliente CAS01.
-
+```powershell
     Set-OwaVirtualDirectory -Identity "CAS01\owa (Default Web Site)" -ExternalUrl "<URL for CAS01>" -CalendarEnabled $true
+```
 
 La identidad `CAS01\owa (Default Web Site)` es tanto el nombre del servidor como el directorio virtual de Outlook Web App.
 
@@ -149,7 +150,9 @@ Si desea crear una directiva de uso compartido específicamente para la publicac
 
 En este ejemplo se crea una directiva de uso compartido de publicación de calendarios en Internet llamada Internet y se configura la directiva para compartir únicamente la información de disponibilidad. La directiva está habilitada.
 
+```powershell
     New-SharingPolicy -Name "Internet" -Domains 'Anonymous: CalendarSharingFreeBusySimple' -Enabled $true
+```
 
 En este ejemplo se agrega la directiva compartida a un buzón de usuario.
 
@@ -203,7 +206,9 @@ Si desea configurar la directiva de uso compartido predeterminada para la public
 
 En este ejemplo se actualiza la directiva de uso compartido predeterminada y se configura la directiva para compartir solo la información de disponibilidad. La directiva está habilitada.
 
+```powershell
     Set-SharingPolicy -Name "Default Sharing Policy" -Domains 'Anonymous: CalendarSharingFreeBusySimple' -Enabled $true
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-Mailbox](https://technet.microsoft.com/es-es/library/bb123981\(v=exchg.150\)).
 

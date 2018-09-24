@@ -84,8 +84,9 @@ Los parámetros de la siguiente tabla están disponibles para el script **Config
 ## Modificar la configuración de AD LDS en un servidor de transporte perimetral
 
 Este ejemplo cambia el puerto LDAP que AD LDS utiliza a 5000. El símbolo "y" comercial (&) forma parte de la sintaxis del comando.
-
+```powershell
     & $env:ExchangeInstallPath\Scripts\ConfigureAdam.ps1 -LdapPort:5000
+```
 
 Este ejemplo realiza los siguientes cambios en la configuración de AD LDS. El símbolo de "y" comercial (&) forma parte de la sintaxis del comando. Tenga en cuenta los dos puntos (:) que se utilizan entre cada parámetro y su valor:
 
@@ -98,6 +99,6 @@ Este ejemplo realiza los siguientes cambios en la configuración de AD LDS. El s
   - Cambia la ruta de acceso a los datos a D:\\Exchange Server\\Data\\ADLDS
 
 <!-- end list -->
-
+```powershell
     & $env:ExchangeInstallPath\Scripts\ConfigureAdam.ps1 -LdapPort:5000 -SslPort:5001 -LogPath:"D:\Exchange Server\Data\ADLDS" -DataPath:"D:\Exchange Server\Data\ADLDS"
-
+```

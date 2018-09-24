@@ -74,26 +74,26 @@ After you remove the Edge Subscription, synchronization of information from AD 
 1.  To remove the Edge Subscription from the Edge Transport server, use the following syntax.
     
     ```powershell
-Remove-EdgeSubscription <EdgeTransportServerIdentity>
-```
-    
+    Remove-EdgeSubscription <EdgeTransportServerIdentity>
+    ```
+   
     For example, to remove the Edge Subscription on the Edge Transport server named Edge01, run the following command.
     
     ```powershell
-Remove-EdgeSubscription Edge01
-```
+    Remove-EdgeSubscription Edge01
+    ```
 
 2.  To remove the Edge Subscription from the Mailbox server, use the following syntax.
     
     ```powershell
-Remove-EdgeSubscription <MailboxServerIdentity>
-```
+    Remove-EdgeSubscription <MailboxServerIdentity>
+    ```
     
     For example, to remove the Edge Subscription on the Mailbox server named Mailbox01, run the following command.
     
-    ```powershell
-Remove-EdgeSubscription Mailbox01
-```
+  ```powershell
+    Remove-EdgeSubscription Mailbox01
+  ```
 
 You will need to remove the Edge Subscription if:
 

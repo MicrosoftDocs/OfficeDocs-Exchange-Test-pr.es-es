@@ -337,11 +337,12 @@ Para más información acerca de las URL internas y externas en los directorios 
 2.  Almacenar el nombre del host de su servidor de acceso de cliente en una variable que se usará en el próximo paso. Por ejemplo, Ex2013CAS.
     
     ```powershell
-$HostName = "Ex2013CAS"
-```
+    $HostName = "Ex2013CAS"
+    ```
 
 3.  Ejecute cada uno de los siguientes comandos en el Shell para configurar cada URL interna a fin de que coincida con la URL externa del directorio virtual.
     
+    ```powershell
         Set-EcpVirtualDirectory "$HostName\ECP (Default Web Site)" -InternalUrl ((Get-EcpVirtualDirectory "$HostName\ECP (Default Web Site)").ExternalUrl)
         
         Set-WebServicesVirtualDirectory "$HostName\EWS (Default Web Site)" -InternalUrl ((get-WebServicesVirtualDirectory "$HostName\EWS (Default Web Site)").ExternalUrl)
@@ -353,10 +354,12 @@ $HostName = "Ex2013CAS"
         Set-OwaVirtualDirectory "$HostName\OWA (Default Web Site)" -InternalUrl ((Get-OwaVirtualDirectory "$HostName\OWA (Default Web Site)").ExternalUrl)
         
         Set-PowerShellVirtualDirectory "$HostName\PowerShell (Default Web Site)" -InternalUrl ((Get-PowerShellVirtualDirectory "$HostName\PowerShell (Default Web Site)").ExternalUrl)
+    ```
 
 4.  Mientras estamos en el Shell, vamos a configurar también la Libreta de direcciones sin conexión (OAB) para permitir que Detección automática seleccione el directorio virtual correcto para distribuir la OAB. Ejecute los siguientes comandos para hacerlo.
-    
+    ```powershell
         Get-OfflineAddressBook | Set-OfflineAddressBook -GlobalWebDistributionEnabled $True -VirtualDirectories $Null
+    ```
 
 Después de configurar la dirección URL interna en los directorios virtuales del servidor de acceso de clientes, deberá configurar los registros DNS privados para Outlook Web App y otra conectividad. En función de su configuración, deberá modificar los registros DNS privados para que apunten a la dirección IP interna o externa o al nombre de dominio completo (FQDN) del servidor de acceso de clientes. A continuación, se muestran algunos ejemplos de registros DNS recomendados que debe crear para habilitar la conectividad de clientes internos.
 
@@ -478,7 +481,10 @@ Para comprobar que ha configurado correctamente sus registros DNS privados, haga
 
 8.  Por último, necesitamos abrir el Shell y configurar la Libreta de direcciones sin conexión (OAB) para permitir que Detección automática seleccione el directorio virtual correcto para distribuir la OAB. Ejecute los siguientes comandos para hacerlo.
     
+    ```powershell   
         Get-OfflineAddressBook | Set-OfflineAddressBook -GlobalWebDistributionEnabled $True -VirtualDirectories $Null
+    ```
+        
 
 Después de configurar la dirección URL interna en los directorios virtuales del servidor de acceso de clientes, deberá configurar los registros DNS privados para Outlook Web App y otra conectividad. Según la configuración, necesitará establecer sus registros DNS privados para que apunten a la dirección IP interna y externa o al FQDN de su servidor de acceso de cliente. A continuación puede ver un ejemplo de registro DNS recomendado que debería crear para que el cliente interno tenga conectividad si ha configurado las URL internas del directorio virtual para que usen internal.contoso.com.
 

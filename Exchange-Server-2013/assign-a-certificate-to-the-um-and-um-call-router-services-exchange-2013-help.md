@@ -58,6 +58,7 @@ Para otras tareas de administración relacionadas con la administración de cert
 ## Usar el Shell para asignar un certificado a los servicios de mensajería unificada y de enrutador de llamadas de mensajería unificada
 
 En este ejemplo se asigna un certificado a los servicios de mensajería unificada y de enrutador de llamadas de mensajería unificada.
-
+```powershell
     Enable-ExchangeCertificate -Thumbprint 5113ae0233a72fccb75b1d0198628675333d010e -Services 'UM, UMCallRouter'
+```
 

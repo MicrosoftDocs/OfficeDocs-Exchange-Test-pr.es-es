@@ -56,6 +56,6 @@ Para otras tareas de administración relacionadas con los servidores de buzones,
 2.  En el cuadro **Abrir**, escriba el siguiente comando y, a continuación, presione Entrar.
     
     ```powershell
-net stop MSExchangeUM
-```
+    net stop MSExchangeUM
+    ```
 

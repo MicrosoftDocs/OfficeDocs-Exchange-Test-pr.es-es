@@ -98,17 +98,21 @@ Si tiene un grupo de roles que contenga los permisos que desea otorgar a los usu
 1.  Almacene el grupo de roles que desee copiar en una variable mediante la siguiente sintaxis:
     
     ```powershell
-$RoleGroup = Get-RoleGroup <name of role group to copy>
-```
+    $RoleGroup = Get-RoleGroup <name of role group to copy>
+    ```
 
 2.  Cree el nuevo grupo de funciones y agregue miembros al grupo de funciones y especifique quién puede delegar el nuevo grupo de funciones a otros usuarios. Use la siguiente sintaxis:
-    
+
+    ```powershell
         New-RoleGroup <name of new role group> -Roles $RoleGroup.Roles -Members <member1, member2, member3...> -ManagedBy <user1, user2, user3...>
+    ```
 
 Por ejemplo, los siguientes comandos copian el grupo de funciones Administración organizativa y denominan al nuevo grupo de funciones "Administración organizativa limitada". Esto agrega los miembros Isabelle, Carter y Lucas y pueden ser delegados por Jenny y Katie.
 
+```powershell
     $RoleGroup = Get-RoleGroup "Organization Management"
     New-RoleGroup "Limited Organization Management" -Roles $RoleGroup.Roles -Members Isabelle, Carter, Lukas -ManagedBy Jenny, Katie
+```
 
 Después de haber creado el nuevo grupo de roles, puede agregar y quitar roles, cambiar el ámbito de las asignaciones de roles en un rol y otras tareas.
 
@@ -119,17 +123,21 @@ Para obtener más información acerca de la sintaxis y los parámetros, consulte
 1.  Almacene el grupo de roles que desee copiar en una variable mediante la siguiente sintaxis:
     
     ```powershell
-$RoleGroup = Get-RoleGroup <name of role group to copy>
-```
+    $RoleGroup = Get-RoleGroup <name of role group to copy>
+    ```
 
 2.  Cree el nuevo grupo de roles con un ámbito personalizado mediante la siguiente sintaxis:
-    
+
+    ```powershell
         New-RoleGroup <name of new role group> -Roles $RoleGroup.Roles -CustomRecipientWriteScope <recipient scope name> -CustomConfigWriteScope <configuraiton scope name>
+    ```
 
 Por ejemplo, los siguientes comandos copian el grupo de funciones Administración organizativa y crean un nuevo grupo de funciones denominado Administración organizativa de Vancouver con el ámbito de destinatarios Usuarios de Vancouver y el ámbito de configuración Servidores de Vancouver.
 
+```powershell
     $RoleGroup = Get-RoleGroup "Organization Management"
     New-RoleGroup "Vancouver Organization Management" -Roles $RoleGroup.Roles -CustomRecipientWriteScope "Vancouver Users" -CustomConfigWriteScope "Vancouver Servers"
+```
 
 Además, puede agregar miembros al grupo de funciones cuando lo cree usando el parámetro *Members*, como se muestra anteriormente en Use the Shell to copy a role group with no scope, en este tema. Para obtener más información acerca de los ámbitos de administración, consulte [Descripción de los ámbitos de roles de administración](understanding-management-role-scopes-exchange-2013-help.md).
 
@@ -142,17 +150,21 @@ Para obtener más información acerca de la sintaxis y los parámetros, consulte
 1.  Almacene el grupo de roles que desee copiar en una variable mediante la siguiente sintaxis:
     
     ```powershell
-$RoleGroup = Get-RoleGroup <name of role group to copy>
-```
+    $RoleGroup = Get-RoleGroup <name of role group to copy>
+    ```
 
 2.  Cree el nuevo grupo de roles con un ámbito personalizado mediante la siguiente sintaxis:
-    
+
+    ```powershell
         New-RoleGroup <name of new role group> -Roles $RoleGroup.Roles -RecipientOrganizationalUnitScope <OU name>
+    ```
 
 Por ejemplo, los siguientes comandos copian el grupo de funciones Administración de destinatarios y crean un grupo de funciones denominado Administración de destinatarios de Toronto que permite la administración de usuarios solo en la OU de usuarios de Toronto.
 
+```powershell
     $RoleGroup = Get-RoleGroup "Recipient Management"
     New-RoleGroup "Toronto Recipient Management" -Roles $RoleGroup.Roles -RecipientOrganizationalUnitScope "contoso.com/Toronto Users"
+```
 
 Además, puede agregar miembros al grupo de funciones cuando lo cree usando el parámetro *Members*, como se muestra anteriormente en Use the Shell to copy a role group with no scope, en este tema. Para obtener más información acerca de los ámbitos de administración, consulte [Descripción de los ámbitos de roles de administración](understanding-management-role-scopes-exchange-2013-help.md).
 
@@ -246,11 +258,15 @@ Para obtener más información acerca de las asignaciones de roles, consulte [De
 
 Utilice la siguiente sintaxis para asignar una función a un grupo de funciones con un ámbito predefinido. Si no se especifica, se crea automáticamente un nombre de asignación de roles.
 
+```powershell
     New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -RecipientRelativeWriteScope < MyGAL | MyDistributionGroups | Organization | Self >
+```
 
 Este ejemplo asigna la función de seguimiento de mensajes al grupo de funciones Soporte corporativo y aplica el ámbito predefinido de organización.
 
+```powershell
     New-ManagementRoleAssignment -SecurityGroup "Enterprise Support" -Role "Message Tracking" -RecipientRelativeWriteScope Organization
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd335193\(v=exchg.150\)).
 
@@ -268,11 +284,15 @@ Para obtener más información acerca de las asignaciones de funciones y los ám
 
 Utilice la siguiente sintaxis para asignar una función a un grupo de funciones con un ámbito de destinatarios basado en filtros. Si no se especifica, se crea automáticamente un nombre de asignación de roles.
 
+```powershell
     New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -CustomRecipientWriteScope <role scope name>
+```
 
 Este ejemplo asigna la función de seguimiento de mensajes al grupo de funciones Administradores de destinatarios de Seattle y aplica el ámbito Destinatarios de Seattle.
 
+```powershell
     New-ManagementRoleAssignment -SecurityGroup "Seattle Recipient Admins" -Role "Message Tracking" -CustomRecipientWriteScope "Seattle Recipients"
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd335193\(v=exchg.150\)).
 
@@ -290,11 +310,15 @@ Para obtener más información acerca de las asignaciones de funciones y los ám
 
 Utilice la siguiente sintaxis para asignar un rol a un grupo con un ámbito de configuración. Si no se especifica, se crea automáticamente un nombre de asignación de roles.
 
+```powershell
     New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -CustomConfigWriteScope <role scope name>
+```
 
 Este ejemplo asigna la función de bases de datos al grupo de funciones Administradores de destinatarios de Seattle y aplica el ámbito Servidores de Seattle.
 
+```powershell
     New-ManagementRoleAssignment -SecurityGroup "Seattle Server Admins" -Role "Databases" -CustomConfigWriteScope "Seattle Servers"
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd335193\(v=exchg.150\)).
 
@@ -310,11 +334,15 @@ Para obtener más información acerca de las asignaciones de funciones y los ám
 
 Utilice el siguiente comando para asignar una función a un grupo de funciones y limitar el ámbito de escritura de una función a una OU específica. Si no se especifica, se crea automáticamente un nombre de asignación de roles.
 
+```powershell
     New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -RecipientOrganizationalUnitScope <OU>
+```
 
 Este ejemplo asigna la función de destinatarios de correo al grupo de funciones Administradores de destinatarios de Seattle y aplica el ámbito de asignación a la OU Ventas/Usuarios del dominio Contoso.com.
 
+```powershell
     New-ManagementRoleAssignment -SecurityGroup "Seattle Recipient Admins" -Role "Mail Recipients" -RecipientOrganizationalUnitScope contoso.com/sales/users
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd335193\(v=exchg.150\)).
 
@@ -362,11 +390,15 @@ Este procedimiento utiliza la canalización. Para obtener más información acer
 
 Para quitar un rol de un grupo de roles, utilice la sintaxis siguiente.
 
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee <role group name> -Role <role name> -Delegating <$true | $false> | Remove-ManagementRoleAssignment
+```
 
 En este ejemplo, se quita el rol Grupos de distribución, que permite que los administradores pertenecientes al grupo de roles de administradores de destinatarios de Seattle administren grupos de distribución. Dado que queremos eliminar la asignación de roles que da permiso para administrar grupos de distribución, el parámetro *Delegating* se fija en `$False` para devolver solo las asignaciones de roles normales.
 
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee "Seattle Recipient Administrators" -Role "Distribution Groups" -Delegating $false | Remove-ManagementRoleAssignment
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Remove-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd351205\(v=exchg.150\)).
 
@@ -428,11 +460,15 @@ Este procedimiento usa los conceptos de la canalización y el modificador *WhatI
 
 Para establecer el ámbito en todas las asignaciones de funciones en un grupo de funciones al mismo tiempo, use la siguiente sintaxis.
 
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee <name of role group> | Set-ManagementRoleAssignment -CustomRecipientWriteScope <recipient scope name> -CustomConfigWriteScope <configuration scope name> -RecipientRelativeScopeWriteScope < MyDistributionGroups | Organization | Self> -ExclusiveRecipientWriteScope <exclusive recipient scope name> -ExclusiveConfigWriteScope <exclusive configuration scope name> -RecipientOrganizationalUnitScope <organizational unit>
+```
 
 Usted usa solamente los parámetros necesarios para configurar el ámbito que desea usar. Por ejemplo, si desea cambiar el ámbito de destinatario de todas las asignaciones de funciones en el grupo de funciones Administración de destinatarios de ventas a Empleados de ventas directas, use el comando siguiente.
 
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee "Sales Recipient Management" | Set-ManagementRoleAssignment -CustomRecipientWriteScope "Direct Sales Employees"
+```
 
 
 > [!NOTE]
@@ -461,18 +497,23 @@ Para cambiar el ámbito de una asignación de funciones entre un grupo de funcio
 1.  Para encontrar los nombres de todas las asignaciones de funciones en un grupo de funciones, use el siguiente comando. Si canaliza las asignaciones de funciones de administración al cmdlet **Format-List**, podrá ver el nombre completo de la asignación.
     
     ```powershell
-Get-ManagementRoleAssignment -RoleAssignee <role group name> | Format-List Name
-```
+    Get-ManagementRoleAssignment -RoleAssignee <role group name> | Format-List Name
+    ```
 
 2.  Busque el nombre de la asignación de roles que quiere cambiar. Use el nombre de la asignación de rol en el paso siguiente.
 
 3.  Para establecer el ámbito de una asignación individual, utilice la sintaxis siguiente.
+
+    ```powershell
     
         Set-ManagementRoleAssignment <role assignment name> -CustomRecipientWriteScope <recipient scope name> -CustomConfigWriteScope <configuration scope name> -RecipientRelativeScopeWriteScope < MyDistributionGroups | Organization | Self> -ExclusiveRecipientWriteScope <exclusive recipient scope name> -ExclusiveConfigWriteScope <exclusive configuration scope name> -RecipientOrganizationalUnitScope <organizational unit>
+    ```
 
 Usted usa solamente los parámetros necesarios para configurar el ámbito que desea usar. Por ejemplo, si desea cambiar el ámbito de destinatario en la asignación de funciones de administración Destinatarios de correo\_Destinatarios de ventas a Todos los empleados de ventas, use el comando siguiente.
 
+```powershell
     Set-ManagementRoleAssignment "Mail Recipients_Sales Recipient Management" -CustomRecipientWriteScope "All Sales Employees"
+```
 
 Para obtener más información acerca del cambio de asignaciones de funciones de administración, consulte [Modificar una asignación de roles](change-a-role-assignment-exchange-2013-help.md).
 
@@ -491,8 +532,10 @@ Para comprobar que cambió correctamente el ámbito de una asignación de roles 
   - Si usó el Shell para configurar el ámbito en el grupo de roles, haga lo siguiente:
     
     1.  Ejecute el siguiente comando en el Shell.
-        
+
+        ```powershell
             Get-ManagementRoleAssignment -RoleAssignee <role group name> | Format-Table *WriteScope
+        ```
     
     2.  Compruebe que el ámbito de escritura en las asignaciones de roles haya cambiado al ámbito que especificó.
 
@@ -519,12 +562,13 @@ Para cambiar la lista de delegados de un grupo de funciones, use el parámetro *
 1.  Almacene el grupo de funciones en una variable mediante el siguiente comando.
     
     ```powershell
-$RoleGroup = Get-RoleGroup <role group name>
-```
+    $RoleGroup = Get-RoleGroup <role group name>
+    ```
 
 2.  Agregue el delegado al grupo de funciones almacenado en la variable mediante el siguiente comando.
-    
+    ```powershell
         $RoleGroup.ManagedBy += (Get-User <user to add>).Identity
+    ```
     
 
     > [!NOTE]
@@ -537,14 +581,16 @@ $RoleGroup = Get-RoleGroup <role group name>
 4.  Aplique la nueva lista de delegados al grupo de funciones actual mediante el siguiente comando.
     
     ```powershell
-Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
-```
+    Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
+    ```
 
 En este ejemplo, se agrega el usuario David Strome como delegado del grupo de funciones Administración de la organización.
 
+```powershell
     $RoleGroup = Get-RoleGroup "Organization Management"
     $RoleGroup.ManagedBy += (Get-User "David Strome").Identity
     Set-RoleGroup "Organization Management" -ManagedBy $RoleGroup.ManagedBy
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Set-RoleGroup](https://technet.microsoft.com/es-es/library/dd638182\(v=exchg.150\)).
 
@@ -555,12 +601,13 @@ Para cambiar la lista de delegados de un grupo de funciones, use el parámetro *
 1.  Almacene el grupo de funciones en una variable mediante el siguiente comando.
     
     ```powershell
-$RoleGroup = Get-RoleGroup <role group name>
-```
+    $RoleGroup = Get-RoleGroup <role group name>
+    ```
 
 2.  Quite el delegado del grupo de funciones almacenado en la variable mediante el siguiente comando.
-    
+    ```powershell
         $RoleGroup.ManagedBy -= (Get-User <user to remove>).Identity
+    ```
     
 
     > [!NOTE]
@@ -573,14 +620,15 @@ $RoleGroup = Get-RoleGroup <role group name>
 4.  Aplique la nueva lista de delegados al grupo de funciones actual mediante el siguiente comando.
     
     ```powershell
-Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
-```
+    Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
+    ```
 
 En este ejemplo, se quita al usuario David Strome como delegado del grupo de funciones Administración de la organización.
-
+```powershell
     $RoleGroup = Get-RoleGroup "Organization Management"
     $RoleGroup.ManagedBy -= (Get-User "David Strome").Identity
     Set-RoleGroup "Organization Management" -ManagedBy $RoleGroup.ManagedBy
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Set-RoleGroup](https://technet.microsoft.com/es-es/library/dd638182\(v=exchg.150\)).
 
@@ -591,8 +639,8 @@ Para comprobar que se cambió correctamente la lista de delegados en un grupo de
 1.  En el Shell, ejecute el siguiente comando.
     
     ```powershell
-Get-RoleGroup <role group name> | Format-List ManagedBy
-```
+    Get-RoleGroup <role group name> | Format-List ManagedBy
+    ```
 
 2.  Compruebe que los delegados que aparecen en la propiedad *ManagedBy* solo sean los delegados capaces de administrar el grupo de roles.
 

@@ -83,7 +83,7 @@ Para comprobar que la migración se completó correctamente, realice lo siguient
 
   - Ejecute el siguiente comando en el Shell para recuperar la información de movimiento de buzones.
     
-    ```powershell
+```powershell
 Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
 ```
 
@@ -110,14 +110,14 @@ Inicie sesión en el EAC y realice los siguientes pasos:
 ## Uso del Shell para crear una solicitud de movimiento de lote
 
 Este ejemplo crea un lote de migración para un movimiento local, donde los buzones de correo que se encuentran en el archivo .csv especificado se mueven a otra base de datos de buzones de correo. El archivo .csv contiene una sola columna que contiene las direcciones de correo electrónico de cada uno de los buzones de correo que desea mover. El encabezado de esta columna debe denominarse **EmailAddress**. El lote de migración de este ejemplo se debe iniciar de forma manual mediante el cmdlet **Start-MigrationBatch** o el Centro de administración de Exchange (EAC). Como alternativa, puede utilizar el parámetro *AutoStart* para iniciar el lote de migración de forma automática.
-```
+```powershell
     New-MigrationBatch -Local -Name LocalMove1 -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\LocalMove1.csv")) -TargetDatabases MBXDB2 -TimeZone "Pacific Standard Time"
 ```
-```
+
 ```powershell
 Start-MigrationBatch -Identity LocalMove1
 ```
-```
+
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [New-MigrationBatch](https://technet.microsoft.com/es-es/library/jj219166\(v=exchg.150\)) y [Start-MigrationBatch](https://technet.microsoft.com/es-es/library/jj219165\(v=exchg.150\)).
 
@@ -129,7 +129,7 @@ Para comprobar que la migración se completó correctamente, realice lo siguient
 
   - Ejecute el siguiente comando en el Shell para recuperar la información de movimiento de buzones.
     
-    ```powershell
+```powershell
 Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
 ```
 
@@ -167,7 +167,7 @@ Para comprobar que la migración se completó correctamente, realice lo siguient
 
   - Ejecute el siguiente comando en el Shell para recuperar la información de movimiento de buzones.
     
-    ```powershell
+```powershell
 Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
 ```
 
@@ -176,11 +176,12 @@ Para obtener más información, consulte [Get-MigrationUserStatistics](https://t
 ## Crear un movimiento entre bosques usando un archivo de lotes .csv
 
 Este ejemplo configura el extremo de la migración y, a continuación, crea un movimiento de lotes entre bosques del bosque de origen al bosque de destino usando un archivo .csv.
-
+```powershell
     New-MigrationEndpoint -Name Fabrikam -ExchangeRemote -Autodiscover -EmailAddress tonysmith@fabrikam.com -Credentials (Get-Credential fabrikam\tonysmith) 
     
     $csvData=[System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\batch.csv")
     New-MigrationBatch -CSVData $csvData -Timezone "Pacific Standard Time" -Name FabrikamMerger -SourceEndpoint Fabrikam -TargetDeliveryDomain "mail.contoso.com"
+```
 
 Para obtener más información acerca de la preparación de su bosque para los movimientos entre bosques, consulte los siguientes temas:
 
@@ -198,7 +199,7 @@ Para comprobar que la migración se completó correctamente, realice lo siguient
 
   - Ejecute el siguiente comando en el Shell para recuperar la información de movimiento de buzones.
     
-    ```powershell
+```powershell
 Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
 ```
 
@@ -230,7 +231,7 @@ Para comprobar que la migración se completó correctamente, realice lo siguient
 
   - Ejecute el siguiente comando en el Shell para recuperar la información de movimiento de buzones.
     
-    ```powershell
+```powershell
 Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
 ```
 
@@ -239,8 +240,9 @@ Para obtener más información, consulte [Get-MigrationUserStatistics](https://t
 ## Mover el buzón de archivo y el buzón principal de un usuario a bases de datos independientes
 
 En este ejemplo se mueve el buzón principal y el buzón de archivo de Ayla a dos bases de datos diferentes. La base de datos principal se mueve a DB01 y la de archivo a DB03.
-
+```powershell
     New-MoveRequest -Identity 'ayla@humongousinsurance.com' -TargetDatabase DB01 -ArchiveTargetDatabase -DB03
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [New-MigrationBatch](https://technet.microsoft.com/es-es/library/jj219166\(v=exchg.150\)) y [New-MoveRequest](https://technet.microsoft.com/es-es/library/dd351123\(v=exchg.150\)).
 
@@ -250,7 +252,7 @@ Para comprobar que la migración se completó correctamente, realice lo siguient
 
   - Ejecute el siguiente comando en el Shell para recuperar la información de movimiento de buzones.
     
-    ```powershell
+```powershell
 Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
 ```
 
@@ -271,8 +273,9 @@ Para obtener más información, consulte [Get-MigrationUserStatistics](https://t
 ## Usar el Shell para mover el buzón principal de un usuario y permitir un límite de elementos defectuosos elevado
 
 En este ejemplo se mueve el buzón principal de Lisa a la base de datos de buzones DB01 y se establece el límite de elementos defectuosos en `100`. Para establecer un límite de elementos defectuosos elevado, debe usar el parámetro *AcceptLargeDataLoss*.
-
-    New-MoveRequest -Identity 'Lisa' -PrimaryOnly -TargetDatabase "DB01" -BadItemLimit 100 -AcceptLargeDataLoss
+```powershell
+New-MoveRequest -Identity 'Lisa' -PrimaryOnly -TargetDatabase "DB01" -BadItemLimit 100 -AcceptLargeDataLoss
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [New-MigrationBatch](https://technet.microsoft.com/es-es/library/jj219166\(v=exchg.150\)) y [New-MoveRequest](https://technet.microsoft.com/es-es/library/dd351123\(v=exchg.150\)).
 
@@ -283,8 +286,8 @@ Para comprobar que la migración se completó correctamente, realice lo siguient
   - Ejecute el siguiente comando en el Shell para recuperar la información de movimiento de buzones.
     
     ```powershell
-Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
-```
+    Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```
 
 Para obtener más información, consulte [Get-MigrationUserStatistics](https://technet.microsoft.com/es-es/library/jj218695\(v=exchg.150\)).
 

@@ -62,12 +62,14 @@ Para comprobar que la reputación del remitente se habilitó o deshabilitó corr
 1.  Ejecute el siguiente comando para comprobar que el agente de análisis del protocolo esté instalado y habilitado:
     
     ```powershell
-Get-TransportAgent
-```
+    Get-TransportAgent
+    ```
 
 2.  Ejecute el siguiente comando para comprobar los valores de reputación del remitente configurados:
-    
+
+    ```powershell
         Get-SenderReputationConfig | Format-List Enabled,*MailEnabled
+    ```
 
 ## Usar el Shell para habilitar o deshabilitar la reputación del remitente para mensajes internos o externos
 
@@ -102,8 +104,9 @@ Set-SenderReputationConfig -InternalMailEnabled $true
 Para comprobar que la reputación del remitente se habilitó o deshabilitó correctamente para mensajes internos y externos, realice lo siguiente:
 
 1.  Ejecute el siguiente comando:
-    
+    ```powershell
         Get-SenderReputationConfig | Format-List Enabled,*MailEnabled
+    ```
 
 2.  Verifique que los valores mostrados coincidan con los valores que ha configurado.
 
@@ -128,8 +131,8 @@ Para comprobar que las propiedades de reputación del remitente se configuraron 
 1.  Ejecute el siguiente comando:
     
     ```powershell
-Get-SenderReputationConfig
-```
+    Get-SenderReputationConfig
+    ```
 
 2.  Verifique que los valores mostrados coincidan con los valores que ha configurado.
 
@@ -168,19 +171,25 @@ Posiblemente deba seguir pasos adicionales para permitir que la reputación del 
 
 Para configurar el acceso saliente para la detección de servidores proxy abiertos, ejecute el siguiente comando:
 
+```powershell
     Set-SenderReputationConfig -ProxyServerName <String> -ProxyServerPort <Port> -ProxyServerType <String>
+```
 
 En este ejemplo, se configura la reputación del remitente para usar el servidor proxy abierto denominado SERVER01 que utiliza el protocolo HTTP CONNECT en el puerto 80.
 
+```powershell
     Set-SenderReputationConfig - ProxyServerName SERVER01 -ProxyServerPort 80 -ProxyServerType HttpConnect
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que el acceso saliente se configuró correctamente para la detección de servidores proxy abiertos, realice lo siguiente:
 
 1.  Ejecute el siguiente comando:
-    
+
+    ```powershell
         Get-SenderReputationConfig | Format-List ProxyServer*
+    ```
 
 2.  Verifique que los valores mostrados son los valores que ha configurado.
 

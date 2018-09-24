@@ -34,8 +34,9 @@ Se puede usar el script RollAlternateServiceAccountPassword.ps1 en Exchange Serv
 Para obtener más información acerca del uso y la escritura de secuencias de comandos, vea [Scripting con el Shell de administración de Exchange](https://technet.microsoft.com/es-es/library/bb123798\(v=exchg.150\)).
 
 ## Sintaxis
-
+```powershell
     RollAlternateServiceAccountPassword.ps1 -Scope <Object> -Identity <Object> -Source <Object> -
+```
 
 ## Descripción detallada
 
@@ -91,7 +92,9 @@ Le recomendamos que ejecute la secuencia y compruebe que funcione correctamente 
 
 Los resultados de la secuencia de comandos al ejecutarla de forma interactiva con la marca detallada deben indicar qué operaciones de la secuencia de comandos se realizaron correctamente. Para confirmar que se actualizaron los servidores de acceso de cliente, puede comprobar la marca de tiempo de la última modificación en la credencial ASA. En el siguiente ejemplo se genera una lista de servidores de acceso de cliente y la última vez que se actualizó la cuenta de servicio alternativa.
 
+```powershell
     Get-ClientAccessServer -IncludeAlternateServiceAccountCredentialstatus |Fl Name, AlternateServiceAccountConfiguration
+```
 
 También se puede examinar el registro de eventos en el equipo en el cual se ejecuta la secuencia de comandos. Las entradas del registro de eventos para el script se encuentran en el registro de eventos de aplicación y pertenecen a la *MSExchange Management Application* de origen.En la tabla siguiente se indican los eventos registrados y el significado de cada uno de ellos.
 
@@ -251,13 +254,17 @@ En este ejemplo se genera una nueva contraseña para la credencial ASA de cuenta
 
 En este ejemplo se programa una tarea programada de implementación automatizada de contraseña una vez al mes, denominada “Exchange-RollAsa”. Se actualizará la credencial ASA de todos los servidores de acceso de cliente en todo el bosque con una nueva contraseña generada por la secuencia de comandos. Se crea la tarea programada, pero no se ejecuta la secuencia de comandos. Cuando se ejecuta la tarea programada, la secuencia de comandos se ejecuta en modo desatendido.
 
+```powershell
     .\RollAlternateServiceAccountPassword.ps1 -CreateScheduledTask "Exchange-RollAsa" -ToEntireForest -GenerateNewPasswordFor 'contoso\computerAccount$'
+```
 
 ## Ejemplo 4
 
 En este ejemplo se actualiza la credencial ASA para todos los servidores de acceso de cliente en la matriz de servidores de acceso de cliente con el nombre CAS01. Se obtiene la credencial desde la cuenta ServiceAc1 del equipo Active Directory en el dominio Contoso.
 
+```powershell
     .\RollAlternateserviceAccountPassword.ps1 -ToArrayMembers "CAS01" -GenerateNewPasswordFor "CONTOSO\ServiceAc1$" 
+```
 
 ## Ejemplo 5
 
