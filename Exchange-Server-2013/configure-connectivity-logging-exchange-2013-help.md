@@ -57,7 +57,9 @@ El registro de conectividad registra la actividad de conexiones salientes usada 
 
 Para configurar el registro de seguimiento de mensajes, ejecute el comando siguiente:
 
-    <Set-TransportService | Set-MailboxTransportService | Set-FrontEndTransportService> <ServerIdentity> -ConnectivityLogEnabled <$true | $false> -ConnectivityLogMaxAge <dd.hh:mm:ss> -ConnectivityLogMaxDirectorySize <Size> -ConnectivityLogMaxFileSize <Size> -ConnectivityLogPath <LocalFilePath>
+```powershell
+<Set-TransportService | Set-MailboxTransportService | Set-FrontEndTransportService> <ServerIdentity> -ConnectivityLogEnabled <$true | $false> -ConnectivityLogMaxAge <dd.hh:mm:ss> -ConnectivityLogMaxDirectorySize <Size> -ConnectivityLogMaxFileSize <Size> -ConnectivityLogPath <LocalFilePath>
+```
 
 Este ejemplo establece la siguiente configuración de registro de conectividad en el servidor de transporte en el servidor de buzones de correo denominado "Mailbox01":
 
@@ -71,8 +73,9 @@ Este ejemplo establece la siguiente configuración de registro de conectividad e
 
 <!-- end list -->
 
-    Set-TransportService Mailbox01 -ConnectivityLogPath "D:\Hub Connectivity Log" -ConnectivityLogMaxFileSize 20MB -ConnectivityLogMaxDirectorySize 1.5GB -ConnectivityLogMaxAge 45.00:00:00
-
+```powershell
+Set-TransportService Mailbox01 -ConnectivityLogPath "D:\Hub Connectivity Log" -ConnectivityLogMaxFileSize 20MB -ConnectivityLogMaxDirectorySize 1.5GB -ConnectivityLogMaxAge 45.00:00:00
+```
 
 > [!NOTE]
 > <UL>
@@ -91,7 +94,9 @@ Para comprobar que haya configurado correctamente los registros de conectividad,
 
 1.  En el Shell, ejecute el siguiente comando:
     
-        <Get-TransportService | Get-FrontEndTransportService | Get-MailboxTransportService> <ServerIdentity> | Format-List ConnectivityLog*
-
+    ```powershell
+    <Get-TransportService | Get-FrontEndTransportService | Get-MailboxTransportService> <ServerIdentity> | Format-List ConnectivityLog*
+    ```
+    
 2.  Verifique que los valores mostrados son los valores que ha configurado.
 

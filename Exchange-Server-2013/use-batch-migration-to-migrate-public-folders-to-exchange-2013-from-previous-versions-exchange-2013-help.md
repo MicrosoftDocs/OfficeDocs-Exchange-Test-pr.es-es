@@ -212,11 +212,15 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
     
     En el ejemplo siguiente se detectará cualquier solicitud de migración de lote existente.
     
-        $batch = Get-MigrationBatch | ?{$_.MigrationType.ToString() -eq "PublicFolder"}
-    
+    ```powershell
+    $batch = Get-MigrationBatch | ?{$_.MigrationType.ToString() -eq "PublicFolder"}
+    ```
+
     El ejemplo siguiente quita cualquier solicitud de migración de lote de carpetas públicas existente.
     
-        $batch | Remove-MigrationBatch -Confirm:$false
+    ```powershell
+    $batch | Remove-MigrationBatch -Confirm:$false
+    ```
 
 2.  Asegúrese de que no haya ninguna carpeta pública ni ningún buzón de carpetas públicas en los servidores de Exchange 2013.
     
@@ -228,8 +232,8 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
     
     2.  Si el comando no devuelve ningún buzón de carpetas públicas, continúe con el Step 3: Generate the CSV files. Si el comando devuelve alguna carpeta pública, ejecute el siguiente comando para comprobar si hay alguna carpeta pública:
         
-        ```
-        powershellGet-PublicFolder
+        ```powershell
+        Get-PublicFolder
         ```
     
     3.  Si tiene alguna carpeta pública, ejecute los siguientes comandos de PowerShell para quitarlas. Asegúrese de haber guardado toda la información que estaba en las carpetas públicas.
@@ -282,7 +286,7 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
     
 
     > [!NOTE]
-    > Si el nombre de una carpeta pública contiene una barra inversa <STRONG>\</STRONG>, las carpetas públicas se crearán en la carpeta pública principal. Se recomienda que revise el archivo .csv y edite todos los nombres que contienen una barra diagonal inversa.
+    > Si el nombre de una carpeta pública contiene una barra inversa <STRONG>\ </STRONG>, las carpetas públicas se crearán en la carpeta pública principal. Se recomienda que revise el archivo .csv y edite todos los nombres que contienen una barra diagonal inversa.
 
     
     ```powershell
@@ -320,16 +324,18 @@ Los pasos para migrar carpetas públicas de Exchange 2007 son distintos de los p
 1.  Exchange 2013 no reconocerá las carpetas públicas del sistema heredado, como OWAScratchPad y el subárbol de carpeta raíz de esquema de Exchange 2007; por lo tanto, se considerarán elementos "incorrectos". En este caso, la migración no se realizará correctamente. Como parte de la solicitud de migración, debe especificar un valor para el parámetro `BadItemLimit`. Este valor dependerá del número de bases de datos de carpetas públicas que tenga. Los siguientes comandos determinarán las bases de datos de carpetas públicas de las que dispone y calculará el `BadItemLimit` para la solicitud de migración.
 
     ```powershell
-        $PublicFolderDatabasesInOrg = @(Get-PublicFolderDatabase)
+    $PublicFolderDatabasesInOrg = @(Get-PublicFolderDatabase)
     ```
 
     ```powershell
-        $BadItemLimitCount = 5 + ($PublicFolderDatabasesInOrg.Count -1)
+    $BadItemLimitCount = 5 + ($PublicFolderDatabasesInOrg.Count -1)
     ```
     
 2.  En el servidor de Exchange 2013, ejecute el siguiente comando:
     
-        New-MigrationBatch -Name PFMigration -SourcePublicFolderDatabase (Get-PublicFolderDatabase -Server <Source server name>) -CSVData (Get-Content <Folder to mailbox map path> -Encoding Byte) -NotificationEmails <email addresses for migration notifications> -BadItemLimit $BadItemLimitCount 
+    ```powershell
+    New-MigrationBatch -Name PFMigration -SourcePublicFolderDatabase (Get-PublicFolderDatabase -Server <Source server name>) -CSVData (Get-Content <Folder to mailbox map path> -Encoding Byte) -NotificationEmails <email addresses for migration notifications> -BadItemLimit $BadItemLimitCount 
+    ```
 
 3.  Inicie la migración con el siguiente comando:
     
@@ -429,7 +435,9 @@ Después de completar la migración de carpetas públicas, debe ejecutar la prue
 
 1.  En PowerShell, ejecute el siguiente comando para asignar algunos buzones de prueba para usar cualquier buzón de carpetas públicas migrado recientemente como buzón de carpetas públicas predeterminado.
     
-        Set-Mailbox -Identity <Test User> -DefaultPublicFolderMailbox <Public Folder Mailbox Identity>
+    ```powershell
+    Set-Mailbox -Identity <Test User> -DefaultPublicFolderMailbox <Public Folder Mailbox Identity>
+    ```
 
 2.  Inicie sesión en Outlook 2007 o versiones posteriores con el usuario de prueba identificado en el paso anterior y luego realice las pruebas siguientes para las carpetas públicas:
     
@@ -511,8 +519,10 @@ Si tiene problemas con la migración y necesita reactivar sus carpetas públicas
 
 1.  En el servidor de Exchange heredado, ejecute el comando siguiente para desbloquear las carpetas públicas heredadas de Exchange. Este proceso puede tardar varias horas.
     
-        Set-OrganizationConfig -PublicFoldersLockedForMigration:$False
-
+    ```powershell
+    Set-OrganizationConfig -PublicFoldersLockedForMigration:$False
+    ```
+    
 2.  En el servidor de Exchange 2013, ejecute los siguientes comandos para quitar los buzones de carpetas públicas.
     
     ```powershell

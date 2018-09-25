@@ -246,7 +246,7 @@ Para todos los límites de tamaño de los mensajes, debe establecer valores mayo
     <requestLimits maxAllowedContentLength="67108864" />
     ...maxReceivedMessageSize="67108864"...
     ```
-    
+  
     Por ejemplo, para permitir un tamaño de mensaje máximo con codificación Base64 de aproximadamente 64 MB, cambie todas las instancias de `67108864` a `89478486` (64\*4/3\*1048756):
     
     ```powershell
@@ -258,8 +258,10 @@ Para todos los límites de tamaño de los mensajes, debe establecer valores mayo
 
 4.  Reinicie IIS ejecutando el siguiente comando:
     
-        IISReset /noforce
-
+    ```powershell
+      IISReset /noforce
+    ```
+    
 ## Configurar límites de tamaño de mensaje específicos del cliente desde la línea de comandos
 
 En lugar de usar el Bloc de notas, también puede configurar los límites de tamaño de mensaje específicos del cliente desde la línea de comandos. Abra un símbolo del sistema con privilegios elevados en el servidor de Exchange (puede abrir una ventana de símbolo del sistema seleccionando **Ejecutar como administrador**) y ejecutar los comandos adecuados para los límites que quiere configurar.

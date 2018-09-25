@@ -369,7 +369,9 @@ En este punto, ha configurado el DAG para usar el servidor de archivos en Azure 
 
 2.  Si el DAG tiene un número par de nodos, se configurará el testigo del recurso compartido de archivos. Ejecute el siguiente comando para validar la configuración del testigo del recurso compartido de archivos en las propiedades del clúster. El valor del parámetro *SharePath* debe apuntar al servidor de archivos y mostrar la ruta de acceso correcta.
     
-        Get-ClusterResource -Cluster MBX1 | Get-ClusterParameter | Format-List
+    ```powershell
+    Get-ClusterResource -Cluster MBX1 | Get-ClusterParameter | Format-List
+    ```
 
 3.  A continuación, ejecute el siguiente comando para comprobar el estado del recurso de clúster "Testigo del recurso compartido de archivos". El *State* del recurso de clúster debe mostrar **Online**.
     

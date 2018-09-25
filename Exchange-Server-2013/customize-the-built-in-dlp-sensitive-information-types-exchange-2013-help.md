@@ -63,6 +63,7 @@ Los cmdlets anteriores exportaron toda la *colección de reglas*, que incluye la
 
 3.  Busque **Func\_credit\_card** para encontrar la definición de la regla Número de tarjeta de crédito. (En el XML, los nombres de regla no pueden contener espacios, por lo que normalmente se reemplazan por caracteres de subrayado y, a veces, los nombres de regla se abrevian). Un ejemplo de esto es la regla Número de seguridad social de EE. UU., que abreviado es "SSN". La regla XML Número de tarjeta de crédito debe ser como la muestra de código siguiente.
     
+    ```xml
         <Entity id="50842eb7-edc8-4019-85dd-5a5c1f2bb085"
                patternsProximity="300" recommendedConfidence="85">
               <Pattern confidenceLevel="85">
@@ -74,6 +75,7 @@ Los cmdlets anteriores exportaron toda la *colección de reglas*, que incluye la
                 </Any>
               </Pattern>
             </Entity>
+    ```
 
 Ahora que ha encontrado la definición de la regla Número de tarjeta de crédito en el XML, puede personalizar el código XML de la regla para que se adapte a sus necesidades. (Para obtener información sobre las definiciones XML, vea el Glosario de términos al final de este tema).
 
@@ -83,6 +85,7 @@ En primer lugar, deberá crear un nuevo tipo de información confidencial porque
 
 Todas las definiciones de regla XML se basan en la siguiente plantilla general. Tiene que copiar y pegar el XML de definición de Número de tarjeta de crédito en la plantilla, modificar algunos valores (tenga en cuenta los marcadores de posición “. . .” en el siguiente ejemplo) y, después, cargar el XML modificado como una nueva regla que se pueda usar en directivas.
 
+```xml
     <?xml version="1.0" encoding="utf-16"?>
     <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
       <RulePack id=". . .">
@@ -109,9 +112,11 @@ Todas las definiciones de regla XML se basan en la siguiente plantilla general. 
     
        </Rules>
     </RulePackage>
+```
 
 Ahora tiene algo parecido al siguiente XML. Como los paquetes de reglas y las reglas se identifican por sus GUID únicos, tiene que generar dos GUID: uno para el paquete de reglas y otro para reemplazar el GUID de la regla Número de tarjeta de crédito. (El GUID del ID de entidad en la muestra de código siguiente es una de las cuatro definiciones de regla integradas que tiene que reemplazar por una nueva). Hay varias maneras de generar GUID, pero puede hacerlo fácilmente en PowerShell escribiendo **\[guid\]::NewGuid()**.
 
+```xml
     <?xml version="1.0" encoding="utf-16"?>
     <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
       <RulePack id="8aac8390-e99f-4487-8d16-7f0cdee8defc">
@@ -149,21 +154,25 @@ Ahora tiene algo parecido al siguiente XML. Como los paquetes de reglas y las re
     
        </Rules>
     </RulePackage>
+```
 
 ## Quitar el requisito de evidencias confirmativas de un tipo de información confidencial
 
 Ahora que tiene un tipo de información confidencial que puede cargar a su entorno de Exchange, el siguiente paso es hacer que la regla sea más específica. Modifique la regla para solo parezca un número de 16 dígitos que pasa la suma de comprobación pero no requiere evidencia (confirmativa) adicional (por ejemplo, palabras clave). Para ello, tiene que quitar la parte del código XML que busca la evidencia confirmativa. La evidencia confirmativa es muy útil para reducir falsos positivos porque, normalmente, hay determinadas palabras claves o una fecha de caducidad cerca del número de tarjeta de crédito. Si quita esa evidencia, debe ajustar también la seguridad que tiene de haber encontrado un número de tarjeta de crédito; para ello, reduzca **confidenceLevel**, que es 85 en el ejemplo.
 
+```xml
     <Entity id="db80b3da-0056-436e-b0ca-1f4cf7080d1f" patternsProximity="300"
           <Pattern confidenceLevel="85">
             <IdMatch idRef="Func_credit_card" />
           </Pattern>
         </Entity>
+```
 
 ## Buscar palabras clave que son específicas de su organización
 
 Quizás quiera requerir evidencia confirmativa pero con palabras claves diferentes o adicionales, y quizás quiera cambiar dónde buscar esa evidencia. Puede ajustar el valor de **patternsProximity** para aumentar o reducir el radio donde se buscará la evidencia confirmativa alrededor del número de 16 dígitos. Para agregar sus propias palabras clave, debe definir una lista de palabras clave y hacer referencia a ella en su regla. El siguiente código XML agrega las palabras clave "company card" y "Contoso card" para que los mensajes que contengan esas frases a menos de 150 caracteres de un número de tarjeta de crédito se identifiquen como número de tarjeta de crédito.
 
+```xml
     <Rules>
     <! -- Modify the patternsProximity to be "150" rather than "300." -->
         <Entity id="db80b3da-0056-436e-b0ca-1f4cf7080d1f" patternsProximity="150" recommendedConfidence="85">
@@ -185,6 +194,7 @@ Quizás quiera requerir evidencia confirmativa pero con palabras claves diferent
             <Term caseSensitive="false">Contoso card</Term>
           </Group>
         </Keyword>
+```
 
 ## Cargar la regla
 

@@ -83,8 +83,9 @@ Para obtener información más detallada acerca de la sintaxis y los parámet
 
 En este ejemplo se configura una cuota de advertencia de elementos recuperables de 12 GB y una cuota de elementos recuperables de 15 GB para el buzón de April Stewart.
 
+  ```powershell
     Set-Mailbox -Identity "April Stewart" -RecoverableItemsWarningQuota 12GB -RecoverableItemsQuota 15GB -UseDatabaseQuotaDefaults $false
-
+  ```
 
 > [!NOTE]
 > Para configurar un buzón de modo que utilice cuotas de elementos recuperables diferentes a la base de datos de buzones en la que se encuentra, se deberá establecer el parámetro <EM>UseDatabaseQuotaDefaults</EM> en <CODE>$false</CODE>.

@@ -212,7 +212,9 @@ La acción de volver a enviar una cola es similar a reintentarla, excepto que lo
 
 Para reenviar mensajes, utilice la sintaxis siguiente.
 
+```powershell
     Retry-Queue <-Identity QueueIdentity | -Filter {Status -eq "Retry"} -Server ServerIdentity> -Resubmit $true
+```
 
 En este ejemplo, se vuelven a enviar todos los mensajes ubicados en las colas de entrega con el estado de Reintentar en el servidor denominado Mailbox01.
 

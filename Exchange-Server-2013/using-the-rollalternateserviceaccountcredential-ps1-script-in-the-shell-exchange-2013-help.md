@@ -242,13 +242,17 @@ Puede usar el registro para confirmar que la tarea se ha ejecutado correctamente
 
 En este ejemplo, la secuencia de comandos se usa para insertar la credencial en todos los servidores de acceso de cliente en el bosque en la primera configuración.
 
+```powershell
     .\RollAlternateserviceAccountPassword.ps1 -ToEntireForest -GenerateNewPasswordFor "Contoso\ComputerAccount$" -Verbose
+```
 
 ## Ejemplo 2
 
 En este ejemplo se genera una nueva contraseña para la credencial ASA de cuenta de usuario y se distribuye la contraseña a todos los miembros de las matrices de servidor de acceso de cliente donde coincide \*buzón\* en el nombre.
 
+```powershell
     .\RollAlternateserviceAccountPassword.ps1 -ToArrayMembers *mailbox* -GenerateNewPasswordFor "Contoso\UserAccount" -Verbose
+```
 
 ## Ejemplo 3
 

@@ -47,7 +47,9 @@ El seguimiento de canalizaciones captura copias de los mensajes de correo cuando
 
 Use la siguiente sintaxis para configurar la dirección del remitente de seguimiento de canalización.
 
-    <Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingSenderAddress <SMTPAddress | "<>">
+```powershell
+<Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingSenderAddress <SMTPAddress | "<>">
+```
 
 En este ejemplo se configura el seguimiento de canalización para hacer capturas de pantalla de todos los mensajes enviados por el remitente chris@contoso.com en el servicio de transporte del servidor de buzones Mailbox01.
 
@@ -73,7 +75,9 @@ La carpeta predeterminada de seguimiento de canalizaciones no existe hasta que s
 
 Use la siguiente sintaxis para configurar la carpeta de seguimiento de canalización.
 
-    <Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingPath <LocalFilePath>
+```powershell
+<Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingPath <LocalFilePath>
+```
 
 En este ejemplo se especifica la carpeta de seguimiento de canalización para el servicio de transporte del servidor de buzones Mailbox01 en D:\\Hub\\Pipeline Tracing.
 
@@ -87,7 +91,9 @@ De forma predeterminada, el seguimiento de canalización está deshabilitado en 
 
 Utilice la siguiente sintaxis para habilitar el seguimiento de canalización.
 
-    <Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingEnabled $true
+```powershell
+<Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingEnabled $true
+```
 
 En este ejemplo se permite el seguimiento de canalización del servicio de transporte en el servidor de buzones Mailbox01.
 
@@ -101,7 +107,9 @@ Para comprobar si configuró correctamente el seguimiento de canalización, siga
 
 1.  Ejecute el siguiente comando:
     
-        <Get-TransportService | Get-MailboxTransportService> <ServerIdentity> | Format-List PipelineTracing*
+    ```powershell
+    <Get-TransportService | Get-MailboxTransportService> <ServerIdentity> | Format-List PipelineTracing*
+    ```
 
 2.  Verifique que los valores mostrados son los valores que ha configurado.
 
@@ -113,7 +121,9 @@ Debido a los problemas de espacio del disco y seguridad asociados al seguimiento
 
 Use la siguiente sintaxis para deshabilitar el seguimiento de canalización.
 
-    <Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingEnabled $false
+```powershell
+<Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingEnabled $false
+```
 
 En este ejemplo se deshabilita el seguimiento de canalización del servicio de transporte en el servidor de buzones Mailbox01.
 
@@ -127,8 +137,10 @@ Para comprobar si deshabilitó correctamente el seguimiento de canalización, si
 
 1.  Ejecute el siguiente comando:
     
-        <Get-TransportService | Get-MailboxTransportService> <ServerIdentity> | Format-List PipelineTracingEnabled
-
+    ```powershell
+    <Get-TransportService | Get-MailboxTransportService> <ServerIdentity> | Format-List PipelineTracingEnabled
+    ```
+    
 2.  Compruebe si el valor del parámetro *PipelineTracingEnabled* es $false.
 
 3.  Compruebe la carpeta de seguimiento de canalización y asegúrese de que ya no se creen archivos de captura de mensajes en esta carpeta.

@@ -62,14 +62,18 @@ Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
 <add key="LowPriorityDelayNotificationTimeout" value="8:00:00" />
 <add key="MaxHighPriorityMessageSize" value="250KB" />
 ```
-    
+
+```powershell    
     Para habilitar la prioridad en cola del servicio de transporte del servidor de buzones, use el siguiente valor:
-    
-```powershell
-<add key="PriorityQueuingEnabled" value="true" />
 ```
     
+```powershell
+    <add key="PriorityQueuingEnabled" value="true" />
+```
+
+```powershell    
     Configure los valores de prioridad en cola restantes o déjelos con los valores predeterminados.
+```
 
 3.  Cuando haya terminado, guarde y cierre el archivo EdgeTransport.exe.config.
 

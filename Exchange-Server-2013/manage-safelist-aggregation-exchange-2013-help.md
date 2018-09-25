@@ -63,8 +63,10 @@ Para comprobar que los límites de recopilación de listas seguras de buzones se
 
 1.  Ejecute el siguiente comando:
     
-        Get-Mailbox <Identity> | Format-List Name,Max*Senders
-
+    ```powershell
+    Get-Mailbox <Identity> | Format-List Name,Max*Senders
+    ```
+    
 2.  Compruebe que los valores mostrados coincidan con los valores que ha configurado.
 
 ## Usar el Shell para ejecutar el comando Update-Safelist

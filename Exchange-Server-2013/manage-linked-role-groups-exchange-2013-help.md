@@ -86,8 +86,10 @@ En este ejemplo se realiza lo siguiente:
 
 <!-- end list -->
 
+```powershell
     $ForeignCredential = Get-Credential
     New-RoleGroup "Compliance Role Group" -LinkedForeignGroup "Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles "Transport Rules", "Journaling"
+```
 
 ## Usar Shell para crear un grupo de funciones vinculado con un ámbito de administración personalizado
 
@@ -118,8 +120,10 @@ En este ejemplo se realiza lo siguiente:
 
 <!-- end list -->
 
+```powershell
     $ForeignCredential = Get-Credential
     New-RoleGroup "Seattle Compliance Role Group" -LinkedForeignGroup "Seattle Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -CustomRecipientWriteScope "Seattle Recipients" -Roles "Transport Rules", "Journaling"
+```
 
 Para obtener más información acerca de los ámbitos de administración, consulte [Descripción de los ámbitos de roles de administración](understanding-management-role-scopes-exchange-2013-help.md).
 

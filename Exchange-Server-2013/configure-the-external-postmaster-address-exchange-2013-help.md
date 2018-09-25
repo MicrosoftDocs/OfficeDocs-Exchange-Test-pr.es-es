@@ -74,8 +74,8 @@ Para comprobar que la dirección del administrador de correo externo se configur
 1.  Ejecute el comando siguiente en el servidor de buzones para comprobar el valor de la dirección externa del administrador de correo:
     
     ```powershell
-Get-TransportConfig | Format-List ExternalPostmasterAddress
-```
+    Get-TransportConfig | Format-List ExternalPostmasterAddress
+    ```
 
 2.  Desde una cuenta de correo electrónico externa, envíe un mensaje a su organización de Exchange que generará una notificación de estado de entrega (DSN). Por ejemplo, puede configurar una regla de transporte para enviar un informe de no entrega (NDR) para un mensaje de ese remitente que contenga determinadas palabas clave. Compruebe que la dirección de correo del remitente en el DSN coincide con el valor que ha especificado.
 

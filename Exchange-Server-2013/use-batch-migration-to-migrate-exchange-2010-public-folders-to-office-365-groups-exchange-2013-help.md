@@ -179,7 +179,9 @@ En este paso, recopilar información del entorno de Exchange y, a continuación,
 
 3.  En Exchange Online PowerShell, ejecute el comando siguiente para crear un extremo de la migración:
     
+     ```powershell
         $PfEndpoint = New-MigrationEndpoint -PublicFolderToUnifiedGroup -Name PFToGroupEndpoint -RPCProxyServer $Source_OutlookAnywhereExternalHostName -Credentials $Source_Credential -SourceMailboxLegacyDN $Source_RemoteMailboxLegacyDN -PublicFolderDatabaseServerLegacyDN $Source_RemotePublicFolderServerLegacyDN -Authentication Basic
+     ```
 
 4.  Ejecute el comando siguiente para crear un nuevo lote de migración de 365 grupo de carpeta a la oficina pública. En este comando:
     

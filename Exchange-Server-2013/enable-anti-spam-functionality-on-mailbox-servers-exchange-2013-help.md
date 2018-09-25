@@ -55,7 +55,9 @@ No obstante, puede instalar estos agentes contra correo no deseado en un servido
 
 Ejecute el siguiente comando:
 
+  ```powershell
     & $env:ExchangeInstallPath\Scripts\Install-AntiSpamAgents.ps1
+  ```
 
 ## ¿Cómo sabe si este paso se ha completado correctamente?
 
@@ -96,8 +98,8 @@ Para comprobar que especificó la dirección IP de al menos un servidor SMTP int
 1.  Ejecute el siguiente comando:
     
     ```powershell
-Get-TransportConfig | Format-List InternalSMTPServers
-```
+    Get-TransportConfig | Format-List InternalSMTPServers
+    ```
 
 2.  Compruebe que aparece la dirección IP de al menos un servidor SMTP interno válido.
 

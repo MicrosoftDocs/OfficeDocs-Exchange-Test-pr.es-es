@@ -50,7 +50,7 @@ Las asignaciones de funciones de administración asignan una función de adminis
 Para ver una lista de todas las asignaciones de funciones configuradas en la organización, ejecute el cmdlet **Get-ManagementRoleAssignment**. Si desea recuperar una lista de las asignaciones de funciones que coinciden con una cadena parcial que haya especificado, utilice caracteres comodín (\*). En este ejemplo, se recupera una lista de todas las asignaciones de funciones que comienzan con la cadena "Tier 1".
 
 ```powershell
-    Get-ManagementRoleAssignment "Tier 1*"
+Get-ManagementRoleAssignment "Tier 1*"
 ```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd351024\(v=exchg.150\)).
@@ -109,7 +109,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para ver una lista de asignaciones de funciones que utilizan un ámbito predefinido específico, utilice la sintaxis siguiente.
 
-    Get-ManagementRoleAssignment -RecipientWriteScope < MyGAL | MyDistributionGroups | Organization | Self | CustomRecipientScope | ExecutiveRecipientScope >
+```powershell
+Get-ManagementRoleAssignment -RecipientWriteScope < MyGAL | MyDistributionGroups | Organization | Self | CustomRecipientScope | ExecutiveRecipientScope >
+```
 
 En este ejemplo, se recuperan todas las asignaciones de funciones que utilizan el ámbito predefinido Organización.
 
@@ -128,8 +130,9 @@ Get-ManagementRoleAssignment -RecipientOrganizationalUnitScope <OU>
 ```
 
 En este ejemplo, se recuperan todas las asignaciones de funciones para las que se ha definido un ámbito en la unidad organizativa Norteamérica\\Ingeniería\\Usuarios en el dominio contoso.com.
+
 ```powershell
-    Get-ManagementRoleAssignment -RecipientOrganizationalUnitScope "contoso.com/North America/Engineering/Users"
+Get-ManagementRoleAssignment -RecipientOrganizationalUnitScope "contoso.com/North America/Engineering/Users"
 ```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd351024\(v=exchg.150\)).
@@ -197,7 +200,7 @@ Get-ManagementRoleAssignment -WritableRecipient "Brian"
 Puede combinar los parámetros *WritableRecipient* y *WritableServer* con otros parámetros, como el parámetro *RoleAssignee* y el modificador *GetEffectiveUsers*, para precisar su consulta y ampliar cualquier grupo de funciones o USG. En este ejemplo, se recuperan todos los usuarios que pueden modificar el servidor EX02 y que tienen asignado el grupo de funciones Administración de servidor.
 
 ```powershell
-    Get-ManagementRoleAssignment -WritableServer EX02 -RoleAssignee "Server Management" -GetEffectiveUsers
+Get-ManagementRoleAssignment -WritableServer EX02 -RoleAssignee "Server Management" -GetEffectiveUsers
 ```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd351024\(v=exchg.150\)).

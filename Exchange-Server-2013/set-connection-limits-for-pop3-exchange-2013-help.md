@@ -79,7 +79,9 @@ Set-PopSettings -Identity CAS01 -MaxConnectionsFromSingleIP Value
 
 En este ejemplo, se define el límite de conexión para un usuario.
 
-    Set-PopSettings -MaxConnectionsPerUser Value 
+```powershell
+Set-PopSettings -MaxConnectionsPerUser Value 
+```
 
 En este ejemplo, se establece el tamaño máximo de comando.
 
@@ -110,8 +112,8 @@ O bien
 1.  Ejecute el siguiente comando en el Shell.
     
     ```powershell
-Get-PopSettings | format-list
-```
+    Get-PopSettings | format-list
+    ```
 
 2.  Compruebe que la configuración de la conexión sea correcta.
 

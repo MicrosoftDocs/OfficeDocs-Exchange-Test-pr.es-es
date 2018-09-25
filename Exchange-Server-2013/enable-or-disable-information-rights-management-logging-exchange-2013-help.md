@@ -75,5 +75,6 @@ Para comprobar que el registro de IRM se habilitó o deshabilitó correctamente 
 
 En este ejemplo se recuperan todas las propiedades de registro de IRM en el servidor EXCH01.
 
-    Get-TransportService -Identity EXCH01 | Format-List IRMLog*
-
+```powershell
+Get-TransportService -Identity EXCH01 | Format-List IRMLog*
+```

@@ -78,8 +78,8 @@ La implementación de Office 2010 Filter Pack consta de dos pasos principales:
 3.  Inicie el Editor del Registro y busque la siguiente subclave de registro:
     
     ```powershell
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\CLSID
-```
+    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\CLSID
+    ```
 
 4.  En **CLSID**, agregue una subclave para archivos de OneNote de la siguiente manera:
     
@@ -108,8 +108,8 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\CLSID
 6.  Busque la clave del registro siguiente:
     
     ```powershell
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\filters
-```
+    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\filters
+    ```
 
 7.  En **filtros**, agregue una subclave para las extensiones .one de la siguiente manera.
     
@@ -182,8 +182,8 @@ En este procedimiento se muestra cómo implementar el [IFilter de Adobe PDF](htt
 2.  Inicie el Editor del Registro y busque la siguiente subclave:
     
     ```powershell
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\CLSID
-```
+    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\CLSID
+    ```
 
 3.  En **CLSID**, agregue una subclave para archivos PDF de la siguiente manera:
     
@@ -201,8 +201,8 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\CLSID
 4.  Busque la clave del registro siguiente:
     
     ```powershell
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\filters
-```
+    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\filters
+    ```
 
 5.  En **filtros**, agregue una subclave para las extensiones .pdf de la siguiente manera:
     
