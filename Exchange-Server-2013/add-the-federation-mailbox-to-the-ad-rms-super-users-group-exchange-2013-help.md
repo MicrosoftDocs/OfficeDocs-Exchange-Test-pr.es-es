@@ -61,7 +61,7 @@ Para otras tareas de administración relacionadas con IRM, consulte [Procedimien
 
 Si se ha creado un grupo de distribución y se configura como un grupo de superusuarios en el clúster AD RMS, puede agregar el buzón de correo de la federación de Exchange 2013 como integrante de ese grupo. Si no se ha configurado un grupo de superusuarios, debe crear un grupo de distribución y agregar el buzón de correo de la federación como miembro.
 
-1.  Cree un grupo de distribución destinado a ser usado como un grupo de superusuarios de AD RMS. Para obtener información detallada, consulte [Crear y administrar grupos de distribución](create-and-manage-distribution-groups-exchange-2013-help.md).
+1.  Cree un grupo de distribución destinado a ser usado como un grupo de superusuarios de AD RMS. Para obtener información detallada, consulte [Crear y administrar grupos de distribución](https://technet.microsoft.com/es-es/library/bb124513(v=exchg.150)).
 
 2.  Agregue el usuario **FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042** al grupo de distribución nuevo. El buzón de correo de la federación es un buzón de correo del sistema y, por lo tanto, no está visible en el EAC. Para agregarlo a un grupo de distribución, debe usar el cmdlet [Add-DistributionGroupMember](https://technet.microsoft.com/es-es/library/bb124340\(v=exchg.150\)) del Shell.
     

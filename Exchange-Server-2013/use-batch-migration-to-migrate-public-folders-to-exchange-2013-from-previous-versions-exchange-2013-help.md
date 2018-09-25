@@ -83,7 +83,7 @@ No puede migrar las carpetas públicas directamente desde Exchange 2003. Si ejec
 
   - En un entorno de varios dominios, las carpetas públicas habilitadas para correo dejará de funcionar después de la migración a Exchange de 2013 si está ejecutando Exchange en un dominio secundario. Esto es porque en Exchange 2013, objetos de carpetas públicas con correo habilitado tienen que estar bajo el dominio raíz. Para resolver este problema, debe deshabilitar correo las carpetas públicas con correo habilitado y, a continuación, habilitar el correo en ellos de nuevo, que le permitirá moverlos a la ubicación correcta del dominio.
 
-  - Una vez que haya completado la migración, si desea que los remitentes externos envíen correo a las carpetas públicas migradas habilitadas para correo, se debe conceder al menos el permiso **Crear elementos** al usuario **Anónimo**. Si no realiza esta acción, los remitentes externos recibirán una notificación de error de entrega y no se entregarán los mensajes a la carpeta pública migrada habilitada para correo. Para leer más acerca de cómo establecer permisos en el usuario Anónimo, consulte [Habilitar o deshabilitar el correo para una carpeta pública](mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md).
+  - Una vez que haya completado la migración, si desea que los remitentes externos envíen correo a las carpetas públicas migradas habilitadas para correo, se debe conceder al menos el permiso **Crear elementos** al usuario **Anónimo**. Si no realiza esta acción, los remitentes externos recibirán una notificación de error de entrega y no se entregarán los mensajes a la carpeta pública migrada habilitada para correo. Para leer más acerca de cómo establecer permisos en el usuario Anónimo, consulte [Habilitar o deshabilitar el correo para una carpeta pública](https://technet.microsoft.com/es-es/library/aa997560(v=exchg.150)).
 
   - Para obtener información acerca de los métodos abreviados de teclado aplicables a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -467,7 +467,7 @@ Después de completar la migración de carpetas públicas, debe ejecutar la prue
 
 6.  Finalmente, si desea que los remitentes externos envíen correo a las carpetas públicas migradas habilitadas para correo, se debe conceder al menos el permiso **Crear elementos** al usuario **Anónimo**. Si no realiza esta acción, los remitentes externos recibirán una notificación de error de entrega y no se entregarán los mensajes a la carpeta pública migrada habilitada para correo.
     
-    Puede usar el Shell o Outlook para establecer los permisos para el usuario Anónimo. Para leer más sobre cómo establecer permisos en el usuario Anónimo, consulte [Habilitar o deshabilitar el correo para una carpeta pública](mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md).
+    Puede usar el Shell o Outlook para establecer los permisos para el usuario Anónimo. Para leer más sobre cómo establecer permisos en el usuario Anónimo, consulte [Habilitar o deshabilitar el correo para una carpeta pública](https://technet.microsoft.com/es-es/library/aa997560(v=exchg.150)).
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

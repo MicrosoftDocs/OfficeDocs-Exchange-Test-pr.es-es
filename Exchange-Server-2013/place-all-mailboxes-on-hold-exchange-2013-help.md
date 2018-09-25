@@ -23,7 +23,7 @@ _**Última modificación del tema:** 2017-01-18_
 
 
 
-Su organización puede necesitar que todos los datos de buzones se conserven durante un período determinado. Puede utilizar la retención por juicio o la conservación local para cumplir este requisito. Después de poner un buzón en retención por juicio o en conservación local, todos los elementos del buzón que se modifiquen o que se eliminen permanentemente se conservan en la carpeta Elementos recuperables. Para obtener más información, vea [Conservación local y retención por juicio](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+Su organización puede necesitar que todos los datos de buzones se conserven durante un período determinado. Puede utilizar la retención por juicio o la conservación local para cumplir este requisito. Después de poner un buzón en retención por juicio o en conservación local, todos los elementos del buzón que se modifiquen o que se eliminen permanentemente se conservan en la carpeta Elementos recuperables. Para obtener más información, vea [Conservación local y retención por juicio](https://technet.microsoft.com/es-es/library/ff637980(v=exchg.150)).
 
 Antes de poner todos los buzones de una organización en retención por juicio o en conservación local, tenga en cuenta lo siguiente:
 
@@ -113,7 +113,7 @@ En el ejemplo se usa el cmdlet [Get-Mailbox](https://technet.microsoft.com/es-es
 
 ## Poner todos los buzones en conservación local
 
-Puede usar el EAC para seleccionar hasta 500 buzones y ponerlos en retención. Para obtener información detallada, vea [Crear o quitar una conservación local](create-or-remove-an-in-place-hold-exchange-2013-help.md).
+Puede usar el EAC para seleccionar hasta 500 buzones y ponerlos en retención. Para obtener información detallada, vea [Crear o quitar una conservación local](https://technet.microsoft.com/es-es/library/dd979797(v=exchg.150)).
 
 
 > [!TIP]
@@ -125,7 +125,7 @@ Puede usar el EAC para seleccionar hasta 500 buzones y ponerlos en retención. P
 
   - Al poner todos los buzones de la organización en retención, solo se ponen el retención los buzones que existen en el momento en que se ejecuta el comando. Si crea nuevos buzones más adelante, ejecute el comando de nuevo para ponerlos en retención. Si crea nuevos buzones con frecuencia, puede ejecutar el comando como una tarea programada con la frecuencia que necesite.
 
-  - Colocar buzones en retención conserva los datos e impide su eliminación antes del período especificado y guarda la versión original de un mensaje antes de modificarlo. No elimina automáticamente los mensajes tras el período especificado. Combine la retención por juicio o la conservación local con una directiva de retención, que puede eliminar automáticamente los mensajes tras el período especificado, para satisfacer los requisitos de retención de correo electrónico de su organización. Vea [Etiquetas de retención y directivas de retención](retention-tags-and-retention-policies-exchange-2013-help.md) para obtener más información.
+  - Colocar buzones en retención conserva los datos e impide su eliminación antes del período especificado y guarda la versión original de un mensaje antes de modificarlo. No elimina automáticamente los mensajes tras el período especificado. Combine la retención por juicio o la conservación local con una directiva de retención, que puede eliminar automáticamente los mensajes tras el período especificado, para satisfacer los requisitos de retención de correo electrónico de su organización. Vea [Etiquetas de retención y directivas de retención](https://technet.microsoft.com/es-es/library/dd297955(v=exchg.150)) para obtener más información.
 
   - El comando de PowerShell que se usa en este tema para poner todos los buzones en retención por juicio usa un filtro de destinatarios que devuelve todos los buzones de usuario. Puede usar otras propiedades de destinatarios para devolver una lista de buzones específicos que puede canalizar después al cmdlet **Set-Mailbox** para poner esos buzones en retención por juicio.
     
