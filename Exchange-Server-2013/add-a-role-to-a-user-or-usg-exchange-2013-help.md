@@ -1,5 +1,5 @@
 ﻿---
-title: 'Agregar función a usuario o grupo de seguridad universal: Exchange 2013 Help'
+title: 'Agregar una función a un usuario o grupo de seguridad universal: Exchange 2013 Help'
 TOCTitle: Agregar una función a un usuario o grupo de seguridad universal
 ms:assetid: ae5608de-a141-4714-8876-bce7d2a22cb5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd351056(v=EXCHG.150)
@@ -69,11 +69,15 @@ Puede crear una asignación de función sin ámbito. Al hacer esto, se aplican l
 
 Use la sintaxis siguiente para asignar un rol sin ámbito a un grupo de seguridad universal.
 
-    New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup <USG> -Role <role name>
+```powershell
+New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup <USG> -Role <role name>
+```
 
 En este ejemplo se asigna el rol Servidores de Exchange al grupo de seguridad universal SeattleAdmins.
 
-    New-ManagementRoleAssignment -Name "Exchange Servers_SeattleAdmins" -SecurityGroup SeattleAdmins -Role "Exchange Servers"
+```powershell
+New-ManagementRoleAssignment -Name "Exchange Servers_SeattleAdmins" -SecurityGroup SeattleAdmins -Role "Exchange Servers"
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd335193\(v=exchg.150\)).
 
@@ -83,11 +87,15 @@ Si un ámbito relativo predefinido se adecua a los requisitos empresariales, pue
 
 Use la sintaxis siguiente para asignar un rol a un grupo de seguridad universal (USG) con un ámbito predefinido.
 
-    New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup < USG> -Role <role name> -RecipientRelativeWriteScope < MyDistributionGroups | Organization | Self >
+```powershell
+New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup < USG> -Role <role name> -RecipientRelativeWriteScope < MyDistributionGroups | Organization | Self >
+```
 
 En este ejemplo se asigna el rol Servidores de Exchange al USG SeattleAdmins y se aplica el ámbito predefinido Organización.
 
-    New-ManagementRoleAssignment -Name "Exchange Servers_SeattleAdmins" -SecurityGroup SeattleAdmins -Role "Exchange Servers" -RecipientRelativeWriteScope Organization
+```powershell
+New-ManagementRoleAssignment -Name "Exchange Servers_SeattleAdmins" -SecurityGroup SeattleAdmins -Role "Exchange Servers" -RecipientRelativeWriteScope Organization
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd335193\(v=exchg.150\)).
 
@@ -99,11 +107,15 @@ Antes de poder agregar un ámbito a una asignación de funciones, debe crear uno
 
 Use la sintaxis siguiente para asignar un rol a un grupo de seguridad universal con un ámbito basado en el filtro de destinatarios.
 
-    New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup < USG> -Role <role name> -CustomRecipientWriteScope <role scope name>
+```powershell
+New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup < USG> -Role <role name> -CustomRecipientWriteScope <role scope name>
+```
 
 En este ejemplo se asigna el rol Destinatarios de correo al USG Administradores de destinatarios de Seattle y aplica el ámbito Destinatarios de Seattle.
 
-    New-ManagementRoleAssignment -Name "Mail Recipients_Seattle Recipient Admins" -SecurityGroup "Seattle Recipient Admins" -Role "Mail Recipients" -CustomRecipientWriteScope "Seattle Recipients"
+```powershell
+New-ManagementRoleAssignment -Name "Mail Recipients_Seattle Recipient Admins" -SecurityGroup "Seattle Recipient Admins" -Role "Mail Recipients" -CustomRecipientWriteScope "Seattle Recipients"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd335193\(v=exchg.150\)).
 
@@ -115,11 +127,15 @@ Antes de poder agregar un ámbito a una asignación de funciones, debe crear uno
 
 Use la sintaxis siguiente para asignar un rol a un grupo de seguridad universal con un ámbito de configuración.
 
-    New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup <USG> -Role <role name> -CustomConfigWriteScope <role scope name>
+```powershell
+New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup <USG> -Role <role name> -CustomConfigWriteScope <role scope name>
+```
 
 En este ejemplo se asigna el rol Servidores de Exchange al USG MailboxAdmins y se aplica el ámbito Servidores de buzones.
 
-    New-ManagementRoleAssignment -Name "Exchange Servers_MailboxAdmins" -SecurityGroup MailboxAdmins -Role "Exchange Servers" -CustomConfigWriteScope "Mailbox Servers"
+```powershell
+New-ManagementRoleAssignment -Name "Exchange Servers_MailboxAdmins" -SecurityGroup MailboxAdmins -Role "Exchange Servers" -CustomConfigWriteScope "Mailbox Servers"
+```
 
 En el ejemplo anterior se muestra cómo agregar una asignación de funciones con un ámbito de configuración de servidor. La sintaxis para agregar un ámbito de configuración de base de datos es la misma. Solo tiene que indicar el nombre del ámbito de base de datos en vez del ámbito de servidor.
 
@@ -131,11 +147,15 @@ Si desea asignar un ámbito de escritura de una función a una unidad organizati
 
 Use la sintaxis siguiente para asignar un rol a un grupo de seguridad universal y restringir el ámbito de escritura de un rol a una determinada unidad organizativa.
 
-    New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup <USG> -Role <role name> -RecipientOrganizationalUnitScope <OU>
+```powershell
+New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup <USG> -Role <role name> -RecipientOrganizationalUnitScope <OU>
+```
 
 Este ejemplo asigna el rol de destinatarios de correo al grupo de seguridad universal SalesRecipientAdmins y aplica el ámbito de asignación a la OU Ventas/Usuarios del dominio contoso.com.
 
-    New-ManagementRoleAssignment -Name "Mail Recipients_SalesRecipientAdmins" -SecurityGroup SalesRecipientAdmins -Role "Mail Recipients" -RecipientOrganizationalUnitScope contoso.com/sales/users
+```powershell
+New-ManagementRoleAssignment -Name "Mail Recipients_SalesRecipientAdmins" -SecurityGroup SalesRecipientAdmins -Role "Mail Recipients" -RecipientOrganizationalUnitScope contoso.com/sales/users
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd335193\(v=exchg.150\)).
 
@@ -153,7 +173,9 @@ No se puede crear una asignación de función con ámbitos exclusivos y normales
 
 En este ejemplo se asigna el rol Destinatarios de correo al USG Protected User Admins y se aplica el ámbito exclusivo Usuarios protegidos.
 
-    New-ManagementRoleAssignment -Name "Mail Recipients_Protected User Admins" -SecurityGroup "Protected User Admins" -Role "Mail Recipients" -ExclusiveRecipientWriteScope "Protected Users"
+```powershell
+New-ManagementRoleAssignment -Name "Mail Recipients_Protected User Admins" -SecurityGroup "Protected User Admins" -Role "Mail Recipients" -ExclusiveRecipientWriteScope "Protected Users"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd335193\(v=exchg.150\)).
 

@@ -84,20 +84,21 @@ Para otras tareas de administración relacionadas con la federación, consulte [
 ## Uso del Shell para modificar la relación de organización
 
   - Este ejemplo agrega el nombre de dominio service.contoso.com a la relación de la organización Contoso.
-    
-        $domains = (Get-OrganizationRelationship Contoso).DomainNames
-        $domains += 'service.contoso.com'
-        Set-OrganizationRelationship -Identity Contoso -DomainNames $domains
-
+    ```powershell 
+          $domains = (Get-OrganizationRelationship Contoso).DomainNames
+          $domains += 'service.contoso.com'
+          Set-OrganizationRelationship -Identity Contoso -DomainNames $domains
+    ```
   - En este ejemplo se deshabilita la relación de la organización Contoso.
     
     ```powershell
-Set-OrganizationRelationship -Identity Contoso -Enabled $false
-```
+    Set-OrganizationRelationship -Identity Contoso -Enabled $false
+    ```
 
   - En este ejemplo, se habilita el acceso a la información de disponibilidad de calendario para la relación organizativa WoodgroveBank y se establece el nivel de acceso en `AvailabilityOnly` (información de disponibilidad de calendario con tiempo solo).
-    
+    ```powershell
         Set-OrganizationRelationship -Identity Contoso -FreeBusyAccessEnabled $true -FreeBusyAccessLevel AvailabilityOnly
+    ```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Get-OrganizationRelationship](https://technet.microsoft.com/es-es/library/ee332343\(v=exchg.150\)) y [Set-OrganizationRelationship](https://technet.microsoft.com/es-es/library/ee332326\(v=exchg.150\)).
 

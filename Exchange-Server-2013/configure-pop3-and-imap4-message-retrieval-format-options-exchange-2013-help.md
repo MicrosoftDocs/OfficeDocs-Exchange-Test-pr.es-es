@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar opciones formato recepción mensajes POP3 e IMAP4 Exchange 2013 Help'
+title: 'Configurar las opciones de formato de recepción de mensajes POP3 e IMAP4: Exchange 2013 Help'
 TOCTitle: Configurar las opciones de formato de recepción de mensajes POP3 e IMAP4
 ms:assetid: 481096e0-4492-46c2-8ca8-bdf84a84531e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa997869(v=EXCHG.150)
@@ -131,8 +131,8 @@ Realice lo siguiente para comprobar que haya configurado correctamente los ajust
 1.  Ejecute el siguiente comando en el Shell.
     
     ```powershell
-Get-PopSettings | format-list
-```
+    Get-PopSettings | format-list
+    ```
 
 2.  Compruebe que la configuración de *MessageRetrievalMimeFormat* sea correcta.
 
@@ -230,8 +230,8 @@ Realice lo siguiente para comprobar que haya configurado correctamente los ajust
 1.  Ejecute el siguiente comando en el Shell.
     
     ```powershell
-Get-ImapSettings | format-list
-```
+    Get-ImapSettings | format-list
+    ```
 
 2.  Compruebe que la configuración de *MessageRetrievalMimeFormat* sea correcta.
 
@@ -301,8 +301,8 @@ Realice lo siguiente para comprobar que haya configurado correctamente los ajust
 1.  Ejecute el siguiente comando en el Shell.
     
     ```powershell
-Get-CAS Mailbox <identity> | format-list
-```
+    Get-CAS Mailbox <identity> | format-list
+    ```
 
 2.  Compruebe que el valor de *PopMessagesRetrievalMimeFormat* sea correcto.
 
@@ -372,8 +372,8 @@ Realice lo siguiente para comprobar que haya configurado correctamente los ajust
 1.  Ejecute el siguiente comando en el Shell.
     
     ```powershell
-Get-CAS Mailbox <identity> | format-list
-```
+    Get-CAS Mailbox <identity> | format-list
+    ```
 
 2.  Compruebe que el valor de *ImapMessagesRetrievalMimeFormat* sea correcto.
 

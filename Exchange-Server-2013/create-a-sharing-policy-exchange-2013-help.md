@@ -110,28 +110,31 @@ Puede editar la directiva de uso compartido predeterminada para permitir que tod
   - En este ejemplo se crea la directiva de uso compartido Contoso para el dominio federado externo contoso.com. Esta directiva permite que los usuarios del dominio contoso.com vean la información detallada sobre la disponibilidad (disponible/no disponible) de su usuario. Esta directiva está habilitada de modo predeterminado.
     
     ```powershell
-New-SharingPolicy -Name "Contoso" -Domains contoso.com: CalendarSharingFreeBusyDetail
-```
+    New-SharingPolicy -Name "Contoso" -Domains contoso.com: CalendarSharingFreeBusyDetail
+    ```
 
   - En este ejemplo se crea la directiva de uso compartido ContosoWoodgrove para dos dominios federados distintos (contoso.com y woodgrovebank.com) con acciones de uso compartido diferentes configuradas para cada dominio. La directiva está deshabilitada.
-    
+    ```powershell
         New-SharingPolicy -Name "ContosoWoodgrove" -Domains 'contoso.com: CalendarSharingFreeBusySimple', 'woodgrovebank.com: CalendarSharingFreeBusyDetail -Enabled $false
+    ```
 
   - En este ejemplo se crea la directiva de uso compartido Anonymous para una organización de Exchange con el servidor de acceso de clientes CAS01 y el servidor de buzones de correo MAIL01, con la acción de uso compartido configurada para la información de disponibilidad de calendario limitada. Esta directiva permite a los usuarios de su organización de Exchange invitar a usuarios con acceso a Internet a ver la información de disponibilidad en el calendario enviándoles un vínculo. La directiva está habilitada.
     
     1.  Establezca la dirección URL del proxy web para MAIL01.
         
         ```powershell
-Set-ExchangeServer -Identity "Mail01" -InternetWebProxy "<Webproxy URL>"
-```
+        Set-ExchangeServer -Identity "Mail01" -InternetWebProxy "<Webproxy URL>"
+        ```
     
     2.  Habilite el directorio virtual de publicación en CAS01.
-        
+        ```powershell
             Set-OwaVirtualDirectory -Identity "CAS01" -ExternalURL "<URL for CAS01>" -CalendarPublishingEnabled $true
+        ```
     
     3.  Cree la directiva de uso compartida anónimo y configure el uso compartido de información de calendario limitado.
-        
+        ```powershell
             New-SharingPolicy -Name "Anonymous" -Domains 'Anonymous: CalendarSharingFreeBusySimple' -Enabled $true
+        ```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte los siguientes temas:
 

@@ -34,9 +34,10 @@ El identificador único principal de un objeto de Exchange 2013 es siempre un 
 El parámetro *Identity* también se considera un parámetro de posición. Si no se especifica ninguna etiqueta de parámetro, se asume que el primer argumento de un cmdlet es el parámetro *Identity*. Esto reduce el número de pulsaciones necesarias al introducir los comandos. Para obtener más información acerca de los parámetros de posición, consulte [Parámetros](https://technet.microsoft.com/es-es/library/bb124388\(v=exchg.150\)).
 
 El siguiente ejemplo muestra el uso del parámetro *Identity* mediante el valor del parámetro *Name* único del conector de recepción. Este ejemplo también muestra cómo omitir el nombre del parámetro *Identity* porque *Identity* es un parámetro posicional.
-
+```powershell
     Get-ReceiveConnector -Identity "From the Internet"
     Get-ReceiveConnector "From the Internet"
+```    
 
 Como todos los objetos en Exchange 2013, este conector de recepción también se puede referir a su único GUID. Por ejemplo, si el conector de recepción llamado `"From the Internet"` también se asigna al GUID `63d64005-42c5-4f8f-b310-14f6cb125bf3`, también puede recuperar el conector de recepción mediante el siguiente comando:
 
@@ -89,16 +90,19 @@ Mail Recipients\Set-Mailbox
 ```
 
 La entrada del rol `Mail Recipients\Set-Mailbox` es una de las varias entradas en el rol `Mail Recipients`. Para ver todas las entradas de rol en el rol `Mail Recipients`, puede utilizar el siguiente comando:
-
+```powershell
     Get-ManagementRoleEntry "Mail Recipients\*"
+```
 
 Para ver todas las entradas de rol en el rol `Mail Recipients` que contengan la cadena "`Mailbox`", use el siguiente comando:
-
+```powershell
     Get-ManagementRoleEntry "Mail Recipients\*Mailbox*"
+```
 
 Para ver todas las funciones de administración en las que **Set-Mailbox** es una de las entradas de la función, use el siguiente comando:
-
+```powershell
     Get-ManagementRoleEntry *\Set-Mailbox
+```
 
 Con las entradas de función puede usar el carácter comodín de distintos modos para consultar la información que desee en Exchange 2013.
 

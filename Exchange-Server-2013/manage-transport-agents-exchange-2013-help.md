@@ -54,17 +54,15 @@ Para realizar cualquiera de los procedimientos del agente de transporte descrito
 1.  En el servidor de acceso de cliente, abra Windows PowerShell y ejecute el siguiente comando:
     
     ```powershell
-Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
-```
-
+    Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
+    ```
 2.  Ejecute el comando descrito, pero agregue el siguiente valor: `-TransportService FrontEnd`.
     
     Por ejemplo, para ver los agentes de transporte en el servicio de transporte front-end en un servidor de acceso de cliente, ejecute el siguiente comando:
     
     ```powershell
-Get-TransportAgent -TransportService FrontEnd
-```
-
+    Get-TransportAgent -TransportService FrontEnd
+    ```
 ## Uso del Shell para instalar un agente de transporte
 
 Cuando instala un agente de transporte, Exchange solamente registra las DLL asociadas con el agente de transporte. Debe asegurarse de que todos los archivos, claves de registro y otros objetos en los que depende el agente de transporte estén instalados y configurados correctamente. Después de que Exchange carga las DLL, sigue haciendo referencia a las DLL una vez finalizado el comando.
@@ -75,11 +73,15 @@ Los agentes de transporte están instalados en estado deshabilitado para garanti
 
 Utilice la sintaxis siguiente para instalar un agente de transporte.
 
-    Install-TransportAgent -Name <TransportAgentIdentity> -TransportAgentFactory <"TransportAgentFactory"> -AssemblyPath <"FilePath">
+```powershell
+Install-TransportAgent -Name <TransportAgentIdentity> -TransportAgentFactory <"TransportAgentFactory"> -AssemblyPath <"FilePath">
+```
 
 En este ejemplo, se instala un agente de transporte ficticio denominado Contoso Transport Agent en el servicio de transporte de un servidor de buzones de correo.
 
-    Install-TransportAgent -Name "Contoso Transport Agent" -TransportAgentFactory "vendor.exchange.ContosoTransportAgentfactory" -AssemblyPath "C:\Program Files\Vendor\TransportAgent\ContosoTransportAgentFactory.dll"
+```powershell
+Install-TransportAgent -Name "Contoso Transport Agent" -TransportAgentFactory "vendor.exchange.ContosoTransportAgentfactory" -AssemblyPath "C:\Program Files\Vendor\TransportAgent\ContosoTransportAgentFactory.dll"
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -134,7 +136,6 @@ Para ver la configuración detallada de un agente de transporte específico, eje
 ```powershell
 Get-TransportAgent <TransportAgentIdentity> | Format-List
 ```
-
 En este ejemplo, se proporciona una configuración detallada del agente de transporte denominado Transport Rule Agent.
 
 ```powershell
@@ -176,7 +177,6 @@ En este ejemplo, se desinstala el agente de transporte denominado Fabirkam Trans
 ```powershell
 Uninstall-TransportAgent "Fabrikam Transport Agent"
 ```
-
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que el agente de transporte se desinstaló correctamente, ejecute el comando `Get-TransportAgent` y compruebe que el agente de trasporte no esté enumerado.

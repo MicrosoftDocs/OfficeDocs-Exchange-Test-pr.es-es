@@ -35,7 +35,7 @@ Microsoft Exchange Server 2013 usa notificaciones del estado de entrega (DSN) pa
   - Para obtener información acerca de los métodos abreviados de teclado aplicables a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > ¿Tiene algún problema? Solicite ayuda en los foros de Exchange. Visite los foros en <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, o <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>.
 
 
@@ -66,19 +66,27 @@ Get-SystemMessage En\Internal\5.1.2 | Format-List
 
 Ejecute el siguiente comando:
 
-    New-SystemMessage -Internal <$true | $false> -Language <Locale> -DSNCode <x.y.z> -Text "<DSN text>"
+```powershell
+New-SystemMessage -Internal <$true | $false> -Language <Locale> -DSNCode <x.y.z> -Text "<DSN text>"
+```
 
 Este ejemplo crea un mensaje DSN de texto sin formato DSN personalizado para el código de DNS 5.1.2 que se envía a los remitentes internos en inglés.
 
-    New-SystemMessage -Internal $true -Language En -DSNCode 5.1.2 -Text "You tried to send a message to a disabled mailbox that's no longer accepting messages. Please contact the Help Desk at extension 123 for assistance."
+```powershell
+New-SystemMessage -Internal $true -Language En -DSNCode 5.1.2 -Text "You tried to send a message to a disabled mailbox that's no longer accepting messages. Please contact the Help Desk at extension 123 for assistance."
+```
 
 Este ejemplo crea un mensaje DSN de texto sin formato DSN personalizado para el código de DNS 5.1.2 que se envía a los remitentes externos en inglés.
 
-    New-SystemMessage -Internal $false -Language En -DSNCode 5.1.2 -Text "You tried to send a message to a disabled mailbox that's no longer accepting messages. Please contact your System Administrator for more information."
+```powershell
+New-SystemMessage -Internal $false -Language En -DSNCode 5.1.2 -Text "You tried to send a message to a disabled mailbox that's no longer accepting messages. Please contact your System Administrator for more information."
+```
 
 Este ejemplo crea un mensaje DSN HTML personalizado para el código de DNS 5.1.2 que se envía a los remitentes internos en inglés.
 
-    New-SystemMessage -DSNCode 5.1.2 -Internal $true -Language En -Text 'You tried to send a message to a <B>disabled</B> mailbox. Please visit <A HREF="http://it.contoso.com">Internal Support</A> or contact &quot;InfoSec&quot; for more information.'
+```powershell
+New-SystemMessage -DSNCode 5.1.2 -Internal $true -Language En -Text 'You tried to send a message to a <B>disabled</B> mailbox. Please visit <A HREF="http://it.contoso.com">Internal Support</A> or contact &quot;InfoSec&quot; for more information.'
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -87,8 +95,8 @@ Para verificar si ha creado correctamente un mensaje de DNS personalizado, haga 
 1.  Ejecute el siguiente comando:
     
     ```powershell
-Get-SystemMessge -DSNCode <x.y.z> | Format-List Name,Internal,Text,Language
-```
+    Get-SystemMessge -DSNCode <x.y.z> | Format-List Name,Internal,Text,Language
+    ```
 
 2.  Compruebe que los valores que ve son los valores que ha configurado.
 
@@ -98,11 +106,15 @@ Get-SystemMessge -DSNCode <x.y.z> | Format-List Name,Internal,Text,Language
 
 Para cambiar el texto de un mensaje de DSN personalizado use el siguiente comando:
 
-    Set-SystemMessage <Locale>\<Internal | External>\<DSNcode> -Text "<DSN text>"
+```powershell
+Set-SystemMessage <Locale>\<Internal | External>\<DSNcode> -Text "<DSN text>"
+```
 
 Este ejemplo cambia el texto asignado al mensaje de DSN personalizado para el código de DNS 5.1.2 que se envía a los remitentes internos en inglés.
 
-    Set-SystemMessage En\Internal\5.1.2 -Text "The mailbox you tried to send an e-mail message to is disabled and is no longer accepting messages. Please contact the Help Desk at extension 123 for assistance."
+```powershell
+Set-SystemMessage En\Internal\5.1.2 -Text "The mailbox you tried to send an e-mail message to is disabled and is no longer accepting messages. Please contact the Help Desk at extension 123 for assistance."
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -111,8 +123,8 @@ Par comprobar si ha cambiado correctamente el texto de un mensaje de DNS persona
 1.  Ejecute el siguiente comando: `Get-SystemMessage`.
     
     ```powershell
-Set-SystemMessage <Locale>\<Internal | External>\<DSNcode> | Format-List -Text
-```
+    Set-SystemMessage <Locale>\<Internal | External>\<DSNcode> | Format-List -Text
+    ```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 
@@ -151,14 +163,14 @@ Para asignar un buzón de correo a los destinatarios de Exchange, realice los pa
 2.  Ejecute el siguiente comando:
     
     ```powershell
-Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient <MailboxIdentity>
-```
+    Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient <MailboxIdentity>
+    ```
     
     Por ejemplo, para asignar el buzón existente denominado "Buzón de correo del sistema Contoso" al destinatario de Exchange, hay que ejecutar el siguiente comando:
     
     ```powershell
-Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient "Contoso System Mailbox"
-```
+    Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient "Contoso System Mailbox"
+    ```
 
 ## Paso 2: Especificar los códigos de DSN que desea supervisar
 
@@ -184,7 +196,9 @@ Set-TransportConfig -GenerateCopyOfDSNFor 5.7.1,5.7.2,5.7.3
 
 Para agregar o quitar entradas sin modificar valores existentes, ejecute el siguiente comando:
 
-    Set-TransportConfig -GenerateCopyOfDSNFor @{Add="<x.y.z>","<x.y.z>"...; Remove="<x.y.z>","<x.y.z>"...}
+```powershell
+Set-TransportConfig -GenerateCopyOfDSNFor @{Add="<x.y.z>","<x.y.z>"...; Remove="<x.y.z>","<x.y.z>"...}
+```
 
 Este ejemplo agrega el código de DSN 5.7.5 y quita el código de DSN 5.7.1 de la lista existente de mensajes de DSN que se envían a cada destinatario de Exchange.
 
@@ -195,4 +209,3 @@ Set-TransportConfig -GenerateCopyOfDSNFor @{Add="5.7.5"; Remove="5.7.1"}
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que haya configurado las copias de los mensajes de DNS correctamente que se deben enviar al buzón de correo del destinatario de Exchange, supervise el buzón de correo que esté asociado con el destinatario de Exchange, y compruebe que los mensajes de DSN contengan el código de DSN especificado.
-

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Cambiar configuración de limitación para todos usuarios de organización'
+title: 'Cambiar la configuración de limitación para todos los usuarios de la organización: Exchange 2013 Help'
 TOCTitle: Cambiar la configuración de limitación para todos los usuarios de la organización
 ms:assetid: c45cacfc-768d-4605-9bb0-53e30273fe4d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ863578(v=EXCHG.150)
@@ -56,16 +56,16 @@ Para comprobar que la directiva de limitación Organization se creó correctamen
 1.  Ejecute el siguiente comando.
     
     ```powershell
-Get-ThrottlingPolicy | Format-List
-```
+        Get-ThrottlingPolicy | Format-List
+    ```
 
 2.  Compruebe que la directiva de limitación Organization que acaba de crear aparece en la columna que muestra el objeto GlobalThrottlingPolicy.
 
 3.  Ejecute el siguiente comando.
     
     ```powershell
-Get-ThrottlingPolicy | Format-List
-```
+        Get-ThrottlingPolicy | Format-List
+    ```
 
 4.  Compruebe que las propiedades de la nueva directiva Organization coinciden con el valor o valores configurados.
 

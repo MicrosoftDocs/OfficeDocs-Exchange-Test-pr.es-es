@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar directiva activar para copia base datos buzones: Exchange 2013 Help'
+title: 'Configurar la directiva de activación para una copia de base de datos de buzones: Exchange 2013 Help'
 TOCTitle: Configurar la directiva de activación para una copia de base de datos de buzones
 ms:assetid: 6b37ed6e-2e36-4688-b485-8fdbb8193ec8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd298046(v=EXCHG.150)
@@ -39,15 +39,11 @@ _**Última modificación del tema:** 2012-11-02_
 
 ## Usar el EAC para configurar la directiva de activación para una copia de base de datos de buzones
 
-1.  
-    
-    En el EAC, vaya a **Servidores** \> **Bases de datos**.
+1.   En el EAC, vaya a **Servidores** \> **Bases de datos**.
 
 2.  Seleccione la base de datos que desea configurar.
 
-3.  
-    
-    En el panel de detalles, en **Copias de bases de datos**, busque la copia de base de datos que desea configurar y haga clic en **Suspender**.
+3.  En el panel de detalles, en **Copias de bases de datos**, busque la copia de base de datos que desea configurar y haga clic en **Suspender**.
 
 4.  Puede agregar un comentario de manera opcional y seleccionar la casilla **Solo puede activar esta copia mediante la intervención manual**.
 
@@ -98,12 +94,12 @@ Para comprobar que haya configurado correctamente la directiva de activación, s
   - En el Shell, ejecute el siguiente comando para comprobar la configuración de activación de una copia de base de datos.
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List ActivationSuspended
-```
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List ActivationSuspended
+    ```
 
   - En el Shell, ejecute el siguiente comando para comprobar la configuración de activación de un miembro de DAG.
     
     ```powershell
-Get-MailboxServer <ServerName> | Format-List DatabaseCopyAutoActivationPolicy
-```
+    Get-MailboxServer <ServerName> | Format-List DatabaseCopyAutoActivationPolicy
+    ```
 

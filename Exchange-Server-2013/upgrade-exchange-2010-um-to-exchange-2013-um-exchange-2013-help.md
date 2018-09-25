@@ -1,5 +1,5 @@
 ﻿---
-title: 'Actualizar la UM de Exchange 2010 a la UM de Exchange 2013: Exchange 2013 Help'
+title: 'Actualizar la mensajería unificada (UM) de Exchange 2010 a la mensajería unificada de Exchange 2013: Exchange 2013 Help'
 TOCTitle: Actualizar la mensajería unificada (UM) de Exchange 2010 a la mensajería unificada de Exchange 2013
 ms:assetid: 01aa5dab-689b-4738-afab-0d2f11a60b39
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn169226(v=EXCHG.150)
@@ -99,23 +99,31 @@ Al exportar e importar saludos personalizados, anuncios, menús y avisos de Exch
 
 En este ejemplo se exporta el saludo de bienvenida del plan de marcado de mensajería unificada (UM) `MyUMDialPlan` y se guarda en el archivo `welcomegreeting.wav`.
 
-    $prompt = Export-UMPrompt -PromptFileName "customgreeting.wav" -UMDialPlan MyUMDialPlan
-    set-content -Path "d:\DialPlanPrompts\welcomegreeting.wav" -Value $prompt.AudioData -Encoding Byte
+```powershell
+$prompt = Export-UMPrompt -PromptFileName "customgreeting.wav" -UMDialPlan MyUMDialPlan
+set-content -Path "d:\DialPlanPrompts\welcomegreeting.wav" -Value $prompt.AudioData -Encoding Byte
+```
 
 En este ejemplo se importa el saludo de bienvenida `welcomegreeting.wav` desde d:\\UMPrompts al plan de marcado de mensajería unificada (UM) `MyUMDialPlan`.
 
-    [byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
-    Import-UMPrompt -UMDialPlan MyUMDialPlan -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```powershell
+[byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
+Import-UMPrompt -UMDialPlan MyUMDialPlan -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```
 
 En este ejemplo se exporta un saludo personalizado para el operador automático de mensajería unificada (UM) `MyUMAutoAttendant` y se guarda en el archivo `welcomegreetingbackup.wav`.
 
-    Export-UMPrompt -PromptFileName "welcomegreeting.wav" -UMAutoAttendant MyUMAutoAttendant
-    set-content -Path "e:\UMPromptsBackup\welcomegreeting.wav" -Value $prompt.AudioData -Encoding Byte
+```powershell
+Export-UMPrompt -PromptFileName "welcomegreeting.wav" -UMAutoAttendant MyUMAutoAttendant
+set-content -Path "e:\UMPromptsBackup\welcomegreeting.wav" -Value $prompt.AudioData -Encoding Byte
+```
 
 En este ejemplo se importa el saludo de bienvenida `welcomegreeting.wav` desde d:\\UMPrompts al operador automático de mensajería unificada (UM) `MyUMAutoAttendant`.
 
-    [byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
-    Import-UMPrompt -UMAutoAttendant MyUMAutoAttendant -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```powershell
+[byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
+Import-UMPrompt -UMAutoAttendant MyUMAutoAttendant -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```
 
 Para más información sobre los avisos personalizados de mensajería unificada (M), vea:
 
@@ -164,7 +172,9 @@ Para que la mensajería unificada (UM) pueda cifrar los datos enviados entre los
     
     Cree un certificado autofirmado de Exchange al ejecutar el siguiente comando en el Shell.
     
-        New-ExchangeCertificate -Services 'UM, UMCallRouter' -DomainName '*.northwindtraders.com' -FriendlyName 'UMSelfSigned' -SubjectName 'C=US,S=WA,L=Redmond,O=Northwindtraders,OU=Servers,CN= Northwindtraders.com' -PrivateKeyExportable $true
+    ```powershell
+    New-ExchangeCertificate -Services 'UM, UMCallRouter' -DomainName '*.northwindtraders.com' -FriendlyName 'UMSelfSigned' -SubjectName 'C=US,S=WA,L=Redmond,O=Northwindtraders,OU=Servers,CN= Northwindtraders.com' -PrivateKeyExportable $true
+    ```
     
 
     > [!NOTE]
@@ -184,7 +194,9 @@ Para que la mensajería unificada (UM) pueda cifrar los datos enviados entre los
     
     Habilite un certificado autofirmado de Exchange ejecutando el comando siguiente en el Shell.
     
-        Enable-ExchangeCertificate -Thumbprint 5113ae0233a72fccb75b1d0198628675333d010e -Services 'UM, UMCallRouter'
+    ```powershell
+    Enable-ExchangeCertificate -Thumbprint 5113ae0233a72fccb75b1d0198628675333d010e -Services 'UM, UMCallRouter'
+    ```
 
   - Configure los planes de marcado nuevos o existentes de mensajería unificada (UM) en el modo "SIP protegida" o "Protegida".
 
@@ -248,13 +260,15 @@ Configure el modo de inicio de mensajería unificada en un servidor de buzones d
 
 Configure el modo de inicio de Mensajería unificada en un servidor de buzones de Exchange 2013 ejecutando el siguiente comando en el Shell.
 
-    Set-UMService -Identity MyUMServer -ExternalHostFqdn host.external.contoso.com -IPAddressFamily Any -UMStartupMode Dual
+```powershell
+Set-UMService -Identity MyUMServer -ExternalHostFqdn host.external.contoso.com -IPAddressFamily Any -UMStartupMode Dual
+```
 
 ## Paso 7: Crear planes de marcado de Mensajería unificada o configurar los existentes
 
 En función de la implementación de Exchange 2010 actual, puede ser necesario crear planes de marcado de Mensajería unificada o configurar los ya existentes. Un plan de marcado de mensajería unificada representa un conjunto de centrales de conmutación (PBX) tradicionales, con SIP habilitado o IP PBX que comparten números de extensión de usuarios comunes. Todas las extensiones de usuarios hospedadas en PBX tradicionales, con SIP habilitado o IP PBX en un plan de marcado contienen la misma cantidad de dígitos. Los usuarios pueden marcar otra extensión de teléfono sin tener que anexar un número especial a la extensión ni marcar un número de teléfono completo.
 
-Los planes de marcado de mensajería unificada se usan en la mensajería unificada para garantizar que las extensiones telefónicas de los usuarios sean únicas. En algunas redes de telefonía, pueden existir varias PBX o IP PBX. En estas redes de telefonía, puede haber dos usuarios que tengan el mismo número de extensión telefónica. Los planes de marcado de Mensajería unificada resuelven esta situación. Al poner a dos usuarios en dos planes de marcado de Mensajería unificada distintos, las extensiones son únicas. Para más información, vea [Planes de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-the-voice-mail-preview-partner-address).
+Los planes de marcado de mensajería unificada se usan en la mensajería unificada para garantizar que las extensiones telefónicas de los usuarios sean únicas. En algunas redes de telefonía, pueden existir varias PBX o IP PBX. En estas redes de telefonía, puede haber dos usuarios que tengan el mismo número de extensión telefónica. Los planes de marcado de Mensajería unificada resuelven esta situación. Al poner a dos usuarios en dos planes de marcado de Mensajería unificada distintos, las extensiones son únicas. Para más información, vea [Planes de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-dial-plans).
 
 Si es necesario, puede crear un plan de marcado de Mensajería unificada desde el EAC:
 
@@ -296,7 +310,9 @@ Si es necesario, puede configurar un plan de marcado existente de Mensajería un
 
 Si es necesario, puede configurar un plan de marcado existente de Mensajería unificada usando el Shell:
 
-    Set-UMDialplan -Identity MyDialPlan -AccessTelephoneNumbers 4255551234 -AudioCodec Wma -CallAnsweringRulesEnabled $false -OutsideLineAccessCode 9 -VoIPSecurity SIPSecured
+```powershell
+Set-UMDialplan -Identity MyDialPlan -AccessTelephoneNumbers 4255551234 -AudioCodec Wma -CallAnsweringRulesEnabled $false -OutsideLineAccessCode 9 -VoIPSecurity SIPSecured
+```
 
 Cuando implementó Mensajería unificada de Exchange 2010, tuvo que agregar un servidor de Mensajería unificada a un plan de marcado de UM para que respondiese a las llamadas entrantes. Esto ya no es necesario. En Exchange 2013, los servidores de acceso de cliente y de buzones no se pueden vincular con planes de marcado de extensión telefónica ni E.164, sino que se deben vincular a planes de marcado URI de SIP. Los servidores de buzones y de acceso de cliente responderán a todas las llamadas entrantes en todos los tipos de planes de marcado.
 
@@ -340,7 +356,9 @@ Para configurar una puerta de enlace IP de UM existente desde el EAC:
 
 Para configurar una puerta de enlace IP de UM existente en el Shell, ejecute el siguiente comando en el Shell.
 
-    Set-UMIPGateway -Identity MyUMIPGateway -Address fe80::39bd:88f7:6969:d223%11 -IPAddressFamily Any -Status Disabled -OutcallsAllowed $false
+```powershell
+Set-UMIPGateway -Identity MyUMIPGateway -Address fe80::39bd:88f7:6969:d223%11 -IPAddressFamily Any -Status Disabled -OutcallsAllowed $false
+```
 
 ## Paso 9: Crear un grupo de extensiones de mensajería unificada
 
@@ -366,7 +384,9 @@ Si es necesario, puede crear un grupo de extensiones de UM desde el EAC:
 
 Si es necesario, puede crear un grupo de extensiones de mensajería unificada al ejecutar el siguiente comando en el Shell.
 
-    New-UMHuntGroup -Name MyUMHuntGroup -PilotIdentifier 5551234,55555 -UMDialPlan MyUMDialPlan -UMIPGateway MyUMIPGateway
+```powershell
+New-UMHuntGroup -Name MyUMHuntGroup -PilotIdentifier 5551234,55555 -UMDialPlan MyUMDialPlan -UMIPGateway MyUMIPGateway
+```
 
 
 > [!TIP]
@@ -404,7 +424,9 @@ Si es necesario, puede crear un operador automático de UM desde el EAC:
 
 Si es necesario, puede crear un operador automático de mensajería unificada ejecutando el comando siguiente en el Shell.
 
-    New-UMAutoAttendant -Name MyUMAutoAttendant -UMDialPlan MyUMDialPlan -PilotIdentifierList 56000,56100 -SpeechEnabled $true -Status Enabled
+```powershell
+New-UMAutoAttendant -Name MyUMAutoAttendant -UMDialPlan MyUMDialPlan -PilotIdentifierList 56000,56100 -SpeechEnabled $true -Status Enabled
+```
 
 Si es necesario, puede configurar un operador automático existente desde el EAC:
 
@@ -414,7 +436,9 @@ Si es necesario, puede configurar un operador automático existente desde el EAC
 
 Si es necesario, puede configurar un operador automático existente ejecutando el comando siguiente en el Shell.
 
-    Set-UMAutoAttendant -Identity MySpeechEnabledAA -DTMFFallbackAutoAttendant MyDTMFAA -OperatorExtension 50100 -AfterHoursTransferToOperatorEnabled $true -StaroutToDialPlanEnabled $true
+```powershell
+Set-UMAutoAttendant -Identity MySpeechEnabledAA -DTMFFallbackAutoAttendant MyDTMFAA -OperatorExtension 50100 -AfterHoursTransferToOperatorEnabled $true -StaroutToDialPlanEnabled $true
+```
 
 ## Paso 11: Crear o configurar directivas de buzón de mensajería unificada
 
@@ -456,11 +480,13 @@ Si es necesario, puede configurar una directiva de buzón existente de mensajer�
 
 Si es necesario, puede configurar una directiva de buzón de UM existente ejecutando el comando siguiente en el Shell.
 
-    Set-UMMailboxPolicy -Identity MyUMMailboxPolicy -LogonFailuresBeforePINReset 8 -MaxLogonAttempts 12 -MinPINLength 8 -PINHistoryCount 10 -PINLifetime 60 -ResetPINText "The PIN used to allow you access to your mailbox using Outlook Voice Access has been reset."
+```powershell
+Set-UMMailboxPolicy -Identity MyUMMailboxPolicy -LogonFailuresBeforePINReset 8 -MaxLogonAttempts 12 -MinPINLength 8 -PINHistoryCount 10 -PINLifetime 60 -ResetPINText "The PIN used to allow you access to your mailbox using Outlook Voice Access has been reset."
+```
 
 ## Paso 12: Mover los buzones habilitados para UM existentes a Exchange 2013
 
-En Mensajería unificada de Exchange 2010, después de habilitar a los usuarios de la organización para el uso del correo de voz, se aplica al usuario un conjunto predeterminado de propiedades de UM para que pueda usar las características de UM. Para más información, vea [Correo de voz para usuarios](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/review-voice-mail-calls-for-user).
+En Mensajería unificada de Exchange 2010, después de habilitar a los usuarios de la organización para el uso del correo de voz, se aplica al usuario un conjunto predeterminado de propiedades de UM para que pueda usar las características de UM. Para más información, vea [Correo de voz para usuarios](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-for-users).
 
 Durante el proceso de actualización, habrá un período de tiempo en el que los buzones habilitados para UM estarán en los servidores de buzones de Exchange 2010 y de Exchange 2013. Sin embargo, si va a mover todos los usuarios habilitados para UM a los servidores de buzones de Exchange 2013, tiene que usar el EAC o el cmdlet **New-MoveRequest** del Shell desde un servidor de Exchange 2013 para conservar todas las propiedades y configuraciones, incluido el PIN del usuario.
 
@@ -490,7 +516,7 @@ New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase "DB01"
 
 ## Paso 13: Habilitar a usuarios nuevos para Mensajería unificada o definir la configuración de un usuario ya habilitado para UM
 
-Un usuario debe tener un buzón para que se le pueda habilitar para Mensajería unificada. De forma predeterminada, los usuarios que tienen buzón no están habilitados para Mensajería unificada. Después de habilitar a los usuarios para UM, podrá administrar, modificar y configurar sus propiedades de Mensajería unificada y características del correo de voz. Puede habilitar a un usuario para Mensajería unificada usando el EAC o el Shell. Para más información, vea [Correo de voz para usuarios](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/review-voice-mail-calls-for-user).
+Un usuario debe tener un buzón para que se le pueda habilitar para Mensajería unificada. De forma predeterminada, los usuarios que tienen buzón no están habilitados para Mensajería unificada. Después de habilitar a los usuarios para UM, podrá administrar, modificar y configurar sus propiedades de Mensajería unificada y características del correo de voz. Puede habilitar a un usuario para Mensajería unificada usando el EAC o el Shell. Para más información, vea [Correo de voz para usuarios](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-for-users).
 
 Cuando habilita un usuario para mensajería unificada, debe definir al menos un número de extensión que la mensajería unificada usará cuando el correo de voz se envíe al buzón del usuario y para permitir al usuario utilizar Outlook Voice Access. Una vez habilitado el usuario para mensajería unificada, se pueden agregar números de extensión secundarios para el buzón del usuario, así como modificarlos o quitarlos al configurar la dirección proxy de mensajería unificada de Exchange (EUM) en el buzón del usuario o al agregar o quitar extensiones adicionales o secundarias para el usuario en el EAC. Para agregar, modificar o quitar números de extensión, números E.164 o direcciones SIP, consulte [Procedimientos de usuario habilitado para correo de voz](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-enabled-user-procedures).
 
@@ -524,7 +550,9 @@ Para habilitar un usuario para mensajería unificada con el EAC:
 
 Para habilitar a un usuario para Mensajería unificada usando el Shell, ejecute el comando siguiente.
 
-    Enable-UMMailbox -Identity tonysmith@contoso.com -UMMailboxPolicy MyUMMailboxPolicy -Extensions 51234 -PIN 5643892 -NotifyEmail administrator@contoso.com -PINExpired $true
+```powershell
+Enable-UMMailbox -Identity tonysmith@contoso.com -UMMailboxPolicy MyUMMailboxPolicy -Extensions 51234 -PIN 5643892 -NotifyEmail administrator@contoso.com -PINExpired $true
+```
 
 Si es necesario, puede configurar a un usuario que se haya habilitado para UM desde el EAC:
 
@@ -554,7 +582,9 @@ Si es necesario, puede configurar a un usuario que se haya habilitado para UM de
 
 Si es necesario, puede configurar a un usuario que se haya habilitado para UM en el Shell ejecutando el comando siguiente.
 
-    Set-UMMailbox -Identity tony@contoso.com -CallAnsweringAudioCodec Wma -CallAnsweringRulesEnabled $false -FaxEnabled $false -UMSMSNotificationOption VoiceMail
+```powershell
+Set-UMMailbox -Identity tony@contoso.com -CallAnsweringAudioCodec Wma -CallAnsweringRulesEnabled $false -FaxEnabled $false -UMSMSNotificationOption VoiceMail
+```
 
 ## Paso 14: Configurar las puertas de enlace VoIP, las IP PBX y las PBX con SIP habilitado para enviar todas las llamadas entrantes a los servidores de acceso de cliente de Exchange 2013
 
@@ -622,10 +652,12 @@ Para quitar un servidor de Mensajería unificada de Exchange 2010 de un plan de 
 
 Para quitar de un plan de marcado un servidor de Mensajería unificada de Exchange 2010 usando el Shell, ejecute el comando siguiente.
 
-    $dp= Get-UMDialPlan "MySIPDialPlan"
-    $s=Get-UMServer -id MyUMServer
-    $s.dialplans-=$dp.identity
-    Set-UMServer -id MyUMServer -dialplans:$s.dialplans
+```powershell
+$dp= Get-UMDialPlan "MySIPDialPlan"
+$s=Get-UMServer -id MyUMServer
+$s.dialplans-=$dp.identity
+Set-UMServer -id MyUMServer -dialplans:$s.dialplans
+```
 
 En este ejemplo, hay tres planes de marcado URI de SIP: SipDP1, SipDP2 y SipDP3. En este ejemplo se quita el servidor de mensajería unificada denominado `MyUMServer` del plan de marcado SipDP3.
 

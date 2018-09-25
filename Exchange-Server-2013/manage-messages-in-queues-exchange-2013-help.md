@@ -61,7 +61,9 @@ Un mensaje que se está enviando a varios destinatarios puede estar ubicado en m
 
 Para quitar mensajes de las colas, utilice la sintaxis siguiente.
 
-    Remove-Message <-Identity MessageIdentity | -Filter {MessageFilter}> -WithNDR <$true | $false>
+```powershell
+Remove-Message <-Identity MessageIdentity | -Filter {MessageFilter}> -WithNDR <$true | $false>
+```
 
 En este ejemplo, los mensajes se quitan de las colas que tienen un asunto "Win Big" sin enviar un NDR.
 
@@ -117,7 +119,9 @@ Resume-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
 
 En este ejemplo, se reanudan todos los mensajes enviados por cualquier remitente en el dominio Contoso.com.
 
-    Resume-Message -Filter {FromAddress -eq "*contoso.com"}
+```powershell
+Resume-Message -Filter {FromAddress -eq "*contoso.com"}
+```
 
 En este ejemplo, se reanuda el mensaje con el identificador de mensaje 3 en la cola inalcanzable en el servidor Hub01.
 
@@ -163,7 +167,9 @@ Suspend-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
 
 En este ejemplo se suspenden todos los mensajes en las colas de cualquier remitente del dominio contoso.com.
 
-    Suspend-Message -Filter {FromAddress -eq "*contoso.com"}
+```powershell
+Suspend-Message -Filter {FromAddress -eq "*contoso.com"}
+```
 
 En este ejemplo se suspende el mensaje con el identificador de mensaje 3 en la cola inaccesible del servidor denominado Mailbox01:
 

@@ -106,12 +106,14 @@ Puede abrir los archivos de archivos de instantáneas de mensajes mediante el Bl
 
 Cada archivo de instantánea de mensaje se inicia con encabezados que se añaden al contenido de los mensajes e indican el evento SMTP y el agente de transporte a los que se asocia el archivo de instantánea del mensaje. Estos encabezados empiezan con `X-CreatedBy: MessageSnapshot-Begin injected headers` y terminan con `X-EndOfInjectedXHeaders: MessageSnapshot-End injected headers`, Estos encabezados se reemplazan en cada archivo de instantánea de mensaje por cada agente de transporte y evento SMTP subsiguiente. Aquí le mostramos un ejemplo de los encabezados que se agregan a un archivo de mensaje de correo electrónico:
 
-    X-CreatedBy: MessageSnapshot-Begin injected headers
-    X-MessageSnapshot-UTC-Time: 2013-01-23T23:20:18.138Z
-    X-MessageSnapshot-Record-Id: 21474836486
-    X-MessageSnapshot-Source: OnSubmittedMessageX-Sender: michelle@nwtraders.com
-    X-Receiver: chris@contoso.com
-    X-EndOfInjectedXHeaders: MessageSnapshot-End injected headers
+```powershell
+X-CreatedBy: MessageSnapshot-Begin injected headers
+X-MessageSnapshot-UTC-Time: 2013-01-23T23:20:18.138Z
+X-MessageSnapshot-Record-Id: 21474836486
+X-MessageSnapshot-Source: OnSubmittedMessageX-Sender: michelle@nwtraders.com
+X-Receiver: chris@contoso.com
+X-EndOfInjectedXHeaders: MessageSnapshot-End injected headers
+```
 
 Después de los encabezados de la instantánea del mensaje, el archivo incluye el contenido del mensaje, incluso todos los encabezados originales del mensaje. Si un agente de transporte modifica los contenidos del mensaje, los cambios aparecen integrados en el mensaje. A medida que se procesa el mensaje por cada agente de transporte, los cambios realizados por cada uno de ellos se aplican a los contenidos del mensaje. Si un agente de transporte no realiza cambios al contenido de un mensaje, la instantánea del mensaje creada por el agente será idéntica a la instantánea del mensaje creada por el agente de transporte anterior.
 

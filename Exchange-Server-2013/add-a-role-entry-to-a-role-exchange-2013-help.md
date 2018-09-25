@@ -73,7 +73,9 @@ Para obtener información más detallada acerca de la sintaxis y los parámetros
 
 Si desea agregar una entrada de función de una función primaria, pero desea incluir solamente parámetros específicos en la entrada de función en la función secundaria, utilice la siguiente sintaxis.
 
-    Add-ManagementRoleEntry <child role name>\<cmdlet> -Parameters <parameter 1>, <parameter 2>, <parameter...>
+```powershell
+Add-ManagementRoleEntry <child role name>\<cmdlet> -Parameters <parameter 1>, <parameter 2>, <parameter...>
+```
 
 En este ejemplo, se agrega el cmdlet **Set-Mailbox** a la función de Servicio de asistencia, pero incluye solamente los parámetros *DisplayName* y *EmailAddresses* en la entrada en la función secundaria.
 
@@ -91,11 +93,15 @@ Si desea agregar más de una entrada de función a una función, deberá recuper
 
 Para agregar múltiples entradas de una función primaria a una función secundaria, use la siguiente sintaxis.
 
-    Get-ManagementRoleEntry <parent role name>\*<partial cmdlet name>* | Add-ManagementRoleEntry -Role <child role name>
+```powershell
+Get-ManagementRoleEntry <parent role name>\*<partial cmdlet name>* | Add-ManagementRoleEntry -Role <child role name>
+```
 
 En este ejemplo, se agrega todas las entradas de la función que contiene la cadena `Mailbox` en el nombre de cmdlet en la función primaria de Destinatarios de correo a la función secundaria de Destinatarios de correo de Seattle.
 
-    Get-ManagementRoleEntry "Mail Recipients\*Mailbox*" | Add-ManagementRoleEntry -Role "Seattle Mail Recipients"
+```powershell
+Get-ManagementRoleEntry "Mail Recipients\*Mailbox*" | Add-ManagementRoleEntry -Role "Seattle Mail Recipients"
+```
 
 Si las entradas de la función ya existen en la función secundaria, puede incluir el parámetro *Overwrite* para sobrescribir las entradas de función existentes.
 

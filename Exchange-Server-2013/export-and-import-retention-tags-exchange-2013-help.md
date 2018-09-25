@@ -64,8 +64,8 @@ Para otras tareas de administración relacionadas con la administración de regi
 1.  Ejecute este comando Shell de administración de Exchange para cambiar el directorio en el subdirectorio de **secuencias de comandos** en la ruta de instalación Exchange.
     
     ```powershell
-Cd $Env:ExchangeInstallPath\Scripts
-```
+    Cd $Env:ExchangeInstallPath\Scripts
+    ```
 
 2.  Ejecute el script Export-RetentionTags.ps1 para exportar las etiquetas de retención a un archivo XML.
     
@@ -75,8 +75,8 @@ Cd $Env:ExchangeInstallPath\Scripts
 
     
     ```powershell
-.\Export-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
-```
+    .\Export-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -91,8 +91,8 @@ Para comprobar que ha exportado correctamente las etiquetas y directivas de rete
 1.  Ejecute este comando Shell de administración de Exchange para cambiar el directorio en el subdirectorio de **secuencias de comandos** en la ruta de instalación Exchange.
     
     ```powershell
-Cd $Env:ExchangeInstallPath\Scripts
-```
+    Cd $Env:ExchangeInstallPath\Scripts
+    ```
 
 2.  Ejecute el script Import-RetentionTags.ps1 para importar las etiquetas de retención desde un archivo XML exportado previamente.
     
@@ -107,8 +107,8 @@ Cd $Env:ExchangeInstallPath\Scripts
 
     
     ```powershell
-.\Import-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
-```
+    .\Import-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

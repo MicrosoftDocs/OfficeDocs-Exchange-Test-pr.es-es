@@ -86,8 +86,8 @@ Para comprobar que ha realizado una copia de seguridad correcta de los datos, si
   - Abra el Visor de eventos y compruebe que se registró un evento de finalización de copia de seguridad en el registro de eventos de aplicaciones.
 
   - Ejecute el siguiente comando en el Shell de administración de Exchange para comprobar que se realizaron correctamente las copias de seguridad de todas las bases de datos de los volúmenes seleccionados:
-    
+    ```powershell    
         Get-MailboxDatabase -Server <ServerName> -Status | fl Name,*FullBackup
-    
+    ```   
     Las propiedades *SnapshotLastFullBackup* y *LastFullBackup* de la base de datos indican cuándo se realizó la última copia de seguridad correcta y si era una copia de seguridad completa de VSS.
 

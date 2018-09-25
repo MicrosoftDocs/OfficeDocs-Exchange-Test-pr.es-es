@@ -1,5 +1,5 @@
 ﻿---
-title: 'Administrar copias de bases de datos de buzones de correo: Exchange 2013 Help'
+title: 'Administración de copias de bases de datos de buzones de correo: Exchange 2013 Help'
 TOCTitle: Administración de copias de bases de datos de buzones de correo
 ms:assetid: 28cedf1d-365a-4e36-b2ba-6bf81af8684f
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd335158(v=EXCHG.150)
@@ -165,9 +165,9 @@ La aplicación de revisión de páginas está disponible para las copias retrasa
 
 El comportamiento de reproducción de copias retrasadas está deshabilitado de manera predeterminada, pero se puede habilitar mediante la ejecución del siguiente comando.
 
-```powershell
-Set-DatabaseAvailabilityGroup <DAGName> -ReplayLagManagerEnabled $true
-```
+  ```powershell
+  Set-DatabaseAvailabilityGroup <DAGName> -ReplayLagManagerEnabled $true
+  ```
 
 Después de su habilitación, la reproducción ocurre cuando hay menos de tres copias. Puede cambiar el valor predeterminado de 3 modificando el siguiente valor DWORD del Registro.
 
@@ -616,19 +616,21 @@ La siguiente tabla muestra los parámetros disponibles para el script Redistribu
 
 En este ejemplo se muestra la distribución actual de las bases de datos de un DAG, incluida la lista de conteo de preferencia.
 
-```powershell
-RedistributeActiveDatabases.ps1 -DagName DAG1 -ShowDatabaseDistributionByServer | Format-Table
-```
+  ```powershell
+  RedistributeActiveDatabases.ps1 -DagName DAG1 -ShowDatabaseDistributionByServer | Format-Table
+  ```
 
 En este ejemplo se redistribuyen y equilibran las copias activas de las bases de datos del buzón de correo de un DAG mediante el uso de la preferencia de activación sin solicitar entrada.
 
-```powershell
-RedistributeActiveDatabases.ps1 -DagName DAG1 -BalanceDbsByActivationPreference -Confirm:$False
-```
+  ```powershell
+  RedistributeActiveDatabases.ps1 -DagName DAG1 -BalanceDbsByActivationPreference -Confirm:$False
+  ```
 
 En este ejemplo se redistribuyen y equilibran las copias de las bases de datos de buzones de correo activas de un DAG, mediante la preferencia de activación, y se genera un resumen de la distribución.
 
-    RedistributeActiveDatabases.ps1 -DagName DAG1 -BalanceDbsByActivationPreference -ShowFinalDatabaseDistribution
+  ```powershell
+  RedistributeActiveDatabases.ps1 -DagName DAG1 -BalanceDbsByActivationPreference -ShowFinalDatabaseDistribution
+  ```
 
 ## Supervisión de copias de base de datos
 

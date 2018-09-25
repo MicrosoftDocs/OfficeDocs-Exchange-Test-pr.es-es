@@ -556,16 +556,18 @@ Un mensaje sin eventos enviado entre dos usuarios genera varias entradas en el r
 
 Este es un ejemplo condensado de entradas del registro de seguimiento de mensajes creadas cuando el usuario chris@contoso.com envía correctamente un mensaje de prueba al usuario michelle@contoso.com. Ambos usuarios tienen buzones de correo en el mismo servidor.
 
-    EventId    Source      Sender            Recipients             MessageSubject
-    -------    ------      ------            ----------             --------------
-    NOTIFYMAPI STOREDRIVER                   {}
-    RECEIVE    STOREDRIVER chris@contoso.com {michelle@contoso.com} test
-    SUBMIT     STOREDRIVER chris@contoso.com {michelle@contoso.com} test
-    HAREDIRECT SMTP        chris@contoso.com {michelle@contoso.com} test
-    RECEIVE    SMTP        chris@contoso.com {michelle@contoso.com} test
-    AGENTINFO  AGENT       chris@contoso.com {michelle@contoso.com} test
-    SEND       SMTP        chris@contoso.com {michelle@contoso.com} test
-    DELIVER    STOREDRIVER chris@contoso.com {michelle@contoso.com} test
+```powershell
+EventId    Source      Sender            Recipients             MessageSubject
+-------    ------      ------            ----------             --------------
+NOTIFYMAPI STOREDRIVER                   {}
+RECEIVE    STOREDRIVER chris@contoso.com {michelle@contoso.com} test
+SUBMIT     STOREDRIVER chris@contoso.com {michelle@contoso.com} test
+HAREDIRECT SMTP        chris@contoso.com {michelle@contoso.com} test
+RECEIVE    SMTP        chris@contoso.com {michelle@contoso.com} test
+AGENTINFO  AGENT       chris@contoso.com {michelle@contoso.com} test
+SEND       SMTP        chris@contoso.com {michelle@contoso.com} test
+DELIVER    STOREDRIVER chris@contoso.com {michelle@contoso.com} test
+```
 
 Volver al principio
 

@@ -91,15 +91,13 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, vea
 Si solo hay una copia de la base de datos de buzones de correo, debe reinicializar manualmente el catálogo de búsqueda volviendo a crear el catálogo del índice de contenido.
 
 1.  Ejecute los siguientes comandos para detener los servicios de búsqueda de Microsoft Exchange y de controlador de host de búsqueda de Microsoft Exchange.
-    ```
+
     ```powershell
-Stop-Service MSExchangeFastSearch
-```
+        Stop-Service MSExchangeFastSearch
     ```
-    ```
+
     ```powershell
-Stop-Service HostControllerService
-```
+        Stop-Service HostControllerService
     ```
 
 2.  Elimine, mueva o cambie el nombre de la carpeta que contiene el catálogo del índice de contenido de Exchange. Esta carpeta se llama `%ExchangeInstallPath\Mailbox\<name of mailbox database>_Catalog\<GUID>12.1.Single`. Por ejemplo, podría cambiar el nombre de la carpeta `C:\Program Files\Microsoft\Exchange Server\V15\Mailbox\Mailbox Database 0657134726_Catalog\F0627A72-9F1D-494A-839A-D7C915C279DB12.1.Single_OLD`.
@@ -111,15 +109,13 @@ Stop-Service HostControllerService
 
 
 3.  Ejecute los siguientes comandos para reiniciar los servicios de búsqueda de Microsoft Exchange y de controlador de host de búsqueda de Microsoft Exchange.
-    ```
+
     ```powershell
-Start-Service MSExchangeFastSearch
-```
+        Start-Service MSExchangeFastSearch
     ```
-    ```
+
     ```powershell
-Start-Service HostControllerService
-```
+        Start-Service HostControllerService
     ```
     
     Después de reiniciar estos servicios, Exchange Search volverá a crear el catálogo del índice de contenido.
@@ -128,7 +124,9 @@ Start-Service HostControllerService
 
 Exchange Search podría tardar un poco en reinicializar el catálogo del índice de contenido. Ejecute el siguiente comando para mostrar el estado del proceso de reinicialización:
 
-    Get-MailboxDatabaseCopyStatus | FL Name,*Index*
+```powershell
+Get-MailboxDatabaseCopyStatus | FL Name,*Index*
+```
 
 Cuando la reinicialización del catálogo de búsqueda está en curso, el valor de la propiedad *ContentIndexState* es **Rastreando**. Cuando la reinicialización finaliza, este valor cambia a **Correcto**.
 

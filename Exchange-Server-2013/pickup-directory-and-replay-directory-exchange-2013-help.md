@@ -87,28 +87,32 @@ Un archivo de mensaje que se copie en el directorio de recogida debe cumplir los
 
 En este ejemplo, se muestra un mensaje de texto que utiliza un formato aceptable para el directorio de recogida.
 
-    To: mary@contoso.com
-    From: bob@fabrikam.com
-    Subject: Message subject
-    
-    This is the body of the message.
+```HTML
+To: mary@contoso.com
+From: bob@fabrikam.com
+Subject: Message subject
+
+This is the body of the message.
+```
 
 El contenido MIME también se admite en archivos de mensaje del directorio de recogida. MIME define una amplia gama de contenido de mensajes, que incluye lenguajes que no pueden representarse en texto ASCII de 7 bits, HTML y otros contenidos multimedia. La descripción de MIME y sus requisitos están fuera del alcance de este tema. En este ejemplo, se muestra un mensaje de MIME simple que usa un formato aceptable para el directorio de recogida.
 
-    To: mary@contoso.com
-    From: bob@fabrikam.com
-    Subject: Message subject
-    MIME-Version: 1.0
-    Content-Type: text/html; charset="iso-8859-1"
-    Content-Transfer-Encoding: 7bit
-    
-    <HTML><BODY>
-    <TABLE>
-    <TR><TD>cell 1</TD><TD>cell 2</TD></TR>
-    <TR><TD>cell 3</TD><TD>cell 4</TD></TR>
-    </TABLE>
+```HTML
+To: mary@contoso.com
+From: bob@fabrikam.com
+Subject: Message subject
+MIME-Version: 1.0
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
 
-    </BODY></HTML>
+<HTML><BODY>
+<TABLE>
+<TR><TD>cell 1</TD><TD>cell 2</TD></TR>
+<TR><TD>cell 3</TD><TD>cell 4</TD></TR>
+</TABLE>
+
+</BODY></HTML>
+```
 
 Volver al principio
 
@@ -130,7 +134,9 @@ El directorio de recogida quita los siguientes campos de encabezado del mensaje:
 
 El directorio de recogida agrega su propio campo de encabezado `Received` al mensaje como parte del proceso de envío. El campo de encabezado `Received` se aplica en el formato siguiente.
 
-    Received: from localhost by Pickup with Microsoft SMTP Server id <ExchangeServerVersion><datetime>
+  ```powershell
+  Received: from localhost by Pickup with Microsoft SMTP Server id <ExchangeServerVersion><datetime>
+  ```
 
 El directorio de recogida modifica los siguientes campos de encabezado del mensaje si faltan o tienen un formato incorrecto:
 
@@ -160,9 +166,9 @@ Los encabezados X descritos en la siguiente lista son necesarios para los mensaj
 
   - **Remitente X**   Este encabezado X sustituye al requisito de campo de encabezado `From` de un mensaje SMTP típico. Debe existir un campo `X-Sender` que contenga una dirección de correo electrónico. El directorio de reproducción ignora el campo de encabezado `From` si está presente, aunque el cliente de correo electrónico del destinatario muestra el valor del campo de encabezado de mensaje `From` como remitente del mensaje. Suelen existir otros parámetros en el campo `X-Sender`, como figura en el siguiente ejemplo.
     
-    ```powershell
-X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
-```
+      ```powershell
+      X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
+      ```
     
 
     > [!NOTE]
@@ -172,9 +178,9 @@ X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
 
   - **Destinatario X**   Este encabezado X sustituye al requisito de campo de encabezado `To` de un mensaje SMTP típico. Debe existir como mínimo un campo `X-Receiver` que contenga una dirección de correo electrónico. Se permiten múltiples campos `X-Receiver` para múltiples destinatarios. El directorio de reproducción ignora los campos de encabezado de mensaje `To` si están presentes, aunque el cliente de correo electrónico del destinatario muestra los valores de los campos de encabezado de mensaje `To` como destinatarios del mensaje. Pueden existir otros parámetros opcionales en los campos `X-Receiver`, como figura en el siguiente ejemplo.
     
-    ```powershell
-X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
-```
+      ```powershell
+      X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+      ```
     
 
     > [!NOTE]
@@ -198,34 +204,34 @@ Los encabezados X descritos en la siguiente lista son opcionales para los archiv
 
 En este ejemplo, se muestra un mensaje de texto que utiliza un formato aceptable para el directorio de reproducción.
 
-```powershell
-X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
-```
-    X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345AB auth=<someAuth>
-    Subject: Optional message subject
-    
-    This is the body of the message.
+  ```powershell
+  X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+  X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345AB auth=<someAuth>
+  Subject: Optional message subject
+  
+  This is the body of the message.
+  ```
 
 El contenido MIME también es compatible en los archivos de mensajes del directorio de reproducción. MIME define una amplia gama de contenido de mensajes, que incluye lenguajes que no pueden representarse en texto ASCII de 7 bits, HTML y otros contenidos multimedia. La descripción de MIME y sus requisitos están fuera del alcance de este tema. En este ejemplo, se muestra un mensaje de MIME simple que usa un formato aceptable para el directorio de reproducción.
 
-```powershell
-X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
-```
-    X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345ABCD auth=<someAuth>
-    To: mary@contoso.com
-    From: bob@fabrikam.com
-    Subject: Optional message subject
-    MIME-Version: 1.0
-    Content-Type: text/html; charset="iso-8859-1"
-    Content-Transfer-Encoding: 7bit
-    
-    <HTML><BODY>
-    <TABLE>
-    <TR><TD>cell 1</TD><TD>cell 2</TD></TR>
-    <TR><TD>cell 3</TD><TD>cell 4</TD></TR>
-    </TABLE>
+  ```HTML
+  X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+  X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345ABCD auth=<someAuth>
+  To: mary@contoso.com
+  From: bob@fabrikam.com
+  Subject: Optional message subject
+  MIME-Version: 1.0
+  Content-Type: text/html; charset="iso-8859-1"
+  Content-Transfer-Encoding: 7bit
+  
+  <HTML><BODY>
+  <TABLE>
+  <TR><TD>cell 1</TD><TD>cell 2</TD></TR>
+  <TR><TD>cell 3</TD><TD>cell 4</TD></TR>
+  </TABLE>
 
-    </BODY></HTML>
+  </BODY></HTML>
+  ```
 
 Volver al principio
 
@@ -235,7 +241,9 @@ El directorio de reproducción elimina el campo de encabezado de mensaje `Bcc` d
 
 El directorio de reproducción agrega su propio campo de encabezado de mensaje `Received` a un mensaje como parte del proceso de envío de mensajes. El campo de encabezado de mensaje Recibido se aplica en el formato siguiente.
 
-    Received: from <ReceivingServerName> by Replay with <ExchangeServerVersion><DateTime>
+  ```powershell
+  Received: from <ReceivingServerName> by Replay with <ExchangeServerVersion><DateTime>
+  ```
 
 El directorio de reproducción modifica los siguientes campos de encabezado de mensaje en el encabezado del mensaje:
 

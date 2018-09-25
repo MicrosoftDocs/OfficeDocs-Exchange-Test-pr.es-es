@@ -82,10 +82,10 @@ El archivado local permite recuperar el control de los datos de mensajería de l
 ## Usar el Shell
 
 En este ejemplo, se crea el usuario Chris Ashton en Active Directory y se crea el buzón en la base de datos de buzones de correo DB01 con archivo habilitado. Se debe restablecer la contraseña en el siguiente inicio de sesión. Para establecer el valor inicial de la contraseña, en este ejemplo se crea una variable ($password), se le pide que escriba una contraseña y se asigna dicha contraseña a la variable como un objeto SecureString.
-
+```powershell
     $password = Read-Host "Enter password" -AsSecureString
     New-Mailbox -UserPrincipalName chris@contoso.com -Alias chris -Archive -Database "DB01" -Name ChrisAshton -OrganizationalUnit Users -Password $password -FirstName Chris -LastName Ashton -DisplayName "Chris Ashton" 
-
+```
 Para obtener información detallada acerca de la sintaxis y los parámetros, vea [New-Mailbox](https://technet.microsoft.com/es-es/library/aa997663\(v=exchg.150\)).
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
@@ -95,8 +95,9 @@ Para comprobar si creó un buzón de usuario con un archivo local correctamente,
   - En el EAC, vaya a **Destinatarios**\>**Buzones de correo** y, a continuación, seleccione el buzón de usuario nuevo en la lista. En el panel de detalles, en **Archivado local**, confirme que esté establecido en **Habilitado**. Haga clic en **Ver detalles** para ver las propiedades del archivo, incluido el estado del archivo y la base de datos de buzones de correo en la cual se creó.
 
   - En el Shell, ejecute el siguiente comando para mostrar información acerca del nuevo buzón de usuario y del archivo.
-    
+    ```powershell
         Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress,*Archive*
+    ```
 
   - En el Shell, use el cmdlet **Test-ArchiveConnectivity** para probar la conectividad con el archivo. Para consultar ejemplos sobre cómo probar la conectividad del archivo, vea la sección Ejemplos de [Test-ArchiveConnectivity](https://technet.microsoft.com/es-es/library/hh529914\(v=exchg.150\)).
 
@@ -129,8 +130,9 @@ Enable-Mailbox "Tony Smith" -Archive
 ```
 
 En este ejemplo se recuperan los buzones de la base de datos DB01 que no tienen ningún archivo local o basado en la nube habilitado y ningún nombre que empiece por DiscoverySearchMailbox. El resultado se canaliza al cmdlet **Enable-Mailbox** para habilitar el archivo de todos los buzones de la base de datos de buzones de correo DB01.
-
+```powershell
     Get-Mailbox -Database DB01 -Filter {ArchiveGuid -Eq $null -AND ArchiveDomain -eq $null -AND Name -NotLike "DiscoverySearchMailbox*"} | Enable-Mailbox -Archive
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, vea [Enable-Mailbox](https://technet.microsoft.com/es-es/library/aa998251\(v=exchg.150\)) y [Get-Mailbox](https://technet.microsoft.com/es-es/library/bb123685\(v=exchg.150\)).
 
@@ -141,8 +143,9 @@ Para comprobar si habilitó un archivo local para un buzón existente correctame
   - En el EAC, vaya a **Destinatarios** \> **Buzones** y, luego, seleccione el buzón en la lista. En el panel de detalles, en **Archivado local**, confirme que esté establecido en **Habilitado**. Haga clic en **Ver detalles** para ver las propiedades del archivo, incluido el estado del archivo y la base de datos de buzones de correo en la cual se creó.
 
   - En el Shell, ejecute el siguiente comando para mostrar información acerca del nuevo archivo.
-    
+```powershell    
         Get-Mailbox <Name> | FL Name,*Archive*
+```
 
   - En el Shell, use el cmdlet **Test-ArchiveConnectivity** para probar la conectividad con el archivo. Para consultar ejemplos sobre cómo probar la conectividad de archivo, vea [Test-ArchiveConnectivity](https://technet.microsoft.com/es-es/library/hh529914\(v=exchg.150\)).
 
@@ -189,8 +192,9 @@ Para comprobar que el archivo se deshabilitó correctamente, siga estos pasos:
   - En el EAC, seleccione el buzón. Luego, en el panel de detalles, compruebe su estado de archivo en **Archivado local**.
 
   - En el Shell, ejecute el siguiente comando para comprobar las propiedades de archivo del usuario de buzón.
-    
+    ```powershell
         Get-Mailbox -Identity "Chris Ashton" | Format-List *Archive*
+    ```
     
     Si el archivo está deshabilitado, se devolverán los siguientes valores para las propiedades relacionadas con el archivo.
     
@@ -246,12 +250,14 @@ Cuando se deshabilita un buzón de archivo, éste pasa a estar desconectado. Un 
 ## Usar el Shell
 
 1.  Si no conoce el nombre del archivo, puede verlo en el Shell mediante la ejecución del comando siguiente. Este ejemplo recupera la base de datos de buzones de correo DB01, transmite todo al cmdlet **Get-MailboxStatistics** para recuperar las estadísticas de buzón de todos los buzones de la base de datos y, a continuación, usa el cmdlet **Where-Object** para filtrar los resultados y recuperar una lista de los archivos desconectados. El comando muestra información adicional acerca de cada archivo como el GUID y el recuento de elementos.
-    
+    ```powershell
         Get-MailboxDatabase "DB01" | Get-MailboxStatistics | Where {($_.DisconnectDate -ne $null) -and ($_.IsArchiveMailbox -eq $true)} | Format-List
+    ```
 
 2.  Conectar los archivos al buzón de correo principal. En este ejemplo se conecta el archivo de Chris Ashton a su buzón de correo principal y se usa el GUID como identidad del archivo.
-    
+    ```powershell
         Enable-Mailbox -ArchiveGuid "8734c04e-981e-4ccf-a547-1c1ac7ebf3e2" -ArchiveDatabase "DB01" -Identity "Chris Ashton"
+    ```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, vea estos temas:
 
@@ -264,6 +270,7 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, vea
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que el archivo se conectó y se desconectó correctamente a un buzón de usuario, ejecute el siguiente comando del Shell para recuperar las propiedades de archivo del usuario del buzón y comprobar los valores devueltos para las propiedades *ArchiveGuid* y *ArchiveDatabase*:
-
+```powershell
     Get-Mailbox -Identity "Chris Ashton" | Format-List *Archive*
+```
 

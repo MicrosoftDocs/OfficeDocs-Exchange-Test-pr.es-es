@@ -1,5 +1,5 @@
 ﻿---
-title: 'Mover una carpeta pública a otro buzón de carpetas públicas Exchange 2013 Help'
+title: 'Mover una carpeta pública a otro buzón de carpetas públicas: Exchange 2013 Help'
 TOCTitle: Mover una carpeta pública a otro buzón de carpetas públicas
 ms:assetid: b8744934-a3cb-443e-acce-a9a6ca5d88f6
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ906435(v=EXCHG.150)
@@ -53,7 +53,9 @@ Para otras tareas de administración relacionadas con carpetas públicas, consul
 
 En este ejemplo se inicia la solicitud de movimiento de la carpeta pública \\CustomerEnagagements del buzón de carpetas públicas DeveloperReports a DeveloperReports01
 
-    New-PublicFolderMoveRequest -Folders \DeveloperReports\CustomerEngagements -TargetMailbox DeveloperReports01
+```powershell
+New-PublicFolderMoveRequest -Folders \DeveloperReports\CustomerEngagements -TargetMailbox DeveloperReports01
+```
 
 
 > [!NOTE]
@@ -67,7 +69,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 En este ejemplo se inicia la solicitud de movimiento de las carpetas públicas de la rama \\Dev al buzón de carpetas públicas de destino DeveloperReports01. La carpeta pública \\Dev no se mueve.
 
-    New-PublicFolderMoveRequest -Folders \Dev\CustomerEngagements,\Dev\RequestsforChange,\Dev\Usability -TargetMailbox DeveloperReports01
+```powershell
+New-PublicFolderMoveRequest -Folders \Dev\CustomerEngagements,\Dev\RequestsforChange,\Dev\Usability -TargetMailbox DeveloperReports01
+```
 
 
 > [!NOTE]
@@ -81,9 +85,11 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 En este ejemplo se usa el script `Move-PublicFolderBranch.ps1` para mover una rama de carpetas públicas. Esto inicia la solicitud de movimiento de la carpeta pública \\Dev y todas sus subcarpetas al buzón de carpetas públicas DeveloperReports01. El script está ubicado en la carpeta de scripts y se debe ejecutar desde dicha ubicación.
 
-    CD $env:ExchangeInstallPath\scripts
+```powershell
+CD $env:ExchangeInstallPath\scripts
     
-    .\Move-PublicFolderBranch.ps1 -FolderRoot \Dev -TargetPublicFolderMailbox DeveloperReports01
+.\Move-PublicFolderBranch.ps1 -FolderRoot \Dev -TargetPublicFolderMailbox DeveloperReports01
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

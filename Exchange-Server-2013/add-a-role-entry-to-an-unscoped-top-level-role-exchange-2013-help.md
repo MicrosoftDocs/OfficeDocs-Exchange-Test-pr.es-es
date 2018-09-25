@@ -1,5 +1,5 @@
 ﻿---
-title: 'Agregar entrada función a función nivel superior sin ámbito Exchange 2013 Help'
+title: 'Agregar una entrada de función a una función de nivel superior sin ámbito: Exchange 2013 Help'
 TOCTitle: Agregar una entrada de función a una función de nivel superior sin ámbito
 ms:assetid: 52fd3f20-c348-49d5-9bdb-f2cbf780cf2d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd979789(v=EXCHG.150)
@@ -61,11 +61,15 @@ El script debe residir en el directorio de scripts en la ruta de instalación de
 
 Después de que copia el script en los servidores de Exchange 2013 adecuados y decide cuáles parámetros de script se deben usar, cree la entrada de función mediante la siguiente sintaxis.
 
-    Add-ManagementRoleEntry <unscoped top-level role name>\<script filename> -Parameters <parameter 1, parameter 2, parameter...> -Type Script -UnscopedTopLevel
+```powershell
+Add-ManagementRoleEntry <unscoped top-level role name>\<script filename> -Parameters <parameter 1, parameter 2, parameter...> -Type Script -UnscopedTopLevel
+```
 
 En este ejemplo, se agrega el script BulkProvisionUsers.ps1 a la función scripts de TI con los parámetros *Name* y *Location*.
 
-    Add-ManagementRoleEntry "IT Scripts\BulkProvisionUsers.ps1" -Parameters Name, Location -Type Script -UnscopedTopLevel
+```powershell
+Add-ManagementRoleEntry "IT Scripts\BulkProvisionUsers.ps1" -Parameters Name, Location -Type Script -UnscopedTopLevel
+```
 
 
 > [!NOTE]
@@ -83,11 +87,15 @@ Si agrega cmdlets que no son Exchange a la nueva función, los cmdlets se deben 
 
 Después de instalar el componente PowerShell de Windows que contiene los cmdlet adecuados en los servidores de Exchange 2013 y de decidir qué parámetros de cmdlet se deben usar, cree la entrada de función con la siguiente sintaxis.
 
-    Add-ManagementRoleEntry <unscoped top-level role name>\<cmdlet name> -PSSnapinName <snap-in name> -Parameters <parameter 1, parameter 2, parameter...> -Type Cmdlet -UnscopedTopLevel
+```powershell
+Add-ManagementRoleEntry <unscoped top-level role name>\<cmdlet name> -PSSnapinName <snap-in name> -Parameters <parameter 1, parameter 2, parameter...> -Type Cmdlet -UnscopedTopLevel
+```
 
 En este ejemplo, se agrega el cmdlet **Set-WidgetConfiguration** en el complemento Contoso.Admin.Cmdlets para la función de cmdlets de Widget con los parámetros *Database* y *Size*.
 
-    Add-ManagementRoleEntry "Widget Cmdlets\Set-WidgetConfiguration" -PSSnapinName Contoso.Admin.Cmdlets -Parameters Database, Size -Type Cmdlet -UnscopedTopLevel
+```powershell
+Add-ManagementRoleEntry "Widget Cmdlets\Set-WidgetConfiguration" -PSSnapinName Contoso.Admin.Cmdlets -Parameters Database, Size -Type Cmdlet -UnscopedTopLevel
+```
 
 
 > [!NOTE]

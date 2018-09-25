@@ -66,8 +66,8 @@ Para comprobar que haya configurado correctamente las redes de DAG, siga estos p
   - En el Shell, ejecute el siguiente comando para mostrar los ajustes de la configuración de una red de DAG y comprobar que la red de DAG se haya configurado correctamente.
     
     ```powershell
-Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
-```
+    Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
+    ```
 
 ## Más información
 

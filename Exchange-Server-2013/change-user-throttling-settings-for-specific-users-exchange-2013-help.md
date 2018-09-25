@@ -54,15 +54,13 @@ Set-ThrottlingPolicyAssociation -Identity tonysmith -ThrottlingPolicy ITStaffPol
 ```
 
 No necesita utilizar el cmdlet **Set-ThrottlingPolicyAssociation** para asociar al usuario con una directiva. Los comandos siguientes muestran otra manera de asociar tonysmith a la directiva de limitación ITStaffPolicy.
-```
+
 ```powershell
 $b = Get-ThrottlingPolicy ITStaffPolicy
 ```
-```
-```
+
 ```powershell
 Set-Mailbox -Identity tonysmith -ThrottlingPolicy $b
-```
 ```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [New-ThrottlingPolicy](https://technet.microsoft.com/es-es/library/dd351045\(v=exchg.150\)) y [Set-ThrottlingPolicyAssociation](https://technet.microsoft.com/es-es/library/ff459231\(v=exchg.150\)).
@@ -74,24 +72,23 @@ Para comprobar que la directiva de limitación Regular se creó correctamente, s
 1.  Ejecute el siguiente comando.
     
     ```powershell
-Get-ThrottlingPolicy | Format-List
-```
+    Get-ThrottlingPolicy | Format-List
+    ```
 
 2.  Compruebe que la directiva de limitación Regular que acaba de crear aparece en la columna que muestra el objeto GlobalThrottlingPolicy.
 
 3.  Ejecute el siguiente comando.
     
     ```powershell
-Get-ThrottlingPolicy | Format-List
-```
+    Get-ThrottlingPolicy | Format-List
+    ```
 
 4.  Compruebe que las propiedades de la nueva directiva Regular coinciden con el valor o valores configurados.
 
 5.  Ejecute el siguiente comando.
     
     ```powershell
-Get-ThrottlingPolicyAssociation
-```
+    Get-ThrottlingPolicyAssociation
+    ```
 
 6.  Compruebe que la nueva directiva Regular está asociada al usuario o usuarios con los que la asoció.
-

@@ -24,7 +24,7 @@ Una clave de producto indica a Exchange Server 2013 que ha comprado una licencia
 Si no especifica una clave de producto, el servidor obtiene automáticamente una licencia de edición de prueba. La edición de prueba funciona exactamente igual que un servidor estándar de Exchange y resulta útil para probar Exchange antes de comprobarlo o ejecutar pruebas en un laboratorio. La única diferencia es que solo puede usar un servidor de Exchange con licencia de prueba durante un máximo de 180 días. Si quiere continuar usando el servidor pasados los 180 días, deberá especificar una clave de producto. De lo contrario, el Centro de administración de Exchange (EAC) comenzará a mostrarle recordatorios de que debe especificar una clave de producto para obtener la licencia para el servidor.
 
 
-> [!TIP]
+> [!TIP]  
 > Hemos observado que algunos visitantes de esta página buscan información sobre cómo instalar o activar Office. Si ese es su caso, consulte estas páginas: 
 > <UL>
 > <LI>
@@ -81,10 +81,8 @@ Si no especifica una clave de producto, el servidor obtiene automáticamente una
 En este ejemplo se usa el cmdlet **set-ExchangeServer** para especificar la clave del producto.
 
 
-> [!NOTE]
+> [!NOTE]  
 > Puede volver a ejecutar este comando en el mismo servidor para actualizarlo de una licencia Standard&nbsp;Edition a una licencia Enterprise&nbsp;Edition.
-
-
 
 ```powershell
 Set-ExchangeServer ExServer01 -ProductKey aaaaa-aaaaa-aaaaa-aaaaa-aaaaa
@@ -114,9 +112,13 @@ Haga lo siguiente para usar el Shell con objeto de confirmar que se ha obtenido 
 
 2.  Ejecute el siguiente comando para consultar el estado de la licencia de un servidor de Exchange concreto.
     
-        Get-ExchangeServer ExServer01 | Format-Table Edition,*Trial*
+     ```powershell
+     Get-ExchangeServer ExServer01 | Format-Table Edition,*Trial*
+     ```
 
 3.  (Opcional) Ejecute el siguiente comando para ver el estado de la licencia de todos los servidores Exchange de su organización.
     
-        Get-ExchangeServer | Format-Table Name, Edition, *Trial* -Auto
+     ```powershell
+     Get-ExchangeServer | Format-Table Name, Edition, *Trial* -Auto
+     ```
 

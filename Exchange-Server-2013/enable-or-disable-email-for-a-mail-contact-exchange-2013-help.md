@@ -76,16 +76,16 @@ Para comprobar si deshabilitó el correo electrónico para un contacto de correo
 3.  En el Shell, ejecute el siguiente comando.
     
     ```powershell
-Get-MailContact
-```
+    Get-MailContact
+    ```
     
     El contacto para el que deshabilitó el correo electrónico no se devuelve en los resultados porque este cmdlet solo devuelve los contactos habilitados para correo.
 
 4.  En el Shell, ejecute el siguiente comando.
     
     ```powershell
-Get-Contact
-```
+    Get-Contact
+    ```
     
     El contacto para el que deshabilitó el correo electrónico se devuelve en los resultados porque este cmdlet devuelve todos los objetos de contacto de Active Directory.
 
@@ -107,31 +107,39 @@ Al habilitar varios contactos para correo de forma masiva, primero debe exportar
 
 1.  Ejecute el siguiente comando para exportar una lista de los contactos existentes que no están habilitados para correo a un archivo en el escritorio del administrador llamado Contacts.csv.
     
-        Get-Contact | Where { $_.RecipientType -eq "Contact" } | Out-File "C:\Users\Administrator\Desktop\Contacts.csv"
+    ```powershell
+    Get-Contact | Where { $_.RecipientType -eq "Contact" } | Out-File "C:\Users\Administrator\Desktop\Contacts.csv"
+    ```
     
     El archivo resultante será parecido al siguiente.
     
-        Name
-        Walter Harp
-        James Alvord
-        Rainer Witt
-        Susan Burk
-        Ian Tien
-        ...
+```powershell
+Name
+Walter Harp
+James Alvord
+Rainer Witt
+Susan Burk
+Ian Tien
+...
+```
 
 2.  Agregue un encabezado de columna llamado **EmailAddress** y, a continuación, agregue una dirección de correo para cada contacto del archivo. El nombre y la dirección de correo electrónico externa para cada contacto deben estar separados por una coma. El archivo .CSV actualizado debe ser parecido al siguiente:
     
-        Name,EmailAddress
-        James Alvord,james@contoso.com
-        Susan Burk,sburk@tailspintoys.com
-        Walter Harp,wharp@tailspintoys.com
-        Ian Tien,iant@tailspintoys.com
-        Rainer Witt,rainerw@fourthcoffee.com
-        ...
+    ```powershell
+    Name,EmailAddress
+    James Alvord,james@contoso.com
+    Susan Burk,sburk@tailspintoys.com
+    Walter Harp,wharp@tailspintoys.com
+    Ian Tien,iant@tailspintoys.com
+    Rainer Witt,rainerw@fourthcoffee.com
+    ...
+    ```
 
 3.  Ejecute el siguiente comando para usar los datos del archivo CSV para habilitar para correo los contactos del archivo.
     
-        Import-CSV C:\Users\Administrator\Desktop\Contacts.csv | ForEach-Object {Enable-MailContact -Identity $_.Name -ExternalEmailAddress $_.EmailAddress}
+    ```powershell
+    Import-CSV C:\Users\Administrator\Desktop\Contacts.csv | ForEach-Object {Enable-MailContact -Identity $_.Name -ExternalEmailAddress $_.EmailAddress}
+    ```
     
     Los resultados del comando muestran información acerca de los nuevos contactos habilitados para correo.
 
@@ -150,6 +158,6 @@ Para comprobar si habilitó para correo los contactos de Active Directory correc
   - En el Shell, ejecute el comando siguiente para mostrar información sobre los nuevos contactos de correo.
     
     ```powershell
-Get-MailContact | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
-```
+    Get-MailContact | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+    ```
 

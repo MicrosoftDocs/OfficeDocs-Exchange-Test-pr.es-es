@@ -1,5 +1,5 @@
 ﻿---
-title: 'Agregar servidor de acceso de cliente y buzón a plan de marcado de URI de SIP'
+title: 'Agregar servidores de acceso de cliente y buzón a un plan de marcado de URI de SIP: Exchange 2013 Help'
 TOCTitle: Agregar servidores de acceso de cliente y buzón a un plan de marcado de URI de SIP
 ms:assetid: 17fed308-ff0d-4e61-b9f9-e6680b6eccaa
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa996399(v=EXCHG.150)
@@ -29,7 +29,7 @@ Para otras tareas de administración relacionadas con los planes de marcado de m
 
   - Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento o procedimientos. Para ver qué permisos necesita, consulte el la entrada "Planes de marcado de mensajería unificada" en el tema [Permisos de mensajería unificada](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Antes de llevar a cabo estas tareas, confirme que se haya creado un plan de marcado URI de SIP. Para conocer los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
+  - Antes de llevar a cabo estas tareas, confirme que se haya creado un plan de marcado URI de SIP. Para conocer los pasos detallados, consulte [Crear un plan de marcado de mensajería unificada](create-a-um-dial-plan-exchange-2013-help.md).
 
   - Para obtener información acerca de los métodos abreviados de teclado aplicables a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -57,7 +57,9 @@ Para otras tareas de administración relacionadas con los planes de marcado de m
 
 En este ejemplo se añade el servidor de buzones `MyMailboxServer` a un plan de marcado URI de SIP denominado `MySIPDialPlan` y se impide que acepte nuevas llamadas. Además, establece el modo de inicio en Dual, que permite que el servidor de buzones acepte solicitudes TCP y TLS.
 
-    Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlan -Status Disabled -UMStartupMode Dual
+```powershell
+Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlan -Status Disabled -UMStartupMode Dual
+```
 
 En este ejemplo se agrega el servidor de buzones `MyMailboxServer` a dos planes de marcado SIP denominados `MySIPDialPlan` y `MySIPDialPlan2`, y se define lo siguiente:
 
@@ -69,7 +71,9 @@ En este ejemplo se agrega el servidor de buzones `MyMailboxServer` a dos planes 
 
 <!-- end list -->
 
-    Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlan, MySIPDialPlan2 -IPAddressFamily Any -MaxCallsAllowed 50 -SipAccessService northamerica.lyncpoolna.contoso.com
+```powershell
+Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlan, MySIPDialPlan2 -IPAddressFamily Any -MaxCallsAllowed 50 -SipAccessService northamerica.lyncpoolna.contoso.com
+```
 
 ## Usar el EAC para agregar un servidor de acceso de cliente a un plan de marcado URI de SIP
 
@@ -93,5 +97,7 @@ Set-UMCallRouterSettings -DialPlans MySIPDialPlan -Server MyClientAccessServer -
 
 En este ejemplo se agrega el servidor de acceso de cliente llamado `MyClientAccessServer` a dos planes de marcado SIP (`MySIPDialPlan` y `MySIPDialPlan2`) y se permite al servidor usar las direcciones IPv4 e IPv6.
 
-    Set-UMCallRouterSettings -DialPlans MySIPDialPlan, MySIPDialPlan2 -IPAddressFamily Any -Server MyClientAccessServer
+```powershell
+Set-UMCallRouterSettings -DialPlans MySIPDialPlan, MySIPDialPlan2 -IPAddressFamily Any -Server MyClientAccessServer
+```
 

@@ -56,8 +56,9 @@ Una copia de la base de datos de buzones de correo atrasada es una copia de la b
 
 
 1.  En este ejemplo, se suspende la replicación para la copia retrasada que se activa usando el cmdlet [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd351074\(v=exchg.150\)).
-    
+    ```powershell
         Suspend-MailboxDatabaseCopy DB1\EX3 -SuspendComment "Activate lagged copy of DB1 on Server EX3" -Confirm:$false
+    ```
 
 2.  De manera opcional (para preservar una copia atrasada), realice una copia de la copia de la base de datos y de sus archivos de registro.
     
@@ -74,8 +75,8 @@ Una copia de la base de datos de buzones de correo atrasada es una copia de la b
 5.  En este ejemplo, se usa Eseutil para realizar la operación de recuperación.
     
     ```powershell
-Eseutil.exe /r eXX /a
-```
+    Eseutil.exe /r eXX /a
+    ```
     
 
     > [!NOTE]
@@ -93,8 +94,8 @@ Eseutil.exe /r eXX /a
 7.  Una vez finalizado el proceso de recuperación, en este ejemplo, se reanuda la replicación de la base de datos que se usó como parte del proceso de recuperación.
     
     ```powershell
-Resume-MailboxDatabaseCopy DB1\EX3
-```
+    Resume-MailboxDatabaseCopy DB1\EX3
+    ```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd351074\(v=exchg.150\)) o [Resume-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd335220\(v=exchg.150\)).
 
@@ -103,8 +104,9 @@ Para obtener más información acerca de la sintaxis y los parámetros, consulte
 1.  De manera opcional (para preservar una copia atrasada), realice una copia de la copia de la base de datos y de sus archivos de registro.
     
     1.  En este ejemplo, se suspende la replicación para la copia retrasada que se activa usando el cmdlet [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd351074\(v=exchg.150\)).
-        
+        ```powershell
             Suspend-MailboxDatabaseCopy DB1\EX3 -SuspendComment "Activate lagged copy of DB1 on Server EX3" -Confirm:$false
+        ```
     
     2.  De manera opcional (para preservar una copia atrasada), realice una copia de la copia de la base de datos y de sus archivos de registro.
         
@@ -117,17 +119,17 @@ Para obtener más información acerca de la sintaxis y los parámetros, consulte
 2.  En este ejemplo, se activa la copia de base de datos de buzones de correo atrasada usando el cmdlet [Move-ActiveMailboxDatabase](https://technet.microsoft.com/es-es/library/dd298068\(v=exchg.150\)) con el parámetro *SkipLagChecks*.
     
     ```powershell
-Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -SkipLagChecks
-```
+    Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -SkipLagChecks
+    ```
 
 ## Uso del Shell para activar una copia de base de datos de buzones de correo atrasada usando la recuperación de SafetyNet
 
 1.  Opcionalmente (para preservar una copia atrasada), mediante el Servicio de instantáneas de volumen (VSS), tome una instantánea basada en sistema de archivos (sin conocimiento de Exchange) de los volúmenes que contienen la copia de base de datos y los archivos de registro.
     
     1.  En este ejemplo, se suspende la replicación para la copia retrasada que se activa usando el cmdlet [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd351074\(v=exchg.150\)).
-        
+        ```powershell
             Suspend-MailboxDatabaseCopy DB1\EX3 -SuspendComment "Activate lagged copy of DB1 on Server EX3" -Confirm:$false
-    
+        ```
     2.  De manera opcional (para preservar una copia atrasada), realice una copia de la copia de la base de datos y de sus archivos de registro.
         
 
@@ -139,16 +141,17 @@ Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -SkipLagChecks
 2.  Determine los registros necesarios para la copia de base de datos atrasada. Para ello, busque el valor «Registro necesario:» en el resultado del encabezado de base de datos ESEUTIL.
     
     ```powershell
-Eseutil /mh <DBPath> | findstr /c:"Log Required"
-```
+    Eseutil /mh <DBPath> | findstr /c:"Log Required"
+    ```
     
     Tome nota de los números hexadecimales entre paréntesis. El primer número es la generación más baja necesaria (denominada LowGeneration) y el segundo número es la generación más alta necesaria (denominada HighGeneration). Mueva todos los archivos de generación de registros que tienen una generación de secuencia más alta que HighGeneration a una ubicación diferente de modo que no se reproduzcan nuevamente en la base de datos.
 
 3.  En el servidor que hospeda la copia activa de la base de datos, elimine los archivos de registro para la copia atrasada que se está activando de la copia activa, o bien detenga el servicio de replicación de Microsoft Exchange.
 
 4.  Realice un cambio de base de datos y active la copia atrasada. Este ejemplo activa la base de datos mediante el cmdlet [Move-ActiveMailboxDatabase](https://technet.microsoft.com/es-es/library/dd298068\(v=exchg.150\)) con varios parámetros.
-    
+    ```powershell
         Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -MountDialOverride BestEffort -SkipActiveCopyChecks -SkipClientExperienceChecks -SkipHealthChecks -SkipLagChecks
+    ```
 
 5.  En este punto, la base de datos se montará automáticamente y solicitará la entrega de los mensajes faltantes de SafetyNet.
 
@@ -161,6 +164,6 @@ Para comprobar que haya activado una copia de base de datos de buzones de correo
   - En el Shell, ejecute el siguiente comando para mostrar la información de estado de una copia de base de datos.
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
-```
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```
 

@@ -68,8 +68,8 @@ Para comprobar que la confianza de federación se quitó correctamente, realice 
   - En el Shell, ejecute el siguiente comando para comprobar que la información de la confianza de federación no se devuelva para su organización de Exchange.
     
     ```powershell
-Get-FederationTrust
-```
+    Get-FederationTrust
+    ```
     
     Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-FederationTrust](https://technet.microsoft.com/es-es/library/dd351262\(v=exchg.150\)).
 

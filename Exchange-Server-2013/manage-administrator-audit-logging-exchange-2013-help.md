@@ -47,7 +47,9 @@ El registro de auditoría de administrador en Microsoft Exchange Server 2013 le
 
 De manera predeterminada, el registro de auditoría crea una entrada de registro para cada cmdlet que se ejecuta. Si está habilitando el registro de auditoría por primera vez y quiere observar el comportamiento, no debe cambiar la lista de auditoría del cmdlet. Si previamente especificó cmdlets para auditar y ahora desea auditar todos los cmdlets, puede auditar todos los cmdlets si especifica el carácter comodín asterisco (\*) con el parámetro *AdminAuditLogCmdlets* del cmdlet **Set-AdminAuditLogConfig**, como se muestra en el siguiente comando.
 
-    Set-AdminAuditLogConfig -AdminAuditLogCmdlets *
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogCmdlets *
+```
 
 Puede especificar qué cmdlets auditar si proporciona una lista de cmdlets mediante el parámetro *AdminAuditLogCmdlets*. Cuando proporciona una lista de cmdlets para auditar, puede proporcionar cmdlets únicos, cmdlets con caracteres comodín asterisco (\*) o una combinación de ambos. Cada entrada de la lista está separada por comas. Todos los siguientes valores son válidos:
 
@@ -61,7 +63,9 @@ Puede especificar qué cmdlets auditar si proporciona una lista de cmdlets media
 
 En este ejemplo, se auditan los cmdlets especificados en la lista anterior.
 
-    Set-AdminAuditLogConfig -AdminAuditLogCmdlets New-Mailbox, *TransportRule, *Management*, Set-Transport*
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogCmdlets New-Mailbox, *TransportRule, *Management*, Set-Transport*
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-AdminAuditLogConfig](https://technet.microsoft.com/es-es/library/dd298169\(v=exchg.150\)).
 
@@ -69,7 +73,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 De forma predeterminada, el registro de auditoría crea una entrada de registro para todos los cmdlets que se ejecutan, independientemente de los parámetros especificados. Si está habilitando el registro de auditoría por primera vez y quiere observar el comportamiento, no debe cambiar la lista de auditoría de parámetros. Si previamente especificó parámetros para auditar y ahora desea auditar todos los parámetros, puede hacerlo si especifica el carácter comodín asterisco (\*) con el parámetro *AdminAuditLogParameters* del cmdlet **Set-AdminAuditLogConfig**, como se muestra en el siguiente comando.
 
-    Set-AdminAuditLogConfig -AdminAuditLogParameters *
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogParameters *
+```
 
 Puede especificar qué parámetros desea auditar mediante el parámetro *AdminAuditLogParameters*. Cuando proporciona una lista de parámetros para auditar, puede proporcionar parámetros únicos, parámetros con caracteres comodín asterisco (\*) o una combinación de ambos. Cada entrada de la lista está separada por comas. Todos los siguientes valores son válidos:
 
@@ -89,7 +95,9 @@ Puede especificar qué parámetros desea auditar mediante el parámetro *AdminAu
 
 En este ejemplo, se auditan los parámetros especificados en la lista anterior.
 
-    Set-AdminAuditLogConfig -AdminAuditLogParameters Database, *Address*, Custom*, *Region
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogParameters Database, *Address*, Custom*, *Region
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-AdminAuditLogConfig](https://technet.microsoft.com/es-es/library/dd298169\(v=exchg.150\)).
 

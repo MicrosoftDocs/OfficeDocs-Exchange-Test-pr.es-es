@@ -1,5 +1,5 @@
 ﻿---
-title: '¿Qué buscan los tipos de información confidencial de Exchange?'
+title: 'Qué buscan los tipos de información confidencial de Exchange: Exchange 2013 Help'
 TOCTitle: Qué buscan los tipos de información confidencial
 ms:assetid: 98b81f9c-87bb-4905-8e53-04621c3ae74d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ150541(v=EXCHG.150)
@@ -58,13 +58,17 @@ La prevención de pérdida de datos (DLP) de Exchange incluye 80 tipos de inform
 <li><p>La función <code>Func_aba_routing</code> encuentra contenido que coincide con el patrón.</p></li>
 <li><p>Se encuentra una palabra clave de <code>Keyword_ABA_Routing</code>.</p></li>
 </ul>
-<pre><code>&lt;!-- ABA Routing Number --&gt;
+
+```powershell
+&lt;!-- ABA Routing Number --&gt;
 &lt;Entity id=&quot;cb353f78-2b72-4c3c-8827-92ebe4f69fdf&quot; patternsProximity=&quot;300&quot; recommendedConfidence=&quot;75&quot;&gt;
       &lt;Pattern confidenceLevel=&quot;75&quot;&gt;
         &lt;IdMatch idRef=&quot;Func_aba_routing&quot; /&gt;
         &lt;Match idRef=&quot;Keyword_ABA_Routing&quot; /&gt;
       &lt;/Pattern&gt;
- &lt;/Entity&gt;</code></pre></td>
+ &lt;/Entity&gt;
+ ```
+ </td>
 </tr>
 <tr class="odd">
 <td><p>Palabras clave</p></td>
@@ -1059,11 +1063,13 @@ La prevención de pérdida de datos (DLP) de Exchange incluye 80 tipos de inform
 <td><p>Formato</p></td>
 <td><p>Registro Geral (formato antiguo)</p>
 <dl>
+<dt><span></span></dt>
 <dd><p>Nueve dígitos</p>
 </dd>
 </dl>
 <p>Registro de Identidade (RIC) (nuevo formato)</p>
 <dl>
+<dt><span></span></dt>
 <dd><p>11 dígitos</p>
 </dd>
 </dl></td>
@@ -3652,11 +3658,13 @@ La prevención de pérdida de datos (DLP) de Exchange incluye 80 tipos de inform
 <td><p>Formato</p></td>
 <td><p>Desde el 1 de noviembre de 2010</p>
 <dl>
+<dt><span></span></dt>
 <dd><p>Nueve letras y dígitos</p>
 </dd>
 </dl>
 <p>Desde el 1 de abril de 1987 hasta el 31 de octubre de 2010</p>
 <dl>
+<dt><span></span></dt>
 <dd><p>10 dígitos</p>
 </dd>
 </dl></td>
@@ -4248,6 +4256,7 @@ La prevención de pérdida de datos (DLP) de Exchange incluye 80 tipos de inform
 </ul>
 <p>El formato de cada país es ligeramente diferente. El tipo de información confidencial del IBAN cubre estos 60 países:</p>
 <dl>
+<dt><span></span></dt>
 <dd><p>ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, fr, gb, ge, gi, gl, gr, hr, hu, ie, il, is, it, kw, kz, lb, li, lt, lu, lv, mc, md, me, mk, mr, mt, mu, nl, no, pl, pt, ro, rs, sa, se, si, sk, sm, tn, tr, vg</p>
 </dd>
 </dl></td>
@@ -4387,11 +4396,13 @@ La prevención de pérdida de datos (DLP) de Exchange incluye 80 tipos de inform
 <td><p>Formato</p></td>
 <td><p>Formato antiguo (hasta el 31 de diciembre de 2012)</p>
 <dl>
+<dt><span></span></dt>
 <dd><p>Siete dígitos seguidos por 1 o 2 letras</p>
 </dd>
 </dl>
 <p>Nuevo formato (desde 1 de enero de 2013)</p>
 <dl>
+<dt><span></span></dt>
 <dd><p>Siete dígitos seguidos por dos letras</p>
 </dd>
 </dl></td>
@@ -6487,11 +6498,13 @@ La prevención de pérdida de datos (DLP) de Exchange incluye 80 tipos de inform
 <td><p>Formato</p></td>
 <td><p>Número de pasaporte biométrico</p>
 <dl>
+<dt><span></span></dt>
 <dd><p>Nueve dígitos</p>
 </dd>
 </dl>
 <p>Número de pasaporte no biométrico</p>
 <dl>
+<dt><span></span></dt>
 <dd><p>Nueve dígitos</p>
 </dd>
 </dl></td>

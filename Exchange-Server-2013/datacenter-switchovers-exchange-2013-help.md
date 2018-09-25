@@ -68,21 +68,21 @@ Cuando el DAG no esté en modo DAC, las acciones específicas para finalizar cua
 1.  Los miembros DAG del centro de datos principal tienen que desalojarse obligatoriamente del clúster subyacente del DAG mediante la ejecución de los siguientes comandos en cada uno de los miembros:
     
     ```powershell
-net stop clussvc
-```
-        cluster <DAGName> node <DAGMemberName> /forcecleanup
+    net stop clussvc
+    cluster <DAGName> node <DAGMemberName> /forcecleanup
+    ```
 
 2.  Ahora es necesario reiniciar los miembros DAG del segundo centro de datos y, posteriormente, utilizarlos para completar el proceso de desalojo del segundo centro de datos. Detenga el servicio de clúster de cada miembro DAG en el segundo centro de datos; para ello, ejecute el siguiente comando en cada miembro:
     
     ```powershell
-net stop clussvc
-```
+    net stop clussvc
+    ```
 
 3.  En un miembro DAG del segundo centro de datos, fuerce un inicio de quórum del servicio de clúster mediante la ejecución del siguiente comando:
     
     ```powershell
-net start clussvc /forcequorum
-```
+    net start clussvc /forcequorum
+    ```
 
 4.  Abra la herramienta Administración del clúster de conmutación por error y conéctela al clúster subyacente del DAG. Expanda el clúster y a continuación expanda **Nodos**. Haga clic con el botón secundario en cada nodo del centro de datos primario, seleccione **Más acciones** y, a continuación, **Expulsar**. Cuando haya terminado de expulsar a los miembros de DAG del centro de datos principal, cierre la herramienta de administración de clústeres de conmutación por error.
 
@@ -113,30 +113,32 @@ Cuando el DAG no está en modo DAC, los pasos para completar la activación de l
     1.  Si hay un número impar de miembros DAG, cambie el modelo de quórum de DAG, de quórum Mayoría de recurso compartido de archivos y nodos, a quórum Mayoría de nodo, mediante la ejecución del siguiente comando:
         
         ```powershell
-cluster <DAGName> /quorum /nodemajority
-```
+        cluster <DAGName> /quorum /nodemajority
+        ```
     
     2.  Si hay un número par de miembros DAG, vuelva a configurar el servidor testigo y el directorio; para ello, ejecute el siguiente comando en el Shell de administración de Exchange:
         
         ```powershell
-Set-DatabaseAvailabilityGroup <DAGName> -WitnessServer <ServerName>
-```
+        Set-DatabaseAvailabilityGroup <DAGName> -WitnessServer <ServerName>
+        ```
 
 2.  Inicie el Servicio de clúster en cualquier miembro DAG restante del segundo centro de datos, mediante el siguiente comando:
     
     ```powershell
-net start clussvc
-```
+    net start clussvc
+    ```
 
 3.  Realice los cambios de servidor, con el fin de activar las bases de datos de buzones de correo del DAG, mediante el siguiente comando para cada miembro DAG:
     
-        Move-ActiveMailboxDatabase -Server <DAGMemberinPrimarySite> -ActivateOnServer <DAGMemberinSecondSite>
+    ```powershell
+    Move-ActiveMailboxDatabase -Server <DAGMemberinPrimarySite> -ActivateOnServer <DAGMemberinSecondSite>
+    ```
 
 4.  Monte las bases de datos de buzones de correo de cada miembro DAG en el segundo sitio; para ello, ejecute el siguiente comando:
     
     ```powershell
-Get-MailboxDatabase <DAGMemberinSecondSite> | Mount-Database
-```
+    Get-MailboxDatabase <DAGMemberinSecondSite> | Mount-Database
+    ```
 
 Volver al principio
 

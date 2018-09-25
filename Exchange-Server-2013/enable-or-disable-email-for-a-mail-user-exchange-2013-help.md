@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar o deshabilitar el correo de un usuario de correo: Exchange 2013 Help'
+title: 'Habilitar o deshabilitar el correo electrónico de un usuario de correo: Exchange 2013 Help'
 TOCTitle: Habilitar o deshabilitar el correo electrónico de un usuario de correo
 ms:assetid: 1e2571d4-ff84-4fda-bb1d-825e96e1bd26
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa996598(v=EXCHG.150)
@@ -82,16 +82,16 @@ Para comprobar que haya deshabilitado el correo electrónico de un usuario de co
 3.  En el Shell, ejecute el siguiente comando.
     
     ```powershell
-Get-MailUser
-```
+    Get-MailUser
+    ```
     
     El usuario de correo al que deshabilitó el correo electrónico no aparecerá en los resultados porque este cmdlet solo devuelve los usuarios con correo habilitado.
 
 4.  En el Shell, ejecute el siguiente comando.
     
     ```powershell
-Get-User
-```
+    Get-User
+    ```
     
     El usuario de correo al que deshabilitó el correo electrónico aparece en los resultados porque este cmdlet devuelve todos los objetos de usuario de Active Directory.
 
@@ -113,22 +113,26 @@ Al habilitar el correo de usuarios en masa, primero debe exportar la lista de us
 
 1.  Ejecute el siguiente comando para exportar una lista de los usuarios existentes cuyo correo no esté habilitado o que no tengan un buzón de correo en su organización a un archivo en el escritorio del administrador denominado UsersToMailEnable.csv.
     
-        Get-User | Where { $_.RecipientType -eq "User" } | Out-File "C:\Users\Administrator\Desktop\UsersToMailEnable.csv"
+    ```powershell
+    Get-User | Where { $_.RecipientType -eq "User" } | Out-File "C:\Users\Administrator\Desktop\UsersToMailEnable.csv"
+    ```
     
     El archivo resultante será parecido al siguiente.
     
-        Name            RecipientType
-        ----            -------------
-        Guest           User
-        krbtgt          User
-        RMS_SERVICE     User
-        David Pelton    User
-        Kim Akers       User
-        Janet Schorr    User
-        Jeffrey Zang    User
-        Spencer Low     User
-        Toni Poe        User
-        ...
+    ```powershell
+    Name            RecipientType
+    ----            -------------
+    Guest           User
+    krbtgt          User
+    RMS_SERVICE     User
+    David Pelton    User
+    Kim Akers       User
+    Janet Schorr    User
+    Jeffrey Zang    User
+    Spencer Low     User
+    Toni Poe        User
+    ...
+    ```
 
 2.  Realice los siguientes cambios en el archivo CSV:
     
@@ -140,18 +144,22 @@ Al habilitar el correo de usuarios en masa, primero debe exportar la lista de us
     
     El archivo CSV actualizado debería ser parecido al siguiente.
     
-        Name,EmailAddress
-        David Pelton,davidp@contoso.com
-        Kim Akers,kakers@tailspintoys.com
-        Janet Schorr,janet.schorr@adatum.com
-        Jeffrey Zang,jzang@tailspintoys.com
-        Spencer Low,spencerl@fouthcoffee.com
-        Toni Poe,tonip@contoso.com
-        ...
+    ```powershell
+    Name,EmailAddress
+    David Pelton,davidp@contoso.com
+    Kim Akers,kakers@tailspintoys.com
+    Janet Schorr,janet.schorr@adatum.com
+    Jeffrey Zang,jzang@tailspintoys.com
+    Spencer Low,spencerl@fouthcoffee.com
+    Toni Poe,tonip@contoso.com
+    ...
+    ```
 
 3.  Ejecute el siguiente comando para usar los datos en el archivo CSV para habilitar el correo de los usuarios enumerados en el archivo.
     
-        Import-CSV "C:\Users\Administrator\Desktop\UsersToMailEnable.csv" | ForEach-Object {Enable-MailUser -Identity $_.Name -ExternalEmailAddress $_.EmailAddress}
+    ```powershell
+    Import-CSV "C:\Users\Administrator\Desktop\UsersToMailEnable.csv" | ForEach-Object {Enable-MailUser -Identity $_.Name -ExternalEmailAddress $_.EmailAddress}
+    ```
     
     Los resultados del comando muestran información sobre los nuevos usuarios habilitados para correo.
 
@@ -170,6 +178,6 @@ Para comprobar que haya habilitado el correo de usuarios de Active Directory cor
   - En el Shell, ejecute el siguiente comando para que se muestre información acerca de los nuevos usuarios de correo.
     
     ```powershell
-Get-MailUser | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
-```
+    Get-MailUser | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+    ```
 

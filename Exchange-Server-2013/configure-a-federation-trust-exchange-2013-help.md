@@ -12,7 +12,6 @@ ms.translationtype: MT
 # Configurar una confianza de federación
 
  
-
 _**Se aplica a:** Exchange Server 2013_
 
 _**Última modificación del tema:** 2017-07-26_
@@ -20,7 +19,7 @@ _**Última modificación del tema:** 2017-07-26_
 Una confianza de federación establece una relación de confianza entre una organización de Exchange 2013 de Microsoft y el sistema de autenticación de Azure Active Directory. Al configurar una confianza de federación, podrá configurar el uso compartido federado con otras organizaciones federadas de Exchange y compartir la información de calendarios de disponibilidad entre los destinatarios. El uso compartido federado se puede configurar entre dos organizaciones de Exchange 2013 federadas o entre una organización de Exchange 2013 federada y otras organizaciones de Exchange 2010 federadas. También puede configurar el uso compartido con una organización de Office 365.
 
 
-> [!NOTE]
+> [!NOTE]  
 > Crear una confianza de federación es uno de los varios pasos que se deben seguir para configurar el uso compartido en su organización de Exchange. Para revisar todos los pasos, consulte <A href="configure-federated-sharing-exchange-2013-help.md">Configuración del uso compartido federado</A>.
 
 
@@ -28,7 +27,7 @@ Una confianza de federación establece una relación de confianza entre una orga
 Para otras tareas de administración relacionadas con la federación, consulte [Procedimientos de la Federación](federation-procedures-exchange-2013-help.md).
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Esta característica de Exchange Server 2013 no es totalmente compatible con Office 365 operado por 21Vianet en China y pueden aplicarse ciertas limitaciones en las características. Para obtener más información, consulte <A href="https://go.microsoft.com/fwlink/?linkid=313640">Acerca de Office 365 operado por 21Vianet</A>.
 
 
@@ -64,8 +63,8 @@ Para otras tareas de administración relacionadas con la federación, consulte [
     Se recomienda que todas las organizaciones de Exchange usen la instancia de empresa del sistema de autenticación de Azure AD para las confianzas de federación. Antes de configurar el uso compartido federado entre las dos organizaciones de Exchange, debe comprobar qué instancia del sistema de autenticación de Azure AD está usando cada organización de Exchange para cualquier confianza de federación existente. Para determinar qué instancia del sistema de autenticación de Azure AD está usando una organización de Exchange para una confianza de federación existente, ejecute el siguiente comando de Shell.
     
     ```powershell
-Get-FederationInformation -DomainName <hosted Exchange domain namespace>
-```
+    Get-FederationInformation -DomainName <hosted Exchange domain namespace>
+    ```
     
     La instancia de empresa devuelve un valor de `<uri:federation:MicrosoftOnline>` para el parámetro *TokenIssuerURIs*.
     
@@ -90,7 +89,7 @@ Get-FederationInformation -DomainName <hosted Exchange domain namespace>
 6.  En **Seleccionar dominios aceptados**, seleccione el dominio compartido principal en la lista y, a continuación, haga clic en **Aceptar**.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > El dominio seleccionado se utilizará para configurar el OrgId de la confianza de federación. Para obtener más información acerca de OrgId, consulte <A href="federation-exchange-2013-help.md">Federación</A>.
 
 
@@ -98,7 +97,7 @@ Get-FederationInformation -DomainName <hosted Exchange domain namespace>
 7.  Tome nota de la prueba de dominio federado que se genera para el dominio principal compartido. Podrá utilizar esta cadena para crear un registro TXT en el servidor DNS público.
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > La prueba de dominio federado es una cadena de caracteres alfanuméricos. Para evitar errores de entrada, se recomienda copiar la cadena de la EAF y pegarlo en un editor de texto como el Bloc de notas. Puede copiar desde el editor de texto en el Portapapeles y, a continuación, péguelo en el campo de <STRONG>texto</STRONG> al crear el registro TXT. Si el registro TXT se crea utilizando una incorrecta federados cadena de prueba de dominio, el sistema de autenticación Azure AD no podrá comprobar la prueba de propiedad del dominio y no podrá agregarlo al identificador de organización federada.
 
 
@@ -106,7 +105,7 @@ Get-FederationInformation -DomainName <hosted Exchange domain namespace>
 8.  En el **paso 2**, haga clic en **Agregar**![Agregar icono](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Agregar icono") para agregar dominios adicionales a la confianza federada para las direcciones de correo electrónico que será utilizada por los usuarios de la organización que requieren características de uso compartidos federados. Por ejemplo, si tiene usuarios que usan un subdominio de su dirección de correo electrónico como sales.contoso.com, agregaría el dominio sales.contoso.com a la confianza de federación.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Se creará una prueba de dominio federado para cada dominio adicional seleccionado. Deberá crear registros TXT por separado en su DNS público para cada dominio adicional.
 
 
@@ -119,35 +118,45 @@ Get-FederationInformation -DomainName <hosted Exchange domain namespace>
 
 1.  Ejecute este comando para crear un identificador de clave de asunto único para el certificado de confianza de federación:
     
-        $ski = [System.Guid]::NewGuid().ToString("N")
+    ```powershell
+    $ski = [System.Guid]::NewGuid().ToString("N")
+    ```
 
 2.  Para crear un certificado autofirmado para la confianza de federación, utilice esta sintaxis:
     
-        New-ExchangeCertificate -FriendlyName "<Descriptive Name>" -DomainName <domain> -Services Federation -KeySize 2048 -PrivateKeyExportable $true -SubjectKeyIdentifier $ski
+    ```powershell
+    New-ExchangeCertificate -FriendlyName "<Descriptive Name>" -DomainName <domain> -Services Federation -KeySize 2048 -PrivateKeyExportable $true -SubjectKeyIdentifier $ski
+    ```
     
     Este ejemplo crea un certificado autofirmado para la confianza de federación con el sistema de autenticación Azure AD. El certificado utiliza el valor de nombre descriptivo federados uso compartido de Exchange y se recupera el valor del dominio de la variable de entorno **USERDNSDOMAIN** .
     
-        New-ExchangeCertificate -FriendlyName "Exchange Federated Sharing" -DomainName $env:USERDNSDOMAIN -Services Federation -KeySize 2048 -PrivateKeyExportable $true -SubjectKeyIdentifier $ski
+    ```powershell
+    New-ExchangeCertificate -FriendlyName "Exchange Federated Sharing" -DomainName $env:USERDNSDOMAIN -Services Federation -KeySize 2048 -PrivateKeyExportable $true -SubjectKeyIdentifier $ski
+    ```
 
 3.  Para crear la confianza de federación e implementar automáticamente el certificado autofirmado que creó en el paso anterior a los servidores de Exchange en su organización, utilice esta sintaxis:
     
-        Get-ExchangeCertificate | ?{$_.FriendlyName -eq "<FriendlyName>"} | New-FederationTrust -Name "<Descriptive Name>"
+    ```powershell
+    Get-ExchangeCertificate | ?{$_.FriendlyName -eq "<FriendlyName>"} | New-FederationTrust -Name "<Descriptive Name>"
+    ```
     
     Este ejemplo crea la confianza de federación denominada Azure autenticación de Active Directory y despliega el certificado autofirmado denominado federados uso compartido de Exchange.
     
-        Get-ExchangeCertificate | ?{$_.FriendlyName -eq "Exchange Federated Sharing"} | New-FederationTrust -Name "Azure AD Authentication"
+    ```powershell
+    Get-ExchangeCertificate | ?{$_.FriendlyName -eq "Exchange Federated Sharing"} | New-FederationTrust -Name "Azure AD Authentication"
+    ```
 
 4.  Utilice esta sintaxis para devolver la prueba de propiedad de dominio registro TXT que resulta necesario para cualquier dominio que se configurará para la confianza de federación.
     
     ```powershell
-Get-FederatedDomainProof -DomainName <domain>
-```
+    Get-FederatedDomainProof -DomainName <domain>
+    ```
     
     Este ejemplo devuelve la prueba de propiedad de dominio registro TXT que se requiere para el dominio compartido principal contoso.com.
     
     ```powershell
-Get-FederatedDomainProof -DomainName contoso.com
-```
+    Get-FederatedDomainProof -DomainName contoso.com
+    ```
     
     **Notas**:
     
@@ -160,28 +169,32 @@ Get-FederatedDomainProof -DomainName contoso.com
 6.  Ejecute este comando para recuperar los metadatos y el certificado de Azure AD:
     
     ```powershell
-Set-FederationTrust -RefreshMetadata -Identity "Azure AD authentication"
-```
+    Set-FederationTrust -RefreshMetadata -Identity "Azure AD authentication"
+    ```
 
 7.  Utilice esta sintaxis para configurar el dominio principal compartido para la confianza de federación que creó en el paso 3. El dominio que especifique se utilizará para configurar el identificador de la organización (OrgID) para la confianza de federación. Para obtener más información acerca de la OrgID, vea el [identificador de organización federada](federation-exchange-2013-help.md).
     
-        Set-FederatedOrganizationIdentifier -DelegationFederationTrust "<Federation Trust Name>" -AccountNamespace <Accepted Domain> -Enabled $true
+    ```powershell
+    Set-FederatedOrganizationIdentifier -DelegationFederationTrust "<Federation Trust Name>" -AccountNamespace <Accepted Domain> -Enabled $true
+    ```
     
     Este ejemplo configura el dominio aceptado contoso.com como la principal comparte el dominio de confianza de federación denominado Azure autenticación de Active Directory.
     
-        Set-FederatedOrganizationIdentifier -DelegationFederationTrust "Azure AD authentication" -AccountNamespace contoso.com -Enabled $true
+    ```powershell
+    Set-FederatedOrganizationIdentifier -DelegationFederationTrust "Azure AD authentication" -AccountNamespace contoso.com -Enabled $true
+    ```
 
 8.  Para agregar otros dominios a la confianza de federación, utilice esta sintaxis:
     
     ```powershell
-Add-FederatedDomain -DomainName <AdditionalDomain>
-```
+    Add-FederatedDomain -DomainName <AdditionalDomain>
+    ```
     
     Este ejemplo agrega el sales.contoso.com subdominio a la confianza federada, porque los usuarios con direcciones de correo electrónico en el dominio sales.contoso.com requieren características de uso compartidos federados.
     
     ```powershell
-Add-FederatedDomain -DomainName sales.contoso.com
-```
+    Add-FederatedDomain -DomainName sales.contoso.com
+    ```
     
     Recuerde que cualquier dominio o subdominio que agregue a la confianza de federación requiere una prueba de propiedad del dominio registro TXT,
 
@@ -196,19 +209,17 @@ Para verificar con más detalle que ha creado y configurado correctamente la con
 1.  Ejecute el siguiente comando de Shell para verificar la información de confianza de federación.
     
     ```powershell
-Get-FederationTrust | Format-List
-```
+    Get-FederationTrust | Format-List
+    ```
 
 2.  Reemplace *\<PrimarySharedDomain\>* con su dominio principal compartido y ejecute el siguiente comando de Shell para comprobar que se puede recuperar la información de federación de la organización.
     
     ```powershell
-Get-FederationInformation -DomainName <PrimarySharedDomain>
-```
+    Get-FederationInformation -DomainName <PrimarySharedDomain>
+    ```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Get-FederationTrust](https://technet.microsoft.com/es-es/library/dd351262\(v=exchg.150\)) y [Get-FederationInformation](https://technet.microsoft.com/es-es/library/dd351221\(v=exchg.150\)).
 
 
-> [!TIP]
+> [!TIP]  
 > ¿Tiene algún problema? Solicite ayuda en los foros de Exchange. Visite los foros en <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, o <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>.
-
-

@@ -67,7 +67,7 @@ Para configurar la autenticación de servidor a servidor para una implementació
         > [!WARNING]  
         > Esta acción de copiar y pegar el código en un editor de textos como el Bloc de notas, y guardarlo con una extensión .ps1, facilita la tarea de ejecutar scripts del Shell.
 
-        ```
+        ```powershell
         # Make sure to update the following $tenantDomain with your Office 365 tenant domain.
         
         $tenantDomain = "Fabrikam.com"
@@ -131,7 +131,7 @@ Para configurar la autenticación de servidor a servidor para una implementació
 
         El resultado previsto debería ser similar a lo siguiente.
 
-        ```
+        ```powershell
         Configured Certificate Thumbprint is: 7595DBDEA83DACB5757441D44899BCDB9911253C
         Exporting certificate...
         Complete.
@@ -144,7 +144,7 @@ Para configurar la autenticación de servidor a servidor para una implementació
 
   -  **Paso 2: configure Office 365 para que se comunique con el servidor Exchange 2013 local.** Configure el servidor de Office 365 con el que se comunicará el servidor Exchange 2013 para convertirse en una aplicación de socio. Por ejemplo, si el servidor Exchange 2013 local necesita comunicarse con Office 365, tendrá que configurar el servidor Exchange local como una aplicación de socio. Una aplicación de socio es cualquier aplicación con la que Exchange 2013 puede intercambiar directamente tokens de seguridad, sin tener que pasar por un servidor de tokens de seguridad de terceros. Un administrador de un servidor Exchange 2013 local debe usar este script del Shell de administración de Exchange para configurar el inquilino de Office 365 con el que se comunicará Exchange 2013 para que sea una aplicación de socio. Durante la ejecución, se mostrará un mensaje que pedirá el nombre de usuario y la contraseña del administrador del dominio de inquilino de Office 365, como por ejemplo, administrador@fabrikam.com. Asegúrese de actualizar el valor de *$CertFile* con la ubicación del certificado, si no se creó en el script anterior. Para ello, copie y pegue el siguiente código.
     
-        ```
+        ```powershell
         # Make sure to update the following $CertFile with the path to the cert if not using the previous script.
         
         $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
@@ -179,7 +179,7 @@ Para configurar la autenticación de servidor a servidor para una implementació
 
         El resultado esperado debe ser como el que mostramos aquí.
 
-        ```
+        ```powershell
         Please enter the administrator user name and password of the Office 365 tenant domain...
         Adding a key to Service Principal...
         Complete.
@@ -188,12 +188,13 @@ Para configurar la autenticación de servidor a servidor para una implementació
 ## Habilitar la creación de conexiones proxy de notificaciones de inserción
 
 Después de configurar correctamente la autenticación de OAuth siguiendo los pasos anteriores, un administrador local debe habilitar la creación de conexiones proxy de notificaciones de inserción mediante este script. No olvide actualizar el valor de *$tenantDomain* de forma que refleje su nombre de dominio. Para ello, copie y pegue el siguiente código.
-
+```powershell
     $tenantDomain = "Fabrikam.com"
     Enable-PushNotificationProxy -Organization:$tenantDomain
+```
 
 El resultado previsto debería ser similar a lo siguiente.
-
+```powershell
     RunspaceId        : 4f2eb5cc-b696-482f-92bb-5b254cd19d60
     DisplayName       : On Premises Proxy app
     Enabled           : True
@@ -215,7 +216,7 @@ El resultado previsto debería ser similar a lo siguiente.
     OrganizationId    :
     OriginatingServer : server.fabrikam.com
     ObjectState       : Unchanged
-
+```
 ## Comprobar que las notificaciones de inserción funcionan
 
 Después de completar los pasos anteriores, pruebe las notificaciones de inserción siguiendo uno de estos métodos:
@@ -232,7 +233,7 @@ Después de completar los pasos anteriores, pruebe las notificaciones de inserci
 
   - **Habilitar la supervisión.** Una alternativa para probar las notificaciones de inserción, o para investigar por qué se producen errores, consiste en habilitar la supervisión en un servidor de buzones de correo de la organización. Un administrador del servidor Exchange 2013 local debe usar este script para invocar la supervisión del proxy de notificaciones de inserción. Para ello, copie y pegue el siguiente código.
     
-      ```
+      ```powershell
       # Send a push notification to verify connectivity.
       
       $s = Get-ExchangeServer | ?{$_.ServerRole -match "Mailbox"}
@@ -258,7 +259,7 @@ Después de completar los pasos anteriores, pruebe las notificaciones de inserci
     
     El resultado previsto debería ser similar a lo siguiente.
     
-      ```
+      ```powershell
       ResultType : Succeeded
       Error      :
       Exception  :

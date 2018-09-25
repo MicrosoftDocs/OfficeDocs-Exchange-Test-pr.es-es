@@ -22,7 +22,7 @@ La herramienta de solución de problemas de MU de Microsoft Exchange 2010 es un 
 La herramienta de solución de problemas de mensajería unificada se usa para comprobar si el correo de voz funciona correctamente en las implementaciones locales y las implementaciones entre entornos. Esta herramienta se puede usar en las implementaciones de Mensajería unificada que incluyen Microsoft Office Communications Server 2007 R2 o Microsoft Lync Server 2010 o posterior, o en las implementaciones de Mensajería unificada que incluyen puertas de enlace IP, centrales de conmutación IP (PBX IP) o controladores de borde de sesión (SBC).
 
 
-> [!NOTE]
+> [!NOTE]  
 > La herramienta de solución de problemas de mensajería unificada se usa para realizar pruebas y solucionar problemas. Por otro lado, el cmdlet <STRONG>Test-UMConnectivity</STRONG> debe usarse para supervisión. El cmdlet <STRONG>Test-UMConnectivity</STRONG> se usa con los módulos de administración de System Center Operations Manager (SCOM) que se usan para supervisar los servidores de Mensajería unificada de Exchange 2010 o los servidores de buzones de correo y acceso de cliente de Exchange 2013 y los componentes de telefonía. El cmdlet <STRONG>Test-UMConnectivity</STRONG> efectúa pruebas de SIP locales y de inicio de sesión locales en buzones de correo; asimismo, puede ejecutarse como tarea de SCOM.
 
 
@@ -201,7 +201,9 @@ Introducción
 
 La herramienta para la solución de problemas de Mensajería unificada se puede usar en las implementaciones locales o entre locales que incluyan Office Communications Server 2007 R2 o Microsoft Lync Server cuando se establece el modo SIPClient. En el siguiente ejemplo, se usa el modo SIPClient y se prueba el flujo de llamadas con un plan de marcado de Mensajería unificada con protección en un entorno que contiene servidores Office Communications Server 2007 R2 o Lync Server. De forma predeterminada, cuando se ejecuta la herramienta de solución de problemas de mensajería unificada, usa las credenciales del usuario que ha iniciado sesión en el equipo. Cuando ejecute el ejemplo siguiente, se le solicitará que proporcione las credenciales que desea usar para ejecutar la herramienta de solución de problemas de mensajería unificada. Para obtener más información, vea [Establecer las credenciales para usar con la herramienta para la solución de problemas de Mensajería unificada de Exchange](set-the-credentials-to-use-with-the-exchange-um-troubleshooting-tool-exchange-2013-help.md).
 
-    Test-ExchangeUMCallFlow -Mode SIPClient -VoIPSecurity Secured -CallingParty tony@contoso.com -CalledParty david@contoso.com -Credential $get
+```powershell
+Test-ExchangeUMCallFlow -Mode SIPClient -VoIPSecurity Secured -CallingParty tony@contoso.com -CalledParty david@contoso.com -Credential $get
+```
 
 ## Instalación de la herramienta de solución de problemas de mensajería unificada
 
@@ -218,7 +220,7 @@ Si usa la herramienta para la solución de problemas de Mensajería unificada en
   - Microsoft .NET Framework 3.5 Service Pack 1 (SP1).   Vea [Microsoft .NET Framework 3.5 Service Pack 1](https://go.microsoft.com/fwlink/?linkid=152380).
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Si la herramienta se ejecutará en un PC con Windows Vista o Windows Server 2008, vea <A href="https://go.microsoft.com/fwlink/?linkid=178998">Microsoft .NET Framework 3.5 Family Update para Windows Vista x64 y Windows Server 2008 x64</A>.
 
 

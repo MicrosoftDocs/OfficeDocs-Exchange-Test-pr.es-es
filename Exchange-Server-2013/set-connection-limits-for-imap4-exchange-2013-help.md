@@ -112,8 +112,8 @@ O bien
 1.  Ejecute el siguiente comando en el Shell.
     
     ```powershell
-Get-ImapSettings | format-list
-```
+    Get-ImapSettings | format-list
+    ```
 
 2.  Compruebe que la configuración de la conexión sea correcta.
 

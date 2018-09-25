@@ -74,8 +74,8 @@ Para comprobar si ha eliminado una Retención local correctamente, siga uno de e
   - En el Shell, ejecute el siguiente comando para comprobar que ha quitado la copia.
     
     ```powershell
-Get-MailboxDatabase <DatabaseName> | Format-List DatabaseCopies
-```
+    Get-MailboxDatabase <DatabaseName> | Format-List DatabaseCopies
+    ```
     
     La copia pasiva eliminada ya no aparece.
 

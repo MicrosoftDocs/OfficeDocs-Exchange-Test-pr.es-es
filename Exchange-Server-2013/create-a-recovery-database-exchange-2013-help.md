@@ -45,7 +45,9 @@ New-MailboxDatabase -Recovery -Name RDB1 -Server MBX2
 
 En este ejemplo, se crea la base de datos de recuperación RDB2 en el servidor de buzones MBX1 mediante una ruta de acceso personalizada para el archivo de base de datos y la carpeta de registro.
 
-    New-MailboxDatabase -Recovery -Name RDB2 -Server MBX1 -EdbFilePath "C:\Recovery\RDB2\RDB2.EDB" -LogFolderPath "C:\Recovery\RDB2"
+```powershell
+New-MailboxDatabase -Recovery -Name RDB2 -Server MBX1 -EdbFilePath "C:\Recovery\RDB2\RDB2.EDB" -LogFolderPath "C:\Recovery\RDB2"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-MailboxDatabase](https://technet.microsoft.com/es-es/library/aa997976\(v=exchg.150\)).
 
@@ -56,9 +58,8 @@ Para comprobar que la base de datos de recuperación se haya creado correctament
   - En el Shell, ejecute el siguiente comando para mostrar la información de configuración de una base de datos de recuperación.
     
     ```powershell
-Get-MailboxDatabase <RecoveryDatabaseName> | Format-List
-```
-
+    Get-MailboxDatabase <RecoveryDatabaseName> | Format-List
+    ```
 ## Otras tareas
 
 Después de crear una base de datos de recuperación, es posible que también desee restaurar datos mediante una base de datos de recuperación. Para obtener instrucciones detalladas, consulte [Restauración de datos mediante una base de datos de recuperación](restore-data-using-a-recovery-database-exchange-2013-help.md).

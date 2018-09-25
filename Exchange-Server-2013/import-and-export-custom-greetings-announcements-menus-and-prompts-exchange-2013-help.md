@@ -63,23 +63,26 @@ Para conocer tareas de administración adicionales relacionadas con los operador
 
 En este ejemplo se importa el archivo con el saludo de bienvenida llamado welcomegreeting.wav desde d:\\UMPrompts al plan de marcado de mensajería unificada `MyUMDialPlan`.
 
+```powershell
     [byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
     Import-UMPrompt -UMDialPlan MyUMDialPlan -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```
 
 En este ejemplo se importa el archivo con el saludo de bienvenida llamado welcomegreeting.wav desde d:\\UMPrompts al operador automático de mensajería unificada `MyUMAutoAttendant`.
-
+```powershell
     [byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
     Import-UMPrompt -UMAutoAttendant MyUMAutoAttendant -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+ ```
 
 ## Usar el Shell para exportar saludos, anuncios, menús y mensajes personalizados para los planes de marcado y los operadores automáticos de mensajería unificada
 
 En este ejemplo se exporta el saludo de bienvenida para el plan de marcado de mensajería unificada `MyUMDialPlan` y se guarda como un archivo llamado welcomegreeting.wav.
-
+```powershell
     $prompt = Export-UMPrompt -PromptFileName "customgreeting.wav�? -UMDialPlan MyUMDialPlan
     set-content -Path "d:\DialPlanPrompts\welcomegreeting.wav" -Value $prompt.AudioData -Encoding Byte
-
+```
 En este ejemplo se exporta el saludo de bienvenida en horario comercial para el operador automático de mensajería unificada `MYUMAutoAttendant` y se guarda como un archivo llamado BusinessHoursWelcomeGreeting.wav.
-
+```powershell
     $prompt = Export-UMPrompt -BusinessHoursWelcomeGreeting -UMAutoAttendant MyUMAutoAttendant
     set-content -Path "d:\UMPrompts\BusinessHoursWelcomeGreeting.wav" -Value $prompt.AudioData -Encoding Byte
-
+```

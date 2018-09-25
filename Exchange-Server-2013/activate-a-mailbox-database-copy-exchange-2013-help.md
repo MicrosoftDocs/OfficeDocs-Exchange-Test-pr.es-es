@@ -100,8 +100,8 @@ Para comprobar que la copia de la base de datos de buzones se activó correctame
   - En el Shell, ejecute el siguiente comando para mostrar la información de estado de una copia de base de datos.
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
-```
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```
 
 ## Más información
 

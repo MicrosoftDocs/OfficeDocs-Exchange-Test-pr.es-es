@@ -66,8 +66,8 @@ Para verificar que haya habilitado o deshabilitado el filtrado del Id. de remite
 1.  Ejecute el siguiente comando:
     
     ```powershell
-Get-SenderIDConfig | Format-List Enabled
-```
+    Get-SenderIDConfig | Format-List Enabled
+    ```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 
@@ -92,8 +92,8 @@ Para comprobar que ha configurado correctamente las acciones del Id. de remitent
 1.  Ejecute el siguiente comando:
     
     ```powershell
-Get-SenderIDConfig | Format-List SpoofedDomainAction
-```
+    Get-SenderIDConfig | Format-List SpoofedDomainAction
+    ```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 
@@ -120,8 +120,8 @@ Para comprobar que ha configurado correctamente las acciones del Id. de remitent
 1.  Ejecute el siguiente comando:
     
     ```powershell
-Get-SenderIDConfig | Format-List TempErrorAction
-```
+    Get-SenderIDConfig | Format-List TempErrorAction
+    ```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 
@@ -129,15 +129,21 @@ Get-SenderIDConfig | Format-List TempErrorAction
 
 Para reemplazar los valores existentes, ejecute el siguiente comando:
 
-    Set-SenderIDConfig -BypassedRecipients <recipient1,recipient2...> -BypassedSenderDomains <domain1,domain2...>
+```powershell
+Set-SenderIDConfig -BypassedRecipients <recipient1,recipient2...> -BypassedSenderDomains <domain1,domain2...>
+```
 
 Este ejemplo configura el agente del Id. del remitente para omitir la comprobación del Id. del remitente de los mensajes enviados a kim@contoso.com y a john@contoso.com, y omitir la comprobación del Id. del remitente de los mensajes enviados desde el dominio fabrikam.com.
 
-    Set-SenderIDConfig -BypassedRecipients kim@contoso.com,john@contoso.com -BypassedSenderDomains fabrikam.com
+```powershell
+Set-SenderIDConfig -BypassedRecipients kim@contoso.com,john@contoso.com -BypassedSenderDomains fabrikam.com
+```
 
 Para agregar o quitar entradas sin modificar valores existentes, ejecute el siguiente comando:
 
-    Set-SenderIDConfig -BypassedRecipients @{Add="<recipient1>","<recipient2>"...; Remove="<recipient1>","<recipient2>"...} -BypassedSenderDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
+```powershell
+Set-SenderIDConfig -BypassedRecipients @{Add="<recipient1>","<recipient2>"...; Remove="<recipient1>","<recipient2>"...} -BypassedSenderDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
+```
 
 Este ejemplo configura al agente del Id. del remitente con la siguiente información:
 
@@ -147,7 +153,9 @@ Este ejemplo configura al agente del Id. del remitente con la siguiente informac
 
 <!-- end list -->
 
-    Set-SenderIDConfig -BypassedRecipients @{Add="chris@contoso.com","michelle@contoso.com"} -BypassedSenderDomains @{Remove="tailspintoys.com"}
+```powershell
+Set-SenderIDConfig -BypassedRecipients @{Add="chris@contoso.com","michelle@contoso.com"} -BypassedSenderDomains @{Remove="tailspintoys.com"}
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -156,8 +164,8 @@ Para comprobar que ha configurado correctamente las excepciones de remitente o d
 1.  Ejecute el siguiente comando:
     
     ```powershell
-Get-SenderIDConfig | Format-List BypassedRecipients,BypassedSenderDomains
-```
+    Get-SenderIDConfig | Format-List BypassedRecipients,BypassedSenderDomains
+    ```
 
 2.  Verifique que los valores mostrados son los valores que ha configurado.
 

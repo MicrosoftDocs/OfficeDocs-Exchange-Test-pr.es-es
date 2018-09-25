@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar enrutamiento de correo de Exchange en Active Directory'
+title: 'Configuración de enrutamiento de correo de Exchange en Active Directory: Exchange 2013 Help'
 TOCTitle: Configuración de enrutamiento de correo de Exchange en Active Directory
 ms:assetid: d01f8545-c201-4a96-be39-ed4c7008afcf
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ674705(v=EXCHG.150)
@@ -43,7 +43,7 @@ Determine el nombre del vínculo a sitios IP de Active Directory para el que des
 
 Para establecer un costo específico de Exchange en un vínculo a sitios de Active Directory, ejecute el siguiente comando:
 
-``` 
+```powershell
  Set-AdSiteLink <ADSiteLinkIdentity> -ExchangeCost <Integer | $null>
 ```
 
@@ -66,8 +66,8 @@ Para comprobar que estableció correctamente un costo de Exchange en un vínculo
 1.  Ejecute el siguiente comando:
     
     ```powershell
-Get-AdSiteLink | Format-List Name,ExchangeCost
-```
+    Get-AdSiteLink | Format-List Name,ExchangeCost
+    ```
 
 2.  Compruebe que el costo de Exchange está configurado en el vínculo a sitios de Active Directory.
 
@@ -100,8 +100,8 @@ Para comprobar que configuró correctamente un sitio de Active Directory como un
 1.  Ejecute el siguiente comando:
     
     ```powershell
-Get-AdSite | Format-List Name,HubSiteEnabled
-```
+    Get-AdSite | Format-List Name,HubSiteEnabled
+    ```
 
 2.  Compruebe que el valor *HubSiteEnabled* es `True` para el sitio de Active Directory.
 

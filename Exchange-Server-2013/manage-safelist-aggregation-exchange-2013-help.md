@@ -47,7 +47,9 @@ Puede configurar el número máximo de remitentes seguros y de remitentes bloque
 
 Para configurar el número máximo de remitentes seguros y de remitentes bloqueados, ejecute el siguiente comando:
 
-    Set-Mailbox <MailboxIdentity> -MaxSafeSenders <Integer> -MaxBlockedSenders <Integer>
+```powershell
+Set-Mailbox <MailboxIdentity> -MaxSafeSenders <Integer> -MaxBlockedSenders <Integer>
+```
 
 En este ejemplo, se configura el buzón de juancarlos@contoso.com para que tenga un máximo de 2000 remitentes seguros y 200 remitentes bloqueados.
 
@@ -86,14 +88,14 @@ Para comprobar que la agregación de listas seguras se configuró correctamente,
 1.  Ejecute el siguiente comando:
     
     ```powershell
-Get-ContentFilterConfig | Format-List Enabled
-```
+    Get-ContentFilterConfig | Format-List Enabled
+    ```
 
 2.  Si el resultado muestra que el parámetro *Enabled* es `True`, el filtrado de contenido está habilitado. Si no lo está, ejecute el siguiente comando para habilitar el filtrado de contenido y el agente de filtrado de contenido en el servidor Exchange:
     
     ```powershell
-Set-ContentFilterConfig -Enabled $true
-```
+    Set-ContentFilterConfig -Enabled $true
+    ```
 
 ## Paso 2: usar el editor ADSI para comprobar la replicación de los datos de agregación de listas seguras en los servidores de transporte perimetral (opcional)
 

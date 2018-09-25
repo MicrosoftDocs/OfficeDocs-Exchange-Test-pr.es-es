@@ -57,7 +57,9 @@ Para comprobar si ha logrado configurar el Asistente de carpetas administradas, 
 
 Este comando recupera todos los servidores de buzón de correo de la organización y presenta las propiedades del ciclo de trabajo del Asistente de carpetas administradas de cada servidor en formato de tabla. El modificador *Auto* se utiliza para ajustar automáticamente el ancho de columna.
 
+```powershell
     Get-MailboxServer | Format-Table Name,ManagedFolderWorkCycle* -Auto
+```
 
 ## Usar el Shell para iniciar el Asistente para carpetas administradas
 

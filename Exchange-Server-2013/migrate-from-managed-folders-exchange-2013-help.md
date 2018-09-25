@@ -262,13 +262,15 @@ Hay dos métodos que puede usar para este paso:
 
 En este ejemplo, se crean etiquetas de retención según la configuración de contenido administrado correspondiente que se muestra en la directiva de buzones de correo de carpetas administradas de Contoso.
 
-    New-RetentionPolicyTag Corp-DeletedItems -ManagedFolderToUpgrade Corp-DeletedItems
-    New-RetentionPolicyTag Corp-SentItems -ManagedFolderToUpgrade Corp-SentItems
-    New-RetentionPolicyTag Corp-JunkMail -ManagedFolderToUpgrade Corp-JunkMail
-    New-RetentionPolicyTag Corp-EntireMailbox -ManagedFolderToUpgrade Corp-EntireMailbox
-    New-RetentionPolicyTag 30Days -ManagedFolderToUpgrade 30Days
-    New-RetentionPolicyTag 5Years -ManagedFolderToUpgrade 5Years
-    New-RetentionPolicyTag NeverExpire -ManagedFolderToUpgrade NeverExpire
+```powershell
+New-RetentionPolicyTag Corp-DeletedItems -ManagedFolderToUpgrade Corp-DeletedItems
+New-RetentionPolicyTag Corp-SentItems -ManagedFolderToUpgrade Corp-SentItems
+New-RetentionPolicyTag Corp-JunkMail -ManagedFolderToUpgrade Corp-JunkMail
+New-RetentionPolicyTag Corp-EntireMailbox -ManagedFolderToUpgrade Corp-EntireMailbox
+New-RetentionPolicyTag 30Days -ManagedFolderToUpgrade 30Days
+New-RetentionPolicyTag 5Years -ManagedFolderToUpgrade 5Years
+New-RetentionPolicyTag NeverExpire -ManagedFolderToUpgrade NeverExpire
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, vea [New-RetentionPolicyTag](https://technet.microsoft.com/es-es/library/dd335226\(v=exchg.150\)).
 
@@ -282,13 +284,15 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, vea
 
 En este ejemplo, se crean etiquetas de retención según las carpetas administradas y la configuración de contenido administrado correspondiente que se muestra en la directiva de buzones de correo de carpetas administradas de Contoso. La configuración de retención se especifica manualmente sin usar el parámetro *ManagedFolderToUpgrade*.
 
-    New-RetentionPolicyTag Corp-DeletedItems -Type DeletedItems -RetentionEnabled $true -AgeLimitForRetention 30 -RetentionAction DeleteAndAllowRecovery
-    New-RetentionPolicyTag Corp-SentItems -Type SentItems -RetentionEnabled $true -AgeLimitforRetention 1825 -RetentionAction MoveToDeletedItems
-    New-RetentionPolicyTag Corp-JunkMail -Type JunkMail -RetentionEnabled $true -AgeLimitforRetention 30 -RetentionAction PermanentlyDelete
-    New-RetentionPolicyTag Corp-EntireMailbox -Type All -RetentionEnabled $true -AgeLimitForRetention 365 -RetentionAction MoveToDeletedItems
-    New-RetentionPolicyTag 30Days -Type Personal -RetentionEnabled $true -AgeLimitForRetention 30 -RetentionAction MoveToDeletedItems
-    New-RetentionPolicyTag 5Years -Type Personal -RetentionEnabled $true -AgeLimitForRetention 1825 -RetentionAction MoveToDeletedItems
-    New-RetentionPolicyTag NeverExpire -Type Personal -RetentionEnabled $false
+```powershell
+New-RetentionPolicyTag Corp-DeletedItems -Type DeletedItems -RetentionEnabled $true -AgeLimitForRetention 30 -RetentionAction DeleteAndAllowRecovery
+New-RetentionPolicyTag Corp-SentItems -Type SentItems -RetentionEnabled $true -AgeLimitforRetention 1825 -RetentionAction MoveToDeletedItems
+New-RetentionPolicyTag Corp-JunkMail -Type JunkMail -RetentionEnabled $true -AgeLimitforRetention 30 -RetentionAction PermanentlyDelete
+New-RetentionPolicyTag Corp-EntireMailbox -Type All -RetentionEnabled $true -AgeLimitForRetention 365 -RetentionAction MoveToDeletedItems
+New-RetentionPolicyTag 30Days -Type Personal -RetentionEnabled $true -AgeLimitForRetention 30 -RetentionAction MoveToDeletedItems
+New-RetentionPolicyTag 5Years -Type Personal -RetentionEnabled $true -AgeLimitForRetention 1825 -RetentionAction MoveToDeletedItems
+New-RetentionPolicyTag NeverExpire -Type Personal -RetentionEnabled $false
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, vea [New-RetentionPolicyTag](https://technet.microsoft.com/es-es/library/dd335226\(v=exchg.150\)).
 
@@ -304,7 +308,9 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 
 En este ejemplo, se crea la directiva de retención RP-Corp y se vinculan a dicha directiva las etiquetas de retención recientemente creadas.
 
-    New-RetentionPolicy RP-Corp -RetentionPolicyTagLinks Corp-DeletedItems,Corp-SentItems,Corp-JunkMail,Corp-EntireMailbox,30Days,NeverExpire
+```powershell
+New-RetentionPolicy RP-Corp -RetentionPolicyTagLinks Corp-DeletedItems,Corp-SentItems,Corp-JunkMail,Corp-EntireMailbox,30Days,NeverExpire
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, vea [New-RetentionPolicy](https://technet.microsoft.com/es-es/library/dd297970\(v=exchg.150\)).
 
@@ -344,13 +350,15 @@ Para verificar que ha realizado la migración de las carpetas administradas a la
     
     Este comando recupera la directiva de retención aplicada a todos los buzones de correo de una organización, así como su estado de suspensión de retención.
     
-        Get-Mailbox -ResultSize unlimited -Filter {Name -NotLike "DiscoverySearch*�?} | Format-Table Name,RetentionPolicy,RetentionHoldEnabled -Auto
+    ```powershell
+    Get-Mailbox -ResultSize unlimited -Filter {Name -NotLike "DiscoverySearch*�?} | Format-Table Name,RetentionPolicy,RetentionHoldEnabled -Auto
+    ```
 
   - Una vez que el Asistente para carpeta administrada haya procesado un buzón de correo con una directiva de retención, use el cmdlet [Get-RetentionPolicyTag](https://technet.microsoft.com/es-es/library/dd298009\(v=exchg.150\)) para recuperar las etiquetas de retención suministradas en el buzón del usuario.
     
     Este comando recupera las etiquetas de retención aplicadas efectivamente al buzón de correo de April Stewart.
     
     ```powershell
-Get-RetentionPolicyTag -Mailbox astewart
-```
+    Get-RetentionPolicyTag -Mailbox astewart
+    ```
 

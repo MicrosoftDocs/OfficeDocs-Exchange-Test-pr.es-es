@@ -107,7 +107,7 @@ Para obtener más información acerca de cómo instalar Exchange 2013, consulte
     
     A partir de Exchange 2013 CU6, si desea que los remitentes externos envíen correo a carpetas públicas habilitadas para correo, se debe conceder al menos el permiso **Crear elementos** al usuario **Anónimo**. Si ha configurado las carpetas públicas habilitadas para correo y no ha hecho esto, los remitentes externos recibirán una notificación de error de entrega y no se entregarán los mensajes a la carpeta pública habilitada para correo.
     
-    Puede usar el Shell o Outlook para establecer los permisos para el usuario Anónimo. Para leer más sobre cómo establecer permisos en el usuario Anónimo, consulte [Habilitar o deshabilitar el correo para una carpeta pública](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/connect-voice-mail-system/change-audio-codec).
+    Puede usar el Shell o Outlook para establecer los permisos para el usuario Anónimo. Para leer más sobre cómo establecer permisos en el usuario Anónimo, consulte [Habilitar o deshabilitar el correo para una carpeta pública](https://docs.microsoft.com/es-es/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
   - El número máximo de carpetas públicas que se pueden migrar a Exchange 2013 desde los servidores de Exchange heredados es 500.000. Para obtener más información acerca de la migración de carpetas públicas, consulte [Usar migración por lotes para migrar carpetas públicas a Exchange 2013 desde versiones anteriores](use-batch-migration-to-migrate-public-folders-to-exchange-2013-from-previous-versions-exchange-2013-help.md).
 
@@ -131,9 +131,9 @@ Para obtener más información acerca de cómo instalar Exchange 2013, consulte
     
     2.  Ejecute el siguiente comando.
         
-        ```powershell
-Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
-```
+      ```powershell
+      Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
+      ```
     
     3.  Realice las tareas de administración del agente de transporte de la forma habitual.
     
@@ -163,7 +163,9 @@ Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
     
     Para solucionar este problema, es necesario quitar el método de autenticación `Integrated` del conector de recepción del cliente en los servidores de acceso de cliente de Exchange 2013. Para quitar el método de autenticación `Integrated` de un conector de recepción de cliente, ejecute el siguiente comando en cada servidor de acceso de cliente de Exchange 2013 que podría recibir conexiones desde equipos que ejecutan el cmdlet **Send-MailMessage**:
     
-        Set-ReceiveConnector "<server name>\Client Frontend <server name>" -AuthMechanism Tls, BasicAuth, BasicAuthRequireTLS
+      ```powershell
+      Set-ReceiveConnector "<server name>\Client Frontend <server name>" -AuthMechanism Tls, BasicAuth, BasicAuthRequireTLS
+      ```
 
   - **Puede que MAPI sobre HTTP experimente un bajo nivel de rendimiento al actualizar a Exchange 2013 SP1**   Si actualiza desde una actualización acumulativa de Exchange 2013 a Exchange 2013 SP1 y habilita MAPI sobre HTTP, los clientes que se conecten a un servidor de Exchange 2013 SP1 usando el protocolo pueden experimentar un bajo nivel de rendimiento. El motivo es que no se configuran las opciones necesarias durante una actualización acumulativa a Exchange 2013 SP1. Este problema no se produce si se actualiza a Exchange 2013 SP1 desde Exchange 2013 RTM o si se instala un nuevo servidor Exchange 2013 SP1 o posterior.
     
@@ -176,22 +178,26 @@ Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
     
     1.  En servidores que ejecutan el rol de servidor de acceso de cliente, ejecute los siguientes comandos en un símbolo del sistema de Windows:
         
-            set AppCmdLocation=%windir%\System32\inetsrv
-            set ExchangeLocation=%ProgramFiles%\Microsoft\Exchange Server\V15
-            
-            %AppCmdLocation%\appcmd.exe SET AppPool "MSExchangeMapiFrontEndAppPool" /CLRConfigFile:"%ExchangeLocation%\bin\MSExchangeMapiFrontEndAppPool_CLRConfig.config"
-            %AppCmdLocation%\appcmd.exe RECYCLE AppPool "MSExchangeMapiFrontEndAppPool"
+      ```powershell
+      set AppCmdLocation=%windir%\System32\inetsrv
+      set ExchangeLocation=%ProgramFiles%\Microsoft\Exchange Server\V15
+      
+      %AppCmdLocation%\appcmd.exe SET AppPool "MSExchangeMapiFrontEndAppPool" /CLRConfigFile:"%ExchangeLocation%\bin\MSExchangeMapiFrontEndAppPool_CLRConfig.config"
+      %AppCmdLocation%\appcmd.exe RECYCLE AppPool "MSExchangeMapiFrontEndAppPool"
+      ```
     
     2.  En servidores que ejecutan el rol de servidor de buzón de correo, ejecute los siguientes comandos en un símbolo del sistema de Windows:
         
-            set AppCmdLocation=%windir%\System32\inetsrv
-            set ExchangeLocation=%ProgramFiles%\Microsoft\Exchange Server\V15
-            
-            %AppCmdLocation%\appcmd.exe SET AppPool "MSExchangeMapiMailboxAppPool" /CLRConfigFile:"%ExchangeLocation%\bin\MSExchangeMapiMailboxAppPool_CLRConfig.config"
-            %AppCmdLocation%\appcmd.exe RECYCLE AppPool "MSExchangeMapiMailboxAppPool"
-            
-            %AppCmdLocation%\appcmd.exe SET AppPool "MSExchangeMapiAddressBookAppPool" /CLRConfigFile:"%ExchangeLocation%\bin\MSExchangeMapiAddressBookAppPool_CLRConfig.config"
-            %AppCmdLocation%\appcmd.exe RECYCLE AppPool "MSExchangeMapiAddressBookAppPool"
+      ```powershell
+      set AppCmdLocation=%windir%\System32\inetsrv
+      set ExchangeLocation=%ProgramFiles%\Microsoft\Exchange Server\V15
+      
+      %AppCmdLocation%\appcmd.exe SET AppPool "MSExchangeMapiMailboxAppPool" /CLRConfigFile:"%ExchangeLocation%\bin\MSExchangeMapiMailboxAppPool_CLRConfig.config"
+      %AppCmdLocation%\appcmd.exe RECYCLE AppPool "MSExchangeMapiMailboxAppPool"
+      
+      %AppCmdLocation%\appcmd.exe SET AppPool "MSExchangeMapiAddressBookAppPool" /CLRConfigFile:"%ExchangeLocation%\bin\MSExchangeMapiAddressBookAppPool_CLRConfig.config"
+      %AppCmdLocation%\appcmd.exe RECYCLE AppPool "MSExchangeMapiAddressBookAppPool"
+      ```
 
 ## Coexistencia de Exchange 2010
 

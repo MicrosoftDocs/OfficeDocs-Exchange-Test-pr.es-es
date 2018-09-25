@@ -71,11 +71,15 @@ Para obtener información más detallada acerca de la sintaxis y los parámet
 
 Para buscar un usuario concreto al que una función de administración haya concedido permiso, use el cmdlet **Get-ManagementRoleAssignment** para obtener una lista de todos los usuarios reales; a continuación, canalice el resultado del cmdlet al cmdlet **Where**. El cmdlet **Where** filtra el resultado y devuelve únicamente el usuario que se ha especificado. Use la siguiente sintaxis.
 
-    Get-ManagementRoleAssignment -Role <role name> -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "<name of user>" }
+```powershell
+Get-ManagementRoleAssignment -Role <role name> -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "<name of user>" }
+```
 
 En este ejemplo, se busca al usuario David Strome en la función Registro en diario.
 
-    Get-ManagementRoleAssignment -Role Journaling -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "David Strome" }
+```powershell
+Get-ManagementRoleAssignment -Role Journaling -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "David Strome" }
+```
 
 Si desea modificar las propiedades que se devuelven en la lista o exportar la lista a un archivo .csv, consulte Uso del Shell para personalizar el resultado y mostrarlo más adelante en este tema.
 
@@ -85,12 +89,14 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para saber todas las funciones de las que recibe permisos un usuario, use el cmdlet **Get-ManagementRoleAssignment** para obtener una lista de todos los usuarios reales; a continuación, canalice el resultado del cmdlet al cmdlet **Where**. El cmdlet **Where** filtra el resultado y devuelve únicamente las asignaciones de función que conceden los permisos de usuario.
 
-    Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "<name of user>" }
+```powershell
+Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "<name of user>" }
+```
 
 En este ejemplo, se buscan todas las asignaciones de funciones que conceden permisos al usuario Kim Akers.
 
 ```powershell
-Get-ManagementRoleAssignment -GetEffectiveUsers | Where {     Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "Kim Akers" }.EffectiveUserName -Eq "Kim Akers" }
+Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "Kim Akers" }
 ```
 
 Si desea modificar las propiedades que se devuelven en la lista o exportar la lista a un archivo CSV, consulte Uso del Shell para personalizar el resultado y mostrarlo más adelante en este tema.
@@ -143,11 +149,15 @@ Para obtener más información sobre los cmdlets **Format-Table** y **Select-Obj
 
 3.  Use la sintaxis siguiente para ver la lista.
     
-        <command to retrieve list > | Format-Table <property 1>, <property 2>, <property ...>
+    ```powershell
+    <command to retrieve list > | Format-Table <property 1>, <property 2>, <property ...>
+    ```
 
 En este ejemplo, se encuentra al usuario David Strome en todas las funciones y se muestran las propiedades `EffectiveUserName`, `Role`, `CustomRecipientWriteScope` y `CustomConfigWriteScope`.
 
-    Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "David Strome" } | Format-Table EffectiveUserName, Role, CustomRecipientWriteScope, CustomConfigWriteScope
+```powershell
+Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "David Strome" } | Format-Table EffectiveUserName, Role, CustomRecipientWriteScope, CustomConfigWriteScope
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd351024\(v=exchg.150\)).
 
@@ -167,11 +177,15 @@ Para exportar una lista a un archivo .cvs, se necesita canalizar el resultado de
 
 3.  Use la sintaxis siguiente para exportar la lista a un archivo .csv.
     
-        <command to retrieve list > | Select-Object <property 1>, <property 2>, <property ...> | Export-CSV <filename>
+    ```powershell
+    <command to retrieve list > | Select-Object <property 1>, <property 2>, <property ...> | Export-CSV <filename>
+    ```
 
 En este ejemplo, se encuentra al usuario David Strome en todas las funciones y se muestran las propiedades `EffectiveUserName`, `Role`, `CustomRecipientWriteScope` y `CustomConfigWriteScope`.
 
-    Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "David Strome" } | Select-Object EffectiveUserName, Role, CustomRecipientWriteScope, CustomConfigWriteScope | Export-CSV c:\output.csv
+```powershell
+Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "David Strome" } | Select-Object EffectiveUserName, Role, CustomRecipientWriteScope, CustomConfigWriteScope | Export-CSV c:\output.csv
+```
 
 El archivo .csv ya puede verse en el visor que elija.
 

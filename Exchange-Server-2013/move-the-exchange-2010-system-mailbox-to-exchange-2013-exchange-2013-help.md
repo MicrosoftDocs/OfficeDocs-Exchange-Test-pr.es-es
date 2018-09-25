@@ -1,5 +1,5 @@
 ﻿---
-title: 'Mover el buzón del sistema de Exchange 2010 a Exchange 2013 Exchange 2013 Help'
+title: 'Mover el buzón del sistema de Exchange 2010 a Exchange 2013: Exchange 2013 Help'
 TOCTitle: Mover el buzón del sistema de Exchange 2010 a Exchange 2013
 ms:assetid: a3b03c4e-0bc7-41a2-885c-e9cac37566c8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn249849(v=EXCHG.150)
@@ -41,9 +41,9 @@ Para más información sobre la actualización a Exchange 2013, consulte los si
 
   - Ejecute el siguiente comando en Exchange 2013 para obtener la identidad y la versión de los servidores de Exchange y las bases de datos de buzones de correo que contienen los buzones del sistema de la organización.
     
-    ```powershell
-Get-Mailbox -Arbitration | FL Name,DisplayName,ServerName,Database,AdminDisplayVersion
-```
+      ```powershell
+      Get-Mailbox -Arbitration | FL Name,DisplayName,ServerName,Database,AdminDisplayVersion
+      ```
     
     La propiedad **AdminDisplayVersion** indica la versión de Exchange que ejecuta el servidor. El valor `Version 14.x` indica Exchange 2010. El valor `Version 15.x` indica Exchange 2013.
 
@@ -85,19 +85,23 @@ Get-Mailbox -Arbitration | FL Name,DisplayName,ServerName,Database,AdminDisplayV
 
 En primer lugar, ejecute el siguiente comando en Exchange 2013 para obtener los nombres y las versiones de todas las bases de datos de buzones de correo de la organización.
 
-```powershell
-Get-MailboxDatabase -IncludePreExchange2013 | FL Name,Server,AdminDisplayVersion
-```
+  ```powershell
+  Get-MailboxDatabase -IncludePreExchange2013 | FL Name,Server,AdminDisplayVersion
+  ```
 
 Después de identificar el nombre de las bases de datos de buzones de correo de la organización, ejecute el siguiente comando en Exchange 2013 para mover el buzón del sistema de Microsoft Exchange a una base de datos de buzones de correo ubicada en un servidor Exchange 2013.
 
-    Get-Mailbox -Arbitration -Identity "SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}" | New-MoveRequest -TargetDatabase <name of Exchange 2013 database>
+  ```powershell
+  Get-Mailbox -Arbitration -Identity "SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}" | New-MoveRequest -TargetDatabase <name of Exchange 2013 database>
+  ```
 
 ## ¿Cómo puede saber si funcionó?
 
 Para comprobar que movió correctamente el buzón del sistema de Microsoft Exchange a una base de datos de buzones de correo situada en un servidor Exchange 2013, ejecute el siguiente comando en el Shell.
 
-    Get-Mailbox -Arbitration -Identity "SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}" | FL Database,ServerName,AdminDisplayVersion
+  ```powershell
+  Get-Mailbox -Arbitration -Identity "SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}" | FL Database,ServerName,AdminDisplayVersion
+  ```
 
 Si el valor de la propiedad **AdminDisplayVersion** es **Versión 15.x (compilación xxx.x)**, significa que el buzón del sistema reside en una base de datos de buzones de correo situada en un servidor Exchange 2013.
 

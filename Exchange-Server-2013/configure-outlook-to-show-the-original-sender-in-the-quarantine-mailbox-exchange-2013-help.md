@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar Outlook para mostrar remitente original en el buzón de cuarentena'
+title: 'Configurar Outlook para mostrar el remitente original en el buzón de cuarentena: Exchange 2013 Help'
 TOCTitle: Configurar Outlook para mostrar el remitente original en el buzón de cuarentena
 ms:assetid: 9249425d-1b06-48a0-ad95-c4eefb641ff4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee861109(v=EXCHG.150)
@@ -47,76 +47,78 @@ De forma predeterminada, no puede seleccionar estos campos en Microsoft Outlook.
 
 1.  Abra el Bloc de notas y copie el siguiente código en el documento.
     
-        [Description]
-        MessageClass=IPM.Note
-        CLSID={00020D31-0000-0000-C000-000000000046}
-        DisplayName=Quarantine Extension Form
-        Category=Standard
-        Subcategory=Form
-        Comment=This form allows the Original Sender (ReceivedRepresentingEmailAddress), Original Recipient (To), and Original SCL (OriginalScl) values to be viewed as columns.
-        LargeIcon=IPML.ico
-        SmallIcon=IPMS.ico
-        Version=3.0
-        Locale=enu
-        Hidden=1
-        Owner=Microsoft Corporation
-        Contact=Your Name
-        
-        [Platforms]
-        Platform1=Win16
-        Platform2=NTx86
-        Platform9=Win95
-        
-        [Platform.Win16]
-        CPU=ix86
-        OSVersion=Win3.1
-        
-        [Platform.NTx86]
-        CPU=ix86
-        OSVersion=WinNT3.5
-        
-        [Platform.Win95]
-        CPU=ix86
-        OSVersion=Win95
-        
-        [Properties]
-        Property01=ReceivedRepresentingEmailAddress
-        Property02=DisplayTo
-        Property03=OriginalScl
-        
-        [Property.ReceivedRepresentingEmailAddress]
-        Type=31
-        NmidInteger=0x0078
-        DisplayName=ReceivedRepresentingEmailAddress
-        
-        [Property.DisplayTo]
-        Type=31
-        NmidInteger=0x0E04
-        DisplayName=DisplayTo
-        
-        [Property.OriginalScl]
-        Type=3
-        NmidPropset={41F28F13-83F4-4114-A584-EEDB5A6B0BFF}
-        NmidString=OriginalScl
-        DisplayName=OriginalScl
-        
-        [Verbs]
-        Verb1=1
-        
-        [Verb.1]
-        DisplayName=&Open
-        Code=0
-        Flags=0
-        Attribs=2
-        
-        [Extensions]
-        Extensions1=1
-        
-        [Extension.1]
-        Type=31
-        NmidPropset={00020D0C-0000-0000-C000-000000000046}
-        NmidInteger=1
-        Value=1000000000000000
+    ```powershell
+    [Description]
+    MessageClass=IPM.Note
+    CLSID={00020D31-0000-0000-C000-000000000046}
+    DisplayName=Quarantine Extension Form
+    Category=Standard
+    Subcategory=Form
+    Comment=This form allows the Original Sender (ReceivedRepresentingEmailAddress), Original Recipient (To), and Original SCL (OriginalScl) values to be viewed as columns.
+    LargeIcon=IPML.ico
+    SmallIcon=IPMS.ico
+    Version=3.0
+    Locale=enu
+    Hidden=1
+    Owner=Microsoft Corporation
+    Contact=Your Name
+    
+    [Platforms]
+    Platform1=Win16
+    Platform2=NTx86
+    Platform9=Win95
+    
+    [Platform.Win16]
+    CPU=ix86
+    OSVersion=Win3.1
+    
+    [Platform.NTx86]
+    CPU=ix86
+    OSVersion=WinNT3.5
+    
+    [Platform.Win95]
+    CPU=ix86
+    OSVersion=Win95
+    
+    [Properties]
+    Property01=ReceivedRepresentingEmailAddress
+    Property02=DisplayTo
+    Property03=OriginalScl
+    
+    [Property.ReceivedRepresentingEmailAddress]
+    Type=31
+    NmidInteger=0x0078
+    DisplayName=ReceivedRepresentingEmailAddress
+    
+    [Property.DisplayTo]
+    Type=31
+    NmidInteger=0x0E04
+    DisplayName=DisplayTo
+    
+    [Property.OriginalScl]
+    Type=3
+    NmidPropset={41F28F13-83F4-4114-A584-EEDB5A6B0BFF}
+    NmidString=OriginalScl
+    DisplayName=OriginalScl
+    
+    [Verbs]
+    Verb1=1
+    
+    [Verb.1]
+    DisplayName=&Open
+    Code=0
+    Flags=0
+    Attribs=2
+    
+    [Extensions]
+    Extensions1=1
+    
+    [Extension.1]
+    Type=31
+    NmidPropset={00020D0C-0000-0000-C000-000000000046}
+    NmidInteger=1
+    Value=1000000000000000
+    ```
 
 2.  Guarde el archivo en su carpeta de formularios de Office con los siguientes valores:
     
@@ -132,7 +134,9 @@ De forma predeterminada, no puede seleccionar estos campos en Microsoft Outlook.
     
     Por ejemplo, para la versión de 32 bits en inglés de Outlook 2013 instalada en una versión de 64 bits de Windows, guarde el archivo como:
     
-        "C:\Program Files (x86)\Microsoft Office\Office15\Forms\1033\QTNE.cfg"
+    ```powershell
+    "C:\Program Files (x86)\Microsoft Office\Office15\Forms\1033\QTNE.cfg"
+    ```
     
 
     > [!NOTE]

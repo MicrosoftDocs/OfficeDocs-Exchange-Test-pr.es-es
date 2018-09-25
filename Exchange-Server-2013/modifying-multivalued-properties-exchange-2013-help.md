@@ -77,11 +77,21 @@ La modificación de propiedades con varios valores es similar a la modificación
 <tbody>
 <tr class="odd">
 <td><p>Agregar uno o más valores a una propiedad con varios valores</p></td>
-<td><pre><code>@{Add=&quot;&lt;value1&gt;&quot;, &quot;&lt;value2&gt;&quot;, &quot;&lt;value3&gt;&quot;}</code></pre></td>
+<td>
+
+```powershell
+@{Add="<value1>", "<value2>", "<value3>"}
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>Quitar uno o más valores de una propiedad con varios valores</p></td>
-<td><pre><code>@{Remove=&quot;&lt;value1&gt;&quot;, &quot;&lt;value2&gt;&quot;, &quot;&lt;value3&gt;&quot;}</code></pre></td>
+<td>
+
+```powershell
+@{Remove="<value1>", "<value2>", "<value3>"}
+```
+</td>
 </tr>
 </tbody>
 </table>
@@ -107,9 +117,12 @@ Set-RecipientFilterConfig -BlockedRecipients @{Remove="david@adatum.com"}
 
 Se pueden usar combinaciones más complejas como, por ejemplo, agregar o quitar valores de una propiedad al mismo tiempo. Para ello, debe insertar un punto y coma (`;`) entre las acciones `Add` y `Remove`. Por ejemplo:
 
-    Set-RecipientFilterConfig -BlockedRecipients @{Add="carter@contoso.com", "sam@northwindtraders.com", "brian@adatum.com"; Remove="john@contoso.com"}
+```powershell
+Set-RecipientFilterConfig -BlockedRecipients @{Add="carter@contoso.com", "sam@northwindtraders.com", "brian@adatum.com"; Remove="john@contoso.com"}
+```
 
 Si volvemos a ejecutar el comando `Get-RecipientFilterConfig | Format-List BlockedRecipients`, veremos que las direcciones de correo electrónico de Carter, Sam y Brian se han agregado y que la dirección de John se ha eliminado.
 
-    BlockedRecipients : {brian@adatum.com, sam@northwindtraders.com, carter@contoso.com, chris@contoso.com, kim@northwindtraders.com}
-
+```powershell
+BlockedRecipients : {brian@adatum.com, sam@northwindtraders.com, carter@contoso.com, chris@contoso.com, kim@northwindtraders.com}
+```

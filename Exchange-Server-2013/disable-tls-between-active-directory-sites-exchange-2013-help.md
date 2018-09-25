@@ -79,7 +79,9 @@ Set-TransportService Mailbox01 -UseDowngradedExchangeServerAuth $true
 
 Para crear un conector de recepción en el servidor de buzones, ejecute el comando siguiente:
 
+```powershell
     New-ReceiveConnector -Name <Name> -Server <ServerIdentity> -RemoteIPRanges <IPAddressRange> -Internal
+```
 
 En este ejemplo se crea el conector de recepción llamado WAN en el servidor Mailbox01 con la configuración siguiente:
 

@@ -32,7 +32,7 @@ La sesión remota es la sesión de Windows PowerShell que se ejecuta en el servi
 Cuando se conecta a un servidor Exchange remoto, se establece una conexión entre la sesión local de su equipo y la sesión remota del servidor Exchange. Esta conexión permite ejecutar cmdlets de Exchange en el servidor remoto de Exchange en la sesión local, aunque el equipo local no tenga instalado ningún cmdlet de Exchange. Aunque parezca que los cmdlets de Exchange se están ejecutando en el equipo local, en realidad se están ejecutando en el servidor Exchange.
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Incluso si se abre el shell en un servidor de Exchange&nbsp;2013, se realiza el mismo proceso de conexión y se crean dos sesiones. Esto significa que es necesario utilizar la misma sintaxis nueva para importar y exportar archivos, independientemente de si se abre el Shell en un servidor Exchange&nbsp;2013 o desde una estación de trabajo cliente remota.
 
 
@@ -49,11 +49,15 @@ La sintaxis para importar archivos en Exchange 2013 se utiliza siempre que se d
 
 El shell tiene que saber qué archivo se desea enviar al cmdlet de Exchange 2013, así como qué parámetro aceptará los datos. Para ello, utilice la siguiente sintaxis:
 
-    <Cmdlet> -FileData ([Byte[]]$(Get-Content -Path <local path to file> -Encoding Byte -ReadCount 0))
+```powershell
+<Cmdlet> -FileData ([Byte[]]$(Get-Content -Path <local path to file> -Encoding Byte -ReadCount 0))
+```
 
 Por ejemplo, el siguiente comando importa el archivo C:\\MyData.dat en el parámetro *FileData* del cmdlet ficticio **Import-SomeData**.
 
-    Import-SomeData -FileData (Byte[]]$(Get-Content -Path "C:\MyData.dat" -Encoding Byte -ReadCount 0))
+```powershell
+Import-SomeData -FileData (Byte[]]$(Get-Content -Path "C:\MyData.dat" -Encoding Byte -ReadCount 0))
+```
 
 Al ejecutar el comando se producirán las siguientes acciones:
 
@@ -71,8 +75,10 @@ Al ejecutar el comando se producirán las siguientes acciones:
 
 Algunos cmdlets utilizan la siguiente sintaxis alternativa, que realiza lo mismo que la sintaxis anterior.
 
-    [Byte[]]$Data = Get-Content -Path <local path to file> -Encoding Byte -ReadCount 0
+```powershell
+[Byte[]]$Data = Get-Content -Path <local path to file> -Encoding Byte -ReadCount 0
     Import-SomeData -FileData $Data
+```
 
 El mismo proceso ocurre con esta sintaxis alternativa. La única diferencia reside en que, en vez de realizar toda la operación de una vez, los datos obtenidos del archivo local se almacenan en una variable a la que se puede hacer referencia, una vez creada. A continuación, la variable se utiliza en el comando de importación para pasar el contenido del archivo local al cmdlet **Import-SomeData**. Utilizar este proceso en dos fases resulta útil si se desea utilizar los datos del archivo local en más de un comando.
 
@@ -142,14 +148,14 @@ La sintaxis para exportar archivos en Exchange 2013 se utiliza siempre que se d
 
 El shell tiene que saber que se desea guardar en el equipo local los datos almacenados en la propiedad **FileData**. Para ello, utilice la siguiente sintaxis:
 
-```command line
+```command&nbsp;line
 <cmdlet> | ForEach {     <cmdlet> | ForEach { $_.FileData | Add-Content <local path to file> -Encoding Byte }.FileData | Add-Content <local path to file> -Encoding Byte }
 ```
 
 Por ejemplo, el siguiente comando exporta los datos almacenados en la propiedad **FileData** en el objeto creado por el cmdlet ficticio **Export-SomeData**. Los datos exportados se almacenan en un archivo que se especifica en el equipo local, en este caso, MyData.dat.
 
 
-> [!NOTE]
+> [!NOTE]  
 > Este procedimiento utiliza el cmdlet, los objetos y la canalización de <STRONG>ForEach</STRONG>. Para obtener más información acerca de cada uno de ellos, consulte <A href="https://technet.microsoft.com/es-es/library/aa998260(v=exchg.150)">Canalización</A> y <A href="https://technet.microsoft.com/es-es/library/aa996386(v=exchg.150)">Datos estructurados</A>.
 
 

@@ -43,8 +43,8 @@ Sin embargo, si el buzón de sistema de detección se elimina por error, los adm
     Para volver a crear el buzón del sistema de detección, ejecute el siguiente comando:
     
     ```powershell
-.\Setup /preparead /IAcceptExchangeServerLicenseTerms
-```
+    .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

@@ -52,8 +52,9 @@ En este ejemplo se crea la directiva de aprovisionamiento predeterminada SM\_Pro
   - El tamaño máximo de los mensajes de correo electrónico que se pueden enviar a los buzones de sitio es de 50 MB.
 
 <!-- end list -->
-
+```powershell
     New-SiteMailboxProvisioningPolicy -Name SM_ProvisioningPolicy -IsDefault -IssueWarningQuota 9GB -ProhibitSendReceiveQuota 10GB -MaxReceiveSize 50MB
+```
 
 ## Ver la configuración de una directiva de aprovisionamiento de buzón del sitio
 
@@ -79,7 +80,9 @@ Set-SiteMailboxProvisioningPolicy -Identity Default -MaxReceiveSize 25MB
 
 Este ejemplo cambia la cuota de advertencia a 9,5 GB y la cuota de prohibir envío y de prohibir recepción a 10 GB.
 
+```powershell
     Set-SiteMailboxProvisioningPolicy -Identity Default -IssueWarningQuota 9GB -ProhibitSendReceiveQuota 10GB
+```
 
 ## Configurar un prefijo de nombre en el buzón del sitio
 
@@ -87,7 +90,9 @@ Al crear un nuevo buzón del sitio, la dirección de correo predeterminada tendr
 
 En este ejemplo se deshabilita la nomenclatura del prefijo configurando el parámetro *DefaultAliasPrefixEnabled* en $false.
 
+```powershell
     Set-SiteMailboxProvisioningPolicy -Identity Default -DefaultAliasPrefixEnabled $false -AliasPrefix $null
+```
 
 En este otro ejemplo se modifica la directiva de aprovisionamiento predeterminado y se define el *AliasPrefix* en FOREST01.
 
@@ -96,8 +101,9 @@ En este otro ejemplo se modifica la directiva de aprovisionamiento predeterminad
 > Para las implementaciones con varios bosques, se recomienda usar un prefijo diferente en cada bosque para evitar conflictos cuando los objetos se sincronicen entre los bosques en caso de que los buzones de sitios se hayan creado con el mismo nombre en dos o más bosques.
 
 
-
+```powershell
     Set-SiteMailboxProvisioningPolicy -Identity Default -AliasPrefix FOREST01 -DefaultAliasPrefixEnabled $false
+```
 
 
 > [!NOTE]

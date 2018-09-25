@@ -65,7 +65,9 @@ Como parte del proceso de migración, se genera un archivo .csv (con el script `
 
 El archivo .csv de entrada se puede generar ejecutando el script `AggregatePFData.ps1`, ubicado en el directorio \<*Exchange Installation Directory*\>\\V15\\Scripts. Ejecute el script como se indica a continuación:
 
-    .\AggregatePFData.ps1 | Select-Object -property @{Name="FolderName"; Expression = {$_.Identity}}, @{Name="FolderSize"; Expression = {$_.TotalItemSize.Value.ToBytes()}} | Export-CSV -Path <Path followed by the name of the CSV>
+```powershell
+.\AggregatePFData.ps1 | Select-Object -property @{Name="FolderName"; Expression = {$_.Identity}}, @{Name="FolderSize"; Expression = {$_.TotalItemSize.Value.ToBytes()}} | Export-CSV -Path <Path followed by the name of the CSV>
+```
 
 ## ¿Los permisos de carpetas públicas existentes migran?
 

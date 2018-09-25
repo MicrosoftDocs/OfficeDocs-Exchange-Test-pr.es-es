@@ -76,8 +76,8 @@ Para comprobar que configuró Exchange para permitir que los usuarios vean la co
 1.  Ejecute el siguiente comando en el Shell.
     
     ```powershell
-Get-PopSettings | format-list
-```
+    Get-PopSettings | format-list
+    ```
 
 2.  Compruebe que la propiedad *ExternalConnectionSettings* está establecida.
 
@@ -86,8 +86,8 @@ Para comprobar que configuró Exchange para permitir que los usuarios vean la co
 1.  Ejecute el siguiente comando en el Shell.
     
     ```powershell
-Get-ImapSettings | format-list
-```
+    Get-ImapSettings | format-list
+    ```
 
 2.  Compruebe que la propiedad *ExternalConnectionSettings* está establecida.
 
@@ -97,7 +97,9 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 
 En este ejemplo se muestra la configuración interna y externa del servidor SMTP que verán los usuarios finales que utilicen Outlook Web App.
 
+```powershell
     Get-ReceiveConnector "*Client Frontend*" | Set-ReceiveConnector -Fqdn Server.Contoso.com -AdvertiseClientSettings $true 
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Set-ReceiveConnector](https://technet.microsoft.com/es-es/library/bb125140\(v=exchg.150\)).
 
@@ -108,8 +110,8 @@ Para comprobar que configuró Exchange para permitir que los usuarios vean la co
 1.  Ejecute el siguiente comando en el Shell.
     
     ```powershell
-Get-ReceiveConnector | format-list
-```
+    Get-ReceiveConnector | format-list
+    ```
 
 2.  Si la propiedad *AdvertiseClientSettings* está establecida en `true`, los usuarios pueden ver su configuración de servidor SMTP en Outlook Web App. Si *AdvertiseClientSettings* está establecido en `false`, los usuarios no pueden ver su configuración de servidor SMTP en Outlook Web App.
 

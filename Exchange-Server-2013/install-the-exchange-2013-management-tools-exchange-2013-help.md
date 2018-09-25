@@ -61,21 +61,13 @@ Para obtener más información acerca de la administración de Exchange 2013, c
 
 4.  En la página **Buscar actualizaciones**, elija si desea que el programa de instalación se conecte a Internet y descargue las actualizaciones de seguridad y del producto para Exchange 2013. Si selecciona **Conectarse a Internet y buscar actualizaciones**, el programa de instalación descargará las actualizaciones y las aplicará antes de continuar. Si selecciona **No buscar actualizaciones por ahora**, podrá descargar e instalar las actualizaciones manualmente más tarde. Le recomendamos que descargue e instale las actualizaciones ahora. Haga clic en **Siguiente** para continuar.
 
-5.  
-    
-    En la página **Introducción** comienza el proceso de instalar Exchange en la organización. Lo guiará por la instalación. Aparecerán varios vínculos a contenido útil para la implementación. Se recomienda visitar estos vínculos antes de continuar con la instalación. Haga clic en **Siguiente** para continuar.
+5.  En la página **Introducción** comienza el proceso de instalar Exchange en la organización. Lo guiará por la instalación. Aparecerán varios vínculos a contenido útil para la implementación. Se recomienda visitar estos vínculos antes de continuar con la instalación. Haga clic en **Siguiente** para continuar.
 
-6.  
-    
-    En la página **Contrato de licencia**, revise las condiciones del contrato de licencia del software. Si acepta los términos, seleccione **Acepto los términos del contrato de licencia** y, a continuación, haga clic en **Siguiente**.
+6.  En la página **Contrato de licencia**, revise las condiciones del contrato de licencia del software. Si acepta los términos, seleccione **Acepto los términos del contrato de licencia** y, a continuación, haga clic en **Siguiente**.
 
-7.  
-    
-    En la página **Configuración recomendada**, seleccione si desea utilizar la configuración recomendada. Si selecciona **Usar la configuración recomendada**, Exchange automáticamente enviará a Microsoft informes de error e información acerca del hardware del equipo y acerca de cómo usa usted Exchange. Si selecciona **No usar la configuración recomendada**, estas opciones permanecen deshabilitadas, pero usted puede habilitarlas en cualquier momento después de que se completa la instalación. Para obtener más información acerca de esta configuración y de cómo se utiliza la información que se envía a Microsoft, haga clic en **?**.
+7.  En la página **Configuración recomendada**, seleccione si desea utilizar la configuración recomendada. Si selecciona **Usar la configuración recomendada**, Exchange automáticamente enviará a Microsoft informes de error e información acerca del hardware del equipo y acerca de cómo usa usted Exchange. Si selecciona **No usar la configuración recomendada**, estas opciones permanecen deshabilitadas, pero usted puede habilitarlas en cualquier momento después de que se completa la instalación. Para obtener más información acerca de esta configuración y de cómo se utiliza la información que se envía a Microsoft, haga clic en **?**.
 
-8.  
-    
-    En la página **Selección de función de servidor**, verifique que **Herramientas de administración** esté seleccionado.
+8.  En la página **Selección de función de servidor**, verifique que **Herramientas de administración** esté seleccionado.
     
     Seleccione **Instalar automáticamente las características y los roles de Windows Server necesarios para instalar Exchange Server** para que el Asistente para la instalación instale los requisitos previos necesarios de Windows. Es posible que deba reiniciar el equipo para completar la instalación de algunas características de Windows. Si no selecciona esta opción, deberá instalar las características de Windows manualmente.
     
@@ -88,9 +80,7 @@ Para obtener más información acerca de la administración de Exchange 2013, c
 
 9.  En la página de **ubicación y espacio de la instalación**, acepte la ubicación de instalación predeterminada o haga clic en **Examinar** para elegir una ubicación nueva. Asegúrese de que tiene suficiente espacio en disco disponible en la ubicación donde desea instalar Exchange. Haga clic en **Siguiente** para continuar.
 
-10. 
-    
-    Si se trata de la primera vez que ejecuta la configuración de Exchange 2013 de la organización, en la página **Organización de Exchange**, escriba un nombre para la organización de Exchange. El nombre de la organización de Exchange sólo puede contener los siguientes caracteres:
+10.  Si se trata de la primera vez que ejecuta la configuración de Exchange 2013 de la organización, en la página **Organización de Exchange**, escriba un nombre para la organización de Exchange. El nombre de la organización de Exchange sólo puede contener los siguientes caracteres:
     
       - De la A a la Z
     
@@ -103,26 +93,22 @@ Para obtener más información acerca de la administración de Exchange 2013, c
       - Guión o signo menos
         
 
-        > [!NOTE]
+        > [!NOTE]  
         > El nombre de la organización no puede contener más de 64 caracteres. El nombre de la organización no se puede dejar en blanco.
 
     
-    Si desea utilizar el modelo de permisos divididos de Active Directory, seleccione **Aplicar el modelo de seguridad de permisos divididos de Active Directory a la organización de Exchange**.
+      Si desea utilizar el modelo de permisos divididos de Active Directory, seleccione **Aplicar el modelo de seguridad de permisos divididos de Active Directory a la organización de Exchange**.
     
 
-    > [!WARNING]
-    > En la mayoría de las organizaciones no es necesario aplicar el modelo de permisos divididos de Active Directory. Si necesita separar la administración de las entidades de seguridad de Active Directory de la configuración de Exchange, elija el modelo de permisos divididos de control de acceso basado en roles (RBAC). Para obtener más información, haga clic en <STRONG>?</STRONG>.
+      > [!WARNING]  
+      > En la mayoría de las organizaciones no es necesario aplicar el modelo de permisos divididos de Active Directory. Si necesita separar la administración de las entidades de seguridad de Active Directory de la configuración de Exchange, elija el modelo de permisos divididos de control de acceso basado en roles (RBAC). Para obtener más información, haga clic en <STRONG>?</STRONG>.
 
     
-    Haga clic en **Siguiente** para continuar.
+     Haga clic en **Siguiente** para continuar.
 
-11. 
-    
-    En la página **Comprobaciones de la preparación**, compruebe el estado para determinar que las comprobaciones de requisitos previos de la organización y el servidor remoto hayan finalizado correctamente. Si no ha sido así, deberá resolver todos los errores detectados antes de poder instalar Exchange 2013. No es necesario que salga del programa de instalación para solucionar algunos de los errores en los requisitos previos. Después de resolver los errores detectados, haga clic en **Atrás** y, a continuación, en **Siguiente** para volver a ejecutar la comprobación de requisitos previos. Asegúrese de revisar también cualquier advertencia que se notifique. Si todas las comprobaciones de disponibilidad finalizaron correctamente, haga clic en **Siguiente** para instalar Exchange 2013.
+11. En la página **Comprobaciones de la preparación**, compruebe el estado para determinar que las comprobaciones de requisitos previos de la organización y el servidor remoto hayan finalizado correctamente. Si no ha sido así, deberá resolver todos los errores detectados antes de poder instalar Exchange 2013. No es necesario que salga del programa de instalación para solucionar algunos de los errores en los requisitos previos. Después de resolver los errores detectados, haga clic en **Atrás** y, a continuación, en **Siguiente** para volver a ejecutar la comprobación de requisitos previos. Asegúrese de revisar también cualquier advertencia que se notifique. Si todas las comprobaciones de disponibilidad finalizaron correctamente, haga clic en **Siguiente** para instalar Exchange 2013.
 
-12. 
-    
-    En la página **Finalización**, haga clic en **Finalizar**.
+12. En la página **Finalización**, haga clic en **Finalizar**.
 
 13. Reinicie el equipo después de que se haya completado Exchange 2013.
 
@@ -135,13 +121,12 @@ Para obtener más información acerca de la administración de Exchange 2013, c
 3.  Ejecute el comando siguiente en el símbolo del sistema.
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Si tiene control de acceso de usuarios (UAC) habilitado, debe ejecutar <CODE>Setup.exe</CODE> desde un símbolo del sistema elevado.
 
     
     ```powershell
-Setup.exe /Role:ManagementTools /IAcceptExchangeServerLicenseTerms
-```
+    Setup.exe /Role:ManagementTools /IAcceptExchangeServerLicenseTerms
+    ```
 
 Para obtener más información, consulte [Instalar Exchange 2013 usando el modo desatendido](install-exchange-2013-using-unattended-mode-exchange-2013-help.md).
-

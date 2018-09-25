@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aviso declinación responsabilidad firmas pie de página encabezado organización'
+title: 'Avisos de declinación de responsabilidades, firmas, pies de página o encabezados en toda la organización: Exchange 2013 Help'
 TOCTitle: Avisos de declinación de responsabilidades, firmas, pies de página o encabezados en toda la organización
 ms:assetid: e45e33c9-e53b-427c-ada5-70901bc399b8
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn600437(v=EXCHG.150)
@@ -116,24 +116,45 @@ Aquí le presentamos algunos ejemplos de las condiciones y excepciones que puede
 <td><p>Fuera de la organización, si el mensaje original no incluye texto del aviso de declinación de responsabilidad, como &quot;CONTOSO LEGAL NOTICE&quot;.</p></td>
 <td><p>Condición: <strong>El destinatario se encuentra</strong>&gt;<strong>fuera de la organización</strong>.</p>
 <p>Excepción: <strong>El asunto o el cuerpo</strong>&gt;<strong>El asunto o el cuerpo coincide con estos patrones de texto</strong>&gt;<strong>CONTOSO LEGAL NOTICE</strong></p></td>
-<td><pre><code>-FromScope NotInOrganization -ExceptIf -SubjectOrBodyMatches &quot;CONTOSO LEGAL NOTICE&quot;</code></pre></td>
+<td>
+
+```powershell
+-FromScope NotInOrganization -ExceptIf -SubjectOrBodyMatches "CONTOSO LEGAL NOTICE"
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>Mensajes entrantes con datos adjuntos ejecutables</p></td>
 <td><p>Condición 1: <strong>El remitente se encuentra</strong>&gt;<strong>fuera de la organización</strong>.</p>
 <p>Condición 2: <strong>Los datos adjuntos</strong>&gt;<strong>tienen contenido ejecutable</strong></p></td>
-<td><pre><code>-FromScope NotInOrganization -AttachmentHasExecutableContent</code></pre></td>
+<td>
+
+```powershell
+-FromScope NotInOrganization -AttachmentHasExecutableContent
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>El remitente está en el departamento de marketing</p></td>
 <td><p>Condición: <strong>El remitente</strong>&gt;<strong>es miembro de este grupo</strong>&gt;<strong>group name</strong></p></td>
-<td><pre><code>-FromMemberOf &quot;Marketing Team&quot;</code></pre></td>
+<td>
+
+```powershell
+-FromMemberOf "Marketing Team"
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>Cada mensaje que proviene de un remitente externo al grupo de discusión de ventas</p></td>
 <td><p>Condición 1: <strong>El remitente se encuentra</strong>&gt;<strong>fuera de la organización</strong>.</p>
 <p>Condición 2: <strong>El mensaje</strong>&gt;<strong>El cuadro Para o CC contiene esta persona</strong>&gt;<strong>group name</strong></p></td>
-<td><pre><code>-FromScope NotInOrganization -SentTo &quot;Sales Discussion Group&quot; -PrependSubject &quot;Sent to Sales Discussion Group: &quot;</code></pre></td>
+<td>
+
+```powershell
+-FromScope NotInOrganization -SentTo "Sales Discussion Group" -PrependSubject "Sent to Sales Discussion Group: "
+```
+
+</td>
 </tr>
 <tr class="odd">
 <td><p>Agregue un anuncio a los mensajes salientes durante un mes</p></td>
@@ -196,19 +217,21 @@ Puede darle el formato que sea necesario al aviso de declinación de responsabil
 
 Por ejemplo, aquí hay un aviso de declinación de responsabilidades en HTML que incluye una firma, una etiqueta `IMG` y CSS incrustada.
 
-    <div style="font-size:9pt;  font-family: 'Calibri',sans-serif;">
-    %%displayname%%</br>
-    %%title%%</br>
-    %%company%%</br>
-    %%street%%</br>
-    %%city%%, %%state%% %%zipcode%%</div>
-    &nbsp;</br>
-    <div style="background-color:#D5EAFF; border:1px dotted #003333; padding:.8em; ">
-    <div><img alt="Fabrikam"  src="http://fabrikam.com/images/fabrikamlogo.png"></div>
-    <span style="font-size:12pt;  font-family: 'Cambria','times new roman','garamond',serif; color:#ff0000;">HTML Disclaimer Title</span></br>
-    <p style="font-size:8pt; line-height:10pt; font-family: 'Cambria','times roman',serif;">This message contains confidential information and is intended only for the individual(s) addressed in the message. If you are not the named addressee, you should not disseminate, distribute, or copy this e-mail. If you are not the intended recipient, you are notified that disclosing, distributing, or copying this e-mail is strictly prohibited.  </p>
-    <span style="padding-top:10px; font-weight:bold; color:#CC0000; font-size:10pt; font-family: 'Calibri',Arial,sans-serif; "><a href="http://www.fabrikam.com">Fabrikam, Inc. </a></span></br></br>
-    </div>
+```html
+<div style="font-size:9pt;  font-family: 'Calibri',sans-serif;">
+%%displayname%%</br>
+%%title%%</br>
+%%company%%</br>
+%%street%%</br>
+%%city%%, %%state%% %%zipcode%%</div>
+&nbsp;</br>
+<div style="background-color:#D5EAFF; border:1px dotted #003333; padding:.8em; ">
+<div><img alt="Fabrikam"  src="http://fabrikam.com/images/fabrikamlogo.png"></div>
+<span style="font-size:12pt;  font-family: 'Cambria','times new roman','garamond',serif; color:#ff0000;">HTML Disclaimer Title</span></br>
+<p style="font-size:8pt; line-height:10pt; font-family: 'Cambria','times roman',serif;">This message contains confidential information and is intended only for the individual(s) addressed in the message. If you are not the named addressee, you should not disseminate, distribute, or copy this e-mail. If you are not the intended recipient, you are notified that disclosing, distributing, or copying this e-mail is strictly prohibited.  </p>
+<span style="padding-top:10px; font-weight:bold; color:#CC0000; font-size:10pt; font-family: 'Calibri',Arial,sans-serif; "><a href="http://www.fabrikam.com">Fabrikam, Inc. </a></span></br></br>
+</div>
+```
 
 ## Opciones de reserva si no se puede agregar el aviso de declinación de responsabilidades
 

@@ -51,7 +51,9 @@ En Microsoft Exchange Server 2013, puede usar el Visor de cola del cuadro de her
 
 Para ver colas, use la sintaxis siguiente.
 
+```powershell
     Get-Queue [-Filter <Filter> -Server <ServerIdentity> -Include <Internal | External | Empty | DeliveryType> -Exclude <Internal | External | Empty | DeliveryType>]
+```
 
 En este ejemplo aparece la información básica sobre todas las colas no vacías en el servidor de buzones de Exchange 2013 denominado Mailbox01.
 
@@ -77,7 +79,9 @@ El cmdlet **Get-QueueDigest** proporciona una vista agregada de alto nivel del e
 
 Para ver la información de resumen de colas en varios servidores de Exchange, ejecute el comando siguiente:
 
+```powershell
     Get-QueueDigest <-Server <ServerIdentity1,ServerIdentity2,..> | -Dag <DagIdentity1,DagIdentity2...> | -Site <ADSiteIdentity1,ADSiteIdentity2...> | -Forest> [-Filter <Filter>]
+```
 
 En este ejemplo aparece la información de resumen sobre las colas de todos los servidores de buzones de Exchange 2013 del sitio de Active Directory denominado FirstSite en el que el recuento de mensajes es superior a 100.
 
@@ -119,7 +123,9 @@ Al reanudar una cola, se reinician las actividades salientes en una cola cuyo es
 
 Para reanudar colas, utilice la sintaxis siguiente.
 
+```powershell
     Resume-Queue <-Identity QueueIdentity | -Filter {QueueFilter} [-Server ServerIdentity]>
+```
 
 En este ejemplo, se reanudan todas las colas del servidor local que tienen el estado Suspendido.
 
@@ -169,8 +175,9 @@ Cuando un servidor de transporte no puede conectar con el siguiente salto, la co
 
 Para reintentar colas, utilice la sintaxis siguiente.
 
+```powershell
     Retry-Queue <-Identity QueueIdentity | -Filter QueueFilter [-Server ServerIdentity]>
-
+```
 En este ejemplo se reintentan todas las colas del servidor local con el estado Reintentar.
 
 ```powershell
@@ -248,20 +255,20 @@ Para reenviar un mensaje de la cola de mensajes dudosos, siga estos pasos.
 1.  Busque la identidad del mensaje ejecutando el comando siguiente.
     
     ```powershell
-Get-Message -Queue Poison | Format-Table Identity
-```
+    Get-Message -Queue Poison | Format-Table Identity
+    ```
 
 2.  Use la identidad del mensaje del paso anterior en el siguiente comando.
     
     ```powershell
-Resume-Message <PoisonMessageIdentity>
-```
+    Resume-Message <PoisonMessageIdentity>
+    ```
     
     En este ejemplo, se reanuda un mensaje de la cola de mensajes dudosos que tiene un valor de identidad de mensaje de 222.
     
     ```powershell
-Resume-Message 222
-```
+    Resume-Message 222
+    ```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -293,7 +300,9 @@ Si se suspende la cola Inaccesible, los elementos, hasta que se restaure la cola
 
 Para suspender una cola, utilice la sintaxis siguiente.
 
-    Suspend-Queue <-Identity QueueIdentity | -Filter {QueueFilter} [-Server ServerIdentity]>
+```powershell
+Suspend-Queue <-Identity QueueIdentity | -Filter {QueueFilter} [-Server ServerIdentity]>
+```
 
 En este ejemplo se suspenden todas las colas del servidor local que tienen un recuento de mensajes igual o superior a 1.000 y el estado Reintentar.
 

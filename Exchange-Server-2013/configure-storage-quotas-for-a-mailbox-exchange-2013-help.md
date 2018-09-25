@@ -29,7 +29,7 @@ Las cuotas de almacenamiento le permiten controlar el tamaño de los buzones de 
 
 Normalmente, las cuotas de almacenamiento se configuran por base de datos. Esto significa que las cuotas configuradas para una base de datos de buzones de correo se aplican a todos los buzones de correo en esa base de datos. Para obtener más información sobre cómo administrar la configuración de buzones por base de datos, consulte [Administrar bases de datos de buzones en Exchange 2013](manage-mailbox-databases-in-exchange-2013-exchange-2013-help.md).
 
-En este tema, se muestra cómo personalizar la configuración de almacenamiento para un buzón de correo específico en vez de usar la configuración de almacenamiento desde la base de datos de buzones de correo. Para otras tareas de administración relacionadas con los buzones de usuario, consulte [Administrar los buzones de usuario](https://docs.microsoft.com/es-es/exchange/voice-mail-unified-messaging/set-up-voice-mail/include-text-with-email-sent-when-voicemail-is-enabled).
+En este tema, se muestra cómo personalizar la configuración de almacenamiento para un buzón de correo específico en vez de usar la configuración de almacenamiento desde la base de datos de buzones de correo. Para otras tareas de administración relacionadas con los buzones de usuario, consulte [Administrar los buzones de usuario](manage-user-mailboxes-exchange-2013-help.md).
 
 ## ¿Qué necesita saber antes de comenzar?
 
@@ -79,12 +79,15 @@ En este ejemplo, se establecen la cuota de emisión de advertencia, de prohibici
 > Para garantizar que se use la configuración personalizada del buzón de correo en lugar de los valores predeterminados de la base de datos de buzones de correo, debe establecer el parámetro <EM>UseDatabaseQuotaDefaults</EM> en <CODE>$false</CODE>.
 
 
-
-    Set-Mailbox -Identity "Joe Healy" -IssueWarningQuota 24.5gb -ProhibitSendQuota 24.75gb -ProhibitSendReceiveQuota 25gb -UseDatabaseQuotaDefaults $false
+```powershell
+Set-Mailbox -Identity "Joe Healy" -IssueWarningQuota 24.5gb -ProhibitSendQuota 24.75gb -ProhibitSendReceiveQuota 25gb -UseDatabaseQuotaDefaults $false
+```
 
 En este ejemplo, se establecen la cuota de emisión de advertencia, de prohibición de envío y de prohibición de envío y recepción del buzón de correo de Ayla Kol en 900 megabytes (MB), 950 MB y 1 GB, respectivamente, y se configura el buzón para que use la configuración personalizada.
 
-    Set-Mailbox -Identity "Ayla Kol" -IssueWarningQuota 900mb -ProhibitSendQuota 950mb -ProhibitSendReceiveQuota 1gb -UseDatabaseQuotaDefaults $false
+```powershell
+Set-Mailbox -Identity "Ayla Kol" -IssueWarningQuota 900mb -ProhibitSendQuota 950mb -ProhibitSendReceiveQuota 1gb -UseDatabaseQuotaDefaults $false
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-Mailbox](https://technet.microsoft.com/es-es/library/bb123981\(v=exchg.150\)).
 
@@ -106,5 +109,6 @@ O bien
 
 Ejecute el siguiente comando en el Shell.
 
-    Get-Mailbox <identity> | fl IssueWarningQuota,ProhibitSendQuota,ProhibitSendReceiveQuota,UseDatabaseQuotaDefaults
-
+```powershell
+Get-Mailbox <identity> | fl IssueWarningQuota,ProhibitSendQuota,ProhibitSendReceiveQuota,UseDatabaseQuotaDefaults
+```
