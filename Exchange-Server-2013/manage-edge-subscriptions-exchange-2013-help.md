@@ -91,9 +91,9 @@ After you remove the Edge Subscription, synchronization of information from AD 
     
     For example, to remove the Edge Subscription on the Mailbox server named Mailbox01, run the following command.
     
-  ```powershell
+    ```powershell
     Remove-EdgeSubscription Mailbox01
-  ```
+    ```
 
 You will need to remove the Edge Subscription if:
 
@@ -151,7 +151,9 @@ A manual EdgeSync resets the EdgeSync synchronization schedule. The next automat
 
 To manually run EdgeSync, use the following syntax.
 
-    Start-EdgeSynchronization [-Server <MailboxServerIdentity>] [-TargetServer <EdgeTransportServerIdentity> [-ForceFullSync]
+```powershell
+Start-EdgeSynchronization [-Server <MailboxServerIdentity>] [-TargetServer <EdgeTransportServerIdentity> [-ForceFullSync]
+```
 
 The following example starts EdgeSync with the following options:
 

@@ -79,12 +79,16 @@ Sabrá que ha exportado correctamente los datos de configuración de origen a un
 
 3.  Para validar el archivo de configuración y usar los resultados para crear un archivo de respuesta en el servidor de destino, use la siguiente sintaxis.
     
+    ```powershell
         ./ImportEdgeConfig.ps1 -CloneConfigData:"<configuration file>" -IsImport $false -CloneConfigAnswer:"<answer file>"
-    
+    ```
+
     Por ejemplo, para validar el archivo de configuración C:\\CloneConfigData.xml y crear el archivo de respuesta C:\\CloneConfigAnswer.xml, ejecute el siguiente comando.
     
+    ```powershell
         ./ImportEdgeConfig.ps1 -CloneConfigData:"C:\CloneConfigData.xml" -IsImport $false -CloneConfigAnswer:"C:\CloneConfigAnswer.xml"
-
+    ```
+    
 4.  Abra el archivo de respuesta y modifique los valores que no sean válidos para el servidor de destino. Si no se requieren modificaciones, el archivo de respuesta no tendrá entradas. Guarde los cambios.
 
 ## ¿Cómo saber si el paso ha funcionado?

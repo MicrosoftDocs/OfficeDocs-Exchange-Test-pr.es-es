@@ -59,7 +59,9 @@ En este procedimiento hay que especificar un dominio comprobado para la organiza
 
 Ejecute el siguiente comando en el Shell de administración de Exchange (Exchange PowerShell) en la organización de Exchange local.
 
+```powershell
     New-AuthServer -Name "WindowsAzureACS" -AuthMetadataUrl https://accounts.accesscontrol.windows.net/<your verified domain>/metadata/json/1
+```
 
 ## Paso 2: Habilitar la aplicación de socio para la organización de Exchange Online
 

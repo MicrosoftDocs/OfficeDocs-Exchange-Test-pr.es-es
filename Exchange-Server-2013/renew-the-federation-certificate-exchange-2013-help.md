@@ -103,7 +103,7 @@ Ahora ya puede realizar este paso de manera segura, ya que el registro TXT de pr
     
     El resultado del comando tiene este aspecto:
     
-    ```powershell
+    
     `Thumbprint : <new certificate thumbprint>` (por ejemplo, `6A99CED2E4F2B5BE96C5D17D662D217EF58B8F73`)
 
     `Proof      : <new hash text>` (por ejemplo, `znMfbkgSbOQSsWFdsW+gm3to0nZSdE3zbcPPHGVAqdgsLFGsCPuLHiyVbKoPmgyZKX90NH2g1PbCZH0YTQF6oA==`)
@@ -111,7 +111,7 @@ Ahora ya puede realizar este paso de manera segura, ya que el registro TXT de pr
     `Thumbprint : <old certificate thumbprint>` (por ejemplo, `CC9BC204BB4DC60D06FC1F10F3C373DC785DA2A5`)
 
     `Proof      : <old hash text>` (por ejemplo, `m4gZX7OLr9iOWYJMVjEklQpoSkPb5hSbcFjD7Q3/vsqmdJ2Z+HcSt7j5pzBKFmEW2s27JYr3xsK2POzAI/8Ffw==`)
-    ```
+    
     
     Observe que el resultado del comando devuelve información para dos registros de pruebas de propiedad del dominio: uno para el nuevo certificado y otro para el certificado actual que va a reemplazar. Puede saber cuál es cuál por el valor de huella digital y por el valor de texto de hash que se ha configurado en el registro TXT de prueba de propiedad del dominio actual en su DNS externo (público).
 
@@ -157,7 +157,9 @@ Para comprobar que ha actualizado correctamente la confianza de federación exis
 
   - En el Shell de administración de Exchange, reemplace *\<user's email address\>* con la dirección de correo electrónico de un usuario de su organización y ejecute el siguiente comando para comprobar que funciona la confianza de federación:
     
-        Test-FederationTrust -UserIdentity <user's email address>
+    ```powershell
+    Test-FederationTrust -UserIdentity <user's email address>
+    ```
 
 ## Reemplazar un certificado de federación expirado
 

@@ -59,8 +59,10 @@ Para iniciar los servicios de POP3:
 
 1.  En el equipo que ejecuta el rol de servidor Acceso de clientes, del Shell, ejecute el siguiente comando para iniciar el servicio Microsoft Exchange POP3.
     
-        Start-service MSExchangePOP3
-
+    ```powershell
+      Start-service MSExchangePOP3
+    ```
+    
 2.  En el equipo que ejecuta el rol de servidor Buzón de correo, del Shell, ejecute el siguiente comando para iniciar el servicio Microsoft Exchange POP3 Backend.
     
 ```powershell

@@ -134,7 +134,9 @@ En este ejemplo se crea una cuenta y un buzón de usuario nuevos para Pilar Pini
 
 <!-- end list -->
 
-    New-Mailbox -Alias pilarp -Name "Pilar Pinilla" -FirstName Pilar -LastName Pinilla -DisplayName "Pilar Pinilla" -UserPrincipalName pilarp@contoso.com -Password (ConvertTo-SecureString -String 'Pa$$word1' -AsPlainText -Force)
+```powershell
+New-Mailbox -Alias pilarp -Name "Pilar Pinilla" -FirstName Pilar -LastName Pinilla -DisplayName "Pilar Pinilla" -UserPrincipalName pilarp@contoso.com -Password (ConvertTo-SecureString -String 'Pa$$word1' -AsPlainText -Force)
+```
 
 Para obtener información acerca de la sintaxis y los parámetros, consulte [New-Mailbox](https://technet.microsoft.com/es-es/library/aa997663\(v=exchg.150\)).
 
@@ -147,8 +149,8 @@ Para comprobar si creó un buzón de usuario correctamente, siga uno de estos pr
   - En el Shell, ejecute el comando siguiente para mostrar información sobre el nuevo buzón del nuevo usuario.
     
     ```powershell
-Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
-```
+    Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+    ```
 
 ## Crear un buzón para un usuario existente
 
@@ -221,8 +223,8 @@ Para comprobar si creó correctamente un buzón para un usuario existente, siga 
   - En el Shell, ejecute el comando siguiente para mostrar información sobre el nuevo usuario con buzón habilitado.
     
     ```powershell
-Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
-```
+    Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+    ```
     
     Tenga en cuenta que el valor de la propiedad *RecipientTypeDetails* es `UserMailbox`.
 

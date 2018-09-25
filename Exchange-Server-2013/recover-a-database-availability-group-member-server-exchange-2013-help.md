@@ -51,21 +51,21 @@ Si se pierde un servidor de buzones miembro de un grupo de disponibilidad de bas
 
 1.  Recupere cualquier configuración de tiempo de retardo de reproducción o de truncamiento para las copias de bases de datos de buzones del servidor que se estén recuperando mediante el cmdlet [Get-MailboxDatabase](https://technet.microsoft.com/es-es/library/bb124924\(v=exchg.150\)):
     
-```powershell
-Get-MailboxDatabase DB1 | Format-List *lag*
-```
+    ```powershell
+    Get-MailboxDatabase DB1 | Format-List *lag*
+    ```
 
 2.  Quite cualquier copia de base de datos de buzones que haya en el servidor y que se esté recuperando mediante el cmdlet [Remove-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd335119\(v=exchg.150\)):
     
-```powershell
-Remove-MailboxDatabaseCopy DB1\MBX1
-```
+    ```powershell
+    Remove-MailboxDatabaseCopy DB1\MBX1
+    ```
 
 3.  Quite la configuración del servidor que presente errores del DAG mediante el cmdlet [Remove-DatabaseAvailabilityGroupServer](https://technet.microsoft.com/es-es/library/dd297956\(v=exchg.150\)):
     
-```powershell
-Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
-```
+    ```powershell
+    Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+    ```
     
 
     > [!NOTE]
@@ -77,21 +77,23 @@ Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
 
 5.  Abra una ventana de símbolo del sistema. Use el medio de instalación original para ejecutar el comando siguiente:
     
-```powershell
-Setup /m:RecoverServer
-```
+    ```powershell
+    Setup /m:RecoverServer
+    ```
 
 6.  Cuando el proceso de recuperación del programa de instalación se haya completado, agregue el servidor recuperado al DAG mediante el cmdlet [Add-DatabaseAvailabilityGroupServer](https://technet.microsoft.com/es-es/library/dd298049\(v=exchg.150\)):
     
-        Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+    ```powershell
+    Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+    ```
 
 7.  Una vez que se ha vuelto a agregar el servidor al DAG, puede volver a configurar las copias de base de datos de buzones mediante el cmdlet [Add-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd298105\(v=exchg.150\)). Si alguna de las copias de base de datos que se van a agregar tenían previamente tiempos de retardo de reproducción o truncamiento superiores a 0, puede usar los parámetros *ReplayLagTime* y *TruncationLagTime* del cmdlet [Add-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd298105\(v=exchg.150\)) para volver a configurar esos parámetros:
     
-```powershell
-Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX1
-Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX1 -ReplayLagTime 3.00:00:00
-Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX1 -ReplayLagTime 3.00:00:00 -TruncationLagTime 3.00:00:00
-```
+    ```powershell
+    Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX1
+    Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX1 -ReplayLagTime 3.00:00:00
+    Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX1 -ReplayLagTime 3.00:00:00 -TruncationLagTime 3.00:00:00
+    ```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -99,13 +101,13 @@ Para comprobar que el miembro del DAG se recuperó correctamente, realice lo sig
 
   - En el Shell, ejecute el siguiente comando para comprobar el estado del miembro del DAG recuperado.
     
-```powershell
-Test-ReplicationHealth <ServerName>
-```
+    ```powershell
+    Test-ReplicationHealth <ServerName>
+    ```
 
-```powershell
-Get-MailboxDatabaseCopyStatus -Server <ServerName>
-```
+    ```powershell
+    Get-MailboxDatabaseCopyStatus -Server <ServerName>
+    ```
     
 Todas las pruebas de estado de replicación deben tener un resultado satisfactorio y el estado de las bases de datos y sus índices de contenido debe ser adecuado.
 

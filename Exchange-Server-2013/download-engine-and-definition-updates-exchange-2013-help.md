@@ -53,7 +53,9 @@ Este ejemplo descarga manualmente las actualizaciones del motor y de definicione
 
 Si quiere, puede especificar el parámetro –EngineUpdatePath, que le permite descargar actualizaciones desde un lugar que no sea el predeterminado, http://forefrontdl.microsoft.com/server/scanengineupdate. Puede ser una dirección HTTP o una ruta de acceso UNC. Si es una ruta de acceso UNC, el servicio de red debe tener acceso a la ruta. En este ejemplo, se descargan manualmente las actualizaciones de definición y de motor desde un directorio local a un servidor llamado mailbox01.contoso.com:
 
-    & $env:ExchangeInstallPath\Scripts\Update-MalwareFilteringServer.ps1 -Identity mailbox01.contoso.com -EngineUpdatePath \\Server\sharename
+```powershell
+  & $env:ExchangeInstallPath\Scripts\Update-MalwareFilteringServer.ps1 -Identity mailbox01.contoso.com -EngineUpdatePath \\Server\sharename
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

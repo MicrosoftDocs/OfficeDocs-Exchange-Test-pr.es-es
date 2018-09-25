@@ -128,5 +128,5 @@ Para comprobar que haya movido correctamente la ruta de una copia de base de dat
 Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
 ```
     
-    Los valores de estado y de estado del índice de contenido deben ser correctos.
+  Los valores de estado y de estado del índice de contenido deben ser correctos.
 

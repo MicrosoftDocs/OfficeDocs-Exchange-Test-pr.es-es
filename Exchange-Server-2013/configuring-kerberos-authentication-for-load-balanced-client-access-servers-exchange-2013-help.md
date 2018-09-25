@@ -79,7 +79,9 @@ Procedimiento para crear la credencial ASA como una cuenta de equipo
     
     **Ejemplo:** 
     
-        Set-ADComputer EXCH2013ASA -add @{"msDS-SupportedEncryptionTypes"="28"}
+    ```powershell
+    Set-ADComputer EXCH2013ASA -add @{"msDS-SupportedEncryptionTypes"="28"}
+    ```
     
     Donde *EXCH2013ASA* es el nombre de la cuenta; el atributo que se debe modificar es *msDS-SupportedEncryptionTypes* con un valor decimal de 28, con lo que se habilitan los siguientes cifrados: RC4-HMAC, AES128-CTS-HMAC-SHA1-96 y AES256-CTS-HMAC-SHA1-96.
 

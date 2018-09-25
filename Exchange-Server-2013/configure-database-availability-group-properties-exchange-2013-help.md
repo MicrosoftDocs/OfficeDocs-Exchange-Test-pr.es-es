@@ -81,7 +81,9 @@ Set-DatabaseAvailabilityGroup -Identity DAG1 -WitnessDirectory C:\DAG1DIR
 
 En este ejemplo, se realiza la configuración previa de un servidor testigo alternativo de CAS3 y de un directorio testigo alternativo de C:\\DAGFileShareWitnesses\\DAG1.contoso.com para el DAG DAG1.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -AlternateWitnessDirectory C:\DAGFileShareWitnesses\DAG1.contoso.com -AlternateWitnessServer CAS3
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -AlternateWitnessDirectory C:\DAGFileShareWitnesses\DAG1.contoso.com -AlternateWitnessServer CAS3
+```
 
 En este ejemplo, se configura el DAG DAG1 para usar el protocolo de configuración dinámica de host (DHCP) para obtener una dirección IP.
 
@@ -126,8 +128,8 @@ Para comprobar si el DAG se configuró correctamente, siga estos pasos:
   - En el Shell, ejecute el siguiente comando para mostrar los valores de configuración del DAG y compruebe que el DAG se configuró correctamente.
     
     ```powershell
-Get-DatabaseAvailabilityGroup <DAGName> | Format-List
-```
+    Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+    ```
 
 ## Más información
 

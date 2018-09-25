@@ -44,7 +44,7 @@ Los usuarios cuyos buzones se encuentran en 2013 de Exchange Server o Exchange S
     Para Exchange 2010, ejecute el siguiente comando. Este comando excluye la base de datos de buzones del equilibrador de carga de aprovisionamiento de buzones. Esto impide que se agreguen nuevos buzones automáticamente a esta base de datos.
 
     ```powershell
-        New-MailboxDatabase -Server <PFServerName_with_CASRole> -Name <NewMDBforPFs> -IsExcludedFromProvisioning $true
+    New-MailboxDatabase -Server <PFServerName_with_CASRole> -Name <NewMDBforPFs> -IsExcludedFromProvisioning $true
     ``` 
     
     Para Exchange 2007, ejecute el siguiente comando:
@@ -61,8 +61,8 @@ Los usuarios cuyos buzones se encuentran en 2013 de Exchange Server o Exchange S
 
 3.  Cree un buzón proxy en la nueva base de datos de buzones de correo y ocúltelo de la libreta de direcciones. La detección automática devolverá el SMTP de este buzón de correo como *DefaultPublicFolderMailbox* SMTP, de modo que al resolver este SMTP, el cliente podrá llegar al servidor Exchange heredado para el acceso a carpetas públicas.
 
-    ```
-        New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
+    ```powershell
+    New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
     ```
     
     ```powershell
@@ -85,7 +85,7 @@ El último paso de este procedimiento consiste en configurar los buzones de usua
 Permita que los usuarios locales de Exchange Server 2013 tengan acceso a las carpetas públicas heredadas. Para ello, apunte a todos los buzones proxy de carpetas públicas que creó en el [Step 2: Make remote public folders discoverable](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/reduce-discovery-mailbox-size). Ejecute el siguiente comando desde un servidor Exchange 2013 con CU5 o una actualización posterior.
 
 ```powershell
-    Set-OrganizationConfig -PublicFoldersEnabled Remote -RemotePublicFolderMailboxes ProxyMailbox1,ProxyMailbox2,ProxyMailbox3
+Set-OrganizationConfig -PublicFoldersEnabled Remote -RemotePublicFolderMailboxes ProxyMailbox1,ProxyMailbox2,ProxyMailbox3
 ```
 
 

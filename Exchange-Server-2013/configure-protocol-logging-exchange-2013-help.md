@@ -29,10 +29,7 @@ El registro de protocolo registra las conversaciones del SMTP que se producen en
 
   - El registro de protocolo está habilitado o deshabilitado en cada conector individual. Todos los conectores de recepción en el servidor de Exchange comparten los mismos archivos de registro de protocolo y las opciones de registro de protocolo. Estas configuraciones de registro de protocolo son independientes de los archivos de registro de protocolo del conector de envío y de las opciones de registro de protocolo que están en el mismo servidor.
 
-  - 
-    
-
-    > [!WARNING]
+  - > [!WARNING]
     > No realice este procedimiento en un servidor de transporte perimetral que se haya suscrito a la organización de Exchange por medio de EdgeSync. En su lugar, realice los cambios en el servicio de transporte en el servidor Buzón de correo. Los cambios se replicarán en el servidor de transporte perimetral cuando se produzca la próxima sincronización de EdgeSync.
 
 
@@ -91,11 +88,15 @@ Para verificar que ha utilizado correctamente la consola EAC para configurar la 
 
 Para habilitar o deshabilitar un registro de protocolo en un conector de envío o un conector de recepción, ejecute el siguiente comando:
 
-    <Set-SendConnector |Set-ReceiveConnector> <ConnectorIdentity> -ProtocolLoggingLevel <Verbose | None>
+```powershell
+<Set-SendConnector |Set-ReceiveConnector> <ConnectorIdentity> -ProtocolLoggingLevel <Verbose | None>
+```
 
 En este ejemplo se habilita el registro de protocolo para el conector de recepción denominado "Connection from contoso.com".
 
-    Set-ReceiveConnector "Connection from Contoso.com" -ProtocolLoggingLevel Verbose
+```powershell
+Set-ReceiveConnector "Connection from Contoso.com" -ProtocolLoggingLevel Verbose
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -103,7 +104,9 @@ Para comprobar que habilitó o deshabilitó correctamente el registro de protoco
 
 1.  En el Shell, ejecute el siguiente comando:
     
-        <Get-SendConnector |Get-ReceiveConnector> | Format-List Name,ProtocolLoggingLevel
+    ```powershell
+    <Get-SendConnector |Get-ReceiveConnector> | Format-List Name,ProtocolLoggingLevel
+    ```
 
 2.  Verifique que los valores mostrados son los valores que ha configurado.
 
@@ -111,11 +114,15 @@ Para comprobar que habilitó o deshabilitó correctamente el registro de protoco
 
 Para habilitar o deshabilitar el registro de protocolo en el conector de envío interno de la organización implícito e invisible que existe en el servicio de transporte en un servidor Buzón de correo y en el servicio de transporte frontend en un servidor Acceso de cliente, ejecute el siguiente comando:
 
-    <Set-TransportService | Set-FrontEndTransportService> -IntraOrgConnectorProtocolLoggingLevel <Verbose | None>
+```powershell
+<Set-TransportService | Set-FrontEndTransportService> -IntraOrgConnectorProtocolLoggingLevel <Verbose | None>
+```
 
 Este ejemplo habilita el registro de protocolo en el conector de envío interno de la organización en el servicio de transporte de un servidor Buzón de correo denominado Mailbox01.
 
-    Set-TransportService Mailbox01 -IntraOrgConnectorProtocolLoggingLevel Verbose
+```powershell
+Set-TransportService Mailbox01 -IntraOrgConnectorProtocolLoggingLevel Verbose
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -123,7 +130,9 @@ Para comprobar que habilitó o deshabilitó correctamente el registro de protoco
 
 1.  En el Shell, ejecute el siguiente comando:
     
-        <Get-TransportService | Get-FrontEndTransportService> <ServerIdentity> | Format-List IntraOrgConnectorProtocolLoggingLevel
+    ```powershell
+    <Get-TransportService | Get-FrontEndTransportService> <ServerIdentity> | Format-List IntraOrgConnectorProtocolLoggingLevel
+    ```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 
@@ -131,11 +140,15 @@ Para comprobar que habilitó o deshabilitó correctamente el registro de protoco
 
 Para habilitar o deshabilitar el registro de protocolo en el conector de envío de entrega de buzón de correo implícito e invisible que existe en el servicio de transporte de buzón de correo en el servidor Buzón de correo, ejecute el siguiente comando:
 
-    Set-MailboxTransportService -MailboxDeliveryConnectorProtocolLoggingLevel <Verbose | None>
+```powershell
+Set-MailboxTransportService -MailboxDeliveryConnectorProtocolLoggingLevel <Verbose | None>
+```
 
 Este ejemplo habilita el registro de protocolo en el conector de recepción de entrega de buzón de correo en el servicio de transporte de buzón de correo de un servidor Buzón de correo denominado Mailbox01.
 
-    Set-MailboxTransportService Mailbox01 -MailboxDeliveryConnectorProtocolLoggingLevel Verbose
+```powershell
+Set-MailboxTransportService Mailbox01 -MailboxDeliveryConnectorProtocolLoggingLevel Verbose
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -143,7 +156,9 @@ Para comprobar que habilitó o deshabilitó correctamente el registro de protoco
 
 1.  En el Shell, ejecute el siguiente comando:
     
-        Get-MailboxTransportService <ServerIdentity> | Format-List MailboxDeliveryConnectorProtocolLoggingLevel
+    ```powershell
+    Get-MailboxTransportService <ServerIdentity> | Format-List MailboxDeliveryConnectorProtocolLoggingLevel
+    ```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 
@@ -151,7 +166,9 @@ Para comprobar que habilitó o deshabilitó correctamente el registro de protoco
 
 Para configurar los valores del registro del protocolo, ejecute el siguiente comando:
 
-    <Set-TransportService | Set-MailboxTransportService | Set-FrontEndTransportService> <ServerIdentity> -ReceiveProtocolLogPath <LocalFilePath> -SendProtocolLogPath <LocalFilePath> -ReceiveProtocolLogMaxFileSize <Size> -SendProtocolLogMaxFileSize <Size> -ReceiveProtocolLogMaxDirectorySize <Size> -SendProtocolLogMaxDirectorySize <Size> -ReceiveProtocolLogMaxAge <dd.hh:mm:ss> -SendProtocolLogMaxAge <dd.hh:mm:ss>
+```powershell
+<Set-TransportService | Set-MailboxTransportService | Set-FrontEndTransportService> <ServerIdentity> -ReceiveProtocolLogPath <LocalFilePath> -SendProtocolLogPath <LocalFilePath> -ReceiveProtocolLogMaxFileSize <Size> -SendProtocolLogMaxFileSize <Size> -ReceiveProtocolLogMaxDirectorySize <Size> -SendProtocolLogMaxDirectorySize <Size> -ReceiveProtocolLogMaxAge <dd.hh:mm:ss> -SendProtocolLogMaxAge <dd.hh:mm:ss>
+```
 
 Este ejemplo establece la siguiente configuración de registro de protocolo en el servicio de transporte en el servidor Buzón de correo denominado Mailbox01:
 
@@ -165,8 +182,9 @@ Este ejemplo establece la siguiente configuración de registro de protocolo en e
 
 <!-- end list -->
 
-    Set-TransportService Mailbox01 -ReceiveProtocolLogPath "D:\Hub Receive SMTP Log" -SendProtocolLogPath "D:\Hub Send SMTP Log" -ReceiveProtocolLogMaxFileSize 20MB -SendProtocolLogMaxFileSize 20MB -ReceiveProtocolLogMaxDirectorySize 400MB -SendProtocolLogMaxDirectorySize 400MB -ReceiveProtocolLogMaxAge 45.00:00:00 -SendProtocolLogMaxAge 45.00:00:00
-
+```powershell
+Set-TransportService Mailbox01 -ReceiveProtocolLogPath "D:\Hub Receive SMTP Log" -SendProtocolLogPath "D:\Hub Send SMTP Log" -ReceiveProtocolLogMaxFileSize 20MB -SendProtocolLogMaxFileSize 20MB -ReceiveProtocolLogMaxDirectorySize 400MB -SendProtocolLogMaxDirectorySize 400MB -ReceiveProtocolLogMaxAge 45.00:00:00 -SendProtocolLogMaxAge 45.00:00:00
+```
 
 > [!NOTE]
 > <UL>
@@ -185,7 +203,9 @@ Para comprobar que configuró correctamente el registro de protocolo, realice lo
 
 1.  En el Shell, ejecute el siguiente comando:
     
-        <Get-TransportService | Get-MailboxTransportService | Get-FrontEndTransportService> <ServerIdentity> | Format-List SendConnectorProtocolLog*,ReceiveConnectorProtocolLog*
-
+    ```powershell
+    <Get-TransportService | Get-MailboxTransportService | Get-FrontEndTransportService> <ServerIdentity> | Format-List SendConnectorProtocolLog*,ReceiveConnectorProtocolLog*
+    ```
+    
 2.  Verifique que los valores mostrados son los valores que ha configurado.
 

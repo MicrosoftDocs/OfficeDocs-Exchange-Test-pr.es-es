@@ -68,24 +68,32 @@ Para volver a crear el grupo de funciones Administración de la organización co
 2.  Almacene las credenciales del bosque externo Active Directory en una variable.
     
     ```powershell
-$ForeignCredential = Get-Credential
-```
+    $ForeignCredential = Get-Credential
+    ```
 
 3.  Almacene todas las funciones asignadas al grupo de funciones Administración de la organización en una variable.
     
-        $OrgMgmt  = Get-RoleGroup "Organization Management"
+    ```powershell
+    $OrgMgmt  = Get-RoleGroup "Organization Management"
+    ```
 
 4.  Cree el grupo de funciones vinculado Administración de la organización y agregue las funciones asignadas al grupo de funciones integrado Administración de la organización.
     
-        New-RoleGroup "Organization Management - Linked" -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -Roles $OrgMgmt.Roles
+    ```powershell
+    New-RoleGroup "Organization Management - Linked" -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -Roles $OrgMgmt.Roles
+    ```
 
 5.  Quite todas las asignaciones normales entre el nuevo grupo de funciones vinculado Administración de la organización y las funciones de usuarios finales My\*.
     
-        Get-ManagementRoleAssignment -RoleAssignee "Organization Management - Linked" -Role My* | Remove-ManagementRoleAssignment
+    ```powershell
+    Get-ManagementRoleAssignment -RoleAssignee "Organization Management - Linked" -Role My* | Remove-ManagementRoleAssignment
+    ```
 
 6.  Agregue asignaciones de funciones de delegación entre el nuevo grupo de funciones vinculado Administración de la organización y todas las funciones de administración.
     
-        Get-ManagementRole | New-ManagementRoleAssignment -SecurityGroup "Organization Management - Linked" -Delegating
+    ```powershell
+    Get-ManagementRole | New-ManagementRoleAssignment -SecurityGroup "Organization Management - Linked" -Delegating
+    ```
 
 En este ejemplo, se supone que para cada parámetro se usan los siguientes valores:
 
@@ -97,11 +105,11 @@ Mediante los valores anteriores, en este ejemplo se vuelve a crear el grupo de f
 
 ```powershell
 $ForeignCredential = Get-Credential
+$OrgMgmt  = Get-RoleGroup "Organization Management"
+New-RoleGroup "Organization Management - Linked" -LinkedForeignGroup "Organization Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $OrgMgmt.Roles
+Get-ManagementRoleAssignment -RoleAssignee "Organization Management - Linked" -Role My* | Remove-ManagementRoleAssignment
+Get-ManagementRole | New-ManagementRoleAssignment -SecurityGroup "Organization Management - Linked" -Delegating
 ```
-    $OrgMgmt  = Get-RoleGroup "Organization Management"
-    New-RoleGroup "Organization Management - Linked" -LinkedForeignGroup "Organization Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $OrgMgmt.Roles
-    Get-ManagementRoleAssignment -RoleAssignee "Organization Management - Linked" -Role My* | Remove-ManagementRoleAssignment
-    Get-ManagementRole | New-ManagementRoleAssignment -SecurityGroup "Organization Management - Linked" -Delegating
 
 ## Crear todos los demás grupos de funciones vinculados
 
@@ -112,19 +120,21 @@ Para volver a crear los grupos de funciones integrados (que no sea el grupo de f
 2.  Almacene las credenciales del bosque externo Active Directory en una variable. Deberá realizar este procedimiento una sola vez.
     
     ```powershell
-$ForeignCredential = Get-Credential
-```
+    $ForeignCredential = Get-Credential
+    ```
 
 3.  Recupere una lista de los grupos de funciones mediante el siguiente cmdlet.
     
     ```powershell
-Get-RoleGroup
-```
+    Get-RoleGroup
+    ```
 
 4.  Para cada grupo de funciones, que no sea el grupo de funciones Administración de la organización, realice las siguientes acciones.
     
-        $RoleGroup = Get-RoleGroup <name of role group to re-create>
-        New-RoleGroup "<role group name> - Linked" -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -Roles $RoleGroup.Roles
+    ```powershell
+    $RoleGroup = Get-RoleGroup <name of role group to re-create>
+    New-RoleGroup "<role group name> - Linked" -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -Roles $RoleGroup.Roles
+    ```
 
 5.  Repita el paso anterior para cada grupo de funciones integrado que desee volver a crear como un grupo de funciones vinculado.
 
@@ -143,13 +153,14 @@ Mediante los valores anteriores, en este ejemplo se vuelve a crear Recipient Man
 ```powershell
 $ForeignCredential = Get-Credential
 ```
+
 ```powershell
 Get-RoleGroup
+$RoleGroup = Get-RoleGroup "Recipient Management"
+New-RoleGroup "Recipient Management - Linked" -LinkedForeignGroup "Recipient Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $RoleGroup.Roles
+$RoleGroup = Get-RoleGroup "Server Management"
+New-RoleGroup "Server Management - Linked" -LinkedForeignGroup "Server Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $RoleGroup.Roles
 ```
-    $RoleGroup = Get-RoleGroup "Recipient Management"
-    New-RoleGroup "Recipient Management - Linked" -LinkedForeignGroup "Recipient Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $RoleGroup.Roles
-    $RoleGroup = Get-RoleGroup "Server Management"
-    New-RoleGroup "Server Management - Linked" -LinkedForeignGroup "Server Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $RoleGroup.Roles
 
 ## Otras tareas
 

@@ -41,9 +41,10 @@ El registro de protocolos le permite revisar las conexiones POP3 e IMAP4 en su e
 
 En este ejemplo, se habilita el registro de protocolo para IMAP4 o POP3 en el servidor de acceso de cliente CAS01.
 
-    Set-ImapSettings -Server "CAS01" -ProtocolLogEnabled $true
-    Set-PopSettings -Server "CAS01" -ProtocolLogEnabled $true
-
+```powershell
+Set-ImapSettings -Server "CAS01" -ProtocolLogEnabled $true
+Set-PopSettings -Server "CAS01" -ProtocolLogEnabled $true
+```
 
 > [!NOTE]
 > Después de cambiar el registro de protocolos para POP3 e IMAP4, debe reiniciar el servicio que esté usando: POP3 o IMAP4. Para obtener más información acerca de cómo reiniciar los servicios POP3 e IMAP4, consulte <A href="start-and-stop-the-pop3-services-exchange-2013-help.md">Iniciar y detener los servicios POP3</A> y <A href="start-and-stop-the-imap4-services-exchange-2013-help.md">Iniciar y detener los servicios IMAP4</A>.
@@ -56,9 +57,10 @@ Para obtener más información acerca de la sintaxis y los parámetros, consulte
 
 En este ejemplo, se deshabilita el registro de protocolo para IMAP4 o POP3 en el servidor de acceso de cliente CAS01.
 
-    Set-ImapSettings -Server "CAS01" -protocolLogEnabled $false
-    Set-PopSettings -Server "CAS01" -protocolLogEnabled $false
-
+```powershell
+Set-ImapSettings -Server "CAS01" -protocolLogEnabled $false
+Set-PopSettings -Server "CAS01" -protocolLogEnabled $false
+```
 
 > [!NOTE]
 > Después de cambiar el registro de protocolos para POP3 e IMAP4, debe reiniciar el servicio que esté usando: POP3 o IMAP4. Para obtener más información acerca de cómo reiniciar los servicios POP3 e IMAP4, consulte <A href="start-and-stop-the-pop3-services-exchange-2013-help.md">Iniciar y detener los servicios POP3</A> y <A href="start-and-stop-the-imap4-services-exchange-2013-help.md">Iniciar y detener los servicios IMAP4</A>.
@@ -74,8 +76,8 @@ Para modificar la configuración de registro para POP3 o IMAP4, ejecute los cmdl
   - *LogFileLocation*   Este parámetro especifica la ubicación de los archivos de registro del protocolo POP3 o IMAP4. De forma predeterminada, los archivos de registro del protocolo POP3 están ubicados en el directorio C:\\Program Files\\Microsoft\\Exchange Server\\V15\\Logging\\Pop3. En este ejemplo, se activa el registro del protocolo POP3 en el servidor de acceso de cliente CAS01. También se cambia el directorio de registro del protocolo POP3 por C:\\Pop3Logging.
     
     ```powershell
-Set-PopSettings -Server "CAS01" -ProtocolLogEnabled $true -LogFileLocation "C:\Pop3Logging"
-```
+    Set-PopSettings -Server "CAS01" -ProtocolLogEnabled $true -LogFileLocation "C:\Pop3Logging"
+    ```
 
   - *LogFileRollOverSettings*   Este parámetro define la frecuencia con la que el registro del protocolo POP3 o IMAP4 crea un nuevo archivo de registro. De manera predeterminada, se crea un nuevo archivo de registro cada día. Los valores posibles son:
     
@@ -90,22 +92,22 @@ Set-PopSettings -Server "CAS01" -ProtocolLogEnabled $true -LogFileLocation "C:\P
     Esta configuración se aplica solo cuando el valor del parámetro *LogPerFileSizeQuota* se establece en cero. En este ejemplo, se cambia el registro del protocolo POP3 en el servidor de acceso de cliente CAS01 para crear un nuevo archivo de registro cada hora.
     
     ```powershell
-Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota 0 -LogFileRollOverSettings Hourly
-```
+    Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota 0 -LogFileRollOverSettings Hourly
+    ```
 
   - *LogPerFileSizeQuota*   Este parámetro define el tamaño máximo del archivo de registro del protocolo POP3 o IMAP4 en bytes. De manera predeterminada, este valor se establece en cero. Cuando este valor se establece en cero, se crea un nuevo archivo de registro de protocolo con la frecuencia especificada en el parámetro *LogFileRollOverSettings*.
     
     En este ejemplo, se cambia el registro del protocolo POP3 en el servidor de acceso de cliente CAS01 para crear un nuevo archivo de registro cuando un archivo de registro alcanza 2 megabytes (MB).
     
     ```powershell
-Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota 2000000
-```
+    Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota 2000000
+    ```
     
     En este ejemplo, se cambia el registro del protocolo POP3 en el servidor de acceso de cliente CAS01 para usar el mismo archivo de registro independientemente de la fecha de creación y el tamaño.
     
     ```powershell
-Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota unlimited
-```
+    Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota unlimited
+    ```
 
 
 > [!NOTE]

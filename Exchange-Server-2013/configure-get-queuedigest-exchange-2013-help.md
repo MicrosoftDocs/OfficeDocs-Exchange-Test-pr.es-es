@@ -61,43 +61,43 @@ De manera predeterminada, las colas de entrega que tienen el estado Activo, Cone
 
 1.  En una ventana del símbolo del sistema, abra el archivo EdgeTransport.exe.config en el Bloc de notas ejecutando el comando siguiente:
     
-```powershell
-Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
-```
+    ```powershell
+    Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 2.  Agregue una de las siguientes claves, o las dos, a la sección `<appSettings>`.
     
-```powershell
-<add key="QueueLoggingThreshold" value="<integer>" />
-<add key="QueueLoggingInterval" value="<hh:mm:ss>" />
-```
+    ```powershell
+    <add key="QueueLoggingThreshold" value="<integer>" />
+    <add key="QueueLoggingInterval" value="<hh:mm:ss>" />
+    ```
     
 Por ejemplo, para configurar el valor **QueueLoggingThreshold** como 1 y el valor **QueueLoggingInterval** como 30 segundos, use los siguientes valores:
     
-```powershell
-<add key="QueueLoggingThreshold" value="1" />
-<add key="QueueLoggingInterval" value="00:00:30" />
-```
+    ```powershell
+    <add key="QueueLoggingThreshold" value="1" />
+    <add key="QueueLoggingInterval" value="00:00:30" />
+    ```
 
 3.  Cuando haya terminado, guarde y cierre el archivo EdgeTransport.exe.config.
 
 4.  Reinicie el servicio de transporte de Microsoft Exchange ejecutando el siguiente comando:
     
-```powershell
-net stop MSExchangeTransport && net start MSExchangeTransport
-```
+    ```powershell
+    net stop MSExchangeTransport && net start MSExchangeTransport
+    ```
 
 5.  Para cambiar el valor del parámetro *QueueDiagnosticsAggregationInterval* en el Shell de administración de Exchange, use la siguiente sintaxis:
     
-```powershell
-Set-TransportConfig -QueueDiagnosticsAggregationInterval <hh:mm:ss>
-```
+    ```powershell
+    Set-TransportConfig -QueueDiagnosticsAggregationInterval <hh:mm:ss>
+    ```
     
     Por ejemplo, para cambiar el valor a 30 segundos, ejecute el siguiente comando:
     
-```powershell
-Set-TransportConfig -QueueDiagnosticsAggregationInterval 00:00:30
-```
+    ```powershell
+    Set-TransportConfig -QueueDiagnosticsAggregationInterval 00:00:30
+    ```
 
 ## ¿Cómo puede saber si funcionó?
 
@@ -107,7 +107,7 @@ Para comprobar si configuró correctamente **Get-QueueDigest**, siga estos pasos
 
 2.  Compruebe el valor del parámetro *QueueDiagnosticsAggregationInterval* ejecutando el siguiente comando:
     
-```powershell
-Get-TransportConfig | Format-List *queue*
-```
+    ```powershell
+    Get-TransportConfig | Format-List *queue*
+    ```
 

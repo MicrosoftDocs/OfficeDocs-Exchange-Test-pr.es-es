@@ -113,23 +113,25 @@ Utilice el siguiente procedimiento para habilitar la compatibilidad de los agent
 1.  En la ventana del símbolo del sistema, en el servidor Exchange 2013 donde quiere configurar la compatibilidad del agente de transporte heredado, abra el archivo de configuración de la aplicación adecuada en el Bloc de notas ejecutando el siguiente comando:
     
     ```powershell
-Notepad %ExchangeInstallPath%Bin\<AppConfigFile>
-```
+    Notepad %ExchangeInstallPath%Bin\<AppConfigFile>
+    ```
     
     Por ejemplo, para abrir el archivo EdgeTransport.exe.config en un servidor de buzones de correo, ejecute el siguiente comando:
     
     ```powershell
-Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
-```
+    Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 2.  Busque la clave *\</configuration\>* al final del archivo y copie las siguientes claves antes de la clave *\</configuration\>*:
-    
-        <startup useLegacyV2RuntimeActivationPolicy="true">
-           <supportedRuntime version="v4.0" />
-           <supportedRuntime version="v3.5" />
-           <supportedRuntime version="v3.0" />
-           <supportedRuntime version="v2.0" />
-        </startup>
+
+    ```xml
+    <startup useLegacyV2RuntimeActivationPolicy="true">
+        <supportedRuntime version="v4.0" />
+        <supportedRuntime version="v3.5" />
+        <supportedRuntime version="v3.0" />
+        <supportedRuntime version="v2.0" />
+    </startup>
+    ```
 
 3.  Cuando finalice, guarde y cierre el archivo de configuración de la aplicación.
 
@@ -137,17 +139,21 @@ Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
 
 5.  Reinicie el servicio Windows asociado ejecutando el siguiente comando:
     
-        net stop <service> && net start <service>
-    
+    ```powershell
+    net stop <service> && net start <service>
+    ```
+
     Por ejemplo, si modificó el archivo EdgeTransport.exe.config, debe reiniciar el servicio de transporte de Microsoft Exchange ejecutando el siguiente comando:
     
-        net stop MSExchangeTransport && net start MSExchangeTransport
-
+    ```powershell
+    net stop MSExchangeTransport && net start MSExchangeTransport
+    ```
 6.  Repita el paso 5 para reiniciar los servicios asociados con los otros archivos de configuración de la aplicación modificados.
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Sabrá que este procedimiento funciona si el agente de transporte heredado se instala correctamente. Si intenta instalar un agente de transporte heredado sin realizar el procedimiento de este tema, recibirá un error similar al siguiente:
 
+```powershell    
     Mixed mode assembly is built against version '<version>' of the runtime and cannot be loaded in the 4.0 runtime without additional configuration information.
-
+```
