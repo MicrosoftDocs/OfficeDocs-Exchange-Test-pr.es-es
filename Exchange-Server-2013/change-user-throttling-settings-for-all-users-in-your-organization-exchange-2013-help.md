@@ -55,17 +55,17 @@ Para comprobar que la directiva de limitación Organization se creó correctamen
 
 1.  Ejecute el siguiente comando.
     
-```powershell
-Get-ThrottlingPolicy | Format-List
-```
+    ```powershell
+        Get-ThrottlingPolicy | Format-List
+    ```
 
 2.  Compruebe que la directiva de limitación Organization que acaba de crear aparece en la columna que muestra el objeto GlobalThrottlingPolicy.
 
 3.  Ejecute el siguiente comando.
     
-```powershell
-Get-ThrottlingPolicy | Format-List
-```
+    ```powershell
+        Get-ThrottlingPolicy | Format-List
+    ```
 
 4.  Compruebe que las propiedades de la nueva directiva Organization coinciden con el valor o valores configurados.
 
