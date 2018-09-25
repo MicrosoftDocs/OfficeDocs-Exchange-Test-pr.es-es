@@ -1,5 +1,5 @@
 ﻿---
-title: 'Establecer configuración filtro spam en buzones correo: Exchange 2013 Help'
+title: 'Establecer las configuraciones de filtro de correo no deseado en los buzones de correo: Exchange 2013 Help'
 TOCTitle: Establecer las configuraciones de filtro de correo no deseado en los buzones de correo
 ms:assetid: 868d7fd8-e817-46ba-9b67-edf2f50b9494
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb123559(v=EXCHG.150)
@@ -51,7 +51,9 @@ Puede configurar unos parámetros específicos de filtro de correo no deseado en
 
 Para configurar la configuración de los filtros de correo no deseado en un único buzón, use la siguiente sintaxis.
 
-    Set-Mailbox <MailboxIdentity> -AntispamBypassEnabled <$true | $false> -RequireSenderAuthenticationEnabled <$true | $false> -SCLDeleteEnabled <$true | $false | $null> -SCLDeleteThreshold <0-9 | $null> -SCLJunkEnabled <$true | $false | $null > -SCLJunkThreshold <0-9 | $null> -SCLQuarantineEnabled <$true | $false | $null > -SCLQuarantineThreshold <0-9 | $null> -SCLRejectEnabled <$true | $false | $null > -SCLRejectThreshold <0-9 | $null>
+```powershell
+Set-Mailbox <MailboxIdentity> -AntispamBypassEnabled <$true | $false> -RequireSenderAuthenticationEnabled <$true | $false> -SCLDeleteEnabled <$true | $false | $null> -SCLDeleteThreshold <0-9 | $null> -SCLJunkEnabled <$true | $false | $null > -SCLJunkThreshold <0-9 | $null> -SCLQuarantineEnabled <$true | $false | $null > -SCLQuarantineThreshold <0-9 | $null> -SCLRejectEnabled <$true | $false | $null > -SCLRejectThreshold <0-9 | $null>
+```
 
 En este ejemplo se configura el buzón de un usuario llamado Jeff Phillips para que omita todos los filtros de correo no deseado y tener mensajes que cumplan o superen un umbral de SCL de la carpeta de correo no deseado de 5 entregados a esta carpeta en Microsoft Outlook.
 
@@ -65,7 +67,9 @@ Para verificar que ha configurado las características de los filtros de correo 
 
 1.  Ejecute el siguiente comando:
     
-        Get-Mailbox <MailboxIdentity> | Format-List SCL*,Bypass*,*SenderAuth*
+    ```powershell
+    Get-Mailbox <MailboxIdentity> | Format-List SCL*,Bypass*,*SenderAuth*
+    ```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 
@@ -73,11 +77,15 @@ Para verificar que ha configurado las características de los filtros de correo 
 
 Para configurar todas las funciones de filtros de correo no deseado en varios buzones, utilice la siguiente sintaxis.
 
-    Get-Mailbox [<Filter>]| Set-Mailbox <Anti-Spam Settings>
+```powershell
+Get-Mailbox [<Filter>]| Set-Mailbox <Anti-Spam Settings>
+```
 
 En este ejemplo, se habilita el umbral de cuarentena SCL con un valor de 7 en todos los buzones del contenedor de usuarios del dominio Contoso.com.
 
-    Get-Mailbox -OrganizationalUnit Contoso.com/Users | Set-Mailbox -SCLQuarantineEnabled $true -SCLQuarantineThreshold 7
+```powershell
+Get-Mailbox -OrganizationalUnit Contoso.com/Users | Set-Mailbox -SCLQuarantineEnabled $true -SCLQuarantineThreshold 7
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -85,7 +93,9 @@ Para verificar que ha configurado las características de los filtros de correo 
 
 1.  Ejecute el siguiente comando:
     
-        Get-Mailbox [<Filter>] | Format-List Name,SCL*,*SenderAuth*
+    ```powershell
+    Get-Mailbox [<Filter>] | Format-List Name,SCL*,*SenderAuth*
+    ```
 
 2.  Verifique que los valores mostrados son los valores que ha configurado.
 
@@ -110,8 +120,8 @@ Para verificar que ha configurado el umbral de correo no deseado correctamente e
 1.  Ejecute el siguiente comando:
     
     ```powershell
-Get-OrganizationConfig | Format-List SCLJunkThreshold
-```
+    Get-OrganizationConfig | Format-List SCLJunkThreshold
+    ```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 

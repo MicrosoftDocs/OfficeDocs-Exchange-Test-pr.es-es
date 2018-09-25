@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar filtrado contenido para usar dato dominio seguro Exchange 2013 Help'
+title: 'Configurar el filtrado de contenido para usar datos de dominio seguro: Exchange 2013 Help'
 TOCTitle: Configurar el filtrado de contenido para usar datos de dominio seguro
 ms:assetid: 1ee2b663-b4f3-4fef-8954-986f2d820924
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn467930(v=EXCHG.150)
@@ -45,13 +45,13 @@ Le recomendamos que no modifique el valor predeterminado en la mayoría de los c
 
 1.  En la ventana del símbolo del sistema, abra el archivo MSExchangeMailboxAssistants.exe.config en el Bloc de notas ejecutando el comando siguiente:
     
-    ```powershell
+```powershell
 Notepad %ExchangeInstallPath%Bin\MSExchangeMailboxAssistants.exe.config
 ```
 
 2.  Busque la clave *\</appsettings\>* al final del archivo y copie la siguiente clave antes de la clave *\</appsettings\>*:
     
-    ```command line
+```powershell
 <add key="IncludeSafeDomains" value="true" />
 ```
 
@@ -59,7 +59,9 @@ Notepad %ExchangeInstallPath%Bin\MSExchangeMailboxAssistants.exe.config
 
 4.  Reinicie el servicio Asistentes de buzón de Microsoft Exchange ejecutando el siguiente comando:
     
-        net stop MSExchangeMailboxAssistants && net start MSExchangeMailboxAssistants
+```powershell
+net stop MSExchangeMailboxAssistants && net start MSExchangeMailboxAssistants
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar autenticación Kerberos servidores acceso cliente equilibrio carga'
+title: 'Configurar la autenticación de Kerberos para servidores de acceso de cliente con equilibrio de carga: Exchange 2013 Help'
 TOCTitle: Configurar la autenticación de Kerberos para servidores de acceso de cliente con equilibrio de carga
 ms:assetid: 8f4faeea-a825-438d-97dc-1c398ce7aba5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff808312(v=EXCHG.150)
@@ -54,28 +54,32 @@ Procedimiento para crear la credencial ASA como una cuenta de equipo
     Use el cmdlet **Import-Module** para importar el módulo de Active Directory.
     
     ```powershell
-Import-Module ActiveDirectory
-```
+    Import-Module ActiveDirectory
+    ```
 
 2.  Use el cmdlet **New-ADComputer** para crear una nueva cuenta de equipo de Active Directory mediante esta sintaxis de cmdlet:
     
-        New-ADComputer [-Name] <string> [-AccountPassword <SecureString>] [-AllowReversiblePasswordEncryption <System.Nullable[boolean]>] [-Description <string>] [-Enabled <System.Nullable[bool]>]
+    ```powershell
+    New-ADComputer [-Name] <string> [-AccountPassword <SecureString>] [-AllowReversiblePasswordEncryption <System.Nullable[boolean]>] [-Description <string>] [-Enabled <System.Nullable[bool]>]
+    ```
     
     **Ejemplo:** 
     
-        New-ADComputer -Name EXCH2013ASA -AccountPassword (Read-Host 'Enter password' -AsSecureString) -Description 'Alternate Service Account credentials for Exchange' -Enabled:$True -SamAccountName EXCH2013ASA
+    ```powershell
+    New-ADComputer -Name EXCH2013ASA -AccountPassword (Read-Host 'Enter password' -AsSecureString) -Description 'Alternate Service Account credentials for Exchange' -Enabled:$True -SamAccountName EXCH2013ASA
+    ```
     
     Donde *EXCH2013ASA* es el nombre de la cuenta, la descripción *Alternate Service Account credentials for Exchange* es la que usted quiera, y el valor del parámetro *SamAccountName*, en este caso *EXCH2013ASA*, debe ser único en el directorio.
 
 3.  Use el cmdlet **Set-ADComputer** para habilitar el soporte de cifrado AES 256 que usa Kerberos siguiendo esta sintaxis de cmdlet:
     
-        Set-ADComputer [-Name] <string> [-add @{<attributename>="<value>"]
+    ```powershell
+    Set-ADComputer [-Name] <string> [-add @{<attributename>="<value>"]
+    ```
     
     **Ejemplo:** 
     
-    ```powershell
-Set-ADComputer EXCH2013ASA -add @{"msDS-SupportedEncryptionTypes"="28"}
-```
+        Set-ADComputer EXCH2013ASA -add @{"msDS-SupportedEncryptionTypes"="28"}
     
     Donde *EXCH2013ASA* es el nombre de la cuenta; el atributo que se debe modificar es *msDS-SupportedEncryptionTypes* con un valor decimal de 28, con lo que se habilitan los siguientes cifrados: RC4-HMAC, AES128-CTS-HMAC-SHA1-96 y AES256-CTS-HMAC-SHA1-96.
 
@@ -149,61 +153,65 @@ El único método admitido para implementar la credencial ASA es usar el script 
 
 3.  Ejecute el siguiente comando para implementar la credencial ASA en el primer servidor de acceso de cliente de Exchange 2013:
     
-        .\RollAlternateServiceAccountPassword.ps1 -ToSpecificServer cas-1.corp.tailspintoys.com -GenerateNewPasswordFor tailspin\EXCH2013ASA$
+    ```powershell
+    .\RollAlternateServiceAccountPassword.ps1 -ToSpecificServer cas-1.corp.tailspintoys.com -GenerateNewPasswordFor tailspin\EXCH2013ASA$
+    ```
 
 4.  Cuando se le pregunte si quiere cambiar la contraseña de la cuenta de servicio alternativa, conteste **Sí**.
 
 El siguiente es un ejemplo del resultado que aparece al ejecutar el script RollAlternateServiceAccountPassword.ps1.
 
-    ========== Starting at 01/12/2015 10:17:47 ==========
-    Creating a new session for implicit remoting of "Get-ExchangeServer" command...
-    Destination servers that will be updated:
-    
-    Name                                                        PSComputerName
-    ----                                                        --------------
-    cas-1                                                   cas-1.corp.tailspintoys.com
-    
-    
-    Credentials that will be pushed to every server in the specified scope (recent first):
-    
-    UserName                                                                                                        
-    Password
-    --------                                                                                                        
-    --------
-    tailspin\EXCH2013ASA$                                                                             
-    System.Security.SecureString
-    
-    
-    Prior to pushing new credentials, all existing credentials that are invalid or no longer work will be removed from  the destination servers.
-    Pushing credentials to server cas-1
-    Setting a new password on Alternate Serice Account in Active Directory
-    
-    Password change
-    Do you want to change password for tailspin\EXCH2013ASA$ in Active Directory at this time?
-    [Y] Yes  [N] No  [S] Suspend  [?] Help (default is "Y"): y
-    Preparing to update Active Directory with a new password for tailspin\EXCH2013ASA$ ...
-    Resetting a password in the Active Directory for tailspin\EXCH2013ASA$ ...
-    New password was successfully set to Active Directory.
-    Retrieving the current Alternate Service Account configuration from servers in scope
-    Alternate Service Account properties:
-    
-    StructuralObjectClass QualifiedUserName Last Pwd Update       SPNs
-    --------------------- ----------------- ---------------       ----
-    computer              tailspin\EXCH2013ASA$   1/12/2015 10:19:53 AM
-    
-    Per-server Alternate Service Account configuration as of the time of script completion:
-    
-    
-       Array: {mail.corp.tailspintoys.com}
-    
-    Identity  AlternateServiceAccountConfiguration
-    --------  ------------------------------------
-    cas-1 Latest: 1/12/2015 10:19:22 AM, tailspin\EXCH2013ASA$
-              ...
-    
-    ========== Finished at 01/12/2015 10:20:00 ==========
-    
-            THE SCRIPT HAS SUCCEEDED
+```powershell
+========== Starting at 01/12/2015 10:17:47 ==========
+Creating a new session for implicit remoting of "Get-ExchangeServer" command...
+Destination servers that will be updated:
+
+Name                                                        PSComputerName
+----                                                        --------------
+cas-1                                                   cas-1.corp.tailspintoys.com
+
+
+Credentials that will be pushed to every server in the specified scope (recent first):
+
+UserName                                                                                                        
+Password
+--------                                                                                                        
+--------
+tailspin\EXCH2013ASA$                                                                             
+System.Security.SecureString
+
+
+Prior to pushing new credentials, all existing credentials that are invalid or no longer work will be removed from  the destination servers.
+Pushing credentials to server cas-1
+Setting a new password on Alternate Serice Account in Active Directory
+
+Password change
+Do you want to change password for tailspin\EXCH2013ASA$ in Active Directory at this time?
+[Y] Yes  [N] No  [S] Suspend  [?] Help (default is "Y"): y
+Preparing to update Active Directory with a new password for tailspin\EXCH2013ASA$ ...
+Resetting a password in the Active Directory for tailspin\EXCH2013ASA$ ...
+New password was successfully set to Active Directory.
+Retrieving the current Alternate Service Account configuration from servers in scope
+Alternate Service Account properties:
+
+StructuralObjectClass QualifiedUserName Last Pwd Update       SPNs
+--------------------- ----------------- ---------------       ----
+computer              tailspin\EXCH2013ASA$   1/12/2015 10:19:53 AM
+
+Per-server Alternate Service Account configuration as of the time of script completion:
+
+
+    Array: {mail.corp.tailspintoys.com}
+
+Identity  AlternateServiceAccountConfiguration
+--------  ------------------------------------
+cas-1 Latest: 1/12/2015 10:19:22 AM, tailspin\EXCH2013ASA$
+            ...
+
+========== Finished at 01/12/2015 10:20:00 ==========
+
+        THE SCRIPT HAS SUCCEEDED
+```
 
 ## Implementar la credencial ASA en otros servidores de acceso de cliente de Exchange 2013
 
@@ -213,52 +221,56 @@ El siguiente es un ejemplo del resultado que aparece al ejecutar el script RollA
 
 3.  Ejecute el siguiente comando para implementar la credencial ASA en otro servidor de acceso de cliente de Exchange 2013:
     
-        .\RollAlternateServiceAccountPassword.ps1 -ToSpecificServer cas-2.corp.tailspintoys.com -CopyFrom cas-1.corp.tailspintoys.com
+    ```powershell
+    .\RollAlternateServiceAccountPassword.ps1 -ToSpecificServer cas-2.corp.tailspintoys.com -CopyFrom cas-1.corp.tailspintoys.com
+    ```
 
 4.  Repita el paso 3 para cada servidor de acceso de cliente donde quiera implementar la credencial ASA.
 
 El siguiente es un ejemplo del resultado que aparece al ejecutar el script RollAlternateServiceAccountPassword.ps1.
 
-    ========== Starting at 01/12/2015 10:34:35 ==========
-    Destination servers that will be updated:
-    
-    Name                                                        PSComputerName
-    ----                                                        --------------
-    cas-2                                                   cas-2.corp.tailspintoys.com
-    
-    
-    Credentials that will be pushed to every server in the specified scope (recent first):
-    
-    UserName                                                                                                        
-    Password
-    --------                                                                                                        
-    --------
-    tailspin\EXCH2013ASA$                                                                             
-    System.Security.SecureString
-    
-    Prior to pushing new credentials, all existing credentials will be removed from the destination servers.
-    Pushing credentials to server cas-2
-    Retrieving the current Alternate Service Account configuration from servers in scope
-    Alternate Service Account properties:
-    
-    StructuralObjectClass QualifiedUserName Last Pwd Update       SPNs
-    --------------------- ----------------- ---------------       ----
-    computer              tailspin\EXCH2013ASA$   1/12/2015 10:19:53 AM
-    
-    Per-server Alternate Service Account configuration as of the time of script completion:
-    
-    
-       Array: cas-2.corp.tailspintoys.com
-    
-    Identity  AlternateServiceAccountConfiguration
-    --------  ------------------------------------
-    cas-2 Latest: 1/12/2015 10:37:59 AM, tailspin\EXCH2013ASA$
-              ...
-    
-    
-    ========== Finished at 01/12/2015 10:38:13 ==========
-    
-            THE SCRIPT HAS SUCCEEDED
+```powershell
+========== Starting at 01/12/2015 10:34:35 ==========
+Destination servers that will be updated:
+
+Name                                                        PSComputerName
+----                                                        --------------
+cas-2                                                   cas-2.corp.tailspintoys.com
+
+
+Credentials that will be pushed to every server in the specified scope (recent first):
+
+UserName                                                                                                        
+Password
+--------                                                                                                        
+--------
+tailspin\EXCH2013ASA$                                                                             
+System.Security.SecureString
+
+Prior to pushing new credentials, all existing credentials will be removed from the destination servers.
+Pushing credentials to server cas-2
+Retrieving the current Alternate Service Account configuration from servers in scope
+Alternate Service Account properties:
+
+StructuralObjectClass QualifiedUserName Last Pwd Update       SPNs
+--------------------- ----------------- ---------------       ----
+computer              tailspin\EXCH2013ASA$   1/12/2015 10:19:53 AM
+
+Per-server Alternate Service Account configuration as of the time of script completion:
+
+
+    Array: cas-2.corp.tailspintoys.com
+
+Identity  AlternateServiceAccountConfiguration
+--------  ------------------------------------
+cas-2 Latest: 1/12/2015 10:37:59 AM, tailspin\EXCH2013ASA$
+            ...
+
+
+========== Finished at 01/12/2015 10:38:13 ==========
+
+        THE SCRIPT HAS SUCCEEDED
+```
 
 ## Comprobar la implementación de la credencial ASA
 
@@ -266,23 +278,29 @@ El siguiente es un ejemplo del resultado que aparece al ejecutar el script RollA
 
   - Ejecute el siguiente comando para comprobar la configuración en un servidor de acceso de cliente:
     
-        Get-ClientAccessServer CAS-3 -IncludeAlternateServiceAccountCredentialStatus | Format-List Name, AlternateServiceAccountConfiguration
+    ```powershell
+    Get-ClientAccessServer CAS-3 -IncludeAlternateServiceAccountCredentialStatus | Format-List Name, AlternateServiceAccountConfiguration
+    ```
 
   - Repita el paso 2 en cada servidor de acceso de cliente donde quiera comprobar la implementación de la credencial ASA.
 
 El siguiente es un ejemplo del resultado que se muestra cuando se ejecuta el comando Get-ClientAccessServer anterior y aún no se había establecido ninguna credencial ASA.
 
-    Name                                 : CAS-1
-    AlternateServiceAccountConfiguration : Latest: 1/12/2015 10:19:22 AM, tailspin\EXCH2013ASA$
-                                           Previous: <Not set>
-                                               ...
+```powershell
+Name                                 : CAS-1
+AlternateServiceAccountConfiguration : Latest: 1/12/2015 10:19:22 AM, tailspin\EXCH2013ASA$
+                                        Previous: <Not set>
+                                            ...
+```
 
 El siguiente es un ejemplo del resultado que se muestra cuando se ejecuta el comando Get-ClientAccessServer anterior y ya se había establecido una credencial ASA. Se devuelven la credencial ASA anterior y la fecha y hora en que se estableció.
 
-    Name                                 : CAS-3
-    AlternateServiceAccountConfiguration : Latest: 1/12/2015 10:19:22 AM, tailspin\EXCH2013ASA$
-                                           Previous: 7/15/2014 12:58:35 PM, tailspin\oldSharedServiceAccountName$
-                                               ...
+```powershell
+Name                                 : CAS-3
+AlternateServiceAccountConfiguration : Latest: 1/12/2015 10:19:22 AM, tailspin\EXCH2013ASA$
+                                        Previous: 7/15/2014 12:58:35 PM, tailspin\oldSharedServiceAccountName$
+                                            ...
+```
 
 ## Asociar nombres de entidad de seguridad de servicio (SPN) con la credencial ASA
 
@@ -301,14 +319,14 @@ Ejecutar el comando setspn para comprobar que un SPN no está asociado todavía 
 2.  En el símbolo del sistema, escriba el siguiente comando:
     
     ```powershell
-setspn -F -Q <SPN>
-```
+    setspn -F -Q <SPN>
+    ```
     
     Donde \<SPN\> es el SPN que desea asociar con la credencial ASA. Por ejemplo:
     
     ```powershell
-setspn -F -Q http/mail.corp.tailspintoys.com
-```
+    setspn -F -Q http/mail.corp.tailspintoys.com
+    ```
     
     El comando no debe devolver nada. Si devuelve algo, otra cuenta ya está asociada al SPN. Repita este paso una vez para cada SPN que desea asociar con la credencial ASA.
 
@@ -319,14 +337,14 @@ Asociar un SPN con una credencial ASA mediante el comando setspn
 2.  En el símbolo del sistema, escriba el siguiente comando:
     
     ```powershell
-setspn -S <SPN> <Account>$
-```
+    setspn -S <SPN> <Account>$
+    ```
     
     Donde \<SPN\> es el SPN que desea asociar con la credencial ASA y \<Account\> es la cuenta asociada con la credencial ASA. Por ejemplo:
     
     ```powershell
-setspn -S http/mail.corp.tailspintoys.com tailspin\EXCH2013ASA$
-```
+    setspn -S http/mail.corp.tailspintoys.com tailspin\EXCH2013ASA$
+    ```
     
     Ejecute este comando una vez para cada SPN que desea asociar con la credencial ASA.
 
@@ -337,14 +355,14 @@ Ejecutar el comando setspn para comprobar que ha asociado los SPN con las creden
 2.  En el símbolo del sistema, escriba el siguiente comando:
     
     ```powershell
-setspn -L <Account>$
-```
+    setspn -L <Account>$
+    ```
     
     Donde \<Account\> es la cuenta asociada con la credencial ASA. Por ejemplo:
     
     ```powershell
-setspn -L tailspin\EXCH2013ASA$
-```
+    setspn -L tailspin\EXCH2013ASA$
+    ```
     
     Deberá ejecutar este comando una sola vez.
 
@@ -354,11 +372,15 @@ setspn -L tailspin\EXCH2013ASA$
 
 2.  Para habilitar la autenticación Kerberos para los clientes de Outlook en cualquier lugar, ejecute el siguiente comando en el servidor de acceso de cliente:
     
-        Get-OutlookAnywhere -server CAS-1 | Set-OutlookAnywhere -InternalClientAuthenticationMethod  Negotiate
+    ```powershell
+    Get-OutlookAnywhere -server CAS-1 | Set-OutlookAnywhere -InternalClientAuthenticationMethod  Negotiate
+    ```
 
 3.  Para habilitar la autenticación Kerberos para clientes de MAPI sobre HTTP, ejecute lo siguiente en el servidor de acceso de cliente de Exchange 2013:
     
-        Get-MapiVirtualDirectory -Server CAS-1 | Set-MapiVirtualDirectory -IISAuthenticationMethods Ntlm, Negotiate
+    ```powershell
+    Get-MapiVirtualDirectory -Server CAS-1 | Set-MapiVirtualDirectory -IISAuthenticationMethods Ntlm, Negotiate
+    ```
 
 4.  Repita los pasos 2 y 3 para cada servidor de acceso de cliente de Exchange 2013 donde quiera habilitar la autenticación Kerberos.
 
@@ -390,7 +412,9 @@ Procedimiento para validar que Kerberos esté funcionando correctamente mediante
 
 2.  Abra el archivo de registro más reciente y busque la palabra **Negotiate**. La línea del archivo de registro debe ser similar al siguiente ejemplo:
     
-        2014-02-19T13:30:49.219Z,e19d08f4-e04c-42da-a6be-b7484b396db0,15,0,775,22,,RpcHttp,mail.corp.tailspintoys.com,/rpc/rpcproxy.dll,,Negotiate,True,tailspin\Wendy,tailspintoys.com,MailboxGuid~ad44b1e0-e44f-4a16-9396-3a437f594f88,MSRPC,192.168.1.77,EXCH1,200,200,,RPC_OUT_DATA,Proxy,exch2.tailspintoys.com,15.00.0775.000,IntraForest,MailboxGuidWithDomain,,,,76,462,1,,1,1,,0,,0,,0,0,16272.3359,0,0,3,0,23,0,25,0,16280,1,16274,16230,16233,16234,16282,?ad44b1e0-e44f-4a16-9396-3a437f594f88@tailspintoys.com:6001,,BeginRequest=2014-02-19T13:30:32.946Z;BeginGetRequestStream=2014-02-19T13:30:32.946Z;OnRequestStreamReady=2014-02-19T13:30:32.946Z;BeginGetResponse=2014-02-19T13:30:32.946Z;OnResponseReady=2014-02-19T13:30:32.977Z;EndGetResponse=2014-02-19T13:30:32.977Z;,PossibleException=IOException;
+    ```powershell
+    2014-02-19T13:30:49.219Z,e19d08f4-e04c-42da-a6be-b7484b396db0,15,0,775,22,,RpcHttp,mail.corp.tailspintoys.com,/rpc/rpcproxy.dll,,Negotiate,True,tailspin\Wendy,tailspintoys.com,MailboxGuid~ad44b1e0-e44f-4a16-9396-3a437f594f88,MSRPC,192.168.1.77,EXCH1,200,200,,RPC_OUT_DATA,Proxy,exch2.tailspintoys.com,15.00.0775.000,IntraForest,MailboxGuidWithDomain,,,,76,462,1,,1,1,,0,,0,,0,0,16272.3359,0,0,3,0,23,0,25,0,16280,1,16274,16230,16233,16234,16282,?ad44b1e0-e44f-4a16-9396-3a437f594f88@tailspintoys.com:6001,,BeginRequest=2014-02-19T13:30:32.946Z;BeginGetRequestStream=2014-02-19T13:30:32.946Z;OnRequestStreamReady=2014-02-19T13:30:32.946Z;BeginGetResponse=2014-02-19T13:30:32.946Z;OnResponseReady=2014-02-19T13:30:32.977Z;EndGetResponse=2014-02-19T13:30:32.977Z;,PossibleException=IOException;
+    ```
     
     Si ve que el valor **AuthenticationType** es **Negotiate**, el servidor está creando correctamente conexiones autenticadas de Kerberos.
 
@@ -407,8 +431,8 @@ Para quitar la credencial ASA
 1.  Abra el Shell de administración de Exchange en un servidor de Exchange 2013 y ejecute el siguiente comando:
     
     ```powershell
-Set-ClientAccessServer CAS-1 -RemoveAlternateServiceAccountCredentials
-```
+    Set-ClientAccessServer CAS-1 -RemoveAlternateServiceAccountCredentials
+    ```
 
 2.  Aunque no tiene que hacer esto inmediatamente, en algún momento tendrá que reiniciar todos los equipos cliente para borrar la memoria caché de vales de Kerberos del equipo.
 

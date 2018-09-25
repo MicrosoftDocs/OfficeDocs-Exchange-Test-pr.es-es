@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ver o configurar directorios virtuales app web Outlook: Exchange 2013 Help'
+title: 'Ver o configurar los directorios virtuales de aplicación web de Outlook: Exchange 2013 Help'
 TOCTitle: Ver o configurar los directorios virtuales de aplicación web de Outlook
 ms:assetid: 90babcf6-4486-4e01-9819-6d3ca4ed756c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd298140(v=EXCHG.150)
@@ -106,7 +106,7 @@ Si utiliza el EAC para ver las propiedades de un directorio virtual de Outlook W
     
 
     > [!NOTE]
-    > La configuración de las características para usuarios individuales sobrescribe la del directorio virtual. Es posible cambiar la configuración de la segmentación para usuarios individuales mediante el cmdlet <STRONG>Set-CASMailbox</STRONG> o mediante las directivas de buzón de Outlook Web App. Para obtener más información, consulte <A href="https://docs.microsoft.com/es-es/exchange/recipients-in-exchange-online/manage-equipment-mailboxes">Directivas de buzones de Outlook Web App</A>.
+    > La configuración de las características para usuarios individuales sobrescribe la del directorio virtual. Es posible cambiar la configuración de la segmentación para usuarios individuales mediante el cmdlet <STRONG>Set-CASMailbox</STRONG> o mediante las directivas de buzón de Outlook Web App. Para obtener más información, consulte <A href="outlook-web-app-mailbox-policies-exchange-2013-help.md">Directivas de buzones de Outlook Web App</A>.
 
     
     Utilice las casillas para habilitar o deshabilitar funciones. Las funciones más comunes se muestran de forma predeterminada. Para ver todas las características que se pueden habilitar o deshabilitar, haga clic en **Más opciones**.
@@ -133,7 +133,9 @@ Si utiliza el EAC para ver las propiedades de un directorio virtual de Outlook W
 
 En este ejemplo, se habilita la autenticación basada en formularios en el directorio virtual predeterminado de Outlook Web App, en el servidor Contoso.
 
-    set-OwaVirtualDirectory -Identity "Contoso\owa (default web site)" -FormsAuthentication $true
+```powershell
+set-OwaVirtualDirectory -Identity "Contoso\owa (default web site)" -FormsAuthentication $true
+```
 
 Para obtener más información sobre sintaxis y parámetros, consulte [Set-OwaVirtualDirectory](https://technet.microsoft.com/es-es/library/bb123515\(v=exchg.150\)).
 
@@ -147,7 +149,9 @@ Get-OWAVirtualDirectory
 
 Este ejemplo permite ver las propiedades de un directorio virtual de Outlook Web App en el sitio web de IIS predeterminado, en el servidor local de Exchange.
 
-    Get-OWAVirtualDirectory -identity "<Exchange Server Name>\owa (default web site)"
+```powershell
+Get-OWAVirtualDirectory -identity "<Exchange Server Name>\owa (default web site)"
+```
 
 Este ejemplo permite ver las propiedades de todos los directorios virtuales de Outlook Web App en un sitio web de IIS, en un servidor específico de Exchange.
 

@@ -61,11 +61,15 @@ Una vez creada la nueva directiva de asignación, puede asignarle usuarios. Para
 
 Para crear una directiva de asignación explícita que se pueda asignar manualmente a buzones, use la sintaxis siguiente.
 
-    New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign>
+```powershell
+New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign>
+```
 
 En este ejemplo, se crea la directiva de asignación explícita Limited Mailbox Configuration y se le asignan los roles `MyBaseOptions`, `MyAddressInformation` y `MyDisplayName`.
 
-    New-RoleAssignmentPolicy "Limited Mailbox Configuration" -Roles MyBaseOptions, MyAddressInformation, MyDisplayName
+```powershell
+New-RoleAssignmentPolicy "Limited Mailbox Configuration" -Roles MyBaseOptions, MyAddressInformation, MyDisplayName
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-RoleAssignmentPolicy](https://technet.microsoft.com/es-es/library/dd638101\(v=exchg.150\)).
 
@@ -73,11 +77,15 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para crear una directiva de asignación predeterminada asignada a buzones nuevos, utilice la sintaxis siguiente.
 
-    New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign> -IsDefault
+```powershell
+New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign> -IsDefault
+```
 
 En este ejemplo, se crea la directiva de asignación predeterminada Limited Mailbox Configuration y se le asignan los roles `MyBaseOptions`, `MyAddressInformation` y `MyDisplayName`.
 
-    New-RoleAssignmentPolicy "Limited Mailbox Configuration" -Roles MyBaseOptions, MyAddressInformation, MyDisplayName -IsDefault
+```powershell
+New-RoleAssignmentPolicy "Limited Mailbox Configuration" -Roles MyBaseOptions, MyAddressInformation, MyDisplayName -IsDefault
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-RoleAssignmentPolicy](https://technet.microsoft.com/es-es/library/dd638101\(v=exchg.150\)).
 
@@ -103,11 +111,15 @@ Si ya no necesita la directiva de asignación de funciones de administración, p
 
 Para quitar una directiva de asignación, use la sintaxis siguiente.
 
-    Remove-RoleAssignmentPolicy <role assignment policy>
+```powershell
+Remove-RoleAssignmentPolicy <role assignment policy>
+```
 
 En este ejemplo se quita la directiva de asignación de usuarios temporales de Nueva York.
 
-    Remove-RoleAssignmentPolicy "New York Temporary Users"
+```powershell
+Remove-RoleAssignmentPolicy "New York Temporary Users"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Remove-RoleAssignmentPolicy](https://technet.microsoft.com/es-es/library/dd638190\(v=exchg.150\)).
 
@@ -135,15 +147,21 @@ Este procedimiento hace uso de la canalización y el cmdlet **Format-Table**. Pa
 
 Use el siguiente comando para devolver una lista de todas las directivas de asignación en la organización.
 
-    Get-RoleAssignmentPolicy
+```powershell
+Get-RoleAssignmentPolicy
+```
 
 Para devolver una lista de propiedades específicas para todas las directivas de asignación en la organización, puede canalizar los resultados al cmdlet **Format-Table** y especificar las propiedades que desee incluir en la lista de resultados. Use la siguiente sintaxis.
 
-    Get-RoleAssignmentPolicy | Format-Table <property 1>, <property 2...>
+```powershell
+Get-RoleAssignmentPolicy | Format-Table <property 1>, <property 2...>
+```
 
 En este ejemplo, se devuelve una lista de todas las directivas de asignación en la organización y se incluyen las propiedades **Name** y **IsDefault**.
 
-    Get-RoleAssignmentPolicy | Format-Table Name, IsDefault
+```powershell
+Get-RoleAssignmentPolicy | Format-Table Name, IsDefault
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Get-Mailbox](https://technet.microsoft.com/es-es/library/bb123685\(v=exchg.150\)) o [Get-RoleAssignmentPolicy](https://technet.microsoft.com/es-es/library/dd638195\(v=exchg.150\)).
 
@@ -159,11 +177,15 @@ Este procedimiento hace uso de la canalización y el cmdlet **Format-List**. Par
 
 Para ver los detalles de una directiva de asignación específica, use la sintaxis siguiente.
 
-    Get-RoleAssignmentPolicy <assignment policy name> | Format-List
+```powershell
+Get-RoleAssignmentPolicy <assignment policy name> | Format-List
+```
 
 En este ejemplo, se ven los detalles sobre los usuarios de Redmond (sin directivas de asignación de mensajería de texto).
 
-    Get-RoleAssignmentPolicy "Redmond Users - no Text Messaging" | Format-List
+```powershell
+Get-RoleAssignmentPolicy "Redmond Users - no Text Messaging" | Format-List
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Get-Mailbox](https://technet.microsoft.com/es-es/library/bb123685\(v=exchg.150\)) o [Get-RoleAssignmentPolicy](https://technet.microsoft.com/es-es/library/dd638195\(v=exchg.150\)).
 
@@ -179,7 +201,9 @@ Este procedimiento hace uso de la canalización y del cmdlet **Where**. Para obt
 
 En este ejemplo se devuelve la directiva de asignación predeterminada.
 
-    Get-RoleAssignmentPolicy | Where { $_.IsDefault -eq $True }
+```powershell
+Get-RoleAssignmentPolicy | Where { $_.IsDefault -eq $True }
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Get-Mailbox](https://technet.microsoft.com/es-es/library/bb123685\(v=exchg.150\)) o [Get-RoleAssignmentPolicy](https://technet.microsoft.com/es-es/library/dd638195\(v=exchg.150\)).
 
@@ -195,11 +219,15 @@ Este procedimiento hace uso de la canalización y del cmdlet **Where**. Para obt
 
 Use la siguiente sintaxis.
 
-    Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "<role assignment policy>" }
+```powershell
+Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "<role assignment policy>" }
+```
 
 En este ejemplo, se muestran todos los buzones que tienen asignada la directiva de usuarios finales de Vancouver.
 
-    Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "Vancouver End Users" }
+```powershell
+Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "Vancouver End Users" }
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Get-Mailbox](https://technet.microsoft.com/es-es/library/bb123685\(v=exchg.150\)) o [Get-RoleAssignmentPolicy](https://technet.microsoft.com/es-es/library/dd638195\(v=exchg.150\)).
 
@@ -217,11 +245,15 @@ Puede cambiar la directiva de asignación de funciones de administración asigna
 
 Para cambiar la directiva de asignación predeterminada, utilice la sintaxis siguiente.
 
-    Set-RoleAssignmentPolicy <assignment policy name> -IsDefault
+```powershell
+Set-RoleAssignmentPolicy <assignment policy name> -IsDefault
+```
 
 En este ejemplo, Vancouver End Users se establece como directiva de asignación predeterminada.
 
-    Set-RoleAssignmentPolicy "Vancouver End Users" -IsDefault
+```powershell
+Set-RoleAssignmentPolicy "Vancouver End Users" -IsDefault
+```
 
 
 > [!IMPORTANT]
@@ -247,11 +279,15 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para crear una asignación de funciones de administración entre una función y una directiva de asignaciones, use la sintaxis siguiente.
 
-    New-ManagementRoleAssignment -Name <role assignment name> -Role <role name> -Policy <assignment policy name>
+```powershell
+New-ManagementRoleAssignment -Name <role assignment name> -Role <role name> -Policy <assignment policy name>
+```
 
 En este ejemplo, se crea la asignación de funciones usuarios de Seattle\_correo de voz entre la función MyVoicemail y la directiva de asignación usuarios de Seattle.
 
-    New-ManagementRoleAssignment -Name "Seattle Users - Voicemail" -Role MyVoicemail -Policy "Seattle Users"
+```powershell
+New-ManagementRoleAssignment -Name "Seattle Users - Voicemail" -Role MyVoicemail -Policy "Seattle Users"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd335193\(v=exchg.150\)).
 
@@ -279,11 +315,15 @@ Este procedimiento utiliza la canalización. Para obtener más información acer
 
 Para quitar un rol de una directiva de asignación, use la sintaxis siguiente.
 
-    Get-ManagementRoleAssignment -RoleAssignee <assignment policy name> -Role <role name> | Remove-ManagementRoleAssignment
+```powershell
+Get-ManagementRoleAssignment -RoleAssignee <assignment policy name> -Role <role name> | Remove-ManagementRoleAssignment
+```
 
 En este ejemplo se quita el rol de administración MyVoicemail que permite a los usuarios administrar las opciones de correo de voz desde la directiva de asignación Usuarios de Seattle.
 
-    Get-ManagementRoleAssignment -RoleAssignee "Seattle Users" -Role MyVoicemail | Remove-ManagementRoleAssignment
+```powershell
+Get-ManagementRoleAssignment -RoleAssignee "Seattle Users" -Role MyVoicemail | Remove-ManagementRoleAssignment
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Remove-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd351205\(v=exchg.150\)).
 

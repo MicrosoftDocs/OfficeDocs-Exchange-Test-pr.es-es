@@ -1,5 +1,5 @@
 ﻿---
-title: 'Suspensión o reanudación de una copia base datos buzones: Exchange 2013 Help'
+title: 'Suspensión o reanudación de una copia de base de datos de buzones: Exchange 2013 Help'
 TOCTitle: Suspensión o reanudación de una copia de base de datos de buzones
 ms:assetid: 96aa1b82-3e15-4215-843e-3d583af9504b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dd298159(v=EXCHG.150)
@@ -66,13 +66,13 @@ Es posible que deba suspender o reanudar una copia de base de datos por diversos
 Este ejemplo suspende la replicación continua de una copia de la base de datos de DB1 hospedada en el servidor MBX1. También se ha especificado un comentario opcional.
 
 ```powershell
-Suspend-MailboxDatabaseCopy -Identity DB1\MBX1 -SuspendComment "Maintenance on MBX1" -Confirm:$False
+    Suspend-MailboxDatabaseCopy -Identity DB1\MBX1 -SuspendComment "Maintenance on MBX1" -Confirm:$False
 ```
 
 Este ejemplo suspende la activación de una copia de la base de datos de DB2 hospedada en el servidor MBX2.
 
 ```powershell
-Suspend-MailboxDatabaseCopy -Identity DB2\MBX2 -ActivationOnly -Confirm:$False
+    Suspend-MailboxDatabaseCopy -Identity DB2\MBX2 -ActivationOnly -Confirm:$False
 ```
 
 ## Usar el Shell para reanudar una copia de base de datos de buzones
@@ -80,13 +80,13 @@ Suspend-MailboxDatabaseCopy -Identity DB2\MBX2 -ActivationOnly -Confirm:$False
 En este ejemplo se reanuda una copia de la base de datos DB1 en el servidor MBX1.
 
 ```powershell
-Resume-MailboxDatabaseCopy -Identity DB1\MBX1
+    Resume-MailboxDatabaseCopy -Identity DB1\MBX1
 ```
 
 Este ejemplo reanuda la copia de la base de datos DB2 en el servidor MBX2 solo para la replicación.
 
 ```powershell
-Resume-MailboxDatabaseCopy -Identity DB2\MBX2 -ReplicationOnly
+    Resume-MailboxDatabaseCopy -Identity DB2\MBX2 -ReplicationOnly
 ```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
@@ -98,6 +98,5 @@ Para verificar que ha suspendido o reanudado correctamente una copia de base de 
   - En el Shell, ejecute el siguiente comando para mostrar la información de estado de una copia de base de datos.
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
-```
-
+        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```

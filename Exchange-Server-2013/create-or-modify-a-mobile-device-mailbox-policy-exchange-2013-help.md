@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear o modificar directiva de buzón de dispositivo móvil: Exchange 2013 Help'
+title: 'Crear o modificar una directiva de buzón de dispositivo móvil: Exchange 2013 Help'
 TOCTitle: Crear o modificar una directiva de buzón de dispositivo móvil
 ms:assetid: b4a37a81-25e3-40ff-a18a-a62ae4493635
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124315(v=EXCHG.150)
@@ -77,7 +77,9 @@ Puede crear una nueva directiva de buzón de correo para dispositivos móviles u
 
 1.  En el Shell, ejecute el siguiente comando.
     
-        New-MobileDeviceMailboxPolicy -Name:"Management" -AllowBluetooth:$true -AllowBrowser:$true -AllowCamera:$true -AllowPOPIMAPEmail:$false -PasswordEnabled:$true -AlphanumericPasswordRequired:$true -PasswordRecoveryEnabled:$true -MaxEmailAgeFilter:10 -AllowWiFi:$true -AllowStorageCard:$true -AllowPOPIMAPEmail:$false
+```powershell
+New-MobileDeviceMailboxPolicy -Name:"Management" -AllowBluetooth:$true -AllowBrowser:$true -AllowCamera:$true -AllowPOPIMAPEmail:$false -PasswordEnabled:$true -AlphanumericPasswordRequired:$true -PasswordRecoveryEnabled:$true -MaxEmailAgeFilter:10 -AllowWiFi:$true -AllowStorageCard:$true -AllowPOPIMAPEmail:$false
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -87,7 +89,9 @@ Para comprobar si creó una directiva de buzón de correo para dispositivos móv
 
 2.  En el Shell, ejecute el siguiente comando.
     
-        Get-MobileDeviceMailboxPolicy -Identity <PolicyName> 
+```powershell
+Get-MobileDeviceMailboxPolicy -Identity <PolicyName> 
+```
 
 ## Edite una directiva de buzón de correo para dispositivos móviles existente
 
@@ -125,7 +129,9 @@ Puede usar el Shell para editar una directiva de buzón de correo para dispositi
 
 1.  En el Shell, ejecute el siguiente comando.
     
-        Set-MobileDeviceMailboxPolicy -Identity:Default -DevicePasswordEnabled:$true -AlphanumericDevicePasswordRequired:$true -PasswordRecoveryEnabled:$true -MaxEmailAgeFilter:ThreeDays -AllowWiFi:$false -AllowStorageCard:$true -AllowPOPIMAPEmail:$false -IsDefault:$true -AllowTextMessaging:$true -Confirm:$true
+```powershell
+Set-MobileDeviceMailboxPolicy -Identity:Default -DevicePasswordEnabled:$true -AlphanumericDevicePasswordRequired:$true -PasswordRecoveryEnabled:$true -MaxEmailAgeFilter:ThreeDays -AllowWiFi:$false -AllowStorageCard:$true -AllowPOPIMAPEmail:$false -IsDefault:$true -AllowTextMessaging:$true -Confirm:$true
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -135,7 +141,7 @@ Para comprobar si editó una directiva de buzón de correo para dispositivos mó
 
 2.  En el Shell, ejecute el siguiente comando.
     
-    ```powershell
+```powershell
 Get-MobileDeviceMailboxPolicy -Identity <PolicyName>
 ```
 

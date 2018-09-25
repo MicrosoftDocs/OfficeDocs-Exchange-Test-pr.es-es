@@ -83,7 +83,9 @@ Get-ManagementRole | Format-Table <property 1>, <property 2...>
 
 En este ejemplo, se devuelve una lista de todas las funciones de su organización e incluye la propiedad **Name** y toda propiedad con la palabra **Implicit** en el comienzo del nombre de la propiedad.
 
-    Get-ManagementRole | Format-Table Name, Implicit*
+```powershell
+Get-ManagementRole | Format-Table Name, Implicit*
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRole](https://technet.microsoft.com/es-es/library/dd351125\(v=exchg.150\)).
 
@@ -113,7 +115,9 @@ Cuando usa el parámetro *CmdletParameters*, puede elegir incluir el parámetro 
 
 Para devolver una lista de funciones que contienen los parámetros que especifica, use la siguiente sintaxis.
 
-    Get-ManagementRole [-Cmdlet <cmdlet>] -CmdletParameters <parameter 1>, <parameter 2...>
+```powershell
+Get-ManagementRole [-Cmdlet <cmdlet>] -CmdletParameters <parameter 1>, <parameter 2...>
+```
 
 En este ejemplo, se devuelve una lista de funciones que contienen los parámetros *Database* y *Server*, independientemente de los cmdlets que existan en ellos.
 

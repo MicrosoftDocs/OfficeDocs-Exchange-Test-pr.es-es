@@ -67,7 +67,9 @@ Para cambiar la directiva de buzón de dispositivo móvil de un usuario, utilice
 
 1.  En el Shell, ejecute el siguiente comando.
     
-        Get-CASMailbox -Identity tony@contoso.com -ActiveSyncMailboxPolicy "Sales" 
+```powershell
+Get-CASMailbox -Identity tony@contoso.com -ActiveSyncMailboxPolicy "Sales" 
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -77,7 +79,9 @@ Para verificar que cambió correctamente la directiva de buzón de dispositivo m
 
 2.  En el Shell, ejecute el siguiente comando.
     
-        Get-CASMailbox -Identity tony@contoso.com 
+```powershell
+Get-CASMailbox -Identity tony@contoso.com 
+```
 
 ## Cambiar la directiva de buzón de dispositivo móvil para varios usuarios al mismo tiempo
 
@@ -103,8 +107,10 @@ Puede usar el Shell para cambiar la directiva de buzón de dispositivo móvil de
 
 1.  En el Shell, ejecute el siguiente comando.
     
-        Get-Mailbox | where { $_.CustomAttribute1 -match "Manager"
-         } | Set-CASMailbox -activesyncmailboxpolicy(Get-ActiveSyncMailboxPolicy "Contoso").Identity
+```powershell
+Get-Mailbox | where { $_.CustomAttribute1 -match "Manager"
+} | Set-CASMailbox -activesyncmailboxpolicy(Get-ActiveSyncMailboxPolicy "Contoso").Identity
+```
     
 
     > [!NOTE]
@@ -120,7 +126,7 @@ Para verificar que cambió correctamente la directiva de buzón de dispositivo m
 
 2.  En el Shell, ejecute el siguiente comando.
     
-    ```powershell
+```powershell
 Get-CASMailbox -Identity tony@contoso.com
 ```
 

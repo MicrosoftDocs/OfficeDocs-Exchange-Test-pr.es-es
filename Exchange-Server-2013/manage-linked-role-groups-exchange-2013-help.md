@@ -64,12 +64,13 @@ Para crear un grupo de funciones vinculado y asignarle funciones de administraci
 1.  Almacene las credenciales del bosque externo Active Directory en una variable.
     
     ```powershell
-$ForeignCredential = Get-Credential
-```
-
+    $ForeignCredential = Get-Credential
+    ```    
 2.  Cree el grupo de funciones vinculadas con la siguiente sintaxis.
     
-        New-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -Roles <role1, role2, role3...>
+    ```powershell
+    New-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -Roles <role1, role2, role3...>
+    ```
 
 3.  Agregue o quite miembros del grupo de seguridad universal externo mediante usuarios y equipos Active Directory en un equipo en el bosque externo Active Directory.
 
@@ -85,9 +86,7 @@ En este ejemplo se realiza lo siguiente:
 
 <!-- end list -->
 
-```powershell
-$ForeignCredential = Get-Credential
-```
+    $ForeignCredential = Get-Credential
     New-RoleGroup "Compliance Role Group" -LinkedForeignGroup "Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles "Transport Rules", "Journaling"
 
 ## Usar Shell para crear un grupo de funciones vinculado con un ámbito de administración personalizado
@@ -97,13 +96,14 @@ Es posible crear grupos de funciones vinculados con ámbitos de administración 
 1.  Almacene las credenciales del bosque externo Active Directory en una variable.
     
     ```powershell
-$ForeignCredential = Get-Credential
-```
+    $ForeignCredential = Get-Credential
+    ```
 
 2.  Cree el grupo de funciones vinculadas con la siguiente sintaxis.
     
-        New-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -CustomConfigWriteScope <name of configuration scope> -CustomRecipientWriteScope <name of recipient scope> -LinkedCredential $ForeignCredential -Roles <role1, role2, role3...>
-
+    ```powershell
+    New-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -CustomConfigWriteScope <name of configuration scope> -CustomRecipientWriteScope <name of recipient scope> -LinkedCredential $ForeignCredential -Roles <role1, role2, role3...>
+    ```    
 3.  Agregue o quite miembros del grupo de seguridad universal externo mediante usuarios y equipos Active Directory en un equipo en el bosque externo Active Directory.
 
 En este ejemplo se realiza lo siguiente:
@@ -118,9 +118,7 @@ En este ejemplo se realiza lo siguiente:
 
 <!-- end list -->
 
-```powershell
-$ForeignCredential = Get-Credential
-```
+    $ForeignCredential = Get-Credential
     New-RoleGroup "Seattle Compliance Role Group" -LinkedForeignGroup "Seattle Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -CustomRecipientWriteScope "Seattle Recipients" -Roles "Transport Rules", "Journaling"
 
 Para obtener más información acerca de los ámbitos de administración, consulte [Descripción de los ámbitos de roles de administración](understanding-management-role-scopes-exchange-2013-help.md).
@@ -132,13 +130,13 @@ Puede crear grupos de funciones vinculados que utilizan un ámbito de destinatar
 1.  Almacene las credenciales del bosque externo Active Directory en una variable.
     
     ```powershell
-$ForeignCredential = Get-Credential
-```
-
+    $ForeignCredential = Get-Credential
+    ```    
 2.  Cree el grupo de funciones vinculadas con la siguiente sintaxis.
     
-        New-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -RecipientOrganizationalUnitScope <OU name> -Roles <role1, role2, role3...>
-
+    ```powershell
+    New-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -RecipientOrganizationalUnitScope <OU name> -Roles <role1, role2, role3...>
+    ```    
 3.  Agregue o quite miembros del grupo de seguridad universal externo mediante usuarios y equipos Active Directory en un equipo en el bosque externo Active Directory.
 
 En este ejemplo se realiza lo siguiente:
@@ -155,8 +153,8 @@ En este ejemplo se realiza lo siguiente:
 
 ```powershell
 $ForeignCredential = Get-Credential
+New-RoleGroup "Executives Compliance Role Group" -LinkedForeignGroup "Executives Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -RecipientOrganizationalUnitScope "Executives OU" -Roles "Transport Rules", "Journaling"
 ```
-    New-RoleGroup "Executives Compliance Role Group" -LinkedForeignGroup "Executives Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -RecipientOrganizationalUnitScope "Executives OU" -Roles "Transport Rules", "Journaling"
 
 Para obtener más información acerca de los ámbitos de administración, consulte [Descripción de los ámbitos de roles de administración](understanding-management-role-scopes-exchange-2013-help.md).
 
@@ -169,13 +167,13 @@ Para cambiar el grupo de seguridad universal externo asociado con un grupo de fu
 1.  Almacene las credenciales del bosque externo Active Directory en una variable.
     
     ```powershell
-$ForeignCredential = Get-Credential
-```
-
+    $ForeignCredential = Get-Credential
+    ```    
 2.  Use la siguiente sintaxis para cambiar el USG externo en el grupo de roles vinculado existente.
     
-        Set-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential 
-
+    ```powershell
+    Set-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential 
+    ```    
 En este ejemplo se realiza lo siguiente:
 
   - Se recuperan las credenciales para el bosque externo Active Directory de users.contoso.com. Las credenciales se usan para establecer conexión con el controlador de dominio DC01.users.contoso.com en el bosque externo.
@@ -186,6 +184,5 @@ En este ejemplo se realiza lo siguiente:
 
 ```powershell
 $ForeignCredential = Get-Credential
+Set-RoleGroup "Compliance Role Group" -LinkedForeignGroup "Regulatory Compliance Officers" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential
 ```
-    Set-RoleGroup "Compliance Role Group" -LinkedForeignGroup "Regulatory Compliance Officers" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential
-

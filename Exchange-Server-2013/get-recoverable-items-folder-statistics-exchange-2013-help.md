@@ -27,7 +27,7 @@ Para obtener más información, consulte los siguientes temas:
 
   - [Carpeta Elementos recuperables](recoverable-items-folder-exchange-2013-help.md)
 
-  - [Conservación local y retención por juicio](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-and-litigation-holds)
+  - [Conservación local y retención por juicio](in-place-hold-and-litigation-hold-exchange-2013-help.md)
 
 ## ¿Qué necesita saber antes de comenzar?
 
@@ -53,7 +53,9 @@ Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableIt
 
 En este ejemplo se obtienen las estadísticas de la carpeta Elementos recuperables de Soumya Singhi y se muestra una tabla con el nombre, la ruta, el número de elementos que contiene y el tamaño de la carpeta.
 
-    Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-Table Name,FolderPath,ItemsInFolder,FolderAndSubfolderSize
+```powershell
+Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-Table Name,FolderPath,ItemsInFolder,FolderAndSubfolderSize
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Get-MailboxFolderStatistics](https://technet.microsoft.com/es-es/library/aa996762\(v=exchg.150\)).
 
@@ -61,7 +63,9 @@ Para obtener información más detallada acerca de la sintaxis y los parámet
 
 En este ejemplo se recupera una lista de todos los buzones en retención por juicio y las estadísticas de carpeta de buzón de la carpeta Elementos recuperables y sus subcarpetas de cada uno de los buzones. Las propiedades **Identity** (identidad de la carpeta de buzón) y **FolderAndSubfolderSize** se muestran en una tabla.
 
-    Get-Mailbox -ResultSize Unlimited -Filter {LitigationHoldEnabled -eq $true} | Get-MailboxFolderStatistics | Format-Table Identity,FolderAndSubfolderSize
+```powershell
+Get-Mailbox -ResultSize Unlimited -Filter {LitigationHoldEnabled -eq $true} | Get-MailboxFolderStatistics | Format-Table Identity,FolderAndSubfolderSize
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Get-Mailbox](https://technet.microsoft.com/es-es/library/bb123685\(v=exchg.150\)) y [Get-MailboxFolderStatistics](https://technet.microsoft.com/es-es/library/aa996762\(v=exchg.150\)).
 
@@ -69,9 +73,13 @@ Para obtener más información acerca de la sintaxis y los parámetros, consulte
 
 En este ejemplo se muestran la cuota y la cuota de advertencia para la carpeta Elementos recuperables de un buzón de usuario. El ejemplo también recupera información acerca de si se coloca una retención por juicio o conservación local en el buzón.
 
-    Get-Mailbox -Identity <identity of mailbox> | Format-List RecoverableItems*,LitigationHoldEnabled,InPlaceHolds
+```powershell
+Get-Mailbox -Identity <identity of mailbox> | Format-List RecoverableItems*,LitigationHoldEnabled,InPlaceHolds
+```
 
 En este ejemplo se muestran la cuota y la cuota de advertencia para la carpeta Elementos recuperables de todos los buzones de usuario en su organización. El ejemplo también recupera información de retención.
 
-    Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Format-List Name,RecoverableItems*,LitigationHoldEnabled,InPlaceHolds
+```powershell
+Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Format-List Name,RecoverableItems*,LitigationHoldEnabled,InPlaceHolds
+```
 

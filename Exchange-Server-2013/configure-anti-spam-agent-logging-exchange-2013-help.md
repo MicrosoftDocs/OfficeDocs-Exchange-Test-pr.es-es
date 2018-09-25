@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar el registro de agentes contra correo no deseado: Exchange 2013 Help'
+title: 'Configurar el registro de agentes contra correo electrónico no deseado: Exchange 2013 Help'
 TOCTitle: Configurar el registro de agentes contra correo electrónico no deseado
 ms:assetid: df157ca3-ad8e-4302-acbc-5fbb8570c21d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb691337(v=EXCHG.150)
@@ -41,7 +41,9 @@ El registro de agentes graba las acciones realizadas por agentes específicos co
 
 Ejecute el siguiente comando:
 
-    Set-TransportService <ServerIdentity> -AgentLogEnabled <$true | $false> -AgentLogMaxAge <dd.hh:mm:ss> -AgentLogMaxDirectorySize <Size> -AgentLogMaxFileSize <Size> -AgentLogPath <LocalFilePath>
+  ```powershell
+  Set-TransportService <ServerIdentity> -AgentLogEnabled <$true | $false> -AgentLogMaxAge <dd.hh:mm:ss> -AgentLogMaxDirectorySize <Size> -AgentLogMaxFileSize <Size> -AgentLogPath <LocalFilePath>
+  ```
 
 En este ejemplo, se establece la siguiente configuración de registro de agente en el servidor de buzones de correo denominado Mailbox01:
 
@@ -55,7 +57,9 @@ En este ejemplo, se establece la siguiente configuración de registro de agente 
 
 <!-- end list -->
 
-    Set-TransportService Mailbox01 -AgentLogPath "D:\Anti-Spam Agent Log" -AgentLogMaxFileSize 20MB -AgentLogMaxDirectorySize 400MB -AgentLogMaxAge 14.00:00:00
+  ```powershell
+  Set-TransportService Mailbox01 -AgentLogPath "D:\Anti-Spam Agent Log" -AgentLogMaxFileSize 20MB -AgentLogMaxDirectorySize 400MB -AgentLogMaxAge 14.00:00:00
+  ```
 
 
 > [!NOTE]
@@ -75,7 +79,9 @@ Para comprobar que el registro de agente contra correo electrónico no deseado s
 
 1.  En el Shell, ejecute el siguiente comando:
     
-        Get-TransportService <ServerIdentity> | Format-List AgentLog*
+      ```powershell
+      Get-TransportService <ServerIdentity> | Format-List AgentLog*
+      ```
 
 2.  Verifique que los valores mostrados son los valores que ha configurado.
 

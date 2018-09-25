@@ -53,35 +53,47 @@ Cuando se exporta un mensaje desde una cola a un archivo, el mensaje no se elimi
 
 Para exportar un mensaje específico de una cola específica, ejecute el comando siguiente:
 
-    Export-Message -Identity <MessageIdentity> | AssembleMessage -Path <FilePath>\<FileName>.eml
+```powershell
+Export-Message -Identity <MessageIdentity> | AssembleMessage -Path <FilePath>\<FileName>.eml
+```
 
 En este ejemplo, se exporta una copia de un mensaje que tiene 1234 como valor de **InternalMessageID** y está ubicado en la cola de entrega de contoso.com, en el servidor Mailbox01 al archivo denominado export.eml en la ruta C:\\Contoso Export.
 
-    Export-Message -Identity Exchange01\Contoso.com\1234 | AssembleMessage -Path "D:\Contoso Export\export.eml"
+```powershell
+Export-Message -Identity Exchange01\Contoso.com\1234 | AssembleMessage -Path "D:\Contoso Export\export.eml"
+```
 
 ## Usar el Shell para exportar todos los mensajes de una cola en particular
 
 Para exportar todos los mensajes de una cola específica y usar el valor **InternetMessageID** de cada mensaje como nombre de archivo, utilice la sintaxis siguiente:
 
-    Get-Message -Queue <QueueIdentity> | ForEach-Object {$Temp=<Path>+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```powershell
+Get-Message -Queue <QueueIdentity> | ForEach-Object {$Temp=<Path>+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```
 
 Observe que el valor **InternetMessageID** contiene paréntesis angulares (\> y \<), que deben quitarse porque no están admitidos en los nombres de archivo.
 
 En este ejemplo se exporta una copia de todos los mensajes desde la cola de entrega contoso.com en el servidor denominado Mailbox01 al directorio local denominado D:\\Contoso Export.
 
-    Get-Message -Queue Mailbox01\Contoso.com | ForEach-Object {$Temp="D:\Contoso Export\"+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```powershell
+Get-Message -Queue Mailbox01\Contoso.com | ForEach-Object {$Temp="D:\Contoso Export\"+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```
 
 ## Usar el Shell para exportar mensajes específicos de todas las colas de un servidor
 
 Para exportar mensajes determinados de todas las cola en un servidor y usar el valor **InternetMessageID** de cada mensaje como nombre de archivo, utilice la sintaxis siguiente:
 
-    Get-Message -Filter {<MessageFilter>} [-Server <ServerIdentity>] | ForEach-Object {$Temp=<Path>+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```powershell
+Get-Message -Filter {<MessageFilter>} [-Server <ServerIdentity>] | ForEach-Object {$Temp=<Path>+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```
 
 Observe que el valor **InternetMessageID** contiene paréntesis angulares (\> y \<), que deben quitarse porque no están admitidos en los nombres de archivo.
 
 En este ejemplo se exporta una copia de todos los mensajes de remitentes en el dominio contoso.com desde todas las colas en el servidor denominado Mailbox01 al directorio local denominado D:\\Contoso Export.
 
-    Get-Message -Filter {FromAddress -like "*@contoso.com"} -Server Mailbox01 | ForEach-Object {$Temp="D:\Contoso Export\"+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```powershell
+Get-Message -Filter {FromAddress -like "*@contoso.com"} -Server Mailbox01 | ForEach-Object {$Temp="D:\Contoso Export\"+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```
 
 
 > [!NOTE]

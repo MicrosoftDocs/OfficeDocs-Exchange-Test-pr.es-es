@@ -39,7 +39,9 @@ El modificador *WhatIf* instruye al comando al que se aplica que se ejecute, per
 
 Cuando ejecuta un comando junto al modificador *WhatIf*, el modificador *WhatIf* se coloca al final del comando, como se observa en el siguiente ejemplo:
 
-    New-AcceptedDomain -Name "Contoso Domain" -DomainName "contoso.com" -WhatIf 
+```powershell
+New-AcceptedDomain -Name "Contoso Domain" -DomainName "contoso.com" -WhatIf
+```
 
 Cuando ejecuta este comando de ejemplo, el Shell devuelve el siguiente texto:
 
@@ -79,11 +81,13 @@ Get-JournalRule | Enable-JournalRule -Confirm
 
 Cuando ejecuta este comando de ejemplo, el Shell devuelve la siguiente solicitud de confirmación:
 
-    Confirm
-    Are you sure you want to perform this action?
-    Enabling journal rule "Litigation Journal Rule".
-    [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help
-    (default is "Y"):
+```powershell
+Confirm
+Are you sure you want to perform this action?
+Enabling journal rule "Litigation Journal Rule".
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help
+(default is "Y"):
+```
 
 La solicitud de confirmación ofrece las siguientes opciones:
 

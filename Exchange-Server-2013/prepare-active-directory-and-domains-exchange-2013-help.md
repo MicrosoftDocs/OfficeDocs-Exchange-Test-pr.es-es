@@ -88,8 +88,8 @@ Cuando esté listo, haga lo siguiente para ampliar el esquema de Active Director
 3.  Para extender el esquema, ejecute el comando siguiente.
     
     ```powershell
-Setup.exe /PrepareSchema /IAcceptExchangeServerLicenseTerms
-```
+    Setup.exe /PrepareSchema /IAcceptExchangeServerLicenseTerms
+    ```
 
 Cuando el programa de instalación termine de extender el esquema, deberá esperar mientras Active Directory replica los cambios a todos los controladores de dominio. Si quiere comprobar el estado de la replicación, puede usar la herramienta `repadmin`. `Repadmin` forma parte de la característica Herramientas de los Servicios de dominio de Active Directory en Windows Server 2012 R2, Windows Server 2012 y Windows Server 2008 R2. Para obtener más información sobre cómo usarla, vea [Repadmin](https://go.microsoft.com/fwlink/p/?linkid=257879).
 
@@ -125,7 +125,9 @@ Cuando esté listo, haga lo siguiente para preparar Active Directory para Exchan
 
 2.  Ejecute el comando siguiente:
     
-        Setup.exe /PrepareAD /OrganizationName:"<organization name>" /IAcceptExchangeServerLicenseTerms
+    ```powershell
+    Setup.exe /PrepareAD /OrganizationName:"<organization name>" /IAcceptExchangeServerLicenseTerms
+    ```
 
 Cuando el programa de instalación termine de preparar Active Directory para Exchange, deberá esperar mientras Active Directory replica los cambios a todos los controladores de dominio. Si quiere comprobar el estado de la replicación, puede usar la herramienta `repadmin`. `repadmin` forma parte de la característica Herramientas de los Servicios de dominio de Active Directory en Windows Server 2012 R2, Windows Server 2012 y Windows Server 2008 R2. Para obtener más información sobre cómo usarla, vea [Repadmin](https://go.microsoft.com/fwlink/p/?linkid=257879).
 
@@ -152,8 +154,8 @@ Cuando esté listo, haga lo siguiente para preparar todos los dominios en el bos
 2.  Ejecute el comando siguiente:
     
     ```powershell
-Setup.exe /PrepareAllDomains /IAcceptExchangeServerLicenseTerms
-```
+    Setup.exe /PrepareAllDomains /IAcceptExchangeServerLicenseTerms
+    ```
 
 ## Elegir los dominios de Active Directory que deben prepararse
 
@@ -179,7 +181,9 @@ Cuando esté listo, haga lo siguiente para preparar un dominio individual en el 
 
 2.  Ejecute el comando siguiente. Incluya el FQDN del dominio que desea preparar (no lo incluya si desea preparar el dominio en el que está ejecutando el comando).
     
-        Setup.exe /PrepareDomain:<FQDN of the domain you want to prepare> /IAcceptExchangeServerLicenseTerms
+    ```powershell
+    Setup.exe /PrepareDomain:<FQDN of the domain you want to prepare> /IAcceptExchangeServerLicenseTerms
+    ```
 
 3.  Repita los pasos para cada dominio de Active Directory donde desee instalar un servidor de Exchange o donde se ubicarán los usuarios habilitados para correo.
 
@@ -188,17 +192,13 @@ Cuando esté listo, haga lo siguiente para preparar un dominio individual en el 
 Tras realizar todos los pasos anteriores, puede comprobar que todas las operaciones se han realizado correctamente. Para ello, use una herramienta denominada editor de interfaces del servicio de Active Directory (Editor ADSI). El Editor ADSI forma parte de la característica Herramientas de los Servicios de dominio de Active Directory en Windows Server 2012 R2, Windows Server 2012 y Windows Server 2008 R2. Para obtener más información sobre esta herramienta, vea [ADSI Edit (adsiedit.msc)](https://go.microsoft.com/fwlink/p/?linkid=294644).
 
 
-> [!WARNING]
+> [!WARNING]  
 > Nunca cambie valores en el Editor ADSI a menos que así se le indique desde el soporte técnico de Microsoft. Si cambia estos valores, puede causar un daño irreparable en Active Directory y en la organización de Exchange.
-
-
 
 Después de que Exchange amplía el esquema de Active Directory y prepara Active Directory para Exchange, se actualizan varias propiedades para mostrar que la preparación está completa. Revise la información de la lista siguiente para asegurarse de que estas propiedades tienen los valores correctos. Cada propiedad debe coincidir con el valor en la tabla siguiente para la versión de Exchange 2013 que va a instalar.
 
   - En el contexto de nomenclatura **Esquema**, compruebe que la propiedad **rangeUpper** en **ms-Exch-Schema-Verision-Pt** tiene el valor que se muestra en la tabla de Versiones de Active Directory de Exchange 2013 para su versión de Exchange 2013.
     
-     
-
   - En el contexto de nomenclatura **Configuración**, compruebe que la propiedad **objectVersion** en el contenedor CN=\<*your organization*\>,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=\<*domain*\> tiene el valor que se muestra en la tabla de Versiones de Active Directory de Exchange 2013 para su versión de Exchange 2013.
     
      

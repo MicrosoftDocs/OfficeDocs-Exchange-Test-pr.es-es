@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar los intervalos de reintento, reenvío y expiración de mensajes'
+title: 'Configurar los intervalos de reintento, reenvío y expiración de mensajes: Exchange 2013 Help'
 TOCTitle: Configurar los intervalos de reintento, reenvío y expiración de mensajes
 ms:assetid: 5420124f-aa4c-4702-b493-40a9a7edb786
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa998043(v=EXCHG.150)
@@ -44,28 +44,34 @@ Para configurar el recuento de reintentos de problemas en cola, el intervalo de 
 1.  En una ventana del símbolo del sistema de un servidor de buzones o de un servidor de transporte perimetral, abra el archivo EdgeTransport.exe.config en el Bloc de notas ejecutando el siguiente comando:
     
     ```powershell
-Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
-```
+        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 2.  Localice las claves siguientes en la sección `<appSettings>`.
     
+    ```command&nbsp;line
         <add key="QueueGlitchRetryCount" value="<Integer>" />
         <add key="QueueGlitchRetryInterval" value="<hh:mm:ss>" />
         <add key="MailboxDeliveryQueueRetryInterval" value="<hh:mm:ss>" />
         <add key="MaxIdleTimeBeforeResubmit" value="<hh:mm:ss>" />
-    
+    ```
+
     En este ejemplo se cambia el recuento de reintentos de problemas en cola a 6, el intervalo de reintentos de problemas en cola a 30 segundos, el intervalo de reintentos en cola de entrega a los buzones a 3 minutos y el tiempo de inactividad máximo antes del intervalo de reenvío a 6 horas.
     
+    ```command&nbsp;line
         <add key="QueueGlitchRetryCount" value="6" />
         <add key="QueueGlitchRetryInterval" value="00:00:30" />
         <add key="MailboxDeliveryQueueRetryInterval" value="00:03:00" />
         <add key="MaxIdleTimeBeforeResubmit" value="6:00:00" />
+    ```
 
 3.  Cuando haya terminado, guarde y cierre el archivo EdgeTransport.exe.config.
 
 4.  Reinicie el servicio de transporte de Microsoft Exchange ejecutando el siguiente comando:
     
+    ```powershell
         net stop MSExchangeTransport && net start MSExchangeTransport
+    ```
 
 ## Configurar el número de reintentos tras error transitorio, el intervalo de reintentos tras error transitorio y el intervalo de reintentos tras error de conexión
 
@@ -87,7 +93,9 @@ El intervalo de reintento de conexión saliente tras error especifica el interva
 
 Utilice la sintaxis siguiente para configurar el número de reintentos tras error transitorio, el intervalo de reintentos tras error transitorio y el intervalo de reintentos tras error de conexión saliente en el servicio de transporte de un servidor de buzones o de un servidor de transporte perimetral.
 
+```powershell
     Set-TransportService <ServerIdentity> -TransientFailureRetryCount <Integer> -TransientFailureRetryInterval <hh:mm:ss> -OutboundConnectionFailureRetryInterval <dd.hh:mm:ss>
+```
 
 En este ejemplo se cambian los valores siguientes en el servidor de buzones denominado Mailbox01: en el servidor de transporte perimetral Exchange01.
 
@@ -98,9 +106,9 @@ En este ejemplo se cambian los valores siguientes en el servidor de buzones deno
   - El intervalo de reintentos tras error de conexión saliente se establece en 45 minutos.
 
 <!-- end list -->
-
+```powershell
     Set-TransportService Mailbox01 -TransientFailureRetryCount 8 -TransientFailureRetryInterval 00:01:00 -OutboundConnectionFailureRetryInterval 00:45:00
-
+```
 
 > [!NOTE]
 > Los parámetros <EM>TransientFailureRetryCount</EM> y <EM>TransientFailureRetryInterval</EM> también pueden utilizarse en el cmdlet <STRONG>Set-FrontEndTransportService</STRONG> para el servicio de transporte front-end en los servidores de acceso de clientes.
@@ -121,7 +129,9 @@ En este ejemplo se cambian los valores siguientes en el servidor de buzones deno
 
 Utilice la sintaxis siguiente para configurar el número de reintentos tras error transitorio, el intervalo de reintentos tras error transitorio y el intervalo de reintentos tras error de conexión saliente en el servicio de transporte de un servidor de buzones o de un servidor de transporte perimetral.
 
+```powershell
     Set-TransportService <ServerIdentity> -TransientFailureRetryCount <Integer> -TransientFailureRetryInterval <hh:mm:ss> -OutboundConnectionFailureRetryInterval <dd.hh:mm:ss>
+```
 
 En este ejemplo se cambian los valores siguientes en el servidor de buzones denominado Mailbox01: en el servidor de transporte perimetral Exchange01.
 
@@ -133,8 +143,9 @@ En este ejemplo se cambian los valores siguientes en el servidor de buzones deno
 
 <!-- end list -->
 
+```powershell
     Set-TransportService Mailbox01 -TransientFailureRetryCount 8 -TransientFailureRetryInterval 00:01:00 -OutboundConnectionFailureRetryInterval 00:45:00
-
+```
 
 > [!NOTE]
 > Los parámetros <EM>TransientFailureRetryCount</EM> y <EM>TransientFailureRetryInterval</EM> también pueden utilizarse en el cmdlet <STRONG>Set-FrontEndTransportService</STRONG> para el servicio de transporte front-end en los servidores de acceso de clientes.
@@ -148,13 +159,13 @@ De forma predeterminada, el intervalo de reintentos de envío de mensajes es de 
 Utilice la siguiente sintaxis para establecer el intervalo de reintentos de mensaje.
 
 ```powershell
-Set-TransportService <ServerIdentity> -MessageRetryInterval <dd.hh:mm:ss>
+    Set-TransportService <ServerIdentity> -MessageRetryInterval <dd.hh:mm:ss>
 ```
 
 En este ejemplo se cambia el intervalo de reintentos de mensaje a 20 minutos en el servidor de buzones denominado Mailbox01.
 
 ```powershell
-Set-TransportService Mailbox01 -MessageRetryInterval 00:20:00
+    Set-TransportService Mailbox01 -MessageRetryInterval 00:20:00
 ```
 
 ## Configurar las opciones de tiempo de espera DSN de retraso
@@ -180,31 +191,33 @@ Puede utilizar el EAC o el Shell para configurar el intervalo de espera de la no
 Utilice la siguiente sintaxis para establecer el intervalo de reintentos de mensaje.
 
 ```powershell
-Set-TransportService <ServerIdentity> -DelayNotificationTimeout <dd.hh:mm:ss>
+    Set-TransportService <ServerIdentity> -DelayNotificationTimeout <dd.hh:mm:ss>
 ```
 
 En este ejemplo se cambia el intervalo de espera de notificación de mensajes DSN de retraso a 6 horas en un servidor de buzones denominado Mailbox01.
 
 ```powershell
-Set-TransportService Mailbox01 -DelayNotificationTimeout 06:00:00
+    Set-TransportService Mailbox01 -DelayNotificationTimeout 06:00:00
 ```
 
 ## Usar el Shell para habilitar o deshabilitar el envío de notificaciones de DSN de retraso a los remitentes internos
 
 Utilice la siguiente sintaxis para configurar los ajustes de notificación de DSN de retraso.
 
+```powershell
     Set-TransportConfig -ExternalDelayDSNEnabled <$true | $false> -InternalDelayDSNEnabled <$true |$false>
+```
 
 En este ejemplo, se impide el envío de notificaciones DSN de retraso a remitentes externos.
 
 ```powershell
-Set-TransportConfig -ExternalDelayDSNEnabled $false
+    Set-TransportConfig -ExternalDelayDSNEnabled $false
 ```
 
 En este ejemplo, se impide el envío de notificaciones DSN de retraso a remitentes internos.
 
 ```powershell
-Set-TransportConfig -InternalDelayDSNEnabled $false
+    Set-TransportConfig -InternalDelayDSNEnabled $false
 ```
 
 ## Configuración del intervalo de espera hasta la expiración del mensaje
@@ -222,12 +235,11 @@ Set-TransportConfig -InternalDelayDSNEnabled $false
 Para configurar el intervalo de espera hasta la expiración del mensaje, utilice la sintaxis siguiente.
 
 ```powershell
-Set-TransportService <ServerIdentity> -MessageExpirationTimeout <dd.hh:mm:ss>
+    Set-TransportService <ServerIdentity> -MessageExpirationTimeout <dd.hh:mm:ss>
 ```
 
 En este ejemplo, se cambia el intervalo de espera hasta la expiración del mensaje a 4 días en el servidor Exchange denominado Mailbox01.
 
 ```powershell
-Set-TransportService Mailbox01 -MessageExpirationTimeout 4.00:00:00
+    Set-TransportService Mailbox01 -MessageExpirationTimeout 4.00:00:00
 ```
-

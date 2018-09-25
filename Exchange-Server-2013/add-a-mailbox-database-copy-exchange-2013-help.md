@@ -72,18 +72,20 @@ Cuando agrega una copia a la base de datos del buzón, se habilita automáticame
 En este ejemplo se agrega una copia de la base de datos DB1 al servidor de buzón de correo MBX3. El tiempo de retardo de reproducción y el tiempo de retardo de truncamiento se dejan en los valores predeterminados de cero y la preferencia de activación está configurada con un valor de 2.
 
 ```powershell
-Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -ActivationPreference 2
+    Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -ActivationPreference 2
 ```
 
 En este ejemplo se agrega una copia de la base de datos DB2 al servidor de buzón de correo MBX4. El tiempo de retardo de reproducción y el tiempo de retardo de truncamiento se dejan en los valores predeterminados de cero y la preferencia de activación está configurada con un valor de `5`. Además, la inicialización se pospone para esta copia para que se inicialice usando un servidor de origen local en vez de la copia de la base de datos activa actual, geográficamente distante de MBX4.
 
 ```powershell
-Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX4 -ActivationPreference 5 -SeedingPostponed
+    Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX4 -ActivationPreference 5 -SeedingPostponed
 ```
 
 En este ejemplo se agrega una copia de la base de datos DB3 al servidor de buzón de correo MBX5. El tiempo de retardo de reproducción se establece en 3 días, el tiempo de retardo de truncamiento se deja en los valores predeterminados de cero y la preferencia de activación está configurada con un valor de `4`.
 
+```powershell
     Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX5 -ReplayLagTime 3.00:00:00 -ActivationPreference 4
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -94,8 +96,8 @@ Para verificar que ha creado una copia de base de datos de buzones correctamente
   - En el Shell, ejecute el siguiente comando para comprobar que la copia de la base de datos de buzones se creó y es correcta.
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
-```
+        Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```
     
     Los valores de estado y de estado del índice de contenido deben ser correctos.
 

@@ -116,20 +116,26 @@ Cuando cree el archivo CSV, tenga en cuenta esto:
 
 En el siguiente ejemplo, se muestra cómo se puede rellenar un archivo CSV con los parámetros opcionales *ExceptionList* y *OutboundOnly* incluidos:
 
-    Name,InternalAddress,ExternalAddress,ExceptionList,OutboundOnly
-    "Wingtip UK",*.wingtiptoys.co.uk,tailspintoys.com,"legal.wingtiptoys.co.uk,finance.wingtiptoys.co.uk,support.wingtiptoys.co.uk",True
-    "Wingtip USA",*.wingtiptoys.com,tailspintoys.com,"legal.wingtiptoys.com,finance.wingtiptoys.com,support.wingtiptoys.com,corp.wingtiptoys.com",True
-    "Wingtip Canada",*.wingtiptoys.ca,tailspintoys.com,"legal.wingtiptoys.ca,finance.wingtiptoys.ca,support.wingtiptoys.ca",True
+```powershell
+Name,InternalAddress,ExternalAddress,ExceptionList,OutboundOnly
+"Wingtip UK",*.wingtiptoys.co.uk,tailspintoys.com,"legal.wingtiptoys.co.uk,finance.wingtiptoys.co.uk,support.wingtiptoys.co.uk",True
+"Wingtip USA",*.wingtiptoys.com,tailspintoys.com,"legal.wingtiptoys.com,finance.wingtiptoys.com,support.wingtiptoys.com,corp.wingtiptoys.com",True
+"Wingtip Canada",*.wingtiptoys.ca,tailspintoys.com,"legal.wingtiptoys.ca,finance.wingtiptoys.ca,support.wingtiptoys.ca",True
+```
 
 ## Paso 2: Importar el archivo CSV
 
 Para importar el archivo CSV, use esta sintaxis:
 
-    Import-Csv <FileNameAndPath> | ForEach {New-AddressRewriteEntry -Name $_.Name -InternalAddress $_.InternalAddress -ExternalAddress $_.ExternalAddress -OutboundOnly ([Bool]::Parse($_.OutboundOnly)) -ExceptionList $_.ExceptionList}
+```powershell
+Import-Csv <FileNameAndPath> | ForEach {New-AddressRewriteEntry -Name $_.Name -InternalAddress $_.InternalAddress -ExternalAddress $_.ExternalAddress -OutboundOnly ([Bool]::Parse($_.OutboundOnly)) -ExceptionList $_.ExceptionList}
+```
 
 En este ejemplo se importan las entradas de reescritura de direcciones de C:\\My Documents\\ImportAddressRewriteEntries.csv.
 
-    Import-Csv "C:\My Documents\ImportAddressRewriteEntries.csv" | ForEach {New-AddressRewriteEntry -Name $_.Name -InternalAddress $_.InternalAddress -ExternalAddress $_.ExternalAddress -OutboundOnly ([Bool]::Parse($_.OutboundOnly)) -ExceptionList $_.ExceptionList}
+```powershell
+Import-Csv "C:\My Documents\ImportAddressRewriteEntries.csv" | ForEach {New-AddressRewriteEntry -Name $_.Name -InternalAddress $_.InternalAddress -ExternalAddress $_.ExternalAddress -OutboundOnly ([Bool]::Parse($_.OutboundOnly)) -ExceptionList $_.ExceptionList}
+```
 
 ## ¿Cómo saber si funcionó lo que hizo en este paso?
 
@@ -138,4 +144,3 @@ Haga esto para comprobar que importó correctamente las entradas de reescritura 
 1.  Para ver todas las entradas de reescritura de direcciones, ejecute el comando `Get-AddressRewriteEntry`.
 
 2.  Para ver los detalles sobre una determinada entrada de reescritura de direcciones, ejecute el comando `Get-AddressRewriteEntry <AddressRewriteIdentity> | Format-List`
-

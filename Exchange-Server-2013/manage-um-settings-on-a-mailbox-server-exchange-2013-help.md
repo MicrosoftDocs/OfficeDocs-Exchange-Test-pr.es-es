@@ -1,5 +1,5 @@
 ﻿---
-title: 'Administrar la configuración de UM en servidor de buzones: Exchange 2013 Help'
+title: 'Administrar la configuración de mensajería unificada en un servidor de buzones: Exchange 2013 Help'
 TOCTitle: Administrar la configuración de mensajería unificada en un servidor de buzones
 ms:assetid: 6df4853d-21d2-473f-b0ca-ebc996d8794a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa998815(v=EXCHG.150)
@@ -57,11 +57,15 @@ Set-UMService -Identity MyMailboxServer -DialPlans $null
 
 En este ejemplo, se agrega el servidor de buzones denominado `MyMailboxServer` a un plan de marcado de SIP de mensajería unificada denominado `MySIPDialPlanName` y también SE establece el número máximo de llamadas de voz entrantes.
 
-    Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlanName -MaxCalls 150 
+```powershell
+Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlanName -MaxCalls 150
+```
 
 En este ejemplo, se establece el modo de inicio para un servidor de buzones en modo Dual denominado `MyUMServer`.
 
-    Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlanName -UMStartUpMode -Dual 
+```powershell
+Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlanName -UMStartUpMode -Dual 
+```
 
 ## Uso del Shell para ver las propiedades del servidor de buzones
 

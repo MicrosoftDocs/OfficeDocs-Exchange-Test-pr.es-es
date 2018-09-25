@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gestión filtro dato adjunto servidor transporte perimetral: Exchange 2013 Help'
+title: 'Administrar el filtrado de datos adjuntos en servidores de transporte perimetral: Exchange 2013 Help'
 TOCTitle: Administrar el filtrado de datos adjuntos en servidores de transporte perimetral
 ms:assetid: 2ec91cc6-6ade-48ee-88bb-66153874393d
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa997139(v=EXCHG.150)
@@ -70,8 +70,8 @@ To verify that you successfully enabled or disabled attachment filtering, do the
 1.  Run the following command:
     
     ```powershell
-Get-TransportAgent "Attachment Filtering Agent"
-```
+    Get-TransportAgent "Attachment Filtering Agent"
+    ```
 
 2.  If the value of **Enabled** is `True`, attachment filtering is enabled. If the value is `False`, attachment filtering is disabled.
 
@@ -103,7 +103,9 @@ Get-AttachmentFilteringEntry FileName:<FileName or FileNameExtension>
 
 For example, to view the file name extension entry for JPEG attachments, run the following command:
 
-    Get-AttachmentFilteringEntry FileName:*.jpg
+```powershell
+Get-AttachmentFilteringEntry FileName:*.jpg
+```
 
 ## Use the Shell to add attachment filtering entries
 
@@ -127,7 +129,9 @@ Add-AttachmentFilterEntry -Name <FileName or FileNameExtension> -Type FileName
 
 The following example filters attachments that have the .jpg file name extension.
 
-    Add-AttachmentFilterEntry -Name *.jpg -Type FileName
+```powershell
+Add-AttachmentFilterEntry -Name *.jpg -Type FileName
+```
 
 ## How do you know this worked?
 
@@ -136,8 +140,8 @@ To verify that you successfully added an attachment filtering entry, do the foll
 1.  Run the following command to verify that the filtering entry exists.
     
     ```powershell
-Get-AttachmentFilterEntry | Format-Table
-```
+    Get-AttachmentFilterEntry | Format-Table
+    ```
 
 2.  Send a test message that contains a prohibited attachment from an external mailbox to an internal recipient and verify that the message is rejected, stripped, or deleted.
 
@@ -163,7 +167,9 @@ Remove-AttachmentFilterEntry FileName:<FileName or FileNameExtension>
 
 The following example removes the file name entry for the .jpg file name extension.
 
-    Remove-AttachmentFilterEntry FileName:*.jpg
+```powershell
+Remove-AttachmentFilterEntry FileName:*.jpg
+```
 
 ## How do you know this worked?
 
@@ -172,8 +178,8 @@ To verify that you successfully removed an attachment filtering entry, do the fo
 1.  Run the following command to verify that the filtering entry was removed.
     
     ```powershell
-Get-AttachmentFilterEntry | Format-Table
-```
+    Get-AttachmentFilterEntry | Format-Table
+    ```
 
 2.  Send a test message that contains an allowed attachment from an external mailbox to an internal recipient and verify that the message was successfully delivered with the attachment.
 
@@ -189,7 +195,9 @@ Get-AttachmentFilterListConfig
 
 To configure the attachment filtering action that will be used when a prohibited attachment is detected in a message, use the following syntax:
 
-    Set-AttachmentFilterListConfig [-Action <Reject | Strip | SilentDelete>] [-RejectResponse "<Message text>"] [-AdminMessage "<Replacement file text>"] [-ExceptionConnectors <ConnectorGUID>]
+```powershell
+Set-AttachmentFilterListConfig [-Action <Reject | Strip | SilentDelete>] [-RejectResponse "<Message text>"] [-AdminMessage "<Replacement file text>"] [-ExceptionConnectors <ConnectorGUID>]
+```
 
 This example makes the following changes to the attachment filtering configuration:
 
@@ -199,7 +207,9 @@ This example makes the following changes to the attachment filtering configurati
 
 <!-- end list -->
 
-    Set-AttachmentFilterListConfig -Action Reject -RejectResponse "This message contains a prohibited attachment. Your message can't be delivered. Please resend the message without the attachment."
+```powershell
+Set-AttachmentFilterListConfig -Action Reject -RejectResponse "This message contains a prohibited attachment. Your message can't be delivered. Please resend the message without the attachment."
+```
 
 Para obtener más información, consulte [Set-AttachmentFilterListConfig](https://technet.microsoft.com/es-es/library/bb123483\(v=exchg.150\)).
 

@@ -30,7 +30,7 @@ Los mensajes que el agente de filtro de contenidos determina como correo no dese
   - Para obtener información acerca de los métodos abreviados de teclado aplicables a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > ¿Tiene algún problema? Solicite ayuda en los foros de Exchange. Visite los foros en <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, o <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>.
 
 
@@ -44,14 +44,14 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 1.  Ejecute el comando siguiente para comprobar que el agente de filtro de contenido está instalado y habilitado en el servidor de Exchange:
     
     ```powershell
-Get-TransportAgent "Content Filter Agent"
-```
+    Get-TransportAgent "Content Filter Agent"
+    ```
 
 2.  Ejecute el comando siguiente para verificar que el filtrado de contenido está habilitado:
     
     ```powershell
-Get-ContentFilterConfig | Format-List Enabled
-```
+    Get-ContentFilterConfig | Format-List Enabled
+    ```
 
 Para obtener más información, consulte [Administrar el filtrado de contenido](manage-content-filtering-exchange-2013-help.md).
 
@@ -66,7 +66,7 @@ Para crear un buzón dedicado de cuarentena de correo no deseado, siga estos pas
     Es posible aplicar distintas directivas de destinatarios, como la administración de los registros de mensajería, la cuotas de buzones y los derechos de delegación, en función de las necesidades y directivas de cumplimiento de la organización. Para obtener más información, consulte [Administración de registros de mensajes](https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/messaging-records-management).
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Si un mensaje de cuarentena se rechaza debido a una cuota de almacenamiento, el mensaje se perderá. Exchange no genera NDR para los mensajes de cuarentena porque éstos se empaquetan como NDR.
 
 
@@ -96,8 +96,8 @@ Para comprobar que ha especificado correctamente el buzón de cuarentena de corr
 1.  Ejecute el siguiente comando:
     
     ```powershell
-Get-ContentFilterConfig | Format-List QuarantineMailbox
-```
+    Get-ContentFilterConfig | Format-List QuarantineMailbox
+    ```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 
@@ -122,12 +122,9 @@ Al administrar el buzón de cuarentena de correo no deseado, siga las indicacion
   - Utilice el mismo perfil de Outlook para recuperar mensajes en cuarentena del buzón de cuarentena del correo no deseado. No se permite aplicar permisos a otro perfil de Outlook para recuperar mensajes. No se puede usar un perfil de Outlook diferente para recuperar o liberar mensajes del buzón de cuarentena del correo no deseado.
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Los NDR identificados como correo no deseado se eliminan, incluso si la clasificación del nivel de confianza de correo no deseado indica que deben ser puestos en cuarentena. Los NDR no se entregan al buzón de cuarentena de correo no deseado. Para realizar un seguimiento de esos mensajes, use el registro de agente o el registro de seguimiento de mensajes. Para obtener más información, consulte <A href="anti-spam-agent-logging-exchange-2013-help.md">Registro de agente contra correo no deseado</A>.
-
-
 
 ## Paso 6: Ajustar el umbral de cuarentena de SCL
 
 Tras configurar el umbral de cuarentena del nivel de confianza de correo no deseado, supervise periódicamente la configuración y ajústela dependiendo de las necesidades de la organización. Por ejemplo, si se filtran demasiados falsos positivos al buzón de cuarentena de correo no deseado, eleve el umbral de cuarentena del nivel de confianza de correo no deseado a un número mayor. Para obtener más información acerca de cómo ajustar umbral de cuarentena del nivel de confianza de correo no deseado, consulte[Umbral de nivel de confianza de correo no deseado](spam-confidence-level-threshold-exchange-2013-help.md) .
-

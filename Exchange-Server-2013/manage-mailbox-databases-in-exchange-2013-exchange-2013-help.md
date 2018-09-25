@@ -60,8 +60,8 @@ Para comprobar que la base de datos se creó correctamente, siga estos pasos:
   - En el Shell, ejecute el siguiente comando para comprobar que la base de datos se creó en el servidor Mailbox01.
     
     ```powershell
-Get-MailboxDatabase -Server "Mailbox01"
-```
+    Get-MailboxDatabase -Server "Mailbox01"
+    ```
 
 ## Obtener las propiedades de una base de datos de buzones
 
@@ -152,8 +152,8 @@ Para comprobar que los atributos se establecieron correctamente, siga estos paso
   - En el Shell, ejecute el siguiente comando para recuperar las propiedades de la base de datos de buzones.
     
     ```powershell
-Get-MailboxDatabase -Identity MailboxDatabase01 -Status | Format-List
-```
+    Get-MailboxDatabase -Identity MailboxDatabase01 -Status | Format-List
+    ```
 
 ## Mover una ruta de acceso a la base de datos de buzones
 
@@ -186,8 +186,8 @@ Para comprobar que la base de datos de buzones se montó correctamente, siga los
   - En el Shell, ejecute el siguiente comando para recuperar las propiedades de la base de datos de buzones para todas las bases de datos de buzones.
     
     ```powershell
-Get-MailboxDatabase -IncludePreExchange2013
-```
+    Get-MailboxDatabase -IncludePreExchange2013
+    ```
 
 ## Desmontar una base de datos de buzones
 
@@ -220,8 +220,8 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 1.  Ejecute el siguiente comando para quitar la base de datos de buzones MyDatabase.
     
     ```powershell
-Remove-MailboxDatabase -Identity "MyDatabase"
-```
+    Remove-MailboxDatabase -Identity "MyDatabase"
+    ```
 
 2.  Cuando se le pregunte si está seguro de que desea realizar la acción, escriba **Y**.
 
@@ -234,4 +234,3 @@ Para comprobar que la base de datos de buzones se eliminó correctamente, siga e
   - En el EAC, seleccione **Servidores** \> **Bases de datos**.
 
   - Compruebe que se ha eliminado la base de datos de buzones.
-
