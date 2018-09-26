@@ -53,5 +53,7 @@ Para tareas adicionales relacionadas con servidores de buzones y mensajería uni
 
 En este ejemplo, se establece el número de llamadas de voz, de fax y de Outlook Voice Access entrantes que puede aceptar un servidor de buzones denominado `MyMailboxServer1` en 50.
 
-    Set-UMService -Identity MyMailboxServer1 -MaxCallsAllowed 50
+```powershell
+Set-UMService -Identity MyMailboxServer1 -MaxCallsAllowed 50
+```
 

@@ -69,11 +69,15 @@ To learn more about Internet calendar publishing and sharing policies, see [Uso 
 
 This example disables a dedicated Internet calendar publishing sharing policy named **Internet**.
 
-    Set-SharingPolicy -Identity "Internet" -Enabled $false
+```powershell
+Set-SharingPolicy -Identity "Internet" -Enabled $false
+```
 
 This example deletes a dedicated Internet calendar publishing sharing policy named **Internet**.
 
-    Remove-SharingPolicy -Identity "Internet"
+```powershell
+Remove-SharingPolicy -Identity "Internet"
+```
 
 For detailed syntax and parameter information, see [Set-SharingPolicy](https://technet.microsoft.com/es-es/library/dd297931\(v=exchg.150\)).
 
@@ -81,7 +85,9 @@ For detailed syntax and parameter information, see [Set-SharingPolicy](https://t
 
 To verify that you have successfully removed or updated the sharing policy, run the following Shell command and verify the sharing policy information.
 
-    Get-SharingPolicy <policy name> | format-list
+```powershell
+Get-SharingPolicy <policy name> | format-list
+```
 
 If you’ve removed the dedicated Internet calendar publishing sharing policy, you won’t see the policy in the cmdlet results.
 
@@ -105,7 +111,9 @@ For detailed syntax and parameter information, see [Get-SharingPolicy](https://t
 
 This example disables Anonymous features for the Outlook Web App virtual directory on Client Access server CAS01.
 
-    Set-OwaVirtualDirectory -Identity "CAS01" - AnonymousFeaturesEnabled -$false
+```powershell
+Set-OwaVirtualDirectory -Identity "CAS01" - AnonymousFeaturesEnabled -$false
+```
 
 For detailed syntax and parameter information, see [Set-OwaVirtualDirectory](https://technet.microsoft.com/es-es/library/bb123515\(v=exchg.150\)).
 
@@ -113,7 +121,9 @@ For detailed syntax and parameter information, see [Set-OwaVirtualDirectory](htt
 
 To verify that you have successfully disabled the Anonymous features for the Outlook Web App virtual directory on the Client Access server, run the following Shell command and verify that the *AnonymousFeaturesEnabled* parameter is `$false`.
 
-    Get-OwaVirtualDirectory | format-list
+```powershell
+Get-OwaVirtualDirectory | format-list
+```
 
 For detailed syntax and parameter information, see [Get-OwaVirtualDirectory](https://technet.microsoft.com/es-es/library/aa998588\(v=exchg.150\)).
 

@@ -43,7 +43,9 @@ De forma predeterminada, este rol se puede asignar a una o varias directivas de 
 
 Si desea ver una lista de grupos de roles, usuarios o USG a los que se les asignaron este rol, use el siguiente comando.
 
-    Get-ManagementRoleAssignment -Role "<role name>"
+```powershell
+Get-ManagementRoleAssignment -Role "<role name>"
+```
 
 ## Asignaciones de roles normales y de delegación
 

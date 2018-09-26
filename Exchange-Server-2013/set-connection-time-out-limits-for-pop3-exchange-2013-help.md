@@ -1,5 +1,5 @@
 ﻿---
-title: 'Establecer límites tiempo de espera de conexión para POP3: Exchange 2013 Help'
+title: 'Establecer límites de tiempo de espera de conexión para POP3: Exchange 2013 Help'
 TOCTitle: Establecer límites de tiempo de espera de conexión para POP3
 ms:assetid: 40003115-be4e-4cf1-97b4-f5ca05b314dc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa997604(v=EXCHG.150)
@@ -61,11 +61,15 @@ Una vez definidos los límites de tiempo de espera de conexión para POP3, debe 
 
 En este ejemplo, se define el límite de tiempo de espera de conexión para conexiones inactivas autenticadas.
 
-    Set -PopSettings -Identity CAS01 -AuthenticatedConnectionTimeout TimeValue
+```powershell
+Set -PopSettings -Identity CAS01 -AuthenticatedConnectionTimeout TimeValue
+```
 
 En este ejemplo, se define el límite de tiempo de espera de conexión para conexiones inactivas no autenticadas.
 
-    Set -PopSettings -Identity CAS01 -PreAuthenticatedConnectionTimeout TimeValue
+```powershell
+Set -PopSettings -Identity CAS01 -PreAuthenticatedConnectionTimeout TimeValue
+```
 
 Una vez definidos los límites de tiempo de espera de conexión para POP3, debe reiniciar los servicios POP3 para que la configuración surta efecto. Para obtener más información acerca de cómo reiniciar los servicios POP3, consulte [Iniciar y detener los servicios POP3](start-and-stop-the-pop3-services-exchange-2013-help.md).
 
@@ -89,7 +93,9 @@ O bien
 
 1.  Ejecute el siguiente comando en el Shell.
     
-        Get-PopSettings | format-list
+    ```powershell
+    Get-PopSettings | format-list
+    ```
 
 2.  Compruebe que la configuración de la conexión sea correcta.
 

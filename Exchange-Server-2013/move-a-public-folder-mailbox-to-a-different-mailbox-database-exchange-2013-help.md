@@ -47,7 +47,9 @@ El cmdlet **New-MoveRequest** pone en cola el buzón de la carpeta pública en l
 
 En este ejemplo se inicia la solicitud de movimiento para el buzón de la carpeta pública PF\_SanFrancisco a la base de datos de buzones MBX\_DB01.
 
-    New-MoveRequest -Identity "PF_SanFrancisco" -TargetDatabase MBX_DB01
+```powershell
+New-MoveRequest -Identity "PF_SanFrancisco" -TargetDatabase MBX_DB01
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-MoveRequest](https://technet.microsoft.com/es-es/library/dd351123\(v=exchg.150\)).
 
@@ -57,19 +59,25 @@ Durante la fase final de la solicitud de movimiento, en la fase `CompletionInPro
 
 En este ejemplo se inicia la solicitud de movimiento para el buzón de la carpeta pública PF\_SanFrancisco a la base de datos de buzones MBX\_DB01 y la suspende cuando el movimiento está listo para finalizar.
 
-    New-MoveRequest -Identity "PF_SanFrancisco" -TargetDatabase MBX_DB01 -SuspendWhenReadyToComplete
+```powershell
+New-MoveRequest -Identity "PF_SanFrancisco" -TargetDatabase MBX_DB01 -SuspendWhenReadyToComplete
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-MoveRequest](https://technet.microsoft.com/es-es/library/dd351123\(v=exchg.150\)).
 
 En este ejemplo se recupera el estado del movimiento de buzones en curso para el buzón de la carpeta pública PF\_SanFrancisco.
 
-    Get-MoveRequest -Identity "PF_SanFrancisco"
+```powershell
+Get-MoveRequest -Identity "PF_SanFrancisco"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-MoveRequest](https://technet.microsoft.com/es-es/library/dd335227\(v=exchg.150\)).
 
 Cuando la solicitud de movimiento alcanza el estado de Suspendido, puede reanudar la solicitud. En este ejemplo se reanuda la solicitud de movimiento para el buzón de la carpeta pública PF\_SanFrancisco.
 
-    Resume-MoveRequest -Identity "PF_SanFrancisco"
+```powershell
+Resume-MoveRequest -Identity "PF_SanFrancisco"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Resume-MoveRequest](https://technet.microsoft.com/es-es/library/ee332320\(v=exchg.150\)).
 
@@ -77,7 +85,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para comprobar que la solicitud de movimiento se creó correctamente, ejecute el siguiente comando:
 
-    Get-MoveRequestStatistics -Identity PF_SanFrancisco | Format-List Status
+```powershell
+Get-MoveRequestStatistics -Identity PF_SanFrancisco | Format-List Status
+```
 
 Un estado de `Completed` indica que la solicitud de movimiento se realizó correctamente.
 

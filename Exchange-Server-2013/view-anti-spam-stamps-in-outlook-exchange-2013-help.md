@@ -43,9 +43,11 @@ Puede utilizar Microsoft Outlook para ver las marcas de correo electrónico no d
 
 3.  En el cuadro de diálogo **Propiedades**, vaya a la sección **Encabezados de Internet** y use la barra de desplazamiento para ver las marcas de correo electrónico no deseado, como se muestra en el siguiente ejemplo.
     
-        X-MS-Exchange-Organization-PCL:7
-        X-MS-Exchange-Organization-SCL:6
-        X-MS-Exchange-Organization-Antispam-Report: DV:3.1.3924.1409;SID:SenderIDStatus Fail;PCL:PhishingLevel SUSPICIOUS;CW:CustomList;PP:Presolved;TIME:TimeBasedFeatures
+```powershell
+X-MS-Exchange-Organization-PCL:7
+X-MS-Exchange-Organization-SCL:6
+X-MS-Exchange-Organization-Antispam-Report: DV:3.1.3924.1409;SID:SenderIDStatus Fail;PCL:PhishingLevel SUSPICIOUS;CW:CustomList;PP:Presolved;TIME:TimeBasedFeatures
+```
 
 ## Usar Outlook 2007 para ver marcas de correo no deseado
 
@@ -55,7 +57,9 @@ Puede utilizar Microsoft Outlook para ver las marcas de correo electrónico no d
 
 3.  En el cuadro de diálogo **Opciones de mensaje**, vaya a la sección **Encabezados de Internet** y use la barra de desplazamiento para ver las marcas de correo electrónico no deseado, como se muestra en el siguiente ejemplo.
     
-        X-MS-Exchange-Organization-PCL:7
-        X-MS-Exchange-Organization-SCL:6
-        X-MS-Exchange-Organization-Antispam-Report: DV:3.1.3924.1409;SID:SenderIDStatus Fail;PCL:PhishingLevel SUSPICIOUS;CW:CustomList;PP:Presolved;TIME:TimeBasedFeatures
+```powershell
+X-MS-Exchange-Organization-PCL:7
+X-MS-Exchange-Organization-SCL:6
+X-MS-Exchange-Organization-Antispam-Report: DV:3.1.3924.1409;SID:SenderIDStatus Fail;PCL:PhishingLevel SUSPICIOUS;CW:CustomList;PP:Presolved;TIME:TimeBasedFeatures
+```
 

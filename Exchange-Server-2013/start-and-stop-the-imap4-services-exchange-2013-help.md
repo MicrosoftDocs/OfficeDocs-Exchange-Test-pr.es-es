@@ -59,21 +59,29 @@ Para iniciar los servicios de IMAP4:
 
 1.  En el equipo que ejecuta el rol de servidor de acceso de clientes, desde el Shell, ejecute el siguiente comando para iniciar el servicio Microsoft Exchange IMAP4.
     
-        Start-service msExchangeIMAP4
+```powershell
+Start-service msExchangeIMAP4
+```
 
 2.  En el equipo que ejecuta el rol de servidor Buzón de correo, desde el Shell, ejecute el siguiente comando para iniciar el servicio Microsoft Exchange IMAP4 Backend.
     
-        Start-service msExchangeIMAP4BE
+```powershell
+Start-service msExchangeIMAP4BE
+```
 
 Para detener los servicios de IMAP4:
 
 1.  En el equipo que ejecuta el rol de servidor de acceso de clientes, desde el Shell, ejecute el siguiente comando para detener el servicio Microsoft Exchange IMAP4.
     
-        Stop-service msExchangeIMAP4
+```powershell
+Stop-service msExchangeIMAP4
+```
 
 2.  En el equipo que ejecuta el rol de servidor Buzón de correo, desde el Shell, ejecute el siguiente comando para detener el servicio Microsoft Exchange IMAP4 Backend.
     
-        Stop-service msExchangeIMAP4BE
+```powershell
+Stop-service msExchangeIMAP4BE
+```
 
 ## Uso del comando net start para iniciar o detener el servicio IMAP4
 
@@ -81,21 +89,29 @@ Para iniciar los servicios de IMAP4:
 
 1.  En el equipo que ejecuta el rol de servidor Acceso de clientes, en el símbolo del sistema, ejecute el siguiente comando para iniciar el servicio Microsoft Exchange IMAP4.
     
-        net start msExchangeIMAP4
+```powershell
+net start msExchangeIMAP4
+```
 
 2.  En el equipo que ejecuta el rol de servidor Buzón de correo, en el símbolo del sistema, ejecute el siguiente comando para iniciar el servicio Microsoft Exchange IMAP4 Backend.
     
-        net start msExchangeIMAP4BE
+```powershell
+net start msExchangeIMAP4BE
+```
 
 Para detener los servicios de IMAP4:
 
 1.  En el equipo que ejecuta el rol de servidor Acceso de clientes, en el símbolo del sistema, ejecute el siguiente comando para detener el servicio Microsoft Exchange IMAP4.
     
-        Net Stop MSExchangeIMAP4
+```powershell
+Net Stop MSExchangeIMAP4
+```
 
 2.  En el equipo que ejecuta el rol de servidor Buzón de correo, en el símbolo del sistema, ejecute el siguiente comando para detener el servicio Microsoft Exchange IMAP4 Backend.
     
-        Net Stop MSExchangeIMAP4BE
+```powershell
+Net Stop MSExchangeIMAP4BE
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

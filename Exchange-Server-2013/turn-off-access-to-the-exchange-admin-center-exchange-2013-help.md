@@ -1,5 +1,5 @@
 ﻿---
-title: 'Desactivar acceso al Centro de administración de Exchange: Exchange 2013 Help'
+title: 'Desactivar el acceso al Centro de administración de Exchange: Exchange 2013 Help'
 TOCTitle: Desactivar el acceso al Centro de administración de Exchange
 ms:assetid: 49f4fa77-1722-4703-81c9-8724ae0334fb
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ218639(v=EXCHG.150)
@@ -51,7 +51,9 @@ Por motivos de seguridad, puede que algunas organizaciones deseen restringir el 
 
 En este ejemplo se desactiva el acceso al Centro de administración de Exchange en el servidor CAS01.
 
-    Set-ECPVirtualDirectory -Identity "CAS01\ecp (default web site)" -AdminEnabled $false
+  ```powershell
+  Set-ECPVirtualDirectory -Identity "CAS01\ecp (default web site)" -AdminEnabled $false
+  ```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-EcpVirtualDirectory](https://technet.microsoft.com/es-es/library/dd297991\(v=exchg.150\)).
 

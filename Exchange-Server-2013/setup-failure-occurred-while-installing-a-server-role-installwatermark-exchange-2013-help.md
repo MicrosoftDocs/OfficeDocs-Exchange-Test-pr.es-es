@@ -1,5 +1,5 @@
 ﻿---
-title: 'Error de instalación al instalar un rol del servidor'
+title: 'Error de instalación al instalar un rol del servidor_InstallWatermark: Exchange 2013 Help'
 TOCTitle: Error de instalación al instalar un rol del servidor_InstallWatermark
 ms:assetid: ad89ebd5-f9bb-40c1-8811-09b145c2b341
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.installwatermark(v=EXCHG.150)
@@ -33,7 +33,9 @@ Para resolver este problema, reinstale las funciones del servidor con errores o 
 
 2.  Ejecute el comando siguiente :
     
-        Setup /roles:<Failed Server Role>
+    ```powershell
+    Setup /roles:<Failed Server Role>
+    ```
     
     Haga una selección entre una o más de las siguientes funciones en una lista separada por comas:
     

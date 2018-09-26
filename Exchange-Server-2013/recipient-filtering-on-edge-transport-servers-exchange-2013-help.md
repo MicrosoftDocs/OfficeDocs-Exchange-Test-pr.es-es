@@ -69,7 +69,9 @@ Si el retraso del tráfico de red no está configurado, el servidor Exchange dev
 
 Para configurar el retraso antes de que SMTP devuelva el error `550 5.1.1 User unknown`, deberá configurar el intervalo de retraso del tráfico de red con el parámetro *TarpitInterval* en el cmdlet **Set-ReceiveConnector**. La sintaxis es:
 
-    Set-ReceiveConnector <Receive Connector> -TarpitInterval <00:00:00 to 00:10:00>
+```powershell
+Set-ReceiveConnector <Receive Connector> -TarpitInterval <00:00:00 to 00:10:00>
+```
 
 El valor predeterminado es `00:00:05` o 5 segundos. El nombre del conector de recepción predeterminado en un servidor de transporte perimetral es `Default internal receive connector <server name>`.
 

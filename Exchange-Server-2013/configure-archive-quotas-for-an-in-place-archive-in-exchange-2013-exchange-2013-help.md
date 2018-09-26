@@ -61,7 +61,9 @@ Para obtener más información acerca de los archivos locales, consulte [Archiva
 
 En este ejemplo se establece la cuota de archivo del buzón de Chris Ashton en 10 gigabytes (GB) y, una vez alcanzado dicho límite, el usuario recibe un mensaje de advertencia que le informa de que el archivo local está lleno y ya no se podrán mover más elementos al mismo. En este ejemplo también se establece una cuota de advertencia de archivo de 9,5 GB, lo que significa que cuando se alcance esta cifra, el usuario recibirá un mensaje de advertencia que le informará de que el archivo local está prácticamente lleno.
 
-    Set-Mailbox -Identity "Chris Ashton" -ArchiveQuota 10GB -ArchiveWarningQuota 9.5GB
+```powershell
+Set-Mailbox -Identity "Chris Ashton" -ArchiveQuota 10GB -ArchiveWarningQuota 9.5GB
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-Mailbox](https://technet.microsoft.com/es-es/library/bb123981\(v=exchg.150\)).
 
@@ -73,5 +75,6 @@ Para comprobar si habilitó un archivo local para un buzón existente correctame
 
   - En el Shell, ejecute el siguiente comando para mostrar la información de cuota del archivo.
     
-        Get-Mailbox <Name> | FL Name,Archive*Quota
-
+  ```powershell
+  Get-Mailbox <Name> | FL Name,Archive*Quota
+  ```

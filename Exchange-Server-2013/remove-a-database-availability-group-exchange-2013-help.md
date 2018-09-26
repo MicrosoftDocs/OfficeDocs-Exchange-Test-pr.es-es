@@ -51,7 +51,9 @@ Quitar un grupo de disponibilidad de la base de datos (DAG) es una tarea rápida
 
 En este ejemplo, se elimina el DAG DAG1.
 
-    Remove-DatabaseAvailabilityGroup -Identity DAG1
+```powershell
+Remove-DatabaseAvailabilityGroup -Identity DAG1
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -61,7 +63,9 @@ Para comprobar que el DAG se haya eliminado correctamente, siga uno de estos pas
 
   - En el Shell, ejecute el comando siguiente para ver si el DAG todavía existe:
     
-        Get-DatabaseAvailabilityGroup <DAGName>
+    ```powershell
+    Get-DatabaseAvailabilityGroup <DAGName>
+    ```
     
     Si el DAG se eliminó correctamente, el comando anterior generará un mensaje de error que indica que no se encontró el objeto.
 

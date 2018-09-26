@@ -43,7 +43,9 @@ Para obtener más información acerca de los buzones de correo desconectados y r
 
   - Ejecute el siguiente comando para verificar que el buzón de correo deshabilitado al cual desea conectar una cuenta de usuario existe en la base de datos del buzón de correo y que no se trata de un buzón de correo eliminado temporalmente.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,Database,DisconnectReason
+    ```powershell
+    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,Database,DisconnectReason
+    ```
     
     Para poder conectar un buzón de correo deshabilitado, el buzón de correo debe existir en la base de datos de buzones de correo y el valor de la propiedad *DisconnectReason* debe ser `Disabled`. Si el buzón de correo no se ha purgado de la base de datos, el comando no devolverá ningún resultado.
 
@@ -85,15 +87,21 @@ Use el cmdlet **Connect-Mailbox** en el Shell para conectar una cuenta de usuari
 
 En este ejemplo se conecta un buzón de correo de usuario. El parámetro *Identity* especifica el buzón de correo desconectado en una base de datos de Exchange. El parámetro *User* especifica la cuenta de usuario de Active Directory que desea volver a conectar al buzón de correo.
 
-    Connect-Mailbox -Identity "Jeffrey Zeng" -Database MBXDB01 -User "Jeffrey Zeng"
+```powershell
+Connect-Mailbox -Identity "Jeffrey Zeng" -Database MBXDB01 -User "Jeffrey Zeng"
+```
 
 En este ejemplo se conecta un buzón vinculado. El parámetro *Identity* especifica el buzón de correo desconectado en una base de datos de Exchange. El parámetro *LinkedMasterAccount* especifica la cuenta de usuario de Active Directory en el bosque de cuentas al cual desea volver a conectar el buzón de correo. El parámetro *Alias* especifica el alias, que es la porción de la dirección de correo electrónico ubicada a la izquierda del símbolo (@).
 
-    Connect-Mailbox -Identity "Kai Axford" -Database MBXDB02 -LinkedDomainController FabrikamDC01 -LinkedMasterAccount kai.axford@fabrikam.com -Alias kaia
+```powershell
+Connect-Mailbox -Identity "Kai Axford" -Database MBXDB02 -LinkedDomainController FabrikamDC01 -LinkedMasterAccount kai.axford@fabrikam.com -Alias kaia
+```
 
 En este ejemplo se conecta un buzón de correo compartido.
 
-    Connect-Mailbox -Identity "Corporate Shared Mailbox" -Database "Mailbox Database 03" -User "Corporate Shared Mailbox" -Alias corpshared -Shared
+```powershell
+Connect-Mailbox -Identity "Corporate Shared Mailbox" -Database "Mailbox Database 03" -User "Corporate Shared Mailbox" -Alias corpshared -Shared
+```
 
 
 > [!NOTE]
@@ -113,7 +121,9 @@ Para comprobar si creó un buzón de correo deshabilitado conectado a una cuenta
 
   - En el Shell, ejecute el siguiente comando.
     
-        Get-User <identity>
+    ```powershell
+    Get-User <identity>
+    ```
     
     El valor **UserMailbox** de la propiedad *RecipientType* indica que la cuenta de usuario y el buzón de correo están conectados. También puede ejecutar el cmdlet **Get-Mailbox** para verificar que el buzón de correo exista.
 

@@ -74,7 +74,9 @@ En este tema se muestra cómo recuperar un servidor de Exchange 2013 perdido q
 
 6.  Desplácese a los archivos de instalación de Exchange 2013 y ejecute el siguiente comando.
     
-        Setup /m:RecoverServer /IAcceptExchangeServerLicenseTerms
+    ```powershell
+    Setup /m:RecoverServer /IAcceptExchangeServerLicenseTerms
+    ```
 
 7.  Después de completar la instalación y antes de poner al servidor recuperado en funcionamiento, vuelva a configurar cualquier parámetro personalizado que tenía el servidor y, luego, reinicie el servidor.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Probar conectividad de UM con puertas de enlace VoIP y PBX: Exchange 2013 Help'
+title: 'Probar la conectividad de Mensajería unificada con puertas de enlace VoIP y PBX: Exchange 2013 Help'
 TOCTitle: Probar la conectividad de Mensajería unificada con puertas de enlace VoIP y PBX
 ms:assetid: 2aca8631-a99a-4e29-aff0-e462385f03b2
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa996906(v=EXCHG.150)
@@ -45,15 +45,21 @@ Para obtener información sobre otras tareas de administración relacionadas con
 
 En este ejemplo, se comprueba la capacidad de la puerta de enlace IP de MU para escuchar en el puerto TCP 5060 solicitudes SIP entrantes.
 
-    Test-UMConnectivity -ListenPort 5060 -UMIPGateway MyIPGateway
+```powershell
+Test-UMConnectivity -ListenPort 5060 -UMIPGateway MyIPGateway
+```
 
 En este ejemplo, se comprueba la capacidad del servidor de buzones local para usar una conexión de TCP no segura en lugar de una conexión de TLS mutua segura para realizar una llamada a través de una puerta de enlace IP de Mensajería unificada llamada `MyUMIPGateway` con el número de teléfono 56780.
 
-    Test-UMConnectivity -UMIPGateway MyUMIPGateway -Phone 56780 -Secured $false
+```powershell
+Test-UMConnectivity -UMIPGateway MyUMIPGateway -Phone 56780 -Secured $false
+```
 
 En este ejemplo, se comprueba el número de Outlook Voice Access en un plan de marcado con el URI de SIP. Este ejemplo se puede usar en un entorno que incluya Lync Server.
 
-    Test-UMConnectivity -UMIPGateway OCSGateway1 -Phone "sip:SIPdialplan.contoso.com@contoso.com"
+```powershell
+Test-UMConnectivity -UMIPGateway OCSGateway1 -Phone "sip:SIPdialplan.contoso.com@contoso.com"
+```
 
 
 > [!NOTE]

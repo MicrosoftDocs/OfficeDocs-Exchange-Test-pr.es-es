@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar grupo disponibilidad de base de datos AutoReseed Exchange 2013 Help'
+title: 'Configurar un grupo de disponibilidad de la base de datos AutoReseed: Exchange 2013 Help'
 TOCTitle: Configurar un grupo de disponibilidad de la base de datos AutoReseed
 ms:assetid: 4a8bd779-b52a-40ed-8040-4d76eabeb41e
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ619303(v=EXCHG.150)
@@ -53,17 +53,23 @@ En el primer paso se configuran los directorios raíz para las bases de datos (*
 
 En este ejemplo, se muestra cómo configurar la ruta de acceso raíz para las bases de datos.
 
-    Set-DatabaseAvailabilityGroup DAG1 -AutoDagDatabasesRootFolderPath "C:\ExchDbs"
+```powershell
+Set-DatabaseAvailabilityGroup DAG1 -AutoDagDatabasesRootFolderPath "C:\ExchDbs"
+```
 
 En este ejemplo, se muestra cómo configurar la ruta de acceso raíz para los volúmenes de almacenamiento.
 
-    Set-DatabaseAvailabilityGroup DAG1 -AutoDagVolumesRootFolderPath "C:\ExchVols"
+```powershell
+Set-DatabaseAvailabilityGroup DAG1 -AutoDagVolumesRootFolderPath "C:\ExchVols"
+```
 
 ## ¿Cómo sabe si este paso se ha completado correctamente?
 
 Para comprobar que las rutas de acceso raíz para las bases de datos y los volúmenes se hayan configurado correctamente, ejecute el siguiente comando.
 
-    Get-DatabaseAvailabilityGroup DAG1 | Format-List *auto*
+```powershell
+Get-DatabaseAvailabilityGroup DAG1 | Format-List *auto*
+```
 
 El resultado de *AutoDagDatabasesRootFolderPath* y *AutoDagVolumesRootFolderPath* debe reflejar las rutas de acceso configuradas.
 
@@ -73,13 +79,17 @@ A continuación, configure el número de bases de datos por volumen (*AutoDagDat
 
 En este ejemplo, se muestra cómo configurar la Reinicialización automática para un DAG configurado con cuatro bases de datos por volumen.
 
-    Set-DatabaseAvailabilityGroup DAG1 -AutoDagDatabaseCopiesPerVolume 4
+```powershell
+Set-DatabaseAvailabilityGroup DAG1 -AutoDagDatabaseCopiesPerVolume 4
+```
 
 ## ¿Cómo sabe si este paso se ha completado correctamente?
 
 Para comprobar que el número de bases de datos por volumen se haya configurado correctamente, ejecute el siguiente comando.
 
-    Get-DatabaseAvailabilityGroup DAG1 | Format-List *auto*
+```powershell
+Get-DatabaseAvailabilityGroup DAG1 | Format-List *auto*
+```
 
 El resultado de *AutoDagDatabaseCopiesPerVolume* debe reflejar el valor configurado.
 
@@ -87,14 +97,18 @@ El resultado de *AutoDagDatabaseCopiesPerVolume* debe reflejar el valor configur
 
 A continuación, cree los directorios que correspondan a los directorios raíz configurados en el paso 1. En este ejemplo, se muestra cómo crear los directorios predeterminados mediante el símbolo del sistema.
 
-    md C:\ExchangeDatabases
-    md C:\ExchangeVolumes
+```powershell
+md C:\ExchangeDatabases
+md C:\ExchangeVolumes
+```
 
 ## ¿Cómo sabe si este paso se ha completado correctamente?
 
 Para comprobar que los directorios raíz para las bases de datos y los volúmenes se hayan configurado correctamente, ejecute el siguiente comando.
 
-    Dir C:\
+```powershell
+Dir C:\
+```
 
 Los directorios creados deben aparecer en la lista de salida.
 
@@ -114,23 +128,29 @@ Los nombres de las carpetas montadas pueden ser cualquier nombre de carpeta, sie
 
 Para comprobar que las carpetas de volumen se hayan montado correctamente, ejecute el siguiente comando.
 
-    Dir C:\
+```powershell
+Dir C:\
+```
 
 Los volúmenes montados deben aparecer en la lista de resultados.
 
 ## Paso 5: crear las carpetas de la base de datos
 
 A continuación, cree los directorios de base de datos en la ruta de acceso raíz C:\\ExchangeDatabases. En este ejemplo, se ilustra cómo crear directorios para una configuración de almacenamiento con cuatro bases de datos en cada volumen.
-```
+
+```powershell
     md c:\ExchangeDatabases\db001
 ```
-```
+
+```powershell
     md c:\ExchangeDatabases\db002
 ```
-```
+
+```powershell
     md c:\ExchangeDatabases\db003
 ```
-```
+
+```powershell
     md c:\ExchangeDatabases\db004
 ```
 
@@ -138,7 +158,9 @@ A continuación, cree los directorios de base de datos en la ruta de acceso raí
 
 Para comprobar que las carpetas de base de datos se hayan montado correctamente, ejecute el siguiente comando.
 
-    Dir C:\ExchangeDatabases
+```powershell
+Dir C:\ExchangeDatabases
+```
 
 Los directorios creados deben aparecer en la lista de salida.
 
@@ -146,13 +168,17 @@ Los directorios creados deben aparecer en la lista de salida.
 
 Cree puntos de montaje para las bases de datos y vincúlelos al volumen correcto. Por ejemplo, la carpeta montada para db001 debe estar en C:\\ExchangeDatabases\\db001. Para ello puede utilizar diskmgmt.msc o mountvol.exe. En este ejemplo, se muestra cómo montar db001 en C:\\ExchangeDatabases\\db001 mediante mountvol.exe.
 
-    Mountvol.exe c:\ExchangeDatabases\db001 \\?\Volume (GUID)
+```powershell
+Mountvol.exe c:\ExchangeDatabases\db001 \\?\Volume (GUID)
+```
 
 ## ¿Cómo sabe si este paso se ha completado correctamente?
 
 Para comprobar que los puntos de montaje para la base de datos se hayan creado correctamente, ejecute el siguiente comando.
 
-    Mountvol.exe C:\ExchangeDatabases\db001 /L
+```powershell
+Mountvol.exe C:\ExchangeDatabases\db001 /L
+```
 
 El volumen montado debe aparecer en la lista de puntos de montaje.
 
@@ -165,28 +191,36 @@ C:\\\<*nombreCarpetaBaseDeDatos*\>\\*nombreBaseDeDatos*\\\<*nombreBaseDeDatos*\>
 C:\\\<*nombreCarpetaBaseDeDatos*\>\\*nombreBaseDeDatos*\\\<*nombreBaseDeDatos*\>.log
 
 En este ejemplo, se muestra cómo crear directorios para cuatro bases de datos que se almacenarán en el Volumen 1:
-```
+
+```powershell
     md c:\ExchangeDatabases\db001\db001.db
 ```
-```
+
+```powershell
     md c:\ExchangeDatabases\db001\db001.log
 ```
-```
+
+```powershell
     md c:\ExchangeDatabases\db002\db002.db
 ```
-```
+
+```powershell
     md c:\ExchangeDatabases\db002\db002.log
 ```
-```
+
+```powershell
     md c:\ExchangeDatabases\db003\db003.db
 ```
-```
+
+```powershell
     md c:\ExchangeDatabases\db003\db003.log
 ```
-```
+
+```powershell
     md c:\ExchangeDatabases\db004\db004.db
 ```
-```
+
+```powershell
     md c:\ExchangeDatabases\db004\db004.log
 ```
 
@@ -196,7 +230,9 @@ Repita los comandos anteriores para las bases de datos de cada volumen.
 
 Para comprobar que la estructura de directorios de las bases de datos se haya creado correctamente, ejecute el siguiente comando.
 
-    Dir C:\ExchangeDatabases /s
+```powershell
+Dir C:\ExchangeDatabases /s
+```
 
 Los directorios creados deben aparecer en la lista de salida.
 
@@ -204,13 +240,17 @@ Los directorios creados deben aparecer en la lista de salida.
 
 Cree bases de datos con rutas de bases de datos y de registros configuradas con las carpetas adecuadas. En este ejemplo, se muestra cómo crear una base de datos almacenada en el directorio recién creado y la estructura de puntos de montaje.
 
-    New-MailboxDatabase -Name db001 -Server MBX1 -LogFolderPath C:\ExchangeDatabases\db001\db001.log -EdbFilePath C:\ExchangeDatabases\db001\db001.db\db001.edb
+```powershell
+New-MailboxDatabase -Name db001 -Server MBX1 -LogFolderPath C:\ExchangeDatabases\db001\db001.log -EdbFilePath C:\ExchangeDatabases\db001\db001.db\db001.edb
+```
 
 ## ¿Cómo sabe si este paso se ha completado correctamente?
 
 Para comprobar que las bases de datos se hayan creado correctamente en la carpeta adecuada, ejecute el siguiente comando.
 
-    Get-MailboxDatabase db001 | Format List *path*
+```powershell
+Get-MailboxDatabase db001 | Format List *path*
+```
 
 Las propiedades de la base de datos que se devuelven deben indicar que el archivo de base de datos y los archivos de registro se almacenan en las carpetas anteriores.
 
@@ -220,13 +260,17 @@ Para comprobar que haya configurado la Reinicialización automática para un DAG
 
 1.  Ejecute el siguiente comando para comprobar que el DAG está configurado correctamente.
     
-        Get-DatabaseAvailabilityGroup DAG1 | Format-List *auto*
+    ```powershell
+    Get-DatabaseAvailabilityGroup DAG1 | Format-List *auto*
+    ```
 
 2.  Ejecute el siguiente comando para comprobar que la estructura de directorios esté configurada correctamente (las rutas de acceso predeterminadas se muestran a continuación; si es necesario, sustitúyalas por las que esté usando).
-    ```
+
+    ```powershell
         Dir c:\ExchangeDatabases /s
     ```
-    ```
+
+    ```powershell
         Dir c:\ExchangeVolumes /s
     ```
 

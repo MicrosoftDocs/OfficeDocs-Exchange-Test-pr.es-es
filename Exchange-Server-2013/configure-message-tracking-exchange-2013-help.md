@@ -57,7 +57,9 @@ El seguimiento de mensajes registra la actividad de transporte SMTP de todos los
 
 Para configurar el seguimiento de mensajes, ejecute el siguiente comando:
 
-    Set-TransportService <ServerIdentity> -MessageTrackingLogEnabled <$true | $false> -MessageTrackingLogMaxAge <dd.hh:mm:ss> -MessageTrackingLogMaxDirectorySize <Size> -MessageTrackingLogMaxFileSize <Size> -MessageTrackingLogPath <LocalFilePath> -MessageTrackingLogSubjectLoggingEnabled <$true|$false>
+```powershell
+Set-TransportService <ServerIdentity> -MessageTrackingLogEnabled <$true | $false> -MessageTrackingLogMaxAge <dd.hh:mm:ss> -MessageTrackingLogMaxDirectorySize <Size> -MessageTrackingLogMaxFileSize <Size> -MessageTrackingLogPath <LocalFilePath> -MessageTrackingLogSubjectLoggingEnabled <$true|$false>
+```
 
 En este ejemplo, se establece la siguiente configuración de registro de seguimiento de mensajes en el servidor de buzones denominado Mailbox01:
 
@@ -71,7 +73,9 @@ En este ejemplo, se establece la siguiente configuración de registro de seguimi
 
 <!-- end list -->
 
-    Set-TransportService Mailbox01 -MessageTrackingLogPath "D:\Hub Message Tracking Log" -MessageTrackingLogMaxFileSize 20MB -MessageTrackingLogMaxDirectorySize 1.5GB -MessageTrackingLogMaxAge 45.00:00:00
+```powershell
+Set-TransportService Mailbox01 -MessageTrackingLogPath "D:\Hub Message Tracking Log" -MessageTrackingLogMaxFileSize 20MB -MessageTrackingLogMaxDirectorySize 1.5GB -MessageTrackingLogMaxAge 45.00:00:00
+```
 
 
 > [!NOTE]
@@ -87,11 +91,15 @@ En este ejemplo, se establece la siguiente configuración de registro de seguimi
 
 En este ejemplo se deshabilita el registro del asunto del mensaje en el registro de seguimiento de mensajes del servidor de buzones de correo Mailbox01:
 
-    Set-TransportService Mailbox01 -MessageTrackingLogSubjectLoggingEnabled $false
+```powershell
+Set-TransportService Mailbox01 -MessageTrackingLogSubjectLoggingEnabled $false
+```
 
 En este ejemplo se deshabilita el seguimiento de mensajes en el servidor de buzones de correo Mailbox01:
 
-    Set-TransportService Mailbox01 -MessageTrackingLogEnabled $false
+```powershell
+Set-TransportService Mailbox01 -MessageTrackingLogEnabled $false
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -99,7 +107,9 @@ Para comprobar si ha configurado correctamente el seguimiento de mensajes, siga 
 
 1.  En el Shell, ejecute el siguiente comando:
     
-        Get-TransportService <ServerIdentity> | Format-List MessageTrackingLog*
+    ```powershell
+    Get-TransportService <ServerIdentity> | Format-List MessageTrackingLog*
+    ```
 
 2.  Verifique que los valores mostrados son los valores que ha configurado.
 

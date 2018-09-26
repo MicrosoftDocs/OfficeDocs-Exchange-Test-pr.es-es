@@ -113,15 +113,21 @@ Los ejemplos siguientes usan el cmdlet **Get-MailboxDatabaseCopyStatus**. Cada e
 
 En este ejemplo se devuelve información de estado para todas las copias de la base de datos DB2.
 
-    Get-MailboxDatabaseCopyStatus -Identity DB2 | Format-List
+```powershell
+Get-MailboxDatabaseCopyStatus -Identity DB2 | Format-List
+```
 
 En este ejemplo se devuelve el estado de todas las copias de base de datos del servidor de buzones de correo MBX2.
 
-    Get-MailboxDatabaseCopyStatus -Server MBX2 | Format-List
+```powershell
+Get-MailboxDatabaseCopyStatus -Server MBX2 | Format-List
+```
 
 En este ejemplo se devuelve el estado de todas las copias de base de datos del servidor de buzones de correo local.
 
-    Get-MailboxDatabaseCopyStatus -Local | Format-List
+```powershell
+Get-MailboxDatabaseCopyStatus -Local | Format-List
+```
 
 Para obtener más información acerca del cmdlet **Get-MailboxDatabaseCopyStatus**, vea [Get-MailboxDatabaseCopyStatus](https://technet.microsoft.com/es-es/library/dd298044\(v=exchg.150\)).
 
@@ -225,7 +231,9 @@ El cmdlet **Test-ReplicationHealth** está diseñado para realizar una supervisi
 
 En este ejemplo se usa el cmdlet **Test-ReplicationHealth** para comprobar el mantenimiento de replicación del servidor de buzones de correo MBX1.
 
-    Test-ReplicationHealth -Identity MBX1
+```powershell
+Test-ReplicationHealth -Identity MBX1
+```
 
 ## Registro de eventos de canal Crimson
 
@@ -361,13 +369,17 @@ El script admite parámetros que permiten personalizar el comportamiento y los r
 
 En el ejemplo siguiente se recopila la métrica de todas las bases de datos que coinciden con DB\* (la búsqueda incluye un carácter comodín) en el grupo de disponibilidad de base de datos DAG1. Una vez recopilada la métrica, se genera y muestra un informe HTML.
 
-    CollectOverMetrics.ps1 -DatabaseAvailabilityGroup DAG1 -Database:"DB*" -GenerateHTMLReport -ShowHTMLReport
+```powershell
+CollectOverMetrics.ps1 -DatabaseAvailabilityGroup DAG1 -Database:"DB*" -GenerateHTMLReport -ShowHTMLReport
+```
 
 En los ejemplos siguientes se describen distintos métodos para filtrar el informe HTML de resumen. En el primero se usa el parámetro *Database* que toma una lista de nombres de bases de datos. El informe de resumen solamente contiene datos sobre estas bases de datos. En los dos ejemplos siguientes se usa la opción *ReportFilter*. En el último ejemplo se filtran todas las bases de datos predeterminadas.
 
-    CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -Database MailboxDatabase123,MailboxDatabase456
-    CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -ReportFilter { $_.DatabaseName -notlike "Mailbox Database*" }
-    CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -ReportFilter { ($_.ActiveOnStart -like "ServerXYZ*") -and ($_.ActiveOnEnd -notlike "ServerXYZ*") }
+```powershell
+CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -Database MailboxDatabase123,MailboxDatabase456
+CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -ReportFilter { $_.DatabaseName -notlike "Mailbox Database*" }
+CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -ReportFilter { ($_.ActiveOnStart -like "ServerXYZ*") -and ($_.ActiveOnEnd -notlike "ServerXYZ*") }
+```
 
 ## Script de CollectReplicationMetrics.ps1
 
@@ -448,9 +460,13 @@ El script CollectReplicationMetrics.ps1 admite parámetros que permiten personal
 
 En el ejemplo siguiente se reúnen los datos equivalentes a una hora de trabajo de todos los servidores que se encuentran en el DAG DAG1, con un muestreo basado en intervalos de un minuto y, a continuación, se genera un informe de resumen. Asimismo, se usa el parámetro *ReportPath*, que hace que el script coloque todos los archivos en el directorio actual.
 
-    CollectReplicationMetrics.ps1 -DagName DAG1 -Duration "01:00:00" -Frequency "00:01:00" -ReportPath
+```powershell
+CollectReplicationMetrics.ps1 -DagName DAG1 -Duration "01:00:00" -Frequency "00:01:00" -ReportPath
+```
 
 En el ejemplo siguiente se leen los datos de todos los archivos que coincidan con CounterData\* y se genera un informe de resumen.
 
-    CollectReplicationMetrics.ps1 -SummariseFiles (dir CounterData*) -Mode ProcessOnly -ReportPath
+```powershell
+CollectReplicationMetrics.ps1 -SummariseFiles (dir CounterData*) -Mode ProcessOnly -ReportPath
+```
 

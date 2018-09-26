@@ -57,5 +57,7 @@ Para consultar otras tareas relacionadas con la mensajería unificada y los serv
 
 En este ejemplo, se establece el puerto de escucha TCP en un servidor de acceso de clientes llamado `MyClientAccessServer` en 5566.
 
-    Set-UMCallRouterSettings -Server MyClientAccessServer -SipTCPListeningPort 5566
+```powershell
+Set-UMCallRouterSettings -Server MyClientAccessServer -SipTCPListeningPort 5566
+```
 

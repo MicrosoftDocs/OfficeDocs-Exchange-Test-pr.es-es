@@ -47,15 +47,21 @@ Para obtener información sobre otras tareas relacionadas con los servidores de 
 
 En este ejemplo, se realizan las pruebas de conectividad y funcionalidad en el servidor de buzones de correo local y, luego, se muestra la información de conectividad de voz sobre IP (VoIP).
 
-    Test-UMConnectivity
+```powershell
+Test-UMConnectivity
+```
 
 En este ejemplo, se comprueba la capacidad de un servidor de acceso de cliente local para escuchar las solicitudes SIP no cifradas entrantes en el puerto TCP 5060.
 
-    Test-UMConnectivity -ListenPort 5060
+```powershell
+Test-UMConnectivity -ListenPort 5060
+```
 
 En este ejemplo, se comprueba la capacidad de un servidor de acceso de cliente local para escuchar las solicitudes SIP cifradas entrantes en el puerto TCP 5061.
 
-    Test-UMConnectivity -ListenPort 5061
+```powershell
+Test-UMConnectivity -ListenPort 5061
+```
 
 
 > [!NOTE]

@@ -41,15 +41,21 @@ Los administradores de Microsoft Exchange Server 2013 pueden descargar manualmen
 
 Para descargar las actualizaciones del motor y de definiciones, ejecute el siguiente comando:
 
-    & $env:ExchangeInstallPath\Scripts\Update-MalwareFilteringServer.ps1 -Identity <FQDN of server>
+```powershell
+& $env:ExchangeInstallPath\Scripts\Update-MalwareFilteringServer.ps1 -Identity <FQDN of server>
+```
 
 Este ejemplo descarga manualmente las actualizaciones del motor y de definiciones en un servidor denominado mailbox01.contoso.com:
 
-    & $env:ExchangeInstallPath\Scripts\Update-MalwareFilteringServer.ps1 -Identity mailbox01.contoso.com
+```powershell
+& $env:ExchangeInstallPath\Scripts\Update-MalwareFilteringServer.ps1 -Identity mailbox01.contoso.com
+```
 
 Si quiere, puede especificar el parámetro –EngineUpdatePath, que le permite descargar actualizaciones desde un lugar que no sea el predeterminado, http://forefrontdl.microsoft.com/server/scanengineupdate. Puede ser una dirección HTTP o una ruta de acceso UNC. Si es una ruta de acceso UNC, el servicio de red debe tener acceso a la ruta. En este ejemplo, se descargan manualmente las actualizaciones de definición y de motor desde un directorio local a un servidor llamado mailbox01.contoso.com:
 
-    & $env:ExchangeInstallPath\Scripts\Update-MalwareFilteringServer.ps1 -Identity mailbox01.contoso.com -EngineUpdatePath \\Server\sharename
+```powershell
+  & $env:ExchangeInstallPath\Scripts\Update-MalwareFilteringServer.ps1 -Identity mailbox01.contoso.com -EngineUpdatePath \\Server\sharename
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

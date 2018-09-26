@@ -17,7 +17,7 @@ _**Se aplica a:** Exchange Server 2013_
 
 _**Última modificación del tema:** 2015-04-08_
 
-La información sobre correo que proporciona información acerca del tamaño de los grupos de distribución y los grupos de distribución dinámica confían en los datos de métricas de grupo. Los datos de métricas de grupo se generan en los servidores de buzones designados. Para obtener más información acerca de las métricas de grupos, consulte [Grupo métricas y sugerencias de correo electrónico](group-metrics-and-https://docs.microsoft.com/es-es/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips).
+La información sobre correo que proporciona información acerca del tamaño de los grupos de distribución y los grupos de distribución dinámica confían en los datos de métricas de grupo. Los datos de métricas de grupo se generan en los servidores de buzones designados. Para obtener más información acerca de las métricas de grupos, consulte [Grupo métricas y sugerencias de correo electrónico](group-metrics-and-mailtips-exchange-2013-help.md).
 
 Puede habilitar o deshabilitar la generación de métricas de grupo en un servidor de buzones.
 
@@ -49,11 +49,15 @@ Puede habilitar o deshabilitar la generación de métricas de grupo en un servid
 
 Para habilitar o deshabilitar la generación de métricas de grupo en un servidor de buzones, ejecute el siguiente comando:
 
-    Set-MailboxServer <ServerIdentity> -ForceGroupMetricsGeneration <$true | $false>
+```powershell
+Set-MailboxServer <ServerIdentity> -ForceGroupMetricsGeneration <$true | $false>
+```
 
 En este ejemplo se habilita la generación de métricas de grupo en el servidor de buzones denominado MBX1.
 
-    Set-MailboxServer MBX1 -ForceGroupMetricsGeneration $true
+```powershell
+Set-MailboxServer MBX1 -ForceGroupMetricsGeneration $true
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -61,7 +65,9 @@ Para verificar que ha habilitado o deshabilitado correctamente la generación de
 
 1.  Ejecute el siguiente comando:
     
-        Get-MailboxServer <ServerIdentity> | Format-List ForceGroupMetricsGeneration
+    ```powershell
+    Get-MailboxServer <ServerIdentity> | Format-List ForceGroupMetricsGeneration
+    ```
 
 2.  Compruebe que la configuración que se muestra sea la que seleccionó.
 

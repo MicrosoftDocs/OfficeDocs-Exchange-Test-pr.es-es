@@ -45,10 +45,11 @@ Para otras tareas de administración relacionadas con IRM, consulte [Procedimien
 
 En este ejemplo se crea la regla de protección de Outlook Proyecto Contoso. La regla protege los mensajes que se envían al grupo de distribución ContosoPMs con la plantilla AD RMS Business Critical.
 
-    New-OutlookProtectionRule -Name "Project Contoso" -SentTo "DL-ContosoPMs@contoso.com" -ApplyRightsProtectionTemplate "Business Critical"
+  ```powershell
+  New-OutlookProtectionRule -Name "Project Contoso" -SentTo "DL-ContosoPMs@contoso.com" -ApplyRightsProtectionTemplate "Business Critical"
+  ```
 
-
-> [!NOTE]
+> [!NOTE]    
 > Cuando usa el predicado <CODE>SentTo</CODE> para una protección de Outlook y especifica un grupo de distribución, solo los mensajes dirigidos al grupo de distribución en los campos Para, CC o CCO está protegidos por IRM. La protección IRM no se aplica a los mensajes dirigidos a miembros individuales del grupo de distribución.
 
 
@@ -66,7 +67,7 @@ Para comprobar que ha creado correctamente una regla de protección de Outlook, 
   - Use Outlook 2010 para crear un mensaje de prueba que cumpla la condición de la regla y asegúrese de que la regla se activa en el cliente.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Puede llevar tiempo que una regla de protección de Outlook esté disponible en Outlook.
 
 

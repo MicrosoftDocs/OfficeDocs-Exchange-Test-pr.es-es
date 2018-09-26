@@ -1,5 +1,5 @@
 ﻿---
-title: 'Desactivar o suspender administración registros mensajería: Exchange 2013 Help'
+title: 'Desactivar o suspender la administración de registros de mensajería: Exchange 2013 Help'
 TOCTitle: Desactivar o suspender la administración de registros de mensajería
 ms:assetid: 631191aa-3bba-4ebf-a727-c48ed2ebe176
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa998580(v=EXCHG.150)
@@ -45,9 +45,9 @@ A fin de cumplir con necesidades individuales, de TI o comerciales, es posible q
 
 Puede colocar buzones en suspensión de la retención a fin de desactivar la MRM de manera temporaria (por ejemplo, mientras los usuarios están de vacaciones). Esto suspenderá el procesamiento de directivas de retención para el buzón hasta que se deshabilite la suspensión de la retención. Esto es diferente a colocar buzones en conservación local o retención por juicio.
 
-Para obtener información detallada acerca de cómo colocar un buzón de correo en suspensión de retención, consulte [Poner un buzón en retención](https://docs.microsoft.com/es-es/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold).
+Para obtener información detallada acerca de cómo colocar un buzón de correo en suspensión de retención, consulte [Poner un buzón en retención](https://technet.microsoft.com/es-es/library/dd335168(v=exchg.150)).
 
-Para obtener más información acerca de retención local y retención por litigio, consulte [Conservación local y retención por juicio](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-and-litigation-holds).
+Para obtener más información acerca de retención local y retención por litigio, consulte [Conservación local y retención por juicio](https://technet.microsoft.com/es-es/library/ff637980(v=exchg.150)).
 
 ## Quitar etiquetas de retención de buzones de correo
 
@@ -57,9 +57,11 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 
 En este ejemplo del Shell se desvincula la etiqueta de retención Eliminar - 3 días de la directiva de retención Usuarios-corporativos.
 
-    $tags = (Get-RetentionPolicy "Corp-Users").RetentionPolicyTagLinks
-    $tags -= "Deleted Items - 3 Days"
-    Set-RetentionPolicy "Corp-Users" -RetentionPolicyTagLinks $tags
+```powershell
+$tags = (Get-RetentionPolicy "Corp-Users").RetentionPolicyTagLinks
+$tags -= "Deleted Items - 3 Days"
+Set-RetentionPolicy "Corp-Users" -RetentionPolicyTagLinks $tags
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Get-RetentionPolicy](https://technet.microsoft.com/es-es/library/dd298086\(v=exchg.150\)) y [Set-RetentionPolicy](https://technet.microsoft.com/es-es/library/dd335196\(v=exchg.150\)).
 
@@ -71,15 +73,21 @@ Es posible detener la aplicación de una directiva de retención en un buzón de
 
 En este ejemplo del Shell, se quita la directiva de retención del buzón de correo jescolar.
 
-    Set-Mailbox jpeoples -RetentionPolicy $null.
+```powershell
+Set-Mailbox jpeoples -RetentionPolicy $null.
+```
 
 En este ejemplo del Shell, se quita la directiva de retención de todos los buzones de la organización de Exchange.
 
-    Get-Mailbox -ResultSize unlimited -Filter {RetentionPolicy -ne $null} | Set-Mailbox -RetentionPolicy $null
+```powershell
+Get-Mailbox -ResultSize unlimited -Filter {RetentionPolicy -ne $null} | Set-Mailbox -RetentionPolicy $null
+```
 
 En este ejemplo del Shell, se quita la directiva de retención Finanzas-Corp de todos los usuarios de buzones que tienen la directiva aplicada.
 
-    Get-Mailbox -ResultSize unlimited -Filter {RetentionPolicy -eq "Corp-Finance"} | Set-Mailbox -RetentionPolicy $null
+```powershell
+Get-Mailbox -ResultSize unlimited -Filter {RetentionPolicy -eq "Corp-Finance"} | Set-Mailbox -RetentionPolicy $null
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Set-Mailbox](https://technet.microsoft.com/es-es/library/bb123981\(v=exchg.150\)) y [Get-Mailbox](https://technet.microsoft.com/es-es/library/bb123685\(v=exchg.150\)).
 
@@ -103,15 +111,21 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 
 Este ejemplo quita todas las etiquetas de eliminación de una organización de Exchange, excepto la etiqueta Nunca eliminar, que se utiliza en la directiva ArbitrationMailbox creada por el programa de instalación de Exchange.
 
-    Get-RetentionPolicyTag | ? {$_.RetentionAction -ne "MoveToArchive" -and $_.Name -ne "Never Delete"} | Remove-RetentionPolicyTag
+```powershell
+Get-RetentionPolicyTag | ? {$_.RetentionAction -ne "MoveToArchive" -and $_.Name -ne "Never Delete"} | Remove-RetentionPolicyTag
+```
 
 Este ejemplo quita todas las etiquetas de retención, excepto la etiqueta Nunca eliminar.
 
-    Get-RetentionPolicyTag | ? {$_.Name -ne "Never Delete"} | Remove-RetentionPolicyTag
+```powershell
+Get-RetentionPolicyTag | ? {$_.Name -ne "Never Delete"} | Remove-RetentionPolicyTag
+```
 
 Este comando quita la directiva de retención Corp-Users de una organización de Exchange.
 
-    Remove-RetentionPolicy Corp-Users
+```powershell
+Remove-RetentionPolicy Corp-Users
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte los siguientes temas:
 

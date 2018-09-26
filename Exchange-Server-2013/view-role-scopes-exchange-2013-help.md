@@ -53,11 +53,15 @@ Puede ver los detalles de una ámbito canalizando el resultado del cmdlet **Get-
 
 Para ver los detalles de un ámbito específico, utilice la sintaxis siguiente.
 
-    Get-ManagementScope <scope name> | Format-List
+```powershell
+Get-ManagementScope <scope name> | Format-List
+```
 
 En este ejemplo, se recuperan los detalles del ámbito Servidores de Seattle.
 
-    Get-ManagementScope "Seattle Servers" | Format-List
+```powershell
+Get-ManagementScope "Seattle Servers" | Format-List
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementScope](https://technet.microsoft.com/es-es/library/dd298180\(v=exchg.150\)).
 
@@ -65,7 +69,9 @@ Para obtener información más detallada acerca de la sintaxis y los parámetros
 
 En este ejemplo, se recupera una lista de ámbitos de la organización.
 
-    Get-ManagementScope
+```powershell
+Get-ManagementScope
+```
 
 Este cmdlet recupera ámbitos exclusivos y normales. Si solamente desea devolver ámbitos exclusivos o ámbitos normales, consulte la sección "Enumerar todos los ámbitos exclusivos o normales solamente", que aparece más adelante en este tema.
 
@@ -77,7 +83,9 @@ Los *ámbitos huérfanos* son ámbitos que no están asociados a ninguna asignac
 
 En este ejemplo, se recupera una lista de ámbitos huérfanos.
 
-    Get-ManagementScope -Orphan
+```powershell
+Get-ManagementScope -Orphan
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementScope](https://technet.microsoft.com/es-es/library/dd298180\(v=exchg.150\)).
 
@@ -85,15 +93,21 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 De forma predeterminada, el cmdlet **Get-ManagementScope** devuelve una lista de ámbitos que contiene los ámbitos exclusivos y normales. Si desea devolver solamente los ámbitos exclusivos o solo los ámbitos normales, utilice la sintaxis siguiente.
 
-    Get-ManagementScope -Exclusive < $true | $false >
+```powershell
+Get-ManagementScope -Exclusive < $true | $false >
+```
 
 En este ejemplo, se devuelven solamente los ámbitos exclusivos.
 
-    Get-ManagementScope -Exclusive $true
+```powershell
+Get-ManagementScope -Exclusive $true
+```
 
 En este ejemplo, se devuelve una lista de los ámbitos normales solamente.
 
-    Get-ManagementScope -Exclusive $false
+```powershell
+Get-ManagementScope -Exclusive $false
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementScope](https://technet.microsoft.com/es-es/library/dd298180\(v=exchg.150\)).
 

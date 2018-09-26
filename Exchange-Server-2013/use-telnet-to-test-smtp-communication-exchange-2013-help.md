@@ -70,10 +70,12 @@ Para conectarse a un servidor SMTP de destino mediante Telnet en el puerto 25, d
     
     El resultado del comando será similar al siguiente:
     
-        fabrikam.com mx preference=10, mail exchanger = mail1.fabrikam.com
-        fabrikam.com mx preference=20, mail exchanger = mail2.fabrikam.com
-        mail1.fabrikam.com internet address = 192.168.1.10
-        mail2 fabrikam.com internet address = 192.168.1.20
+    ```powershell
+    fabrikam.com mx preference=10, mail exchanger = mail1.fabrikam.com
+    fabrikam.com mx preference=20, mail exchanger = mail2.fabrikam.com
+    mail1.fabrikam.com internet address = 192.168.1.10
+    mail2 fabrikam.com internet address = 192.168.1.20
+    ```
     
     Puede utilizar cualquier nombre de host o dirección IP asociados a los registros MX como el servidor SMTP de destino. Un valor de preferencia inferior indica un servidor SMTP preferido. Puede utilizar varios registros MX y diferentes valores de preferencia para el equilibrio de carga y la tolerancia a errores.
 
@@ -107,7 +109,13 @@ En este ejemplo, se utilizan los siguientes valores:
 > <LI>
 > <P>Los comandos del cliente Telnet no distinguen entre mayúsculas y minúsculas. Para mayor claridad, se ponen en mayúsculas los verbos del comando SMTP.</P>
 > <LI>
-> <P>No es posible utilizar la tecla de retroceso una vez se haya conectado al servidor SMTP de destino en la sesión de Telnet. Si comete un error al escribir un comando SMTP, debe presionar la tecla ENTRAR y volver a escribir el comando. Los comandos SMTP no reconocidos o errores de sintaxis tienen como resultado un mensaje de error similar al siguiente:</P><PRE><CODE>500 5.3.3 Unrecognized command</CODE></PRE></LI></UL>
+> <P>No es posible utilizar la tecla de retroceso una vez se haya conectado al servidor SMTP de destino en la sesión de Telnet. Si comete un error al escribir un comando SMTP, debe presionar la tecla ENTRAR y volver a escribir el comando. Los comandos SMTP no reconocidos o errores de sintaxis tienen como resultado un mensaje de error similar al siguiente:</P>
+> 
+> ```powershell
+> 500 5.3.3 Unrecognized command
+> ```
+> </LI></UL>
+
 
 
 
@@ -127,7 +135,9 @@ En este ejemplo, se utilizan los siguientes valores:
 
 8.  Escriba **DATA** y, a continuación, presione ENTRAR. Recibirá una respuesta similar a la siguiente:
     
-        354 Start mail input; end with <CLRF>.<CLRF>
+      ```powershell
+      354 Start mail input; end with <CLRF>.<CLRF>
+      ```
 
 9.  Escriba**Asunto: Prueba de Contoso** y, a continuación, presione ENTRAR.
 
@@ -137,11 +147,15 @@ En este ejemplo, se utilizan los siguientes valores:
 
 12. Presione ENTRAR, escriba un punto ( **.**) y, a continuación, presione ENTRAR. Recibirá una respuesta similar a la siguiente:
     
-        250 2.6.0 <GUID> Queued mail for delivery
+      ```powershell
+      250 2.6.0 <GUID> Queued mail for delivery
+      ```
 
 13. Para desconectarse del servidor SMTP de destino, escriba **QUIT** y, a continuación, presione ENTRAR. Recibirá una respuesta similar a la siguiente:
     
-        221 2.0.0 Service closing transmission channel
+      ```powershell
+      221 2.0.0 Service closing transmission channel
+      ```
 
 14. Para cerrar la sesión de Telnet, escriba **quit** y, a continuación, presione ENTRAR.
 

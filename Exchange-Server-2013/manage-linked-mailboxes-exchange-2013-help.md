@@ -116,7 +116,9 @@ La figura siguiente ilustra la relación entre la cuenta de usuario vinculada us
 
 En este ejemplo se crea un buzón vinculado para Ayla Kol en el bosque de recursos de Exchange CONTOSO. El dominio FABRIKAM está el bosque de cuentas. La cuenta de administrador FABRIKAM\\administrador se utiliza para acceder al controlador de dominio vinculado.
 
+```powershell
     New-Mailbox -Name "Ayla Kol" -LinkedDomainController "DC1_FABRIKAM" -LinkedMasterAccount " FABRIKAM\aylak" -OrganizationalUnit Users -UserPrincipalName aylak@contoso.com -LinkedCredential:(Get-Credential FABRIKAM\administrator)
+```
 
 Para obtener información acerca de la sintaxis y los parámetros, consulte [New-Mailbox](https://technet.microsoft.com/es-es/library/aa997663\(v=exchg.150\)).
 
@@ -128,7 +130,9 @@ Para comprobar si creó un buzón vinculado correctamente, siga uno de estos pro
 
   - En el Shell, ejecute el comando siguiente para mostrar información sobre el nuevo buzón vinculado.
     
-        Get-Mailbox <Name> | FL Name,RecipientTypeDetails,IsLinked,LinkedMasterAccount
+    ```powershell
+    Get-Mailbox <Name> | FL Name,RecipientTypeDetails,IsLinked,LinkedMasterAccount
+    ```
 
 ## Cambiar las propiedades de los buzones vinculados
 
@@ -375,16 +379,20 @@ Use los cmdlets **Get-Mailbox** y **Set-Mailbox** para ver y cambiar las propied
 A continuación aparecen algunos ejemplos de cómo usar el Shell para cambiar las propiedades del buzón.
 
 En este ejemplo se utiliza el comando **Get-Mailbox** para buscar todos los buzones vinculados de la organización.
-
+```powershell
     Get-Mailbox -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'LinkedMailbox')}
+```
 
 En este ejemplo se utiliza el comando **Set-Mailbox** para limitar el número de destinatarios permitidos en las líneas Para:, Cc: y Cco: de un mensaje de correo electrónico a 500. Este límite se aplica a todos los buzones vinculados de la organización.
 
+```powershell
     Get-Mailbox -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'LinkedMailbox')} | Set-Mailbox -RecipientLimits 500
+```
 
 En este ejemplo se cambia la cuenta maestra vinculada del bosque de cuentas fabrikam.com que está asociada al buzón vinculado de un bosque de Exchange.
-
+```powershell
     Set-Mailbox -Identity "Ayla Kol" -LinkedDomainController DC1.fabrikam.com -LinkedMasterAccount "fabrikam\robinw" -LinkedCredential:(Get-Credential fabrikam\administrator)
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -393,10 +401,14 @@ Para comprobar si cambió las propiedades de un buzón vinculado correctamente, 
   - En el EAC, seleccione el buzón vinculado y haga clic en **Editar** para visualizar la propiedad o característica que ha modificado. Según la propiedad que cambie, puede aparecer en el panel Detalles del buzón seleccionado.
 
   - En el Shell, use el cmdlet **Get-Mailbox** para verificar los cambios. Una de las ventajas de usar el Shell es que puede ver diferentes propiedades para varios buzones vinculados. En el ejemplo anterior en el que se cambió el límite de destinatarios, ejecute el siguiente comando para comprar el valor nuevo.
-    
+
+    ```powershell
         Get-Mailbox -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'LinkedMailbox')} | fl Name,RecipientLimits
+    ```
     
     En el ejemplo anterior en el que se cambió la cuenta maestra vinculada, ejecute el siguiente comando para comprar el valor nuevo.
     
-        Get-Mailbox "Ayla Kol" | fl LinkedMasterAccount
+    ```powershell
+    Get-Mailbox "Ayla Kol" | fl LinkedMasterAccount
+    ```
 

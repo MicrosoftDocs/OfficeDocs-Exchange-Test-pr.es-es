@@ -59,11 +59,14 @@ De forma predeterminada, cuando se ejecuta la herramienta para la solución de p
 
 2.  En la ventana **Herramienta para la solución de problemas de Mensajería unificada de Microsoft Exchange 2010**, en el aviso, escriba lo siguiente y presione Entrar.
     
-        $cred=Get-Credential
+    ```powershell
+    $cred=Get-Credential
+    ```
 
 3.  En la ventana **Solicitud de credenciales para Windows PowerShell**, escriba el dominio\\nombre de usuario y contraseña y, luego, haga clic en **Aceptar**.
 
 4.  En la ventana **Herramienta de solución de problemas de mensajería unificada de Microsoft Exchange 2010**, especifique los parámetros necesarios del cmdlet para comprobar el flujo de llamadas. Por ejemplo:
     
-        Test-ExchangeUMCallFlow -Mode SIPClient -CallingParty tonysmith@contoso.com - CalledParty jamiestark@contoso.com NextHop ocsfe.contoso.com -Credential $cred
-
+    ```powershell
+    Test-ExchangeUMCallFlow -Mode SIPClient -CallingParty tonysmith@contoso.com - CalledParty jamiestark@contoso.com NextHop ocsfe.contoso.com -Credential $cred
+    ```

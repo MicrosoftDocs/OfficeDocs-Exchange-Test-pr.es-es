@@ -42,12 +42,16 @@ Los usuarios cuyos buzones se encuentran en 2013 de Exchange Server o Exchange S
 2.  Cree una base de datos de buzones vacía en cada servidor de carpetas públicas.
     
     Para Exchange 2010, ejecute el siguiente comando. Este comando excluye la base de datos de buzones del equilibrador de carga de aprovisionamiento de buzones. Esto impide que se agreguen nuevos buzones automáticamente a esta base de datos.
-    
-        New-MailboxDatabase -Server <PFServerName_with_CASRole> -Name <NewMDBforPFs> -IsExcludedFromProvisioning $true 
+
+    ```powershell
+    New-MailboxDatabase -Server <PFServerName_with_CASRole> -Name <NewMDBforPFs> -IsExcludedFromProvisioning $true
+    ``` 
     
     Para Exchange 2007, ejecute el siguiente comando:
     
-        New-MailboxDatabase -StorageGroup "<PFServerName>\StorageGroup>" -Name <NewMDBforPFs>
+    ```powershell
+    New-MailboxDatabase -StorageGroup "<PFServerName>\StorageGroup>" -Name <NewMDBforPFs>
+    ```
     
 
     > [!NOTE]
@@ -56,16 +60,21 @@ Los usuarios cuyos buzones se encuentran en 2013 de Exchange Server o Exchange S
 
 
 3.  Cree un buzón proxy en la nueva base de datos de buzones de correo y ocúltelo de la libreta de direcciones. La detección automática devolverá el SMTP de este buzón de correo como *DefaultPublicFolderMailbox* SMTP, de modo que al resolver este SMTP, el cliente podrá llegar al servidor Exchange heredado para el acceso a carpetas públicas.
+
+    ```powershell
+    New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
     ```
-        New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
+    
+    ```powershell
+    Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
     ```
-    ```
-        Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
-    ```
+    
     
 4.  Para Exchange 2010, habilite la detección automática para devolver los buzones proxy de carpetas públicas. Este paso no es necesario para Exchange 2007.
     
-        Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>
+    ```powershell
+    Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>
+    ```
 
 5.  Repita los pasos anteriores para cada servidor de carpetas públicas que haya en la organización.
 
@@ -75,7 +84,9 @@ El último paso de este procedimiento consiste en configurar los buzones de usua
 
 Permita que los usuarios locales de Exchange Server 2013 tengan acceso a las carpetas públicas heredadas. Para ello, apunte a todos los buzones proxy de carpetas públicas que creó en el [Step 2: Make remote public folders discoverable](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/reduce-discovery-mailbox-size). Ejecute el siguiente comando desde un servidor Exchange 2013 con CU5 o una actualización posterior.
 
-    Set-OrganizationConfig -PublicFoldersEnabled Remote -RemotePublicFolderMailboxes ProxyMailbox1,ProxyMailbox2,ProxyMailbox3
+```powershell
+Set-OrganizationConfig -PublicFoldersEnabled Remote -RemotePublicFolderMailboxes ProxyMailbox1,ProxyMailbox2,ProxyMailbox3
+```
 
 
 > [!NOTE]

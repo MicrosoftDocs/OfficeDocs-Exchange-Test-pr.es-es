@@ -53,11 +53,15 @@ Puede ver los detalles de una función específica si recupera una función espe
 
 Para ver los detalles de una función específica, utilice la siguiente sintaxis.
 
-    Get-ManagementRole <role name> | Format-List
+```powershell
+Get-ManagementRole <role name> | Format-List
+```
 
 En este ejemplo, se recuperan los detalles acerca de la función de administración de destinatarios de correo.
 
-    Get-ManagementRole "Mail Recipients" | Format-List
+```powershell
+Get-ManagementRole "Mail Recipients" | Format-List
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRole](https://technet.microsoft.com/es-es/library/dd351125\(v=exchg.150\)).
 
@@ -67,15 +71,21 @@ Puede ver una lista de todas las funciones de administración de su organizació
 
 En este ejemplo, se devuelve una lista de todas las funciones de la organización.
 
-    Get-ManagementRole
+```powershell
+Get-ManagementRole
+```
 
 Para especificar una lista de propiedades específicas de todas las funciones de su organización, puede canalizar los resultados del cmdlet **Format-Table** y especificar las propiedades que desea en la lista de resultados. Use la siguiente sintaxis.
 
-    Get-ManagementRole | Format-Table <property 1>, <property 2...>
+```powershell
+Get-ManagementRole | Format-Table <property 1>, <property 2...>
+```
 
 En este ejemplo, se devuelve una lista de todas las funciones de su organización e incluye la propiedad **Name** y toda propiedad con la palabra **Implicit** en el comienzo del nombre de la propiedad.
 
-    Get-ManagementRole | Format-Table Name, Implicit*
+```powershell
+Get-ManagementRole | Format-Table Name, Implicit*
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRole](https://technet.microsoft.com/es-es/library/dd351125\(v=exchg.150\)).
 
@@ -85,11 +95,15 @@ Puede devolver una lista de las funciones que contengan un cmdlet que especifica
 
 Para devolver una lista de funciones que contengan el cmdlet que especifica, use la siguiente sintaxis.
 
-    Get-ManagementRole -Cmdlet <cmdlet>
+```powershell
+Get-ManagementRole -Cmdlet <cmdlet>
+```
 
 En este ejemplo, se devuelve una lista de funciones que contienen el cmdlet de **New-Mailbox**.
 
-    Get-ManagementRole -Cmdlet New-Mailbox
+```powershell
+Get-ManagementRole -Cmdlet New-Mailbox
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRole](https://technet.microsoft.com/es-es/library/dd351125\(v=exchg.150\)).
 
@@ -101,15 +115,21 @@ Cuando usa el parámetro *CmdletParameters*, puede elegir incluir el parámetro 
 
 Para devolver una lista de funciones que contienen los parámetros que especifica, use la siguiente sintaxis.
 
-    Get-ManagementRole [-Cmdlet <cmdlet>] -CmdletParameters <parameter 1>, <parameter 2...>
+```powershell
+Get-ManagementRole [-Cmdlet <cmdlet>] -CmdletParameters <parameter 1>, <parameter 2...>
+```
 
 En este ejemplo, se devuelve una lista de funciones que contienen los parámetros *Database* y *Server*, independientemente de los cmdlets que existan en ellos.
 
-    Get-ManagementRole -CmdletParameters Database, Server
+```powershell
+Get-ManagementRole -CmdletParameters Database, Server
+```
 
 En este ejemplo, se devuelve una lista de funciones en la que existe el parámetro *EmailAddresses* solo en el cmdlet **Set-Mailbox**.
 
-    Get-ManagementRole -Cmdlet Set-Mailbox -CmdletParameters EmailAddresses
+```powershell
+Get-ManagementRole -Cmdlet Set-Mailbox -CmdletParameters EmailAddresses
+```
 
 Además, puede usar un carácter comodín (\*) con los parámetros *Cmdlet* o *CmdletParameters* para que coincidan parcialmente con el cmdlet y los nombres de parámetros.
 
@@ -121,11 +141,15 @@ Puede devolver una lista de las funciones basada en un tipo de función especifi
 
 Para devolver una lista de funciones que coincidan con el tipo de función que especifica, use la siguiente sintaxis.
 
-    Get-ManagementRole -RoleType <roletype>
+```powershell
+Get-ManagementRole -RoleType <roletype>
+```
 
 En este ejemplo, se devuelve una lista de funciones basadas en el tipo de función `UmMailboxes`.
 
-    Get-ManagementRole -RoleType UmMailboxes
+```powershell
+Get-ManagementRole -RoleType UmMailboxes
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRole](https://technet.microsoft.com/es-es/library/dd351125\(v=exchg.150\)).
 
@@ -135,11 +159,15 @@ Puede devolver una lista de las funciones que sean una función secundaria inmed
 
 Para devolver una lista de las funciones secundarias inmediatas a la función primaria, use la siguiente sintaxis.
 
-    Get-ManagementRole <parent role name> -GetChildren
+```powershell
+Get-ManagementRole <parent role name> -GetChildren
+```
 
 En este ejemplo, se devuelve una lista de funciones secundarias inmediatas a la función Recuperación de desastres.
 
-    Get-ManagementRole "Disaster Recovery" -GetChildren
+```powershell
+Get-ManagementRole "Disaster Recovery" -GetChildren
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRole](https://technet.microsoft.com/es-es/library/dd351125\(v=exchg.150\)).
 
@@ -149,11 +177,15 @@ Puede devolver una lista de una cadena entera de funciones desde una función pr
 
 En este ejemplo, se devuelve una lista de todas las funciones secundarias de una función primaria.
 
-    Get-ManagementRole <parent role name> -Recurse
+```powershell
+Get-ManagementRole <parent role name> -Recurse
+```
 
 En este ejemplo, se devuelven todas las funciones secundarias de la función de destinatarios de correo.
 
-    Get-ManagementRole "Mail Recipients" -Recurse
+```powershell
+Get-ManagementRole "Mail Recipients" -Recurse
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRole](https://technet.microsoft.com/es-es/library/dd351125\(v=exchg.150\)).
 

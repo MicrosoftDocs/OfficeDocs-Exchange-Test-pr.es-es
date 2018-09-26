@@ -30,7 +30,7 @@ Para obtener más información acerca de IMAP4, consulte [POP3 e IMAP4 en Exchan
   - Para obtener información acerca de los métodos abreviados de teclado aplicables a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > ¿Tiene algún problema? Solicite ayuda en los foros de Exchange. Visite los foros en <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, o <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>..
 
 
@@ -61,11 +61,15 @@ Una vez definidos los límites de tiempo de espera de conexión para IMAP4, debe
 
 En este ejemplo, se define el límite de tiempo de espera de conexión para conexiones inactivas autenticadas.
 
-    Set -ImapSettings -Identity CAS01 -AuthenticatedConnectionTimeout TimeValue
+```powershell
+Set -ImapSettings -Identity CAS01 -AuthenticatedConnectionTimeout TimeValue
+```
 
 En este ejemplo, se define el límite de tiempo de espera de conexión para conexiones inactivas no autenticadas.
 
-    Set -ImapSettings -Identity CAS01 -PreAuthenticatedConnectionTimeout TimeValue
+```powershell
+Set -ImapSettings -Identity CAS01 -PreAuthenticatedConnectionTimeout TimeValue
+```
 
 Una vez definidos los límites de tiempo de espera de conexión para IMAP4, debe reiniciar los servicios IMAP4 para que la configuración surta efecto. Para obtener más información acerca de cómo reiniciar los servicios IMAP4, consulte [Iniciar y detener los servicios IMAP4](start-and-stop-the-imap4-services-exchange-2013-help.md).
 
@@ -89,7 +93,9 @@ O bien
 
 1.  Ejecute el siguiente comando en el Shell.
     
-        Get-ImapSettings | format-list
+    ```powershell
+    Get-ImapSettings | format-list
+    ```
 
 2.  Compruebe que la configuración de la conexión sea correcta.
 
@@ -100,4 +106,3 @@ Después de establecer los límites de tiempo de espera de autenticación para I
 [Habilitar IMAP4 en Exchange 2016](enable-imap4-in-exchange-2013-exchange-2013-help.md)
 
 [Establecer los límites de conexión para IMAP4](set-connection-limits-for-imap4-exchange-2013-help.md)
-

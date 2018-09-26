@@ -67,11 +67,15 @@ A continuación, figuran los pasos para crear una función de nivel superior sin
 
 Las funciones de nivel superior sin ámbito no tienen una función principal. Debe especificar el conmutador de *UnscopedTopLevel* para crear una función sin una principal. Use la siguiente sintaxis para crear una nueva función.
 
-    New-ManagementRole <name of new role> -UnscopedTopLevel
+```powershell
+New-ManagementRole <name of new role> -UnscopedTopLevel
+```
 
 En este ejemplo, se crea la función de nivel superior sin ámbito de scripts de TI.
 
-    New-ManagementRole "IT Scripts" -UnscopedTopLevel
+```powershell
+New-ManagementRole "IT Scripts" -UnscopedTopLevel
+```
 
 Después de crearla, la función permanece vacía hasta que le agregue los scripts o los cmdlets que no son Exchange.
 
@@ -87,11 +91,15 @@ El script debe residir en el directorio `RemoteScripts` en la ruta de instalaci�
 
 Después de que copia el script en los servidores de Exchange 2013 adecuados y decide cuáles parámetros de script se deben usar, cree la entrada de función mediante la siguiente sintaxis.
 
-    Add-ManagementRoleEntry <unscoped top-level role name>\<script filename> -Parameters <parameter 1, parameter 2, parameter...> -Type Script -UnscopedTopLevel
+```powershell
+Add-ManagementRoleEntry <unscoped top-level role name>\<script filename> -Parameters <parameter 1, parameter 2, parameter...> -Type Script -UnscopedTopLevel
+```
 
 En este ejemplo, se agrega el script BulkProvisionUsers.ps1 a la función scripts de TI con los parámetros *Name* y *Location*.
 
-    Add-ManagementRoleEntry "IT Scripts\BulkProvisionUsers.ps1" -Parameters Name, Location -Type Script -UnscopedTopLevel
+```powershell
+Add-ManagementRoleEntry "IT Scripts\BulkProvisionUsers.ps1" -Parameters Name, Location -Type Script -UnscopedTopLevel
+```
 
 
 > [!NOTE]
@@ -109,11 +117,15 @@ Si agrega cmdlets que no son Exchange a la nueva función, los cmdlets se deben 
 
 Después de instalar el componente PowerShell de Windows que contiene los cmdlet en los servidores de Exchange 2013 adecuados y de decidir qué parámetros de cmdlet se deben usar, cree la entrada de función con la siguiente sintaxis.
 
-    Add-ManagementRoleEntry <unscoped top-level role name>\<cmdlet name> -PSSnapinName <snap-in name> -Parameters <parameter 1, parameter 2, parameter...> -Type Cmdlet -UnscopedTopLevel
+```powershell
+Add-ManagementRoleEntry <unscoped top-level role name>\<cmdlet name> -PSSnapinName <snap-in name> -Parameters <parameter 1, parameter 2, parameter...> -Type Cmdlet -UnscopedTopLevel
+```
 
 En este ejemplo, se agrega el cmdlet **Set-WidgetConfiguration** en el complemento Contoso.Admin.Cmdlets para la función de cmdlets de Widget con los parámetros *Database* y *Size*.
 
-    Add-ManagementRoleEntry "Widget Cmdlets\Set-WidgetConfiguration" -PSSnapinName Contoso.Admin.Cmdlets -Parameters Database, Size -Type Cmdlet -UnscopedTopLevel
+```powershell
+Add-ManagementRoleEntry "Widget Cmdlets\Set-WidgetConfiguration" -PSSnapinName Contoso.Admin.Cmdlets -Parameters Database, Size -Type Cmdlet -UnscopedTopLevel
+```
 
 
 > [!NOTE]
@@ -155,11 +167,15 @@ Las funciones secundarias sin ámbito nuevas se pueden basar en las funciones si
 
 Use la siguiente sintaxis para crear una nueva función.
 
-    New-ManagementRole -Parent <existing unscoped role to copy> -Name <name of new unscoped role>
+```powershell
+New-ManagementRole -Parent <existing unscoped role to copy> -Name <name of new unscoped role>
+```
 
 En este ejemplo, se copia la función Scripts de TI global y sus entradas de funciones de administración en la función Scripts de TI de diagnóstico.
 
-    New-ManagementRole -Parent "IT Global Scripts" -Name "Diagnostic IT Scripts"
+```powershell
+New-ManagementRole -Parent "IT Global Scripts" -Name "Diagnostic IT Scripts"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementRole](https://technet.microsoft.com/es-es/library/dd298073\(v=exchg.150\)).
 

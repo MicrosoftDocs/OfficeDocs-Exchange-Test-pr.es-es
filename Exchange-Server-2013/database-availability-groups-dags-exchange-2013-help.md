@@ -61,17 +61,21 @@ Mientras se crea, el DAG recibe un nombre único y una o varias direcciones IP e
 
 Este ejemplo muestra cómo usar el Shell para crear un DAG con un punto de acceso administrativo del clúster que tendrá tres servidores. Dos servidores (EX1 y EX2) están en la misma subred (10.0.0.0); el tercero (EX3) está en otra (192.168.0.0).
 
-    New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer EX4 -DatabaseAvailabilityGroupIPAddresses 10.0.0.5,192.168.0.5
-    Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX1
-    Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX2
-    Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX3
+```powershell
+New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer EX4 -DatabaseAvailabilityGroupIPAddresses 10.0.0.5,192.168.0.5
+Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX1
+Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX2
+Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX3
+```
 
 Los comandos para crear un DAG sin un punto de acceso administrativo del clúster son muy similares:
 
-    New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer EX4 -DatabaseAvailabilityGroupIPAddresses ([System.Net.IPAddress])::None
-    Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX1
-    Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX2
-    Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX3
+```powershell
+New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer EX4 -DatabaseAvailabilityGroupIPAddresses ([System.Net.IPAddress])::None
+Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX1
+Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX2
+Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX3
+```
 
 El clúster para DAG1 se crea al agregar EX1 al DAG. Durante la creación de clústeres, el cmdlet **Add-DatabaseAvailabilityGroupServer** recupera las direcciones IP configuradas para el DAG e ignora las que no coinciden con ninguna de las subredes halladas en EX1. En el primer ejemplo, el clúster para DAG1 se crea con la dirección IP 10.0.0.5, mientras que 192.168.0.5 no se tiene en cuenta. En el segundo ejemplo de arriba, el valor del parámetro *DatabaseAvailabilityGroupIPAddresses* indica a la tarea que cree un clúster de conmutación por error para el DAG que no tiene punto de acceso administrativo. Por tanto, el clúster se crea con un recurso de dirección IP o de nombre de red en el grupo de recursos principal del clúster.
 

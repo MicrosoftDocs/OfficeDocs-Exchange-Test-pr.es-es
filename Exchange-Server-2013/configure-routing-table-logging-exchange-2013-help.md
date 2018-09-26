@@ -45,7 +45,9 @@ El inicio de sesión de la tabla de enrutamiento hace un registro periódico de 
 
 Ejecute el siguiente comando:
 
-    Set-TransportService <ServerIdentity> -RoutingTableLogMaxAge <dd.hh:mm:ss> -RoutingTableLogMaxDirectorySize <Size>  -RoutingTableLogPath <LocalFilePath>
+```powershell
+Set-TransportService <ServerIdentity> -RoutingTableLogMaxAge <dd.hh:mm:ss> -RoutingTableLogMaxDirectorySize <Size>  -RoutingTableLogPath <LocalFilePath>
+```
 
 En este ejemplo se establece la siguiente configuración de registro de la tabla de enrutamiento en el servidor de buzones de correo llamado Mailbox01:
 
@@ -57,7 +59,9 @@ En este ejemplo se establece la siguiente configuración de registro de la tabla
 
 <!-- end list -->
 
-    Set-TransportService Mailbox01 -RoutingTableLogPath "D:\Routing Table Log" -RoutingTableLogMaxDirectorySize 70MB -RoutingTableLogMaxAge 45.00:00:00
+```powershell
+Set-TransportService Mailbox01 -RoutingTableLogPath "D:\Routing Table Log" -RoutingTableLogMaxDirectorySize 70MB -RoutingTableLogMaxAge 45.00:00:00
+```
 
 
 > [!NOTE]
@@ -71,7 +75,9 @@ Par verificar que ha configurado correctamente el registro de la tabla de enruta
 
 1.  En el Shell, ejecute el siguiente comando:
     
-        Get-TransportService <ServerIdentity> | Format-List RoutingTableLog*
+```powershell
+Get-TransportService <ServerIdentity> | Format-List RoutingTableLog*
+```
 
 2.  Verifique que los valores mostrados son los valores que ha configurado.
 
@@ -79,21 +85,29 @@ Par verificar que ha configurado correctamente el registro de la tabla de enruta
 
 1.  En una ventana del Símbolo del sistema, abra el archivo de configuración de aplicación EdgeTransport.exe.config en el Bloc de notas mediante el comando siguiente:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 2.  Modifique la clave siguiente en la sección `<appSettings>`.
     
-        <add key="RoutingConfigReloadInterval" value="<hh:mm:ss>" />
+```powershell
+<add key="RoutingConfigReloadInterval" value="<hh:mm:ss>" />
+```
     
-    Por ejemplo, para cambiar el intervalo de recálculo automático de la tabla de enrutamiento a 10 horas, use el valor siguiente:
+Por ejemplo, para cambiar el intervalo de recálculo automático de la tabla de enrutamiento a 10 horas, use el valor siguiente:
     
-        <add key="RoutingConfigReloadInterval" value="10:00:00" />
+```powershell
+<add key="RoutingConfigReloadInterval" value="10:00:00" />
+```
 
 3.  Cuando haya terminado, guarde y cierre el archivo EdgeTransport.exe.config.
 
 4.  Reinicie el servicio de transporte de Microsoft Exchange ejecutando el siguiente comando:
     
-        net stop MSExchangeTransport && net start MSExchangeTransport
+```powershell
+net stop MSExchangeTransport && net start MSExchangeTransport
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

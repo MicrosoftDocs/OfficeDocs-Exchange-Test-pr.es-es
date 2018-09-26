@@ -49,7 +49,9 @@ Para ver tareas de administración adicionales relacionadas con la Configuració
 
 En este ejemplo, se habilita el descifrado de informes de diarios para la organización de Exchange.
 
-    Set-IRMConfiguration -JournalReportDecryptionEnabled $true
+```powershell
+Set-IRMConfiguration -JournalReportDecryptionEnabled $true
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-IRMConfiguration](https://technet.microsoft.com/es-es/library/dd979792\(v=exchg.150\)).
 
@@ -57,7 +59,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 En este ejemplo, se deshabilita el descifrado de informes de diarios para la organización de Exchange.
 
-    Set-IRMConfiguration -JournalReportDecryptionEnabled $false
+```powershell
+Set-IRMConfiguration -JournalReportDecryptionEnabled $false
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-IRMConfiguration](https://technet.microsoft.com/es-es/library/dd979792\(v=exchg.150\)).
 

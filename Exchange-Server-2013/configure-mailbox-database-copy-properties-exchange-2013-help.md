@@ -28,7 +28,7 @@ Cada copia de base de datos de buzones tiene sus propiedades, configurables por 
   - Para obtener información acerca de los métodos abreviados de teclado aplicables a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > ¿Tiene algún problema? Solicite ayuda en los foros de Exchange. Visite los foros en <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, o <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>..
 
 
@@ -73,11 +73,15 @@ Cada copia de base de datos de buzones tiene sus propiedades, configurables por 
 
 En este ejemplo se configura una copia de base de datos de buzones con un número de la preferencia de activación de 3.
 
-    Set-MailboxDatabaseCopy -Identity DB3\EX3 -ActivationPreference 3
+```powershell
+Set-MailboxDatabaseCopy -Identity DB3\EX3 -ActivationPreference 3
+```
 
 En este ejemplo se configura una copia de la base de datos DB1 que se hospeda en Server1 con tiempos de retardo de reproducción y de retardo de truncamiento de 1 día y un número de preferencia de activación de 2.
 
-    Set-MailboxDatabaseCopy -Identity DB1\Server1 -ReplayLagTime 1.0:0:0 -TruncationLagTime 1.0:0:0 -ActivationPreference 2
+```PowerShell
+Set-MailboxDatabaseCopy -Identity DB1\Server1 -ReplayLagTime 1.0:0:0 -TruncationLagTime 1.0:0:0 -ActivationPreference 2
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -87,7 +91,9 @@ Para comprobar que la copia de la base de datos de buzones se configuró correct
 
   - En el Shell, ejecute el siguiente comando para mostrar la información de configuración de una copia de base de datos.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```powershell
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```
 
 ## Más información
 

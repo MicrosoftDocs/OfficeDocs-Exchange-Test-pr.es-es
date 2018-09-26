@@ -1,5 +1,5 @@
 ﻿---
-title: 'Controlar distribución automática buzones mediante ámbitos base datos'
+title: 'Controlar la distribución automática de buzones mediante los ámbitos de base de datos: Exchange 2013 Help'
 TOCTitle: Controlar la distribución automática de buzones mediante los ámbitos de base de datos
 ms:assetid: 8eaff177-2251-4c8b-8570-c91a77d0a6fc
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ff628332(v=EXCHG.150)
@@ -63,11 +63,15 @@ En este paso, decida qué bases de datos desea incluir en el ámbito de base de 
 
 Use una lista de base de datos si desea definir una lista estática de las bases de datos del buzón que se deben incluir en este ámbito. Use la sintaxis siguiente para crear un ámbito basado en listas de bases de datos.
 
-    New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```
 
 En este ejemplo se crea un ámbito que se aplica solo a las bases de datos Database 1, Database 2 y Database 3.
 
-    New-ManagementScope -Name "Accounting databases" -DatabaseList "Database 1", "Database 2", "Database 3"
+```powershell
+New-ManagementScope -Name "Accounting databases" -DatabaseList "Database 1", "Database 2", "Database 3"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementScope](https://technet.microsoft.com/es-es/library/dd335137\(v=exchg.150\)).
 
@@ -79,11 +83,15 @@ Para obtener una lista de propiedades de base de datos que se pueden filtrar, co
 
 Use la sintaxis siguiente para crear un ámbito del filtro de bases de datos.
 
-    New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```
 
 En este ejemplo se crea un ámbito que incluye todas las bases de datos que contienen la cadena "ACCT" en la propiedad **Name** de la base de datos.
 
-    New-ManagementScope -Name "Accounting Databases" -DatabaseRestrictionFilter { Name -Like '*ACCT*' }
+```powershell
+New-ManagementScope -Name "Accounting Databases" -DatabaseRestrictionFilter { Name -Like '*ACCT*' }
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementScope](https://technet.microsoft.com/es-es/library/dd335137\(v=exchg.150\)).
 
@@ -101,12 +109,16 @@ Use este procedimiento si recién creó un grupo de roles y necesita agregarle r
 
 Use la siguiente sintaxis para crear una asignación de roles entre el rol de administración que desea asignar y el nuevo grupo de roles con el nuevo ámbito de base de datos.
 
-    New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -CustomConfigWriteScope <database scope name>
+```powershell
+New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -CustomConfigWriteScope <database scope name>
+```
 
 Este ejemplo crea una asignación de roles entre los roles destinatarios de correo y creación del destinatario de correo y el grupo de roles administradores contables, usando el ámbito de base de datos Bases de datos contables.
 
-    New-ManagementRoleAssignment -SecurityGroup "Accounting Administrators" -Role "Mail Recipients" -CustomConfigWriteScope "Accounting Databases"
-    New-ManagementRoleAssignment -SecurityGroup "Accounting Administrators" -Role "Mail Recipient Creation" -CustomConfigWriteScope "Accounting Databases"
+```powershell
+New-ManagementRoleAssignment -SecurityGroup "Accounting Administrators" -Role "Mail Recipients" -CustomConfigWriteScope "Accounting Databases"
+New-ManagementRoleAssignment -SecurityGroup "Accounting Administrators" -Role "Mail Recipient Creation" -CustomConfigWriteScope "Accounting Databases"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd335193\(v=exchg.150\)).
 
@@ -118,12 +130,16 @@ Este procedimiento utiliza la canalización. Para obtener más información, con
 
 Use la siguiente sintaxis para modificar una asignación de roles entre el rol de administración en la que desea aplicar el ámbito de base de datos y el grupo de roles existentes.
 
-    Get-ManagementRoleAssignment -RoleAssignee <role group name> -Role <role name> | Set-ManagementRoleAssignment -CustomConfigWriteScope <database scope name>
+```powershell
+Get-ManagementRoleAssignment -RoleAssignee <role group name> -Role <role name> | Set-ManagementRoleAssignment -CustomConfigWriteScope <database scope name>
+```
 
 Este ejemplo agrega el ámbito de base de datos Bases de datos contables a los roles destinatarios de correo y creación de destinatario de correo asignadas al grupo de roles administradores contables.
 
-    Get-ManagementRoleAssignment -RoleAssignee "Accounting Administrators" -Role "Mail Recipients" | Set-ManagementRoleAssignment -CustomConfigWriteScope "Accounting Databases"
-    Get-ManagementRoleAssignment -RoleAssignee "Accounting Administrators" -Role "Mail Recipient Creation" | Set-ManagementRoleAssignment -CustomConfigWriteScope "Accounting Databases"
+```powershell
+Get-ManagementRoleAssignment -RoleAssignee "Accounting Administrators" -Role "Mail Recipients" | Set-ManagementRoleAssignment -CustomConfigWriteScope "Accounting Databases"
+Get-ManagementRoleAssignment -RoleAssignee "Accounting Administrators" -Role "Mail Recipient Creation" | Set-ManagementRoleAssignment -CustomConfigWriteScope "Accounting Databases"
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd351024\(v=exchg.150\)) o [Set-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd335173\(v=exchg.150\)).
 

@@ -51,15 +51,21 @@ Las asignaciones de roles están habilitadas de forma predeterminada, lo que imp
 
 Para habilitar una asignación de roles, utilice la sintaxis siguiente.
 
-    Set-ManagementRoleAssignment <role assignment> -Enabled $true
+```powershell
+Set-ManagementRoleAssignment <role assignment> -Enabled $true
+```
 
 Para deshabilitar una asignación de roles, utilice la sintaxis siguiente.
 
-    Set-ManagementRoleAssignment <role assignment> -Enabled $false
+```powershell
+Set-ManagementRoleAssignment <role assignment> -Enabled $false
+```
 
 En este ejemplo, se deshabilita la asignación de roles Asignación del Servicio de asistencia.
 
-    Set-ManagementRoleAssignment "Help Desk Assignment" -Enabled $false
+```powershell
+Set-ManagementRoleAssignment "Help Desk Assignment" -Enabled $false
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Set-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd335173\(v=exchg.150\)).
 
@@ -79,11 +85,15 @@ Puede modificar o agregar un ámbito relativo predefinido en una asignación de 
 
 Para modificar o agregar un ámbito predefinido en una asignación de roles, utilice la sintaxis siguiente.
 
-    Set-ManagementRoleAssignment <assignment name> -RecipientRelativeWriteScope < MyDistributionGroups | Organization | Self >
+```powershell
+Set-ManagementRoleAssignment <assignment name> -RecipientRelativeWriteScope < MyDistributionGroups | Organization | Self >
+```
 
 En este ejemplo, se modifica el ámbito predefinido en la asignación de roles Asignación de Juan a MyDistributionGroups.
 
-    Set-ManagementRoleAssignment "John's Assignment" - RecipientRelativeWriteScope MyDistributionGroups
+```powershell
+Set-ManagementRoleAssignment "John's Assignment" - RecipientRelativeWriteScope MyDistributionGroups
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Set-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd335173\(v=exchg.150\)).
 
@@ -93,11 +103,15 @@ Puede especificar un nuevo ámbito basado en filtro de destinatarios o modificar
 
 Para especificar un nuevo ámbito basado en filtro de destinatarios o reemplazar uno existente, utilice la sintaxis siguiente.
 
-    Set-ManagementRoleAssignment <assignment name> -CustomRecipientWriteScope <role scope name>
+```powershell
+Set-ManagementRoleAssignment <assignment name> -CustomRecipientWriteScope <role scope name>
+```
 
 En este ejemplo, se agrega el ámbito basado en filtro de destinatarios a Destinatarios de Redmond o se lo modifica.
 
-    Set-ManagementRoleAssignment "Redmond Recipient Administrators Assignment" -CustomRecipientWriteScope "Redmond Recipients"
+```powershell
+Set-ManagementRoleAssignment "Redmond Recipient Administrators Assignment" -CustomRecipientWriteScope "Redmond Recipients"
+```
 
 Si desea conservar el mismo ámbito basado en filtro de destinatarios aplicado a la asignación de roles, pero desea modificar el filtro de destinatarios usado para que coincida con los objetos de destinatarios, debe modificar el filtro de destinatarios en el ámbito propiamente dicho. Para obtener más información acerca de cómo modificar los ámbitos, consulte [Cambiar el ámbito de una función](change-a-role-scope-exchange-2013-help.md).
 
@@ -109,11 +123,15 @@ Puede especificar un nuevo ámbito de configuración basado en lista o filtro de
 
 Para especificar un nuevo ámbito de configuración o reemplazar uno existente, utilice la sintaxis siguiente.
 
-    Set-ManagementRoleAssignment <assignment name> -CustomConfigWriteScope <role scope name>
+```powershell
+Set-ManagementRoleAssignment <assignment name> -CustomConfigWriteScope <role scope name>
+```
 
 En este ejemplo, se agrega el ámbito de configuración a Servidores de Redmond o se lo modifica.
 
-    Set-ManagementRoleAssignment "Redmond Administrators Assignment" -CustomConfigWriteScope "Redmond Servers"
+```powershell
+Set-ManagementRoleAssignment "Redmond Administrators Assignment" -CustomConfigWriteScope "Redmond Servers"
+```
 
 Si desea conservar el mismo ámbito de configuración aplicado a la asignación de roles, pero desea modificar la lista de servidores o el filtro de servidores del ámbito, debe modificar el ámbito de configuración propiamente dicho. Para obtener más información acerca de cómo modificar los ámbitos, consulte [Cambiar el ámbito de una función](change-a-role-scope-exchange-2013-help.md).
 
@@ -125,11 +143,15 @@ Puede especificar un nuevo ámbito de configuración basado en lista o filtro de
 
 Para especificar un nuevo ámbito de configuración o reemplazar uno existente, utilice la sintaxis siguiente.
 
-    Set-ManagementRoleAssignment <assignment name> -CustomConfigWriteScope <role scope name>
+```powershell
+Set-ManagementRoleAssignment <assignment name> -CustomConfigWriteScope <role scope name>
+```
 
 En este ejemplo, se agrega o se cambia el ámbito de configuración a bases de datos de Redmond.
 
-    Set-ManagementRoleAssignment "Redmond Database Admins" -CustomConfigWriteScope "Redmond Databases"
+```powershell
+Set-ManagementRoleAssignment "Redmond Database Admins" -CustomConfigWriteScope "Redmond Databases"
+```
 
 Si desea conservar el mismo ámbito de configuración aplicado a la asignación de roles, pero desea cambiar la lista de servidores o el filtro de base de datos del ámbito, debe cambiar el ámbito de configuración. Para obtener más información acerca de cómo modificar los ámbitos, consulte [Cambiar el ámbito de una función](change-a-role-scope-exchange-2013-help.md).
 
@@ -141,11 +163,15 @@ Puede agregar una nueva unidad organizativa (UO) o cambiar una UO ya aplicada a 
 
 Para modificar o agregar una nueva OU en una asignación de roles, utilice la sintaxis siguiente.
 
-    Set-ManagementRoleAssignment <assignment name> -RecipientOrganizationalUnitScope <OU>
+```powershell
+Set-ManagementRoleAssignment <assignment name> -RecipientOrganizationalUnitScope <OU>
+```
 
 En este ejemplo, se agrega la OU Ingeniería\\Usuarios en el dominio contoso.com a la asignación de roles Servicio de asistencia de ingeniería.
 
-    Set-ManagementRoleAssignment "Engineering Help Desk" -RecipientOrganizationalUnitScope contoso.com/Engineering/Users
+```powershell
+Set-ManagementRoleAssignment "Engineering Help Desk" -RecipientOrganizationalUnitScope contoso.com/Engineering/Users
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Set-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd335173\(v=exchg.150\)).
 
@@ -161,7 +187,9 @@ Al igual que ocurre con los ámbitos normales de destinatarios y configuración,
 
 En este ejemplo, se modifica un ámbito de escritura exclusivo de destinatarios.
 
-    Set-ManagementRoleAssignment "Exclusive Executive Users" -ExclusiveRecipientWriteScope "Exclusive Executives"
+```powershell
+Set-ManagementRoleAssignment "Exclusive Executive Users" -ExclusiveRecipientWriteScope "Exclusive Executives"
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Set-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd335173\(v=exchg.150\)).
 

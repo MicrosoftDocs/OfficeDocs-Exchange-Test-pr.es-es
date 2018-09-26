@@ -41,13 +41,17 @@ Para obtener más información sobre los buzones de correo eliminados temporalme
 
   - Ejecute el siguiente comando para comprobar que el buzón de correo eliminado temporalmente al que desea conectar una cuenta de usuario aún exista en la base de datos de buzones de correo y no sea un buzón de correo deshabilitado.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,DisconnectReason,DisconnectDate
+    ```powershell
+    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,DisconnectReason,DisconnectDate
+    ```
     
     El buzón de correo eliminado temporalmente debe existir en la base de datos de buzones de correo, y el valor para la propiedad *DisconnectReason* debe ser `SoftDeleted`. Si el buzón de correo se purgó de la base de datos, el comando no devolverá ningún resultado.
     
     De manera alternativa, ejecute el siguiente comando para ver todos los buzones de correo eliminados temporalmente en su organización.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "SoftDeleted" } | fl DisplayName,DisconnectReason,DisconnectDate
+    ```powershell
+    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "SoftDeleted" } | fl DisplayName,DisconnectReason,DisconnectDate
+    ```
 
   - Para obtener información acerca de los métodos abreviados de teclado aplicables a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -61,15 +65,21 @@ Después de que un buzón de correo eliminado temporalmente se restaura, el buz�
 
 A fin de crear una solicitud de restauración de un buzón de correo, debe usar el nombre para mostrar, el GUID del buzón de correo o el nombre distintivo (DN) heredado del buzón de correo eliminado temporalmente. Use el cmdlet **Get-MailboxStatistics** para ver los valores de las propiedades **DisplayName**, **MailboxGuid** y **LegacyDN** del buzón de correo eliminado temporalmente que desea restaurar. Por ejemplo, ejecute el siguiente comando para ver esta información para todos los buzones de correo eliminados temporalmente y deshabilitados en su organización.
 
-    Get-MailboxDatabase | Get-MailboxStatistics | Where {$_.DisconnectReason -eq "SoftDeleted"} | fl DisplayName,MailboxGuid,LegacyDN,Database
+```powershell
+Get-MailboxDatabase | Get-MailboxStatistics | Where {$_.DisconnectReason -eq "SoftDeleted"} | fl DisplayName,MailboxGuid,LegacyDN,Database
+```
 
 En este ejemplo, se restaura un buzón de correo eliminado temporalmente, que se identifica mediante el nombre para mostrar en el parámetro *SourceStoreMailbox* y está ubicado en la base de datos de buzones de correo MBXDB01 o el buzón de correo de destino denominado Debra Garcia. El parámetro *AllowLegacyDNMismatch* se usa para que el buzón de correo de origen pueda restaurarse a un buzón de correo que no tenga el mismo valor de DN heredado que el buzón de correo eliminado temporalmente.
 
-    New-MailboxRestoreRequest -SourceStoreMailbox "Debra Garcia" -SourceDatabase MBXDB01 -TargetMailbox "Debra Garcia" -AllowLegacyDNMismatch
+```powershell
+New-MailboxRestoreRequest -SourceStoreMailbox "Debra Garcia" -SourceDatabase MBXDB01 -TargetMailbox "Debra Garcia" -AllowLegacyDNMismatch
+```
 
 En este ejemplo, se restaura el buzón de archivo eliminado temporalmente de Pilar Pinilla, definido por el GUID del buzón, a su buzón de correo de archivo actual. El parámetro *AllowLegacyDNMismatch* no es necesario porque un buzón de correo principal y su buzón de archivo correspondiente tienen el mismo DN heredado.
 
-    New-MailboxRestoreRequest -SourceStoreMailbox dc35895a-a628-4bba-9aa9-650f5cdb9ae7 -SourceDatabase MBXDB02 -TargetMailbox pilarp@contoso.com -TargetIsArchive
+```powershell
+New-MailboxRestoreRequest -SourceStoreMailbox dc35895a-a628-4bba-9aa9-650f5cdb9ae7 -SourceDatabase MBXDB02 -TargetMailbox pilarp@contoso.com -TargetIsArchive
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-MailboxRestoreRequest](https://technet.microsoft.com/es-es/library/ff829875\(v=exchg.150\)).
 
@@ -84,4 +94,3 @@ Para obtener más información, vea:
   - [Get-MailboxRestoreRequest](https://technet.microsoft.com/es-es/library/ff829907\(v=exchg.150\))
 
   - [Get-MailboxRestoreRequestStatistics](https://technet.microsoft.com/es-es/library/ff829912\(v=exchg.150\))
-

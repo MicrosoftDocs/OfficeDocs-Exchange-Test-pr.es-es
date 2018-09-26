@@ -53,22 +53,30 @@ Para otras tareas de administración relacionadas con los planes de marcado de m
 
 En este ejemplo se quita el servidor de buzones `MyMailboxServer` de un plan de marcado URI de SIP denominado `MySIPDialPlan`.
 
-    $dp= Get-UMDialPlan "MySIPDialPlan"
-    $s=Get-UMService MyMailboxServer
-    $s.dialplans-=$dp.identity
-    Set-UMService -id MyMailboxServer -dialplans:$s.dialplans
+```powershell
+$dp= Get-UMDialPlan "MySIPDialPlan"
+$s=Get-UMService MyMailboxServer
+$s.dialplans-=$dp.identity
+Set-UMService -id MyMailboxServer -dialplans:$s.dialplans
+```
 
 En este ejemplo, hay tres planes de marcado URI de SIP: SipDP1, SipDP2 y SipDP3. En este ejemplo se quita el servidor de buzones `MyMailboxServer` del plan de marcado SipDP3.
 
-    Set-UMService -id MyMailboxServer -DialPlans SipDP1,SipDP2
+```powershell
+Set-UMService -id MyMailboxServer -DialPlans SipDP1,SipDP2
+```
 
 En este ejemplo, hay dos planes de marcado URI de SIP: SipDP1 y SipDP2. En este ejemplo se quita el servidor de buzones `MyMailboxServer` del plan de marcado SipDP2.
 
-    Set-UMService -id MyMailboxServer -DialPlans SipDP1
+```powershell
+Set-UMService -id MyMailboxServer -DialPlans SipDP1
+```
 
 En este ejemplo se quita el servidor de buzones `MyMailboxServer` de todos los planes de marcado de SIP.
 
-    Set-UMService -id MyUMServer -DialPlans $null
+```powershell
+Set-UMService -id MyUMServer -DialPlans $null
+```
 
 ## Usar el EAC para quitar un servidor de acceso de cliente de un plan de marcado URI de SIP
 
@@ -84,20 +92,27 @@ En este ejemplo se quita el servidor de buzones `MyMailboxServer` de todos los p
 
 En este ejemplo se quita el servidor de acceso de cliente `MyClientAccessServer` de un plan de marcado URI de SIP denominado `MySIPDialPlan`.
 
-    $dp= Get-UMDialPlan "MySIPDialPlan"
-    $s=Get-UMCallRouterSettings MyClientAccessServer
-    $s.dialplans-=$dp.identity
-    Set-UMCallRouterSettings -id MyClientAccessServer -dialplans:$s.dialplans
+```powershell
+$dp= Get-UMDialPlan "MySIPDialPlan"
+$s=Get-UMCallRouterSettings MyClientAccessServer
+$s.dialplans-=$dp.identity
+Set-UMCallRouterSettings -id MyClientAccessServer -dialplans:$s.dialplans
+```
 
 En este ejemplo, hay tres planes de marcado URI de SIP: SipDP1, SipDP2 y SipDP3. En este ejemplo se quita el servidor de acceso de cliente `MyClientAccessServer` del plan de marcado SipDP3.
 
-    Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans SipDP1,SipDP2
+```powershell
+Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans SipDP1,SipDP2
+```
 
 En este ejemplo, hay dos planes de marcado URI de SIP: SipDP1 y SipDP2. En este ejemplo se quita el servidor de acceso de cliente `MyClientAccessServer` del plan de marcado SipDP2.
 
-    Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans SipDP1
+```powershell
+Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans SipDP1
+```
 
 En este ejemplo se quita el servidor de acceso de cliente `MyClientAccessServer` de todos los planes de marcado de SIP.
 
-    Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans $null
-
+```powershell
+Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans $null
+```

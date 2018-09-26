@@ -32,7 +32,7 @@ Cuando actualiza de una organización de Microsoft Exchange 2007 con mensajería
   - Para obtener información acerca de los métodos abreviados de teclado aplicables a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > ¿Tiene algún problema? Solicite ayuda en los foros de Exchange. Visite los foros en <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, o <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>..
 
 
@@ -46,7 +46,7 @@ Los paquetes de idioma de mensajería unificada permiten a las personas que llam
 De manera predeterminada, al instalar un servidor de buzones de correo de Exchange 2013, se instala el paquete de idioma de inglés de Estados Unidos (en-US). Es la única opción de idioma disponible para el plan de marcado a menos que instale otro paquete de idioma de mensajería unificada. (No se puede eliminar el paquete de idioma de inglés de EE. UU. a no ser que elimine el servidor de buzones del equipo). Tras instalar un paquete de idioma de mensajería unificada en un servidor de buzón de correo de Exchange 2013, el idioma asociado al paquete de idioma también aparecerá como opción disponible al configurar el idioma predeterminado del plan de marcado. De manera predeterminada, como un operador automático de mensajería unificada se vincula a un plan de marcado de mensajería unificada cuando se crea, usa la configuración de idioma predeterminada del plan de marcado de mensajería unificada al que está vinculado. Sin embargo, es posible cambiar esta configuración después de crear el operador automático de mensajería unificada.
 
 
-> [!NOTE]
+> [!NOTE]  
 > Si inglés de EE. UU. es el único idioma que desea proporcionar para su plan de marcado, puede omitir este paso e ir al paso 2.
 
 
@@ -55,7 +55,9 @@ Puede agregar paquetes de idioma de mensajería UNIFICADA mediante el comando se
 
 Este ejemplo usa setup.exe para instalar el paquete de idioma de mensajería unificada de japonés (ja-JP).
 
-    setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```powershell
+setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```
 
 ## Paso 2: Mover los saludos, anuncios, menús y mensajes personalizados de Exchange 2007 al buzón del sistema de Exchange 2013.
 
@@ -65,11 +67,15 @@ De manera predeterminada, los buzones de correo del sistema no están visibles e
 
 Este comando devuelve una lista de todos los buzones de correo del sistema.
 
-    Get-Mailbox -Arbitration
+```powershell
+Get-Mailbox -Arbitration
+```
 
 Este comando devuelve una lista de los buzones de correo del sistema y sus propiedades u opciones de configuración individuales.
 
-    Get-Mailbox -Arbitration |fl
+```powershell
+Get-Mailbox -Arbitration |fl
+```
 
 Cuando importa saludos, anuncios, menús y mensajes personalizados de Exchange 2007 a Exchange 2013, debe usar el script MigrateUMCustomPrompts.ps1. No puede usar el EAC para importar saludos, anuncios, menús y mensajes personalizados. El script MigrateUMCustomPrompts.ps1 migra una copia de todos los saludos, anuncios, menús y mensajes personalizados de mensajería unificada de Exchange Server 2007 a mensajería unificada de Exchange 2013. De manera predeterminada, el script MigrateUMCustomPrompts.ps1 se encuentra en la carpeta *\<Archivos de programa\>*\\Microsoft\\Exchange Server\\V15\\Scripts en un servidor de buzón de Exchange 2013 y debe ejecutarse desde un servidor de buzón de Exchange 2013. Para ejecutar el script:
 
@@ -80,7 +86,7 @@ Cuando importa saludos, anuncios, menús y mensajes personalizados de Exchange 2
 3.  En el símbolo del sistema del Shell, escriba **".\\MigrateUMCustomPrompts"** y, a continuación, presione Entrar.
 
 
-> [!NOTE]
+> [!NOTE]  
 > También se pueden importar mensajes personalizados individualmente usando el cmdlet <STRONG>Import-UMPrompt</STRONG>. El cmdlet <STRONG>Copy-UMCustomPrompt</STRONG> de mensajería unificada de Exchange 2007 no es compatible con la copia de mensajes personalizados a mensajería unificada de Exchange 2013.
 
 
@@ -120,16 +126,18 @@ Para que la mensajería unificada pueda cifrar datos enviados entre servidores d
     6.  Compruebe que los nombres de los dominios incluidos sean correctos y luego seleccione **Finalizar**.
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Cuando use el EAC para crear un certificado, no se le solicitará que habilite los servicios para el certificado. Tras la creación del certificado, puede usar el EAC para habilitar los servicios. Para obtener más información acerca de cómo habilitar un certificado para servicios, consulte <A href="assign-a-certificate-to-the-um-and-um-call-router-services-exchange-2013-help.md">Asignar un certificado a los servicios de mensajería unificada y llamar al enrutador de mensajería unificada</A>.
 
     
     Cree un certificado autofirmado de Exchange al ejecutar el siguiente comando en el Shell.
     
-        New-ExchangeCertificate -Services 'UM, UMCallRouter' -DomainName '*.northwindtraders.com' -FriendlyName 'UMSelfSigned' -SubjectName 'C=US,S=WA,L=Redmond,O=Northwindtraders,OU=Servers,CN= Northwindtraders.com' -PrivateKeyExportable $true
+    ```powershell
+    New-ExchangeCertificate -Services 'UM, UMCallRouter' -DomainName '*.northwindtraders.com' -FriendlyName 'UMSelfSigned' -SubjectName 'C=US,S=WA,L=Redmond,O=Northwindtraders,OU=Servers,CN= Northwindtraders.com' -PrivateKeyExportable $true
+    ```
     
 
-    > [!TIP]
+    > [!TIP]  
     > Si especifica los servicios que desea habilitar mediante el parámetro <EM>Services</EM>, se le solicitará que habilite los servicios para el certificado que creó. En este ejemplo, se le solicitará que habilite el certificado para los servicios de enrutador de llamadas de mensajería unificada y de mensajería unificada. Para obtener más información acerca de cómo habilitar un certificado para servicios, consulte <A href="assign-a-certificate-to-the-um-and-um-call-router-services-exchange-2013-help.md">Asignar un certificado a los servicios de mensajería unificada y llamar al enrutador de mensajería unificada</A>.
 
 
@@ -146,7 +154,9 @@ Para que la mensajería unificada pueda cifrar datos enviados entre servidores d
     
     Habilite un certificado autofirmado de Exchange ejecutando el siguiente comando en el Shell.
     
-        Enable-ExchangeCertificate -Thumbprint 5113ae0233a72fccb75b1d0198628675333d010e -Services 'UM, UMCallRouter'
+    ```powershell
+    Enable-ExchangeCertificate -Thumbprint 5113ae0233a72fccb75b1d0198628675333d010e -Services 'UM, UMCallRouter'
+    ```
 
   - Configure cualquier plan de marcado nuevo o existente de mensajería unificada como protegido por SIP o protegido.
 
@@ -182,7 +192,9 @@ Configure el modo de inicio de mensajería unificada en un servidor de acceso de
 
 Configure el modo de inicio de mensajería unificada en un servidor de acceso de cliente de Exchange 2013 mediante el Shell de la siguiente manera:
 
-    Set-UMCallRouterSettings -Server MyUMCallRouter.northwindtraders.com -UMStartupMode Dual
+```powershell
+Set-UMCallRouterSettings -Server MyUMCallRouter.northwindtraders.com -UMStartupMode Dual
+```
 
 ## Paso 5: Configurar el modo de inicio de mensajería unificada en todos los servidores de buzón de Exchange 2013
 
@@ -208,7 +220,9 @@ Configure el modo de inicio de mensajería unificada en un servidor de buzones d
 
 Configure el modo de inicio de mensajería unificada en un servidor de buzón de Exchange 2013 al ejecutar el siguiente comando en el Shell.
 
-    Set-UMService -Identity MyUMServer -ExternalHostFqdn host.external.contoso.com -IPAddressFamily Any -UMStartupMode Dual
+```powershell
+Set-UMService -Identity MyUMServer -ExternalHostFqdn host.external.contoso.com -IPAddressFamily Any -UMStartupMode Dual
+```
 
 ## Paso 6: Crear o configurar planes de marcado de mensajería unificada existentes
 
@@ -242,7 +256,9 @@ Si es necesario, puede crear un plan de marcado de mensajería unificada con el 
 
 Si es necesario, puede crear un plan de marcado de mensajería unificada al ejecutar el siguiente comando en el Shell.
 
-    New-UMDialplan -Name MyUMDialPlan -URIType E164 -NumberOfDigitsInExtension 5 -VoIPSecurity Secured
+```powershell
+New-UMDialplan -Name MyUMDialPlan -URIType E164 -NumberOfDigitsInExtension 5 -VoIPSecurity Secured
+```
 
 Si es necesario, puede configurar un plan de marcado existente de mensajería unificada con el EAC:
 
@@ -254,7 +270,9 @@ Si es necesario, puede configurar un plan de marcado existente de mensajería un
 
 Si es necesario, puede configurar un plan existente de marcado de mensajería unificada al ejecutar el siguiente comando en el Shell.
 
-    Set-UMDialplan -Identity MyDialPlan -AccessTelephoneNumbers 4255551234 -AudioCodec Wma -CallAnsweringRulesEnabled $false -OutsideLineAccessCode 9 -VoIPSecurity SIPSecured
+```powershell
+Set-UMDialplan -Identity MyDialPlan -AccessTelephoneNumbers 4255551234 -AudioCodec Wma -CallAnsweringRulesEnabled $false -OutsideLineAccessCode 9 -VoIPSecurity SIPSecured
+```
 
 Cuando implementó la mensajería unificada de Exchange 2007, tuvo que agregar un servidor de mensajería unificada a un plan de marcado de mensajería unificada para que respondiera las llamadas entrantes. Esto ya no es necesario. En Exchange 2013, los servidores de buzón y de acceso de cliente no pueden estar vinculados con una extensión telefónica o un plan de marcado E.164, sino que deben estar vinculados con planes de marcado de URI de SIP. Los servidores de buzones de correo y de acceso de cliente responderán todas las llamadas entrantes para todos los tipos de planes de marcado.
 
@@ -286,7 +304,9 @@ Si es necesario, puede crear una puerta de enlace IP de mensajería unificada co
 
 Si es necesario, puede crear una puerta de enlace de mensajería unificada al ejecutar el siguiente comando en el Shell.
 
-    New-UMIPGateway -Identity MyUMIPGateway -Address "MyUMIPGateway.contoso.com"
+```powershell
+New-UMIPGateway -Identity MyUMIPGateway -Address "MyUMIPGateway.contoso.com"
+```
 
 Si es necesario, puede configurar una puerta de enlace existente de mensajería unificada con el EAC:
 
@@ -296,7 +316,9 @@ Si es necesario, puede configurar una puerta de enlace existente de mensajería 
 
 Si es necesario, puede configurar una puerta de enlace IP existente de mensajería unificada al ejecutar el siguiente comando en el Shell.
 
-    Set-UMIPGateway -Identity MyUMIPGateway -Address fe80::39bd:88f7:6969:d223%11 -IPAddressFamily Any -Status Disabled -OutcallsAllowed $false
+```powershell
+Set-UMIPGateway -Identity MyUMIPGateway -Address fe80::39bd:88f7:6969:d223%11 -IPAddressFamily Any -Status Disabled -OutcallsAllowed $false
+```
 
 ## Paso 8: Crear un grupo de extensiones de mensajería unificada
 
@@ -322,13 +344,12 @@ Si es necesario, puede crear un grupo de extensiones de mensajería unificada co
 
 Si es necesario, puede crear un grupo de extensiones de mensajería unificada al ejecutar el siguiente comando en el Shell.
 
-    New-UMHuntGroup -Name MyUMHuntGroup -PilotIdentifier 5551234,55555 -UMDialPlan MyUMDialPlan -UMIPGateway MyUMIPGateway
-
+```powershell
+New-UMHuntGroup -Name MyUMHuntGroup -PilotIdentifier 5551234,55555 -UMDialPlan MyUMDialPlan -UMIPGateway MyUMIPGateway
+```
 
 > [!TIP]
 > No puede configurar o cambiar las opciones de configuración para un grupo de extensiones de mensajería unificada. Si desea cambiar las opciones de configuración para un grupo de extensiones de mensajería unificada, debe eliminarlo y agregar un nuevo grupo de extensiones de mensajería unificada con las opciones de configuración correctas.
-
-
 
 ## Paso 9: Crear o configurar operadores automáticos de mensajería unificada
 
@@ -360,7 +381,9 @@ Si es necesario, puede crear un operador automático de mensajería unificada co
 
 Si es necesario, puede crear un operador automático de mensajería unificada al ejecutar el siguiente comando en el Shell.
 
-    New-UMAutoAttendant -Name MyUMAutoAttendant -UMDialPlan MyUMDialPlan -PilotIdentifierList 56000,56100 -SpeechEnabled $true -Status Enabled
+```powershell
+New-UMAutoAttendant -Name MyUMAutoAttendant -UMDialPlan MyUMDialPlan -PilotIdentifierList 56000,56100 -SpeechEnabled $true -Status Enabled
+```
 
 Si es necesario, puede configurar un operador automático existente con el EAC:
 
@@ -370,7 +393,9 @@ Si es necesario, puede configurar un operador automático existente con el EAC:
 
 Si es necesario, puede configurar un operador automático existente al ejecutar el siguiente comando en el Shell.
 
-    Set-UMAutoAttendant -Identity MySpeechEnabledAA -DTMFFallbackAutoAttendant MyDTMFAA -OperatorExtension 50100 -AfterHoursTransferToOperatorEnabled $true -StaroutToDialPlanEnabled $true
+```powershell
+Set-UMAutoAttendant -Identity MySpeechEnabledAA -DTMFFallbackAutoAttendant MyDTMFAA -OperatorExtension 50100 -AfterHoursTransferToOperatorEnabled $true -StaroutToDialPlanEnabled $true
+```
 
 ## Paso 10: Crear o configurar directivas de buzón de mensajería unificada
 
@@ -396,11 +421,11 @@ Si es necesario, puede crear una directiva de buzón de mensajería unificada co
     > [!NOTE]
     > Cuando guarda la directiva de buzón de mensajería unificada, se habilitan todas las opciones de configuración predeterminadas, incluida la configuración de las directivas de PIN, las características de buzón de voz y el correo de voz protegido. Si desea personalizar o cambiar alguna opción predeterminada para la directiva de buzón de mensajería unificada que acaba de crear, use el cmdlet <STRONG>Set-UMMailbox</STRONG> o el EAC.
 
-
-
 Si es necesario, puede crear una directiva de buzón de mensajería unificada en el Shell al ejecutar el siguiente comando.
 
-    New-UMMailboxPolicy -Name MyUMMailboxPolicy -UMDialPlan MyUMDialPlan
+```powershell
+New-UMMailboxPolicy -Name MyUMMailboxPolicy -UMDialPlan MyUMDialPlan
+```
 
 Si es necesario, puede configurar una directiva de buzón existente de mensajería unificada con el EAC:
 
@@ -410,7 +435,9 @@ Si es necesario, puede configurar una directiva de buzón existente de mensajer�
 
 Si es necesario, puede configurar una directiva de buzón existente de mensajería unificada al ejecutar el siguiente comando en el Shell.
 
-    Set-UMMailboxPolicy -Identity MyUMMailboxPolicy -LogonFailuresBeforePINReset 8 -MaxLogonAttempts 12 -MinPINLength 8 -PINHistoryCount 10 -PINLifetime 60 -ResetPINText "The PIN used to allow you access to your mailbox using Outlook Voice Access has been reset."
+```powershell
+Set-UMMailboxPolicy -Identity MyUMMailboxPolicy -LogonFailuresBeforePINReset 8 -MaxLogonAttempts 12 -MinPINLength 8 -PINHistoryCount 10 -PINLifetime 60 -ResetPINText "The PIN used to allow you access to your mailbox using Outlook Voice Access has been reset."
+```
 
 ## Paso 11: Mover buzones de correo existentes habilitados para mensajería unificada a Exchange 2013
 
@@ -438,7 +465,9 @@ Para mover un buzón de Exchange 2007 a un servidor de buzón de Exchange 2013 c
 
 Para mover un buzón de Exchange 2007 a un servidor de buzón de Exchange 2013 con el Shell, ejecute el siguiente comando.
 
-    New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase "DB01"
+```powershell
+New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase "DB01"
+```
 
 ## Paso 12: Habilitar nuevos usuarios para mensajería unificada o configurar las opciones para un usuario existente habilitado para mensajería unificada
 
@@ -476,7 +505,9 @@ Para habilitar un usuario para mensajería unificada con el EAC:
 
 Para habilitar un usuario para mensajería unificada en el Shell, ejecute el siguiente comando.
 
-    Enable-UMMailbox -Identity tonysmith@contoso.com -UMMailboxPolicy MyUMMailboxPolicy -Extensions 51234 -PIN 5643892 -NotifyEmail administrator@contoso.com -PINExpired $true
+```powershell
+Enable-UMMailbox -Identity tonysmith@contoso.com -UMMailboxPolicy MyUMMailboxPolicy -Extensions 51234 -PIN 5643892 -NotifyEmail administrator@contoso.com -PINExpired $true
+```
 
 Si es necesario, puede configurar un usuario habilitado para mensajería unificada con el EAC:
 
@@ -506,7 +537,9 @@ Si es necesario, puede configurar un usuario habilitado para mensajería unifica
 
 Si es necesario, puede configurar un usuario habilitado para mensajería unificada en el Shell al ejecutar el siguiente comando.
 
-    Set-UMMailbox -Identity tony@contoso.com -CallAnsweringAudioCodec Wma -CallAnsweringRulesEnabled $false -FaxEnabled $false -UMSMSNotificationOption VoiceMail
+```powershell
+Set-UMMailbox -Identity tony@contoso.com -CallAnsweringAudioCodec Wma -CallAnsweringRulesEnabled $false -FaxEnabled $false -UMSMSNotificationOption VoiceMail
+```
 
 ## Paso 13: Configurar las puertas de enlace VoIP, IP-PBX y PBX habilitadas para SIP para enviar todas las llamadas entrantes a los servidores de acceso de cliente de Exchange 2013
 
@@ -544,7 +577,9 @@ Para deshabilitar la mensajería unificada en un servidor de mensajería unifica
 
 Para deshabilitar la mensajería unificada en un servidor de mensajería unificada de Exchange 2007 mediante el Shell, ejecute el siguiente comando.
 
-    Disable-UMServer -Identity MyUMServer -Immediate $true
+```powershell
+Disable-UMServer -Identity MyUMServer -Immediate $true
+```
 
 
 > [!TIP]
@@ -572,21 +607,26 @@ Para eliminar un servidor de mensajería unificada de Exchange 2007 de un plan d
 
 Para eliminar un servidor de mensajería unificada de Exchange 2007 de un plan de marcado mediante el Shell, ejecute el siguiente comando.
 
-    $dp= Get-UMDialPlan "MySIPDialPlan"
-    $s=Get-UMServer -id MyUMServer
-    $s.dialplans-=$dp.identity
-    Set-UMServer -id MyUMServer -dialplans:$s.dialplans
+```powershell
+$dp= Get-UMDialPlan "MySIPDialPlan"
+$s=Get-UMServer -id MyUMServer
+$s.dialplans-=$dp.identity
+Set-UMServer -id MyUMServer -dialplans:$s.dialplans
+```
 
 En este ejemplo, existen tres planes de marcado de URI de SIP: SipDP1, SipDP2 y SipDP3. En este ejemplo, se elimina el servidor de mensajería unificada denominado `MyUMServer` del plan de marcado SipDP3.
 
-    Set-UMServer -id MyUMServer -DialPlans SipDP1,SipDP2
+```powershell
+Set-UMServer -id MyUMServer -DialPlans SipDP1,SipDP2
+```
 
 En este ejemplo, existen dos planes de marcado de URI de SIP: SipDP1 y SipDP2. En este ejemplo, se elimina el servidor de mensajería unificada denominado `MyUMServer` del plan de marcado SipDP2.
 
-    Set-UMServer -id MyUMServer -DialPlans SipDP1
+```powershell
+Set-UMServer -id MyUMServer -DialPlans SipDP1
+```
 
-
-> [!TIP]
+> [!TIP]  
 > Puede usar el cmdlet <STRONG>Set-UMServer</STRONG> en el Shell en un servidor de mensajería unificada de Exchange 2007 o el cmdlet <STRONG>Set-UMService</STRONG> en un servidor de buzón de Exchange 2013 para eliminar un servidor de mensajería unificada de Exchange 2007 de un plan de marcado o varios planes de marcado. Por ejemplo, para eliminar un servidor de mensajería unificada de todos los planes de marcado, ejecute el siguiente comando: <CODE>Set-UMServer -identity MyUMServer -DialPlan $null</CODE>
 
 
@@ -602,4 +642,3 @@ Después de configurar la mensajería unificada, compruebe lo siguiente para ase
   - Los usuarios de mensajería unificada pueden llamar a un número de Outlook Voice Access para escuchar el correo electrónico, los elementos de calendario y el correo de voz.
 
   - La mensajería unificada enruta llamadas desde afuera de la organización, y usted puede realizar una llamada.
-

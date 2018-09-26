@@ -59,7 +59,9 @@ El parámetro *IsExcludedFromProvisioning* tiene dos valores válidos, `$True` y
 
 Para excluir una base de datos de buzones de la distribución automática, use el siguiente comando:
 
-    Set-MailboxDatabase <database name> -IsExcludedFromProvisioning $True
+```powershell
+Set-MailboxDatabase <database name> -IsExcludedFromProvisioning $True
+```
 
 Cuando se excluye una base de datos de buzones de la distribución automática, la única forma de crear un buzón o moverlo a ella es usar el parámetro *Database* en los cmdlets **New-Mailbox** y **Enable-Mailbox**, o el parámetro *TargetDatabase* en el cmdlet **New-MoveRequest**.
 

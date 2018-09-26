@@ -45,11 +45,15 @@ Si se habilita en un servidor Exchange la función de filtrado de remitentes, é
 
 Para deshabilitar el filtro de remitentes, ejecute el comando siguiente:
 
-    Set-SenderFilterConfig -Enabled $false
+```powershell
+Set-SenderFilterConfig -Enabled $false
+```
 
 Para habilitar el filtrado de remitentes, ejecute el siguiente comando:
 
-    Set-SenderFilterConfig -Enabled $true
+```powershell
+Set-SenderFilterConfig -Enabled $true
+```
 
 
 > [!NOTE]
@@ -63,7 +67,9 @@ Para comprobar que habilitó o deshabilitó correctamente el filtrado de destina
 
 1.  Ejecute el siguiente comando:
     
-        Get-SenderFilterConfig | Format-List Enabled
+    ```powershell
+    Get-SenderFilterConfig | Format-List Enabled
+    ```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 
@@ -71,15 +77,21 @@ Para comprobar que habilitó o deshabilitó correctamente el filtrado de destina
 
 Para reemplazar los valores existentes, ejecute el siguiente comando:
 
-    Set-SenderFilterConfig -BlockedSenders <sender1,sender2...> -BlockedDomains <domain1,domain2...> -BlockedDomainsAndSubdomains <domain1,domain2...>
+```powershell
+Set-SenderFilterConfig -BlockedSenders <sender1,sender2...> -BlockedDomains <domain1,domain2...> -BlockedDomainsAndSubdomains <domain1,domain2...>
+```
 
 En este ejemplo se configura al agente de filtro de destinatarios para bloquear mensajes de kim@contoso.com y john@contoso.com, mensajes del dominio fabrikam.com y mensajes de northwindtraders.com y todos sus subdominios.
 
-    Set-SenderFilterConfig -BlockedSenders kim@contoso.com,john@contoso.com -BlockedDomains fabrikam.com -BlockedDomainsAndSubdomains northwindtraders.com
+```powershell
+Set-SenderFilterConfig -BlockedSenders kim@contoso.com,john@contoso.com -BlockedDomains fabrikam.com -BlockedDomainsAndSubdomains northwindtraders.com
+```
 
 Para agregar o quitar entradas sin modificar valores existentes, ejecute el siguiente comando:
 
-    Set-SenderFilterConfig -BlockedSenders @{Add="<sender1>","<sender2>"...; Remove="<sender1>","<sender2>"...} -BlockedDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...} -BlockedDomainsAndSubdomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
+```powershell
+Set-SenderFilterConfig -BlockedSenders @{Add="<sender1>","<sender2>"...; Remove="<sender1>","<sender2>"...} -BlockedDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...} -BlockedDomainsAndSubdomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
+```
 
 En este ejemplo se configura al agente de filtro de remitentes con la siguiente información:
 
@@ -91,7 +103,9 @@ En este ejemplo se configura al agente de filtro de remitentes con la siguiente 
 
 <!-- end list -->
 
-    Set-SenderFilterConfig -BlockedSenders @{Add="chris@contoso.com","michelle@contoso.com"} -BlockedDomains @{Remove="tailspintoys.com"} -BlockedDomainsAndSubdomains @{Add="blueyonderairlines.com"}
+```powershell
+Set-SenderFilterConfig -BlockedSenders @{Add="chris@contoso.com","michelle@contoso.com"} -BlockedDomains @{Remove="tailspintoys.com"} -BlockedDomainsAndSubdomains @{Add="blueyonderairlines.com"}
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -99,7 +113,9 @@ Para comprobar que configuró correctamente los remitentes bloqueados, realice l
 
 1.  Ejecute el siguiente comando:
     
-        Get-SenderFilterConfig | Format-List BlockedSenders,BlockedDomains,BlockedDomainsAndSubdomains
+    ```powershell
+    Get-SenderFilterConfig | Format-List BlockedSenders,BlockedDomains,BlockedDomainsAndSubdomains
+    ```
 
 2.  Verifique que los valores mostrados son los valores que ha configurado.
 
@@ -107,11 +123,15 @@ Para comprobar que configuró correctamente los remitentes bloqueados, realice l
 
 Para habilitar o deshabilitar los mensajes bloqueados con remitentes en blanco, ejecute el siguiente comando:
 
-    Set-SenderFilterConfig -BlankSenderBlockingenabled <$true | $false>
+```powershell
+Set-SenderFilterConfig -BlankSenderBlockingenabled <$true | $false>
+```
 
 En este ejemplo se configura el agente de filtro de remitentes para bloquear mensajes que no especifiquen ningún remitente en MAIL FROM: Comando SMTP:
 
-    Set-SenderFilterConfig -BlankSenderBlockingEnabled $true
+```powershell
+Set-SenderFilterConfig -BlankSenderBlockingEnabled $true
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -119,7 +139,9 @@ Para comprobar que habilitó o deshabilitó correctamente los mensajes bloqueado
 
 1.  Ejecute el siguiente comando:
     
-        Get-SenderFilterConfig | Format-List BlankSenderBlockingEnabled
+    ```powershell
+    Get-SenderFilterConfig | Format-List BlankSenderBlockingEnabled
+    ```
 
 2.  Verifique que el valor mostrado es el valor que ha configurado.
 

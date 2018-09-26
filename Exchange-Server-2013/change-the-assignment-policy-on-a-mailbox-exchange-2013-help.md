@@ -30,7 +30,7 @@ Puede cambiar la directiva de asignación de funciones de administración asigna
   - Para obtener información acerca de los métodos abreviados de teclado aplicables a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > ¿Tiene algún problema? Solicite ayuda en los foros de Exchange. Visite los foros en <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, o <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>.
 
 
@@ -49,19 +49,21 @@ Puede cambiar la directiva de asignación de funciones de administración asigna
 
 Para cambiar la directiva de asignación asignada a un buzón, utilice la sintaxis siguiente.
 
-    Set-Mailbox <mailbox alias or name> -RoleAssignmentPolicy <assignment policy>
+```powershell
+Set-Mailbox <mailbox alias or name> -RoleAssignmentPolicy <assignment policy>
+```
 
 En este ejemplo, se establece la directiva de asignación a usuarios de mensajería unificada en el buzón Brian.
 
-    Set-Mailbox Brian -RoleAssignmentPolicy "Unified Messaging Users"
+```powershell
+Set-Mailbox Brian -RoleAssignmentPolicy "Unified Messaging Users"
+```
 
 ## Usar el Shell para cambiar la directiva de asignación en un grupo de buzones a los que se asignó una directiva de asignación específica
 
 
-> [!NOTE]
+> [!NOTE]  
 > No puede usar el EAC para cambiar de una vez la directiva de asignación en un grupo de buzones.
-
-
 
 Este procedimiento usa la canalización, el cmdlet **Where** y el parámetro *WhatIf*. Para obtener más información acerca de estos conceptos, consulte los siguientes temas:
 
@@ -73,15 +75,20 @@ Este procedimiento usa la canalización, el cmdlet **Where** y el parámetro *Wh
 
 Si desea cambiar la directiva de asignación de un grupo de buzones a los que se asignó una directiva específica, utilice la sintaxis siguiente.
 
-    Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "<assignment policy to find>" } | Set-Mailbox -RoleAssignmentPolicy <assignment policy to set>
+```powershell
+Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "<assignment policy to find>" } | Set-Mailbox -RoleAssignmentPolicy <assignment policy to set>
+```
 
 En este ejemplo, se encuentran todos los buzones a los que se asignó la directiva de asignación Usuarios de Redmond: sin correo de voz, y se cambia la directiva de asignación a Usuarios de Redmond: correo de voz habilitado.
 
-    Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "Redmond Users - No Voicemail" } | Set-Mailbox -RoleAssignmentPolicy "Redmond Users - Voicemail Enabled"
+```powershell
+Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "Redmond Users - No Voicemail" } | Set-Mailbox -RoleAssignmentPolicy "Redmond Users - Voicemail Enabled"
+```
 
 En este ejemplo, se incluye el parámetro *WhatIf* para que pueda ver todos los buzones que se cambiarían sin confirmar ningún cambio.
 
-    Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "Redmond Users - No Voicemail" } | Set-Mailbox -RoleAssignmentPolicy "Redmond Users - Voicemail Enabled" -WhatIf
+```powershell
+Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "Redmond Users - No Voicemail" } | Set-Mailbox -RoleAssignmentPolicy "Redmond Users - Voicemail Enabled" -WhatIf
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Get-Mailbox](https://technet.microsoft.com/es-es/library/bb123685\(v=exchg.150\)) o [Set-Mailbox](https://technet.microsoft.com/es-es/library/bb123981\(v=exchg.150\)).
-

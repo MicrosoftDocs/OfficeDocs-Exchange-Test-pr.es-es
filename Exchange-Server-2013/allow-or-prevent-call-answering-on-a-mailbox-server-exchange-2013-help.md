@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir o impedir contestación en servidor buzón llamadas: Exchange 2013 Help'
+title: 'Permitir o impedir la contestación en un servidor de buzón de llamadas: Exchange 2013 Help'
 TOCTitle: Permitir o impedir la contestación en un servidor de buzón de llamadas
 ms:assetid: 4b860c09-6669-4e3d-b3dc-17b8018b3860
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa997908(v=EXCHG.150)
@@ -55,9 +55,13 @@ Para otras tareas de administración relacionadas con los servidores de buzones,
 
 En este ejemplo, se habilita un servidor de buzones `UMMBXr-05x.contoso.com` para que acepte llamadas de voz, de fax, de operador automático y de Outlook Voice Access desde puertas de enlace VoIP, IP PBX, PBX habilitados para SIP y SBC, y se escribe el cambio en el Registro en el servidor UMMBX-05x.
 
-    Set-ServerComponentState -Component UnifiedMessaging -Identity UMMBX-05x.contoso.com -Requester Maintenance -State Active -LocalOnly
+```powershell
+Set-ServerComponentState -Component UnifiedMessaging -Identity UMMBX-05x.contoso.com -Requester Maintenance -State Active -LocalOnly
+```
 
 En este ejemplo, se evita que un servidor de buzones `UMMBX-05x.contoso.com` acepte llamadas de voz, de fax, de operador automático y de Outlook Voice Access desde puertas de enlace VoIP, IP PBX, PBX habilitados para SIP y SBC, y se escribe el cambio solo en Active Directory.
 
-    Set-ServerComponentState -Component UnifiedMessaging -Identity UMMBX-05x.contoso.com -Requester Maintenance -State Inactive -RemoteOnly
+```powershell
+Set-ServerComponentState -Component UnifiedMessaging -Identity UMMBX-05x.contoso.com -Requester Maintenance -State Inactive -RemoteOnly
+```
 

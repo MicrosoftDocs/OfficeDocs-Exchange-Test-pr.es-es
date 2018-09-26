@@ -59,21 +59,29 @@ Puede usar el cmdlet **Get-MessageTrackingLog** en el Shell de administración d
 
 Para buscar eventos concretos en las entradas del registro de seguimiento de mensajes, use la siguiente sintaxis.
 
-    Get-MessageTrackingLog [-Server <ServerIdentity.] [-ResultSize <Integer> | Unlimited] [-Start <DateTime>] [-End <DateTime>] [-EventId <EventId>] [-InternalMessageId <InternalMessageId>] [-MessageId <MessageId>] [-MessageSubject <Subject>] [-Recipients <RecipientAddress1,RecipientAddress2...>] [-Reference <Reference>] [-Sender <SenderAddress>]
+```powershell
+Get-MessageTrackingLog [-Server <ServerIdentity.] [-ResultSize <Integer> | Unlimited] [-Start <DateTime>] [-End <DateTime>] [-EventId <EventId>] [-InternalMessageId <InternalMessageId>] [-MessageId <MessageId>] [-MessageSubject <Subject>] [-Recipients <RecipientAddress1,RecipientAddress2...>] [-Reference <Reference>] [-Sender <SenderAddress>]
+```
 
 Para ver las 1 000 entradas más recientes del registro de seguimiento de mensajes en el servidor, ejecute el siguiente comando:
 
-    Get-MessageTrackingLog
+```powershell
+Get-MessageTrackingLog
+```
 
 En este ejemplo se buscan registros de seguimiento de mensajes en el servidor local de todas las entradas del 3/28/2013 8:00 a. m. al 3/28/2013 5:00 p. m. de todos los eventos **FAIL** con el remitente del mensaje pat@contoso.com.
 
-    Get-MessageTrackingLog -ResultSize Unlimited -Start "3/28/2013 8:00AM" -End "3/28/2013 5:00PM" -EventId "Fail" -Sender "pat@contoso.com"
+```powershell
+Get-MessageTrackingLog -ResultSize Unlimited -Start "3/28/2013 8:00AM" -End "3/28/2013 5:00PM" -EventId "Fail" -Sender "pat@contoso.com"
+```
 
 ## Uso del Shell para controlar la salida de una búsqueda del registro de seguimiento de mensajes
 
 Use la siguiente sintaxis.
 
-    Get-MessageTrackingLog <SearchFilters> | <Format-Table | Format-List> [<FieldNames>] [<OutputFileOptions>]
+```powershell
+Get-MessageTrackingLog <SearchFilters> | <Format-Table | Format-List> [<FieldNames>] [<OutputFileOptions>]
+```
 
 En este ejemplo se buscan los registros de seguimiento de mensajes con los siguientes criterios:
 
@@ -87,7 +95,9 @@ En este ejemplo se buscan los registros de seguimiento de mensajes con los sigui
 
 <!-- end list -->
 
-    Get-MessageTrackingLog -EventId Send | Format-List Send*,Recipient* > "D:\Send Search.txt"
+```powershell
+Get-MessageTrackingLog -EventId Send | Format-List Send*,Recipient* > "D:\Send Search.txt"
+```
 
 ## Uso del Shell para buscar registros de seguimiento de mensajes de las entradas de mensajes en varios servidores
 
@@ -95,11 +105,13 @@ Normalmente, el valor en el campo de encabezado **MessageID:**  permanece consta
 
 Para buscar todas las entradas del registro de seguimiento de mensajes de un mensaje concreto en todos los servidores de buzones de correo, use la siguiente sintaxis.
 
-    Get-ExchangeServer | where {$_.isHubTransportServer -eq $true -or $_.isMailboxServer -eq $true} | Get-MessageTrackingLog -MessageId <MessageID> | Select-Object <CommaSeparatedFieldNames> | Sort-Object -Property <FieldName>
+```powershell
+Get-ExchangeServer | where {$_.isHubTransportServer -eq $true -or $_.isMailboxServer -eq $true} | Get-MessageTrackingLog -MessageId <MessageID> | Select-Object <CommaSeparatedFieldNames> | Sort-Object -Property <FieldName>
+```
 
 En este ejemplo se buscan los registros de seguimiento de mensajes en todos los servidores de buzones de correo de Exchange 2013 con los siguientes criterios:
 
-  - Buscar todas las entradas relacionadas con un mensaje que tenga un valor de **MessageID:**  de `<ba18339e-8151-4ff3-aeea-87ccf5fc9796@mailbox01.contoso.com>`. Tenga en cuenta que puede omitir los caracteres de paréntesis angulares (`<>`). Si no lo hace, deberá incluir todo el valor de **MessageID:**  entre comillas.
+  - Buscar todas las entradas relacionadas con un mensaje que tenga un valor de **MessageID:**  de `<ba18339e-8151-4ff3-aeea-87ccf5fc9796@mailbox01.contoso.com>`. Tenga en cuenta que puede omitir los caracteres de paréntesis angulares (`<``>`). Si no lo hace, deberá incluir todo el valor de **MessageID:**  entre comillas.
 
   - Para cada entrada, muestre los campos **date-time**, **server-hostname**, **client-hostname**, **source**, **event-id** y **recipient-address**.
 
@@ -107,7 +119,9 @@ En este ejemplo se buscan los registros de seguimiento de mensajes en todos los 
 
 <!-- end list -->
 
-    Get-ExchangeServer | where {$_.isHubTransportServer -eq $true -or $_.isMailboxServer -eq $true} | Get-MessageTrackingLog -MessageId ba18339e-8151-4ff3-aeea-87ccf5fc9796@mailbox01.contoso.com | Select-Object Timestamp,ServerHostname,ClientHostname,Source,EventId,Recipients | Sort-Object -Property Timestamp
+```powershell
+Get-ExchangeServer | where {$_.isHubTransportServer -eq $true -or $_.isMailboxServer -eq $true} | Get-MessageTrackingLog -MessageId ba18339e-8151-4ff3-aeea-87ccf5fc9796@mailbox01.contoso.com | Select-Object Timestamp,ServerHostname,ClientHostname,Source,EventId,Recipients | Sort-Object -Property Timestamp
+```
 
 ## Uso de EAC para buscar los registros de seguimiento de mensajes
 

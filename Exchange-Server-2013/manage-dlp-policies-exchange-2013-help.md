@@ -71,7 +71,9 @@ Debe consultar las reglas y acciones de la directiva de DLP existente que ya ha 
 
 En este ejemplo se muestra información sobre la directiva de DLP ficticia denominada Números de empleado. El comando se canaliza en el cmdlet **Format-List** para mostrar la configuración detallada de la directiva DLP especificada.
 
-    Get-DlpPolicy "Employee Numbers" | Format-List
+```powershell
+Get-DlpPolicy "Employee Numbers" | Format-List
+```
 
 Para obtener información acerca de la sintaxis y los parámetros, consulte [Get-DlpPolicy](https://technet.microsoft.com/es-es/library/jj215752\(v=exchg.150\)).
 
@@ -101,7 +103,9 @@ Puede cambiar una directiva de DLP existente al modificar el nombre de la direct
 
 Se puede especificar la acción y el nivel de notificación de una directiva mediante el uso del Shell de Administración de Exchange. En este ejemplo se configura el modo de una directiva de DPL ficticia denominada Números de empleado para que no se apliquen las acciones y no se muestren los mensajes de notificación.
 
-    Set-DlpPolicy "Employee Numbers" -Mode Audit
+```powershell
+Set-DlpPolicy "Employee Numbers" -Mode Audit
+```
 
 Para obtener información acerca de la sintaxis y los parámetros, consulte [Set-DlpPolicy](https://technet.microsoft.com/es-es/library/jj215778\(v=exchg.150\)).
 
@@ -121,7 +125,9 @@ Como opción, puede configurar el estado o modo operativo de una directiva en **
 
 En este ejemplo se elimina la directiva de DLP ficticia denominada Números de empleado.
 
-    Remove-DlpPolicy "Employee Numbers"
+```powershell
+Remove-DlpPolicy "Employee Numbers"
+```
 
 Para obtener información acerca de la sintaxis y los parámetros, consulte [Remove-DlpPolicy](https://technet.microsoft.com/es-es/library/jj215677\(v=exchg.150\)).
 

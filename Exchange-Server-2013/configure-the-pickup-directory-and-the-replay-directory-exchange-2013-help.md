@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar directorio recogida y directorio reproducción: Exchange 2013 Help'
+title: 'Configurar el directorio de recogida y el directorio de reproducción: Exchange 2013 Help'
 TOCTitle: Configurar el directorio de recogida y el directorio de reproducción
 ms:assetid: c9ca7358-9a08-4f57-89d0-910e4438df8a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124549(v=EXCHG.150)
@@ -45,7 +45,9 @@ El servicio de transporte en los servidores de buzón de correo y en los servido
 
 Para configurar el directorio de recogida, utilice la siguiente sintaxis.
 
+```powershell
     Set-TransportService <ServerIdentity> -PickupDirectoryPath <LocalFilePath> -PickupDirectoryMaxHeaderSize <Size> -PickupDirectoryMaxRecipientsPerMessage <Integer> -PickupDirectoryMaxMessagesPerMinute <Integer>
+```
 
 Este ejemplo realiza los siguientes cambios en el directorio de recogida en el servidor del buzón de correo, llamado Exchange01:
 
@@ -59,8 +61,9 @@ Este ejemplo realiza los siguientes cambios en el directorio de recogida en el s
 
 <!-- end list -->
 
+```powershell
     Set-TransportService Exchange01 -PickupDirectoryPath "D:\Pickup Directory" -PickupDirectoryMaxHeaderSize 96KB -PickupDirectoryMaxRecipientsPerMessage 250 -PickupDirectoryMaxMessagesPerMinute 200
-
+```
 
 > [!NOTE]
 > <UL>
@@ -75,7 +78,9 @@ Este ejemplo realiza los siguientes cambios en el directorio de recogida en el s
 
 Para configurar el directorio de reproducción, utilice la siguiente sintaxis.
 
+```powershell
     Set-TransportService <ServerIdentity> -ReplayDirectoryPath "C:\Replay Directory" <LocalFilePath> -PickupDirectoryMaxMessagesPerMinute <Integer>
+```
 
 Este ejemplo realiza los siguientes cambios en el directorio de reproducción en el servidor del buzón de correo, llamado Exchange01:
 
@@ -85,8 +90,9 @@ Este ejemplo realiza los siguientes cambios en el directorio de reproducción en
 
 <!-- end list -->
 
+```powershell
     Set-TransportService Exchange01 -ReplayDirectoryPath "D:\Replay Directory" -PickupDirectoryMaxMessagesPerMinute 200
-
+```
 
 > [!NOTE]
 > <UL>
@@ -103,7 +109,9 @@ Para verificar que ha configurado correctamente los directorios de recogida o re
 
 1.  Ejecute el siguiente comando:
     
+    ```powershell
         Get-TransportService <ServerIdentity> | Format-List Pickup*,Replay*
-
+    ```
+    
 2.  Verifique que los valores mostrados son los valores que ha configurado.
 

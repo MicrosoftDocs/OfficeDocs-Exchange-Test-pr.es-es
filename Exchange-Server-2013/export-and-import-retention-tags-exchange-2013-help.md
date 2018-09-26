@@ -63,7 +63,9 @@ Para otras tareas de administración relacionadas con la administración de regi
 
 1.  Ejecute este comando Shell de administración de Exchange para cambiar el directorio en el subdirectorio de **secuencias de comandos** en la ruta de instalación Exchange.
     
-        Cd $Env:ExchangeInstallPath\Scripts
+    ```powershell
+    Cd $Env:ExchangeInstallPath\Scripts
+    ```
 
 2.  Ejecute el script Export-RetentionTags.ps1 para exportar las etiquetas de retención a un archivo XML.
     
@@ -72,7 +74,9 @@ Para otras tareas de administración relacionadas con la administración de regi
     > Si está importando o exportando etiquetas de retención y las políticas de retención para Exchange Online, debe conectar la sesión de Windows PowerShell para Exchange Online. Para obtener más información, consulte <A href="https://technet.microsoft.com/es-es/library/jj984289(v=exchg.150)">Conectarse a Exchange Online mediante PowerShell remoto</A>.
 
     
-        .\Export-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```powershell
+    .\Export-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -86,7 +90,9 @@ Para comprobar que ha exportado correctamente las etiquetas y directivas de rete
 
 1.  Ejecute este comando Shell de administración de Exchange para cambiar el directorio en el subdirectorio de **secuencias de comandos** en la ruta de instalación Exchange.
     
-        Cd $Env:ExchangeInstallPath\Scripts
+    ```powershell
+    Cd $Env:ExchangeInstallPath\Scripts
+    ```
 
 2.  Ejecute el script Import-RetentionTags.ps1 para importar las etiquetas de retención desde un archivo XML exportado previamente.
     
@@ -100,7 +106,9 @@ Para comprobar que ha exportado correctamente las etiquetas y directivas de rete
     > Cuando se ejecuta esta secuencia de comandos contra Exchange Online, se puede pedirá que confirme que desea ejecutar el software desde un publicador de confianza. Compruebe que el nombre del editor aparece como <CODE>CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</CODE>y, a continuación, haga clic en <STRONG>R</STRONG> para permitir que la secuencia de comandos debe ejecutarse una vez o <STRONG>A</STRONG> ejecutar siempre.
 
     
-        .\Import-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```powershell
+    .\Import-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

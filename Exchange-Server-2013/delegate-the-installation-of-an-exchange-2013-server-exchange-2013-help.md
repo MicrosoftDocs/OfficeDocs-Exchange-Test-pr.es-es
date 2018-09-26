@@ -67,17 +67,23 @@ El comando que debe usar para aprovisionar el servidor depende de si se ejecuta 
 
 3.  Cambie los directorios a la ubicación donde descargó y expandió los archivos de instalación de Exchange 2013. Si los archivos de instalación están ubicados en `C:\Downloads\Exchange 2013`, use el siguiente comando.
     
-        CD "C:\Downloads\Exchange 2013"
+    ```powershell
+    CD "C:\Downloads\Exchange 2013"
+    ```
 
 4.  Elija el comando que coincida con la ubicación en la que está ejecutando el programa de instalación:
     
       - **Si está ejecutando el programa de instalación en el equipo que se está aprovisionando**, ejecute el siguiente comando:
         
-            Setup.exe /NewProvisionedServer /IAcceptExchangeServerLicenseTerms
+        ```powershell
+        Setup.exe /NewProvisionedServer /IAcceptExchangeServerLicenseTerms
+        ```
     
       - **Si está ejecutando el programa de instalación en otro equipo**, ejecute el siguiente comando:
         
-            Setup.exe /NewProvisionedServer:<ComputerName> /IAcceptExchangeServerLicenseTerms
+        ```powershell
+        Setup.exe /NewProvisionedServer:<ComputerName> /IAcceptExchangeServerLicenseTerms
+        ```
 
 5.  Después de aprovisionar el servidor, debe asegurarse de que agregó los usuarios que deben poder instalar Exchange en servidores aprovisionados al grupo de roles de instalación delegada. Para obtener información sobre cómo agregar usuarios a un grupo de roles, vea [Add members to a role group](manage-role-group-members-exchange-2013-help.md).
 

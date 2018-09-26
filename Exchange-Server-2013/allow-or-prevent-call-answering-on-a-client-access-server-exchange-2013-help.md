@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir o evitar llamada responder servidor acceso cliente Exchange 2013 Help'
+title: 'Permitir o evitar la llamada a responder en un servidor de acceso de cliente: Exchange 2013 Help'
 TOCTitle: Permitir o evitar la llamada a responder en un servidor de acceso de cliente
 ms:assetid: 8287bb78-2621-4b80-a128-8f2ccd67923a
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb123529(v=EXCHG.150)
@@ -55,9 +55,13 @@ Para otras tareas de administración relacionadas con servidores de acceso de cl
 
 Este ejemplo permite que un servidor de acceso de cliente `UMCallRouter-05x.contoso.com` responda llamadas de voz entrantes, de fax, de operador automático o de Outlook Voice Access desde puertas de enlace VoIP, IP PBX, PBX con SIP habilitado y SBC, y escribe el cambio en el registro en el servidor UMCallRouter-05x.
 
-    Set-ServerComponentState -Component UnifiedMessaging -Identity UMCallRouter-05x.contoso.com -Requester Maintenance -State Active -LocalOnly
+```powershell
+Set-ServerComponentState -Component UnifiedMessaging -Identity UMCallRouter-05x.contoso.com -Requester Maintenance -State Active -LocalOnly
+```
 
 Este ejemplo evita que un servidor de acceso de cliente `UMCallRouter-05x.contoso.com` responda llamadas de voz entrantes, de fax, de operador automático o de Outlook Voice Access desde puertas de enlace VoIP, IP PBX, PBX con SIP habilitado y SBC, y escribe el cambio en Active Directory.
 
-    Set-ServerComponentState -Component UnifiedMessaging -Identity UMCallRouter-05x.contoso.com -Requester Maintenance -State Inactive -RemoteOnly
+```powershell
+Set-ServerComponentState -Component UnifiedMessaging -Identity UMCallRouter-05x.contoso.com -Requester Maintenance -State Inactive -RemoteOnly
+```
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar Exchange para aceptar correo de varios dominios autoritativos'
+title: 'Configurar Exchange para aceptar correo de varios dominios autoritativos: Exchange 2013 Help'
 TOCTitle: Configurar Exchange para aceptar correo de varios dominios autoritativos
 ms:assetid: 11801f73-4934-4025-a1c1-3935dada7e9b
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Aa996314(v=EXCHG.150)
@@ -73,11 +73,15 @@ A continuación, se muestran ejemplos de escenarios en los que es posible que la
 
 Para crear un nuevo dominio autoritativo, use la siguiente sintaxis.
 
-    New-AcceptedDomain -Name "<Unique Name>" -DomainName <SMTP domain> -DomainType Authoritative
+```powershell
+New-AcceptedDomain -Name "<Unique Name>" -DomainName <SMTP domain> -DomainType Authoritative
+```
 
 Por ejemplo, para crear un nuevo dominio autoritativo llamado «Fourth Coffee subsidiary» para el dominio fourthcoffee.com, ejecute el siguiente comando:
 
-    New-AcceptedDomain -Name "Fourth Coffee subsidiary" -DomainName fourthcoffee.com -DomainType Authoritative
+```powershell
+New-AcceptedDomain -Name "Fourth Coffee subsidiary" -DomainName fourthcoffee.com -DomainType Authoritative
+```
 
 ## ¿Cómo sabe si este paso se ha completado correctamente?
 
@@ -119,12 +123,15 @@ En el Shell, se usan dos comandos diferentes: un comando para modificar la direc
 
 Para cambiar la dirección de correo principal existente y conservar la antigua como dirección proxy, ejecute el comando siguiente:
 
-    Set-EmailAddressPolicy <EmailAddressPolicyIdentity> -EnabledEmailAddressTemplates SMTP:<NewPrimaryEmailAddress>,smtp:<OldPrimaryEmailAddress>
+```powershell
+Set-EmailAddressPolicy <EmailAddressPolicyIdentity> -EnabledEmailAddressTemplates SMTP:<NewPrimaryEmailAddress>,smtp:<OldPrimaryEmailAddress>
+```
 
 Por ejemplo, supongamos que la directiva de direcciones de correo de la organización usa el formato de direcciones de correo *useralias*`@contoso.com`. En este ejemplo se modifica el dominio de la dirección principal (responder a) de la directiva de direcciones de correo denominada «Default Policy» a `@fourthcoffee.com` y se mantiene la antigua dirección principal de respuesta en el dominio `@contoso.com` como dirección proxy (secundaria).
 
-    Set-EmailAddressPolicy "Default Policy" -EnabledEmailAddressTemplates SMTP:@fourthcoffee.com,smtp:@contoso.com
-
+```powershell
+Set-EmailAddressPolicy "Default Policy" -EnabledEmailAddressTemplates SMTP:@fourthcoffee.com,smtp:@contoso.com
+```
 
 > [!NOTE]
 > El calificador <CODE>SMTP</CODE> en mayúsculas especifica la dirección principal (responder a). El calificador <CODE>smtp</CODE> en minúsculas especifica una dirección proxy (secundaria).
@@ -133,11 +140,15 @@ Por ejemplo, supongamos que la directiva de direcciones de correo de la organiza
 
 Para aplicar la directiva de direcciones de correo actualizada a los destinatarios, use la sintaxis siguiente.
 
-    Update-EmailAddressPolicy <EamilAddressPolicyIdentity>
+```powershell
+Update-EmailAddressPolicy <EamilAddressPolicyIdentity>
+```
 
 Por ejemplo, para aplicar la directiva de direcciones de correo actualizada denominada «Default Policy», hay que ejecutar el siguiente comando:
 
-    Update-EmailAddressPolicy "Default Policy"
+```powershell
+Update-EmailAddressPolicy "Default Policy"
+```
 
 ## Sustituir la dirección de correo principal existente por un conjunto filtrado de destinatarios
 
@@ -179,9 +190,7 @@ Para crear direcciones de correo adicionales que se usarán como dirección de c
 
 6.  Haga clic en **Vista previa de destinatarios a los que se aplica la directiva** para ver los destinatarios a quienes se aplicará esta directiva.
 
-7.  
-    
-    Haga clic en **Guardar** para guardar los cambios y crear la directiva.
+7.  Haga clic en **Guardar** para guardar los cambios y crear la directiva.
 
 8.  Se mostrará una advertencia que indicará que la directiva de direcciones de correo electrónico no se aplicará hasta que la actualice. Una vez creada, selecciónela y, a continuación, haga clic en **Aplicar** en el panel de detalles.
 
@@ -189,15 +198,21 @@ Para crear direcciones de correo adicionales que se usarán como dirección de c
 
 Para cambiar la dirección de correo principal por un conjunto filtrado de destinatarios, use el comando siguiente:
 
-    New-EmailAddressPolicy -Name <Policy Name> -Priority <Integer> -IncludedRecipients <RecipientTypes> <Conditional Recipient Properties> -EnabledEmailAddressTemplates SMTP:@<NewPrimaryEmailAddress>
+```powershell
+New-EmailAddressPolicy -Name <Policy Name> -Priority <Integer> -IncludedRecipients <RecipientTypes> <Conditional Recipient Properties> -EnabledEmailAddressTemplates SMTP:@<NewPrimaryEmailAddress>
+```
 
 En este ejemplo se crea una directiva de direcciones de correo denominada «Fourth Coffee Recipients», se asigna esa directiva a los usuarios de buzones de correo del departamento Fourth Coffee y se define la prioridad más alta para la directiva de forma que se aplique la primera. Recuerde que la antigua dirección de correo principal no se conserva para estos destinatarios, por lo que no podrán recibir correo en sus antiguas direcciones de correo principales.
 
-    New-EmailAddressPolicy -Name "Fourth Coffee Recipients" -Priority 1 -IncludedRecipients MailboxUsers -ConditionalDepartment "Fourth Coffee" -EnabledEmailAddressTemplates SMTP:@fourthcoffee.com
+```powershell
+New-EmailAddressPolicy -Name "Fourth Coffee Recipients" -Priority 1 -IncludedRecipients MailboxUsers -ConditionalDepartment "Fourth Coffee" -EnabledEmailAddressTemplates SMTP:@fourthcoffee.com
+```
 
 Para aplicar la nueva directiva de direcciones de correo a los destinatarios afectados, ejecute el siguiente comando:
 
-    Update-EmailAddressPolicy "Fourth Coffee Recipients"
+```powershell
+Update-EmailAddressPolicy "Fourth Coffee Recipients"
+```
 
 ## ¿Cómo sabe si este paso se ha completado correctamente?
 

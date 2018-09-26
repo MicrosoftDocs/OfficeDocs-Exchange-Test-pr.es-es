@@ -45,11 +45,15 @@ Las funciones de administración que ya no se requieren pueden ser eliminadas de
 
 Para quitar una función sin funciones secundarias, use la siguiente sintaxis.
 
-    Remove-ManagementRole <role name>
+```powershell
+Remove-ManagementRole <role name>
+```
 
 En este ejemplo, se quita la función Administrador de servidor de Seattle.
 
-    Remove-ManagementRole "Seattle Server Administrators"
+```powershell
+Remove-ManagementRole "Seattle Server Administrators"
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Remove-ManagementRole](https://technet.microsoft.com/es-es/library/dd351170\(v=exchg.150\)).
 
@@ -65,13 +69,17 @@ Si una función que desea quitar tiene funciones secundarias, debe también elim
 
 Para asegurarse de que solamente quitará las funciones que desea, use el modificador *WhatIf* con el comando para comprobar que todo esté correcto. Use la siguiente sintaxis.
 
-    Remove-ManagementRole <role name> -Recurse -WhatIf
+```powershell
+Remove-ManagementRole <role name> -Recurse -WhatIf
+```
 
 El modificador *WhatIf* ejecuta el comando sin realizar ningún cambio e informa qué funciones hubiera eliminado. Para obtener más información sobre el modificador *WhatIf*, consulte [Modificadores WhatIf, Confirm y ValidateOnly](whatif-confirm-and-validateonly-switches-exchange-2013-help.md).
 
 Después de confirmar que solo se eliminarán las funciones que desea, ejecute el mismo comando sin el modificador *WhatIf*. En este ejemplo, se quita la función Administrador de Londres y todas sus funciones secundarias.
 
-    Remove-ManagementRole "London Administrators" -Recurse
+```powershell
+Remove-ManagementRole "London Administrators" -Recurse
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Remove-ManagementRole](https://technet.microsoft.com/es-es/library/dd351170\(v=exchg.150\)).
 
@@ -79,7 +87,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para eliminar una función sin ámbito, se pueden aplicar los mismos procedimientos anteriormente utilizados en este tema proporcionados en Remove a management role with no child roles y Remove a management role with child roles. La única diferencia es que cuando elimina una función sin ámbito, debe especificar el modificador *UnScopedTopLevel* al ejecutar este comando. En este ejemplo, se quita una función sin ámbito y todas sus funciones secundarias.
 
-    Remove-ManagementRole "Custom IT Scripts" -Recurse -UnScopedTopLevel
+```powershell
+Remove-ManagementRole "Custom IT Scripts" -Recurse -UnScopedTopLevel
+```
 
 Al quitar otras funciones, debe utilizar el modificador *WhatIf* para comprobar que se están quitando las funciones correctas.
 

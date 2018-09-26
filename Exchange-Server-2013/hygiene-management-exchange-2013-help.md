@@ -31,7 +31,9 @@ De manera predeterminada, solo los miembros del grupo de roles Administración d
 
 El siguiente comando se puede usar para ver una lista de usuarios o Grupos de seguridad universal (USG) que son miembros de este grupo de funciones.
 
-    Get-RoleGroupMember "Hygiene Management"
+```powershell
+Get-RoleGroupMember "Hygiene Management"
+```
 
 Para obtener más información acerca de los miembros de un grupo de roles, consulte la sección "Ver los miembros de un grupo de roles" en [Administrar miembros de grupos de roles](manage-role-group-members-exchange-2013-help.md).
 

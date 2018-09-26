@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configuración de la autenticación de OAuth con SharePoint 2013 y Lync 2013'
+title: 'Configuración de la autenticación de OAuth con SharePoint 2013 y Lync 2013: Exchange 2013 Help'
 TOCTitle: Configuración de la autenticación de OAuth con SharePoint 2013 y Lync 2013
 ms:assetid: ca3c78a3-80cc-4df2-859f-0106bbd57a07
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ649094(v=EXCHG.150)
@@ -51,13 +51,17 @@ Después de configurar la autenticación OAuth de Exchange, la aplicación de so
 
 Este ejemplo configura la autenticación OAuth para SharePoint 2013.
 
-    Cd C:\Program Files\Microsoft\Exchange Server\V15\Scripts
-    Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl https://sharepoint.contoso.com/_layouts/15/metadata/json/1 -ApplicationType SharePoint
+```powershell
+Cd C:\Program Files\Microsoft\Exchange Server\V15\Scripts
+Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl https://sharepoint.contoso.com/_layouts/15/metadata/json/1 -ApplicationType SharePoint
+```
 
 Este ejemplo configura la autenticación OAuth para Lync Server 2013.
 
-    Cd C:\Program Files\Microsoft\Exchange Server\V15\Scripts
-    Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl https://lync.contoso.com/metadata/json/1 -ApplicationType Lync
+```powershell
+Cd C:\Program Files\Microsoft\Exchange Server\V15\Scripts
+Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl https://lync.contoso.com/metadata/json/1 -ApplicationType Lync
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

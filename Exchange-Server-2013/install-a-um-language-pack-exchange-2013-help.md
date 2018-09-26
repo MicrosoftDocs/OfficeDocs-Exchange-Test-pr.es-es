@@ -53,13 +53,9 @@ Para consultar otras tareas relacionadas con los idiomas de mensajería unificad
 
 2.  Haga doble clic en el archivo UMLanguagePack.*\<CultureCode\>.exe*. Por ejemplo, para obtener el paquete de idioma de mensajería unificada de alemán, debe descargar el archivo denominado UMLanguagePack.de-DE.exe.
 
-3.  
-    
-    En el Asistente para la instalación de Exchange 2013, en la página **Contrato de licencia**, lea detenidamente las condiciones del contrato, seleccione la opción **Acepto los términos del contrato de licencia** y, después, haga clic en **Siguiente**.
+3.  En el Asistente para la instalación de Exchange 2013, en la página **Contrato de licencia**, lea detenidamente las condiciones del contrato, seleccione la opción **Acepto los términos del contrato de licencia** y, después, haga clic en **Siguiente**.
 
-4.  
-    
-    En la página **Paquete de idioma de mensajería unificada**, compruebe que aparezca el idioma correcto en la ventana **Se instalarán los siguientes paquetes de idioma de mensajería unificada** y, a continuación, haga clic en **Instalar**.
+4.  En la página **Paquete de idioma de mensajería unificada**, compruebe que aparezca el idioma correcto en la ventana **Se instalarán los siguientes paquetes de idioma de mensajería unificada** y, a continuación, haga clic en **Instalar**.
 
 5.  Haga clic en **Finalizar** para completar la instalación del paquete de idioma de UM.
 
@@ -67,11 +63,15 @@ Para consultar otras tareas relacionadas con los idiomas de mensajería unificad
 
 En este ejemplo, se instala el paquete de idioma de mensajería unificada del japonés (ja-JP), el cual se ha descargado a la carpeta D:\\Exchange\\UMLanguagePacks de un servidor de buzones de correo.
 
-    setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```powershell
+setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```
 
 En este ejemplo, se instalan los paquetes de idiomas de UM del español de México (es-MX) y del alemán (de-DE), los cuales se han descargado a la carpeta D:\\Exchange\\UMLanguagePacks de un servidor de buzones de correo.
 
-    setup.exe /AddUmLanguagePack:es-MX,de-DE /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```powershell
+setup.exe /AddUmLanguagePack:es-MX,de-DE /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```
 
 
 > [!WARNING]

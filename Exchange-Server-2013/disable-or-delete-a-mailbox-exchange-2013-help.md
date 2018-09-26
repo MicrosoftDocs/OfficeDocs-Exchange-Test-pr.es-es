@@ -133,18 +133,23 @@ El buzón de correo se elimina de la lista de buzones.
 
 Use el siguiente comando para deshabilitar buzones de correo de usuario, buzones vinculados, buzones de recurso y buzones compartidos.
 
-    Disable-Mailbox <identity>
+```powershell
+Disable-Mailbox <identity>
+```
 
 Cuando ejecute este comando, aparecerá un mensaje que le solicitará que confirme que desea deshabilitar el buzón de correo.
 
 A continuación, se muestran algunos ejemplos de comandos para deshabilitar buzones de correo.
-```
+
+```powershell
     Disable-Mailbox danj
 ```
-```
+
+```powershell
     Disable-Mailbox "Conf Room 31/1234 (12)"
 ```
-```
+
+```powershell
     Disable-Mailbox sharedmbx@contoso.com
 ```
 
@@ -158,7 +163,9 @@ Para comprobar que haya deshabilitado un buzón de correo correctamente, siga un
 
   - En el Shell, ejecute el siguiente comando.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisconnectReason,DisconnectDate
+    ```powershell
+    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisconnectReason,DisconnectDate
+    ```
     
     El valor `Disabled` en la propiedad *DisconnectReason* indica que el buzón de correo está deshabilitado.
     
@@ -170,7 +177,9 @@ Para comprobar que haya deshabilitado un buzón de correo correctamente, siga un
 
   - En el Shell, ejecute el siguiente comando.
     
-        Get-User <identity>
+    ```powershell
+    Get-User <identity>
+    ```
     
     Tenga en cuenta que el valor para la propiedad *RecipientType* es `User`, en vez de `UserMailbox`, que es el valor para los usuarios con buzones de correo habilitados. Esto también comprueba que el buzón de correo esté deshabilitado pero la cuenta de usuario se conserve.
 
@@ -194,18 +203,23 @@ El buzón de correo se elimina de la lista de buzones.
 
 Use el siguiente comando para eliminar buzones de correo de usuario, buzones vinculados, buzones de recurso y buzones compartidos.
 
-    Remove-Mailbox <identity>
+```powershell
+Remove-Mailbox <identity>
+```
 
 Cuando ejecute este comando, aparecerá un mensaje que le solicitará que confirme que desea eliminar el buzón de correo y la cuenta de usuario de Active Directory correspondiente.
 
 A continuación, se muestran algunos ejemplos de comandos para eliminar buzones de correo.
-```
+
+```powershell
     Remove-Mailbox pilarp@contoso.com
 ```
-```
+
+```powershell
     Remove-Mailbox "Fleet Van (16)"
 ```
-```
+
+```powershell
     Remove-Mailbox corpprint
 ```
 
@@ -221,7 +235,9 @@ O bien
 
 1.  Ejecute el siguiente comando para comprobar que el buzón se haya eliminado.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisconnectReason,DisconnectDate
+    ```powershell
+    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisconnectReason,DisconnectDate
+    ```
     
     El valor `Disabled` en la propiedad *DisconnectReason* indica que el buzón de correo se ha eliminado.
     
@@ -233,7 +249,9 @@ O bien
 
 2.  Ejecute el siguiente comando para comprobar que la cuenta de usuario de Active Directory se haya eliminado.
     
-        Get-User <identity>
+    ```powershell
+    Get-User <identity>
+    ```
     
     El comando devolverá un error que indica que no se pudo encontrar el usuario, lo que comprobará que la cuenta se eliminó.
 

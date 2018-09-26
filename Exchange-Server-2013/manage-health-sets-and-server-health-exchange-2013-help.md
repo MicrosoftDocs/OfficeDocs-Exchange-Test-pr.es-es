@@ -48,21 +48,26 @@ Puede usar el Shell para obtener un resumen del mantenimiento de un servidor que
 ## Usar el Shell para ver el mantenimiento del servidor
 
 Ejecute cualquiera de los siguientes comandos para ver los conjuntos de mantenimiento y la información de mantenimiento en un servidor que ejecuta Exchange 2013.
+
+```powershell
+Get-HealthReport -Identity <ServerName>
 ```
-    Get-HealthReport -Identity <ServerName>
-```
-```
-    Get-ServerHealth -Identity <ServerName> | Format-Table Server,CurrentHealthSetState,Name,HealthSetName,AlertValue,HealthGroupName -Auto
+
+```powershell
+Get-ServerHealth -Identity <ServerName> | Format-Table Server,CurrentHealthSetState,Name,HealthSetName,AlertValue,HealthGroupName -Auto
 ```
 
 Ejecute cualquiera de los siguientes comandos para ver conjuntos de mantenimiento en un servidor o grupo de disponibilidad de bases de datos que ejecuta Exchange 2013.
+
+```powershell
+Get-ExchangeServer | Get-HealthReport -RollupGroup
 ```
-    Get-ExchangeServer | Get-HealthReport -RollupGroup
+
+```powershell
+Get-ExchangeServer | Get-HealthReport -RollupGroup -HealthSetName <HealthSet>
 ```
-```
-    Get-ExchangeServer | Get-HealthReport -RollupGroup -HealthSetName <HealthSet>
-```
-```
+
+```powershell
     (Get-DatabaseAvailabiltyGroup <DAGName>).Servers | Get-HealthReport -RollupGroup
 ```
 
@@ -74,7 +79,9 @@ Un conjunto de mantenimiento es un grupo de monitores, sondeos y respondedores d
 
 Ejecute el siguiente comando para ver los conjuntos de mantenimiento en un servidor que ejecuta Exchange 2013.
 
-    Get-HealthReport -Server <ServerName>
+```powershell
+Get-HealthReport -Server <ServerName>
+```
 
 ## Ver los sondeos, monitores y respondedores para un conjunto de mantenimiento
 
@@ -84,7 +91,9 @@ Un conjunto de mantenimiento es un grupo de monitores, sondeos y respondedores d
 
 Ejecute el siguiente comando para ver los sondeos, monitores y respondedores asociados con un conjunto de mantenimiento en un servidor que ejecuta Exchange 2013.
 
-    Get-MonitoringItemIdentity -Server <ServerName> -Identity <HealthSetName> | Format-Table Identity,ItemType,Name -Auto
+```powershell
+Get-MonitoringItemIdentity -Server <ServerName> -Identity <HealthSetName> | Format-Table Identity,ItemType,Name -Auto
+```
 
 ## Ver una lista de monitores y su mantenimiento actual
 
@@ -94,5 +103,7 @@ El mantenimiento de un monitor se notifica mediante los "peores" monitores en el
 
 Ejecute el siguiente comando para ver una lista de monitores y su mantenimiento actual en un servidor que ejecuta Exchange 2013.
 
-    Get-ServerHealth -HealthSet <HealthSetName> -Server <ServerName> | Format-Table Name, AlertValue -Auto
+```powershell
+Get-ServerHealth -HealthSet <HealthSetName> -Server <ServerName> | Format-Table Name, AlertValue -Auto
+```
 

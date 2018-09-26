@@ -257,7 +257,9 @@ Para obtener más información sobre cómo administrar la pertenencia de grupos 
 
 Como se mencionó anteriormente, un grupo de funciones se compone de varias capas. Para ayudar a comprender qué sucede cuando se crea un grupo de funciones, tenga en cuenta el siguiente ejemplo, el cual crea un grupo de funciones nuevo.
 
-    New-RoleGroup -Name "Seattle Recipient Management" -Roles "Mail Recipients", "Distribution Groups", "Move Mailboxes", "UM Mailboxes" -CustomRecipientWriteScope "Seattle Users", -ManagedBy "Brian", "David", "Katie" -Members "Ray", "Jenn", "Maria", "Chris", "Maija", "Carter", "Jenny", "Sam", "Lukas", "Isabel", "Katie"
+  ```powershell
+  New-RoleGroup -Name "Seattle Recipient Management" -Roles "Mail Recipients", "Distribution Groups", "Move Mailboxes", "UM Mailboxes" -CustomRecipientWriteScope "Seattle Users", -ManagedBy "Brian", "David", "Katie" -Members "Ray", "Jenn", "Maria", "Chris", "Maija", "Carter", "Jenny", "Sam", "Lukas", "Isabel", "Katie"
+  ```
 
 Cuando se ejecuta el comando anterior, ocurre lo siguiente:
 

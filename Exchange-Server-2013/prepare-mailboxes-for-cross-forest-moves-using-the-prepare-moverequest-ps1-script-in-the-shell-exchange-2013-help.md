@@ -1,5 +1,5 @@
 ﻿---
-title: 'Preparar buzones para mover entre bosques script Prepare-MoveRequest.ps1 Shell'
+title: 'Preparar buzones para moverlos entre bosques con el script Prepare-MoveRequest.ps1 en el Shell: Exchange 2013 Help'
 TOCTitle: Preparar buzones para moverlos entre bosques con el script Prepare-MoveRequest.ps1 en el Shell
 ms:assetid: 2cea59fb-69b7-4a2f-833f-de4d93cf1810
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Ee861103(v=EXCHG.150)
@@ -59,12 +59,16 @@ Para asignar una credencial de autenticación específica para el controlador de
 
 1.  Ejecute los siguientes comandos para obtener las credenciales del bosque remoto y del bosque local.
     
-        $LocalCredentials = Get-Credential
-        $RemoteCredentials = Get-Credential
+```powershell
+$LocalCredentials = Get-Credential
+$RemoteCredentials = Get-Credential
+```
 
 2.  Ejecute los siguientes comandos para pasar la información de credenciales a los parámetros *LocalForestCredential* y *RemoteForestCredential* del script "Prepare-MoveRequest.ps1".
     
-        Prepare-MoveRequest.ps1 -Identity JohnSmith@Fabrikan.com -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $RemoteCredentials -LocalForestDomainController DC001.Contoso.com -LocalForestCredential $LocalCredentials
+```powershell
+Prepare-MoveRequest.ps1 -Identity JohnSmith@Fabrikan.com -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $RemoteCredentials -LocalForestDomainController DC001.Contoso.com -LocalForestCredential $LocalCredentials
+```
 
 ## Conjunto de parámetros del script
 
@@ -174,12 +178,16 @@ El siguiente ejemplo aprovisiona un usuario habilitado para correo vinculado y �
 
 1.  Ejecute los siguientes comandos para obtener las credenciales del bosque remoto y del bosque local.
     
-        $LocalCredentials = Get-Credential
-        $RemoteCredentials = Get-Credential
+```powershell
+$LocalCredentials = Get-Credential
+$RemoteCredentials = Get-Credential
+```
 
 2.  Ejecute el siguiente comando para pasar la información de credenciales a los parámetros *LocalForestCredential* y *RemoteForestCredential* del script "Prepare-MoveRequest.ps1".
     
-        Prepare-MoveRequest.ps1 -Identity JamesAlvord@Contoso.com -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $RemoteCredentials -LocalForestDomainController DC001.Contoso.com -LocalForestCredential $LocalCredentials -LinkedMailUser 
+```powershell
+Prepare-MoveRequest.ps1 -Identity JamesAlvord@Contoso.com -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $RemoteCredentials -LocalForestDomainController DC001.Contoso.com -LocalForestCredential $LocalCredentials -LinkedMailUser 
+```
 
 ## Ejemplo: Canalización
 
@@ -187,11 +195,15 @@ Este ejemplo es compatible con la canalización si se proporciona una lista de l
 
 1.  Ejecute el siguiente comando.
     
-        $UserCredentials = Get-Credential
+```powershell
+$UserCredentials = Get-Credential
+```
 
 2.  Ejecute el comando siguiente para pasar la información de credenciales al parámetro *RemoteForestCredential* del script Prepare-MoveRequest.ps1.
     
-        "IanP@Contoso.com", "JoeAn@Contoso.com" | Prepare-MoveRequest.ps1 -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $UserCredentials
+```powershell
+"IanP@Contoso.com", "JoeAn@Contoso.com" | Prepare-MoveRequest.ps1 -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $UserCredentials
+```
 
 ## Ejemplo: Utilizar un archivo .csv para crear usuarios habilitados para correo de forma masiva
 
@@ -211,11 +223,15 @@ En este ejemplo, se le solicita a un archivo .csv crear de forma masiva los usua
 
 1.  Ejecute el siguiente comando para obtener las credenciales del bosque remoto.
     
-        $UserCredentials = Get-Credential
+```powershell
+$UserCredentials = Get-Credential
+```
 
 2.  Ejecute el comando siguiente para pasar la información de credenciales al parámetro *RemoteForestCredential* del script Prepare-MoveRequest.ps1.
     
-        Import-Csv Test.csv | Prepare-MoveRequest.ps1 -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $UserCredentials
+```powershell
+Import-Csv Test.csv | Prepare-MoveRequest.ps1 -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $UserCredentials
+```
 
 ## Comportamiento del script por objeto de destino
 

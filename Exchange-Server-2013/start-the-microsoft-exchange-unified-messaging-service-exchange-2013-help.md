@@ -1,5 +1,5 @@
 ﻿---
-title: 'Iniciar el servicio de UM de Microsoft Exchange: Exchange 2013 Help'
+title: 'Iniciar el servicio de mensajería unificada de Microsoft Exchange: Exchange 2013 Help'
 TOCTitle: Iniciar el servicio de mensajería unificada de Microsoft Exchange
 ms:assetid: b54008e6-172e-4435-8516-57cff740e89c
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124330(v=EXCHG.150)
@@ -57,5 +57,7 @@ Para otras tareas de administración relacionadas con los servidores de buzones,
 
 2.  En el cuadro **Abrir**, escriba el siguiente comando y, a continuación, presione Entrar.
     
-        net start MSExchangeUM
+    ```powershell
+    net start MSExchangeUM
+    ```
 

@@ -49,9 +49,7 @@ Para ver otras tareas de administración relacionadas con las directivas de dire
 
 2.  En la vista de lista, seleccione la directiva de direcciones de correo electrónico que quiere cambiar y haga clic en **Editar**![Icono Editar](images/Bb124582.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Icono Editar").
 
-3.  
-    
-    En **Directiva de direcciones de correo electrónico**, haga clic en **Aplicar a** y modifique la configuración.
+3.  En **Directiva de direcciones de correo electrónico**, haga clic en **Aplicar a** y modifique la configuración.
 
 ## Utilice el EAC para cambiar la prioridad de directiva de direcciones de correo electrónico
 
@@ -65,7 +63,9 @@ Un usuario puede tener varias direcciones de correo electrónico del proxy para 
 
 En este ejemplo se edita la directiva de direcciones de correo electrónico de South East Offices que actualmente incluye los destinatarios de Georgia, Alabama y Louisiana para que incluya también los destinatarios de Texas.
 
-    Set-EmailAddressPolicy -Identity "South East Offices" -ConditionalStateorProvince "Georgia","Alabama","Louisiana","Texas"
+```powershell
+Set-EmailAddressPolicy -Identity "South East Offices" -ConditionalStateorProvince "Georgia","Alabama","Louisiana","Texas"
+```
 
 
 > [!NOTE]

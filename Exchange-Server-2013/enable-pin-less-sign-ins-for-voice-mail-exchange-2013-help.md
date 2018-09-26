@@ -65,11 +65,15 @@ Para tareas adicionales relacionadas con buzones de mensajería unificada (UM), 
 
 Este ejemplo permite el acceso al correo de voz sin PIN en una directiva de buzón de mensajería unificada (UM) denominada `MyUMMailboxPolicy` para usuarios asociados con la directiva de buzón que marcan en Outlook Voice Access.
 
-    Set-UMMailboxPolicy -id MyUMMailboxPolicy -AllowPinlessVoiceMailAccess $true
+```powershell
+Set-UMMailboxPolicy -id MyUMMailboxPolicy -AllowPinlessVoiceMailAccess $true
+```
 
 ## Usar el Shell para habilitar el acceso sin PIN al correo de voz en un buzón de usuario habilitado para MU
 
 Este ejemplo habilita el acceso para correo de voz sin PIN para el usuario que marca en Outlook Voice Access para llegar al buzón denominado `tonys@contoso.com`.
 
-    Set-UMMailbox -id tonys@contoso.com -PinlessAccessToVoiceMailEnabled $true
+```powershell
+Set-UMMailbox -id tonys@contoso.com -PinlessAccessToVoiceMailEnabled $true
+```
 

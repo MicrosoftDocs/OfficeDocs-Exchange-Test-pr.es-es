@@ -49,7 +49,9 @@ Para obtener más información acerca de los buzones de correo desconectados y r
 
   - Para verificar que el buzón de correo eliminado al cual desea conectar una cuenta de usuario existe en la base de datos del buzón de correo y que no se trata de un buzón de correo eliminado temporalmente, ejecute el siguiente comando.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,Database,DisconnectReason
+    ```powershell
+    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,Database,DisconnectReason
+    ```
     
     El buzón de correo eliminado debe existir en la base de datos de buzones de correo y el valor de la propiedad *DisconnectReason* debe ser `Disabled`. Si el buzón de correo no se ha purgado de la base de datos, el comando no devolverá ningún resultado.
 
@@ -101,7 +103,9 @@ Use el cmdlet **Connect-Mailbox** en el Shell para conectar un buzón de correo 
 
 En este ejemplo se conecta un buzón de correo de usuario. El parámetro *Identity* especifica el nombre para mostrar del buzón de correo eliminado retenido en la base de datos de buzones de correo denominada MBXDB01. El parámetro *User* especifica la cuenta de usuario de Active Directory que desea conectar al buzón de correo.
 
-    Connect-Mailbox -Identity "Paul Cannon" -Database MBXDB01 -User "Robin Wood" -Alias robinw
+```powershell
+Connect-Mailbox -Identity "Paul Cannon" -Database MBXDB01 -User "Robin Wood" -Alias robinw
+```
 
 
 > [!NOTE]
@@ -111,19 +115,27 @@ En este ejemplo se conecta un buzón de correo de usuario. El parámetro *Identi
 
 En este ejemplo se conecta un buzón vinculado. El parámetro *Identity* especifica el buzón de correo eliminado en la base de datos de buzones de correo denominada MBXDB02. El parámetro *LinkedMasterAccount* especifica la cuenta de usuario de Active Directory en el bosque de cuentas al cual desea conectar el buzón de correo. El parámetro *LinkedDomainController* especifica un controlador de dominios en el bosque de cuentas.
 
-    Connect-Mailbox -Identity "Temp User" -Database MBXDB02 -LinkedDomainController FabrikamDC01 -LinkedMasterAccount danpark@fabrikam.com -Alias dpark
+```powershel
+Connect-Mailbox -Identity "Temp User" -Database MBXDB02 -LinkedDomainController FabrikamDC01 -LinkedMasterAccount danpark@fabrikam.com -Alias dpark
+```
 
 En este ejemplo se conecta un buzón de sala.
 
-    Connect-Mailbox -Identity "rm2121" -Database "MBXResourceDB" -User "Conference Room 2121" -Alias ConfRm2121 -Room
+```powershell
+Connect-Mailbox -Identity "rm2121" -Database "MBXResourceDB" -User "Conference Room 2121" -Alias ConfRm2121 -Room
+```
 
 En este ejemplo se conecta un buzón de equipo.
 
-    Connect-Mailbox -Identity "MotorPool01" -Database "MBXResourceDB" -User "Van01 (12 passengers)" -Alias van01 -Equipment
+```powershell
+Connect-Mailbox -Identity "MotorPool01" -Database "MBXResourceDB" -User "Van01 (12 passengers)" -Alias van01 -Equipment
+```
 
 En este ejemplo se conecta un buzón de correo compartido.
 
-    Connect-Mailbox -Identity "Printer Support" -Database MBXDB01 -User "Corp Printer Support" -Alias corpprint -Shared
+```powershell
+Connect-Mailbox -Identity "Printer Support" -Database MBXDB01 -User "Corp Printer Support" -Alias corpprint -Shared
+```
 
 
 > [!NOTE]
@@ -143,7 +155,9 @@ Para comprobar si creó un buzón de correo eliminado conectado a una cuenta de 
 
   - En el Shell, ejecute el siguiente comando.
     
-        Get-User <identity>
+    ```powershell
+    Get-User <identity>
+    ```
     
     El valor **UserMailbox** de la propiedad *RecipientType* indica que la cuenta de usuario y el buzón de correo están conectados. También puede ejecutar el comando **Get-Mailbox \<identity\>** para verificar que el buzón de correo estaba conectado.
 
@@ -163,15 +177,21 @@ Cuando una solicitud de restauración de buzones de correo se completa correctam
 
 Para crear una solicitud de restauración de buzones de correo, debe usar el nombre para mostrar, el nombre distintivo heredado (DN) o el GUID del buzón de correo del buzón de correo eliminado. Use el cmdlet **Get-MailboxStatistics** para mostrar los valores de las propiedades `DisplayName`, `MailboxGuid` y `LegacyDN` del buzón de correo eliminado que desee restaurar. Por ejemplo, ejecute el siguiente comando para devolver esta información a todos los buzones de correo deshabilitados y eliminados de su organización.
 
-    Get-MailboxDatabase | Get-MailboxStatistics | Where {$_.DisconnectReason -eq "Disabled"} | fl DisplayName,MailboxGuid,LegacyDN,Database
+```powershell
+Get-MailboxDatabase | Get-MailboxStatistics | Where {$_.DisconnectReason -eq "Disabled"} | fl DisplayName,MailboxGuid,LegacyDN,Database
+```
 
 Este ejemplo restaura el buzón de correo eliminado, que se identifica con el parámetro *SourceStoreMailbox* y se encuentra en la base de datos de buzones de correo MBXDB01, en el buzón de correo de destino de Debra Garcia. El parámetro *AllowLegacyDNMismatch* se usa para que el buzón de correo de origen se pueda restaurar en otro buzón de correo, uno que no tenga el mismo valor DN heredado.
 
-    New-MailboxRestoreRequest -SourceStoreMailbox e4890ee7-79a2-4f94-9569-91e61eac372b -SourceDatabase MBXDB01 -TargetMailbox "Debra Garcia" -AllowLegacyDNMismatch
+```powershell
+New-MailboxRestoreRequest -SourceStoreMailbox e4890ee7-79a2-4f94-9569-91e61eac372b -SourceDatabase MBXDB01 -TargetMailbox "Debra Garcia" -AllowLegacyDNMismatch
+```
 
 Este ejemplo restaura el buzón de correo de archivo eliminado de Pilar Pinilla en su buzón de correo de archivo actual. El parámetro *AllowLegacyDNMismatch* no es necesario porque un buzón de correo principal y su buzón de correo de archivo correspondiente tienen el mismo DN heredado.
 
-    New-MailboxRestoreRequest -SourceStoreMailbox "Personal Archive - Pilar Pinilla" -SourceDatabase "MDB01" -TargetMailbox pilarp@contoso.com -TargetIsArchive
+```powershell
+New-MailboxRestoreRequest -SourceStoreMailbox "Personal Archive - Pilar Pinilla" -SourceDatabase "MDB01" -TargetMailbox pilarp@contoso.com -TargetIsArchive
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-MailboxRestoreRequest](https://technet.microsoft.com/es-es/library/ff829875\(v=exchg.150\)).
 
@@ -183,7 +203,9 @@ Necesitará el GUID del buzón de carpeta pública eliminado, así como el GUID 
 
 1.  Para obtener el nombre de dominio completo (FQDN) del controlador de dominio y bosque de Active Directory, ejecute el siguiente cmdlet:
     
-        Get-OrganizationConfig | fl OriginatingServer
+    ```powershell
+    Get-OrganizationConfig | fl OriginatingServer
+    ```
 
 2.  Con la información devuelta por el paso 1, busque el contenedor de objetos eliminados en Active Directory para el GUID del buzón de carpeta pública y el GUID o nombre de la base de datos de buzones de correo en la que se encontraba el buzón de carpeta pública eliminado.
     
@@ -197,15 +219,21 @@ Si conoce el GUID del buzón de carpeta pública eliminado y el nombre o GUID de
 
 1.  Cree un nuevo objeto de Active Directory ejecutando los comandos siguientes (es posible que deba proporcionar las credenciales adecuadas):
     
-        New-MailUser <mailUserName> -ExternalEmailAddress <emailAddress> 
+    ```powershell
+    New-MailUser <mailUserName> -ExternalEmailAddress <emailAddress> 
+    ```
         
-        Get-MailUser <mailUserName> | Disable-MailUser
+    ```powershell
+    Get-MailUser <mailUserName> | Disable-MailUser
+    ```
     
     Donde `<mailUserName>`, `<emailAddress>` y `<mailUserName>` son valores que usted elige. Tendrá que usar el mismo valor `<mailUserName>` en el paso siguiente.
 
 2.  Conecte el buzón de carpeta pública eliminado para el objeto de Active Directory que acaba de crear ejecutando el siguiente comando:
     
-        Connect-Mailbox -Identity <public folder mailbox GUID> -Database <database name or GUID> -User <mailUserName>
+    ```powershell
+    Connect-Mailbox -Identity <public folder mailbox GUID> -Database <database name or GUID> -User <mailUserName>
+    ```
     
 
     > [!NOTE]
@@ -215,7 +243,9 @@ Si conoce el GUID del buzón de carpeta pública eliminado y el nombre o GUID de
 
 3.  Ejecute `Update-StoreMailboxState` en el buzón de carpeta pública, con base en el ejemplo siguiente:
     
-        Update-StoreMailboxState -Identity <public folder mailbox GUID> -Database <database name or GUID>
+    ```powershell
+    Update-StoreMailboxState -Identity <public folder mailbox GUID> -Database <database name or GUID>
+    ```
     
     Como en el paso 2, el parámetro `Identity` acepta valores de LegacyExchangeDN, nombre para mostrar o GUID para el buzón de carpeta pública.
 

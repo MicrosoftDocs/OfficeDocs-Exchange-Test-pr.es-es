@@ -52,28 +52,37 @@ En este ejemplo se crea la directiva de aprovisionamiento predeterminada SM\_Pro
   - El tamaño máximo de los mensajes de correo electrónico que se pueden enviar a los buzones de sitio es de 50 MB.
 
 <!-- end list -->
-
+```powershell
     New-SiteMailboxProvisioningPolicy -Name SM_ProvisioningPolicy -IsDefault -IssueWarningQuota 9GB -ProhibitSendReceiveQuota 10GB -MaxReceiveSize 50MB
+```
 
 ## Ver la configuración de una directiva de aprovisionamiento de buzón del sitio
 
 En este ejemplo se devuelve la información detallada sobre todas las directivas de aprovisionamiento de buzón de la organización.
 
-    Get-SiteMailboxProvisioningPolicy | Format-List
+```powershell
+Get-SiteMailboxProvisioningPolicy | Format-List
+```
 
 En este ejemplo se devuelven todas las directivas de la organización, pero solamente se muestra la información `IsDefault` para identificar la directiva predeterminada.
 
-    Get-SiteMailboxProvisioningPolicy | Format-List IsDefault
+```powershell
+Get-SiteMailboxProvisioningPolicy | Format-List IsDefault
+```
 
 ## Realizar cambios en una directiva de aprovisionamiento de buzón del sitio existente
 
 Este ejemplo cambia la directiva de aprovisionamiento de buzón de sitio denominada Default a fin de permitir que el tamaño máximo de mensajes de correo electrónico que el buzón de sitio puede recibir sea de 25 MB. (Cuando instala Exchange, se crea una directiva de aprovisionamiento con el nombre **Predeterminado**.)
 
-    Set-SiteMailboxProvisioningPolicy -Identity Default -MaxReceiveSize 25MB
+```powershell
+Set-SiteMailboxProvisioningPolicy -Identity Default -MaxReceiveSize 25MB
+```
 
 Este ejemplo cambia la cuota de advertencia a 9,5 GB y la cuota de prohibir envío y de prohibir recepción a 10 GB.
 
+```powershell
     Set-SiteMailboxProvisioningPolicy -Identity Default -IssueWarningQuota 9GB -ProhibitSendReceiveQuota 10GB
+```
 
 ## Configurar un prefijo de nombre en el buzón del sitio
 
@@ -81,7 +90,9 @@ Al crear un nuevo buzón del sitio, la dirección de correo predeterminada tendr
 
 En este ejemplo se deshabilita la nomenclatura del prefijo configurando el parámetro *DefaultAliasPrefixEnabled* en $false.
 
+```powershell
     Set-SiteMailboxProvisioningPolicy -Identity Default -DefaultAliasPrefixEnabled $false -AliasPrefix $null
+```
 
 En este otro ejemplo se modifica la directiva de aprovisionamiento predeterminado y se define el *AliasPrefix* en FOREST01.
 
@@ -90,8 +101,9 @@ En este otro ejemplo se modifica la directiva de aprovisionamiento predeterminad
 > Para las implementaciones con varios bosques, se recomienda usar un prefijo diferente en cada bosque para evitar conflictos cuando los objetos se sincronicen entre los bosques en caso de que los buzones de sitios se hayan creado con el mismo nombre en dos o más bosques.
 
 
-
+```powershell
     Set-SiteMailboxProvisioningPolicy -Identity Default -AliasPrefix FOREST01 -DefaultAliasPrefixEnabled $false
+```
 
 
 > [!NOTE]
@@ -103,7 +115,9 @@ En este otro ejemplo se modifica la directiva de aprovisionamiento predeterminad
 
 Este ejemplo elimina la directiva del buzón del sitio predeterminada que se creó durante la instalación de Exchange.
 
-    Remove-SiteMailboxProvisioningPolicy -Identity Default
+```powershell
+Remove-SiteMailboxProvisioningPolicy -Identity Default
+```
 
 
 > [!IMPORTANT]

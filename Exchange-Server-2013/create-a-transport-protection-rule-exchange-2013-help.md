@@ -76,7 +76,9 @@ Para ver tareas de administración adicionales relacionadas con la Configuració
 
   - Para crear una regla de protección de transporte, debe tener plantillas RMS existentes en su implementación AD RMS. En este ejemplo, se recuperan las plantillas disponibles desde el clúster de AD RMS.
     
-        Get-RMSTemplate | format-list
+      ```powershell
+      Get-RMSTemplate | format-list
+      ```
     
     Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-RMSTemplate](https://technet.microsoft.com/es-es/library/dd297960\(v=exchg.150\)).
 
@@ -87,7 +89,9 @@ Para ver tareas de administración adicionales relacionadas con la Configuració
     > En este ejemplo se usa el predicado <CODE>SubjectContainsWords</CODE>. Puede usar cualquier combinación de predicados de reglas de transporte para formar las condiciones y excepciones de la regla. Para obtener información acerca de los predicados disponibles, consulte <A href="mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md">Condiciones de las reglas de transporte (predicados)</A>.
 
     
-        New-TransportRule -Name "Protect-BusinessCriticalProject" -SubjectContainsWords "Business Critical" -ApplyRightsProtectionTemplate "Do Not Forward"
+      ```powershell
+      New-TransportRule -Name "Protect-BusinessCriticalProject" -SubjectContainsWords "Business Critical" -ApplyRightsProtectionTemplate "Do Not Forward"
+      ```
     
     Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-TransportRule](https://technet.microsoft.com/es-es/library/bb125138\(v=exchg.150\)).
 

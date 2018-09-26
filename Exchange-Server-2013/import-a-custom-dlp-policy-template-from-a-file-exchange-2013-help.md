@@ -20,7 +20,7 @@ _**Última modificación del tema:** 2016-08-09_
 Puede administrar la información confidencial con las directivas de DLP mediante la importación de un archivo que contiene la configuración de información de directivas. Pueden desarrollarse plantillas de directivas DLP independientes de Exchange como archivos XML. Pero deben cumplir con requisitos de formato específicos para funcionar correctamente. Opcionalmente, las directivas que se exportan de una versión anterior de Exchange se pueden importar a Microsoft Exchange Server 2013.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Debe habilitar sus directivas de DLP en modo de prueba antes de ejecutarlo en su entorno de producción. Durante dichas pruebas, se recomienda que configure buzones de usuarios de ejemplo y envíe mensajes de prueba que invoquen las directivas de prueba para confirmar los resultados.
 
 
@@ -34,7 +34,7 @@ Puede administrar la información confidencial con las directivas de DLP mediant
   - Para obtener información acerca de los métodos abreviados de teclado aplicables a los procedimientos de este tema, consulte [Métodos abreviados de teclado en el Centro de administración de Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > ¿Tiene algún problema? Solicite ayuda en los foros de Exchange. Visite los foros en <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, o <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>.
 
 
@@ -65,9 +65,10 @@ Use el siguiente procedimiento para importar una plantilla de directiva de DLP p
 
 En este ejemplo se importa un archivo de plantilla de directiva de DLP personalizada en el archivo C:\\Mis documentos\\DLP Backup.xml. Importar una colección de directivas de DLP desde un archivo XML elimina o sobrescribe todas las directivas de DLP preexistentes que se definieron en la organización. Asegúrese de que tiene una copia de seguridad de la colección de directivas DLP antes de importar y sobrescribir las directivas DLP actuales.
 
-    Import-DlpPolicyCollection -FileData ([Byte[]]$(Get-Content -Path " C:\My Documents\DLP Backup.xml " -Encoding Byte -ReadCount 0))
+```powershell
+Import-DlpPolicyCollection -FileData ([Byte[]]$(Get-Content -Path " C:\My Documents\DLP Backup.xml " -Encoding Byte -ReadCount 0))
+```
 
 ## Más información
 
 [Prevención de pérdida de datos](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
-

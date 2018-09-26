@@ -41,7 +41,9 @@ Para obtener tareas adicionales relacionadas con los idiomas de mensajería unif
 
 En el símbolo del sistema, ejecute el comando siguiente.
 
-    Setup.exe /RemoveUmLanguagePack:<UmLanguagePackName>
+```powershell
+Setup.exe /RemoveUmLanguagePack:<UmLanguagePackName>
+```
 
 En el comando anterior, *\<UmLanguagePackName\>* es el nombre del paquete de idioma de mensajería unificada, por ejemplo fr-FR.
 

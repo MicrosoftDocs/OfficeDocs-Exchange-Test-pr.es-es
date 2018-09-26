@@ -49,11 +49,15 @@ For additional management tasks related to federated sharing, see [Procedimiento
 
 This example disables the OrgID and disables federation and federated sharing for the Exchange organization.
 
-    Set-FederatedOrganizationIdentifier -Enabled $false
+```powershell
+Set-FederatedOrganizationIdentifier -Enabled $false
+```
 
 This example enables the OrgID and re-enables federation and federated sharing for the Exchange organization.
 
-    Set-FederatedOrganizationIdentifier -Enabled $true
+```powershell
+Set-FederatedOrganizationIdentifier -Enabled $true
+```
 
 For detailed syntax and parameter information, see [Set-FederatedOrganizationIdentifier](https://technet.microsoft.com/es-es/library/dd351037\(v=exchg.150\)).
 
@@ -63,7 +67,9 @@ Successful completion of the **Set-OrganizationIdentifier** cmdlet will be the f
 
 To further verify success, run the following Shell command and verify the value returned for the *Enabled* parameter
 
-    Get-FederatedOrganizationIdentifier
+```powershell
+Get-FederatedOrganizationIdentifier
+```
 
 
 > [!TIP]

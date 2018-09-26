@@ -49,7 +49,9 @@ En este ejemplo, se actualiza una LGD para la empresa Fourth Coffee.
 
 
 
-    Update-GlobalAddressList -Identity "Fourth Coffee"
+```powershell
+Update-GlobalAddressList -Identity "Fourth Coffee"
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Update-GlobalAddressList](https://technet.microsoft.com/es-es/library/aa998806\(v=exchg.150\)).
 

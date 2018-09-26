@@ -53,7 +53,9 @@ Para consultar otras tareas de administración relacionadas con IRM, vea [Proced
 
 En este ejemplo se habilita el registro de IRM en un servidor de buzones.
 
-    Set-TransportService -Identity EXCH01 -IRMLogEnabled $true
+```powershell
+Set-TransportService -Identity EXCH01 -IRMLogEnabled $true
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-TransportService](https://technet.microsoft.com/es-es/library/jj215682\(v=exchg.150\)).
 
@@ -61,7 +63,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 En este ejemplo se deshabilita el registro de IRM en un servidor de buzones.
 
-    Set-TransportService -Identity EXCH01 -IRMLogEnabled $false
+```powershell
+Set-TransportService -Identity EXCH01 -IRMLogEnabled $false
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-TransportService](https://technet.microsoft.com/es-es/library/jj215682\(v=exchg.150\)).
 
@@ -71,5 +75,6 @@ Para comprobar que el registro de IRM se habilitó o deshabilitó correctamente 
 
 En este ejemplo se recuperan todas las propiedades de registro de IRM en el servidor EXCH01.
 
-    Get-TransportService -Identity EXCH01 | Format-List IRMLog*
-
+```powershell
+Get-TransportService -Identity EXCH01 | Format-List IRMLog*
+```

@@ -87,9 +87,7 @@ Se pueden inicializar varias copias de bases de datos al mismo tiempo. Sin embar
 
 4.  En el panel de detalles, en **Copias de bases de datos**, haga clic en **Actualizar** en la copia de base de datos pasiva que desea propagar.
 
-5.  
-    
-    De forma predeterminada, la copia activa de la base de datos se usa como base de datos de origen para la inicialización. Si prefiere utilizar una copia pasiva de la base de datos para la propagación, haga clic en **Examinar…** para seleccionar el servidor que contiene la copia de la base de datos pasiva que desea utilizar para el origen.
+5.  De forma predeterminada, la copia activa de la base de datos se usa como base de datos de origen para la inicialización. Si prefiere utilizar una copia pasiva de la base de datos para la propagación, haga clic en **Examinar…** para seleccionar el servidor que contiene la copia de la base de datos pasiva que desea utilizar para el origen.
 
 6.  Haga clic en **Guardar** para actualizar la copia de la base de datos pasiva.
 
@@ -97,45 +95,63 @@ Se pueden inicializar varias copias de bases de datos al mismo tiempo. Sin embar
 
 En este ejemplo se muestra cómo inicializar una copia de la base de datos DB1 en MBX1.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1
+```
 
 En este ejemplo se muestra cómo inicializar una copia de la base de datos DB1 en MBX1 usando MBX2 como servidor de buzones de origen para la inicialización.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1 -SourceServer MBX2
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1 -SourceServer MBX2
+```
 
 En este ejemplo se muestra cómo inicializar una copia de la base de datos DB1 en MBX1 sin inicializar el catálogo del índice de contenido.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1 -DatabaseOnly
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1 -DatabaseOnly
+```
 
 En este ejemplo se muestra cómo inicializar el catálogo del índice de contenido para la copia de la base de datos DB1 en MBX1 sin inicializar el archivo de la base de datos.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
+```
 
 ## Copiar manualmente una base de datos sin conexión
 
 1.  Si la base de datos tiene el registro circular habilitado, se lo debe deshabilitar antes de proceder. El registro circular de una base de datos de buzones de correo puede deshabilitarse mediante el cmdlet [Set-MailboxDatabase](https://technet.microsoft.com/es-es/library/bb123971\(v=exchg.150\)), como se muestra en este ejemplo.
     
-        Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
+    ```powershell
+    Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
+    ```
 
 2.  Desmonte la base de datos. Puede usar el cmdlet [Dismount-Database](https://technet.microsoft.com/es-es/library/bb124936\(v=exchg.150\)), tal como se muestra en este ejemplo.
     
-        Dismount-Database DB1 -Confirm $false
+    ```powershell
+    Dismount-Database DB1 -Confirm $false
+    ```
 
 3.  Copie manualmente los archivos de base de datos (el archivo de base de datos y todos los archivos de registro) en otra ubicación como, por ejemplo, un disco duro externo o un espacio de red compartido.
 
 4.  Monte la base de datos. Puede usar el cmdlet [Mount-Database](https://technet.microsoft.com/es-es/library/aa998871\(v=exchg.150\)), tal como se muestra en este ejemplo.
     
-        Mount-Database DB1
+    ```powershell
+    Mount-Database DB1
+    ```
 
 5.  En el servidor que hospedará la copia, copie los archivos de base de datos desde el disco externo o el espacio de red compartido a la misma ruta que la copia de base de datos activa. Por ejemplo, si la ruta de la base de datos de copia activa es D:\\DB1\\DB1.edb y la ruta del archivo de registro es D:\\DB1, los archivos de base de datos se copiarán a D:\\DB1 en el servidor que hospedará la copia.
 
 6.  Agregue la copia de base de datos de buzones de correo utilizando el cmdlet [Add-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd298105\(v=exchg.150\)) con el parámetro *SeedingPostponed*, tal y como indica el ejemplo.
     
-        Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -SeedingPostponed
+    ```powershell
+    Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -SeedingPostponed
+    ```
 
 7.  Si la base de datos tiene el registro circular habilitado, habilítelo de nuevo utilizando el cmdlet [Set-MailboxDatabase](https://technet.microsoft.com/es-es/library/bb123971\(v=exchg.150\)), tal y como indica el ejemplo.
     
-        Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
+    ```powershell
+    Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
+    ```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -145,7 +161,9 @@ Para comprobar que la copia de la base de datos de buzones se inicializó correc
 
   - En el Shell, ejecute el siguiente comando para comprobar que la copia de la base de datos de buzones se inicializó correctamente y está en buen estado.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```powershell
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```
     
     Los valores de estado y de estado del índice de contenido deben ser correctos.
 

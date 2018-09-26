@@ -47,11 +47,15 @@ Puede configurar el número máximo de remitentes seguros y de remitentes bloque
 
 Para configurar el número máximo de remitentes seguros y de remitentes bloqueados, ejecute el siguiente comando:
 
-    Set-Mailbox <MailboxIdentity> -MaxSafeSenders <Integer> -MaxBlockedSenders <Integer>
+```powershell
+Set-Mailbox <MailboxIdentity> -MaxSafeSenders <Integer> -MaxBlockedSenders <Integer>
+```
 
 En este ejemplo, se configura el buzón de juancarlos@contoso.com para que tenga un máximo de 2000 remitentes seguros y 200 remitentes bloqueados.
 
-    Set-Mailbox john@contoso.com -MaxSafeSenders 2000 -MaxBlockedSenders 200
+```powershell
+Set-Mailbox john@contoso.com -MaxSafeSenders 2000 -MaxBlockedSenders 200
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -59,8 +63,10 @@ Para comprobar que los límites de recopilación de listas seguras de buzones se
 
 1.  Ejecute el siguiente comando:
     
-        Get-Mailbox <Identity> | Format-List Name,Max*Senders
-
+    ```powershell
+    Get-Mailbox <Identity> | Format-List Name,Max*Senders
+    ```
+    
 2.  Compruebe que los valores mostrados coincidan con los valores que ha configurado.
 
 ## Usar el Shell para ejecutar el comando Update-Safelist
@@ -69,7 +75,9 @@ En Exchange 2013, la agregación de listas seguras se realiza de forma automát
 
 En este ejemplo, se escribe la lista de remitentes seguros para el buzón de john@contoso.com en Active Directory.
 
-    Update-Safelist john@contoso.com -Type SafeSenders
+```powershell
+Update-Safelist john@contoso.com -Type SafeSenders
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Update-SafeList](https://technet.microsoft.com/es-es/library/bb125034\(v=exchg.150\)).
 
@@ -81,11 +89,15 @@ Para comprobar que la agregación de listas seguras se configuró correctamente,
 
 1.  Ejecute el siguiente comando:
     
-        Get-ContentFilterConfig | Format-List Enabled
+    ```powershell
+    Get-ContentFilterConfig | Format-List Enabled
+    ```
 
 2.  Si el resultado muestra que el parámetro *Enabled* es `True`, el filtrado de contenido está habilitado. Si no lo está, ejecute el siguiente comando para habilitar el filtrado de contenido y el agente de filtrado de contenido en el servidor Exchange:
     
-        Set-ContentFilterConfig -Enabled $true
+    ```powershell
+    Set-ContentFilterConfig -Enabled $true
+    ```
 
 ## Paso 2: usar el editor ADSI para comprobar la replicación de los datos de agregación de listas seguras en los servidores de transporte perimetral (opcional)
 
