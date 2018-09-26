@@ -47,7 +47,9 @@ Para obtener más información acerca de EAC, consulte [Centro de administració
 
 Este ejemplo devuelve el nombre del directorio virtual ECP, la dirección URL interna y la dirección URL externa en una lista de formato.
 
-    Get-ECPVirtualDirectory | Format-List Name,InternalURL,ExternalURL
+```powershell
+Get-ECPVirtualDirectory | Format-List Name,InternalURL,ExternalURL
+```
 
 Cuando se completa un comando, use los valores *InternalURL* o *ExternalURL* de su explorador web para iniciar el EAC.
 

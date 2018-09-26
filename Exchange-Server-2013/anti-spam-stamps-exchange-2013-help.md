@@ -29,12 +29,14 @@ Las marcas de correo electrónico no deseado se pueden ver mediante Microsoft Ou
 
 Es un informe resumido de los resultados del filtro contra correo electrónico que se han aplicado a un mensaje de correo. El agente de filtrado de contenido aplica esta marca al sobre del mensaje en forma de encabezado X, del modo siguiente.
 
-    X-MS-Exchange-Organization-Antispam-Report: DV:<DATVersion>;CW:CustomList;PCL:PhishingVerdict <verdict>;P100:PhishingBlock;PP:Presolve;SID:SenderIDStatus <status>;TIME:<SendReceiveDelta>;MIME:MimeCompliance 
+```PowerShell
+X-MS-Exchange-Organization-Antispam-Report: DV:<DATVersion>;CW:CustomList;PCL:PhishingVerdict <verdict>;P100:PhishingBlock;PP:Presolve;SID:SenderIDStatus <status>;TIME:<SendReceiveDelta>;MIME:MimeCompliance
+``` 
 
 En la tabla siguiente se describe la información de filtro que puede aparecer en un informe de correo electrónico no deseado.
 
 
-> [!NOTE]
+> [!NOTE]  
 > El informe de correo electrónico no deseado solo muestra información de los filtros que se han aplicado a un mensaje específico. Por lo general, un informe de correo electrónico no deseado no contiene toda la información que se muestra en la tabla siguiente. Por ejemplo, puede recibir el siguiente informe de correo electrónico no deseado: <CODE>DV:3.1.3924.1409;SID:SenderIDStatus Fail;PCL:PhishingLevel SUSPICIOUS;CW:CustomList;PP:Presolved;TIME:TimeBasedFeatures</CODE>.
 
 
@@ -66,7 +68,11 @@ En la tabla siguiente se describe la información de filtro que puede aparecer e
 <li><p><strong>PermError   </strong>El registro DNS no es válido; por ejemplo, existe un error en el formato de registro.</p></li>
 </ul>
 <p>La marca de Id. del remitente aparece como una cabecera X en el sobre del mensaje, tal y como se indica a continuación:</p>
-<pre><code>X-MS-Exchange-Organization-SenderIdResult:&lt;status&gt;</code></pre>
+
+```PowerShell
+X-MS-Exchange-Organization-SenderIdResult:&lt;status&gt;
+```
+
 <p>Para obtener más información acerca del Id. del remitente, consulte <a href="sender-id-exchange-2013-help.md">Id. del remitente</a> .</p></td>
 </tr>
 <tr class="even">
@@ -91,13 +97,24 @@ En la tabla siguiente se describe la información de filtro que puede aparecer e
 <p>El valor de PCL varía de 1 a 8. Una calificación de PCL de 1 a 3 devuelve el estado de <code>Neutral</code>. Esto significa que no es probable que el contenido del mensaje sea suplantación de identidad (phishing). Una calificación de PCL de 4 a 8 devuelve un estado de <code>Suspicious</code>. Esto significa que es probable que el mensaje sea &quot;phishing&quot;.</p>
 <p>Los valores se utilizan para determinar qué medidas toma Outlook con los mensajes. Outlook usa la marca PCK para bloquear el contenido de los mensajes sospechosos.</p>
 <p>La marca PCL aparece como una cabecera X en el sobre del mensaje, tal y como se indica a continuación:</p>
-<pre><code>X-MS-Exchange-Organization-PCL:&lt;status&gt;</code></pre></td>
+
+
+```PowerShell
+X-MS-Exchange-Organization-PCL:&lt;status&gt;
+```
+
+</td>
 </tr>
 <tr class="even">
 <td><p>SCL</p></td>
 <td><p>La marca del nivel de confianza de correo no deseado (SCL) del mensaje muestra la calificación del mensaje en función de su contenido. El agente de filtrado de contenido usa la tecnología SmartScreen de Microsoft para evaluar el contenido de un mensaje y asignar una clasificación de confianza de correo no deseado para cada mensaje. El valor de SCL se encuentra de 0 a 9, donde 0 indica que es poco probable que sea correo electrónico no deseado y 9 indica que es más probable que sea correo electrónico no deseado. Las acciones que Exchange y Outlook realizan dependen de la configuración de los umbrales de SCL.</p>
 <p>La marca SCL aparece como una cabecera X en el sobre del mensaje, tal y como se indica a continuación:</p>
-<pre><code>X-MS-Exchange-Organization-SCL:&lt;status&gt;</code></pre>
+
+
+```PowerShell
+X-MS-Exchange-Organization-SCL:&lt;status&gt;
+```
+
 <p>Para obtener más información acerca de los umbrales de SCL y las acciones, consulte <a href="spam-confidence-level-threshold-exchange-2013-help.md">Umbral de nivel de confianza de correo no deseado</a> .</p></td>
 </tr>
 <tr class="odd">

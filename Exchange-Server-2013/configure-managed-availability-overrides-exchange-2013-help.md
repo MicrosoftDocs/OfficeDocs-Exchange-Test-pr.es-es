@@ -49,12 +49,15 @@ Para otras tareas de administración relacionadas con la disponibilidad administ
 
 Para crear un reemplazo local con una duración específica, utilice la sintaxis siguiente.
 
+```powershell
     Add-ServerMonitoringOverride -Server <ServerName> -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <Probe | Monitor | Responder | Maintenance> -PropertyName <PropertyName> -PropertyValue <Value> -Duration <dd.hh:mm:ss>
+```
 
 Para crear un reemplazo local para una versión concreta de Exchange, utilice la sintaxis siguiente.
 
+```powershell
     Add-ServerMonitoringOverride -Server <ServerName> -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <Probe | Monitor | Responder | Maintenance> -PropertyName <PropertyName> -PropertyValue <Value> -Version <15.01.xxxx.xxx>
-
+```
 
 > [!NOTE]
 > Al crear el reemplazo, se distinguen mayúsculas de minúsculas en los valores utilizados en el parámetro <EM>Identity</EM>.
@@ -63,13 +66,17 @@ Para crear un reemplazo local para una versión concreta de Exchange, utilice la
 
 En este ejemplo, se agrega un reemplazo local que deshabilita el respondedor `ActiveDirectoryConnectivityConfigDCServerReboot` en el servidor llamado EXCH03 durante 20 días.
 
+```powershell
     Add-ServerMonitoringOverride -Server EXCH03 -Identity "AD\ActiveDirectoryConnectivityConfigDCServerReboot" -ItemType Responder -PropertyName Enabled -PropertyValue 0 -Duration 20.00:00:00
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que haya creado correctamente un reemplazo local, use el cmdlet **Get-ServerMonitoringOverride** para ver la lista de reemplazos locales:
 
+```powershell
     Get-ServerMonitoringOverride  -Server <ServerIdentity> | Format-List
+```
 
 El reemplazo debe aparecer en la lista.
 
@@ -77,17 +84,23 @@ El reemplazo debe aparecer en la lista.
 
 Para quitar un reemplazo local, utilice la siguiente sintaxis.
 
+```powershell
     Remove-ServerMonitoringOverride -Server <ServerName> -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <ExistingItemTypeValue> -PropertyName <PropertytoRemove>
+```
 
 En este ejemplo, se quita el reemplazo local existente del respondedor `ActiveDirectoryConnectivityConfigDCServerReboot` en el conjunto de mantenimiento Exchange del servidor EXCH01.
 
+```powershell
     Remove-ServerMonitoringOverride -Server EXCH01 -Identity Exchange\ActiveDirectoryConnectivityConfigDCServerReboot -ItemType Responder -PropertyName Enabled
+```
 
 ## ¿Cómo puede saber si funcionó?
 
 Para comprobar que haya quitado correctamente un reemplazo local, use el cmdlet **Get-ServerMonitoringOverride** para ver la lista de reemplazos locales:
 
+```powershell
     Get-ServerMonitoringOverride  -Server <ServerIdentity> | Format-List
+```
 
 El reemplazo eliminado no debe aparecer en la lista.
 
@@ -95,12 +108,15 @@ El reemplazo eliminado no debe aparecer en la lista.
 
 Para crear un reemplazo global con una duración específica, utilice la sintaxis siguiente.
 
+```powershell
     Add-GlobalMonitoringOverride -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <Probe | Monitor | Responder | Maintenance> -PropertyName <PropertytoOverride> -PropertyValue <NewPropertyValue> -Duration <dd.hh:mm:ss>
+```
 
 Para crear un reemplazo global para una versión concreta de Exchange, utilice la sintaxis siguiente.
 
+```powershell
     Add-GlobalMonitoringOverride -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <Probe | Monitor | Responder | Maintenance> -PropertyName <PropertytoOverride> -PropertyValue <NewPropertyValue> -ApplyVersion <15.01.xxxx.xxx>
-
+```
 
 > [!NOTE]
 > Al crear el reemplazo, se distinguen mayúsculas de minúsculas en los valores utilizados en el parámetro <EM>Identity</EM>.
@@ -109,17 +125,23 @@ Para crear un reemplazo global para una versión concreta de Exchange, utilice l
 
 En este ejemplo, se agrega un reemplazo global que deshabilita el sondeo `OnPremisesInboundProxy` durante 30 días.
 
+```powershell
     Add-GlobalMonitoringOverride -Identity "FrontendTransport\OnPremisesInboundProxy" -ItemType Probe -PropertyName Enabled -PropertyValue 0 -Duration 30.00:00:00
+```
 
 En este ejemplo se agrega un reemplazo global que deshabilita el respondedor `StorageLogicalDriveSpaceEscalate` para todos los servidores que ejecutan la versión 15.01.0225.042 de Exchange.
 
+```powershell
     Add-GlobalMonitoringOverride -Identity "MailboxSpace\StorageLogicalDriveSpaceEscalate" -PropertyName Enabled -PropertyValue 0 -ItemType Responder -ApplyVersion "15.01.0225.042"
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
 Para comprobar que haya creado correctamente un reemplazo global, use el cmdlet **Get-GlobalMonitoringOverride** para ver la lista de reemplazos globales:
 
-    Get-GlobalMonitoringOverride
+```powershell
+Get-GlobalMonitoringOverride
+```
 
 El reemplazo debe aparecer en la lista.
 
@@ -127,17 +149,23 @@ El reemplazo debe aparecer en la lista.
 
 Para quitar un reemplazo global, utilice la siguiente sintaxis.
 
+```powershell
     Remove-GlobalMonitoringOverride -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <ExistingItemTypeValue> -PropertyName <OverriddenProperty>
+```
 
 Este ejemplo, se quita el reemplazo global existente de la propiedad `ExtensionAttributes` del sondeo `OnPremisesInboundProxy` en el conjunto de mantenimiento `FrontEndTransport`.
 
+```powershell
     Remove-GlobalMonitoringOverride -Identity FrontEndTransport\OnPremisesInboundProxy -ItemType Probe -PropertyName ExtensionAttributes
+```
 
 ## ¿Cómo puede saber si funcionó?
 
 Para comprobar que haya quitado correctamente un reemplazo global, use el cmdlet **Get-GlobalMonitoringOverride** para ver la lista de reemplazos globales:
 
-    Get-GlobalMonitoringOverride
+```powershell
+Get-GlobalMonitoringOverride
+```
 
 El reemplazo eliminado no debe aparecer en la lista.
 

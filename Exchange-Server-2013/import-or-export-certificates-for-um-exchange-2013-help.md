@@ -67,7 +67,9 @@ Para otras tareas de administración relacionadas con la administración de cert
 
 Este ejemplo exporta el certificado con la huella digital A36DE2B9B62980A717EBD0C3052F5F0B08FBFFCC a un archivo después de pedirle un nombre de usuario y una contraseña.
 
-    $file = Export-ExchangeCertificate -Thumbprint A36DE2B9B62980A717EBD0C3052F5F0B08FBFFCC -BinaryEncoded:$true -Password (Get-Credential).password
+  ```powershell
+  $file = Export-ExchangeCertificate -Thumbprint A36DE2B9B62980A717EBD0C3052F5F0B08FBFFCC -BinaryEncoded:$true -Password (Get-Credential).password
+  ```
 
 En este ejemplo se realiza lo siguiente:
 
@@ -78,10 +80,12 @@ En este ejemplo se realiza lo siguiente:
 3.  Transforma el certificado en un archivo una vez especificados el nombre de usuario y la contraseña.
 
 <!-- end list -->
+  
+  ```powershell
+  $file = Get-ExchangeCertificate -DomainName umcorp.northwindtraders.com | Export-ExchangeCertificate -BinaryEncoded:$true -Password (Get-Credential).password
   ```
-    $file = Get-ExchangeCertificate -DomainName umcorp.northwindtraders.com | Export-ExchangeCertificate -BinaryEncoded:$true -Password (Get-Credential).password
-  ```
-  ```
+
+  ```powershell
     Set-Content -Path "d:\umcerts\selfsigned.pfx" -Value $file.FileData =Encoding Byte
   ```
   
@@ -97,5 +101,7 @@ En este ejemplo se realiza lo siguiente:
 
 Este ejemplo importa un certificado del archivo de certificado d:\\certificates\\exchange\\SelfSignedUMCert.pfx una vez especificados el nombre de usuario y la contraseña.
 
-    Import-ExchangeCertificate -FileData ([Byte[]]$(Get-Content -Path d:\certificates\exchange\SelfSignedUMCert.pfx -Encoding Byte -ReadCount 0)) -Password:(Get-Credential).password
+  ```powershell
+  Import-ExchangeCertificate -FileData ([Byte[]]$(Get-Content -Path d:\certificates\exchange\SelfSignedUMCert.pfx -Encoding Byte -ReadCount 0)) -Password:(Get-Credential).password
+  ```
 

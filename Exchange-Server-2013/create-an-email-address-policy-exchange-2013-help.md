@@ -13,7 +13,6 @@ ms.translationtype: MT
 
 # Crear una directiva de dirección de correo electrónico
 
- 
 
 _**Se aplica a:** Exchange Server 2013_
 
@@ -119,7 +118,6 @@ Para obtener instrucciones detalladas para crear políticas de direcciones de co
 > ¿Tiene algún problema? Solicite ayuda en los foros de Exchange. Visite los foros en <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, o <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Exchange Online Protection</A>.
 
 
-
 ## ¿Qué desea hacer?
 
 ## Usar el EAC para crear una directiva de direcciones de correo electrónico
@@ -134,21 +132,15 @@ Para obtener instrucciones detalladas para crear políticas de direcciones de co
     
       - **Especificar los tipos de destinatarios a los que se aplicará esta dirección de correo electrónico**
 
-3.  
-    
-    Haga clic en **Agregar una regla** para restringir aún más los destinatarios a quienes se aplicará esta directiva. Esto crea una declaración **And** booleana.
+3.  Haga clic en **Agregar una regla** para restringir aún más los destinatarios a quienes se aplicará esta directiva. Esto crea una declaración **And** booleana.
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Si aplica demasiadas reglas, es posible restringir la directiva de direcciones de correo electrónico hasta que no contenga ningún usuario.
-
-
 
 4.  Haga clic en **Vista previa de destinatarios a los que se aplica la directiva** para ver los destinatarios a quienes se aplicará esta directiva.
 
-5.  
-    
-    Haga clic en **Guardar** para guardar los cambios y crear la directiva.
+5.  Haga clic en **Guardar** para guardar los cambios y crear la directiva.
 
 6.  Se mostrará una advertencia que indicará que la directiva de direcciones de correo electrónico no se aplicará hasta que la actualice. Una vez creada, selecciónela y, a continuación, haga clic en **Aplicar** en el panel de detalles.
 
@@ -156,7 +148,8 @@ Para obtener instrucciones detalladas para crear políticas de direcciones de co
 
 En este ejemplo, se crea una directiva de direcciones de correo electrónico que incluye usuarios de buzones de correo de las oficinas del sudeste, cuyas direcciones de correo electrónico contienen el apellido combinado con las primeras dos letras del nombre.
 
-    New-EmailAddressPolicy -Name "southeast offices" -IncludedRecipients MailboxUsers -ConditionalStateorProvince "Georgia","Alabama","Louisiana" -EnabledEmailAddressTemplates "SMTP:%s%2g@southeast.contoso.com"
+```powershell
+New-EmailAddressPolicy -Name "southeast offices" -IncludedRecipients MailboxUsers -ConditionalStateorProvince "Georgia","Alabama","Louisiana" -EnabledEmailAddressTemplates "SMTP:%s%2g@southeast.contoso.com"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-EmailAddressPolicy](https://technet.microsoft.com/es-es/library/aa996800\(v=exchg.150\)).
-

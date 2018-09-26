@@ -67,9 +67,13 @@ Para tareas de administración adicionales relacionadas con servidores de buzone
 
 En este ejemplo se establece el modo de inicio para un servidor de buzones denominado `MyUMServer1` en modo Dual.
 
-    Set-UMService -Identity MyUMServer1 -UMStartUpMode Dual
+```powershell
+Set-UMService -Identity MyUMServer1 -UMStartUpMode Dual
+```
 
 En este ejemplo se establece el modo de inicio para un servidor de buzones denominado `MyUMServer1` en modo TLS.
 
-    Set-UMService -Identity MyUMServer1 -UMStartUpMode TLS
+```powershell
+Set-UMService -Identity MyUMServer1 -UMStartUpMode TLS
+```
 

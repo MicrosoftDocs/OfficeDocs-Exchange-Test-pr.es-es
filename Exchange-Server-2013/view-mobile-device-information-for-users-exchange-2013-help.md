@@ -49,5 +49,7 @@ El cmdlet Get-MobileDevice permite ver una lista de los dispositivos móviles de
 
 1.  Ejecute el siguiente comando.
     
-        Get-MobileDevice -Mailbox useralias
+    ```powershell
+    Get-MobileDevice -Mailbox useralias
+    ```
 

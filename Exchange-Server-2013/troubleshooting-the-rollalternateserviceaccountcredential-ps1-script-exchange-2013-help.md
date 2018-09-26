@@ -29,7 +29,9 @@ Cuando utiliza los parámetros *ToEntireForest* o *ToArrayMembers* con la secuen
 
 Compruebe los servidores que la secuencia de comandos tendrán como destino los servidores necesarios; utilice el cmdlet **Get-ClientAccessArray**, como muestra el siguiente ejemplo.
 
-    Get-ClientAccessArray | fl members
+```powershell
+Get-ClientAccessArray | fl members
+```
 
 Si el servidor que no se puede actualizar pertenece a la matriz de Acceso de clientes y aún no se actualiza correctamente, vuelva a ejecutar la instalación de Exchange y agregue el rol del servidor de acceso de clientes al servidor nuevamente. También puede especificar los servidores individuales al destino mediante el parámetro *ToSpecificServers*.
 
@@ -55,7 +57,9 @@ Para resolver este problema, quite el servidor de su implementación mediante la
 
 Si el servidor solo estará inactivo durante un breve período de tiempo y no desea quitar Exchange permanentemente, podrá ajustar la secuencia de comandos para que se ejecute con servidores específicos mediante el parámetro *ToSpecificServers*, de modo que solo se destine a servidores activos. Opcionalmente, puede quitar el servicio de acceso de clientes RPC del objeto Active Directory del servidor que no responde mediante el cmdlet **Remove-ClientAccessArray**, como muestra el siguiente ejemplo.
 
-    Remove-RPCClientAccess -Server Server.Contoso.com
+```powershell
+Remove-RPCClientAccess -Server Server.Contoso.com
+```
 
 Después de haber quitado el servicio de acceso de clientes RPC, el servidor no volverá como un miembro de matriz en [Get-ClientAccessArray](https://technet.microsoft.com/es-es/library/dd297976\(v=exchg.150\)) y la secuencia de comandos no será el destino. En cuanto el servidor esté en funcionamiento nuevamente, podrá volver a agregar el servicio de acceso de clientes RPC mediante el cmdlet **New-RpcClientAccess**. Cuando se vuelva a agregar el servicio de acceso de clientes RPC, asegúrese de reiniciar el servicio de la libreta de direcciones de Microsoft Exchange en el servidor afectado.
 

@@ -91,13 +91,15 @@ Cuando la aplicación del ciclo de vida de SharePoint cierra un buzón del sitio
 
 Puede usar el siguiente comando para buscar y eliminar buzones de correo que se hayan marcado para ser eliminados.
 
-    Get-Mailbox MDEL:* | ?{$_.RecipientTypeDetails -eq "TeamMailbox"} | Remove-Mailbox -Confirm:$false
+  ```powershell
+  Get-Mailbox MDEL:* | ?{$_.RecipientTypeDetails -eq "TeamMailbox"} | Remove-Mailbox -Confirm:$false
+  ```
 
 Los buzones de sitio no permiten la retención a nivel de elementos. La retención funciona a nivel de proyecto para los buzones del sitio, de manera que si se elimina todo el buzón del sitio, los elementos retenidos se eliminarán.
 
 ## Cumplimiento
 
-Con la Consola de exhibición de documentos electrónicos en SharePoint, los buzones del sitio pueden formar parte del ámbito de la búsqueda de Exhibición de documentos electrónicos en contexto ya que puede realizar búsquedas de palabras clave en buzones de usuarios o en buzones del sitio. Además, puede colocar un buzón del sitio en retención legal. Para obtener más información, consulte [Exhibición de documentos electrónicos en contexto](https://docs.microsoft.com/es-es/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules).
+Con la Consola de exhibición de documentos electrónicos en SharePoint, los buzones del sitio pueden formar parte del ámbito de la búsqueda de Exhibición de documentos electrónicos en contexto ya que puede realizar búsquedas de palabras clave en buzones de usuarios o en buzones del sitio. Además, puede colocar un buzón del sitio en retención legal. Para obtener más información, consulte [Exhibición de documentos electrónicos en contexto](https://docs.microsoft.com/es-es/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery).
 
 
 > [!NOTE]

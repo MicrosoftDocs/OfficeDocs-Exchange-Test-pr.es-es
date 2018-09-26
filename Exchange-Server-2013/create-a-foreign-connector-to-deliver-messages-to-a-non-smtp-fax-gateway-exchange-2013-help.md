@@ -1,5 +1,5 @@
 ﻿---
-title: 'Crear conector externo para entregar mensajes a puerta de enlace no SMTP fax'
+title: 'Crear un conector externo para entregar los mensajes a una puerta de enlace no SMTP fax: Exchange 2013 Help'
 TOCTitle: Crear un conector externo para entregar los mensajes a una puerta de enlace no SMTP fax
 ms:assetid: 589db487-3c4c-409a-92e3-c78dd8f639b6
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ710163(v=EXCHG.150)
@@ -49,7 +49,9 @@ Pueden ocurrir situaciones en las que desee enviar y recibir mensajes desde un s
 
 1.  Ejecute el siguiente comando para crear el conector externo:
     
-        New-ForeignConnector -Name "Contoso Foreign Connector" -AddressSpaces "X400:c=US;a=Fabrikam;P=Contoso;5" -SourceTransportServers Hub01,Hub02
+    ```powershell
+    New-ForeignConnector -Name "Contoso Foreign Connector" -AddressSpaces "X400:c=US;a=Fabrikam;P=Contoso;5" -SourceTransportServers Hub01,Hub02
+    ```
     
     En este ejemplo, Hub01 y Hub02 son servidores de origen de una organización que se designan para entregar mensajes al sistema externo. Cuando se usa más de un servidor de origen, se consigue la tolerancia a errores.
 
@@ -59,7 +61,9 @@ Después de crear el conector externo, configure los directorios de recogida, de
 
 Para comprobar que el conector externo se creó correctamente, ejecute el siguiente comando:
 
-    Get-ForeignConnector | Format-List Name
+```powershell
+Get-ForeignConnector | Format-List Name
+```
 
 Compruebe que aparece el nombre del conector externo que ha creado.
 
@@ -71,13 +75,17 @@ Puede crear un directorio para usarlo como directorio de entrega en su sistema l
 
 1.  Ejecute el siguiente comando para especificar el directorio de entrega del conector externo (cambie el valor del parámetro *DropDirectory* a una ruta de acceso adecuada para su entorno):
     
-        Set-ForeignConnector "Contoso Foreign Connector" -DropDirectory "C:\Drop Directory"
+    ```powershell
+    Set-ForeignConnector "Contoso Foreign Connector" -DropDirectory "C:\Drop Directory"
+    ```
 
 ## ¿Cómo sabe si este paso se ha completado correctamente?
 
 Para comprobar que el directorio de entrega se estableció correctamente, ejecute el siguiente script de cmdlet y compruebe el valor del parámetro *DropDirectory*:
 
-    Get-ForeignConnector "Contoso Foreign Connector" | Format-List
+```powershell
+Get-ForeignConnector "Contoso Foreign Connector" | Format-List
+```
 
 Después de crear el conector externo y especificar el directorio de entrega, envíe un mensaje a través del servidor de buzones en el que creó el conector externo y compruebe que se entrega un archivo al directorio de entrega.
 
@@ -91,7 +99,9 @@ Para obtener instrucciones detalladas sobre cómo configurar un directorio de re
 
 Para comprobar que el directorio de recogida se estableció correctamente, ejecute el siguiente comando y compruebe el valor del parámetro *PickupDirectoryPath*:
 
-    Get-TransportService | Format-List PickupDirectoryPath
+```powershell
+Get-TransportService | Format-List PickupDirectoryPath
+```
 
 ## Paso 4: usar el Shell para configurar el directorio de reproducción para el servicio de transporte de un servidor de buzones
 
@@ -103,7 +113,9 @@ Para obtener instrucciones detalladas sobre cómo configurar un directorio de re
 
 Para comprobar que el directorio de reproducción se estableció correctamente, ejecute el siguiente comando y compruebe el valor del parámetro *ReplayDirectoryPath*:
 
-    Get-TransportService | Format-List ReplayDirectoryPath
+```powershell
+Get-TransportService | Format-List ReplayDirectoryPath
+```
 
 ## Más información
 

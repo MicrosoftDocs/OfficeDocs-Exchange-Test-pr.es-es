@@ -67,7 +67,9 @@ Para obtener más información acerca de la retención de elementos eliminados, 
 
 En este ejemplo se configura el buzón de April Stewart para retener los elementos eliminados durante 30 días.
 
-    Set-Mailbox -Identity - "April Stewart" -RetainDeletedItemsFor 30
+```powershell
+Set-Mailbox -Identity - "April Stewart" -RetainDeletedItemsFor 30
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Set-Mailbox](https://technet.microsoft.com/es-es/library/bb123981\(v=exchg.150\)).
 
@@ -81,8 +83,9 @@ Para obtener información más detallada acerca de la sintaxis y los parámet
 
 En este ejemplo se configura una cuota de advertencia de elementos recuperables de 12 GB y una cuota de elementos recuperables de 15 GB para el buzón de April Stewart.
 
+  ```powershell
     Set-Mailbox -Identity "April Stewart" -RecoverableItemsWarningQuota 12GB -RecoverableItemsQuota 15GB -UseDatabaseQuotaDefaults $false
-
+  ```
 
 > [!NOTE]
 > Para configurar un buzón de modo que utilice cuotas de elementos recuperables diferentes a la base de datos de buzones en la que se encuentra, se deberá establecer el parámetro <EM>UseDatabaseQuotaDefaults</EM> en <CODE>$false</CODE>.
@@ -101,7 +104,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 En este ejemplo se configura un período de retención de elementos eliminados de 10 días para la base de datos de buzones MDB2.
 
-    Set-MailboxDatabase -Identity MDB2 -DeletedItemRetention 10
+```powershell
+Set-MailboxDatabase -Identity MDB2 -DeletedItemRetention 10
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Set-MailboxDatabase](https://technet.microsoft.com/es-es/library/bb123971\(v=exchg.150\)).
 
@@ -115,7 +120,9 @@ Para obtener información más detallada acerca de la sintaxis y los parámet
 
 En este ejemplo se configura una cuota de advertencia de elementos recuperables de 15 GB y una cuota de elementos recuperables de 20 GB en la base de datos de buzones MDB2.
 
-    Set-MailboxDatabase -Identity MDB2 -RecoverableItemsWarningQuota 15GB -RecoverableItemsQuota 20GB
+```powershell
+Set-MailboxDatabase -Identity MDB2 -RecoverableItemsWarningQuota 15GB -RecoverableItemsQuota 20GB
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-MailboxDatabase](https://technet.microsoft.com/es-es/library/bb123971\(v=exchg.150\)).
 

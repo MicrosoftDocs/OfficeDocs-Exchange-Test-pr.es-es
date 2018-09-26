@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar el servicio de disponibilidad para topologías entre bosques'
+title: 'Configurar el servicio de disponibilidad para topologías entre bosques: Exchange 2013 Help'
 TOCTitle: Configurar el servicio de disponibilidad para topologías entre bosques
 ms:assetid: f1e7d407-f0d3-47a7-8cc3-03c5980445d5
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb125182(v=EXCHG.150)
@@ -59,12 +59,16 @@ Para habilitar la sincronización de GAL, se crean agentes de administración qu
 
 En este ejemplo se configura el servicio de disponibilidad para recuperar información de disponibilidad por usuario en un servidor de buzón del bosque de destino.
 
-    Get-MailboxServer | Add-ADPermission -Accessrights Extendedright -Extendedrights "ms-Exch-
-    EPI-Token-Serialization" -User "<Remote Forest Domain>\Exchange servers"
+```powershell
+Get-MailboxServer | Add-ADPermission -Accessrights Extendedright -Extendedrights "ms-Exch-
+EPI-Token-Serialization" -User "<Remote Forest Domain>\Exchange servers"
+```
 
 En este ejemplo se define el método de acceso de disponibilidad que el servicio de disponibilidad usa en el servidor de buzón local del bosque de origen. El servidor de buzón se configura para acceder a la información de disponibilidad del bosque ContosoForest.com por usuario. En este ejemplo se usa la cuenta de servicio para recuperar datos de disponibilidad.
 
-    Add-AvailabilityAddressSpace -Forestname ContosoForest.com -AccessMethod PerUserFB -UseServiceAccount:$true
+```powershell
+Add-AvailabilityAddressSpace -Forestname ContosoForest.com -AccessMethod PerUserFB -UseServiceAccount:$true
+```
 
 
 > [!NOTE]
@@ -78,7 +82,9 @@ Si elige configurar la disponibilidad entre bosques de confianza y utilizar una 
 
 En este ejemplo se configura la disponibilidad entre bosques de confianza con una cuenta de servicio.
 
-    Get-MailboxServer | Add-ADPermission -Accessrights Extendedright -Extendedright "ms-Exch-EPI-Token-Serialization" -User "<Remote Forest Domain>\Exchange servers"
+```powershell
+Get-MailboxServer | Add-ADPermission -Accessrights Extendedright -Extendedright "ms-Exch-EPI-Token-Serialization" -User "<Remote Forest Domain>\Exchange servers"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte los siguientes temas:
 
@@ -94,10 +100,14 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 En este ejemplo se crea una cuenta para toda la organización sobre el objeto de configuración de disponibilidad para configurar el nivel de acceso a datos de disponibilidad en el bosque de destino.
 
-    Set-AvailabilityConfig -OrgWideAccount "Contoso.com\User"
+```powershell
+Set-AvailabilityConfig -OrgWideAccount "Contoso.com\User"
+```
 
 En este ejemplo se agrega el objeto de configuración del espacio de direcciones de disponibilidad para el bosque de origen.
 
-    $a = Get-Credential (Enter the credentials for organization-wide user in Contoso.com domain)
-    Add-AvailabilityAddressspace -Forestname Contoso.com -Accessmethod OrgWideFB -Credential:$a
+```powershell
+$a = Get-Credential (Enter the credentials for organization-wide user in Contoso.com domain)
+Add-AvailabilityAddressspace -Forestname Contoso.com -Accessmethod OrgWideFB -Credential:$a
+```
 

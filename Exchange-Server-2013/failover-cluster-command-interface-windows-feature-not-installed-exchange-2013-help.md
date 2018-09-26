@@ -1,5 +1,5 @@
 ﻿---
-title: 'Característica Windows Interfaz comando clúster conmutación error no instalada'
+title: 'Característica de Windows Interfaz de comandos de clúster de conmutación por error no instalada: Exchange 2013 Help'
 TOCTitle: Característica de Windows Interfaz de comandos de clúster de conmutación por error no instalada
 ms:assetid: 0d839514-5ab7-497d-8945-41392b4c3980
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/ms.exch.setupreadiness.rsatclusteringcmdinterfaceinstalled(v=EXCHG.150)
@@ -33,7 +33,9 @@ Haga lo siguiente para instalar la característica de Windows en este equipo. Si
 
 2.  Ejecute el siguiente comando para instalar la característica necesaria de Windows.
     
-        Install-WindowsFeature RSAT-Clustering-CmdInterface
+```powershell
+Install-WindowsFeature RSAT-Clustering-CmdInterface
+```
 
 ¿Tiene algún problema? Solicite ayuda en los foros de Exchange. Visite los foros en [Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=267542), o [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=285351).
 

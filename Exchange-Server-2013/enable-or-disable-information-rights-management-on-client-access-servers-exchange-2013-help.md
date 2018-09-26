@@ -63,7 +63,9 @@ Para obtener información acerca de otras tareas de administración relacionadas
 
 Este ejemplo habilita IRM en un servidor de acceso de cliente para una organización de Exchange.
 
-    Set-IRMConfiguration -ClientAccessServerEnabled $true
+```powershell
+Set-IRMConfiguration -ClientAccessServerEnabled $true
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-IRMConfiguration](https://technet.microsoft.com/es-es/library/dd979792\(v=exchg.150\)).
 
@@ -71,7 +73,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Este ejemplo deshabilita IRM en un servidor de acceso de cliente para una organización de Exchange.
 
-    Set-IRMConfiguration -ClientAccessServerEnabled $false
+```powershell
+Set-IRMConfiguration -ClientAccessServerEnabled $false
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-IRMConfiguration](https://technet.microsoft.com/es-es/library/dd979792\(v=exchg.150\)).
 

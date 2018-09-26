@@ -253,7 +253,9 @@ En Exchange 2010, la revisión de páginas no está disponible para las copias r
 
 El comportamiento de reproducción de copias retrasadas está deshabilitado de manera predeterminada, pero se puede habilitar mediante la ejecución del siguiente comando.
 
-    Set-DatabaseAvailabilityGroup <DAGName> -ReplayLagManagerEnabled $true
+```powershell
+Set-DatabaseAvailabilityGroup <DAGName> -ReplayLagManagerEnabled $true
+```
 
 Después de su habilitación, la reproducción ocurre cuando hay menos de tres copias. Puede cambiar el valor predeterminado de 3 modificando el siguiente valor DWORD del Registro.
 

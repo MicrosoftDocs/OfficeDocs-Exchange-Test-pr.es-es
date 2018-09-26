@@ -81,7 +81,9 @@ Para otras tareas de administración relacionadas con la administración de cert
 
 Este ejemplo crea una nueva solicitud de certificado de Exchange para un servidor de buzón denominado `MyMailboxServer` con un nombre descriptivo de `CertUM`.
 
-    New-ExchangeCertificate -FriendlyName 'CertUM' -GenerateRequest -PrivateKeyExportable $true -KeySize '2048' -DomainName '*.northwindtraders.com' -SubjectName 'C=US,S=wa,L=redmond,O=northwindtraders,OU=servers,CN= northwindtraders.com' -Server 'MyMailboxServer'
+```powershell
+New-ExchangeCertificate -FriendlyName 'CertUM' -GenerateRequest -PrivateKeyExportable $true -KeySize '2048' -DomainName '*.northwindtraders.com' -SubjectName 'C=US,S=wa,L=redmond,O=northwindtraders,OU=servers,CN= northwindtraders.com' -Server 'MyMailboxServer'
+```
 
 ## Usar el EAC para crear un certificado autofirmado para mensajería unificada (UM)
 
@@ -107,7 +109,9 @@ Este ejemplo crea una nueva solicitud de certificado de Exchange para un servido
 
 Este ejemplo crea un nuevo certificado autofirmado de Exchange para un servidor de buzón denominado `MyMailboxServer` con un nombre descriptivo de `UMCert`.
 
-    New-ExchangeCertificate -Services 'UM, UMCallRouter' -DomainName '*.northwindtraders.com' -FriendlyName 'UMSelfSigned' -SubjectName 'C=US,S=WA,L=Redmond,O=Northwindtraders,OU=Servers,CN= Northwindtraders.com' -PrivateKeyExportable $true
+```powershell
+New-ExchangeCertificate -Services 'UM, UMCallRouter' -DomainName '*.northwindtraders.com' -FriendlyName 'UMSelfSigned' -SubjectName 'C=US,S=WA,L=Redmond,O=Northwindtraders,OU=Servers,CN= Northwindtraders.com' -PrivateKeyExportable $true
+```
 
 
 > [!TIP]

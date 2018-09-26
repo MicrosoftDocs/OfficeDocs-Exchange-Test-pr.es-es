@@ -43,33 +43,45 @@ _**Última modificación del tema:** 2014-12-16_
 
 1.  En una ventana del Símbolo del sistema, abra el archivo de configuración de aplicación EdgeTransport.exe.config en el Bloc de notas mediante el comando siguiente:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 2.  Busque las claves siguientes en la sección `<appSettings>`.
     
-        <add key="PriorityQueuingEnabled" value="false" />
-        <add key="MaxPerDomainHighPriorityConnections" value="3" />
-        <add key="MaxPerDomainNormalPriorityConnections" value="15" />
-        <add key="MaxPerDomainLowPriorityConnections" value="2" />
-        <add key="HighPriorityMessageExpirationTimeout" value="8:00:00" />
-        <add key="NormalPriorityMessageExpirationTimeout" value="2.00:00:00" />
-        <add key="LowPriorityMessageExpirationTimeout" value="2.00:00:00" />
-        <add key="HighPriorityDelayNotificationTimeout" value="00:30:00" />
-        <add key="NormalPriorityDelayNotificationTimeout" value="4:00:00" />
-        <add key="LowPriorityDelayNotificationTimeout" value="8:00:00" />
-        <add key="MaxHighPriorityMessageSize" value="250KB" />
-    
+```powershell
+<add key="PriorityQueuingEnabled" value="false" />
+<add key="MaxPerDomainHighPriorityConnections" value="3" />
+<add key="MaxPerDomainNormalPriorityConnections" value="15" />
+<add key="MaxPerDomainLowPriorityConnections" value="2" />
+<add key="HighPriorityMessageExpirationTimeout" value="8:00:00" />
+<add key="NormalPriorityMessageExpirationTimeout" value="2.00:00:00" />
+<add key="LowPriorityMessageExpirationTimeout" value="2.00:00:00" />
+<add key="HighPriorityDelayNotificationTimeout" value="00:30:00" />
+<add key="NormalPriorityDelayNotificationTimeout" value="4:00:00" />
+<add key="LowPriorityDelayNotificationTimeout" value="8:00:00" />
+<add key="MaxHighPriorityMessageSize" value="250KB" />
+```
+
+```powershell    
     Para habilitar la prioridad en cola del servicio de transporte del servidor de buzones, use el siguiente valor:
+```
     
-        <add key="PriorityQueuingEnabled" value="true" />
-    
+```powershell
+    <add key="PriorityQueuingEnabled" value="true" />
+```
+
+```powershell    
     Configure los valores de prioridad en cola restantes o déjelos con los valores predeterminados.
+```
 
 3.  Cuando haya terminado, guarde y cierre el archivo EdgeTransport.exe.config.
 
 4.  Reinicie el servicio de transporte de Microsoft Exchange ejecutando el siguiente comando:
     
-        net stop MSExchangeTransport && net start MSExchangeTransport
+```powershell
+net stop MSExchangeTransport && net start MSExchangeTransport
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

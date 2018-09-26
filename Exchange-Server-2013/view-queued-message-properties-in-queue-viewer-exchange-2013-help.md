@@ -117,7 +117,9 @@ El Visor de cola se utiliza en el cuadro de herramientas de Exchange para ver la
 
 Puede usar el cmdlet **Get-Message** para ver las propiedades de un mensaje que actualmente está en cola para la entrega. En el siguiente ejemplo se tabula información de la dirección del remitente, los destinatarios, el asunto y la fecha de recepción para todos los mensajes que actualmente están en estado de reintento:
 
-    Get-Message -IncludeRecipientInfo -Filter {Status -eq "Retry"} | Format-Table FromAddress,Recipients,Subject,DateReceived
+```powershell
+Get-Message -IncludeRecipientInfo -Filter {Status -eq "Retry"} | Format-Table FromAddress,Recipients,Subject,DateReceived
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-Message](https://technet.microsoft.com/es-es/library/bb124738\(v=exchg.150\)).
 

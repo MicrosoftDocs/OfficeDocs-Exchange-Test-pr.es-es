@@ -59,21 +59,29 @@ Para iniciar los servicios de POP3:
 
 1.  En el equipo que ejecuta el rol de servidor Acceso de clientes, del Shell, ejecute el siguiente comando para iniciar el servicio Microsoft Exchange POP3.
     
-        Start-service MSExchangePOP3
-
+    ```powershell
+      Start-service MSExchangePOP3
+    ```
+    
 2.  En el equipo que ejecuta el rol de servidor Buzón de correo, del Shell, ejecute el siguiente comando para iniciar el servicio Microsoft Exchange POP3 Backend.
     
-        Start-service MSExchangePOP3BE
+```powershell
+Start-service MSExchangePOP3BE
+```
 
 Para detener los servicios de POP3:
 
 1.  En el equipo que ejecuta el rol de servidor Acceso de clientes, del Shell, ejecute el siguiente comando para detener el servicio Microsoft Exchange POP3.
     
-        Stop-service MSExchangePOP3
+```powershell
+Stop-service MSExchangePOP3
+```
 
 2.  En el equipo que ejecuta el rol de servidor Buzón de correo, del Shell, ejecute el siguiente comando para detener el servicio Microsoft Exchange POP3 Backend.
     
-        Stop-service MSExchangePOP3BE
+```powershell
+Stop-service MSExchangePOP3BE
+```
 
 ## Utilice net start para iniciar o detener los servicios POP3
 
@@ -81,21 +89,29 @@ Para iniciar los servicios de POP3:
 
 1.  En el equipo que ejecuta el rol de servidor Acceso de clientes, del símbolo del sistema, ejecute el siguiente comando para iniciar el servicio Microsoft Exchange POP3.
     
-        Net Start msExchangePOP3
+```powershell
+Net Start msExchangePOP3
+```
 
 2.  En el equipo que ejecuta el rol de servidor Buzón de correo, del símbolo del sistema, ejecute el siguiente comando para iniciar el servicio Microsoft Exchange POP3 Backend.
     
-        Net Start msExchangePOP3BE
+```powershell
+Net Start msExchangePOP3BE
+```
 
 Para detener los servicios de POP3:
 
 1.  En el equipo que ejecuta el rol de servidor Acceso de clientes, del símbolo del sistema, ejecute el siguiente comando para detener el servicio Microsoft Exchange POP3.
     
-        Net Stop MSExchangePOP3
+```powershell
+Net Stop MSExchangePOP3
+```
 
 2.  En el equipo que ejecuta el rol de servidor Buzón de correo, del símbolo del sistema, ejecute el siguiente comando para detener el servicio Microsoft Exchange POP3 Backend.
     
-        Net Stop MSExchangePOP3BE
+```powershell
+Net Stop MSExchangePOP3BE
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

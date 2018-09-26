@@ -86,23 +86,33 @@ Un grupo de disponibilidad de base de datos (DAG) es un conjunto de hasta 16 ser
 
 En este ejemplo se crea el DAG DAG1, que se configura para usar un servidor testigo FILESRV1 y el directorio local C:\\DAG1. DAG1 también está configurado para usar DHCP para las direcciones IP del DAG.
 
-    New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer FILESRV1 -WitnessDirectory C:\DAG1
+```powershell
+New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer FILESRV1 -WitnessDirectory C:\DAG1
+```
 
 En este ejemplo se crea el DAG DAG2. El sistema selecciona automáticamente un servidor de acceso de cliente en el sitio de Active Directory local que no contiene el rol de servidor Buzón de correo como servidor testigo del DAG. DAG2 tiene asignada una única dirección IP estática porque, en este ejemplo, todos los miembros del DAG tienen la red MAPI en la misma subred.
 
-    New-DatabaseAvailabilityGroup -Name DAG2 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8
+```powershell
+New-DatabaseAvailabilityGroup -Name DAG2 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8
+```
 
 En este ejemplo se crea el DAG DAG3. DAG3 está configurado para usar el servidor testigo MBX2 y el directorio local de C:\\DAG3. DAG3 tiene asignadas varias direcciones IP estáticas, ya que los miembros del DAG se encuentran en subredes diferentes en la red MAPI.
 
-    New-DatabaseAvailabilityGroup -Name DAG3 -WitnessServer MBX2 -WitnessDirectory C:\DAG3 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8,192.168.0.8
+```powershell
+New-DatabaseAvailabilityGroup -Name DAG3 -WitnessServer MBX2 -WitnessDirectory C:\DAG3 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8,192.168.0.8
+```
 
 En este ejemplo se crea el DAG DAG4 y se configura para utilizar DHCP. Además, el sistema seleccionará automáticamente el servidor testigo y se creará el directorio testigo predeterminado.
 
-    New-DatabaseAvailabilityGroup -Name DAG4
+```powershell
+New-DatabaseAvailabilityGroup -Name DAG4
+```
 
 En este ejemplo se crea el DAG DAG5, que no tendrá un punto de acceso administrativo (válido solo para DAG con Windows Server 2012 R2). Además, se usará MBX4 como el servidor testigo del DAG y se creará el directorio testigo predeterminado.
 
-    New-DatabaseAvailabilityGroup -Name DAG5 -DatabaseAvailabilityGroupIPAddresses ([System.Net.IPAddress]::None) -WitnessServer MBX4
+```powershell
+New-DatabaseAvailabilityGroup -Name DAG5 -DatabaseAvailabilityGroupIPAddresses ([System.Net.IPAddress]::None) -WitnessServer MBX4
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -112,7 +122,9 @@ Para comprobar que el DAG se creó correctamente, siga uno de estos pasos:
 
   - En el Shell, ejecute el siguiente comando para comprobar que el DAG se creó y para mostrar la información de propiedades del DAG.
     
-        Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+    ```powershell
+    Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+    ```
 
 ## Más información
 

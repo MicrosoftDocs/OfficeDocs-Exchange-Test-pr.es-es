@@ -55,7 +55,9 @@ Cada red de grupo de disponibilidad de base de datos (DAG) tiene diversas propie
 
 En este ejemplo, se agrega una subred de 10.0.0.0 y una máscara de subred de 255.0.0.0 a una red MapiDagNetwork de DAG en DAG DAG1.
 
-    Set-DatabaseAvailabilityGroupNetwork -Subnets 10.0.0.0/8 -Identity DAG1\MapiDagNetwork
+```powershell
+Set-DatabaseAvailabilityGroupNetwork -Subnets 10.0.0.0/8 -Identity DAG1\MapiDagNetwork
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -63,7 +65,9 @@ Para comprobar que haya configurado correctamente las redes de DAG, siga estos p
 
   - En el Shell, ejecute el siguiente comando para mostrar los ajustes de la configuración de una red de DAG y comprobar que la red de DAG se haya configurado correctamente.
     
-        Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
+    ```powershell
+    Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
+    ```
 
 ## Más información
 

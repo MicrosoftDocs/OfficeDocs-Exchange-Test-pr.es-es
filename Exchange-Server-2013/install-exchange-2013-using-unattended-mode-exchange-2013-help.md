@@ -96,20 +96,22 @@ La siguiente información concierne al rol de servidor de transporte perimetral 
     > Si tiene el control de acceso de usuarios (UAC) habilitado, tiene que ejecutar <CODE>Setup.exe</CODE> desde un símbolo del sistema elevado.
 
     
-        Setup.exe [/Mode:<setup mode>] [/IAcceptExchangeServerLicenseTerms]
-        [/Roles:<server roles to install>] [/InstallWindowsComponents] 
-        [/OrganizationName:<name for the new Exchange organization>] 
-        [/TargetDir:<target directory>] [/SourceDir:<source directory>]
-        [/UpdatesDir:<directory from which to install updates>] 
-        [/DomainController:<FQDN of domain controller>] [/DisableAMFiltering]
-        [/AnswerFile:<filename>] [/DoNotStartTransport] 
-        [/EnableErrorReporting] [/CustomerFeedbackEnabled:<True | False>] 
-        [/AddUmLanguagePack:<UM language pack name>] 
-        [/RemoveUmLanguagePack:<UM language pack name>] 
-        [/NewProvisionedServer:<server>] [/RemoveProvisionedServer:<server>] 
-        [/MdbName:<mailbox database name>] [/DbFilePath:<Edb file path>] 
-        [/LogFolderPath:<log folder path>] [/ActiveDirectorySplitPermissions:<True | False>]
-        [/TenantOrganizationConfig:<path>]
+    ```powershell
+    Setup.exe [/Mode:<setup mode>] [/IAcceptExchangeServerLicenseTerms]
+    [/Roles:<server roles to install>] [/InstallWindowsComponents] 
+    [/OrganizationName:<name for the new Exchange organization>] 
+    [/TargetDir:<target directory>] [/SourceDir:<source directory>]
+    [/UpdatesDir:<directory from which to install updates>] 
+    [/DomainController:<FQDN of domain controller>] [/DisableAMFiltering]
+    [/AnswerFile:<filename>] [/DoNotStartTransport] 
+    [/EnableErrorReporting] [/CustomerFeedbackEnabled:<True | False>] 
+    [/AddUmLanguagePack:<UM language pack name>] 
+    [/RemoveUmLanguagePack:<UM language pack name>] 
+    [/NewProvisionedServer:<server>] [/RemoveProvisionedServer:<server>] 
+    [/MdbName:<mailbox database name>] [/DbFilePath:<Edb file path>] 
+    [/LogFolderPath:<log folder path>] [/ActiveDirectorySplitPermissions:<True | False>]
+    [/TenantOrganizationConfig:<path>]
+    ```
 
 4.  El programa de instalación copia los archivos localmente en el equipo donde va a instalar Exchange 2013.
 

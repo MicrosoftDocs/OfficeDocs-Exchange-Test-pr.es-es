@@ -117,17 +117,18 @@ Para obtener más información acerca de las cuentas ESRA y cómo se usan para p
 
 En este ejemplo se suscribe un servidor Transporte perimetral al sitio especificado y se crea el conector de envío de Internet y el conector de envío desde el servidor Transporte perimetral a los servidores de buzones de correo.
 
-    New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeSubscriptionInfo.xml" -Encoding Byte -ReadCount 0)) -CreateInternetSendConnector $true -CreateInboundSendConnector $true -Site "Default-First-Site-Name" 
-
+```powershell
+New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeSubscriptionInfo.xml" -Encoding Byte -ReadCount 0)) -CreateInternetSendConnector $true -CreateInboundSendConnector $true -Site "Default-First-Site-Name" 
+```
 
 > [!NOTE]  
 > Si los valores de los parámetros <EM>CreateInternetSendConnector</EM> y <EM>CreateInboundSendConnector</EM> son <CODE>$true</CODE>: Se muestran a continuación solo para fines de demostración.
 
-
-
 En este ejemplo, se exporta un archivo de suscripción perimetral.
 
-    New-EdgeSubscription -FileName "C:\EdgeSubscriptionInfo.xml"
+```powershell
+New-EdgeSubscription -FileName "C:\EdgeSubscriptionInfo.xml"
+```
 
 
 > [!NOTE]  

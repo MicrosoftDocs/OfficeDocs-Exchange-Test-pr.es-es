@@ -41,9 +41,13 @@ Puede usar el cmdlet **Set-RemoteDomain** para configurar las propiedades de un 
 
 Este ejemplo deshabilita mensajes de fuera de la oficina para el dominio remoto llamado Contoso.
 
-    Set-RemoteDomain Contoso -AllowedOOFType None
+```powershell
+Set-RemoteDomain Contoso -AllowedOOFType None
+```
 
 En este ejemplo sólo se permiten mensajes de fuera de la oficina externos.
 
-    Set-RemoteDomain Contoso -AllowedOOFType External
+```powershell
+Set-RemoteDomain Contoso -AllowedOOFType External
+```
 

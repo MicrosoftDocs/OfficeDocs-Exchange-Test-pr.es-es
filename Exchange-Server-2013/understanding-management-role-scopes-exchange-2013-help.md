@@ -964,7 +964,9 @@ Algunos cmdlets pueden utilizar ámbitos de configuración que no son inmediatam
 
 Los ámbitos de bases de datos se introdujeron por primera vez en Microsoft Exchange 2010 Service Pack 1 (SP1) y continúan siendo compatibles con Exchange 2013. Las versiones de Exchange anteriores a Exchange 2010 SP1 solo son compatibles con los ámbitos de destinatarios y los ámbitos de configuración de servidores. Cuando cree un nuevo ámbito de base de datos en un servidor Exchange 2010 SP1 o posterior, recibirá la siguiente advertencia:
 
-    WARNING: Database management scopes will only be applied when a user connects to a server running Exchange 2010 SP1 or later. Servers running a version of Exchange prior to Exchange 2010 SP1 won't apply any roles from a role assignment linked to a database scope. Database management scopes also won't be visible to the Get-ManagementScope cmdlet when it's run from a pre-Exchange 2010 SP1 server.
+  ```powershell
+  WARNING: Database management scopes will only be applied when a user connects to a server running Exchange 2010 SP1 or later. Servers running a version of Exchange prior to Exchange 2010 SP1 won't apply any roles from a role assignment linked to a database scope. Database management scopes also won't be visible to the Get-ManagementScope cmdlet when it's run from a pre-Exchange 2010 SP1 server.
+  ```
 
 Cuando cree un ámbito de base de datos, solo se aplicará a los usuarios que se conecten a los servidores que ejecutan Exchange 2010 SP1 o posterior. Los usuarios que se conecten a servidores anteriores a Exchange 2010 SP1 no tendrán ninguna asignación de roles asociada a los ámbitos de la base de datos que se les aplica. Esto significa que no se otorgarán a los usuarios los permisos proporcionados por estas asignaciones de roles cuando se conecten a los servidores anteriores a Exchange 2010 SP1. Los ámbitos de bases de datos no se pueden crear, quitar, modificar ni visualizar desde los servidores anteriores a Exchange 2010 SP1.
 

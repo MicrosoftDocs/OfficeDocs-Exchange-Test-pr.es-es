@@ -21,11 +21,15 @@ The *SMTP banner* is the SMTP connection response that a remote SMTP messaging s
 
 This is the default response received by a remote SMTP messaging server after it connects to the Receive connector:
 
-    220 <Servername> Microsoft ESMTP MAIL service ready at <RegionalDay-Date-24HourTimeFormat> <RegionalTimeZoneOffset>
+```powershell
+220 <Servername> Microsoft ESMTP MAIL service ready at <RegionalDay-Date-24HourTimeFormat> <RegionalTimeZoneOffset>
+```
 
 When you specify a custom value for SMTP banner on a Receive connector, a remote SMTP messaging server that connects to that SMTP Receive connector receives the following response.
 
-    220 <Banner Text>
+```powershell
+220 <Banner Text>
+```
 
 You may want to modify the SMTP banner for Internet-facing SMTP Receive connectors so the server name and messaging server software aren't disclosed by the SMTP banner.
 
@@ -51,15 +55,21 @@ You may want to modify the SMTP banner for Internet-facing SMTP Receive connecto
 
 Run the following command:
 
-    Set-ReceiveConnector <ConnectorIdentity> -Banner "220 <Banner Text>"
+```powershell
+Set-ReceiveConnector <ConnectorIdentity> -Banner "220 <Banner Text>"
+```
 
 This example modifies the SMTP banner on the existing Receive connector named From the Internet so the SMTP banner displays `220 Contoso Corporation`.
 
-    Set-ReceiveConnector "From the Internet" -Banner "220 Contoso Corporation"
+```powershell
+Set-ReceiveConnector "From the Internet" -Banner "220 Contoso Corporation"
+```
 
 This example removes the custom SMTP banner on the Receive connector named From the Internet, which returns the SMTP banner to the default value.
 
-    Set-ReceiveConnector "From the Internet" -Banner $null
+```powershell
+Set-ReceiveConnector "From the Internet" -Banner $null
+```
 
 ## How do you know this worked?
 
@@ -67,7 +77,9 @@ To verify that you have successfully modified the SMTP banner on a Receive conne
 
 1.  Open a telnet client on a computer that can access the Receive connector, and run the following command:
     
-        open <Connector FQDN or IP address> <Port>
+    ```powershell
+    open <Connector FQDN or IP address> <Port>
+    ```
 
 2.  Verify the response from the Receive connector contains the SMTP banner you configured.
 

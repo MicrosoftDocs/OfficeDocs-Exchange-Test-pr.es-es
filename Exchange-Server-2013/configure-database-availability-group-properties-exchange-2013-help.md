@@ -75,31 +75,45 @@ Puede usar el Centro de administración de Exchange o el Shell para configurar l
 
 En este ejemplo, se establece el directorio testigo como C:\\DAG1DIR para un DAG denominado DAG1.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -WitnessDirectory C:\DAG1DIR
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -WitnessDirectory C:\DAG1DIR
+```
 
 En este ejemplo, se realiza la configuración previa de un servidor testigo alternativo de CAS3 y de un directorio testigo alternativo de C:\\DAGFileShareWitnesses\\DAG1.contoso.com para el DAG DAG1.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -AlternateWitnessDirectory C:\DAGFileShareWitnesses\DAG1.contoso.com -AlternateWitnessServer CAS3
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -AlternateWitnessDirectory C:\DAGFileShareWitnesses\DAG1.contoso.com -AlternateWitnessServer CAS3
+```
 
 En este ejemplo, se configura el DAG DAG1 para usar el protocolo de configuración dinámica de host (DHCP) para obtener una dirección IP.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 0.0.0.0
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 0.0.0.0
+```
 
 En este ejemplo, se configura el DAG DAG1 para que use la dirección IP estática 10.0.0.8.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8
+```
 
 En este ejemplo, el DAG denominado DAG1 con varias subredes se configura con varias direcciones IP estáticas.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8,10.0.1.8
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8,10.0.1.8
+```
 
 En este ejemplo, se configura el DAG DAG1 para el modo DAC.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatacenterActivationMode DagOnly
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatacenterActivationMode DagOnly
+```
 
 En este ejemplo, se configura el puerto de replicación para un DAG DAG1 para que sea 63132.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -ReplicationPort 63132
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -ReplicationPort 63132
+```
 
 
 > [!NOTE]
@@ -113,7 +127,9 @@ Para comprobar si el DAG se configuró correctamente, siga estos pasos:
 
   - En el Shell, ejecute el siguiente comando para mostrar los valores de configuración del DAG y compruebe que el DAG se configuró correctamente.
     
-        Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+    ```powershell
+    Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+    ```
 
 ## Más información
 

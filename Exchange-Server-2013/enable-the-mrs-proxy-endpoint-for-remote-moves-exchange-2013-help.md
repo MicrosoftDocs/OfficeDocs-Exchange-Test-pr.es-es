@@ -66,12 +66,15 @@ El servidor de acceso de cliente en el que se habilitará el extremo de proxy MR
 ## Usar el Shell para habilitar el extremo de proxy MRS
 
 Con el siguiente comando se habilita el extremo de proxy MRS en un servidor de acceso de cliente llamado EXCH-SRV-01.
-
+```powershell
     Set-WebServicesVirtualDirectory -Identity "EXCH-SRV-01\EWS (Default Web Site)" -MRSProxyEnabled $true
+```
 
 Con el siguiente comando se habilita el extremo de proxy MRS en todos los servidores de acceso de cliente de su organización de Exchange.
 
-    Get-WebServicesVirtualDirectory | Set-WebServicesVirtualDirectory -MRSProxyEnabled $true
+```powershell
+Get-WebServicesVirtualDirectory | Set-WebServicesVirtualDirectory -MRSProxyEnabled $true
+```
 
 
 > [!IMPORTANT]
@@ -93,17 +96,21 @@ O bien
 
 Ejecute el siguiente comando en el Shell:
 
-    Get-WebServicesVirtualDirectory | FL Identity,MRSProxyEnabled
+```powershell
+Get-WebServicesVirtualDirectory | FL Identity,MRSProxyEnabled
+```
 
 Compruebe que el parámetro *MRSProxyEnabled* esté establecido en `True`.
 
 Otra forma de comprobar que el extremo de proxy MRS está habilitado consiste en utilizar el cmdlet **Test-MigrationServerAvailability** para probar la capacidad de comunicación con el servidor remoto que hospeda los buzones de correo que desea mover o, en el caso de exteriorizar buzones de correo de Exchange Online a su organización local, un servidor de su organización local. Para obtener más información, consulte [Test-MigrationServerAvailability](https://technet.microsoft.com/es-es/library/jj219169\(v=exchg.150\)).
 
 En el siguiente ejemplo se muestra la conexión a un servidor en el bosque corp.contoso.com.
+
+```powershell
+$Credentials = Get-Credential
 ```
-    $Credentials = Get-Credential
-```
-```
+
+```powershell
     Test-MigrationServerAvailability -ExchangeRemoteMove -Autodiscover -EmailAddress administrator@corp.contoso.com -Credentials $Credentials
 ```
 

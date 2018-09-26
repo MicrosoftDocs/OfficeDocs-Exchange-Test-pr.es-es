@@ -49,23 +49,32 @@ Para consultar otras tareas relacionadas con servidores de acceso de cliente y l
 
 En este ejemplo, se elimina un servidor de acceso de cliente llamado `MyClientAccessServer` de todos los planes de marcado del Protocolo de inicio de sesión (SIP).
 
-    Set-UMCallRouterSettings -DialPlans $null - Server MyClientAccessServer
+```powershell
+Set-UMCallRouterSettings -DialPlans $null - Server MyClientAccessServer
+```
 
 En este ejemplo se agrega un servidor de acceso de cliente llamado `MyClientAccessServer` a un plan de marcado de SIP denominado `MySIPDialPlan` y también se establece el número máximo de llamadas de voz entrantes.
 
-    Set-UMCallRouterSettings -DialPlans MySIPDialPlan -MaxCalls 150 -Server MyClientAccessServer
+```powershell
+Set-UMCallRouterSettings -DialPlans MySIPDialPlan -MaxCalls 150 -Server MyClientAccessServer
+```
 
 En este ejemplo, se establece el puerto de escucha TCP de SIP en el 5077 y el modo de inicio en modo Dual en un servidor de acceso de cliente llamado `MyClientAccessServer`.
-
+```powershell
     Set-UMCallRouterSettings  -Server MyClientAccessServer-SipTCPListeningPort 5077 -UMStartUpMode -Dual 
+```
 
 ## Usar el Shell para ver las propiedades del servidor de acceso de cliente
 
 En este ejemplo, se muestra una lista de todos los servidores de acceso de cliente.
 
-    Get-UMCallRouterSettings
+```powershell
+Get-UMCallRouterSettings
+```
 
 En este ejemplo, se muestra una lista con formato de las propiedades del servidor de acceso de cliente.
 
-    Get-UMCallRouterSettings | Format-List
+```powershell
+Get-UMCallRouterSettings | Format-List
+```
 

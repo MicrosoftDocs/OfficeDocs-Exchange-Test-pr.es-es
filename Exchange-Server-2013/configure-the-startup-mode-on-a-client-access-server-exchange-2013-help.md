@@ -67,9 +67,13 @@ Para consultar otras tareas de administración relacionadas con la mensajería u
 
 En este ejemplo, se establece el modo de inicio para un servidor de acceso de clientes denominado `UMCallRouter1` en modo dual.
 
-    Set-UMCallRouterSettings -Server UMCallRouter1 -UMStartUpMode Dual
+```powershell
+Set-UMCallRouterSettings -Server UMCallRouter1 -UMStartUpMode Dual
+```
 
 En este ejemplo, se establece el modo de inicio para un servidor de acceso de clientes denominado `UMCallRouter1` en modo TLS.
 
-    Set-UMCallRouterSettings -Server UMCallRouter1 -UMStartUpMode TLS
+```powershell
+Set-UMCallRouterSettings -Server UMCallRouter1 -UMStartUpMode TLS
+```
 

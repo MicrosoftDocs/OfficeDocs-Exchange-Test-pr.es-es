@@ -283,9 +283,12 @@ En la siguiente tabla se enumeran los sistemas operativos compatibles para Excha
 > <LI>
 > <P><STRONG>Windows Server 2008 R2</STRONG>&nbsp;&nbsp;&nbsp;Reinstale Windows Server y seleccione la opción <STRONG>Instalación completa</STRONG>.</P>
 > <LI>
-> <P><STRONG>Windows Server 2012 R2</STRONG> o <STRONG>Windows Server 2012</STRONG>&nbsp;&nbsp;&nbsp;Convierta su servidor en modo Windows Server Core en una instalación completa al ejecutar el siguiente comando.</P><PRE><CODE>Install-WindowsFeature Server-Gui-Mgmt-Infra, Server-Gui-Shell -Restart</CODE></PRE></LI></UL>
+> <P><STRONG>Windows Server 2012 R2</STRONG> o <STRONG>Windows Server 2012</STRONG>&nbsp;&nbsp;&nbsp;Convierta su servidor en modo Windows Server Core en una instalación completa al ejecutar el siguiente comando.</P>
+</LI></UL>
 
-
+> ```powershell
+> Install-WindowsFeature Server-Gui-Mgmt-Infra, Server-Gui-Shell -Restart
+> ```
 
 **Sistemas operativos compatibles para Exchange 2013**
 

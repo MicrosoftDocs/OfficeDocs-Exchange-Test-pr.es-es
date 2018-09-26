@@ -80,9 +80,11 @@ Para cambiar de los permisos divididos de RBAC a los permisos compartidos de Exc
 Para configurar permisos compartidos en el grupo de funciones Administración de la organización, realice las siguientes acciones con una cuenta que tenga permisos para delegar asignaciones de funciones para la función Creación de destinatarios de correo y la función Pertenencia y creación de grupos de seguridad:
 
 1.  Use los siguientes comandos para agregar asignaciones de funciones de delegación para la función Creación de destinatario de correo y Pertenencia y creación de grupos de seguridad al grupo de funciones de Administración de la organización.
-    
-        New-ManagementRoleAssignment -Role "Mail Recipient Creation" -SecurityGroup "Organization Management" -Delegating
-        New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Organization Management" -Delegating
+
+    ```powershell   
+    New-ManagementRoleAssignment -Role "Mail Recipient Creation" -SecurityGroup "Organization Management" -Delegating
+    New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Organization Management" -Delegating
+    ```
     
 
     > [!NOTE]
@@ -91,13 +93,17 @@ Para configurar permisos compartidos en el grupo de funciones Administración de
 
 
 2.  Con los siguientes comandos, agregue asignaciones de funciones regulares a la función Creación de destinatarios de correo a los grupos de funciones Administración de la organización y Recipient Management.
-    
-        New-ManagementRoleAssignment -Role "Mail Recipient Creation" -SecurityGroup "Organization Management"
-        New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Recipient Management"
+
+    ```powershell
+    New-ManagementRoleAssignment -Role "Mail Recipient Creation" -SecurityGroup "Organization Management"
+    New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Recipient Management"
+    ```
 
 3.  Agregue una asignación de función regular a la función Pertenencia y creación de grupos de seguridad al grupo de funciones Administración de la organización con el comando siguiente.
-    
-        New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Organization Management"
+
+    ```powershell    
+    New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Organization Management"
+    ```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd335193\(v=exchg.150\)).
 
@@ -114,12 +120,16 @@ Como opción, puede quitar los permisos concedidos a los administradores de Acti
 Para quitar permisos divididos relacionados con Exchange a los administradores de Active Directory, realice las siguientes acciones:
 
 1.  Quite las asignaciones de funciones regulares y de delegación que asignan la función Creación de destinatarios de correo al grupo de funciones o al grupo de seguridad universal (USG) que incluye a los administradores de Active Directory como usuarios con el siguiente comando. Este comando usa el grupo de funciones Administradores de Active Directory como un ejemplo. El conmutador *WhatIf* permite ver cuáles asignaciones de roles se quitarán. Quite el conmutador *WhatIf* y ejecute nuevamente el comando para quitar las asignaciones de roles.
-    
-        Get-ManagementRoleAssignment -Role "Mail Recipient Creation" | Where { $_.RoleAssigneeName -EQ "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
+
+    ```powershell    
+    Get-ManagementRoleAssignment -Role "Mail Recipient Creation" | Where { $_.RoleAssigneeName -EQ "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
+    ```
 
 2.  Elimine las asignaciones de roles habituales y de delegación que asignan al rol Pertenencia y creación de grupos de seguridad al grupo de roles o bien el USG que incluye a los administradores de Active Directory como usuarios con el siguiente comando. Este comando usa el grupo de funciones Administradores de Active Directory como un ejemplo. El conmutador *WhatIf* permite ver cuáles asignaciones de roles se quitarán. Quite el conmutador *WhatIf* y ejecute nuevamente el comando para quitar las asignaciones de roles.
-    
-        Get-ManagementRoleAssignment -Role "Security Group Creation and Membership" | Where { $_.RoleAssigneeName -EQ "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
+
+    ```powershell    
+    Get-ManagementRoleAssignment -Role "Security Group Creation and Membership" | Where { $_.RoleAssigneeName -EQ "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
+    ```
 
 3.  Opcional. Si desea quitarles todos los permisos de Exchange a los administradores de Active Directory, puede quitar el grupo de funciones o el USG del cual son miembros. Si desea obtener más información acerca de cómo eliminar un grupo de funciones, consulte [Administrar grupos de roles](manage-role-groups-exchange-2013-help.md).
 
@@ -141,13 +151,17 @@ Para cambiar de permisos divididos de Active Directory a permisos compartidos, r
 
 1.  Desde un shell de comandos de Windows, ejecute el siguiente comando desde los medios de instalación de Exchange 2013 para deshabilitar los permisos divididos de Active Directory.
     
-        setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+    ```powershell
+    setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+    ```
 
 2.  Desde el Shell de administración de Exchange, ejecute los siguientes comandos para agregar asignaciones de funciones regulares entre la función Creación de destinatario de correo y la función Administración y creación de grupos de seguridad y los grupos de funciones Administración de la organización y Recipient Management.
-    
-        New-ManagementRoleAssignment "Mail Recipient Creation_Organization Management" -Role "Mail Recipient Creation" -SecurityGroup "Organization Management"
-        New-ManagementRoleAssignment "Security Group Creation and Membership_Org Management" -Role "Security Group Creation and Membership" -SecurityGroup "Organization Management"
-        New-ManagementRoleAssignment "Mail Recipient Creation_Recipient Management" -Role "Mail Recipient Creation" -SecurityGroup "Recipient Management"
+
+    ```powershell    
+    New-ManagementRoleAssignment "Mail Recipient Creation_Organization Management" -Role "Mail Recipient Creation" -SecurityGroup "Organization Management"
+    New-ManagementRoleAssignment "Security Group Creation and Membership_Org Management" -Role "Security Group Creation and Membership" -SecurityGroup "Organization Management"
+    New-ManagementRoleAssignment "Mail Recipient Creation_Recipient Management" -Role "Mail Recipient Creation" -SecurityGroup "Recipient Management"
+    ```
 
 3.  Reinicie los servidores Exchange 2013 en la organización.
     

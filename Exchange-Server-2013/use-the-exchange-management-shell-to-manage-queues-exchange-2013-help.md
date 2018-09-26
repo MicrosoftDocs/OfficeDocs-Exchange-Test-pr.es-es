@@ -250,7 +250,7 @@ Volver al principio
 Exchange 2013 agrega un nuevo cmdlet de cola denominado **Get-QueueDigest**. Este cmdlet le permite ver información acerca de algunas de las colas de su organización de Exchange, o de todas ellas, usando un único comando. Concretamente, el cmdlet **Get-QueueDigest** le permite ver información sobre colas basándose en su ubicación en los servidores, en DAG, en sitios de Active Directory o en todo el bosque de Active Directory. Observe que las colas de un servidor de transporte perimetral suscrito en una red perimetral no aparecen entre los resultados. De igual modo, **Get-QueueDigest** está disponible en un servidor de transporte perimetral, pero los resultados se acotan a las colas en el servidor de transporte perimetral.
 
 
-> [!NOTE]
+> [!NOTE]  
 > De forma predeterminada, el cmdlet <STRONG>Get-QueueDigest</STRONG> muestra las colas de entrega que contienen diez o más mensajes y los resultados que tienen entre uno y dos minutos de antigüedad. Si quiere ver las instrucciones para cambiar estos valores predeterminados, consulte <A href="configure-get-queuedigest-exchange-2013-help.md">Configurar Get-QueueDigest</A>.
 
 
@@ -314,7 +314,9 @@ Los parámetros de filtrado y ordenación disponibles con el cmdlet **Get-QueueD
 
 En este ejemplo se devuelven todas las colas externas que no estén vacías en los servidores de buzones de correo Exchange 2013 denominados Mailbox01, Mailbox02 y Mailbox03.
 
-    Get-QueueDigest -Server Mailbox01,Mailbox02,Mailbox03 -Include External -Exclude Empty
+```powershell
+Get-QueueDigest -Server Mailbox01,Mailbox02,Mailbox03 -Include External -Exclude Empty
+```
 
 Volver al principio
 
@@ -515,11 +517,15 @@ Puede especificar un filtro que evalúe varias expresiones usando el operador de
 
 En este ejemplo se muestra una lista de las colas que tienen como destino cualquier nombre de dominio SMTP que termine en contoso.com y que actualmente contienen más de 500 mensajes.
 
-    Get-Queue -Filter {Identity -like "*contoso.com*" -and MessageCount -gt 500}
+```powershell
+Get-Queue -Filter {Identity -like "*contoso.com*" -and MessageCount -gt 500}
+```
 
 En este ejemplo se muestra una lista de los mensajes que se envían desde cualquier dirección de correo en el dominio contoso.com que tienen un SCL mayor que 5.
 
-    Get-Message -Filter {FromAddress -like "*Contoso.com*" -and SCL -gt 5}
+```powershell
+Get-Message -Filter {FromAddress -like "*Contoso.com*" -and SCL -gt 5}
+```
 
 Volver al principio
 
@@ -594,15 +600,20 @@ El en ejemplo siguiente se usan scripts para recuperar la primera página de res
 
 1.  Abra el Shell y escriba el comando siguiente para recuperar la primera página de resultados.
     
-        $Results=Get-message -Server mailbox01.contoso.com -ResultSize 500 -SortOrder +FromAddress,-Size
+    ```powershell
+    $Results=Get-message -Server mailbox01.contoso.com -ResultSize 500 -SortOrder +FromAddress,-Size
+    ```
 
 2.  Para establecer el objeto de marcador, escriba el comando siguiente para guardar el último elemento de la primera página en una variable.
     
-        $temp=$results[$results.length-1]
+    ```powershell
+    $temp=$results[$results.length-1]
+    ```
 
 3.  Para recuperar los 500 objetos siguientes del servidor especificado y excluir el objeto de marcador, escriba el comando siguiente.
     
-        Get-message -Server mailbox01.contoso.com -BookmarkObject:$temp -IncludeBookmark $False -ResultSize 500 -SortOrder +FromAddress,-Size
+    ```powershell
+    Get-message -Server mailbox01.contoso.com -BookmarkObject:$temp -IncludeBookmark $False -ResultSize 500 -SortOrder +FromAddress,-Size
+    ```
 
 Volver al principio
-

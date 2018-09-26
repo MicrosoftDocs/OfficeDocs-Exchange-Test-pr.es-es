@@ -72,12 +72,13 @@ Para conocer otras tareas de administración relacionadas con las listas de dire
 ## Uso del Shell para crear una lista de direcciones
 
 En este ejemplo, se crea la lista de direcciones MyAddressList usando el parámetro *RecipientFilter*; la lista incluye destinatarios que son usuarios de buzones de correo y tienen `StateOrProvince` establecido en `Washington` u `Oregon`.
-
+```powershell
     New-AddressList -Name MyAddressList -RecipientFilter {((RecipientType -eq 'UserMailbox') -and ((StateOrProvince -eq 'Washington') -or (StateOrProvince -eq 'Oregon')))}
+```
 
 En este ejemplo se crea la lista de direcciones secundaria denominada "Building 34 Meeting Rooms" en el contenedor principal "All Rooms" usando condiciones integradas.
-
+```powershell
     New-AddressList -Name "Building 34 Meeting Rooms" -Container "\All Rooms" -IncludedRecipients Resources -ConditionalCustomAttribute1 "Building 34"
-
+```
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-AddressList](https://technet.microsoft.com/es-es/library/aa996912\(v=exchg.150\)).
 

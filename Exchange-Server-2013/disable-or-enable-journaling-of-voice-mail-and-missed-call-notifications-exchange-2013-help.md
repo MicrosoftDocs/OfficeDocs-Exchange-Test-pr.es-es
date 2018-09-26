@@ -41,11 +41,15 @@ En Microsoft Exchange Server 2013, cuando se crea una regla de registro en diari
 
 En este ejemplo, se deshabilita el registro en diario del correo de voz y los avisos de llamadas perdidas al configurar el parámetro *VoicemailJournalingEnabled* en `$false`.
 
-    Set-TransportConfig -VoicemailJournalingEnabled $false
+```powershell
+Set-TransportConfig -VoicemailJournalingEnabled $false
+```
 
 En este ejemplo, se habilita el registro en diario del correo de voz y de las notificaciones de llamadas perdidas al configurar el mismo parámetro en `$true`.
 
-    Set-TransportConfig -VoicemailJournalingEnabled $true
+```powershell
+Set-TransportConfig -VoicemailJournalingEnabled $true
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Set-TransportConfig](https://technet.microsoft.com/es-es/library/bb124151\(v=exchg.150\)).
 

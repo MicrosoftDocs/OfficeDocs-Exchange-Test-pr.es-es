@@ -69,11 +69,15 @@ Puede crear asignaciones de funciones de delegación usando los mismos ámbitos 
 
 En este ejemplo se crea una asignación de funciones de delegación para permitir a los miembros del grupo de funciones de administración ejecutiva asignar la función de destinatarios de correo a cualquier usuario al que se asignen funciones en la organización de Exchange.
 
-    New-ManagementRoleAssignment -Role "Mail Recipients" -SecurityGroup "Senior Admins" -Name "Mail Recipients_Senior Admin - Delegate" -Delegating
+  ```powershell
+  New-ManagementRoleAssignment -Role "Mail Recipients" -SecurityGroup "Senior Admins" -Name "Mail Recipients_Senior Admin - Delegate" -Delegating
+  ```
 
 En este ejemplo se crea una asignación de funciones de delegación para permitir a los miembros del grupo de funciones de administración ejecutiva asignar la función de destinatarios de correo sólo a los usuarios de la unidad organizativa de ventas/usuarios del dominio contoso.com.
 
-    New-ManagementRoleAssignment -Role "Mail Recipients" -SecurityGroup "Senior Admins" -Name "Mail Recipients_Senior Admins - Delegate" -RecipientOrganizationalUnitScope contoso.com/sales/users -Delegating
+  ```powershell
+  New-ManagementRoleAssignment -Role "Mail Recipients" -SecurityGroup "Senior Admins" -Name "Mail Recipients_Senior Admins - Delegate" -RecipientOrganizationalUnitScope contoso.com/sales/users -Delegating
+  ```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/es-es/library/dd335193\(v=exchg.150\)).
 

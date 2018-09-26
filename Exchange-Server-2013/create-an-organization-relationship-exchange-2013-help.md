@@ -81,11 +81,15 @@ En este ejemplo se crea una relación entre organizaciones con Contoso, Ltd con 
 
 <!-- end list -->
 
-    New-OrganizationRelationship -Name "Contoso" -DomainNames "contoso.com","northamerica.contoso.com","europe.contoso.com" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel LimitedDetails
+  ```powershell
+  New-OrganizationRelationship -Name "Contoso" -DomainNames "contoso.com","northamerica.contoso.com","europe.contoso.com" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel LimitedDetails
+  ```
 
 En este ejemplo se intenta descubrir automáticamente la información de configuración de la organización externa de Exchange Contoso.com mediante el uso de los nombres de dominio que se proporcionan en el cmdlet **Get-FederationInformation**. Si usa este método para crear una relación de organización, primero debe asegurarse de haber creado un identificador de la organización mediante el cmdlet **Set-FederatedOrganizationIdentifier**.
 
-    Get-FederationInformation -DomainName Contoso.com | New-OrganizationRelationship -Name "Contoso" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel -LimitedDetails
+  ```powershell
+  Get-FederationInformation -DomainName Contoso.com | New-OrganizationRelationship -Name "Contoso" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel -LimitedDetails
+  ```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Get-FederationInformation](https://technet.microsoft.com/es-es/library/dd351221\(v=exchg.150\)) y [New-OrganizationRelationship](https://technet.microsoft.com/es-es/library/ee332357\(v=exchg.150\)).
 
@@ -103,7 +107,9 @@ En este ejemplo se crea una relación entre organizaciones con Fourth Coffee. En
 
 <!-- end list -->
 
-    New-OrganizationRelationship -Name "Fourth Coffee" -DomainNames "fourthcoffee.com" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel -AvailabilityOnly -TargetAutodiscoverEpr "https://mail.fourthcoffee.com/autodiscover/autodiscover.svc/wssecurity" -TargetApplicationUri "mail.fourthcoffee.com"
+  ```powershell
+  New-OrganizationRelationship -Name "Fourth Coffee" -DomainNames "fourthcoffee.com" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel -AvailabilityOnly -TargetAutodiscoverEpr "https://mail.fourthcoffee.com/autodiscover/autodiscover.svc/wssecurity" -TargetApplicationUri "mail.fourthcoffee.com"
+  ```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-OrganizationRelationship](https://technet.microsoft.com/es-es/library/ee332357\(v=exchg.150\)).
 
@@ -113,7 +119,9 @@ La finalización correcta del asistente para **nueva relación organizativa** re
 
 Para comprobar con más detalle si la relación de organización se creó correctamente, ejecute el siguiente comando del Shell y verifique la información de relación:
 
-    Get-OrganizationRelationship | format-list
+  ```powershell
+  Get-OrganizationRelationship | format-list
+  ```
 
 
 > [!TIP]

@@ -65,12 +65,15 @@ Para obtener más información acerca de los filtros de ámbitos de administraci
 
 Use la sintaxis siguiente para crear un ámbito de filtro con restricción de dominio referida a una OU.
 
+```powershell
     New-ManagementScope -Name <scope name> -RecipientRestrictionFilter <filter query> [-RecipientRoot <OU>]
+```
 
 En este ejemplo se crea un ámbito que incluye todos los buzones de la OU contoso.com/Sales.
 
+```powershell
     New-ManagementScope -Name "Mailboxes in Sales OU" -RecipientRestrictionFilter { RecipientType -eq 'UserMailbox' } -RecipientRoot "contoso.com/Sales OU"
-
+```
 
 > [!NOTE]
 > Puede omitir el parámetro <EM>RecipientRoot</EM> si desea que el filtro se aplique a todo el ámbito de lectura implícito de la función de administración y no sólo a una OU concreta.
@@ -87,11 +90,15 @@ Para obtener más información acerca de los filtros de ámbito de administraci�
 
 Use la sintaxis siguiente para crear un ámbito de filtro de servidor.
 
-    New-ManagementScope -Name <scope name> -ServerRestrictionFilter <filter query>
+```powershell
+New-ManagementScope -Name <scope name> -ServerRestrictionFilter <filter query>
+```
 
 En este ejemplo se crea un ámbito que incluye todos los servidores dentro del sitio AD 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com' (Active Directory).
 
+```powershell
     New-ManagementScope -Name "Servers in Seattle AD site" -ServerRestrictionFilter { ServerSite -eq 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com' }
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementScope](https://technet.microsoft.com/es-es/library/dd335137\(v=exchg.150\)).
 
@@ -101,11 +108,15 @@ Los ámbitos de configuración basados en listas de servidores se crean usando e
 
 Use la sintaxis siguiente para crear un ámbito basado en listas de servidores.
 
-    New-ManagementScope -Name <scope name> -ServerList <server 1>, <server 2...>
+```powershell
+New-ManagementScope -Name <scope name> -ServerList <server 1>, <server 2...>
+```
 
 En este ejemplo se crea un ámbito que se aplica sólo a MBX1, MBX3 y MBX5.
 
-    New-ManagementScope -Name "Mailbox servers" -ServerList MBX1,MBX3,MBX5
+```powershell
+New-ManagementScope -Name "Mailbox servers" -ServerList MBX1,MBX3,MBX5
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementScope](https://technet.microsoft.com/es-es/library/dd335137\(v=exchg.150\)).
 
@@ -123,11 +134,15 @@ Para obtener más información acerca de los filtros de ámbito de administraci�
 
 Use la sintaxis siguiente para crear un filtro de restricción de base de datos.
 
-    New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```
 
 En este ejemplo se crea un ámbito que incluye todas las bases de datos que contienen la cadena "Ejecutivo" en la propiedad **Name** de la base de datos.
 
+```powershell
     New-ManagementScope -Name "Executive Databases" -DatabaseRestrictionFilter { Name -Like '*Executive*' }
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementScope](https://technet.microsoft.com/es-es/library/dd335137\(v=exchg.150\)).
 
@@ -143,11 +158,15 @@ Los ámbitos de configuración basados en listas de bases de datos se crean usan
 
 Use la sintaxis siguiente para crear un ámbito basado en listas de bases de datos.
 
-    New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```
 
 En este ejemplo se crea un ámbito que se aplica solo a las bases de datos Database 1, Database 2 y Database 3.
 
-    New-ManagementScope -Name "Primary databases" -DatabaseList "Database 1", "Database 2", "Database 3"
+```powershell
+New-ManagementScope -Name "Primary databases" -DatabaseList "Database 1", "Database 2", "Database 3"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementScope](https://technet.microsoft.com/es-es/library/dd335137\(v=exchg.150\)).
 
@@ -163,11 +182,15 @@ Cualquier ámbito que cree con el cmdlet **New-ManagementScope** puede llamarse 
 
 En ese ejemplo se crea un ámbito exclusivo basado en un filtro de destinatarios que solo incluye a los usuarios en el departamento "Executives".
 
+```powershell
     New-ManagementScope "Executive Users Exclusive Scope" -RecipientRestrictionFilter { Department -Eq "Executives" } -Exclusive
+```
 
 Cuando se crea un ámbito exclusivo, se le solicita que reconozca que ha creado un ámbito exclusivo y que es consciente de los efectos que un ámbito exclusivo tiene en las asignaciones de roles no exclusivas ya existentes. Si desea suprimir la advertencia, puede usar el conmutador *Force*. En este ejemplo se crea el mismo ámbito que en el ejemplo anterior, pero sin advertencia.
 
+```powershell
     New-ManagementScope "Executive Users Exclusive Scope" -RecipientRestrictionFilter { Department -Eq "Executives" } -Exclusive -Force
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [New-ManagementScope](https://technet.microsoft.com/es-es/library/dd335137\(v=exchg.150\)).
 

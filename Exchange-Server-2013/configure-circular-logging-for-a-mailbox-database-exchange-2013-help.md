@@ -49,11 +49,15 @@ Para obtener más información acerca del registro circular y CRCL, consulte [Ex
 
 En este ejemplo se habilita el registro circular para la base de datos DB1.
 
-    Set-MailboxDatabase DB1 -CircularLoggingEnabled $True
+```powershell
+Set-MailboxDatabase DB1 -CircularLoggingEnabled $True
+```
 
 En este ejemplo se deshabilita el registro circular para la base de datos DB1.
 
-    Set-MailboxDatabase DB1 -CircularLoggingEnabled $False
+```powershell
+Set-MailboxDatabase DB1 -CircularLoggingEnabled $False
+```
 
 Para ver otros parámetros de la base de datos de buzones que puede configurar, consulte [Set-MailboxDatabase](https://technet.microsoft.com/es-es/library/bb123971\(v=exchg.150\)).
 

@@ -59,11 +59,15 @@ Para obtener información más detallada acerca de la sintaxis y los parámet
 
 Para ver una lista con todas las entradas de funciones de una función determinada, use la sintaxis siguiente.
 
+```powershell
     Get-ManagementRoleEntry <role name>\*
+```
 
 En este ejemplo se recuperan todas las entradas de funciones de la función `Recipient Administrators`.
 
+```powershell
     Get-ManagementRole "Recipient Administrators\*"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleEntry](https://technet.microsoft.com/es-es/library/dd335210\(v=exchg.150\)).
 
@@ -71,11 +75,15 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para ver una lista con todas las funciones que contienen una entrada de función determinada, use la sintaxis siguiente.
 
+```powershell
     Get-ManagementRoleEntry *\<cmdlet name>
+```
 
 En este ejemplo se recuperan todas las funciones que contienen la entrada de función **Set-Mailbox**.
 
+```powershell
     Get-ManagementRoleEntry *\Set-Mailbox
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleEntry](https://technet.microsoft.com/es-es/library/dd335210\(v=exchg.150\)).
 
@@ -83,11 +91,15 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para ver una lista con todas las funciones que contienen cmdlets con nombres similares, use la sintaxis siguiente.
 
+```powershell
     Get-ManagementRoleEntry *<partial role name>*\*<partial cmdlet name>*
+```
 
 En este ejemplo se devuelve una lista de las entradas de funciones que contienen la cadena `Mailbox` y que se encuentran en funciones que contienen la cadena `Tier 1` en el nombre.
 
+```powershell
     Get-ManagementRoleEntry "*Tier 1*\*Mailbox*"
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleEntry](https://technet.microsoft.com/es-es/library/dd335210\(v=exchg.150\)).
 
@@ -95,11 +107,15 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, con
 
 Para ver los detalles de un solo grupo de funciones, use la sintaxis siguiente.
 
-    Get-ManagementRoleEntry <role name>\<cmdlet name> | Format-List
+```powershell
+Get-ManagementRoleEntry <role name>\<cmdlet name> | Format-List
+```
 
 En este ejemplo se recuperan los detalles de la función de entrada **Set-Mailbox** en la función `Recipient Administrators`.
 
-    Get-ManagementRoleEntry "Recipient Administrators\Set-Mailbox" | Format-List
+```powershell
+Get-ManagementRoleEntry "Recipient Administrators\Set-Mailbox" | Format-List
+```
 
 Si la entrada de función que ve tiene demasiados parámetros para indicar usando el cmdlet **Format-List**, consulte la sección "Visualización de los parámetros de una sola entrada de función" más adelante en este mismo tema.
 
@@ -111,11 +127,15 @@ Algunas entradas de función tienen más parámetros de los que se pueden ver ca
 
 Para ver los parámetros almacenados en la propiedad **Parameters** de un objeto de entrada de función, use la sintaxis siguiente.
 
+```powershell
     (Get-ManagementRoleEntry <role name>\<cmdlet name>).Parameters
+```
 
 En este ejemplo se recuperan los parámetros de la entrada de función **Set-Mailbox** en la función de destinatarios de correo.
 
+```powershell
     (Get-ManagementRoleEntry "Mail Recipients\Set-Mailbox").Parameters
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleEntry](https://technet.microsoft.com/es-es/library/dd335210\(v=exchg.150\)).
 

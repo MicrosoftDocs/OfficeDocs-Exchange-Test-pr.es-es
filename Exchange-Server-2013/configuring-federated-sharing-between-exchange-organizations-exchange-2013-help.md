@@ -94,8 +94,9 @@ Complete los pasos de [Configuración del uso compartido federado](configure-fed
         Cree un espacio de direcciones de disponibilidad para la organización remota de Exchange 2013 que dirija las solicitudes de disponibilidad de los usuarios de buzones de Exchange 2007 al servidor de acceso de clientes de Exchange 2010 SP2 en la organización de Exchange 2007. Esta configuración habilita las solicitudes de disponibilidad de los usuarios de Exchange 2007 en los usuarios de la organización remota de Exchange 2013 que debe ponerse en proxy mediante el servidor de acceso de cliente de Exchange 2010 en la organización de Exchange 2007. El servidor de acceso de cliente de Exchange 2010 en la organización de Exchange 2007 emplea la confianza de federación y la relación de organización para enviar las solicitudes de disponibilidad al punto final de disponibilidad de bosque de la organización remota de Exchange 2013.
         
         Para configurar el espacio de direcciones de disponibilidad, en el servidor de acceso de cliente de Exchange 2010 de la organización de Exchange 2007, ejecute el comando siguiente en el Shell de administración de Exchange:
-        
+        ```powershell
             Add-AvailabilityAddressSpace -AccessMethod InternalProxy -ProxyUrl https://<Exchange 2010 CAS server name>/ews/exchange.asmx -ForestName <SMTP domain of the remote Exchange organization> -UseServiceAccount $True
+        ```
         
         Para obtener información detallada sobre parámetros y sintaxis, consulte [Add-AvailabilityAddressSpace](https://go.microsoft.com/fwlink/p/?linkid=268413).
 

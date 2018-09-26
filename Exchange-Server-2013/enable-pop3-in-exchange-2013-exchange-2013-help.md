@@ -61,19 +61,27 @@ En el equipo que ejecuta el rol de servidor Buzón de correo:
 
 1.  Configure el servicio Microsoft Exchange POP3 para que se inicie automáticamente.
     
-        Set-service msExchangePOP3 -startuptype automatic
+```powershell
+Set-service msExchangePOP3 -startuptype automatic
+```
 
 2.  Inicie el servicio Microsoft Exchange POP3.
     
-        Start-service msExchangePOP3
+```powershell
+Start-service msExchangePOP3
+```
 
 3.  Configure el servicio back-end Microsoft Exchange POP3 para que se inicie automáticamente.
     
-        Set-service msExchangePOP3BE -startuptype automatic
+```powershell
+Set-service msExchangePOP3BE -startuptype automatic
+```
 
 4.  Inicie el servicio back-end Microsoft Exchange POP3.
     
-        Start-service msExchangePOP3BE
+```powershell
+Start-service msExchangePOP3BE
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

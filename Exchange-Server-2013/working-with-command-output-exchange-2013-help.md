@@ -51,33 +51,40 @@ También puede especificar un carácter comodín "\*" con un nombre de propiedad
 
 Los ejemplos siguientes muestran las distintas formas de ver los mismos datos devueltos por el cmdlet **Get-Mailbox**.
 
+```powershell
     Get-Mailbox TestUser1
     
     Name                      Alias                ServerName       ProhibitSendQuo
                                                                     ta
     ----                      -----                ----------       ---------------
     TestUser1                 TestUser1            mbx              unlimited
+```
 
 En el primer ejemplo, se llama al cmdlet **Get-Mailbox** sin ningún formato específico para que la salida predeterminada se realice en formato de tabla y contenga un conjunto predeterminado de propiedades.
 
+```powershell
     Get-Mailbox TestUser1 | Format-List -Property Name,Alias,EmailAddresses
     
     Name           : TestUser1
     Alias          : TestUser1
     EmailAddresses : {SMTP:TestUser1@contoso.com}
+```
 
 En el segundo ejemplo, la salida del cmdlet **Get-Mailbox** se canaliza al cmdlet **Format-List**, junto con propiedades específicas. Como puede ver, el formato y el contenido del resultado son notablemente distintos.
 
+```powershell
     Get-Mailbox TestUser1 | Format-List -Property Name, Alias, Email*
     Name                      : Test User
     Alias                     : TestUser1
     EmailAddresses            : {SMTP:TestUser1@contoso.com}
     EmailAddressPolicyEnabled : True
+```
 
 En el último ejemplo, la salida del cmdlet **Get-Mailbox** se canaliza al cmdlet **Format-List** como en el segundo ejemplo. No obstante, en el último ejemplo, se usa un carácter comodín para hacer coincidir todas las propiedades que empiezan con `Email`.
 
 Si se pasa más de un objeto al cmdlet **Format-List**, todas las propiedades especificadas para un objeto se muestran y se agrupan por objeto. El orden de visualización depende del parámetro predeterminado del cmdlet. El parámetro predeterminado más frecuente es el parámetro *Name* o el parámetro *Identity*. Por ejemplo, cuando se llama al cmdlet **Get-Childitem**, el orden de visualización predeterminado es por nombre de archivo en orden alfabético. Para cambiar este comportamiento, debe llamar al cmdlet **Format-List** junto con el parámetro *GroupBy*, y al nombre de un valor de propiedad por el que desee agrupar el resultado. Por ejemplo, el siguiente comando enumera todos los archivos de un directorio y, luego, los agrupa según la extensión.
 
+```powershell
     Get-Childitem | Format-List Name,Length -GroupBy Extension
     
         Extension: .xml
@@ -105,6 +112,7 @@ Si se pasa más de un objeto al cmdlet **Format-List**, todas las propiedades es
     
     Name   : Text_02.txt
     Length : 9835
+```
 
 En este ejemplo, el cmdlet **Format-List** ha agrupado los elementos según la propiedad *Extension* especificada por el parámetro *GroupBy*. Puede usar el parámetro *GroupBy* con cualquier propiedad válida para los objetos en la secuencia de canalización.
 
@@ -116,14 +124,17 @@ Además, el cmdlet **Format-Table** usa el parámetro *Wrap*. Este parámetro pe
 
 En el primer ejemplo, cuando el cmdlet **Get-Command** se usa para mostrar información de comando acerca del cmdlet **Get-Process**, se trunca la información de la propiedad *Definition*.
 
+```powershell
     Get-Command Get-Process | Format-Table Name,Definition
     
     Name                                    Definition
     ----                                    ----------
     get-process                             get-process [[-ProcessName] String[]...
+```
 
 En el segundo ejemplo, se agrega el parámetro *Wrap* al comando para forzar la visualización del contenido completo de la propiedad *Definition*.
 
+```powershell
     Get-Command Get-Process | Format-Table Name,Definition -Wrap
     
     Get-Process                             Get-Process [[-Name] <String[]>] [-Comp
@@ -149,6 +160,7 @@ En el segundo ejemplo, se agrega el parámetro *Wrap* al comando para forzar la 
                                             ble <String>] [-WarningVariable <String
                                             >] [-OutVariable <String>] [-OutBuffer
                                             <Int32>]
+```
 
 Al igual que en el caso del cmdlet **Format-List**, también puede especificar un carácter comodín "`*`" con un nombre de propiedad parcial. Al incluir un carácter comodín, puede hacer coincidir varias propiedades sin tener que escribir cada nombre de propiedad individualmente.
 
@@ -158,6 +170,7 @@ El cmdlet **Format-Wide** permite un control de resultados mucho más simple que
 
 Mediante el uso más básico, al llamar al cmdlet **Format-Wide** sin ningún parámetro, el resultado se organiza en una cantidad de columnas que se ajusta a la página. Por ejemplo, si ejecuta el cmdlet **Get-Childitem** y canaliza su resultado al cmdlet **Format-Wide**, verá la siguiente información:
 
+```powershell
     Get-ChildItem | Format-Wide
     
         Directory: FileSystem::C:\WorkingFolder
@@ -176,9 +189,11 @@ Mediante el uso más básico, al llamar al cmdlet **Format-Wide** sin ningún pa
     Text_08.txt                             Text_09.txt
     Text_10.txt                             Text_11.txt
     Text_12.txt
+```
 
 Generalmente, al llamar al cmdlet **Get-Childitem** sin ningún parámetro, se muestran los nombres de todos los archivos del directorio en una tabla de propiedades. En este ejemplo, después de la canalización del resultado del cmdlet **Get-Childitem** al cmdlet **Format-Wide**, el resultado se mostró en dos columnas de nombres. Tenga en cuenta que solamente se puede mostrar un tipo de propiedad a la vez, y este debe estar especificado mediante el nombre de propiedad que sigue al cmdlet **Format-Wide**. Si agrega el parámetro *Autosize*, el resultado cambia de dos columnas a tantas como se ajusten al ancho de la pantalla.
 
+```powershell
     Get-ChildItem | Format-Wide -AutoSize
     
         Directory: FileSystem::C:\WorkingFolder
@@ -189,9 +204,11 @@ Generalmente, al llamar al cmdlet **Get-Childitem** sin ningún parámetro, se m
     Text_01.txt     Text_02.txt     Text_03.txt     Text_04.txt     Text_05.txt
     Text_06.txt     Text_07.txt     Text_08.txt     Text_09.txt     Text_10.txt
     Text_11.txt     Text_12.txt
+```
 
 En este ejemplo, la tabla se organiza en cinco columnas, en lugar de dos. El parámetro *Column* brinda un mayor control al permitir especificar el número máximo de columnas para mostrar la información del siguiente modo:
 
+```powershell
     Get-ChildItem | Format-Wide -Column 4
     
         Directory: FileSystem::C:\WorkingFolder
@@ -203,6 +220,7 @@ En este ejemplo, la tabla se organiza en cinco columnas, en lugar de dos. El par
     Text_02.txt         Text_03.txt         Text_04.txt         Text_05.txt
     Text_06.txt         Text_07.txt         Text_08.txt         Text_09.txt
     Text_10.txt         Text_11.txt         Text_12.txt
+```
 
 En este ejemplo, mediante el parámetro *Column*, el número de columnas no puede ser distinto de cuatro.
 
@@ -212,11 +230,15 @@ En este ejemplo, mediante el parámetro *Column*, el número de columnas no pued
 
 El cmdlet **Out-Host** es un cmdlet predeterminado no visto al final del canal. Después de aplicar todo el formato, el cmdlet **Out-Host** envía el resultado final a la ventana de consola para visualización. No tiene que llamar explícitamente al cmdlet **Out-Host**, dado que es el resultado predeterminado. Puede invalidar el envío del resultado a la ventana de consola llamando al cmdlet **Out-File** como último cmdlet del comando. El cmdlet **Out-File** escribe, a continuación, el resultado en el archivo que especifica en el comando, como se muestra en el ejemplo siguiente:
 
-    Get-ChildItem | Format-Wide -Column 4 | Out-File c:\OutputFile.txt
+```powershell
+Get-ChildItem | Format-Wide -Column 4 | Out-File c:\OutputFile.txt
+```
 
 En este ejemplo, el cmdlet **Out-File** escribe la información que se muestra en el comando **Get-ChildItem | Format-Wide -Column 4** en un archivo denominado `OutputFile.txt`. También puede redirigir el resultado del canal a un archivo mediante el operador de redirección, que es el corchete angular de cierre ( `>` ). Para anexar el resultado del canal de un comando a un archivo existente sin reemplazar el archivo original, use el corchete angular de cierre doble ( `>>` ), como en el ejemplo siguiente:
 
-    Get-ChildItem | Format-Wide -Column 4 >> C:\OutputFile.txt
+```powershell
+Get-ChildItem | Format-Wide -Column 4 >> C:\OutputFile.txt
+```
 
 En este ejemplo, el resultado del cmdlet **Get-Childitem** se canaliza al cmdlet **Format-Wide** para dar formato y, después, se escribe al final del archivo `OutputFile.txt`. Tenga en cuenta que si el archivo `OutputFile.txt` no existe, éste se crearía al usar los corchetes angulares de cierre dobles (`>>`).
 
@@ -230,6 +252,7 @@ Dada la flexibilidad y la facilidad de creación de scripting en el Shell de adm
 
 El ejemplo siguiente muestra cómo se puede usar un script simple para enviar los datos devueltos por un comando y mostrarlos en Internet Explorer. Este script extrae los objetos que pasan por el canal, abre una ventana de Internet Explorer y ,a continuación, muestra los datos en Internet Explorer:
 
+```powershell
     $Ie = New-Object -Com InternetExplorer.Application
     $Ie.Navigate("about:blank")
     While ($Ie.Busy) { Sleep 1 }
@@ -238,6 +261,7 @@ El ejemplo siguiente muestra cómo se puede usar un script simple para enviar lo
     # If the previous line doesn't work on your system, uncomment the line below.
     # $Ie.Document.IHtmlDocument2_Write("$Input")
     $Ie
+```
 
 Para usar este script, guárdelo en el directorio `C:\Program Files\Microsoft\Exchange Server\V15\Scripts` del equipo donde se ejecutará. Nombre al archivo `Out-Ie.ps1`. Después de guardar el archivo, puede usar el script como un cmdlet normal.
 
@@ -249,7 +273,9 @@ Para usar este script, guárdelo en el directorio `C:\Program Files\Microsoft\Ex
 
 El script `Out-Ie` supone que los datos que recibe son código HTML válido. Para convertir los datos que desea ver en código HTML, debe canalizar los resultados del comando al cmdlet **ConvertTo-Html**. A continuación, puede canalizar los resultados de dicho comando al script `Out-Ie`. El siguiente ejemplo muestra cómo visualizar un listado de directorios en una ventana de Internet Explorer:
 
-    Get-ChildItem | Select Name,Length | ConvertTo-Html | Out-Ie
+```powershell
+Get-ChildItem | Select Name,Length | ConvertTo-Html | Out-Ie
+```
 
 ## Cómo filtrar datos
 
@@ -329,12 +355,14 @@ Conforme los datos pasan por el canal, el cmdlet **Where** recibe los datos del 
 
 El cmdlet **Clear-Host** se usa para borrar la ventana de consola. En este ejemplo, puede encontrar todos los alias definidos para el cmdlet **Clear-Host** si ejecuta el siguiente comando:
 
+```powershell
     Get-Alias | Where {$_.Definition -eq "Clear-Host"}
     
     CommandType     Name                            Definition
     -----------     ----                            ----------
     Alias           clear                           clear-host
     Alias           cls                             clear-host
+```
 
 El cmdlet **Get-Alias** y el comando **Where** trabajan conjuntamente para devolver la lista de alias que se han definido solamente para el cmdlet **Clear-Host**. La siguiente tabla describe todos los elementos del comando **Where** que se usan en el ejemplo.
 

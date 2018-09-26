@@ -41,7 +41,9 @@ De manera predeterminada, solo los miembros del grupo de roles Administración d
 
 El siguiente comando se puede usar para ver una lista de usuarios o Grupos de seguridad universal que son miembros de este grupo de funciones.
 
-    Get-RoleGroupMember "Organization Management"
+```powershell
+Get-RoleGroupMember "Organization Management"
+```
 
 Para obtener más información acerca de los miembros de un grupo de funciones, consulte [Administrar grupos de roles](manage-role-groups-exchange-2013-help.md).
 

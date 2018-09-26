@@ -53,11 +53,15 @@ Deberá tener asignados permisos antes de poder llevar a cabo este procedimiento
 
 En este ejemplo, se efectúa un cambio de servidor en el servidor MBX1. El sistema selecciona, de forma automática, el servidor de buzones más adecuado para cada base de datos activa en MBX1.
 
-    Move-ActiveMailboxDatabase -Server MBX1
+```powershell
+Move-ActiveMailboxDatabase -Server MBX1
+```
 
 En este ejemplo, se efectúa un cambio de servidor en el servidor de buzones MBX4. Cuando finaliza el comando, MBX5 hospeda la copia activa de las bases de datos que estaban activas en MBX4.
 
-    Move-ActiveMailboxDatabase -Server MBX4 -ActivateOnServer MBX5
+```powershell
+Move-ActiveMailboxDatabase -Server MBX4 -ActivateOnServer MBX5
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Move-ActiveMailboxDatabase](https://technet.microsoft.com/es-es/library/dd298068\(v=exchg.150\)).
 

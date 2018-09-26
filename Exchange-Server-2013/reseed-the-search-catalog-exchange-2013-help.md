@@ -70,7 +70,9 @@ Use uno de los procedimientos siguientes si la base de datos de buzones de corre
 
 Este ejemplo reinicializa el catálogo del índice de contenido para la DB1 de la copia de la base de datos en el servidor de buzones de correo MBX1 de cualquier servidor de origen del DAG que tenga una copia de la base de datos.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, vea [Update-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd335201\(v=exchg.150\)).
 
@@ -78,7 +80,9 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, vea
 
 En este ejemplo, se reinicializa el catálogo del índice de contenido para la copia de la base de datos DB1 en el servidor de buzones de correo MBX1 desde el servidor de buzones de correo MBX2, el cual también tiene una copia de la base de datos.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1 -SourceServer MBX2 -CatalogOnly
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1 -SourceServer MBX2 -CatalogOnly
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, vea [Update-MailboxDatabaseCopy](https://technet.microsoft.com/es-es/library/dd335201\(v=exchg.150\)).
 
@@ -87,10 +91,12 @@ Para obtener información detallada acerca de la sintaxis y los parámetros, vea
 Si solo hay una copia de la base de datos de buzones de correo, debe reinicializar manualmente el catálogo de búsqueda volviendo a crear el catálogo del índice de contenido.
 
 1.  Ejecute los siguientes comandos para detener los servicios de búsqueda de Microsoft Exchange y de controlador de host de búsqueda de Microsoft Exchange.
-    ```
+
+    ```powershell
         Stop-Service MSExchangeFastSearch
     ```
-    ```
+
+    ```powershell
         Stop-Service HostControllerService
     ```
 
@@ -103,10 +109,12 @@ Si solo hay una copia de la base de datos de buzones de correo, debe reinicializ
 
 
 3.  Ejecute los siguientes comandos para reiniciar los servicios de búsqueda de Microsoft Exchange y de controlador de host de búsqueda de Microsoft Exchange.
-    ```
+
+    ```powershell
         Start-Service MSExchangeFastSearch
     ```
-    ```
+
+    ```powershell
         Start-Service HostControllerService
     ```
     
@@ -116,7 +124,9 @@ Si solo hay una copia de la base de datos de buzones de correo, debe reinicializ
 
 Exchange Search podría tardar un poco en reinicializar el catálogo del índice de contenido. Ejecute el siguiente comando para mostrar el estado del proceso de reinicialización:
 
-    Get-MailboxDatabaseCopyStatus | FL Name,*Index*
+```powershell
+Get-MailboxDatabaseCopyStatus | FL Name,*Index*
+```
 
 Cuando la reinicialización del catálogo de búsqueda está en curso, el valor de la propiedad *ContentIndexState* es **Rastreando**. Cuando la reinicialización finaliza, este valor cambia a **Correcto**.
 

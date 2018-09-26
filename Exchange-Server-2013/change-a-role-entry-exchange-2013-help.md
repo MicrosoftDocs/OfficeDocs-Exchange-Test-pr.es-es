@@ -63,11 +63,15 @@ Para agregar parámetros a una entrada de función, debe especificar los paráme
 
 Para agregar parámetros a una entrada de función, use la siguiente sintaxis.
 
-    Set-ManagementRoleEntry <role name>\<cmdlet> -Parameters <parameter 1>, <parameter 2>, <parameter...> -AddParameter
+```powershell
+Set-ManagementRoleEntry <role name>\<cmdlet> -Parameters <parameter 1>, <parameter 2>, <parameter...> -AddParameter
+```
 
 En este ejemplo, se agregan los parámetros *EmailAddresses* y *Type* al cmdlet **Set-Mailbox** en la función Administradores de destinatarios.
 
-    Set-ManagementRoleEntry "Recipient Administrators\Set-Mailbox" -Parameters EmailAddresses, Type -AddParameter
+```powershell
+Set-ManagementRoleEntry "Recipient Administrators\Set-Mailbox" -Parameters EmailAddresses, Type -AddParameter
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Set-ManagementRoleEntry](https://technet.microsoft.com/es-es/library/dd351162\(v=exchg.150\)).
 
@@ -77,11 +81,15 @@ Para quitar parámetros de una entrada de función, debe especificar los paráme
 
 Para quitar parámetros de una entrada de función, use la siguiente sintaxis.
 
-    Set-ManagementRoleEntry <role name>\<cmdlet> -Parameters <parameter 1>, <parameter 2>, <parameter...> -RemoveParameter
+```powershell
+Set-ManagementRoleEntry <role name>\<cmdlet> -Parameters <parameter 1>, <parameter 2>, <parameter...> -RemoveParameter
+```
 
 En este ejemplo, se quitan los parámetros *Port*, *ProtocolLoggingLevel* y *SmartHostAuthMechanism* del cmdlet **Set-SendConnector** en la función Administrador de servidores de nivel 1.
 
-    Set-ManagementRoleEntry "Tier 1 Server Administrators\Set-SendConnector" -Parameters Port, ProtocolLoggingLevel, SmartHostAuthMechanism -RemoveParameter
+```powershell
+Set-ManagementRoleEntry "Tier 1 Server Administrators\Set-SendConnector" -Parameters Port, ProtocolLoggingLevel, SmartHostAuthMechanism -RemoveParameter
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-ManagementRoleEntry](https://technet.microsoft.com/es-es/library/dd351162\(v=exchg.150\)).
 
@@ -99,11 +107,15 @@ Quitar todos los parámetros de una entrada de función resulta muy útil cuando
 
 Para quitar todos los parámetros de una entrada de función, use la siguiente sintaxis.
 
-    Set-ManagementRoleEntry <role name>\<cmdlet> -Parameters $Null 
+```powershell
+Set-ManagementRoleEntry <role name>\<cmdlet> -Parameters $Null 
+```
 
 En este ejemplo se quitan todos los parámetros del cmdlet **Set-CASMailbox** en el rol de administradores de destinatarios.
 
-    Set-ManagementRoleEntry "Recipient Administrators\Set-CASMailbox" -Parameters $Null 
+```powershell
+Set-ManagementRoleEntry "Recipient Administrators\Set-CASMailbox" -Parameters $Null 
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-ManagementRoleEntry](https://technet.microsoft.com/es-es/library/dd351162\(v=exchg.150\)).
 
@@ -113,11 +125,15 @@ Si desea que se incluya solo un conjunto de parámetros específico en una entra
 
 Para especificar un conjunto de parámetros, use la siguiente sintaxis.
 
-    Set-ManagementRoleEntry <role name>\<cmdlet> -Parameters <parameter 1>, <parameter 2>, <parameter...>
+```powershell
+Set-ManagementRoleEntry <role name>\<cmdlet> -Parameters <parameter 1>, <parameter 2>, <parameter...>
+```
 
 En este ejemplo, se incluyen solo los parámetros *Identity*, *DisplayName*, *MissedCallNotificationEnabled* y *PersonalAuthAttendantEnabled* en el cmdlet **Set-UMMailbox** en la función Grupo de destinatarios de Seattle.
 
-    Set-ManagementRoleEntry "Seattle Mail Recipients\Set-UMMailbox" -Parameters Identity, DisplayName, MissedCallNotificationEnabled, PersonalAutoAttendantEnabled
+```powershell
+Set-ManagementRoleEntry "Seattle Mail Recipients\Set-UMMailbox" -Parameters Identity, DisplayName, MissedCallNotificationEnabled, PersonalAutoAttendantEnabled
+```
 
 Para obtener información detallada acerca de la sintaxis y los parámetros, consulte [Set-ManagementRoleEntry](https://technet.microsoft.com/es-es/library/dd351162\(v=exchg.150\)).
 

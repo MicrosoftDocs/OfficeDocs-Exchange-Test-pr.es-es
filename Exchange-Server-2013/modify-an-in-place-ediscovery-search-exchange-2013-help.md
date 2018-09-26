@@ -78,7 +78,9 @@ Después de crear una búsqueda de Exhibición de documentos electrónicos en co
 
 En este ejemplo se modifica la búsqueda de Exhibición de documentos electrónicos en contexto "Search-Project Contoso" para que se busque en buzones de correo que pertenezcan a los miembros del grupo de distribución "DG-ProjectManagers".
 
-    Set-MailboxSearch -Identity "Search-Project Contoso" -SourceMailboxes "DG-ProjectManagers"
+```powershell
+Set-MailboxSearch -Identity "Search-Project Contoso" -SourceMailboxes "DG-ProjectManagers"
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

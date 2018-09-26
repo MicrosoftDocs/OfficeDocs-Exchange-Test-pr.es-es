@@ -67,7 +67,9 @@ En Exchange 2013, puede usar el parámetro *FrontendProxyEnabled* del cmdlet **
 
 En este ejemplo se establece el parámetro *FrontendProxyEnabled* en `$true` en un conector de envío.
 
-    Set-SendConnector "Contoso.com Send Connector" -FrontendProxyEnabled $true
+```powershell
+Set-SendConnector "Contoso.com Send Connector" -FrontendProxyEnabled $true
+```
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 

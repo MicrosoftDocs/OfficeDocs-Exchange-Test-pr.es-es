@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar direcciones IP y puertos acceso a POP3 e IMAP4: Exchange 2013 Help'
+title: 'Configurar direcciones IP y puertos de acceso a POP3 e IMAP4: Exchange 2013 Help'
 TOCTitle: Configurar direcciones IP y puertos de acceso a POP3 e IMAP4
 ms:assetid: 8292747b-6626-4d7f-ba73-1e17f5d99fa4
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb123530(v=EXCHG.150)
@@ -73,11 +73,15 @@ Una vez definida la configuración de la dirección IP y del puerto para POP3, d
 
 En este ejemplo, se establece la dirección IP y el puerto de comunicación con Exchange mediante POP3 con Capa de sockets seguros (SSL).
 
-    Set-PopSettings -SSLBindings: IPaddress:Port
+```powershell
+Set-PopSettings -SSLBindings: IPaddress:Port
+```
 
 En este ejemplo, se establece la dirección IP y el puerto de comunicación con Exchange mediante POP3 sin cifrado ni cifrado Seguridad de la capa de transporte (TLS).
 
-    Set-PopSettings -UnencryptedOrTLSBindings IPaddress:Port
+```powershell
+Set-PopSettings -UnencryptedOrTLSBindings IPaddress:Port
+```
 
 Una vez definida la configuración de la dirección IP y del puerto para POP3, debe reiniciar el servicio POP3 para que la configuración surta efecto. Para obtener más información acerca de cómo reiniciar el servicio POP3, consulte [Iniciar y detener los servicios POP3](start-and-stop-the-pop3-services-exchange-2013-help.md).
 
@@ -89,8 +93,9 @@ Haga lo siguiente para comprobar que ha cambiado la configuración de la direcci
 
 1.  Ejecute el siguiente comando en el Shell.
     
-        Get-PopSettings | format-list
-
+    ```powershell
+    Get-PopSettings | format-list
+    ```
 2.  Verifique que la configuración de *UnencryptedOrTLSBindings* y *SSLBindings* sea correcta.
 
 ## Configurar direcciones IP y puertos para IMAP4
@@ -123,11 +128,15 @@ Una vez definida la configuración de la dirección IP y del puerto para IMAP4, 
 
 En este ejemplo, se establece la dirección IP y el puerto de comunicación con Exchange mediante IMAP4.
 
-    Set-ImapSettings -SSLBindings: IPaddress:Port
+```powershell
+Set-ImapSettings -SSLBindings: IPaddress:Port
+```
 
 En este ejemplo, se establece la dirección IP y el puerto de comunicación con Exchange mediante IMAP4 sin cifrado ni cifrado TLS.
 
-    Set-ImapSettings -UnencryptedOrTLSBindings IPaddress:Port 
+```powershell
+Set-ImapSettings -UnencryptedOrTLSBindings IPaddress:Port 
+```
 
 Una vez definida la configuración de la dirección IP y del puerto para IMAP4, debe reiniciar el servicio IMAP4 para que la configuración surta efecto. Para obtener más información acerca de cómo reiniciar el servicio IMAP4, consulte [Iniciar y detener los servicios IMAP4](start-and-stop-the-imap4-services-exchange-2013-help.md).
 
@@ -139,8 +148,9 @@ Haga lo siguiente para comprobar que ha cambiado la configuración de la direcci
 
 1.  Ejecute el siguiente comando en el Shell.
     
-        Get-ImapSettings | format-list
-
+    ```powershell
+    Get-ImapSettings | format-list
+    ```
 2.  Verifique que la configuración de *UnencryptedOrTLSBindings* y *SSLBindings* sea correcta.
 
 ## Más información

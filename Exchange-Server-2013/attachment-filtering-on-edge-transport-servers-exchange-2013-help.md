@@ -1,5 +1,5 @@
 ﻿---
-title: 'Filtrado datos adjuntos servidores transporte perimetral: Exchange 2013 Help'
+title: 'Filtrado de datos adjuntos en servidores de transporte perimetral: Exchange 2013 Help'
 TOCTitle: Filtrado de datos adjuntos en servidores de transporte perimetral
 ms:assetid: be39a181-c82e-41f5-8846-085bf1f84164
 ms:mtpsurl: https://technet.microsoft.com/es-es/library/Bb124399(v=EXCHG.150)
@@ -29,7 +29,9 @@ You can use the following types of attachment filtering to control attachments t
     
     To view a complete list of file name extensions and content types that attachment filtering can detect, run the following command on the Edge Transport server:
     
-        Get-AttachmentFilterEntry | Format-List
+      ```powershell
+      Get-AttachmentFilterEntry | Format-List
+      ```
 
 After you define the files to look for, you can configure the action to take on messages that contain these attachments. You can't specify different actions for different types of attachments. You configure one of the following actions for all the messages that match any of the attachment filters:
 

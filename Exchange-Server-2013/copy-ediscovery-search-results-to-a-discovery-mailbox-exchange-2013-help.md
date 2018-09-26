@@ -77,19 +77,24 @@ Después de usar el cmdlet **New-MailboxSearch** para crear una búsqueda de exh
 
 Por ejemplo, para iniciar una búsqueda de exhibición de documentos electrónicos llamada *Fabrikam Investigation* debería ejecutar el siguiente comando para copiar los resultados de la búsqueda en el buzón de correo de detección especificado.
 
-    Start-MailboxSearch "Fabrikam Investigation"
+  ```powershell
+  Start-MailboxSearch "Fabrikam Investigation"
+  ```
 
 Si usó el modificador *EstimateOnly* para obtener un cálculo de los resultados de la búsqueda, debe quitar el modificador antes de poder copiar los resultados de la búsqueda. También debe especificar un buzón de correo de detección en el que copiará los resultados de la búsqueda. Por ejemplo, supongamos que creó una búsqueda solo de cálculo mediante el siguiente comando:
-
+  ```powershell
     New-MailboxSearch "FY13 Q2 Financial Results" -StartDate "04/01/2013" -EndDate "06/30/2013" -SourceMailboxes "DG-Finance" -SearchQuery '"Financial" AND "Fabrikam"' -EstimateOnly -IncludeUnsearchableItems
-
-Para copiar los resultados de esta búsqueda en un buzón de correo de detección, debería ejecutar los siguientes comandos:
   ```
+Para copiar los resultados de esta búsqueda en un buzón de correo de detección, debería ejecutar los siguientes comandos:
+  
+  ```powershell
     Set-MailboxSearch "FY13 Q2 Financial Results" -EstimateOnly $false -TargetMailbox "Discovery Search Mailbox"
   ```
+  
+  ```powershell
+  Start-MailboxSearch "FY13 Q2 Financial Results"
   ```
-    Start-MailboxSearch "FY13 Q2 Financial Results"
-  ```
+  
   
 ## Más información sobre cómo copiar los resultados de la búsqueda
 
