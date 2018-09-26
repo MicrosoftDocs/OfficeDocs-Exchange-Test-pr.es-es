@@ -63,15 +63,21 @@ Al quitar varias entradas de función de una función, los usuarios asignados a 
 
 Para quitar varias entradas de función de una función, debe obtener la lista de entradas de función que quitar mediante el cmdlet **Get-ManagementRoleEntry**. A continuación, debe canalizar la salida al cmdlet **Remove-ManagementRoleEntry**. Puede usar los caracteres comodín con el cmdlet **Get-ManagementRoleEntry** para coincidir con varias entradas de función. Es aconsejable usar el parámetro *WhatIf* para comprobar que esté quitando las entradas de función correctas. Use la siguiente sintaxis.
 
-    Get-ManagementRoleEntry <management role>\<role entry with wildcard character> | Remove-ManagementRoleEntry -WhatIf
+```PowerShell
+Get-ManagementRoleEntry <management role>\<role entry with wildcard character> | Remove-ManagementRoleEntry -WhatIf
+```
 
 En este ejemplo, se quitan todas las entradas de función que contienen el diario de palabras de la función Administradores de servidores de Seattle.
 
-    Get-ManagementRoleEntry "Seattle Server Administrators\*Journal*" | Remove-ManagementRoleEntry -WhatIf
+```PowerShell
+Get-ManagementRoleEntry "Seattle Server Administrators\*Journal*" | Remove-ManagementRoleEntry -WhatIf
+```
 
 Si ejecuta el comando con el parámetro *WhatIf*, el cmdlet genera una lista con todas las entradas de función que se van a borrar. Si la lista es correcta, ejecute el comando de nuevo, está vez sin el parámetro *WhatIf*, para quitar las entradas de función.
 
-    Get-ManagementRoleEntry "Seattle Server Administrators\*Journal*" | Remove-ManagementRoleEntry
+```PowerShell
+Get-ManagementRoleEntry "Seattle Server Administrators\*Journal*" | Remove-ManagementRoleEntry
+```
 
 Para obtener más información acerca de la sintaxis y los parámetros, consulte [Get-ManagementRoleEntry](https://technet.microsoft.com/es-es/library/dd335210\(v=exchg.150\)) y [Remove-ManagementRoleEntry](https://technet.microsoft.com/es-es/library/dd351187\(v=exchg.150\)).
 
@@ -81,11 +87,15 @@ Si quita parámetros de una entrada de función en una función, los usuarios as
 
 Para quitar parámetros de una entrada de función, emplee la sintaxis siguiente.
 
-    Set-ManagementRoleEntry <management role>\<role entry> -Parameters <parameter 1>,<parameter 2...> -RemoveParameter
+```PowerShell
+Set-ManagementRoleEntry <management role>\<role entry> -Parameters <parameter 1>,<parameter 2...> -RemoveParameter
+```
 
 En este ejemplo, se quitan los parámetros *MaxSafeSenders*, *MaxSendSize*, *SecondaryAddress* y *UseDatabaseQuotaDefaults* de la entrada de función **Set-Mailbox** en la función Administradores de servidores de Seattle.
 
-    Set-ManagementRoleEntry "Seattle Server Administrators\Set-Mailbox" -Parameters MaxSafeSenders,MaxSendSize,SecondaryAddress,UseDatabaseQuotaDefaults -RemoveParameter
+```PowerShell
+Set-ManagementRoleEntry "Seattle Server Administrators\Set-Mailbox" -Parameters MaxSafeSenders,MaxSendSize,SecondaryAddress,UseDatabaseQuotaDefaults -RemoveParameter
+```
 
 Para obtener información más detallada acerca de la sintaxis y los parámetros, consulte [Set-ManagementRoleEntry](https://technet.microsoft.com/es-es/library/dd351162\(v=exchg.150\)).
 

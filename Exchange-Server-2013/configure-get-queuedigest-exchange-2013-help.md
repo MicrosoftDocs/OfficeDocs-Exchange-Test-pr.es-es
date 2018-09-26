@@ -72,11 +72,11 @@ De manera predeterminada, las colas de entrega que tienen el estado Activo, Cone
     <add key="QueueLoggingInterval" value="<hh:mm:ss>" />
     ```
     
-Por ejemplo, para configurar el valor **QueueLoggingThreshold** como 1 y el valor **QueueLoggingInterval** como 30 segundos, use los siguientes valores:
+    Por ejemplo, para configurar el valor **QueueLoggingThreshold** como 1 y el valor **QueueLoggingInterval** como 30 segundos, use los siguientes valores:
     
     ```powershell
-    <add key="QueueLoggingThreshold" value="1" />
-    <add key="QueueLoggingInterval" value="00:00:30" />
+     <add key="QueueLoggingThreshold" value="1" />
+     <add key="QueueLoggingInterval" value="00:00:30" />
     ```
 
 3.  Cuando haya terminado, guarde y cierre el archivo EdgeTransport.exe.config.

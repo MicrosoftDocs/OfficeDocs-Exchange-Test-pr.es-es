@@ -36,13 +36,17 @@ Un *buzón desconectado* es un objeto de buzón de la base de datos de buzones d
     
     Para identificar los buzones deshabilitados en su organización, ejecute el siguiente comando en el Shell.
     
+    ```PowerShell
         Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "Disabled" } | ft DisplayName,Database,DisconnectDate
+    ```    
 
   - **Buzones de correo eliminados temporalmente**   Cuando un buzón de correo se mueve a una base de datos de buzones de correo diferente, Exchange no lo elimina totalmente de la base de datos de buzones de correo de origen cuando el movimiento finaliza. En lugar de hacer eso, el buzón de la base de datos de buzones de correo de origen cambia a un estado de *eliminación temporal*. Al igual que los buzones deshabilitados, los buzones eliminados temporalmente se conservan en la base de datos de origen hasta que expira el período de retención del buzón de correo o hasta que se usa el cmdlet **Remove-StoreMailbox** para purgar el buzón.
     
     Ejecute el siguiente comando para identificar todos los buzones de correo eliminados temporalmente en su organización.
-    
+
+    ```PowerShell
         Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "SoftDeleted" } | ft DisplayName,Database,DisconnectDate
+    ```    
 
 **Contenido**
 
