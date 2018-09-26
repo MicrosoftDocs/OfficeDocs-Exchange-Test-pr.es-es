@@ -178,7 +178,9 @@ Las opciones de configuración que están disponibles cuando se modifica una ent
 
 Para modificar una entrada de reconfiguración de direcciones que reconfigura la dirección de correo electrónico de un único destinatario, use la sintaxis siguiente:
 
-    Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -Name "<Descriptive Name>" -InternalAddress <internal email address> -ExternalAddress <external email address> -OutboundOnly <$true | $false>
+```PowerShell
+Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -Name "<Descriptive Name>" -InternalAddress <internal email address> -ExternalAddress <external email address> -OutboundOnly <$true | $false>
+```
 
 Este ejemplo modifica las siguientes propiedades de la entrada de reconfiguración de direcciones de destinatario único llamada "joe@contoso.com to support@nortwindtraders.com":
 
@@ -190,39 +192,55 @@ Este ejemplo modifica las siguientes propiedades de la entrada de reconfiguraci�
 
 <!-- end list -->
 
-    Set-AddressRewriteEntry "joe@contoso.com to support@nortwindtraders.com" -Name "joe@contoso.com to support@northwindtraders.net" -ExternalAddress support@northwindtraders.net -OutboundOnly $true
+```PowerShell
+Set-AddressRewriteEntry "joe@contoso.com to support@nortwindtraders.com" -Name "joe@contoso.com to support@northwindtraders.net" -ExternalAddress support@northwindtraders.net -OutboundOnly $true
+```
 
 ## Modificar las entradas de reconfiguración de direcciones para destinatarios en dominios o subdominios únicos
 
 Para modificar una entrada de reconfiguración de direcciones que reconfigura las direcciones de correo electrónico de los destinatarios en un dominio o subdominio único, use la sintaxis siguiente.
 
-    Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -Name "<Descriptive Name>" -InternalAddress <domain or subdomain> -ExternalAddress <domain> -OutboundOnly <$true | $false>
+```PowerShell
+Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -Name "<Descriptive Name>" -InternalAddress <domain or subdomain> -ExternalAddress <domain> -OutboundOnly <$true | $false>
+```
 
 El ejemplo siguiente cambia el valor de la dirección interna de la entrada de reconfiguración de direcciones de dominio único llamada "Northwind Traders to Contoso".
 
-    Set-AddressRewriteEntry "Northwindtraders to Contoso" -InternalAddress northwindtraders.net
+```PowerShell
+Set-AddressRewriteEntry "Northwindtraders to Contoso" -InternalAddress northwindtraders.net
+```
 
 ## Modificar entradas de reconfiguración de direcciones para destinatarios en varios subdominios
 
 Para modificar una entrada de reconfiguración de direcciones que reconfigura la dirección de correo electrónico de destinatarios en un dominio y todos los subdominios, use la sintaxis siguiente.
 
-    Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -Name "<Descriptive Name>" -InternalAddress *.<domain> -ExternalAddress <domain> -ExceptionList <list of domains>
+```PowerShell
+Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -Name "<Descriptive Name>" -InternalAddress *.<domain> -ExternalAddress <domain> -ExceptionList <list of domains>
+```
 
 Para reemplazar los valores de la lista de excepciones existente de una entrada de reconfiguración de direcciones de varios subdominios, use la siguiente sintaxis:
 
-    Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -ExceptionList <domain1,domain2,...>
+```PowerShell
+Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -ExceptionList <domain1,domain2,...>
+```
 
 El ejemplo siguiente reemplaza la lista de excepciones existente para la entrada de reconfiguración de direcciones de varios subdominios llamada Contoso to Northwind Traders por los valores marketing.contoso.com y legal.contoso.com:
 
-    Set-AddressRewriteEntry "Contoso to Northwind Traders" -ExceptionList sales.contoso.com,legal.contoso.com
+```PowerShell
+Set-AddressRewriteEntry "Contoso to Northwind Traders" -ExceptionList sales.contoso.com,legal.contoso.com
+```
 
 Para agregar o quitar selectivamente valores de lista de excepciones de una entrada de reconfiguración de direcciones de varios subdominios sin modificar los valores de la lista de excepciones existente, use la siguiente sintaxis:
 
-    Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -ExceptionList @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
+```PowerShell
+Set-AddressRewriteEntry <AddressRewriteEntryIdentity> -ExceptionList @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
+```
 
 El ejemplo siguiente agrega finanace.contoso.com y quita marketing.contoso.com de la lista de excepciones de la entrada de reconfiguración de direcciones de varios subdominios llamada Contoso to Northwind Traders:
 
-    Set-AddressRewriteEntry "Contoso to Northwind Traders" -ExceptionList @{Add="finanace.contoso.com"; Remove="marketing.contoso.com"}
+```PowerShell
+Set-AddressRewriteEntry "Contoso to Northwind Traders" -ExceptionList @{Add="finanace.contoso.com"; Remove="marketing.contoso.com"}
+```            
 
 ## ¿Cómo saber si el proceso se ha completado correctamente?
 
@@ -238,11 +256,15 @@ Para comprobar que ha modificado correctamente una entrada de reconfiguración d
 
 Para quitar una única entrada de reconfiguración de direcciones, use la siguiente sintaxis:
 
-    Remove-AddressRewriteEntry <AddressRewriteEntryIdentity>
+```PowerShell
+Remove-AddressRewriteEntry <AddressRewriteEntryIdentity>
+```
 
 El ejemplo siguiente quita la entrada de reconfiguración de direcciones llamada "Contoso.com to Northwindtraders.com":
 
-    Remove-AddressRewriteEntry "Contoso.com to Northwindtraders.com"
+```PowerShell
+Remove-AddressRewriteEntry "Contoso.com to Northwindtraders.com"
+```
 
 Para quitar varias entradas de reconfiguración de direcciones, use la siguiente sintaxis:
 
