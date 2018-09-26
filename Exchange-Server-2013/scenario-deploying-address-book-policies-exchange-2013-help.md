@@ -289,21 +289,29 @@ Al crear una ABP, deberá crear varias listas de direcciones en función de cóm
 
 Este ejemplo crea la lista de dirección LD\_TAIL\_Usuarios\_DG. La lista de direcciones incluye todos los usuarios y grupos de distribución en los que el valor de CustomAttribute15 equivale a TAIL.
 
-    New-AddressList -Name "AL_TAIL_Users_DGs" -RecipientFilter {((RecipientType -eq 'UserMailbox') -or (RecipientType -eq "MailUniversalDistributionGroup") -or (RecipientType -eq "DynamicDistributionGroup")) -and (CustomAttribute15 -eq "TAIL")}
+```PowerShell
+New-AddressList -Name "AL_TAIL_Users_DGs" -RecipientFilter {((RecipientType -eq 'UserMailbox') -or (RecipientType -eq "MailUniversalDistributionGroup") -or (RecipientType -eq "DynamicDistributionGroup")) -and (CustomAttribute15 -eq "TAIL")}
+```
 
 Para obtener más información sobre la creación de listas de direcciones con filtros de destinatarios, vea [Crear una lista de direcciones mediante filtros de destinatario](https://technet.microsoft.com/es-es/library/bb123718(v=exchg.150)).
 
 Para crear una ABP se necesita una lista de direcciones de salas. Si su organización no tiene buzones de recursos (tales como buzones de sala o de equipamiento), se recomienda crear una lista de direcciones de salas vacía. En el siguiente ejemplo se crea una lista de direcciones de salas vacía porque no hay buzones de sala en la organización.
 
-    New-AddressList -Name AL_BlankRoom -RecipientFilter {(Alias -ne $null) -and ((RecipientDisplayType -eq 'ConferenceRoomMailbox') -or (RecipientDisplayType -eq 'SyncedConferenceRoomMailbox'))}
+```PowerShell
+New-AddressList -Name AL_BlankRoom -RecipientFilter {(Alias -ne $null) -and ((RecipientDisplayType -eq 'ConferenceRoomMailbox') -or (RecipientDisplayType -eq 'SyncedConferenceRoomMailbox'))}
+```
 
 Sin embargo, en este escenario, Fabrikam y Contoso tienen buzones de sala. En este ejemplo se crea una lista de salas para Fabrikam mediante un filtro de destinatarios donde CustomAttribute15 equivale a FAB.
 
-    New-AddressList -Name AL_FAB_Room -RecipientFilter {(Alias -ne $null) -and (CustomAttribute15 -eq "FAB")-and (RecipientDisplayType -eq 'ConferenceRoomMailbox') -or (RecipientDisplayType -eq 'SyncedConferenceRoomMailbox')}
+```PowerShell
+New-AddressList -Name AL_FAB_Room -RecipientFilter {(Alias -ne $null) -and (CustomAttribute15 -eq "FAB")-and (RecipientDisplayType -eq 'ConferenceRoomMailbox') -or (RecipientDisplayType -eq 'SyncedConferenceRoomMailbox')}
+```
 
 La lista global de direcciones que se usa en una ABP debe ser un superconjunto de las listas de direcciones. No cree una LGD con menos objetos de los que existen en una o en todas las listas de direcciones en la ABP. En este ejemplo se crea la lista global de direcciones para Tailspin Toys que incluye todos los destinatarios que existen en las listas de direcciones y en la lista de direcciones de salas.
 
-    New-GlobalAddressList -Name "GAL_TAIL" -RecipientFilter {(CustomAttribute15 -eq "TAIL")}
+```PowerShell
+New-GlobalAddressList -Name "GAL_TAIL" -RecipientFilter {(CustomAttribute15 -eq "TAIL")}
+```
 
 Para obtener más información, consulte [Crear una lista global de direcciones](https://technet.microsoft.com/es-es/library/bb232063(v=exchg.150)).
 
@@ -311,7 +319,9 @@ Cuando se crea una OAB, debe incluir la LGD adecuada al proporcionar el parámet
 
 En este ejemplo se crea la OAB para Fabrikam llamada OAB\_FAB.
 
-    New-OfflineAddressBook -Name "OAB_FAB" -AddressLists "GAL_FAB"
+```PowerShell
+New-OfflineAddressBook -Name "OAB_FAB" -AddressLists "GAL_FAB"
+```
 
 Para obtener más información, consulte [Crear una libreta de direcciones sin conexión](https://technet.microsoft.com/es-es/library/bb124339(v=exchg.150)).
 
@@ -319,7 +329,9 @@ Para obtener más información, consulte [Crear una libreta de direcciones sin c
 
 Después de crear todos los objetos necesarios, entonces podrá crear la ABP. En este ejemplo se crea la ABP llamada ABP\_TAIL.
 
-    New-AddressBookPolicy -Name "ABP_TAIL" -AddressLists "AL_TAIL_Users_DGs"," AL_TAIL_Contacts" -OfflineAddressBook "\OAB_TAIL" -GlobalAddressList "\GAL_TAIL" -RoomList "\AL_TAIL_Rooms"
+```PowerShell
+New-AddressBookPolicy -Name "ABP_TAIL" -AddressLists "AL_TAIL_Users_DGs"," AL_TAIL_Contacts" -OfflineAddressBook "\OAB_TAIL" -GlobalAddressList "\GAL_TAIL" -RoomList "\AL_TAIL_Rooms"
+```
 
 Para obtener más información, consulte [Crear una directiva de libreta de direcciones](https://technet.microsoft.com/es-es/library/hh529931(v=exchg.150)).
 
@@ -329,7 +341,9 @@ El último paso del proceso es asignar la ABP al usuario. Las ABP se aplican cua
 
 En este ejemplo se asigna ABP\_FAB a todos los buzones donde CustomAttribute15 equivale a "FAB".
 
-    Get-Mailbox -resultsize unlimited | where {$_.CustomAttribute15 -eq "TAIL"} | Set-Mailbox -AddressBookPolicy "ABP_TAIL"
+```PowerShell
+Get-Mailbox -resultsize unlimited | where {$_.CustomAttribute15 -eq "TAIL"} | Set-Mailbox -AddressBookPolicy "ABP_TAIL"
+```
 
 Para obtener más información, consulte [Asignar una directiva de libreta de direcciones a usuarios de correo](https://technet.microsoft.com/es-es/library/hh529942(v=exchg.150)).
 
